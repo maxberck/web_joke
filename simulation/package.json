@@ -1,0 +1,11 @@
+{
+  "name": "@final-form/simulation",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run": "node runSimulation.mjs",
+    "build-rarity": "node buildRarityDistribution.mjs",
+    "build-baselines": "node buildMatchBaselines.mjs"
+  }
+}
