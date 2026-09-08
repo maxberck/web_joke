@@ -1,25 +1,30 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import type { Answer, FinalForm, Question } from "@final-form/shared-types";
 import { selectQuestions, selectAnswers } from "../engine/selection/index.js";
 import { computeFinalForm } from "../engine/computeFinalForm.js";
+import { createFormId } from "../engine/game/formId.js";
+import { createSeed, mulberry32 } from "../engine/game/random.js";
 import { contentPack, matchBaselines } from "../data/index.js";
+import rarityDistributionRaw from "../data/rarityDistribution.json" with { type: "json" };
 
 export interface QuizRound {
   question: Question;
   answers: Answer[];
 }
 
-const QUESTIONS_PER_GAME = 20; // pool actuel = 30 questions -> vraie sélection aléatoire (20 parmi 30)
+const QUESTIONS_PER_GAME = 20;
 const ANSWERS_SHOWN = 3;
 
 export type QuizPhase = "landing" | "playing" | "calculating" | "result";
 
 export function useQuizEngine() {
   const [phase, setPhase] = useState<QuizPhase>("landing");
-  const [rounds] = useState<QuizRound[]>(() => buildRounds());
+  const [seed, setSeed] = useState(() => createSeed());
+  const [rounds, setRounds] = useState<QuizRound[]>(() => buildRounds(seed));
   const [roundIndex, setRoundIndex] = useState(0);
   const [chosenEffects, setChosenEffects] = useState<Answer["effects"][]>([]);
   const [result, setResult] = useState<FinalForm | null>(null);
+  const answerLocked = useRef(false);
 
   const currentRound = rounds[roundIndex];
 
@@ -28,19 +33,32 @@ export function useQuizEngine() {
   }
 
   function chooseAnswer(answer: Answer) {
+    if (answerLocked.current || phase !== "playing") return;
+    answerLocked.current = true;
+
     const nextEffects = [...chosenEffects, answer.effects];
     setChosenEffects(nextEffects);
 
     if (roundIndex + 1 < rounds.length) {
-      setRoundIndex(roundIndex + 1);
+      setRoundIndex((current) => current + 1);
+      queueMicrotask(() => {
+        answerLocked.current = false;
+      });
       return;
     }
 
-    // Dernière question répondue : le calcul est déjà prêt, mais on n'affiche le résultat
-    // qu'une fois que l'écran d'analyse (suspense, section 29) a fini son animation.
-    // C'est `finishCalculating` (appelé par AnalyzingScreen.onDone) qui déclenche l'affichage.
     setPhase("calculating");
-    const finalForm = computeFinalForm({ chosenAnswerEffects: nextEffects, content: contentPack, matchBaselines });
+    const resultSeed = seed >>> 0;
+    const rng = mulberry32(resultSeed);
+    const finalForm = computeFinalForm({
+      chosenAnswerEffects: nextEffects,
+      content: contentPack,
+      matchBaselines,
+      rarityTable: rarityDistributionRaw,
+      rng,
+    });
+    finalForm.runSeed = resultSeed;
+    finalForm.formId = createFormId(resultSeed, nextEffects);
     setResult(finalForm);
   }
 
@@ -49,10 +67,14 @@ export function useQuizEngine() {
   }
 
   function reset() {
+    const nextSeed = createSeed();
+    setSeed(nextSeed);
+    setRounds(buildRounds(nextSeed));
     setPhase("landing");
     setRoundIndex(0);
     setChosenEffects([]);
     setResult(null);
+    answerLocked.current = false;
   }
 
   return {
@@ -68,13 +90,15 @@ export function useQuizEngine() {
   };
 }
 
-function buildRounds(): QuizRound[] {
+function buildRounds(seed: number): QuizRound[] {
+  const rng = mulberry32(seed);
   const questions = selectQuestions(contentPack.questions, {
-    count: Math.min(QUESTIONS_PER_GAME, contentPack.questions.length),
+    count: QUESTIONS_PER_GAME,
+    rng,
   });
 
   return questions.map((question) => ({
     question,
-    answers: selectAnswers(question.answers, { count: ANSWERS_SHOWN }),
+    answers: selectAnswers(question.answers, { count: ANSWERS_SHOWN, rng }),
   }));
 }
