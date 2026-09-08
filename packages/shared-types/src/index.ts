@@ -14,11 +14,17 @@ export type LocalizedText = Record<Locale, string>;
 export interface Answer { id: string; text: LocalizedText; effects: StatEffects; selectionWeight?: number; }
 export interface Question { id: string; category: string; selectionWeight?: number; text: LocalizedText; answers: Answer[]; }
 export interface ProfileEntity { id: string; name: LocalizedText; description?: LocalizedText; idealProfile: IdealProfile; worthPotential?: { min: number; max: number }; tags?: string[]; }
+export type Career = ProfileEntity & { worthPotential: { min: number; max: number } };
+export type Animal = ProfileEntity;
+export type Class = ProfileEntity;
+export type Power = ProfileEntity;
+export type Ability = ProfileEntity;
+export type WorkStyle = ProfileEntity;
 export interface WeaknessEntry extends Omit<ProfileEntity, "idealProfile"> { lowProfile: IdealProfile; }
 export interface Alignment extends Omit<ProfileEntity, "idealProfile"> { lawfulChaotic: [number, number]; selflessSelfInterested: [number, number]; }
 export interface SynergyCondition { stat: StatKey; op: ">" | ">=" | "<" | "<=" | "=="; value: number; }
 export interface SynergyRule { id: string; conditions: SynergyCondition[]; weight: number; rarityScore: number; tags: string[]; }
-export interface ContentPack { questions: Question[]; careers: ProfileEntity[]; animals: ProfileEntity[]; classes: ProfileEntity[]; powers: ProfileEntity[]; weaknesses: WeaknessEntry[]; abilities: ProfileEntity[]; workStyles: ProfileEntity[]; alignments: Alignment[]; synergyRules: SynergyRule[]; }
+export interface ContentPack { questions: Question[]; careers: Career[]; animals: Animal[]; classes: Class[]; powers: Power[]; weaknesses: WeaknessEntry[]; abilities: Ability[]; workStyles: WorkStyle[]; alignments: Alignment[]; synergyRules: SynergyRule[]; }
 export interface MatchBaseline { mean: number; std: number; }
 export type MatchBaselineSet = Record<string, MatchBaseline>;
 export interface MatchBaselines { careers: MatchBaselineSet; classes: MatchBaselineSet; powers: MatchBaselineSet; weaknesses: MatchBaselineSet; abilities: MatchBaselineSet; workStyles: MatchBaselineSet; animals: MatchBaselineSet; }

@@ -21,59 +21,62 @@ import {
 } from "./result/index.ts";
 
 export interface ComputeFinalFormOptions {
-  /** Réponses choisies par l'utilisateur, dans l'ordre des questions posées. */
   chosenAnswerEffects: StatEffects[];
   content: ContentPack;
-  rarityTable?: RarityBucket[];
-  /**
-   * Baselines de matching normalisé (moyenne/écart-type de distance par entrée),
-   * générées par simulation/buildMatchBaselines.ts. Sans elles, le moteur retombe
-   * sur un matching par distance brute (biaisé envers les profils "faciles" — voir
-   * profileMatch.ts pour le détail du problème que ça corrige).
-   */
-  matchBaselines?: MatchBaselines;
+  rarityTable: RarityBucket[];
+  matchBaselines: MatchBaselines;
   rng?: () => number;
 }
 
-/**
- * Fait tourner toute la chaîne décrite section 21 :
- * réponses -> stats -> dérivées -> synergies -> Career/Class/Power/... -> Final Form.
- * C'est la SEULE fonction que l'UI (ou le simulateur) a besoin d'appeler.
- */
+function assertFiniteResult(name: string, value: number): void {
+  if (!Number.isFinite(value)) throw new Error(`FinalForm: ${name} doit être fini`);
+}
+
+function assertPercent(name: string, value: number): void {
+  assertFiniteResult(name, value);
+  if (value < 0 || value > 100) throw new Error(`FinalForm: ${name} doit rester dans 0..100`);
+}
+
+/** Fait tourner toute la chaîne réponses -> stats -> résultats du quiz. */
 export function computeFinalForm(options: ComputeFinalFormOptions): FinalForm {
   const { chosenAnswerEffects, content, rarityTable, matchBaselines, rng = Math.random } = options;
 
-  // 1. Stats de base : on part du neutre et on applique chaque effet dans l'ordre.
   const coreStats = chosenAnswerEffects.reduce<Stats>(
     (stats, effects) => applyAnswerEffects(stats, effects),
-    createNeutralStats()
+    createNeutralStats(),
   );
+  for (const [key, value] of Object.entries(coreStats)) assertPercent(key, value);
 
-  // 2. Stats dérivées.
   const derivedStats = computeDerivedStats(coreStats);
+  for (const [key, value] of Object.entries(derivedStats)) assertPercent(`derived.${key}`, value);
 
-  // 3. Synergies + score de rareté continu (voir computeExtremityScore.ts : corrige
-  //    la stagnation du score de rareté sur un seul palier).
   const matchedRules = evaluateRules(coreStats, content.synergyRules);
   const synergyOutcome = aggregateMatches(matchedRules);
   const extremityScore = computeExtremityScore(coreStats);
   const totalRarityScore = synergyOutcome.totalRarityScore + extremityScore;
+  assertFiniteResult("totalRarityScore", totalRarityScore);
 
-  // 4. Résultats individuels, tous dérivés du même profil + des synergies.
-  //    Matching normalisé par score-z quand des baselines sont fournies (voir plus haut).
-  const career = computeCareer(coreStats, content.careers, matchBaselines?.careers);
-  const classProfile = computeClass(coreStats, content.classes, matchBaselines?.classes);
-  const power = computePower(coreStats, content.powers, matchBaselines?.powers);
-  const weakness = computeWeakness(coreStats, content.weaknesses, matchBaselines?.weaknesses);
-  const ability = computeAbility(coreStats, content.abilities, matchBaselines?.abilities);
-  const workStyle = computeWorkStyle(coreStats, content.workStyles, matchBaselines?.workStyles);
-  const animal = computeAnimal(coreStats, content.animals, matchBaselines?.animals);
+  const career = computeCareer(coreStats, content.careers, matchBaselines.careers);
+  const classProfile = computeClass(coreStats, content.classes, matchBaselines.classes);
+  const power = computePower(coreStats, content.powers, matchBaselines.powers);
+  const weakness = computeWeakness(coreStats, content.weaknesses, matchBaselines.weaknesses);
+  const ability = computeAbility(coreStats, content.abilities, matchBaselines.abilities);
+  const workStyle = computeWorkStyle(coreStats, content.workStyles, matchBaselines.workStyles);
+  const animal = computeAnimal(coreStats, content.animals, matchBaselines.animals);
   const alignment = computeAlignment(coreStats, content.alignments);
   const auraPercent = computeAuraPercent(coreStats);
   const threatLevel = computeThreatLevel(coreStats);
   const lifeExpectancyYears = computeLifeExpectancy(coreStats);
   const worth = computeWorth(coreStats, derivedStats, career, { rng });
   const rarity = computeRarity(totalRarityScore, { table: rarityTable });
+
+  assertPercent("auraPercent", auraPercent);
+  assertFiniteResult("threatLevel", threatLevel);
+  if (threatLevel < 0 || threatLevel > 10) throw new Error("FinalForm: threatLevel doit rester dans 0..10");
+  assertFiniteResult("lifeExpectancyYears", lifeExpectancyYears);
+  assertFiniteResult("worth", worth);
+  assertFiniteResult("rarity.score", rarity.score);
+  if (!Number.isFinite(rarity.oneInX) || rarity.oneInX < 1) throw new Error("FinalForm: rareté invalide");
 
   return {
     coreStats,
