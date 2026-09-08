@@ -25,42 +25,26 @@ export interface ComputeFinalFormOptions {
   chosenAnswerEffects: StatEffects[];
   content: ContentPack;
   rarityTable?: RarityBucket[];
-  /**
-   * Baselines de matching normalisé (moyenne/écart-type de distance par entrée),
-   * générées par simulation/buildMatchBaselines.ts. Sans elles, le moteur retombe
-   * sur un matching par distance brute (biaisé envers les profils "faciles" — voir
-   * profileMatch.ts pour le détail du problème que ça corrige).
-   */
   matchBaselines?: MatchBaselines;
   rng?: () => number;
 }
 
 /**
- * Fait tourner toute la chaîne décrite section 21 :
- * réponses -> stats -> dérivées -> synergies -> Career/Class/Power/... -> Final Form.
- * C'est la SEULE fonction que l'UI (ou le simulateur) a besoin d'appeler.
+ * Pipeline unique : réponses → stats → dérivées → synergies → résultats.
+ * Le scoring agrège toutes les réponses avant de borner les stats, ce qui rend
+ * le résultat indépendant de l'ordre d'application des réponses.
  */
 export function computeFinalForm(options: ComputeFinalFormOptions): FinalForm {
   const { chosenAnswerEffects, content, rarityTable, matchBaselines, rng = Math.random } = options;
 
-  // 1. Stats de base : on part du neutre et on applique chaque effet dans l'ordre.
-  const coreStats = chosenAnswerEffects.reduce<Stats>(
-    (stats, effects) => applyAnswerEffects(stats, effects),
-    createNeutralStats()
-  );
-
-  // 2. Stats dérivées.
+  const coreStats: Stats = applyAnswerEffects(createNeutralStats(), chosenAnswerEffects);
   const derivedStats = computeDerivedStats(coreStats);
 
-  // 3. Synergies + score de rareté continu (voir computeExtremityScore.ts : corrige
-  //    la stagnation du score de rareté sur un seul palier).
   const matchedRules = evaluateRules(coreStats, content.synergyRules);
   const synergyOutcome = aggregateMatches(matchedRules);
   const extremityScore = computeExtremityScore(coreStats);
-  const totalRarityScore = synergyOutcome.totalRarityScore + extremityScore;
+  const totalRarityScore = Math.max(0, synergyOutcome.totalRarityScore + extremityScore);
 
-  // 4. Résultats individuels, tous dérivés du même profil + des synergies.
-  //    Matching normalisé par score-z quand des baselines sont fournies (voir plus haut).
   const career = computeCareer(coreStats, content.careers, matchBaselines?.careers);
   const classProfile = computeClass(coreStats, content.classes, matchBaselines?.classes);
   const power = computePower(coreStats, content.powers, matchBaselines?.powers);
@@ -69,9 +53,9 @@ export function computeFinalForm(options: ComputeFinalFormOptions): FinalForm {
   const workStyle = computeWorkStyle(coreStats, content.workStyles, matchBaselines?.workStyles);
   const animal = computeAnimal(coreStats, content.animals, matchBaselines?.animals);
   const alignment = computeAlignment(coreStats, content.alignments);
-  const auraPercent = computeAuraPercent(coreStats);
-  const threatLevel = computeThreatLevel(coreStats);
-  const lifeExpectancyYears = computeLifeExpectancy(coreStats);
+  const auraPercent = Math.max(0, Math.min(100, computeAuraPercent(coreStats)));
+  const threatLevel = Math.max(0, Math.min(10, computeThreatLevel(coreStats)));
+  const lifeExpectancyYears = Math.max(0, computeLifeExpectancy(coreStats));
   const worth = computeWorth(coreStats, derivedStats, career, { rng });
   const rarity = computeRarity(totalRarityScore, { table: rarityTable });
 
