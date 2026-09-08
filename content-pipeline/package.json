@@ -1,0 +1,11 @@
+{
+  "name": "@final-form/content-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validateContent.mjs",
+    "seed": "node scripts/seed.mjs",
+    "export": "node scripts/export.mjs"
+  }
+}
