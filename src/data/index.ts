@@ -1,4 +1,4 @@
-import { STAT_KEYS, type ContentPack, type MatchBaselines, type StatKey } from "@final-form/shared-types";
+import { STAT_KEYS, type ContentPack, type MatchBaselines, type MatchBaselineSet, type StatKey } from "@final-form/shared-types";
 import questionsRaw from "./questions.json" with { type: "json" };
 import careersRaw from "./careers.json" with { type: "json" };
 import animalsRaw from "./animals.json" with { type: "json" };
@@ -12,10 +12,7 @@ import synergyRulesRaw from "./synergyRules.json" with { type: "json" };
 import matchBaselinesRaw from "./matchBaselines.json" with { type: "json" };
 import rarityDistributionRaw from "./rarityDistribution.json" with { type: "json" };
 
-export interface RarityBucket {
-  minScore: number;
-  oneInX: number;
-}
+export interface RarityBucket { minScore: number; oneInX: number; }
 
 export const contentPack: ContentPack = {
   questions: questionsRaw as ContentPack["questions"],
@@ -34,20 +31,21 @@ export const matchBaselines: MatchBaselines = matchBaselinesRaw as MatchBaseline
 export const rarityDistribution: RarityBucket[] = rarityDistributionRaw as RarityBucket[];
 
 function assertKnownStatKey(key: string, context: string): asserts key is StatKey {
-  if (!STAT_KEYS.includes(key as StatKey)) {
-    throw new Error(`${context}: statistique inconnue « ${key} »`);
-  }
+  if (!STAT_KEYS.includes(key as StatKey)) throw new Error(`${context}: statistique inconnue « ${key} »`);
 }
 
 function assertFiniteRange(value: number, context: string): void {
-  if (!Number.isFinite(value) || value < 0 || value > 100) {
-    throw new Error(`${context}: valeur attendue dans 0..100`);
-  }
+  if (!Number.isFinite(value) || value < 0 || value > 100) throw new Error(`${context}: valeur attendue dans 0..100`);
+}
+
+function assertAlignmentRange(value: number, context: string): void {
+  if (!Number.isFinite(value) || value < -100 || value > 100) throw new Error(`${context}: valeur attendue dans -100..100`);
 }
 
 function validateProfile(profile: Partial<Record<string, number>>, context: string): void {
   for (const [key, value] of Object.entries(profile)) {
     assertKnownStatKey(key, context);
+    if (typeof value !== "number") throw new Error(`${context}.${key}: valeur numérique attendue`);
     assertFiniteRange(value, `${context}.${key}`);
   }
 }
@@ -80,7 +78,7 @@ export function assertContentPackIsValid(pack: ContentPack): void {
     for (const answer of question.answers) {
       for (const [key, value] of Object.entries(answer.effects)) {
         assertKnownStatKey(key, `Réponse ${answer.id}`);
-        if (!Number.isFinite(value)) throw new Error(`Réponse ${answer.id}: effet ${key} non fini`);
+        if (typeof value !== "number" || !Number.isFinite(value)) throw new Error(`Réponse ${answer.id}: effet ${key} non fini`);
       }
     }
   }
@@ -97,11 +95,9 @@ export function assertContentPackIsValid(pack: ContentPack): void {
 
   if (pack.alignments.length === 0) throw new Error("ContentPack: aucune alignment");
   for (const alignment of pack.alignments) {
-    if (alignment.lawfulChaotic.length !== 2 || alignment.selflessSelfInterested.length !== 2) {
-      throw new Error(`Alignment ${alignment.id}: axes invalides`);
-    }
+    if (alignment.lawfulChaotic.length !== 2 || alignment.selflessSelfInterested.length !== 2) throw new Error(`Alignment ${alignment.id}: axes invalides`);
     for (const value of [...alignment.lawfulChaotic, ...alignment.selflessSelfInterested]) {
-      assertFiniteRange(value, `Alignment ${alignment.id}`);
+      assertAlignmentRange(value, `Alignment ${alignment.id}`);
     }
   }
 
@@ -115,11 +111,9 @@ export function assertContentPackIsValid(pack: ContentPack): void {
 }
 
 export function assertMatchBaselinesAreValid(baselines: MatchBaselines): void {
-  for (const [group, entries] of Object.entries(baselines)) {
+  for (const [group, entries] of Object.entries(baselines) as [keyof MatchBaselines, MatchBaselineSet][]) {
     for (const [id, baseline] of Object.entries(entries)) {
-      if (!Number.isFinite(baseline.mean) || !Number.isFinite(baseline.std) || baseline.std <= 0) {
-        throw new Error(`Baseline ${group}.${id}: mean/std invalides`);
-      }
+      if (!Number.isFinite(baseline.mean) || !Number.isFinite(baseline.std) || baseline.std <= 0) throw new Error(`Baseline ${group}.${id}: mean/std invalides`);
     }
   }
 }
@@ -129,12 +123,8 @@ export function assertRarityDistributionIsValid(table: RarityBucket[]): void {
   let previousScore = -Infinity;
   let previousOneInX = 0;
   for (const [index, bucket] of table.entries()) {
-    if (!Number.isFinite(bucket.minScore) || !Number.isFinite(bucket.oneInX) || bucket.oneInX < 1) {
-      throw new Error(`Rarity[${index}]: valeur invalide`);
-    }
-    if (bucket.minScore < previousScore || bucket.oneInX < previousOneInX) {
-      throw new Error(`Rarity[${index}]: table non monotone`);
-    }
+    if (!Number.isFinite(bucket.minScore) || !Number.isFinite(bucket.oneInX) || bucket.oneInX < 1) throw new Error(`Rarity[${index}]: valeur invalide`);
+    if (bucket.minScore < previousScore || bucket.oneInX < previousOneInX) throw new Error(`Rarity[${index}]: table non monotone`);
     previousScore = bucket.minScore;
     previousOneInX = bucket.oneInX;
   }

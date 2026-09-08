@@ -7,14 +7,11 @@ const STEPS: Record<LocaleCode, string[]> = {
   es: ["ANALIZANDO EL PERFIL", "CALCULANDO EL CAOS", "EVALUANDO EL POTENCIAL DE CARRERA", "FINALIZANDO LA FORMA"],
 };
 
-interface AnalyzingScreenProps {
-  locale: LocaleCode;
-  onDone: () => void;
-}
+interface AnalyzingScreenProps { locale: LocaleCode; onDone: () => void; }
 
 export function AnalyzingScreen({ locale, onDone }: AnalyzingScreenProps) {
   const [stepIndex, setStepIndex] = useState(0);
-  const steps = STEPS[locale];
+  const steps = STEPS[locale] ?? STEPS.en;
 
   useEffect(() => {
     if (stepIndex >= steps.length - 1) {
@@ -31,7 +28,7 @@ export function AnalyzingScreen({ locale, onDone }: AnalyzingScreenProps) {
         {String(stepIndex + 1).padStart(2, "0")} / {String(steps.length).padStart(2, "0")}
       </div>
       <div className="ff-display" style={{ fontSize: 18, letterSpacing: "0.03em" }}>
-        {steps[stepIndex]}
+        {steps[stepIndex] ?? steps[steps.length - 1]}
       </div>
     </div>
   );

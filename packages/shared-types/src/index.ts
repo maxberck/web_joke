@@ -14,22 +14,10 @@ export type Locale = "en" | "fr" | "es";
 export type LocaleCode = Locale;
 export type LocalizedText = Record<Locale, string>;
 
-export interface Answer {
-  id: string;
-  text: LocalizedText;
-  effects: StatEffects;
-  selectionWeight?: number;
-}
+export interface Answer { id: string; text: LocalizedText; effects: StatEffects; selectionWeight?: number; }
+export interface Question { id: string; category: string; selectionWeight?: number; text: LocalizedText; answers: Answer[]; }
 
-export interface Question {
-  id: string;
-  category: string;
-  selectionWeight?: number;
-  text: LocalizedText;
-  answers: Answer[];
-}
-
-export interface ProfileEntity {
+export interface NamedProfile {
   id: string;
   name: LocalizedText;
   description?: LocalizedText;
@@ -38,23 +26,29 @@ export interface ProfileEntity {
   tags?: string[];
 }
 
-export type Career = ProfileEntity & { worthPotential: { min: number; max: number } };
-export type Animal = ProfileEntity;
-export type AnimalProfile = Animal;
-export type Class = ProfileEntity;
-export type ClassProfile = Class;
-export type Power = ProfileEntity;
-export type PowerEntry = Power;
-export type Ability = ProfileEntity;
-export type AbilityEntry = Ability;
-export type WorkStyle = ProfileEntity;
-export type WorkStyleEntry = WorkStyle;
-
-export interface WeaknessEntry extends Omit<ProfileEntity, "idealProfile"> {
-  lowProfile: IdealProfile;
+export interface TextProfile {
+  id: string;
+  text: LocalizedText;
+  description?: LocalizedText;
+  idealProfile: IdealProfile;
+  tags?: string[];
 }
 
-export interface Alignment extends Omit<ProfileEntity, "idealProfile"> {
+export type ProfileEntity = NamedProfile | TextProfile;
+export type Career = NamedProfile & { worthPotential: { min: number; max: number } };
+export type Animal = NamedProfile;
+export type AnimalProfile = Animal;
+export type Class = NamedProfile;
+export type ClassProfile = Class;
+export type Power = TextProfile;
+export type PowerEntry = Power;
+export type Ability = TextProfile;
+export type AbilityEntry = Ability;
+export type WorkStyle = TextProfile;
+export type WorkStyleEntry = WorkStyle;
+export type WeaknessEntry = TextProfile & { lowProfile: IdealProfile };
+
+export interface Alignment extends NamedProfile {
   lawfulChaotic: [number, number];
   selflessSelfInterested: [number, number];
 }
@@ -64,20 +58,10 @@ export interface StatCondition {
   op: ">" | ">=" | "<" | "<=" | "==";
   value: number;
 }
+export type SynergyCondition = StatCondition;
 
-export interface SynergyCondition extends StatCondition {}
-
-export interface SynergyRule {
-  id: string;
-  conditions: SynergyCondition[];
-  weight: number;
-  rarityScore: number;
-  tags: string[];
-}
-
-export interface MatchedRule extends SynergyRule {
-  matched: boolean;
-}
+export interface SynergyRule { id: string; conditions: SynergyCondition[]; weight: number; rarityScore: number; tags: string[]; }
+export interface MatchedRule extends SynergyRule { matched: boolean; }
 
 export interface ContentPack {
   questions: Question[];
@@ -92,13 +76,8 @@ export interface ContentPack {
   synergyRules: SynergyRule[];
 }
 
-export interface MatchBaseline {
-  mean: number;
-  std: number;
-}
-
+export interface MatchBaseline { mean: number; std: number; }
 export type MatchBaselineSet = Record<string, MatchBaseline>;
-
 export interface MatchBaselines {
   careers: MatchBaselineSet;
   classes: MatchBaselineSet;
@@ -109,10 +88,7 @@ export interface MatchBaselines {
   animals: MatchBaselineSet;
 }
 
-export interface DerivedStats {
-  [key: string]: number | undefined;
-}
-
+export interface DerivedStats { [key: string]: number | undefined; }
 export interface FinalForm {
   coreStats: Stats;
   derivedStats: DerivedStats;
