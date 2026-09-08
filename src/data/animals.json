@@ -1,0 +1,11 @@
+[
+  { "id": "animal_raccoon", "name": { "en": "Raccoon", "fr": "Raton laveur", "es": "Mapache" }, "idealProfile": { "intelligence": 82, "creativity": 80, "chaos": 78, "discipline": 30 } },
+  { "id": "animal_cat", "name": { "en": "Cat", "fr": "Chat", "es": "Gato" }, "idealProfile": { "social": 45, "emotionalControl": 78, "ambition": 55, "empathy": 40 } },
+  { "id": "animal_golden_retriever", "name": { "en": "Golden Retriever", "fr": "Golden Retriever", "es": "Golden Retriever" }, "idealProfile": { "social": 85, "empathy": 82, "energy": 80, "risk": 25 } },
+  { "id": "animal_crow", "name": { "en": "Crow", "fr": "Corneille", "es": "Cuervo" }, "idealProfile": { "intelligence": 85, "creativity": 78, "risk": 55, "social": 40 } },
+  { "id": "animal_owl", "name": { "en": "Owl", "fr": "Hibou", "es": "Búho" }, "idealProfile": { "intelligence": 82, "emotionalControl": 72, "social": 30, "discipline": 60 } },
+  { "id": "animal_fox", "name": { "en": "Fox", "fr": "Renard", "es": "Zorro" }, "idealProfile": { "intelligence": 75, "creativity": 65, "risk": 65, "chaos": 55, "communication": 55 } },
+  { "id": "animal_turtle", "name": { "en": "Turtle", "fr": "Tortue", "es": "Tortuga" }, "idealProfile": { "discipline": 72, "emotionalControl": 80, "risk": 20, "energy": 25 } },
+  { "id": "animal_octopus", "name": { "en": "Octopus", "fr": "Pieuvre", "es": "Pulpo" }, "idealProfile": { "intelligence": 88, "creativity": 75, "social": 20, "chaos": 50 } },
+  { "id": "animal_meerkat", "name": { "en": "Meerkat", "fr": "Suricate", "es": "Suricata" }, "idealProfile": { "social": 78, "energy": 72, "emotionalControl": 45, "communication": 60 } }
+]

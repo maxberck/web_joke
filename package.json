@@ -1,0 +1,38 @@
+{
+  "name": "final-form-quiz",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "content-pipeline",
+    "simulation"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "content:seed": "npm run seed -w content-pipeline",
+    "content:export": "npm run export -w content-pipeline",
+    "content:validate": "npm run validate -w content-pipeline",
+    "sim:run": "npm run run -w simulation",
+    "sim:build-rarity": "npm run build-rarity -w simulation",
+    "sim:build-baselines": "npm run build-baselines -w simulation"
+  },
+  "dependencies": {
+    "@final-form/shared-types": "*",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

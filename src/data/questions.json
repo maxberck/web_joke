@@ -1,0 +1,5335 @@
+[
+  {
+    "id": "q_unexpected_money",
+    "category": "money",
+    "selectionWeight": 1,
+    "text": {
+      "en": "You unexpectedly find €500 stuffed in an old jacket pocket. You...",
+      "fr": "Tu trouves inopinément 500€ planqués dans la poche d'une vieille veste. Tu...",
+      "es": "Encuentras inesperadamente 500€ metidos en el bolsillo de una chaqueta vieja. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Save it, obviously.",
+          "fr": "Les mets de côté, évidemment.",
+          "es": "Los ahorras, obviamente."
+        },
+        "effects": {
+          "financialSense": 8,
+          "discipline": 6,
+          "risk": -3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Invest it in something with a chart that goes up.",
+          "fr": "Les investis dans un truc dont la courbe monte.",
+          "es": "Los inviertes en algo cuya gráfica sube."
+        },
+        "effects": {
+          "financialSense": 7,
+          "ambition": 6,
+          "risk": 5
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Blow it all on something you'll regret by Tuesday.",
+          "fr": "Les grilles sur un truc que tu regretteras dès mardi.",
+          "es": "Los gastas todos en algo que lamentarás para el martes."
+        },
+        "effects": {
+          "energy": 3,
+          "humor": 2,
+          "financialSense": -6,
+          "discipline": -5
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Give half to a friend who 'looked like they needed it'.",
+          "fr": "En donnes la moitié à un ami qui « avait l'air d'en avoir besoin ».",
+          "es": "Le das la mitad a un amigo que 'parecía necesitarlo'."
+        },
+        "effects": {
+          "empathy": 7,
+          "social": 3,
+          "financialSense": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Buy 40 rubber ducks for no defensible reason.",
+          "fr": "Achètes 40 canards en plastique sans raison défendable.",
+          "es": "Compras 40 patitos de goma sin razón defendible."
+        },
+        "effects": {
+          "chaos": 6,
+          "humor": 5,
+          "financialSense": -5
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Pay off the one debt that's been haunting your dreams.",
+          "fr": "Rembourses la seule dette qui hante tes rêves.",
+          "es": "Pagas la única deuda que ronda tus sueños."
+        },
+        "effects": {
+          "financialSense": 6,
+          "discipline": 5,
+          "professionalism": 3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Put it all on black at the nearest casino.",
+          "fr": "Mises tout sur le noir au casino le plus proche.",
+          "es": "Lo apuestas todo al negro en el casino más cercano."
+        },
+        "effects": {
+          "risk": 9,
+          "luck": 2,
+          "financialSense": -6
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Buy an online course you'll open exactly once.",
+          "fr": "Achètes une formation en ligne que tu ouvriras exactement une fois.",
+          "es": "Compras un curso en línea que abrirás exactamente una vez."
+        },
+        "effects": {
+          "intelligence": 5,
+          "ambition": 4,
+          "discipline": 3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Forget about it in a coat pocket again, immediately.",
+          "fr": "L'oublies à nouveau dans une poche de manteau, immédiatement.",
+          "es": "Lo olvidas de nuevo en un bolsillo de abrigo, inmediatamente."
+        },
+        "effects": {
+          "chaos": 4,
+          "discipline": -3,
+          "financialSense": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Make a color-coded spending plan for exactly €500.",
+          "fr": "Fais un plan de dépense codé par couleur pour exactement 500€.",
+          "es": "Haces un plan de gastos codificado por colores para exactamente 500€."
+        },
+        "effects": {
+          "discipline": 7,
+          "intelligence": 4,
+          "professionalism": 4
+        },
+        "selectionWeight": 1
+      }
+    ]
+  },
+  {
+    "id": "q_meeting_conflict",
+    "category": "work",
+    "selectionWeight": 1,
+    "text": {
+      "en": "A coworker takes credit for your idea in front of the whole team. You...",
+      "fr": "Un collègue s'attribue ton idée devant toute l'équipe. Tu...",
+      "es": "Un compañero se atribuye tu idea frente a todo el equipo. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Calmly correct it on the spot, receipts ready.",
+          "fr": "Corriges calmement sur le moment, preuves à l'appui.",
+          "es": "Corriges con calma en el momento, con pruebas listas."
+        },
+        "effects": {
+          "communication": 7,
+          "emotionalControl": 6,
+          "professionalism": 4
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Say nothing and mentally add it to The List.",
+          "fr": "Ne dis rien et l'ajoutes mentalement à La Liste.",
+          "es": "No dices nada y lo añades mentalmente a La Lista."
+        },
+        "effects": {
+          "emotionalControl": -5,
+          "professionalism": 3,
+          "empathy": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Bring it up privately, very diplomatically, through gritted teeth.",
+          "fr": "En parles en privé, très diplomatiquement, les dents serrées.",
+          "es": "Lo mencionas en privado, muy diplomáticamente, con los dientes apretados."
+        },
+        "effects": {
+          "communication": 5,
+          "professionalism": 6,
+          "emotionalControl": 5
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Make a joke that quietly exposes the whole thing.",
+          "fr": "Fais une blague qui dévoile tranquillement toute l'affaire.",
+          "es": "Haces una broma que revela discretamente todo el asunto."
+        },
+        "effects": {
+          "humor": 7,
+          "social": 4,
+          "chaos": 5,
+          "professionalism": -3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Escalate to your manager with a printed timeline.",
+          "fr": "Escalades à ton manager avec une chronologie imprimée.",
+          "es": "Escalas a tu jefe con una cronología impresa."
+        },
+        "effects": {
+          "ambition": 5,
+          "risk": 4,
+          "empathy": -3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Let it go — you'll haunt them with it at the holiday party.",
+          "fr": "Laisses filer — tu les hanteras avec ça à la fête de fin d'année.",
+          "es": "Lo dejas pasar — los perseguirás con eso en la fiesta navideña."
+        },
+        "effects": {
+          "emotionalControl": 6,
+          "empathy": 4,
+          "ambition": -4
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Start a slow, elaborate, deeply satisfying revenge plan.",
+          "fr": "Prépares un plan de vengeance lent, élaboré et profondément satisfaisant.",
+          "es": "Preparas un plan de venganza lento, elaborado y profundamente satisfactorio."
+        },
+        "effects": {
+          "chaos": 6,
+          "intelligence": 4,
+          "risk": 3,
+          "empathy": -4
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Screenshot every Slack message from now on, forever.",
+          "fr": "Fais une capture de chaque message Slack désormais, pour toujours.",
+          "es": "Capturas cada mensaje de Slack a partir de ahora, para siempre."
+        },
+        "effects": {
+          "discipline": 7,
+          "professionalism": 6,
+          "intelligence": 3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Vent to the group chat before the meeting even ends.",
+          "fr": "Vides ton sac dans le groupe avant même que la réunion se termine.",
+          "es": "Te desahogas en el chat grupal antes de que termine la reunión."
+        },
+        "effects": {
+          "social": 5,
+          "chaos": 4,
+          "professionalism": -4
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Ask them directly, in front of everyone, with a smile.",
+          "fr": "Leur demandes directement, devant tout le monde, en souriant.",
+          "es": "Les preguntas directamente, delante de todos, sonriendo."
+        },
+        "effects": {
+          "communication": 6,
+          "risk": 3,
+          "emotionalControl": 3
+        },
+        "selectionWeight": 1
+      }
+    ]
+  },
+  {
+    "id": "q_free_weekend",
+    "category": "general",
+    "selectionWeight": 1,
+    "text": {
+      "en": "A totally free weekend appears out of nowhere. You spend it...",
+      "fr": "Un week-end totalement libre apparaît de nulle part. Tu le passes...",
+      "es": "Aparece un fin de semana totalmente libre de la nada. Lo pasas..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Colour-coding a spreadsheet nobody asked for.",
+          "fr": "À coder un tableur par couleur que personne n'a demandé.",
+          "es": "Codificando por colores una hoja de cálculo que nadie pidió."
+        },
+        "effects": {
+          "discipline": 7,
+          "professionalism": 4,
+          "energy": 3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "On a road trip decided by a coin flip.",
+          "fr": "En road trip décidé à pile ou face.",
+          "es": "En un viaje decidido a cara o cruz."
+        },
+        "effects": {
+          "chaos": 6,
+          "energy": 6,
+          "risk": 4
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Deep in a craft project involving hot glue and regret.",
+          "fr": "Plongé dans un projet créatif fait de colle chaude et de regrets.",
+          "es": "Sumergido en un proyecto creativo hecho de pegamento caliente y arrepentimiento."
+        },
+        "effects": {
+          "creativity": 8,
+          "energy": 3,
+          "social": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Reconnecting with 4 different friend groups, exhaustingly.",
+          "fr": "À retrouver 4 groupes d'amis différents, de façon épuisante.",
+          "es": "Reconectando con 4 grupos de amigos distintos, agotadoramente."
+        },
+        "effects": {
+          "social": 7,
+          "empathy": 4,
+          "communication": 3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Horizontal, phone on chest, doing absolutely nothing.",
+          "fr": "À l'horizontale, téléphone sur la poitrine, à ne rien faire du tout.",
+          "es": "Horizontal, teléfono en el pecho, sin hacer absolutamente nada."
+        },
+        "effects": {
+          "energy": -5,
+          "emotionalControl": 4,
+          "discipline": -3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Learning a skill you'll use exactly once, ever.",
+          "fr": "À apprendre une compétence que tu utiliseras exactement une fois, jamais plus.",
+          "es": "Aprendiendo una habilidad que usarás exactamente una vez, nunca más."
+        },
+        "effects": {
+          "intelligence": 6,
+          "ambition": 4,
+          "discipline": 3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Reorganizing your finances in a fit of sudden panic.",
+          "fr": "À réorganiser tes finances dans un accès de panique soudaine.",
+          "es": "Reorganizando tus finanzas en un ataque de pánico repentino."
+        },
+        "effects": {
+          "financialSense": 7,
+          "discipline": 5,
+          "professionalism": 3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Doing something a doctor would raise an eyebrow at.",
+          "fr": "À faire un truc qui ferait lever un sourcil à ton médecin.",
+          "es": "Haciendo algo que haría levantar una ceja a tu médico."
+        },
+        "effects": {
+          "risk": 8,
+          "energy": 5,
+          "luck": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Volunteering somewhere and immediately regretting the commitment.",
+          "fr": "À faire du bénévolat et à regretter aussitôt l'engagement.",
+          "es": "Como voluntario y arrepintiéndote de inmediato del compromiso."
+        },
+        "effects": {
+          "empathy": 8,
+          "social": 4,
+          "ambition": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Napping so hard it becomes a personality trait.",
+          "fr": "À faire des siestes si intenses que ça devient un trait de caractère.",
+          "es": "Durmiendo siestas tan intensas que se convierte en un rasgo de personalidad."
+        },
+        "effects": {
+          "energy": -6,
+          "discipline": -4,
+          "emotionalControl": 3
+        },
+        "selectionWeight": 1
+      }
+    ]
+  },
+  {
+    "id": "q_deadline_tomorrow",
+    "category": "work",
+    "selectionWeight": 1,
+    "text": {
+      "en": "A huge deadline is tomorrow and you are catastrophically behind. You...",
+      "fr": "Une deadline énorme est demain et tu es catastrophiquement en retard. Tu...",
+      "es": "Hay una fecha límite enorme mañana y vas catastróficamente atrasado. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Pull an all-nighter fueled by sheer terror.",
+          "fr": "Passes la nuit blanche alimenté par la pure terreur.",
+          "es": "Trasnochas alimentado por puro terror."
+        },
+        "effects": {
+          "discipline": 8,
+          "ambition": 5,
+          "energy": -3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Ask for an extension, formally, with three bullet points.",
+          "fr": "Demandes un délai, formellement, avec trois puces bien nettes.",
+          "es": "Pides una prórroga, formalmente, con tres viñetas bien claras."
+        },
+        "effects": {
+          "communication": 6,
+          "professionalism": 4,
+          "risk": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Produce something held together entirely by hope.",
+          "fr": "Produis quelque chose tenu ensemble uniquement par l'espoir.",
+          "es": "Produces algo sostenido enteramente por la esperanza."
+        },
+        "effects": {
+          "chaos": 7,
+          "energy": 4,
+          "professionalism": -5
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Quietly hand off the scary part to someone else.",
+          "fr": "Refiles discrètement la partie effrayante à quelqu'un d'autre.",
+          "es": "Le pasas discretamente la parte aterradora a otra persona."
+        },
+        "effects": {
+          "communication": 5,
+          "social": 3,
+          "professionalism": 3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Freeze completely, then eat a snack, then freeze again.",
+          "fr": "Te figes complètement, manges un snack, puis te figes à nouveau.",
+          "es": "Te congelas por completo, comes un snack, y te congelas de nuevo."
+        },
+        "effects": {
+          "emotionalControl": -6,
+          "energy": -4,
+          "discipline": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Find a genuinely clever shortcut nobody thought of.",
+          "fr": "Trouves un raccourci vraiment malin auquel personne n'avait pensé.",
+          "es": "Encuentras un atajo genuinamente ingenioso que nadie pensó."
+        },
+        "effects": {
+          "creativity": 6,
+          "intelligence": 5,
+          "chaos": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Blame the timeline loudly, in a shared Slack channel.",
+          "fr": "Blâmes le planning bruyamment, dans un canal Slack partagé.",
+          "es": "Culpas al plazo en voz alta, en un canal de Slack compartido."
+        },
+        "effects": {
+          "social": -3,
+          "professionalism": -4,
+          "communication": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Make it everyone's problem via one dramatic voice memo.",
+          "fr": "En fais le problème de tout le monde via un mémo vocal dramatique.",
+          "es": "Lo conviertes en problema de todos con un mensaje de voz dramático."
+        },
+        "effects": {
+          "humor": 6,
+          "emotionalControl": 3,
+          "energy": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Triage ruthlessly and pray nobody checks the details.",
+          "fr": "Tries impitoyablement en priant que personne ne vérifie les détails.",
+          "es": "Priorizas sin piedad rezando para que nadie revise los detalles."
+        },
+        "effects": {
+          "discipline": 6,
+          "intelligence": 4,
+          "ambition": 3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Accept your fate and go to bed anyway.",
+          "fr": "Acceptes ton destin et vas te coucher quand même.",
+          "es": "Aceptas tu destino y te vas a dormir de todos modos."
+        },
+        "effects": {
+          "risk": 7,
+          "energy": 3,
+          "discipline": -5
+        },
+        "selectionWeight": 1
+      }
+    ]
+  },
+  {
+    "id": "q_group_project",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": {
+      "en": "In every group project, you inevitably become the one who...",
+      "fr": "Dans chaque projet de groupe, tu deviens inévitablement celui qui...",
+      "es": "En cada proyecto grupal, inevitablemente te conviertes en quien..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Makes the shared doc and defends it like a fortress.",
+          "fr": "Crée le doc partagé et le défend comme une forteresse.",
+          "es": "Crea el documento compartido y lo defiende como una fortaleza."
+        },
+        "effects": {
+          "discipline": 6,
+          "professionalism": 5,
+          "communication": 4
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Proposes the idea nobody expected, then vanishes.",
+          "fr": "Propose l'idée que personne n'attendait, puis disparaît.",
+          "es": "Propone la idea que nadie esperaba, y luego desaparece."
+        },
+        "effects": {
+          "creativity": 8,
+          "chaos": 4,
+          "humor": 3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Mediates a fight over a font choice.",
+          "fr": "Fait médiateur dans une dispute sur un choix de police d'écriture.",
+          "es": "Media en una pelea por elegir una tipografía."
+        },
+        "effects": {
+          "empathy": 7,
+          "communication": 5,
+          "emotionalControl": 5
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Does 80% of the work and mentions it exactly once.",
+          "fr": "Fait 80% du travail et le mentionne exactement une fois.",
+          "es": "Hace el 80% del trabajo y lo menciona exactamente una vez."
+        },
+        "effects": {
+          "discipline": 7,
+          "ambition": 4,
+          "social": -3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Goes completely silent until the night before it's due.",
+          "fr": "Devient totalement silencieux jusqu'à la veille du rendu.",
+          "es": "Se queda totalmente en silencio hasta la víspera de la entrega."
+        },
+        "effects": {
+          "chaos": 5,
+          "discipline": -6,
+          "professionalism": -4
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Sends three motivational voice notes at 11pm.",
+          "fr": "Envoie trois notes vocales motivantes à 23h.",
+          "es": "Envía tres notas de voz motivacionales a las 11pm."
+        },
+        "effects": {
+          "social": 7,
+          "energy": 5,
+          "humor": 3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Rewrites everyone else's part 'just to check it'.",
+          "fr": "Réécrit la partie de tout le monde « juste pour vérifier ».",
+          "es": "Reescribe la parte de todos 'solo para verificar'."
+        },
+        "effects": {
+          "intelligence": 5,
+          "discipline": 5,
+          "professionalism": 4
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Volunteers to present, then improvises the entire thing.",
+          "fr": "Se porte volontaire pour présenter, puis improvise tout.",
+          "es": "Se ofrece a presentar, y luego improvisa todo."
+        },
+        "effects": {
+          "communication": 7,
+          "ambition": 5,
+          "risk": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Suggests something so risky the group chat goes silent.",
+          "fr": "Suggère un truc si risqué que le groupe devient silencieux.",
+          "es": "Sugiere algo tan arriesgado que el chat grupal se queda en silencio."
+        },
+        "effects": {
+          "risk": 7,
+          "creativity": 5,
+          "intelligence": 3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Agrees with everything just to end the meeting.",
+          "fr": "Approuve tout juste pour finir la réunion.",
+          "es": "Está de acuerdo con todo solo para terminar la reunión."
+        },
+        "effects": {
+          "empathy": 5,
+          "ambition": -4,
+          "emotionalControl": 4
+        },
+        "selectionWeight": 1
+      }
+    ]
+  },
+  {
+    "id": "q_argument_friend",
+    "category": "emotions",
+    "selectionWeight": 1,
+    "text": {
+      "en": "After a heated argument with a close friend, your first move is to...",
+      "fr": "Après une dispute intense avec un ami proche, ton premier réflexe est de...",
+      "es": "Después de una discusión intensa con un amigo cercano, tu primer instinto es..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Text them within the hour to sort it out properly.",
+          "fr": "Leur écrire dans l'heure pour régler ça correctement.",
+          "es": "Escribirle en la hora para arreglarlo bien."
+        },
+        "effects": {
+          "empathy": 7,
+          "communication": 6,
+          "emotionalControl": 5
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Go completely dark for exactly 3 days.",
+          "fr": "Disparaître complètement pendant exactement 3 jours.",
+          "es": "Desaparecer por completo durante exactamente 3 días."
+        },
+        "effects": {
+          "emotionalControl": 3,
+          "social": -4,
+          "discipline": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Replay the argument in the shower for 45 minutes.",
+          "fr": "Rejouer la dispute sous la douche pendant 45 minutes.",
+          "es": "Repetir la discusión en la ducha durante 45 minutos."
+        },
+        "effects": {
+          "emotionalControl": -6,
+          "intelligence": 2,
+          "empathy": 3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Draft, delete, and redraft a message four times.",
+          "fr": "Écrire, supprimer, réécrire un message quatre fois.",
+          "es": "Escribir, borrar y reescribir un mensaje cuatro veces."
+        },
+        "effects": {
+          "communication": 7,
+          "intelligence": 4,
+          "emotionalControl": 4
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Pretend it never happened, forever, indefinitely.",
+          "fr": "Faire comme si ça n'était jamais arrivé, pour toujours, indéfiniment.",
+          "es": "Fingir que nunca pasó, para siempre, indefinidamente."
+        },
+        "effects": {
+          "emotionalControl": 2,
+          "empathy": -3,
+          "chaos": 3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Debrief every detail with a mutual friend first.",
+          "fr": "Débriefer chaque détail avec un ami commun d'abord.",
+          "es": "Analizar cada detalle con un amigo en común primero."
+        },
+        "effects": {
+          "social": 5,
+          "communication": 3,
+          "empathy": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Send a meme as a peace offering, no words needed.",
+          "fr": "Envoyer un mème en offrande de paix, sans un mot.",
+          "es": "Enviar un meme como ofrenda de paz, sin palabras."
+        },
+        "effects": {
+          "humor": 7,
+          "social": 3,
+          "emotionalControl": 3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Hold your ground, then quietly cave two days later.",
+          "fr": "Rester ferme, puis céder discrètement deux jours après.",
+          "es": "Mantenerte firme, y ceder discretamente dos días después."
+        },
+        "effects": {
+          "ambition": 4,
+          "emotionalControl": -2,
+          "discipline": 3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Write a paragraph explaining exactly what you meant.",
+          "fr": "Écrire un paragraphe expliquant précisément ce que tu voulais dire.",
+          "es": "Escribir un párrafo explicando exactamente lo que querías decir."
+        },
+        "effects": {
+          "intelligence": 5,
+          "emotionalControl": -3,
+          "empathy": 4
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Show up at their door with their favorite snack.",
+          "fr": "Débarquer chez eux avec leur snack préféré.",
+          "es": "Aparecer en su puerta con su snack favorito."
+        },
+        "effects": {
+          "empathy": 6,
+          "humor": 4,
+          "creativity": 3
+        },
+        "selectionWeight": 1
+      }
+    ]
+  },
+  {
+    "id": "q_family_dinner_opinion",
+    "category": "family",
+    "selectionWeight": 1,
+    "text": {
+      "en": "At a family dinner, someone shares an opinion you strongly disagree with. You...",
+      "fr": "Lors d'un repas de famille, quelqu'un partage une opinion avec laquelle tu es en fort désaccord. Tu...",
+      "es": "En una cena familiar, alguien comparte una opinión con la que discrepas totalmente. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Calmly explain why you disagree.",
+          "fr": "Expliques calmement pourquoi tu n'es pas d'accord.",
+          "es": "Explicas con calma por qué no estás de acuerdo."
+        },
+        "effects": {
+          "communication": 7,
+          "emotionalControl": 6,
+          "intelligence": 3
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Change the subject to the weather, abruptly.",
+          "fr": "Changes de sujet pour parler de la météo, abruptement.",
+          "es": "Cambias de tema al clima, abruptamente."
+        },
+        "effects": {
+          "emotionalControl": 5,
+          "empathy": 3,
+          "ambition": -3
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Ask genuine questions to understand their logic.",
+          "fr": "Poses de vraies questions pour comprendre leur logique.",
+          "es": "Haces preguntas genuinas para entender su lógica."
+        },
+        "effects": {
+          "empathy": 7,
+          "intelligence": 4,
+          "communication": 4
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Pull up your phone mid-meal to fact-check them live.",
+          "fr": "Sors ton téléphone en pleine bouchée pour les vérifier en direct.",
+          "es": "Sacas el móvil a mitad de la comida para verificarlo en vivo."
+        },
+        "effects": {
+          "intelligence": 6,
+          "professionalism": -3,
+          "ambition": 3
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Stare at your plate and eat faster than physically necessary.",
+          "fr": "Fixes ton assiette et manges plus vite que nécessaire physiquement.",
+          "es": "Miras tu plato y comes más rápido de lo físicamente necesario."
+        },
+        "effects": {
+          "emotionalControl": 4,
+          "social": -4,
+          "discipline": 2
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Text a sibling 'did you HEAR that' under the table.",
+          "fr": "Textes un frère ou une sœur « t'as ENTENDU ça » sous la table.",
+          "es": "Le escribes a un hermano 'ESCUCHASTE eso' por debajo de la mesa."
+        },
+        "effects": {
+          "chaos": 4,
+          "social": 3,
+          "empathy": -2
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Debate passionately until dessert gets cold and nobody wins.",
+          "fr": "Débats avec passion jusqu'à ce que le dessert refroidisse, sans que personne ne gagne.",
+          "es": "Discutes con pasión hasta que el postre se enfría, sin que nadie gane."
+        },
+        "effects": {
+          "ambition": 6,
+          "risk": 4,
+          "emotionalControl": -5
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Make a joke so well-timed the whole table forgets what started it.",
+          "fr": "Fais une blague si bien placée que toute la table oublie de quoi il était question.",
+          "es": "Haces una broma tan oportuna que toda la mesa olvida de qué se hablaba."
+        },
+        "effects": {
+          "humor": 7,
+          "social": 3,
+          "chaos": 3
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Excuse yourself to the bathroom and stay there four extra minutes.",
+          "fr": "Prétextes les toilettes et y restes quatre minutes de plus que nécessaire.",
+          "es": "Te excusas al baño y te quedas cuatro minutos de más."
+        },
+        "effects": {
+          "emotionalControl": -3,
+          "risk": 2,
+          "energy": 2
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Loudly agree with the opposite opinion just to watch the room combust.",
+          "fr": "Approuves bruyamment l'opinion opposée juste pour regarder la table s'enflammer.",
+          "es": "Apoyas ruidosamente la opinión contraria solo para ver la mesa arder."
+        },
+        "effects": {
+          "chaos": 8,
+          "humor": 4,
+          "empathy": -4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_two_job_offers",
+    "category": "decisions",
+    "selectionWeight": 1,
+    "text": {
+      "en": "You have two job offers: one safe and boring, one exciting but unstable. You pick...",
+      "fr": "Tu as deux offres d'emploi : une sûre mais ennuyeuse, l'autre excitante mais instable. Tu choisis...",
+      "es": "Tienes dos ofertas de trabajo: una segura pero aburrida, otra emocionante pero inestable. Eliges..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "The safe one, obviously.",
+          "fr": "La sûre, évidemment.",
+          "es": "La segura, obviamente."
+        },
+        "effects": {
+          "discipline": 7,
+          "risk": -6,
+          "financialSense": 5
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Make a detailed pros/cons spreadsheet first.",
+          "fr": "Fais d'abord un tableau détaillé des pour et des contre.",
+          "es": "Primero haces una tabla detallada de pros y contras."
+        },
+        "effects": {
+          "intelligence": 6,
+          "discipline": 6,
+          "professionalism": 4
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Negotiate a better deal from the safe one first.",
+          "fr": "Négocies d'abord une meilleure offre du côté sûr.",
+          "es": "Negocias primero una mejor oferta del lado seguro."
+        },
+        "effects": {
+          "communication": 6,
+          "ambition": 5,
+          "financialSense": 4
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Text the offer letter to 11 people for opinions you'll ignore.",
+          "fr": "Envoies la lettre d'offre à 11 personnes pour des avis que tu ignoreras.",
+          "es": "Envías la carta de oferta a 11 personas por opiniones que ignorarás."
+        },
+        "effects": {
+          "social": 5,
+          "communication": 4,
+          "ambition": -3
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Flip a coin, best of seven.",
+          "fr": "Tires à pile ou face, au meilleur des sept.",
+          "es": "Lanzas una moneda, al mejor de siete."
+        },
+        "effects": {
+          "chaos": 7,
+          "luck": 5,
+          "discipline": -4
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Accept the exciting one, then reread the email nine times in panic.",
+          "fr": "Acceptes l'excitante, puis relis l'email neuf fois en panique.",
+          "es": "Aceptas la emocionante, y relees el correo nueve veces en pánico."
+        },
+        "effects": {
+          "risk": 8,
+          "ambition": 6,
+          "emotionalControl": -4
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Take the exciting one but keep the boring offer's email starred, 'just in case'.",
+          "fr": "Prends l'excitante mais gardes l'email de l'ennuyeuse en favori, « juste au cas où ».",
+          "es": "Tomas la emocionante pero marcas el correo de la aburrida 'por si acaso'."
+        },
+        "effects": {
+          "intelligence": 5,
+          "risk": 4,
+          "discipline": 3
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Overthink it for two weeks straight, missing both deadlines.",
+          "fr": "Y réfléchis en boucle pendant deux semaines, ratant les deux délais.",
+          "es": "Le das vueltas durante dos semanas, perdiendo ambos plazos."
+        },
+        "effects": {
+          "emotionalControl": -5,
+          "intelligence": 3,
+          "discipline": -2
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Trust your gut in four seconds, then defend that choice forever.",
+          "fr": "Fais confiance à ton instinct en quatre secondes, puis défends ce choix pour toujours.",
+          "es": "Confías en tu instinto en cuatro segundos, y defiendes esa elección para siempre."
+        },
+        "effects": {
+          "luck": 4,
+          "risk": 5,
+          "emotionalControl": 4
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Decline both to start your own thing with zero clients.",
+          "fr": "Refuses les deux pour lancer ton propre projet sans aucun client.",
+          "es": "Rechazas ambas para lanzar tu propio proyecto sin ningún cliente."
+        },
+        "effects": {
+          "ambition": 9,
+          "risk": 8,
+          "chaos": 5,
+          "financialSense": -4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_flight_cancelled",
+    "category": "unforeseen",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Your flight gets cancelled right before a big trip. You...",
+      "fr": "Ton vol est annulé juste avant un grand voyage. Tu...",
+      "es": "Tu vuelo se cancela justo antes de un gran viaje. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Immediately book another flight online.",
+          "fr": "Réserves immédiatement un autre vol en ligne.",
+          "es": "Reservas de inmediato otro vuelo en línea."
+        },
+        "effects": {
+          "intelligence": 5,
+          "discipline": 5,
+          "energy": 3
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Call the airline and calmly negotiate.",
+          "fr": "Appelles la compagnie et négocies calmement.",
+          "es": "Llamas a la aerolínea y negocias con calma."
+        },
+        "effects": {
+          "communication": 7,
+          "emotionalControl": 6
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Help other stranded passengers figure things out.",
+          "fr": "Aides d'autres passagers bloqués à s'organiser.",
+          "es": "Ayudas a otros pasajeros varados a organizarse."
+        },
+        "effects": {
+          "empathy": 7,
+          "social": 5,
+          "communication": 3
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Post a 9-part story about it before even leaving the gate.",
+          "fr": "Postes une story en 9 parties avant même d'avoir quitté la porte d'embarquement.",
+          "es": "Publicas una historia en 9 partes antes de dejar la puerta de embarque."
+        },
+        "effects": {
+          "emotionalControl": -6,
+          "social": 4,
+          "chaos": 3
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Turn it into a spontaneous road trip with a car you don't have yet.",
+          "fr": "Transformes ça en road trip spontané avec une voiture que tu n'as pas encore.",
+          "es": "Lo conviertes en un viaje por carretera con un coche que aún no tienes."
+        },
+        "effects": {
+          "creativity": 7,
+          "chaos": 5,
+          "energy": 5
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Demand compensation while quoting a regulation you half-remember.",
+          "fr": "Exiges une compensation en citant un règlement dont tu ne te souviens qu'à moitié.",
+          "es": "Exiges compensación citando un reglamento que recuerdas a medias."
+        },
+        "effects": {
+          "ambition": 6,
+          "communication": 4,
+          "risk": 2
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Shrug it off and take a full nap on the airport floor.",
+          "fr": "Hausses les épaules et fais une vraie sieste par terre à l'aéroport.",
+          "es": "Te encoges de hombros y duermes una siesta en el suelo del aeropuerto."
+        },
+        "effects": {
+          "emotionalControl": 5,
+          "energy": -4,
+          "ambition": -3
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Blame yourself out loud for not booking three days earlier.",
+          "fr": "Te blâmes à voix haute de ne pas avoir réservé trois jours plus tôt.",
+          "es": "Te culpas en voz alta por no haber reservado tres días antes."
+        },
+        "effects": {
+          "emotionalControl": -4,
+          "discipline": 3,
+          "empathy": 2
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Take it as a cosmic sign and cancel the entire trip on the spot.",
+          "fr": "Y vois un signe cosmique et annules tout le voyage sur le champ.",
+          "es": "Lo ves como una señal cósmica y cancelas todo el viaje al instante."
+        },
+        "effects": {
+          "luck": 3,
+          "ambition": -5,
+          "discipline": -3
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Try to charm the gate agent into a seat on another airline entirely.",
+          "fr": "Tentes de charmer l'agent d'escale pour un siège sur une tout autre compagnie.",
+          "es": "Intentas encantar al agente de puerta para un asiento en otra aerolínea."
+        },
+        "effects": {
+          "communication": 6,
+          "risk": 5,
+          "luck": 3,
+          "chaos": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_your_type_of_funny",
+    "category": "humor",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Your kind of humor is best described as...",
+      "fr": "Ton type d'humour se décrit le mieux comme...",
+      "es": "Tu tipo de humor se describe mejor como..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Dry and deadpan.",
+          "fr": "Pince-sans-rire et sec.",
+          "es": "Seco e impasible."
+        },
+        "effects": {
+          "humor": 6,
+          "emotionalControl": 5,
+          "intelligence": 3
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Clever wordplay nobody gets until three days later.",
+          "fr": "Des jeux de mots subtils que personne ne comprend avant trois jours.",
+          "es": "Juegos de palabras ingeniosos que nadie entiende hasta tres días después."
+        },
+        "effects": {
+          "intelligence": 7,
+          "humor": 6,
+          "creativity": 5
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Self-deprecating, mostly about your own poor life choices.",
+          "fr": "Autodérision, surtout sur tes propres mauvais choix de vie.",
+          "es": "Autocrítico, sobre todo de tus propias malas decisiones."
+        },
+        "effects": {
+          "humor": 5,
+          "emotionalControl": -3,
+          "empathy": 4
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Loud and chaotic, you've broken a glass laughing at your own joke.",
+          "fr": "Bruyant et chaotique, tu as déjà cassé un verre en riant de ta propre blague.",
+          "es": "Ruidoso y caótico, has roto un vaso riéndote de tu propio chiste."
+        },
+        "effects": {
+          "humor": 7,
+          "chaos": 7,
+          "energy": 4
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Physical comedy — you've walked into the same glass door twice, on purpose the second time.",
+          "fr": "Comédie physique — tu es rentré dans la même porte vitrée deux fois, exprès la deuxième.",
+          "es": "Comedia física — has chocado con la misma puerta de vidrio dos veces, la segunda a propósito."
+        },
+        "effects": {
+          "chaos": 6,
+          "energy": 5,
+          "humor": 5
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Dark humor delivered so calmly people don't realize it's a joke for 10 seconds.",
+          "fr": "Un humour noir livré si calmement que les gens mettent 10 secondes à comprendre.",
+          "es": "Humor negro entregado tan tranquilo que la gente tarda 10 segundos en entenderlo."
+        },
+        "effects": {
+          "humor": 6,
+          "empathy": -4,
+          "risk": 4
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "You don't make jokes, you just repeat what someone said back to them, flatly.",
+          "fr": "Tu ne fais pas de blagues, tu répètes juste ce qu'on vient de dire, platement.",
+          "es": "No haces bromas, solo repites lo que acaban de decir, sin expresión."
+        },
+        "effects": {
+          "intelligence": 5,
+          "social": -3,
+          "emotionalControl": 4
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "A perfect impression of exactly one specific coworker, and only that one.",
+          "fr": "Une imitation parfaite d'exactement un collègue précis, et seulement celui-là.",
+          "es": "Una imitación perfecta de exactamente un compañero específico, y solo ese."
+        },
+        "effects": {
+          "creativity": 6,
+          "social": 5,
+          "humor": 5
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "A reference so niche only one specific person on Earth would laugh, and they're not here.",
+          "fr": "Une référence si pointue qu'une seule personne au monde la comprendrait, et elle n'est pas là.",
+          "es": "Una referencia tan específica que solo una persona en el mundo la entendería, y no está aquí."
+        },
+        "effects": {
+          "intelligence": 4,
+          "social": -2,
+          "creativity": 4
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "You're not funny, you're just deeply, unreasonably confident about it.",
+          "fr": "Tu n'es pas drôle, tu es juste confiant à un niveau totalement injustifié.",
+          "es": "No eres gracioso, solo tienes una confianza totalmente injustificada al respecto."
+        },
+        "effects": {
+          "ambition": 5,
+          "chaos": 3,
+          "emotionalControl": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_walk_a_tightrope",
+    "category": "risk",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Someone dares you to try something genuinely risky. You...",
+      "fr": "Quelqu'un te met au défi de tenter quelque chose de vraiment risqué. Tu...",
+      "es": "Alguien te reta a intentar algo realmente arriesgado. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Do it immediately, no hesitation.",
+          "fr": "Le fais immédiatement, sans hésiter.",
+          "es": "Lo haces de inmediato, sin dudar."
+        },
+        "effects": {
+          "risk": 9,
+          "energy": 5,
+          "discipline": -4
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Calculate the odds first.",
+          "fr": "Calcules d'abord les probabilités.",
+          "es": "Primero calculas las probabilidades."
+        },
+        "effects": {
+          "intelligence": 6,
+          "discipline": 5,
+          "risk": 2
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Politely decline.",
+          "fr": "Refuses poliment.",
+          "es": "Rechazas educadamente."
+        },
+        "effects": {
+          "risk": -7,
+          "emotionalControl": 4,
+          "discipline": 3
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Negotiate a version 20% as risky and call it a win.",
+          "fr": "Négocies une version 20% aussi risquée et appelles ça une victoire.",
+          "es": "Negocias una versión 20% tan arriesgada y lo llamas victoria."
+        },
+        "effects": {
+          "communication": 5,
+          "intelligence": 4,
+          "risk": 3
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Do it, but only after someone starts filming.",
+          "fr": "Le fais, mais seulement une fois que quelqu'un a sorti son téléphone.",
+          "es": "Lo haces, pero solo después de que alguien saque el teléfono."
+        },
+        "effects": {
+          "risk": 7,
+          "ambition": 5,
+          "social": 4
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Dare them back with something objectively worse.",
+          "fr": "Les défies en retour avec un truc objectivement pire.",
+          "es": "Los retas de vuelta con algo objetivamente peor."
+        },
+        "effects": {
+          "chaos": 5,
+          "social": 4,
+          "communication": 3
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Freeze up completely, hand mid-air, for a full 6 seconds.",
+          "fr": "Te figes complètement, main en l'air, pendant six longues secondes.",
+          "es": "Te congelas por completo, mano en el aire, durante seis largos segundos."
+        },
+        "effects": {
+          "emotionalControl": -6,
+          "risk": -4,
+          "energy": -3
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Ask 14 clarifying questions until everyone loses interest.",
+          "fr": "Poses 14 questions jusqu'à ce que tout le monde perde intérêt.",
+          "es": "Haces 14 preguntas hasta que todos pierden el interés."
+        },
+        "effects": {
+          "intelligence": 4,
+          "emotionalControl": 3,
+          "risk": -2
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Do it purely for the story, consequences filed under 'later'.",
+          "fr": "Le fais uniquement pour l'histoire, conséquences classées « plus tard ».",
+          "es": "Lo haces solo por la historia, consecuencias archivadas para 'después'."
+        },
+        "effects": {
+          "risk": 6,
+          "humor": 5,
+          "creativity": 3
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Do it recklessly, regret it before you've even landed, do it again anyway.",
+          "fr": "Le fais imprudemment, le regrettes avant même d'avoir atterri, le refais quand même.",
+          "es": "Lo haces imprudentemente, te arrepientes antes de aterrizar, y lo repites igual."
+        },
+        "effects": {
+          "risk": 9,
+          "chaos": 6,
+          "emotionalControl": -5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_five_year_plan",
+    "category": "ambition",
+    "selectionWeight": 1,
+    "text": {
+      "en": "When you think about your life in five years, you mostly feel...",
+      "fr": "Quand tu penses à ta vie dans cinq ans, tu ressens surtout...",
+      "es": "Cuando piensas en tu vida dentro de cinco años, sientes sobre todo..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "A clear, detailed plan already in motion.",
+          "fr": "Un plan clair et détaillé déjà en marche.",
+          "es": "Un plan claro y detallado ya en marcha."
+        },
+        "effects": {
+          "discipline": 7,
+          "ambition": 7,
+          "intelligence": 3
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Determination to be financially independent.",
+          "fr": "Une détermination à être indépendant financièrement.",
+          "es": "Determinación a ser independiente financieramente."
+        },
+        "effects": {
+          "financialSense": 7,
+          "ambition": 6,
+          "discipline": 4
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Confidence you'll have several backup plans ready.",
+          "fr": "La confiance d'avoir plusieurs plans B prêts.",
+          "es": "La confianza de tener varios planes B listos."
+        },
+        "effects": {
+          "intelligence": 5,
+          "discipline": 5,
+          "risk": -2
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "You've reread the same three job listings for eight months and applied to none.",
+          "fr": "Tu as relu les trois mêmes offres d'emploi pendant huit mois sans en postuler une seule.",
+          "es": "Has releído las mismas tres ofertas de empleo durante ocho meses sin postular a ninguna."
+        },
+        "effects": {
+          "emotionalControl": -5,
+          "ambition": 2,
+          "discipline": -3
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "A five-year spreadsheet with milestones nobody asked you to make.",
+          "fr": "Un tableur sur cinq ans avec des jalons que personne ne t'a demandés.",
+          "es": "Una hoja de cálculo a cinco años con hitos que nadie te pidió."
+        },
+        "effects": {
+          "discipline": 6,
+          "intelligence": 4,
+          "chaos": -2
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "A vague dream about opening a small shop you've never actually researched.",
+          "fr": "Un rêve vague d'ouvrir une petite boutique que tu n'as jamais vraiment étudié.",
+          "es": "Un sueño vago de abrir una pequeña tienda que nunca has investigado en serio."
+        },
+        "effects": {
+          "creativity": 6,
+          "ambition": 4,
+          "social": -3
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Total indifference — you can't plan past Sunday's grocery list.",
+          "fr": "Une indifférence totale — tu ne planifies pas plus loin que les courses de dimanche.",
+          "es": "Total indiferencia — no planeas más allá de la lista del supermercado del domingo."
+        },
+        "effects": {
+          "ambition": -6,
+          "emotionalControl": 5,
+          "chaos": 3
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Certainty you'll have quit a stable job for something objectively worse on paper.",
+          "fr": "La certitude d'avoir quitté un CDI stable pour un truc objectivement pire sur papier.",
+          "es": "La certeza de haber dejado un trabajo estable por algo objetivamente peor en papel."
+        },
+        "effects": {
+          "risk": 7,
+          "ambition": 6,
+          "chaos": 3
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Fully rehearsed acceptance speeches for awards that don't exist yet.",
+          "fr": "Des discours de remerciement entièrement répétés pour des prix qui n'existent pas encore.",
+          "es": "Discursos de agradecimiento ya ensayados para premios que aún no existen."
+        },
+        "effects": {
+          "ambition": 6,
+          "chaos": 4,
+          "humor": 4
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Whatever happens, you'll have made people laugh along the way.",
+          "fr": "Peu importe, tu auras fait rire les gens en chemin.",
+          "es": "Pase lo que pase, habrás hecho reír a la gente en el camino."
+        },
+        "effects": {
+          "humor": 7,
+          "empathy": 4,
+          "ambition": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_friend_needs_money",
+    "category": "friends",
+    "selectionWeight": 1,
+    "text": {
+      "en": "A close friend asks to borrow a significant amount of money. You...",
+      "fr": "Un ami proche te demande d'emprunter une somme d'argent importante. Tu...",
+      "es": "Un amigo cercano te pide prestada una suma de dinero importante. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Lend it without hesitation.",
+          "fr": "Le prêtes sans hésiter.",
+          "es": "Lo prestas sin dudar."
+        },
+        "effects": {
+          "empathy": 8,
+          "financialSense": -5,
+          "risk": 3
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Ask for a written repayment plan first.",
+          "fr": "Demandes d'abord un plan de remboursement écrit.",
+          "es": "Pides primero un plan de pago por escrito."
+        },
+        "effects": {
+          "financialSense": 7,
+          "discipline": 6,
+          "professionalism": 4
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Politely say no.",
+          "fr": "Refuses poliment.",
+          "es": "Dices que no educadamente."
+        },
+        "effects": {
+          "financialSense": 6,
+          "emotionalControl": 5,
+          "empathy": -3
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Offer half the amount and act like that was always the plan.",
+          "fr": "Proposes la moitié de la somme en faisant comme si c'était prévu depuis le début.",
+          "es": "Ofreces la mitad y actúas como si siempre fue el plan."
+        },
+        "effects": {
+          "empathy": 5,
+          "intelligence": 4,
+          "financialSense": 3
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Say yes, then quietly resent it every time they buy coffee.",
+          "fr": "Dis oui, puis le regrettes en silence chaque fois qu'ils achètent un café.",
+          "es": "Dices que sí, y lo resientes cada vez que compran un café."
+        },
+        "effects": {
+          "empathy": 3,
+          "emotionalControl": -5,
+          "social": -2
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Suggest their cousin who 'always has cash', dodging the question entirely.",
+          "fr": "Suggères leur cousin qui « a toujours du liquide », esquivant la question.",
+          "es": "Sugieres a su primo que 'siempre tiene efectivo', esquivando la pregunta."
+        },
+        "effects": {
+          "financialSense": 5,
+          "communication": 3,
+          "empathy": -4
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Give it as a gift, then mention it exactly once, three years later.",
+          "fr": "Le donnes en cadeau, puis le mentionnes exactement une fois, trois ans plus tard.",
+          "es": "Lo das como regalo, y lo mencionas exactamente una vez, tres años después."
+        },
+        "effects": {
+          "empathy": 9,
+          "financialSense": -7,
+          "social": 3
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Overthink it for four days, then send a paragraph explaining your feelings.",
+          "fr": "Y réfléchis en boucle pendant quatre jours, puis envoies un paragraphe sur tes sentiments.",
+          "es": "Le das vueltas cuatro días, y luego mandas un párrafo sobre tus sentimientos."
+        },
+        "effects": {
+          "emotionalControl": -4,
+          "intelligence": 3,
+          "discipline": 2
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Turn it into a 'business investment' with a verbal 4% return you'll never collect.",
+          "fr": "Transformes ça en « investissement » avec 4% de retour oral que tu ne toucheras jamais.",
+          "es": "Lo conviertes en 'inversión' con un 4% de retorno verbal que nunca cobrarás."
+        },
+        "effects": {
+          "ambition": 6,
+          "risk": 5,
+          "financialSense": 4
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Lend it, forget about it, and get genuinely confused when they pay it back.",
+          "fr": "Le prêtes, l'oublies, et es sincèrement perdu quand ils te remboursent.",
+          "es": "Lo prestas, lo olvidas, y te confundes de verdad cuando te lo devuelven."
+        },
+        "effects": {
+          "empathy": 6,
+          "chaos": 4,
+          "financialSense": -4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_messy_desk",
+    "category": "organization",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Your workspace right now is best described as...",
+      "fr": "Ton espace de travail en ce moment se décrit le mieux comme...",
+      "es": "Tu espacio de trabajo ahora mismo se describe mejor como..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Perfectly organized, everything has its place.",
+          "fr": "Parfaitement organisé, tout a sa place.",
+          "es": "Perfectamente organizado, todo tiene su lugar."
+        },
+        "effects": {
+          "discipline": 8,
+          "professionalism": 6,
+          "chaos": -5
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Minimal, almost nothing on it, on principle.",
+          "fr": "Minimaliste, presque rien dessus, par principe.",
+          "es": "Minimalista, casi nada encima, por principio."
+        },
+        "effects": {
+          "discipline": 6,
+          "emotionalControl": 5,
+          "creativity": -2
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Covered in sticky notes for tasks you've already finished.",
+          "fr": "Recouvert de post-it pour des tâches déjà terminées.",
+          "es": "Cubierto de notas adhesivas para tareas que ya terminaste."
+        },
+        "effects": {
+          "discipline": 5,
+          "intelligence": 3,
+          "professionalism": 3
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "A disaster with exactly one clean square inch, reserved for the mouse.",
+          "fr": "Un désastre avec exactement un centimètre carré propre, réservé à la souris.",
+          "es": "Un desastre con exactamente un centímetro cuadrado limpio, para el ratón."
+        },
+        "effects": {
+          "chaos": 7,
+          "discipline": -6,
+          "emotionalControl": -3
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Buried under three half-finished creative projects from different months.",
+          "fr": "Enseveli sous trois projets créatifs à moitié terminés, de mois différents.",
+          "es": "Sepultado bajo tres proyectos creativos a medio terminar, de meses distintos."
+        },
+        "effects": {
+          "creativity": 8,
+          "discipline": -4,
+          "chaos": 4
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Someone else's problem entirely — you've worked from bed for two weeks.",
+          "fr": "Entièrement le problème de quelqu'un d'autre — tu travailles depuis ton lit depuis deux semaines.",
+          "es": "El problema de otra persona — llevas dos semanas trabajando desde la cama."
+        },
+        "effects": {
+          "energy": -5,
+          "discipline": -5,
+          "chaos": 3
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Color-coded with a labeling system you'd need to explain for 20 minutes.",
+          "fr": "Codé par couleur avec un système qu'il te faudrait 20 minutes à expliquer.",
+          "es": "Codificado por colores con un sistema que tardarías 20 minutos en explicar."
+        },
+        "effects": {
+          "intelligence": 6,
+          "discipline": 7,
+          "creativity": 3
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Cluttered, and you've physically blocked a coworker from tidying it.",
+          "fr": "Encombré, et tu as physiquement empêché un collègue d'y toucher.",
+          "es": "Desordenado, y has bloqueado físicamente a un colega que quería ordenarlo."
+        },
+        "effects": {
+          "chaos": 5,
+          "emotionalControl": -2,
+          "ambition": 2
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Reorganized four times this week, worse each time.",
+          "fr": "Réorganisé quatre fois cette semaine, en pire à chaque fois.",
+          "es": "Reorganizado cuatro veces esta semana, cada vez peor."
+        },
+        "effects": {
+          "discipline": 3,
+          "chaos": 4,
+          "energy": 3
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "A shrine to a plant that died three months ago that you haven't removed.",
+          "fr": "Un mausolée pour une plante morte il y a trois mois que tu n'as pas enlevée.",
+          "es": "Un altar a una planta muerta hace tres meses que no has retirado."
+        },
+        "effects": {
+          "chaos": 5,
+          "emotionalControl": -3,
+          "empathy": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_big_stress_moment",
+    "category": "stress",
+    "selectionWeight": 1,
+    "text": {
+      "en": "When everything goes wrong at once, your body's first reaction is to...",
+      "fr": "Quand tout part de travers en même temps, ta première réaction est de...",
+      "es": "Cuando todo sale mal a la vez, tu primera reacción es..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Get very quiet and methodical.",
+          "fr": "Devenir très silencieux et méthodique.",
+          "es": "Volverte muy silencioso y metódico."
+        },
+        "effects": {
+          "emotionalControl": 8,
+          "discipline": 6,
+          "intelligence": 3
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Make a list and tackle problems one by one.",
+          "fr": "Faire une liste et régler les problèmes un par un.",
+          "es": "Hacer una lista y resolver los problemas uno por uno."
+        },
+        "effects": {
+          "discipline": 8,
+          "intelligence": 5,
+          "professionalism": 4
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Delegate immediately to stay above the chaos.",
+          "fr": "Déléguer immédiatement pour rester au-dessus du chaos.",
+          "es": "Delegar de inmediato para mantenerte por encima del caos."
+        },
+        "effects": {
+          "communication": 6,
+          "ambition": 5,
+          "professionalism": 4
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Send a voice memo to three people at once, none of whom asked.",
+          "fr": "Envoyer un vocal à trois personnes en même temps, sans que personne ne l'ait demandé.",
+          "es": "Enviar un audio a tres personas a la vez, sin que nadie lo pidiera."
+        },
+        "effects": {
+          "social": 5,
+          "emotionalControl": -4,
+          "chaos": 3
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Freeze mid-task, staring at nothing, for exactly the wrong four minutes.",
+          "fr": "Te figer en pleine tâche, à fixer le vide, pendant les quatre pires minutes possibles.",
+          "es": "Congelarte a mitad de tarea, mirando la nada, durante los peores cuatro minutos."
+        },
+        "effects": {
+          "emotionalControl": -6,
+          "energy": -4
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Make a joke so poorly timed even you regret it immediately.",
+          "fr": "Faire une blague si mal placée que toi-même le regrettes aussitôt.",
+          "es": "Hacer una broma tan mal calculada que hasta tú te arrepientes al instante."
+        },
+        "effects": {
+          "humor": 7,
+          "emotionalControl": 4,
+          "chaos": 2
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Snap at the nearest innocent person, then apologize with a snack.",
+          "fr": "T'en prendre à la personne innocente la plus proche, puis t'excuser avec un snack.",
+          "es": "Desquitarte con la persona inocente más cercana, y disculparte con un snack."
+        },
+        "effects": {
+          "emotionalControl": -7,
+          "empathy": -4,
+          "social": -3
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Pace in a tight circle, muttering the same sentence four times.",
+          "fr": "Marcher en cercle serré, en répétant la même phrase quatre fois.",
+          "es": "Caminar en círculos, repitiendo la misma frase cuatro veces."
+        },
+        "effects": {
+          "energy": 6,
+          "emotionalControl": -3,
+          "chaos": 3
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Feel weirdly, suspiciously energized by the chaos, and worry about that later.",
+          "fr": "Te sentir étrangement, suspicieusement galvanisé par le chaos, et t'en inquiéter plus tard.",
+          "es": "Sentirte extraña y sospechosamente energizado por el caos, y preocuparte por eso después."
+        },
+        "effects": {
+          "chaos": 7,
+          "energy": 6,
+          "risk": 3
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Shut every tab, close the laptop, and deal with it as tomorrow's problem entirely.",
+          "fr": "Fermer tous les onglets, refermer l'ordinateur, et en faire entièrement le problème de demain.",
+          "es": "Cerrar todas las pestañas, la laptop, y convertirlo enteramente en problema de mañana."
+        },
+        "effects": {
+          "emotionalControl": -3,
+          "discipline": -5,
+          "energy": -4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_morning_routine",
+    "category": "habits",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Your actual morning routine (not the one you tell people about) is...",
+      "fr": "Ta vraie routine du matin (pas celle que tu racontes aux autres) est...",
+      "es": "Tu verdadera rutina matutina (no la que le cuentas a la gente) es..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Identical every single day, down to the minute.",
+          "fr": "Identique chaque jour, à la minute près.",
+          "es": "Idéntica cada día, al minuto."
+        },
+        "effects": {
+          "discipline": 9,
+          "professionalism": 5,
+          "chaos": -5
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "A calm, deliberate ritual just for yourself.",
+          "fr": "Un rituel calme et délibéré, juste pour toi.",
+          "es": "Un ritual tranquilo y deliberado, solo para ti."
+        },
+        "effects": {
+          "emotionalControl": 7,
+          "discipline": 6,
+          "energy": 3
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Exercise first, no matter what, even after four hours of sleep.",
+          "fr": "Faire du sport en premier, quoi qu'il arrive, même après quatre heures de sommeil.",
+          "es": "Hacer ejercicio primero, pase lo que pase, incluso con cuatro horas de sueño."
+        },
+        "effects": {
+          "discipline": 7,
+          "energy": 6,
+          "ambition": 3
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Snooze the alarm eight times, then blame the alarm for existing.",
+          "fr": "Appuyer sur snooze huit fois, puis reprocher au réveil d'exister.",
+          "es": "Posponer la alarma ocho veces, y culpar a la alarma por existir."
+        },
+        "effects": {
+          "discipline": -6,
+          "energy": -3,
+          "chaos": 2
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Check three apps before opening your eyes, in a specific and disturbing order.",
+          "fr": "Vérifier trois applis avant même d'ouvrir les yeux, dans un ordre précis et inquiétant.",
+          "es": "Revisar tres apps antes de abrir los ojos, en un orden específico e inquietante."
+        },
+        "effects": {
+          "social": 3,
+          "discipline": -3,
+          "chaos": 2
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Plan the entire day in detail, then abandon the plan by 10am.",
+          "fr": "Planifier toute la journée en détail, puis abandonner le plan avant 10h.",
+          "es": "Planificar todo el día en detalle, y abandonar el plan antes de las 10am."
+        },
+        "effects": {
+          "intelligence": 5,
+          "discipline": 6,
+          "professionalism": 3
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Rush out the door missing one shoe, always ten minutes late.",
+          "fr": "Te ruer dehors avec une seule chaussure, toujours en retard de dix minutes.",
+          "es": "Salir corriendo con un solo zapato, siempre diez minutos tarde."
+        },
+        "effects": {
+          "chaos": 6,
+          "discipline": -5,
+          "energy": 3
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Coffee first, thoughts later, decisions made in a fog until noon.",
+          "fr": "Café d'abord, réflexion ensuite, décisions prises dans le brouillard jusqu'à midi.",
+          "es": "Café primero, pensamientos después, decisiones en la niebla hasta el mediodía."
+        },
+        "effects": {
+          "energy": 4,
+          "discipline": 2,
+          "humor": 2
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Stand in front of the fridge for two full minutes for no retrievable reason.",
+          "fr": "Rester planté devant le frigo pendant deux minutes entières sans raison identifiable.",
+          "es": "Quedarte parado frente al refrigerador dos minutos enteros sin razón identificable."
+        },
+        "effects": {
+          "chaos": 5,
+          "creativity": 3,
+          "discipline": -3
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "It depends entirely on your mood, and your mood is a mystery even to you.",
+          "fr": "Ça dépend entièrement de ton humeur, et ton humeur reste un mystère même pour toi.",
+          "es": "Depende completamente de tu ánimo, y tu ánimo es un misterio hasta para ti."
+        },
+        "effects": {
+          "chaos": 5,
+          "creativity": 3,
+          "emotionalControl": -3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_blank_canvas",
+    "category": "creativity",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Given a completely blank canvas and no rules, you would...",
+      "fr": "Face à une toile complètement vierge et sans aucune règle, tu...",
+      "es": "Ante un lienzo completamente en blanco y sin reglas, tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Freeze, too many options.",
+          "fr": "Te figer, trop d'options possibles.",
+          "es": "Te congelarías, demasiadas opciones."
+        },
+        "effects": {
+          "emotionalControl": -4,
+          "creativity": 2,
+          "discipline": -2
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Immediately start without a plan.",
+          "fr": "Commencer immédiatement sans plan.",
+          "es": "Empezarías de inmediato sin plan."
+        },
+        "effects": {
+          "creativity": 8,
+          "chaos": 5,
+          "energy": 4
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Sketch out a detailed plan first.",
+          "fr": "Esquisser d'abord un plan détaillé.",
+          "es": "Esbozarías primero un plan detallado."
+        },
+        "effects": {
+          "intelligence": 5,
+          "discipline": 6,
+          "creativity": 4
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Recreate something you've seen before, safely.",
+          "fr": "Recréer quelque chose que tu as déjà vu, en toute sécurité.",
+          "es": "Recrearías algo que ya has visto, de forma segura."
+        },
+        "effects": {
+          "discipline": 5,
+          "risk": -4,
+          "creativity": 2
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Ask other people what they'd want to see.",
+          "fr": "Demander aux autres ce qu'ils voudraient voir.",
+          "es": "Preguntarías a otros qué les gustaría ver."
+        },
+        "effects": {
+          "empathy": 5,
+          "social": 4,
+          "creativity": 2
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Make something deliberately weird and unsettling.",
+          "fr": "Créer quelque chose de délibérément étrange et dérangeant.",
+          "es": "Crearías algo deliberadamente extraño e inquietante."
+        },
+        "effects": {
+          "creativity": 9,
+          "chaos": 6,
+          "humor": 3
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Overthink the meaning before making a single mark.",
+          "fr": "Surrananalyser le sens avant de tracer le moindre trait.",
+          "es": "Sobreanalizarías el significado antes de trazar una sola línea."
+        },
+        "effects": {
+          "intelligence": 6,
+          "emotionalControl": -3,
+          "creativity": 3
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Make something practical and useful instead.",
+          "fr": "Créer quelque chose de pratique et utile à la place.",
+          "es": "Crearías algo práctico y útil en su lugar."
+        },
+        "effects": {
+          "discipline": 5,
+          "professionalism": 4,
+          "creativity": -2
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Turn it into a joke or a meme.",
+          "fr": "En faire une blague ou un mème.",
+          "es": "Lo convertirías en una broma o un meme."
+        },
+        "effects": {
+          "humor": 7,
+          "creativity": 5,
+          "social": 3
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Cover every inch obsessively, leave nothing blank.",
+          "fr": "Recouvrir chaque centimètre de façon obsessionnelle, ne rien laisser vide.",
+          "es": "Cubrirías cada centímetro obsesivamente, sin dejar nada en blanco."
+        },
+        "effects": {
+          "creativity": 7,
+          "chaos": 4,
+          "discipline": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_splitting_the_bill",
+    "category": "money",
+    "selectionWeight": 1,
+    "text": {
+      "en": "At a group dinner, splitting the bill fairly turns out to be complicated. You...",
+      "fr": "Lors d'un dîner de groupe, partager l'addition équitablement s'avère compliqué. Tu...",
+      "es": "En una cena grupal, dividir la cuenta de forma justa resulta complicado. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Calculate everyone's exact share to the cent.",
+          "fr": "Calcules la part exacte de chacun au centime près.",
+          "es": "Calculas la parte exacta de cada uno al céntimo."
+        },
+        "effects": {
+          "discipline": 7,
+          "intelligence": 4,
+          "financialSense": 6
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Just suggest splitting it evenly.",
+          "fr": "Proposes simplement de partager équitablement.",
+          "es": "Simplemente sugieres dividirlo por igual."
+        },
+        "effects": {
+          "social": 5,
+          "financialSense": 2,
+          "emotionalControl": 4
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Use an app to split it precisely, down to who had extra guacamole.",
+          "fr": "Utilises une appli pour tout diviser précisément, jusqu'au guacamole en plus.",
+          "es": "Usas una app para dividirlo con precisión, hasta el guacamole extra."
+        },
+        "effects": {
+          "intelligence": 4,
+          "discipline": 4,
+          "professionalism": 3
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Quietly cover €40 more than your share and never mention it.",
+          "fr": "Couvres discrètement 40€ de plus que ta part et n'en parles jamais.",
+          "es": "Cubres discretamente 40€ de más y nunca lo mencionas."
+        },
+        "effects": {
+          "empathy": 7,
+          "financialSense": -5,
+          "social": 3
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Get visibly annoyed about the €14 cocktail someone else ordered.",
+          "fr": "T'agaces visiblement du cocktail à 14€ que quelqu'un d'autre a pris.",
+          "es": "Te molestas visiblemente por el cóctel de 14€ que otro pidió."
+        },
+        "effects": {
+          "financialSense": 4,
+          "emotionalControl": -6,
+          "social": -4
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Offer to pay it all on your card, then quietly Venmo-request everyone for weeks.",
+          "fr": "Proposes de tout payer sur ta carte, puis réclames chacun discrètement pendant des semaines.",
+          "es": "Te ofreces a pagar todo, y luego reclamas a cada uno discretamente durante semanas."
+        },
+        "effects": {
+          "ambition": 5,
+          "financialSense": -3,
+          "social": 4
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Avoid the whole conversation and leave a suspiciously round amount of cash.",
+          "fr": "Évites toute la conversation et laisses un montant en liquide étrangement rond.",
+          "es": "Evitas toda la conversación y dejas un monto en efectivo sospechosamente redondo."
+        },
+        "effects": {
+          "social": -3,
+          "emotionalControl": 4,
+          "discipline": 2
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Turn it into a public roast of everyone's ordering choices.",
+          "fr": "En fais une session de moqueries publiques sur les choix de chacun.",
+          "es": "Lo conviertes en una burla pública de las elecciones de todos."
+        },
+        "effects": {
+          "humor": 6,
+          "social": 4,
+          "financialSense": 1
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Remember exactly who owes €6.50 for the next four months.",
+          "fr": "Te souviens exactement que quelqu'un doit 6,50€ pendant les quatre mois suivants.",
+          "es": "Recuerdas exactamente que alguien debe 6,50€ durante los siguientes cuatro meses."
+        },
+        "effects": {
+          "intelligence": 5,
+          "financialSense": 5,
+          "emotionalControl": -2
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Propose whoever earns more pays more, and instantly regret the silence that follows.",
+          "fr": "Proposes que celui qui gagne le plus paie davantage, et regrettes aussitôt le silence qui suit.",
+          "es": "Propones que quien gana más pague más, y te arrepientes al instante del silencio que sigue."
+        },
+        "effects": {
+          "empathy": 5,
+          "communication": 3,
+          "financialSense": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_found_wallet",
+    "category": "general",
+    "selectionWeight": 1,
+    "text": {
+      "en": "You find a wallet on the street with cash and no ID inside. You...",
+      "fr": "Tu trouves un portefeuille dans la rue avec de l'argent mais sans pièce d'identité. Tu...",
+      "es": "Encuentras una billetera en la calle con dinero y sin identificación. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Hand it to the nearest police station immediately.",
+          "fr": "Le remets immédiatement au commissariat le plus proche.",
+          "es": "Lo entregas de inmediato a la comisaría más cercana."
+        },
+        "effects": {
+          "empathy": 7,
+          "professionalism": 5,
+          "discipline": 4
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Keep the cash, it's finders keepers.",
+          "fr": "Gardes l'argent, c'est trouvé c'est gardé.",
+          "es": "Te quedas el dinero, quien lo encuentra se lo queda."
+        },
+        "effects": {
+          "financialSense": 4,
+          "empathy": -6,
+          "risk": 4
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Post about it online to try to find the owner.",
+          "fr": "Postes ça en ligne pour essayer de retrouver le propriétaire.",
+          "es": "Lo publicas en línea para intentar encontrar al dueño."
+        },
+        "effects": {
+          "social": 5,
+          "empathy": 5,
+          "creativity": 3
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Feel guilty but keep it anyway.",
+          "fr": "Te sens coupable mais le gardes quand même.",
+          "es": "Te sientes culpable pero te lo quedas de todas formas."
+        },
+        "effects": {
+          "emotionalControl": -5,
+          "financialSense": 2,
+          "empathy": 2
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Overthink the ethics of it for way too long.",
+          "fr": "Surrananalyses l'éthique de la situation bien trop longtemps.",
+          "es": "Sobreanalizas la ética del asunto durante demasiado tiempo."
+        },
+        "effects": {
+          "intelligence": 5,
+          "emotionalControl": -3,
+          "empathy": 3
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Donate the cash to charity, no questions asked.",
+          "fr": "Donnes l'argent à une association, sans te poser de questions.",
+          "es": "Donas el dinero a la caridad, sin hacer preguntas."
+        },
+        "effects": {
+          "empathy": 8,
+          "financialSense": -4,
+          "discipline": 3
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Leave it exactly where you found it.",
+          "fr": "Le laisses exactement là où tu l'as trouvé.",
+          "es": "Lo dejas exactamente donde lo encontraste."
+        },
+        "effects": {
+          "emotionalControl": 3,
+          "risk": -3,
+          "ambition": -3
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Treat it as a lucky sign and buy a lottery ticket.",
+          "fr": "Y vois un signe de chance et achètes un ticket de loterie.",
+          "es": "Lo ves como una señal de suerte y compras un billete de lotería."
+        },
+        "effects": {
+          "luck": 4,
+          "risk": 5,
+          "chaos": 3
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Ask nearby shops if anyone reported it missing.",
+          "fr": "Demandes aux commerces alentour si quelqu'un l'a signalé perdu.",
+          "es": "Preguntas en tiendas cercanas si alguien lo reportó perdido."
+        },
+        "effects": {
+          "communication": 5,
+          "empathy": 6,
+          "energy": 2
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Take the cash but try to return the wallet itself.",
+          "fr": "Prends l'argent mais essaies de rendre le portefeuille en lui-même.",
+          "es": "Tomas el dinero pero intentas devolver la billetera en sí."
+        },
+        "effects": {
+          "chaos": 5,
+          "financialSense": 2,
+          "empathy": -3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_new_neighbor",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": {
+      "en": "A new neighbor moves in next door. Within the first month, you...",
+      "fr": "Un nouveau voisin emménage à côté. Dans le premier mois, tu...",
+      "es": "Un nuevo vecino se muda al lado. Durante el primer mes, tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Bring over something homemade to introduce yourself.",
+          "fr": "Leur apportes quelque chose de fait maison pour te présenter.",
+          "es": "Les llevas algo hecho en casa para presentarte."
+        },
+        "effects": {
+          "social": 7,
+          "empathy": 6,
+          "energy": 3
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Wave once and never speak to them again.",
+          "fr": "Fais un signe de la main une fois et ne leur reparles plus jamais.",
+          "es": "Saludas una vez y nunca más les hablas."
+        },
+        "effects": {
+          "social": -5,
+          "emotionalControl": 4,
+          "discipline": 2
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Know their entire life story within a week.",
+          "fr": "Connais toute leur histoire en une semaine.",
+          "es": "Conoces toda su historia en una semana."
+        },
+        "effects": {
+          "social": 8,
+          "communication": 6,
+          "empathy": 3
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Complain about their noise before even meeting them.",
+          "fr": "Te plains de leur bruit avant même de les rencontrer.",
+          "es": "Te quejas de su ruido antes de conocerlos siquiera."
+        },
+        "effects": {
+          "emotionalControl": -5,
+          "empathy": -4,
+          "communication": 2
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Watch them carefully from your window, just curious.",
+          "fr": "Les observes discrètement depuis ta fenêtre, par simple curiosité.",
+          "es": "Los observas discretamente desde tu ventana, por pura curiosidad."
+        },
+        "effects": {
+          "intelligence": 3,
+          "social": -2,
+          "chaos": 3
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Invite them to a get-together with other neighbors.",
+          "fr": "Les invites à une rencontre avec les autres voisins.",
+          "es": "Los invitas a una reunión con otros vecinos."
+        },
+        "effects": {
+          "social": 8,
+          "energy": 5,
+          "communication": 4
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Establish clear boundaries about shared spaces immediately.",
+          "fr": "Établis immédiatement des règles claires sur les espaces communs.",
+          "es": "Estableces reglas claras sobre los espacios compartidos de inmediato."
+        },
+        "effects": {
+          "discipline": 6,
+          "professionalism": 4,
+          "communication": 3
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Forget they exist until you need something.",
+          "fr": "Oublies leur existence jusqu'à ce que tu aies besoin de quelque chose.",
+          "es": "Te olvidas de que existen hasta que necesitas algo."
+        },
+        "effects": {
+          "social": -3,
+          "ambition": 2,
+          "chaos": 2
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Accidentally become best friends within days.",
+          "fr": "Deviens accidentellement meilleurs amis en quelques jours.",
+          "es": "Te vuelves accidentalmente mejor amigo en pocos días."
+        },
+        "effects": {
+          "social": 6,
+          "luck": 4,
+          "empathy": 4
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Size them up as a potential threat or ally.",
+          "fr": "Les jauges comme une menace ou un allié potentiel.",
+          "es": "Los evalúas como una posible amenaza o aliado."
+        },
+        "effects": {
+          "intelligence": 5,
+          "risk": 3,
+          "chaos": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_texting_habits",
+    "category": "habits",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Your actual texting habits are best described as...",
+      "fr": "Tes véritables habitudes de textos se décrivent le mieux comme...",
+      "es": "Tus verdaderos hábitos de mensajería se describen mejor como..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Reply within seconds, always.",
+          "fr": "Réponds en quelques secondes, toujours.",
+          "es": "Respondes en segundos, siempre."
+        },
+        "effects": {
+          "discipline": 6,
+          "communication": 5,
+          "social": 4
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Take a day to reply, on principle.",
+          "fr": "Prends une journée pour répondre, par principe.",
+          "es": "Te tomas un día para responder, por principio."
+        },
+        "effects": {
+          "emotionalControl": 3,
+          "social": -2,
+          "discipline": 2
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Write paragraphs when a word would do.",
+          "fr": "Écris des paragraphes là où un mot suffirait.",
+          "es": "Escribes párrafos donde bastaría una palabra."
+        },
+        "effects": {
+          "communication": 6,
+          "empathy": 4,
+          "chaos": 2
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Leave someone on read for three days, then reply 'lol yes'.",
+          "fr": "Laisses quelqu'un sur lu pendant trois jours, puis réponds « mdr oui ».",
+          "es": "Dejas a alguien en visto tres días, y luego respondes 'jaja sí'."
+        },
+        "effects": {
+          "emotionalControl": 3,
+          "social": -5,
+          "discipline": -3,
+          "humor": 3
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Reply only with memes and reaction gifs, no actual words.",
+          "fr": "Réponds uniquement avec des mèmes et des gifs, jamais un vrai mot.",
+          "es": "Respondes solo con memes y gifs, ni una palabra real."
+        },
+        "effects": {
+          "humor": 7,
+          "creativity": 4,
+          "chaos": 3
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Type a perfect reply, delete it, and never send anything.",
+          "fr": "Tapes une réponse parfaite, la supprimes, et n'envoies finalement rien.",
+          "es": "Escribes una respuesta perfecta, la borras, y no envías nada." 
+        },
+        "effects": {
+          "emotionalControl": -5,
+          "discipline": -3,
+          "empathy": 2
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Send a 4-minute voice message about something that could've been 'ok'.",
+          "fr": "Envoies un vocal de 4 minutes pour dire un truc qui tenait en « ok ».",
+          "es": "Envías un audio de 4 minutos para algo que cabía en un 'ok'."
+        },
+        "effects": {
+          "energy": 4,
+          "social": 3,
+          "chaos": 4
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Triple-text 'hello?' 'you there?' 'ok never mind' within an hour.",
+          "fr": "Envoies « allô ? », « t'es là ? », « ok laisse tomber » en moins d'une heure.",
+          "es": "Envías 'hola?' 'estás ahí?' 'ok déjalo' en menos de una hora."
+        },
+        "effects": {
+          "emotionalControl": -6,
+          "social": 4,
+          "chaos": 5
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Screenshot a two-word text and analyze it with a friend for 45 minutes.",
+          "fr": "Fais une capture d'un texto de deux mots et l'analyses avec un ami pendant 45 minutes.",
+          "es": "Capturas un mensaje de dos palabras y lo analizas con un amigo durante 45 minutos."
+        },
+        "effects": {
+          "social": 5,
+          "chaos": 3,
+          "empathy": 2,
+          "emotionalControl": -3
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Answer 14 unrelated messages at once in a single unpunctuated wall of text.",
+          "fr": "Réponds à 14 messages sans rapport d'un coup, dans un seul pavé sans ponctuation.",
+          "es": "Respondes 14 mensajes sin relación de golpe, en un solo bloque sin puntuación."
+        },
+        "effects": {
+          "discipline": -4,
+          "chaos": 6,
+          "communication": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_public_speaking",
+    "category": "risk",
+    "selectionWeight": 1,
+    "text": {
+      "en": "You're suddenly asked to speak in front of a large crowd, right now. You...",
+      "fr": "On te demande soudain de parler devant une grande foule, tout de suite. Tu...",
+      "es": "De repente te piden hablar frente a una gran multitud, ahora mismo. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Step up confidently, no preparation needed.",
+          "fr": "Montes sur scène avec confiance, sans préparation.",
+          "es": "Subes con confianza, sin preparación."
+        },
+        "effects": {
+          "risk": 6,
+          "communication": 7,
+          "emotionalControl": 5
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Ask for five minutes to prepare notes.",
+          "fr": "Demandes cinq minutes pour préparer des notes.",
+          "es": "Pides cinco minutos para preparar notas."
+        },
+        "effects": {
+          "discipline": 6,
+          "intelligence": 4,
+          "professionalism": 4
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Open with a joke to buy yourself time.",
+          "fr": "Commences par une blague pour gagner du temps.",
+          "es": "Empiezas con una broma para ganar tiempo."
+        },
+        "effects": {
+          "humor": 7,
+          "social": 4,
+          "risk": 3
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Fake receiving an urgent call, mid-crowd, phone not even ringing.",
+          "fr": "Fais semblant de recevoir un appel urgent, en pleine foule, sans que le téléphone sonne.",
+          "es": "Finges recibir una llamada urgente, entre la multitud, sin que el teléfono suene."
+        },
+        "effects": {
+          "emotionalControl": -6,
+          "chaos": 5,
+          "risk": -4
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Freeze mid-sentence and just repeat the last word louder.",
+          "fr": "Te figes en pleine phrase et répètes juste le dernier mot plus fort.",
+          "es": "Te congelas a mitad de frase y repites la última palabra más fuerte."
+        },
+        "effects": {
+          "emotionalControl": -6,
+          "energy": -3,
+          "risk": -3
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Turn it into an interactive Q&A to buy yourself an exit route.",
+          "fr": "Transformes ça en session de questions-réponses pour t'inventer une porte de sortie.",
+          "es": "Lo conviertes en preguntas y respuestas para inventarte una salida."
+        },
+        "effects": {
+          "creativity": 6,
+          "communication": 6,
+          "intelligence": 3
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Recommend someone else do it, pointing at a random person nearby.",
+          "fr": "Recommandes que quelqu'un d'autre le fasse, en désignant un inconnu au hasard.",
+          "es": "Recomiendas que otra persona lo haga, señalando a un desconocido al azar."
+        },
+        "effects": {
+          "risk": -6,
+          "social": -3,
+          "chaos": 3
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Wing it entirely, quote a statistic you invented on the spot, and somehow nail it.",
+          "fr": "Improvises complètement, inventes une statistique sur le champ, et réussis quand même.",
+          "es": "Improvisas por completo, inventas una estadística al vuelo, y de algún modo lo logras."
+        },
+        "effects": {
+          "chaos": 7,
+          "luck": 5,
+          "risk": 6
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Overprepare mentally in three seconds while visibly sweating through your shirt.",
+          "fr": "Te surprépares mentalement en trois secondes, en transpirant visiblement à travers ta chemise.",
+          "es": "Te sobrepreparas mentalmente en tres segundos, sudando visiblemente a través de la camisa."
+        },
+        "effects": {
+          "discipline": 4,
+          "emotionalControl": -5,
+          "intelligence": 3
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Use the mic to promote your side project for six unrelated minutes.",
+          "fr": "Utilises le micro pour promouvoir ton projet perso pendant six minutes sans rapport.",
+          "es": "Usas el micrófono para promocionar tu proyecto personal durante seis minutos sin relación."
+        },
+        "effects": {
+          "ambition": 7,
+          "communication": 5,
+          "risk": 5,
+          "chaos": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_online_shopping_cart",
+    "category": "money",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Your online shopping cart right now, if you're honest, contains...",
+      "fr": "Ton panier d'achats en ligne en ce moment, si tu es honnête, contient...",
+      "es": "Tu carrito de compras en línea ahora mismo, si eres honesto, contiene..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Nothing, you check out immediately or not at all.",
+          "fr": "Rien, tu commandes immédiatement ou pas du tout.",
+          "es": "Nada, compras de inmediato o no compras nada."
+        },
+        "effects": {
+          "discipline": 6,
+          "financialSense": 5,
+          "chaos": -3
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "27 items you're 'just thinking about'.",
+          "fr": "27 articles que tu 'réfléchis juste' à acheter.",
+          "es": "27 artículos que 'solo estás pensando' en comprar."
+        },
+        "effects": {
+          "chaos": 6,
+          "financialSense": -4,
+          "creativity": 2
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "One expensive item you've justified for weeks.",
+          "fr": "Un article cher que tu justifies depuis des semaines.",
+          "es": "Un artículo caro que has justificado durante semanas."
+        },
+        "effects": {
+          "ambition": 4,
+          "financialSense": -3,
+          "discipline": 3
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Gifts for other people, nothing for yourself.",
+          "fr": "Des cadeaux pour les autres, rien pour toi.",
+          "es": "Regalos para otros, nada para ti."
+        },
+        "effects": {
+          "empathy": 7,
+          "financialSense": -2,
+          "social": 3
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "A meticulously planned list with a strict budget.",
+          "fr": "Une liste méticuleusement planifiée avec un budget strict.",
+          "es": "Una lista meticulosamente planificada con un presupuesto estricto."
+        },
+        "effects": {
+          "discipline": 7,
+          "financialSense": 7,
+          "professionalism": 3
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Random impulse buys from 2am scrolling.",
+          "fr": "Des achats impulsifs faits en scrollant à 2h du matin.",
+          "es": "Compras impulsivas de un scroll a las 2am."
+        },
+        "effects": {
+          "chaos": 7,
+          "financialSense": -5,
+          "emotionalControl": -3
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "The same item in three different colors.",
+          "fr": "Le même article en trois couleurs différentes.",
+          "es": "El mismo artículo en tres colores diferentes."
+        },
+        "effects": {
+          "chaos": 4,
+          "creativity": 3,
+          "financialSense": -3
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Only practical necessities, no fun stuff.",
+          "fr": "Uniquement des nécessités pratiques, rien pour le plaisir.",
+          "es": "Solo necesidades prácticas, nada divertido."
+        },
+        "effects": {
+          "discipline": 6,
+          "professionalism": 4,
+          "humor": -2
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Something you'll definitely return within the week.",
+          "fr": "Quelque chose que tu vas sûrement retourner dans la semaine.",
+          "es": "Algo que definitivamente devolverás en la semana."
+        },
+        "effects": {
+          "chaos": 4,
+          "emotionalControl": -2,
+          "financialSense": -1
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Investment gear for a new hobby you'll try twice.",
+          "fr": "Du matériel pour un nouveau loisir que tu essaieras deux fois.",
+          "es": "Equipo para un nuevo hobby que probarás dos veces."
+        },
+        "effects": {
+          "creativity": 5,
+          "chaos": 4,
+          "financialSense": -4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_conflict_with_boss",
+    "category": "work",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Your boss makes a decision you think is clearly wrong. You...",
+      "fr": "Ton patron prend une décision que tu juges clairement mauvaise. Tu...",
+      "es": "Tu jefe toma una decisión que crees claramente equivocada. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Raise your concerns directly and professionally.",
+          "fr": "Exprimes tes préoccupations directement et professionnellement.",
+          "es": "Expresas tus preocupaciones directamente y con profesionalismo."
+        },
+        "effects": {
+          "communication": 7,
+          "professionalism": 6,
+          "ambition": 3
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Comply for now and bring it up properly next week.",
+          "fr": "T'y conformes pour l'instant et en reparles proprement la semaine prochaine.",
+          "es": "Obedeces por ahora y lo planteas bien la próxima semana."
+        },
+        "effects": {
+          "emotionalControl": 4,
+          "discipline": 4,
+          "ambition": -1
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Ask clarifying questions until the logic makes sense to you.",
+          "fr": "Poses des questions jusqu'à ce que la logique te paraisse claire.",
+          "es": "Haces preguntas hasta que la lógica te resulte clara." 
+        },
+        "effects": {
+          "intelligence": 5,
+          "communication": 4,
+          "discipline": 3
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Screenshot the Slack message announcing it, for 'later'.",
+          "fr": "Fais une capture du message Slack qui l'annonce, « pour plus tard ».",
+          "es": "Capturas el mensaje de Slack que lo anuncia, 'por si acaso'."
+        },
+        "effects": {
+          "discipline": 5,
+          "risk": 3,
+          "chaos": 2
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Quietly work around the decision your own way and hope nobody checks.",
+          "fr": "Contournes discrètement la décision à ta façon, en priant que personne ne vérifie.",
+          "es": "Sorteas discretamente la decisión a tu manera, rezando para que nadie lo note."
+        },
+        "effects": {
+          "chaos": 6,
+          "intelligence": 4,
+          "risk": 4
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Type a three-paragraph email, then delete it and say nothing.",
+          "fr": "Tapes un email de trois paragraphes, puis le supprimes et ne dis rien.",
+          "es": "Escribes un correo de tres párrafos, lo borras y no dices nada."
+        },
+        "effects": {
+          "emotionalControl": -5,
+          "communication": 2,
+          "discipline": -2
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Build a full alternative plan nobody asked for, with slides.",
+          "fr": "Montes un plan alternatif complet, avec des slides, que personne n'a demandé.",
+          "es": "Preparas un plan alternativo completo, con diapositivas, que nadie pidió."
+        },
+        "effects": {
+          "intelligence": 6,
+          "creativity": 4,
+          "ambition": 5
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Vent to your group chat mid-meeting, camera still on.",
+          "fr": "Te défoules dans ton groupe de discussion en pleine réunion, caméra toujours allumée.",
+          "es": "Te desahogas en tu chat grupal en plena reunión, con la cámara encendida."
+        },
+        "effects": {
+          "emotionalControl": -6,
+          "chaos": 5,
+          "professionalism": -4
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Update your LinkedIn headline that same evening, just in case.",
+          "fr": "Mets à jour ton titre LinkedIn le soir même, juste au cas où.",
+          "es": "Actualizas tu titular de LinkedIn esa misma noche, por si acaso."
+        },
+        "effects": {
+          "ambition": 6,
+          "risk": 4,
+          "emotionalControl": -3
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Say \"noted!\" out loud, then mentally rehearse your resignation speech for a week.",
+          "fr": "Dis « bien noté ! » à voix haute, puis répètes mentalement ton discours de démission pendant une semaine.",
+          "es": "Dices \"¡entendido!\" en voz alta, y ensayas mentalmente tu discurso de renuncia durante una semana."
+        },
+        "effects": {
+          "emotionalControl": -6,
+          "ambition": 4,
+          "humor": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_unexpected_compliment",
+    "category": "emotions",
+    "selectionWeight": 1,
+    "text": {
+      "en": "A stranger gives you a genuine, unexpected compliment. You...",
+      "fr": "Un inconnu te fait un compliment sincère et inattendu. Tu...",
+      "es": "Un desconocido te hace un cumplido sincero e inesperado. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Thank them warmly and mean it.",
+          "fr": "Le remercies chaleureusement et le penses vraiment.",
+          "es": "Le agradeces cálidamente y lo dices en serio."
+        },
+        "effects": {
+          "empathy": 6,
+          "social": 5,
+          "emotionalControl": 4
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Deflect it immediately with a joke.",
+          "fr": "Le désamorces immédiatement avec une blague.",
+          "es": "Lo desvías de inmediato con una broma."
+        },
+        "effects": {
+          "humor": 6,
+          "emotionalControl": -3,
+          "social": 3
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Get suspicious about their motives.",
+          "fr": "Deviens méfiant quant à leurs motivations.",
+          "es": "Te vuelves receloso sobre sus motivos."
+        },
+        "effects": {
+          "intelligence": 3,
+          "empathy": -4,
+          "risk": -2
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Overthink it for the rest of the day.",
+          "fr": "Y repenses en boucle pour le reste de la journée.",
+          "es": "Le das vueltas el resto del día."
+        },
+        "effects": {
+          "emotionalControl": -4,
+          "intelligence": 3,
+          "empathy": 2
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Awkwardly deny it entirely.",
+          "fr": "Le nies maladroitement en bloc.",
+          "es": "Lo niegas por completo, incómodo."
+        },
+        "effects": {
+          "emotionalControl": -3,
+          "social": -2,
+          "empathy": 1
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Immediately compliment them back.",
+          "fr": "Le compliments immédiatement en retour.",
+          "es": "Le devuelves el cumplido de inmediato."
+        },
+        "effects": {
+          "empathy": 6,
+          "social": 6,
+          "communication": 3
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Feel weirdly emotional about it.",
+          "fr": "Te sens étrangement ému par ça.",
+          "es": "Te sientes extrañamente emocionado por eso."
+        },
+        "effects": {
+          "empathy": 5,
+          "emotionalControl": -3,
+          "luck": 2
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Ask them to elaborate, curious.",
+          "fr": "Leur demandes de préciser, curieux.",
+          "es": "Le pides que profundice, con curiosidad."
+        },
+        "effects": {
+          "intelligence": 4,
+          "communication": 4,
+          "social": 3
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Screenshot it mentally to remember forever.",
+          "fr": "Le graves mentalement pour t'en souvenir à jamais.",
+          "es": "Lo grabas mentalmente para recordarlo siempre."
+        },
+        "effects": {
+          "intelligence": 3,
+          "emotionalControl": 2,
+          "empathy": 3
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Assume they want something from you.",
+          "fr": "Supposes qu'ils veulent quelque chose de toi.",
+          "es": "Supones que quieren algo de ti."
+        },
+        "effects": {
+          "risk": -2,
+          "empathy": -5,
+          "intelligence": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_power_outage",
+    "category": "unforeseen",
+    "selectionWeight": 1,
+    "text": {
+      "en": "The power suddenly goes out in your building for an unknown duration. You...",
+      "fr": "L'électricité coupe soudainement dans ton immeuble, durée inconnue. Tu...",
+      "es": "De repente se va la luz en tu edificio, duración desconocida. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Grab a flashlight and keep working calmly.",
+          "fr": "Prends une lampe torche et continues à travailler calmement.",
+          "es": "Tomas una linterna y sigues trabajando con calma."
+        },
+        "effects": {
+          "discipline": 6,
+          "emotionalControl": 6,
+          "professionalism": 4
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Immediately start telling ghost stories.",
+          "fr": "Commences immédiatement à raconter des histoires de fantômes.",
+          "es": "Empiezas de inmediato a contar historias de fantasmas."
+        },
+        "effects": {
+          "creativity": 6,
+          "humor": 5,
+          "chaos": 3
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Panic about your phone battery dying.",
+          "fr": "Paniques à l'idée que la batterie de ton téléphone se vide.",
+          "es": "Entras en pánico por la batería de tu teléfono."
+        },
+        "effects": {
+          "emotionalControl": -5,
+          "chaos": 2,
+          "risk": -2
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Check on your neighbors to see if they're okay.",
+          "fr": "Vas vérifier que tes voisins vont bien.",
+          "es": "Vas a ver si tus vecinos están bien."
+        },
+        "effects": {
+          "empathy": 7,
+          "social": 5,
+          "communication": 3
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Treat it as a sign to just go to bed early.",
+          "fr": "Y vois un signe pour aller te coucher tôt.",
+          "es": "Lo tomas como una señal para irte a dormir temprano."
+        },
+        "effects": {
+          "energy": -4,
+          "emotionalControl": 4,
+          "ambition": -2
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Immediately start troubleshooting the fuse box.",
+          "fr": "Commences immédiatement à inspecter le tableau électrique.",
+          "es": "Empiezas de inmediato a revisar la caja de fusibles."
+        },
+        "effects": {
+          "intelligence": 6,
+          "risk": 4,
+          "discipline": 3
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Turn it into an impromptu candlelit gathering.",
+          "fr": "En fais une réunion improvisée aux chandelles.",
+          "es": "Lo conviertes en una reunión improvisada a la luz de las velas."
+        },
+        "effects": {
+          "creativity": 6,
+          "social": 6,
+          "chaos": 3
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Call the utility company immediately to complain.",
+          "fr": "Appelles immédiatement le fournisseur pour te plaindre.",
+          "es": "Llamas de inmediato a la compañía para quejarte."
+        },
+        "effects": {
+          "ambition": 4,
+          "communication": 4,
+          "emotionalControl": -2
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Realize how loud your thoughts are in silence.",
+          "fr": "Réalises à quel point tes pensées sont bruyantes dans le silence.",
+          "es": "Te das cuenta de lo ruidosos que son tus pensamientos en el silencio."
+        },
+        "effects": {
+          "intelligence": 4,
+          "emotionalControl": -2,
+          "creativity": 3
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Use it as an excuse to do absolutely nothing.",
+          "fr": "T'en sers comme excuse pour ne rien faire du tout.",
+          "es": "Lo usas como excusa para no hacer absolutamente nada."
+        },
+        "effects": {
+          "energy": -5,
+          "discipline": -4,
+          "humor": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_side_project_idea",
+    "category": "ambition",
+    "selectionWeight": 1,
+    "text": {
+      "en": "You have a side-project idea that could either flop completely or change everything. You...",
+      "fr": "Tu as une idée de projet perso qui peut soit échouer complètement, soit tout changer. Tu...",
+      "es": "Tienes una idea de proyecto paralelo que puede fracasar por completo o cambiarlo todo. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Quit your job to work on it full-time.",
+          "fr": "Démissionnes pour t'y consacrer à plein temps.",
+          "es": "Renuncias a tu trabajo para dedicarte a esto de lleno."
+        },
+        "effects": {
+          "risk": 9,
+          "ambition": 8,
+          "financialSense": -5
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Work on it quietly on weekends for a year.",
+          "fr": "Travailles dessus tranquillement les week-ends pendant un an.",
+          "es": "Trabajas en ello tranquilamente los fines de semana durante un año."
+        },
+        "effects": {
+          "discipline": 7,
+          "ambition": 5,
+          "risk": -2
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Tell everyone about it before building anything.",
+          "fr": "En parles à tout le monde avant même d'avoir commencé.",
+          "es": "Se lo cuentas a todos antes de haber empezado."
+        },
+        "effects": {
+          "social": 5,
+          "communication": 4,
+          "discipline": -3
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Build a prototype in a weekend, obsessively.",
+          "fr": "Construis un prototype en un week-end, de façon obsessionnelle.",
+          "es": "Construyes un prototipo en un fin de semana, de forma obsesiva."
+        },
+        "effects": {
+          "energy": 7,
+          "creativity": 6,
+          "chaos": 4
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Research the market exhaustively before touching anything.",
+          "fr": "Étudies le marché à fond avant de toucher à quoi que ce soit.",
+          "es": "Investigas el mercado a fondo antes de tocar nada."
+        },
+        "effects": {
+          "intelligence": 6,
+          "discipline": 5,
+          "risk": -3
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Convince friends to join as co-founders.",
+          "fr": "Convaincs des amis de te rejoindre comme cofondateurs.",
+          "es": "Convences a amigos de unirse como cofundadores."
+        },
+        "effects": {
+          "communication": 7,
+          "social": 5,
+          "ambition": 4
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Let it stay a daydream, that's honestly enough.",
+          "fr": "Le laisses rester un rêve éveillé, ça te suffit franchement.",
+          "es": "Dejas que siga siendo un sueño despierto, honestamente te basta."
+        },
+        "effects": {
+          "ambition": -6,
+          "emotionalControl": 4,
+          "creativity": 2
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Pitch it to investors before it even exists.",
+          "fr": "Le présentes à des investisseurs avant même qu'il existe.",
+          "es": "Se lo presentas a inversores antes de que exista siquiera."
+        },
+        "effects": {
+          "ambition": 8,
+          "risk": 6,
+          "communication": 5
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Overthink the name for three weeks straight.",
+          "fr": "Passes trois semaines entières à réfléchir au nom.",
+          "es": "Pasas tres semanas seguidas pensando en el nombre."
+        },
+        "effects": {
+          "intelligence": 3,
+          "discipline": -3,
+          "emotionalControl": -3
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Start it, abandon it, restart it better six months later.",
+          "fr": "Le commences, l'abandonnes, le recommences en mieux six mois après.",
+          "es": "Lo empiezas, lo abandonas, lo retomas mejor seis meses después."
+        },
+        "effects": {
+          "chaos": 6,
+          "creativity": 5,
+          "discipline": -2
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_roast_yourself",
+    "category": "humor",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Forced to roast yourself in front of a crowd, you'd go for...",
+      "fr": "Forcé de te moquer de toi-même devant une foule, tu choisirais...",
+      "es": "Obligado a burlarte de ti mismo frente a una multitud, elegirías..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Brutal, precise honesty.",
+          "fr": "Une honnêteté brutale et précise.",
+          "es": "Una honestidad brutal y precisa."
+        },
+        "effects": {
+          "humor": 7,
+          "intelligence": 4,
+          "emotionalControl": 5
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Absurd exaggeration nobody believes.",
+          "fr": "Une exagération absurde que personne ne croit.",
+          "es": "Una exageración absurda que nadie se cree."
+        },
+        "effects": {
+          "humor": 6,
+          "creativity": 6,
+          "chaos": 4
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "You'd freeze up and roast someone else instead.",
+          "fr": "Tu te figerais et te moquerais de quelqu'un d'autre à la place.",
+          "es": "Te congelarías y te burlarías de otra persona en su lugar."
+        },
+        "effects": {
+          "emotionalControl": -5,
+          "empathy": -3,
+          "chaos": 2
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Self-deprecating jokes about your finances.",
+          "fr": "Des blagues sur tes propres finances.",
+          "es": "Bromas sobre tus propias finanzas."
+        },
+        "effects": {
+          "humor": 5,
+          "financialSense": -2,
+          "emotionalControl": 3
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "A perfectly timed one-liner and nothing more.",
+          "fr": "Une punchline parfaitement calée et rien de plus.",
+          "es": "Una frase perfectamente calculada y nada más."
+        },
+        "effects": {
+          "humor": 7,
+          "discipline": 4,
+          "intelligence": 3
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Roast your own work ethic mercilessly.",
+          "fr": "Te moques sans pitié de ta propre éthique de travail.",
+          "es": "Te burlas sin piedad de tu propia ética laboral."
+        },
+        "effects": {
+          "humor": 5,
+          "discipline": -3,
+          "professionalism": -2
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Turn it into a whole bit with props.",
+          "fr": "En fais un vrai numéro avec des accessoires.",
+          "es": "Lo conviertes en todo un número con accesorios."
+        },
+        "effects": {
+          "creativity": 7,
+          "energy": 6,
+          "chaos": 5
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Deflect with a compliment to the audience instead.",
+          "fr": "Détournes en complimentant le public à la place.",
+          "es": "Desvías con un cumplido al público en su lugar."
+        },
+        "effects": {
+          "social": 6,
+          "empathy": 5,
+          "communication": 4
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Reveal an oddly specific, unflattering fact about yourself.",
+          "fr": "Révèles un fait étrangement précis et peu flatteur sur toi.",
+          "es": "Revelas un dato extrañamente específico y poco favorecedor sobre ti."
+        },
+        "effects": {
+          "humor": 6,
+          "chaos": 3,
+          "empathy": 2
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Make it weirdly philosophical.",
+          "fr": "En fais quelque chose d'étrangement philosophique.",
+          "es": "Lo conviertes en algo extrañamente filosófico."
+        },
+        "effects": {
+          "intelligence": 5,
+          "creativity": 4,
+          "social": -2
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_two_paths_diverge",
+    "category": "decisions",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Faced with a decision that has no clearly right answer, you ultimately decide based on...",
+      "fr": "Face à une décision sans réponse clairement juste, tu te décides finalement en fonction de...",
+      "es": "Ante una decisión sin respuesta claramente correcta, finalmente te decides según..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "A detailed pros and cons list.",
+          "fr": "Une liste détaillée des pour et des contre.",
+          "es": "Una lista detallada de pros y contras."
+        },
+        "effects": {
+          "intelligence": 6,
+          "discipline": 6,
+          "professionalism": 3
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "What a mentor or parent would advise.",
+          "fr": "Ce qu'un mentor ou un parent conseillerait.",
+          "es": "Lo que un mentor o un padre aconsejaría."
+        },
+        "effects": {
+          "discipline": 5,
+          "empathy": 3,
+          "ambition": 2
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Cold, hard financial logic.",
+          "fr": "Une logique financière froide et implacable.",
+          "es": "Una lógica financiera fría e implacable."
+        },
+        "effects": {
+          "financialSense": 7,
+          "intelligence": 4,
+          "empathy": -2
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "A coin flip you re-do three times because you didn't like the answer.",
+          "fr": "Un pile ou face que tu refais trois fois parce que le résultat ne te plaisait pas.",
+          "es": "Una moneda al aire que repites tres veces porque no te gustó el resultado."
+        },
+        "effects": {
+          "chaos": 5,
+          "luck": 3,
+          "emotionalControl": -3
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Posting a poll in the group chat and going with the losing option out of spite.",
+          "fr": "Postes un sondage dans le groupe et choisis l'option perdante par contrariété.",
+          "es": "Publicas una encuesta en el chat grupal y eliges la opción perdedora por despecho." 
+        },
+        "effects": {
+          "social": 5,
+          "chaos": 5,
+          "ambition": -2
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "What would make the best story later, consequences unconsidered.",
+          "fr": "Ce qui ferait la meilleure histoire à raconter plus tard, sans penser aux conséquences.",
+          "es": "Lo que haría la mejor historia después, sin pensar en las consecuencias."
+        },
+        "effects": {
+          "creativity": 6,
+          "risk": 6,
+          "humor": 4
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Whichever option scares you slightly more, on principle.",
+          "fr": "L'option qui te fait un peu plus peur, par principe.",
+          "es": "La opción que te da un poco más de miedo, por principio."
+        },
+        "effects": {
+          "risk": 7,
+          "ambition": 5,
+          "energy": 3
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Asking a stranger's opinion in a store, then following it exactly.",
+          "fr": "Demandes l'avis d'un inconnu dans un magasin, puis le suis à la lettre.",
+          "es": "Pides la opinión de un desconocido en una tienda, y la sigues al pie de la letra."
+        },
+        "effects": {
+          "social": 6,
+          "chaos": 4,
+          "emotionalControl": -2
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Sleeping on it for one night, then deciding at 3am for no clear reason.",
+          "fr": "Dors dessus une nuit, puis décides à 3h du matin sans raison claire.",
+          "es": "Lo consultas con la almohada, y decides a las 3am sin razón clara."
+        },
+        "effects": {
+          "intelligence": 3,
+          "emotionalControl": -4,
+          "chaos": 3
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Delaying so long that circumstances quietly decide for you.",
+          "fr": "Retardes si longtemps que les circonstances finissent par décider à ta place.",
+          "es": "Retrasas tanto que las circunstancias terminan decidiendo por ti."
+        },
+        "effects": {
+          "discipline": -5,
+          "emotionalControl": -3,
+          "chaos": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_terrible_art_supplies",
+    "category": "creativity",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Given only cardboard, tape, and glitter to build something impressive, you...",
+      "fr": "Avec seulement du carton, du scotch et des paillettes pour construire quelque chose d'impressionnant, tu...",
+      "es": "Con solo cartón, cinta adhesiva y purpurina para construir algo impresionante, tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Design something genuinely clever and functional.",
+          "fr": "Conçois quelque chose de vraiment ingénieux et fonctionnel.",
+          "es": "Diseñas algo genuinamente ingenioso y funcional."
+        },
+        "effects": {
+          "intelligence": 6,
+          "creativity": 7,
+          "discipline": 4
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Cover everything in glitter and call it art.",
+          "fr": "Recouvres tout de paillettes et appelles ça de l'art.",
+          "es": "Cubres todo de purpurina y lo llamas arte."
+        },
+        "effects": {
+          "humor": 6,
+          "chaos": 5,
+          "creativity": 4
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Spend most of the time organizing the supplies first.",
+          "fr": "Passes la majeure partie du temps à d'abord organiser le matériel.",
+          "es": "Pasas la mayor parte del tiempo organizando primero el material."
+        },
+        "effects": {
+          "discipline": 6,
+          "professionalism": 3,
+          "creativity": -2
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Recruit others and direct the whole operation.",
+          "fr": "Recrutes d'autres personnes et diriges toute l'opération.",
+          "es": "Reclutas a otros y diriges toda la operación."
+        },
+        "effects": {
+          "communication": 6,
+          "ambition": 5,
+          "social": 4
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Build something deliberately ugly on purpose.",
+          "fr": "Construis quelque chose de délibérément laid, exprès.",
+          "es": "Construyes algo deliberadamente feo, a propósito."
+        },
+        "effects": {
+          "humor": 6,
+          "chaos": 6,
+          "empathy": -2
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Get frustrated that the materials are too limiting.",
+          "fr": "Te frustres que le matériel soit trop limitant.",
+          "es": "Te frustras porque el material es demasiado limitante."
+        },
+        "effects": {
+          "emotionalControl": -4,
+          "ambition": 3,
+          "intelligence": 2
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Build a tiny, oddly detailed replica of something real.",
+          "fr": "Construis une petite réplique étrangement détaillée de quelque chose de réel.",
+          "es": "Construyes una réplica pequeña y extrañamente detallada de algo real."
+        },
+        "effects": {
+          "creativity": 6,
+          "discipline": 5,
+          "intelligence": 4
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Give up halfway and eat the glitter's snack-adjacent packaging instead.",
+          "fr": "Abandonnes à mi-chemin et grignotes autre chose à la place.",
+          "es": "Te rindes a mitad de camino y picas otra cosa en su lugar."
+        },
+        "effects": {
+          "discipline": -5,
+          "energy": -3,
+          "humor": 4
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Turn it into a competitive game with whoever's around.",
+          "fr": "En fais un jeu compétitif avec ceux qui t'entourent.",
+          "es": "Lo conviertes en un juego competitivo con quien esté cerca."
+        },
+        "effects": {
+          "ambition": 5,
+          "social": 5,
+          "risk": 3
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Make something that tells a tiny story.",
+          "fr": "Fabriques quelque chose qui raconte une petite histoire.",
+          "es": "Haces algo que cuenta una pequeña historia."
+        },
+        "effects": {
+          "creativity": 7,
+          "empathy": 4,
+          "communication": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_mismatched_gift",
+    "category": "friends",
+    "selectionWeight": 1,
+    "text": {
+      "en": "You open a gift and it's clearly not something you'll ever use. You...",
+      "fr": "Tu ouvres un cadeau et c'est clairement quelque chose que tu n'utiliseras jamais. Tu...",
+      "es": "Abres un regalo y claramente es algo que nunca usarás. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "React with genuine, convincing enthusiasm.",
+          "fr": "Réagis avec un enthousiasme sincère et convaincant.",
+          "es": "Reaccionas con entusiasmo genuino y convincente."
+        },
+        "effects": {
+          "empathy": 7,
+          "communication": 6,
+          "emotionalControl": 5
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Ask honestly if it can be exchanged.",
+          "fr": "Demandes honnêtement si tu peux l'échanger.",
+          "es": "Preguntas honestamente si se puede cambiar."
+        },
+        "effects": {
+          "communication": 6,
+          "financialSense": 3,
+          "empathy": -2
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Your face gives it away immediately.",
+          "fr": "Ton visage te trahit immédiatement.",
+          "es": "Tu cara te delata de inmediato."
+        },
+        "effects": {
+          "emotionalControl": -6,
+          "communication": -2,
+          "humor": 2
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Quietly plan to regift it later.",
+          "fr": "Prévois discrètement de le regifter plus tard.",
+          "es": "Planeas en silencio regalarlo a otra persona después."
+        },
+        "effects": {
+          "financialSense": 4,
+          "chaos": 3,
+          "empathy": -3
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Turn it into an inside joke on the spot.",
+          "fr": "En fais une blague complice sur le champ.",
+          "es": "Lo conviertes en una broma cómplice al instante."
+        },
+        "effects": {
+          "humor": 7,
+          "social": 4,
+          "creativity": 3
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Find an unexpected use for it out of principle.",
+          "fr": "Lui trouves un usage inattendu par principe.",
+          "es": "Le encuentras un uso inesperado por principio."
+        },
+        "effects": {
+          "creativity": 6,
+          "discipline": 3,
+          "financialSense": 2
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Feel genuinely touched by the thought regardless.",
+          "fr": "Te sens sincèrement touché par l'intention malgré tout.",
+          "es": "Te sientes genuinamente conmovido por la intención de todos modos."
+        },
+        "effects": {
+          "empathy": 8,
+          "emotionalControl": 5
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Mentally calculate how much it probably cost.",
+          "fr": "Calcules mentalement combien ça a probablement coûté.",
+          "es": "Calculas mentalmente cuánto probablemente costó."
+        },
+        "effects": {
+          "financialSense": 5,
+          "intelligence": 3,
+          "empathy": -3
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Immediately suggest a better gift for next time.",
+          "fr": "Suggères immédiatement un meilleur cadeau pour la prochaine fois.",
+          "es": "Sugieres de inmediato un mejor regalo para la próxima vez."
+        },
+        "effects": {
+          "communication": 5,
+          "ambition": 3,
+          "empathy": -4
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Display it prominently just to be kind.",
+          "fr": "L'exposes bien en vue juste pour être gentil.",
+          "es": "Lo exhibes bien a la vista solo por amabilidad."
+        },
+        "effects": {
+          "empathy": 7,
+          "social": 3,
+          "chaos": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_missed_train",
+    "category": "unforeseen",
+    "selectionWeight": 1,
+    "text": {
+      "en": "You miss your train by 30 seconds and the next one is in two hours. You...",
+      "fr": "Tu rates ton train de 30 secondes et le prochain est dans deux heures. Tu...",
+      "es": "Pierdes tu tren por 30 segundos y el próximo es en dos horas. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Immediately look for alternative transport.",
+          "fr": "Cherches immédiatement un autre moyen de transport.",
+          "es": "Buscas de inmediato otro medio de transporte."
+        },
+        "effects": {
+          "intelligence": 6,
+          "discipline": 5,
+          "financialSense": -2
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Accept it and turn the wait into productive time.",
+          "fr": "Acceptes et transformes l'attente en temps productif.",
+          "es": "Lo aceptas y conviertes la espera en tiempo productivo."
+        },
+        "effects": {
+          "discipline": 6,
+          "emotionalControl": 6,
+          "professionalism": 3
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Spiral about everything this will now delay.",
+          "fr": "Pars en vrille en pensant à tout ce que ça va retarder.",
+          "es": "Entras en espiral pensando en todo lo que esto retrasará."
+        },
+        "effects": {
+          "emotionalControl": -6,
+          "ambition": 2
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Strike up a conversation with a stranger nearby.",
+          "fr": "Engages la conversation avec un inconnu à côté.",
+          "es": "Entablas conversación con un desconocido cercano."
+        },
+        "effects": {
+          "social": 7,
+          "communication": 5,
+          "empathy": 3
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Blame yourself for not leaving earlier.",
+          "fr": "Te blâmes de ne pas être parti plus tôt.",
+          "es": "Te culpas por no haber salido antes."
+        },
+        "effects": {
+          "emotionalControl": -4,
+          "discipline": 3
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Treat yourself to something nice at the station.",
+          "fr": "T'offres une petite gâterie à la gare.",
+          "es": "Te das un pequeño gusto en la estación."
+        },
+        "effects": {
+          "financialSense": -3,
+          "emotionalControl": 4,
+          "humor": 3
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Try to sprint after it anyway, uselessly.",
+          "fr": "Tentes de courir après quand même, inutilement.",
+          "es": "Intentas correr detrás de todos modos, inútilmente."
+        },
+        "effects": {
+          "chaos": 5,
+          "energy": 4,
+          "risk": 3
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Call ahead to warn whoever's expecting you.",
+          "fr": "Appelles à l'avance pour prévenir qui t'attend.",
+          "es": "Llamas con anticipación para avisar a quien te espera."
+        },
+        "effects": {
+          "communication": 6,
+          "professionalism": 4,
+          "empathy": 3
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "People-watch and make up stories about strangers.",
+          "fr": "Observes les gens et inventes des histoires sur les inconnus.",
+          "es": "Observas a la gente e inventas historias sobre desconocidos."
+        },
+        "effects": {
+          "creativity": 6,
+          "humor": 3,
+          "social": -1
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Fall asleep on a bench without meaning to.",
+          "fr": "T'endors sur un banc sans le vouloir.",
+          "es": "Te quedas dormido en un banco sin querer."
+        },
+        "effects": {
+          "energy": -5,
+          "discipline": -3,
+          "emotionalControl": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_hard_feedback",
+    "category": "work",
+    "selectionWeight": 1,
+    "text": {
+      "en": "You need to give a colleague honest feedback they won't want to hear. You...",
+      "fr": "Tu dois donner à un collègue un retour honnête qu'il n'aura pas envie d'entendre. Tu...",
+      "es": "Necesitas darle a un colega una crítica honesta que no querrá escuchar. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Say it directly and kindly, no sugarcoating.",
+          "fr": "Le dis directement et avec bienveillance, sans enrober.",
+          "es": "Lo dices directa y amablemente, sin endulzarlo."
+        },
+        "effects": {
+          "communication": 8,
+          "empathy": 6,
+          "emotionalControl": 5
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Sandwich it between two compliments so specific they seem rehearsed.",
+          "fr": "Le glisses entre deux compliments si précis qu'ils semblent répétés.",
+          "es": "Lo intercalas entre dos cumplidos tan específicos que parecen ensayados."
+        },
+        "effects": {
+          "communication": 5,
+          "empathy": 5,
+          "discipline": 2
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Frame it entirely around growth and opportunity, buzzwords included.",
+          "fr": "Le présentes entièrement sous l'angle de la croissance, mots-valises inclus.",
+          "es": "Lo enmarcas en torno al crecimiento, con toda la jerga corporativa incluida."
+        },
+        "effects": {
+          "communication": 7,
+          "ambition": 4,
+          "empathy": 4
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Avoid it for three weeks and hope the problem quietly resolves itself.",
+          "fr": "L'évites pendant trois semaines en espérant que le problème se résout tout seul.",
+          "es": "Lo evitas durante tres semanas esperando que el problema se resuelva solo."
+        },
+        "effects": {
+          "emotionalControl": -5,
+          "discipline": -4,
+          "empathy": -2
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Write a perfectly worded email, then send it at 11:58pm on a Friday.",
+          "fr": "Écris un email parfaitement calibré, puis l'envoies à 23h58 un vendredi.",
+          "es": "Escribes un correo perfectamente calibrado, y lo envías a las 11:58pm un viernes."
+        },
+        "effects": {
+          "communication": 3,
+          "discipline": 3,
+          "emotionalControl": -3
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Quietly ask your manager to 'notice it themselves' instead.",
+          "fr": "Demandes discrètement à ton manager de « le remarquer par lui-même » à ta place.",
+          "es": "Le pides discretamente a tu jefe que 'lo note por sí mismo' en su lugar."
+        },
+        "effects": {
+          "professionalism": 4,
+          "ambition": -3,
+          "empathy": -2
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Rehearse it out loud in the bathroom mirror first, twice.",
+          "fr": "Le répètes à voix haute devant le miroir des toilettes, deux fois.",
+          "es": "Lo ensayas en voz alta frente al espejo del baño, dos veces."
+        },
+        "effects": {
+          "discipline": 5,
+          "emotionalControl": 4,
+          "intelligence": 2
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Blurt it out mid-unrelated-conversation, then immediately change the subject.",
+          "fr": "Le lâches en pleine conversation sans rapport, puis changes aussitôt de sujet.",
+          "es": "Lo sueltas en medio de una conversación sin relación, y cambias de tema al instante."
+        },
+        "effects": {
+          "chaos": 5,
+          "communication": 2,
+          "emotionalControl": -4
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Prepare a slide deck for a conversation that needed one sentence.",
+          "fr": "Prépares un diaporama pour une conversation qui tenait en une phrase.",
+          "es": "Preparas una presentación para una conversación que cabía en una frase."
+        },
+        "effects": {
+          "discipline": 6,
+          "intelligence": 4,
+          "emotionalControl": 3
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Just be blunt, watch their face fall, and immediately overcompensate with compliments.",
+          "fr": "Es juste franc, vois leur visage se décomposer, et surcompenses aussitôt avec des compliments.",
+          "es": "Simplemente eres directo, ves su cara desplomarse, y sobrecompensas al instante con cumplidos."
+        },
+        "effects": {
+          "communication": 5,
+          "professionalism": 4,
+          "empathy": -5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_solo_trip",
+    "category": "risk",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Planning a solo trip somewhere completely unfamiliar, you...",
+      "fr": "En planifiant un voyage en solo dans un endroit totalement inconnu, tu...",
+      "es": "Al planificar un viaje en solitario a un lugar totalmente desconocido, tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Plan every single day down to the hour.",
+          "fr": "Planifies chaque jour, heure par heure.",
+          "es": "Planificas cada día, hora por hora."
+        },
+        "effects": {
+          "discipline": 8,
+          "intelligence": 4,
+          "risk": -3
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Ask everyone you know for recommendations first.",
+          "fr": "Demandes d'abord des recommandations à tout le monde autour de toi.",
+          "es": "Primero pides recomendaciones a todos los que conoces."
+        },
+        "effects": {
+          "social": 6,
+          "communication": 4,
+          "risk": -2
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Budget meticulously to the last cent.",
+          "fr": "Budgétises méticuleusement au centime près.",
+          "es": "Presupuestas meticulosamente hasta el último céntimo."
+        },
+        "effects": {
+          "financialSense": 7,
+          "discipline": 5
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Book the flight, no hotel, no plan, and figure it out at 2am on arrival.",
+          "fr": "Réserves le vol, sans hôtel ni plan, et improvises tout à 2h du matin sur place.",
+          "es": "Reservas el vuelo, sin hotel ni plan, e improvisas todo a las 2am al llegar."
+        },
+        "effects": {
+          "risk": 8,
+          "chaos": 6,
+          "energy": 4
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Read 40 travel blogs and still feel completely unprepared.",
+          "fr": "Lis 40 blogs de voyage et te sens quand même totalement mal préparé.",
+          "es": "Lees 40 blogs de viaje y aun así te sientes totalmente poco preparado."
+        },
+        "effects": {
+          "intelligence": 5,
+          "emotionalControl": -4,
+          "discipline": 3
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Get genuinely emotional about being alone with your thoughts for once.",
+          "fr": "T'émeus sincèrement à l'idée d'être enfin seul avec tes pensées.",
+          "es": "Te emocionas genuinamente ante la idea de estar por fin solo con tus pensamientos."
+        },
+        "effects": {
+          "emotionalControl": 6,
+          "creativity": 4,
+          "energy": 3
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Cancel it mentally four times in the week before, book it anyway.",
+          "fr": "L'annules mentalement quatre fois dans la semaine avant, mais pars quand même.",
+          "es": "Lo cancelas mentalmente cuatro veces la semana anterior, pero vas de todos modos."
+        },
+        "effects": {
+          "emotionalControl": -5,
+          "risk": -2,
+          "ambition": 2
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Learn exactly three phrases: hello, thank you, and where's the bathroom.",
+          "fr": "Apprends exactement trois phrases : bonjour, merci, et où sont les toilettes.",
+          "es": "Aprendes exactamente tres frases: hola, gracias, y dónde está el baño."
+        },
+        "effects": {
+          "discipline": 4,
+          "communication": 4,
+          "empathy": 3
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Pack a suitcase you can't lift, for a trip that's four days long.",
+          "fr": "Fais une valise que tu ne peux pas soulever, pour un voyage de quatre jours.",
+          "es": "Haces una maleta que no puedes levantar, para un viaje de cuatro días."
+        },
+        "effects": {
+          "discipline": 3,
+          "risk": -3,
+          "chaos": 2
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Tell almost no one you're going, just to see if anyone notices you're gone.",
+          "fr": "Ne le dis presque à personne, juste pour voir si quelqu'un remarque ton absence.",
+          "es": "Casi no le cuentas a nadie, solo para ver si alguien nota tu ausencia."
+        },
+        "effects": {
+          "risk": 6,
+          "social": -4,
+          "ambition": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_roommate_dishes",
+    "category": "organization",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Dishes have piled up in the shared kitchen for the third time this month. You...",
+      "fr": "La vaisselle s'accumule dans la cuisine commune pour la troisième fois ce mois-ci. Tu...",
+      "es": "Los platos se han acumulado en la cocina compartida por tercera vez este mes. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Set up a clear, fair chore schedule.",
+          "fr": "Mets en place un planning de tâches clair et équitable.",
+          "es": "Estableces un horario de tareas claro y justo."
+        },
+        "effects": {
+          "discipline": 7,
+          "communication": 5,
+          "professionalism": 3
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Quietly do the dishes yourself, again.",
+          "fr": "Fais discrètement la vaisselle toi-même, encore une fois.",
+          "es": "Lavas los platos tú mismo en silencio, otra vez."
+        },
+        "effects": {
+          "empathy": 5,
+          "discipline": 4,
+          "emotionalControl": -4
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Leave a passive-aggressive note.",
+          "fr": "Laisses un mot passif-agressif.",
+          "es": "Dejas una nota pasivo-agresiva."
+        },
+        "effects": {
+          "communication": 2,
+          "emotionalControl": -5,
+          "humor": 3
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Have a direct, calm conversation about it.",
+          "fr": "As une conversation directe et calme à ce sujet.",
+          "es": "Tienes una conversación directa y calmada al respecto."
+        },
+        "effects": {
+          "communication": 7,
+          "emotionalControl": 6
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Stop using shared dishes entirely, out of spite.",
+          "fr": "Arrêtes complètement d'utiliser la vaisselle commune, par dépit.",
+          "es": "Dejas de usar los platos compartidos por completo, por despecho."
+        },
+        "effects": {
+          "chaos": 4,
+          "emotionalControl": -4,
+          "discipline": 3
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Turn it into a joke in the group chat.",
+          "fr": "En fais une blague dans le groupe de discussion.",
+          "es": "Lo conviertes en una broma en el chat grupal."
+        },
+        "effects": {
+          "humor": 6,
+          "social": 3,
+          "communication": 3
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Move out mentally and start apartment hunting.",
+          "fr": "Décroches mentalement et commences à chercher un appart.",
+          "es": "Te desconectas mentalmente y empiezas a buscar apartamento."
+        },
+        "effects": {
+          "ambition": 4,
+          "emotionalControl": -3,
+          "financialSense": -2
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Buy your own dishes and label them.",
+          "fr": "Achètes ta propre vaisselle et l'étiquettes.",
+          "es": "Compras tus propios platos y los etiquetas."
+        },
+        "effects": {
+          "discipline": 6,
+          "financialSense": -2,
+          "chaos": 2
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Let it become a full-blown household meeting.",
+          "fr": "Laisses ça devenir une vraie réunion de colocation.",
+          "es": "Dejas que se convierta en una reunión formal del piso."
+        },
+        "effects": {
+          "communication": 6,
+          "professionalism": 4,
+          "ambition": 2
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Genuinely not notice or care either way.",
+          "fr": "Ne remarques sincèrement rien et t'en fiches complètement.",
+          "es": "Sinceramente no lo notas ni te importa."
+        },
+        "effects": {
+          "discipline": -5,
+          "emotionalControl": 4,
+          "chaos": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_accidental_viral",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Something you posted unexpectedly goes viral overnight. You...",
+      "fr": "Quelque chose que tu as posté devient viral du jour au lendemain. Tu...",
+      "es": "Algo que publicaste se vuelve viral de la noche a la mañana. Tú..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Lean into it and post a follow-up immediately.",
+          "fr": "En profites et postes une suite immédiatement.",
+          "es": "Lo aprovechas y publicas una continuación de inmediato."
+        },
+        "effects": {
+          "ambition": 7,
+          "energy": 6,
+          "creativity": 4
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Get overwhelmed and go quiet for a while.",
+          "fr": "Te sens dépassé et te fais discret pendant un moment.",
+          "es": "Te sientes abrumado y te vuelves discreto por un tiempo."
+        },
+        "effects": {
+          "emotionalControl": -5,
+          "social": -3,
+          "energy": -3
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Read every single comment, good and bad.",
+          "fr": "Lis absolument tous les commentaires, bons et mauvais.",
+          "es": "Lees absolutamente todos los comentarios, buenos y malos."
+        },
+        "effects": {
+          "emotionalControl": -4,
+          "intelligence": 2,
+          "social": 3
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Try to monetize it before it fades.",
+          "fr": "Essaies de le monétiser avant que ça retombe.",
+          "es": "Intentas monetizarlo antes de que se desvanezca."
+        },
+        "effects": {
+          "financialSense": 6,
+          "ambition": 6,
+          "risk": 4
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Screenshot it for your own records and move on.",
+          "fr": "En fais une capture d'écran pour tes archives et passes à autre chose.",
+          "es": "Le tomas una captura de pantalla para tu archivo y sigues adelante."
+        },
+        "effects": {
+          "emotionalControl": 5,
+          "discipline": 3
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Feel weirdly guilty about the attention.",
+          "fr": "Te sens étrangement coupable de toute cette attention.",
+          "es": "Te sientes extrañamente culpable por toda la atención."
+        },
+        "effects": {
+          "empathy": 4,
+          "emotionalControl": -3,
+          "ambition": -2
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Text everyone you know to make sure they saw it.",
+          "fr": "Textes tout le monde pour être sûr qu'ils l'ont vu.",
+          "es": "Le escribes a todos para asegurarte de que lo vieron."
+        },
+        "effects": {
+          "social": 6,
+          "humor": 3,
+          "ambition": 3
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Analyze exactly why it worked, for next time.",
+          "fr": "Analyses précisément pourquoi ça a marché, pour la prochaine fois.",
+          "es": "Analizas exactamente por qué funcionó, para la próxima vez."
+        },
+        "effects": {
+          "intelligence": 6,
+          "creativity": 4,
+          "ambition": 3
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Delete it out of sudden panic.",
+          "fr": "Le supprimes dans un soudain accès de panique.",
+          "es": "Lo eliminas en un repentino ataque de pánico."
+        },
+        "effects": {
+          "emotionalControl": -6,
+          "risk": -3
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Make a self-aware joke about the whole situation.",
+          "fr": "Fais une blague sur toute la situation, en pleine conscience.",
+          "es": "Haces una broma consciente sobre toda la situación."
+        },
+        "effects": {
+          "humor": 7,
+          "social": 4,
+          "emotionalControl": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_running_on_empty",
+    "category": "stress",
+    "selectionWeight": 1,
+    "text": {
+      "en": "You realize you've been running on empty for weeks. Your first move is to...",
+      "fr": "Tu réalises que tu fonctionnes à vide depuis des semaines. Ton premier réflexe est de...",
+      "es": "Te das cuenta de que llevas semanas funcionando en vacío. Tu primer instinto es..."
+    },
+    "answers": [
+      {
+        "id": "a1",
+        "text": {
+          "en": "Block out a full day to properly rest.",
+          "fr": "Bloquer une journée entière pour vraiment te reposer.",
+          "es": "Bloquear un día entero para descansar de verdad."
+        },
+        "effects": {
+          "discipline": 6,
+          "emotionalControl": 6,
+          "energy": 4
+        }
+      },
+      {
+        "id": "a2",
+        "text": {
+          "en": "Push through anyway, rest is for later.",
+          "fr": "Continuer quand même, le repos c'est pour plus tard.",
+          "es": "Seguir adelante de todos modos, el descanso es para después."
+        },
+        "effects": {
+          "ambition": 6,
+          "discipline": 4,
+          "emotionalControl": -5
+        }
+      },
+      {
+        "id": "a3",
+        "text": {
+          "en": "Talk to someone close about how you're feeling.",
+          "fr": "Parler à quelqu'un de proche de ce que tu ressens.",
+          "es": "Hablar con alguien cercano sobre cómo te sientes."
+        },
+        "effects": {
+          "empathy": 6,
+          "communication": 5,
+          "emotionalControl": 4
+        }
+      },
+      {
+        "id": "a4",
+        "text": {
+          "en": "Reorganize your whole schedule from scratch.",
+          "fr": "Réorganiser tout ton emploi du temps depuis zéro.",
+          "es": "Reorganizar toda tu agenda desde cero."
+        },
+        "effects": {
+          "discipline": 7,
+          "intelligence": 4,
+          "chaos": -2
+        }
+      },
+      {
+        "id": "a5",
+        "text": {
+          "en": "Book something impulsive and far away.",
+          "fr": "Réserver quelque chose d'impulsif et loin d'ici.",
+          "es": "Reservar algo impulsivo y lejano."
+        },
+        "effects": {
+          "risk": 6,
+          "chaos": 5,
+          "financialSense": -3
+        }
+      },
+      {
+        "id": "a6",
+        "text": {
+          "en": "Ignore it, it'll pass eventually.",
+          "fr": "L'ignorer, ça finira par passer.",
+          "es": "Ignorarlo, eventualmente pasará."
+        },
+        "effects": {
+          "emotionalControl": -6,
+          "discipline": -3
+        }
+      },
+      {
+        "id": "a7",
+        "text": {
+          "en": "Cut out everything non-essential immediately.",
+          "fr": "Couper immédiatement tout ce qui n'est pas essentiel.",
+          "es": "Eliminar de inmediato todo lo no esencial."
+        },
+        "effects": {
+          "discipline": 6,
+          "ambition": -2,
+          "intelligence": 3
+        }
+      },
+      {
+        "id": "a8",
+        "text": {
+          "en": "Research burnout extensively instead of resting.",
+          "fr": "Faire des recherches poussées sur le burnout au lieu de te reposer.",
+          "es": "Investigar a fondo el burnout en lugar de descansar."
+        },
+        "effects": {
+          "intelligence": 5,
+          "discipline": 2,
+          "emotionalControl": -2
+        }
+      },
+      {
+        "id": "a9",
+        "text": {
+          "en": "Snap at people more than usual without noticing.",
+          "fr": "T'énerver plus que d'habitude sans t'en rendre compte.",
+          "es": "Enojarte más de lo habitual sin notarlo."
+        },
+        "effects": {
+          "emotionalControl": -7,
+          "empathy": -3
+        }
+      },
+      {
+        "id": "a10",
+        "text": {
+          "en": "Laugh it off and make burnout jokes with coworkers.",
+          "fr": "En rire et faire des blagues sur le burnout avec tes collègues.",
+          "es": "Reírte y hacer bromas sobre el burnout con colegas."
+        },
+        "effects": {
+          "humor": 6,
+          "social": 3,
+          "emotionalControl": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "q_boss_wants_to_talk",
+    "category": "work",
+    "selectionWeight": 1,
+    "text": {
+      "en": "You get a message: \"Can you come to my office?\" from your boss. You...",
+      "fr": "Tu reçois un message : « Tu peux passer dans mon bureau ? » de ton boss. Tu...",
+      "es": "Recibes un mensaje: \"¿Puedes venir a mi oficina?\" de tu jefe. Tú..."
+    },
+    "answers": [
+      { "id": "a1", "text": { "en": "Ask calmly what it's about before heading over.", "fr": "Demandes calmement de quoi il s'agit avant d'y aller.", "es": "Preguntas con calma de qué se trata antes de ir." }, "effects": { "communication": 6, "emotionalControl": 5, "intelligence": 3 } },
+      { "id": "a2", "text": { "en": "Say \"sure\" and just go, no big deal.", "fr": "Dis « ok » et y vas directement, sans plus y penser.", "es": "Dices \"claro\" y vas directamente, sin darle más vueltas." }, "effects": { "discipline": 5, "emotionalControl": 4, "risk": 2 } },
+      { "id": "a3", "text": { "en": "Mentally prepare three possible explanations on the walk over.", "fr": "Prépares mentalement trois explications possibles sur le chemin.", "es": "Preparas mentalmente tres explicaciones posibles en el camino." }, "effects": { "intelligence": 6, "discipline": 4, "professionalism": 3 } },
+      { "id": "a4", "text": { "en": "Say \"okay!\" out loud, then sweat quietly for the next four hours.", "fr": "Dis « d'accord ! » à voix haute, puis sues en silence pendant les quatre heures qui suivent.", "es": "Dices \"¡vale!\" en voz alta, luego sudas en silencio durante las siguientes cuatro horas." }, "effects": { "emotionalControl": -7, "discipline": 2, "humor": 3 } },
+      { "id": "a5", "text": { "en": "Draft a resignation letter first, just in case.", "fr": "Rédiges ta lettre de démission d'abord, juste au cas où.", "es": "Redactas tu carta de renuncia primero, por si acaso." }, "effects": { "chaos": 6, "risk": 4, "emotionalControl": -5, "ambition": -2 } },
+      { "id": "a6", "text": { "en": "Set your LinkedIn to \"open to work\" before even knocking on the door.", "fr": "Passes ton LinkedIn en « ouvert aux opportunités » avant même d'avoir frappé à la porte.", "es": "Pones tu LinkedIn en \"abierto a oportunidades\" antes de tocar la puerta siquiera." }, "effects": { "ambition": 5, "risk": 4, "chaos": 4, "financialSense": 2 } },
+      { "id": "a7", "text": { "en": "Mentally replay the last six months looking for what you did wrong.", "fr": "Repasses mentalement les six derniers mois pour trouver ce que t'as fait de mal.", "es": "Repasas mentalmente los últimos seis meses buscando qué hiciste mal." }, "effects": { "intelligence": 4, "emotionalControl": -6, "empathy": 2 } },
+      { "id": "a8", "text": { "en": "Text three coworkers \"he wants to see me, I'm definitely fired\" within ten seconds.", "fr": "Textes trois collègues « il veut me voir, je suis viré c'est sûr » en moins de dix secondes.", "es": "Le escribes a tres compañeros \"quiere verme, seguro que estoy despedido\" en diez segundos." }, "effects": { "social": 5, "chaos": 5, "emotionalControl": -6 } },
+      { "id": "a9", "text": { "en": "Seriously start considering working from home forever to avoid this exact moment.", "fr": "Envisages sérieusement de télétravailler à vie pour éviter ce genre de moment.", "es": "Empiezas a considerar seriamente trabajar desde casa para siempre para evitar esto." }, "effects": { "risk": -4, "discipline": 2, "ambition": -3, "chaos": 2 } },
+      { "id": "a10", "text": { "en": "Walk over repeating \"everything is fine\" like a mantra, believing none of it.", "fr": "Marches vers le bureau en répétant « tout va bien » comme un mantra, sans y croire une seconde.", "es": "Caminas repitiendo \"todo está bien\" como un mantra, sin creerlo ni un poco." }, "effects": { "emotionalControl": -4, "humor": 5, "discipline": 2 } }
+    ]
+  }
+]
