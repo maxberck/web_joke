@@ -1,4 +1,5 @@
 import type { Answer, StatEffects } from "@final-form/shared-types";
+import { weightedSampleWithoutReplacement } from "./weightedRandom.ts";
 
 function effectDistance(a: StatEffects, b: StatEffects): number {
   const keys = new Set([...Object.keys(a), ...Object.keys(b)]);
@@ -16,22 +17,33 @@ export interface SelectAnswersOptions {
 }
 
 /**
- * Choisit `count` réponses parmi le pool de 10 en maximisant la diversité de leurs
- * effets statistiques, pour garantir un vrai dilemme (section 4) plutôt que trois
- * réponses qui orientent quasiment vers le même profil.
+ * Sélectionne des réponses en combinant deux objectifs :
+ * 1. `selectionWeight` reste une préférence éditoriale ;
+ * 2. les effets statistiques restent suffisamment différents pour créer un dilemme.
  */
 export function selectAnswers(answers: Answer[], options: SelectAnswersOptions): Answer[] {
   const { count, rng = Math.random } = options;
-  if (answers.length <= count) return [...answers];
+  if (!Number.isInteger(count) || count < 0) throw new Error(`Invalid answer count: ${count}.`);
+  if (answers.length < count) {
+    throw new Error(`Not enough answers: requested ${count}, available ${answers.length}.`);
+  }
+  if (answers.length === count) return [...answers];
+  if (count === 0) return [];
 
-  const remaining = [...answers];
+  const remaining = [...new Map(answers.map((answer) => [answer.id, answer])).values()];
+  if (remaining.length < count) throw new Error(`Not enough unique answers for selection.`);
 
-  // Première réponse : tirage pondéré simple pour garder une part d'aléatoire.
-  const firstIndex = Math.floor(rng() * remaining.length);
-  const selected: Answer[] = [remaining.splice(firstIndex, 1)[0]!];
+  const [first] = weightedSampleWithoutReplacement(
+    remaining,
+    1,
+    (answer) => answer.selectionWeight ?? 1,
+    rng
+  );
+  if (!first) throw new Error("Unable to select the first answer.");
 
-  // Réponses suivantes : on prend celle qui maximise la distance minimale
-  // aux réponses déjà choisies (farthest-point sampling).
+  const selected: Answer[] = [first];
+  remaining.splice(remaining.findIndex((answer) => answer.id === first.id), 1);
+
   while (selected.length < count && remaining.length > 0) {
     let bestIndex = 0;
     let bestScore = -Infinity;
@@ -40,8 +52,11 @@ export function selectAnswers(answers: Answer[], options: SelectAnswersOptions):
       const minDistance = Math.min(
         ...selected.map((chosen) => effectDistance(chosen.effects, candidate.effects))
       );
-      if (minDistance > bestScore) {
-        bestScore = minDistance;
+      const weight = Math.max(candidate.selectionWeight ?? 1, 0.0001);
+      // Logarithme : le poids influence le choix sans écraser la diversité statistique.
+      const score = minDistance + Math.log(weight) * 2;
+      if (score > bestScore) {
+        bestScore = score;
         bestIndex = index;
       }
     });
