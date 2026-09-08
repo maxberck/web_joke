@@ -18,6 +18,7 @@ const seen = (entries, label) => {
     if (!entry?.id || ids.has(entry.id)) throw new Error(`${label}: duplicate/empty id ${entry?.id ?? "<empty>"}`);
     ids.add(entry.id);
   }
+  return ids;
 };
 const finiteRange = (value, label) => {
   if (!Number.isFinite(value) || value < 0 || value > 100) throw new Error(`${label}: expected finite value in 0..100`);
@@ -60,18 +61,22 @@ for (const question of data.questions) {
   }
 }
 
-for (const name of files.slice(1, 7)) {
-  seen(data[name], name);
-  for (const entry of data[name]) {
+const resultGroups = {
+  careers: data.careers,
+  classes: data.classes,
+  powers: data.powers,
+  weaknesses: data.weaknesses,
+  abilities: data.abilities,
+  workStyles: data.workStyles,
+  animals: data.animals,
+};
+const resultIds = {};
+for (const [name, entries] of Object.entries(resultGroups)) {
+  resultIds[name] = seen(entries, name);
+  for (const entry of entries) {
     localized(getLocalizedLabel(entry), `${name} ${entry.id}`);
     validateProfile(entry.lowProfile ?? entry.idealProfile, `${name} ${entry.id}`);
   }
-}
-
-seen(data.workStyles, "workStyles");
-for (const workStyle of data.workStyles) {
-  localized(getLocalizedLabel(workStyle), `workStyle ${workStyle.id}`);
-  validateProfile(workStyle.idealProfile, `workStyle ${workStyle.id}`);
 }
 
 seen(data.alignments, "alignments");
@@ -92,8 +97,15 @@ for (const rule of data.synergyRules) {
 }
 
 const baselines = JSON.parse(await readFile(resolve(dataDir, "matchBaselines.json"), "utf8"));
-for (const [group, entries] of Object.entries(baselines)) {
+const baselineGroups = Object.keys(resultGroups);
+for (const group of baselineGroups) {
+  const entries = baselines[group];
+  if (!entries || typeof entries !== "object") throw new Error(`baseline ${group}: group missing`);
+  for (const id of resultIds[group]) {
+    if (!entries[id]) throw new Error(`baseline ${group}.${id}: missing entity baseline`);
+  }
   for (const [id, baseline] of Object.entries(entries)) {
+    if (!resultIds[group].has(id)) throw new Error(`baseline ${group}.${id}: unknown entity`);
     if (!Number.isFinite(baseline.mean) || !Number.isFinite(baseline.std) || baseline.std <= 0) {
       throw new Error(`baseline ${group}.${id}: mean/std invalid`);
     }
