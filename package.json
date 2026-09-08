@@ -5,7 +5,6 @@
   "type": "module",
   "workspaces": [
     "packages/*",
-    "content-pipeline",
     "simulation"
   ],
   "scripts": {
@@ -13,9 +12,9 @@
     "build": "tsc -b && vite build",
     "typecheck": "tsc -b --pretty false",
     "preview": "vite preview",
-    "content:seed": "npm run seed -w content-pipeline",
-    "content:export": "npm run export -w content-pipeline",
-    "content:validate": "npm run validate -w content-pipeline",
+    "content:seed": "node content-pipeline/scripts/seed.mjs",
+    "content:export": "node content-pipeline/scripts/export.mjs",
+    "content:validate": "node content-pipeline/scripts/validateContent.mjs",
     "sim:run": "npm run run -w simulation",
     "sim:build-rarity": "npm run build-rarity -w simulation",
     "sim:build-baselines": "npm run build-baselines -w simulation"
