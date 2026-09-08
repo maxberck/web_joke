@@ -23,6 +23,9 @@ const seen = (entries, label) => {
 const finiteRange = (value, label) => {
   if (!Number.isFinite(value) || value < 0 || value > 100) throw new Error(`${label}: expected finite value in 0..100`);
 };
+const finiteAxis = (value, label) => {
+  if (!Number.isFinite(value) || value < -100 || value > 100) throw new Error(`${label}: expected finite value in -100..100`);
+};
 const localized = (value, label) => {
   for (const locale of locales) {
     if (typeof value?.[locale] !== "string" || value[locale].trim() === "") {
@@ -84,7 +87,7 @@ seen(data.synergyRules, "synergyRules");
 for (const alignment of data.alignments) {
   localized(getLocalizedLabel(alignment), `alignment ${alignment.id}`);
   if (alignment.lawfulChaotic?.length !== 2 || alignment.selflessSelfInterested?.length !== 2) throw new Error(`alignment ${alignment.id}: invalid axes`);
-  for (const value of [...alignment.lawfulChaotic, ...alignment.selflessSelfInterested]) finiteRange(value, `alignment ${alignment.id}`);
+  for (const value of [...alignment.lawfulChaotic, ...alignment.selflessSelfInterested]) finiteAxis(value, `alignment ${alignment.id}`);
 }
 for (const rule of data.synergyRules) {
   if (!Array.isArray(rule.conditions) || rule.conditions.length === 0) throw new Error(`synergy ${rule.id}: empty conditions`);
