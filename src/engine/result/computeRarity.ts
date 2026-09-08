@@ -1,15 +1,8 @@
 export interface RarityBucket {
-  /** Score de rareté minimum pour tomber dans ce bucket (bornes croissantes). */
   minScore: number;
   oneInX: number;
 }
 
-/**
- * Table de correspondance score → "1/X", générée par `simulation/buildRarityDistribution.ts`
- * à partir de centaines de milliers de profils simulés (percentiles réels, pas inventés).
- * Tant que la simulation n'a pas tourné, on utilise une table de secours grossière
- * pour ne pas bloquer le développement — à REMPLACER par la vraie distribution.
- */
 export const FALLBACK_RARITY_TABLE: RarityBucket[] = [
   { minScore: 0, oneInX: 2 },
   { minScore: 5, oneInX: 10 },
@@ -22,21 +15,23 @@ export const FALLBACK_RARITY_TABLE: RarityBucket[] = [
 
 export interface ComputeRarityOptions {
   table?: RarityBucket[];
+  allowFallback?: boolean;
 }
 
 export function computeRarity(
   totalRarityScore: number,
-  options: ComputeRarityOptions = {}
+  options: ComputeRarityOptions = {},
 ): { score: number; oneInX: number } {
-  const table = options.table ?? FALLBACK_RARITY_TABLE;
-
-  // On cherche le dernier bucket dont le seuil est <= au score du profil.
-  let oneInX = table[0]!.oneInX;
-  for (const bucket of table) {
-    if (totalRarityScore >= bucket.minScore) {
-      oneInX = bucket.oneInX;
-    }
+  const table = options.table ?? (options.allowFallback ? FALLBACK_RARITY_TABLE : undefined);
+  if (!table || table.length === 0) {
+    throw new Error("Rarity table is required for production result calculation");
   }
 
-  return { score: totalRarityScore, oneInX };
+  const sorted = [...table].sort((a, b) => a.minScore - b.minScore);
+  let oneInX = sorted[0]!.oneInX;
+  for (const bucket of sorted) {
+    if (totalRarityScore >= bucket.minScore) oneInX = bucket.oneInX;
+  }
+
+  return { score: Number.isFinite(totalRarityScore) ? totalRarityScore : 0, oneInX };
 }
