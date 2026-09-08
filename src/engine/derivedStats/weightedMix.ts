@@ -1,8 +1,10 @@
 import type { Stats, StatKey } from "@final-form/shared-types";
 
 /**
- * Calcule une moyenne pondérée de plusieurs stats et ramène le résultat
- * dans 0-100 (les poids n'ont pas besoin de sommer à 1, ils sont normalisés ici).
+ * Calcule une moyenne pondérée bornée sur 0..100.
+ *
+ * Les poids peuvent être négatifs pour représenter un effet de compensation,
+ * mais la valeur publique reste toujours dans le contrat 0..100.
  */
 export function weightedMix(stats: Stats, weights: Partial<Record<StatKey, number>>): number {
   let weightedSum = 0;
@@ -10,12 +12,21 @@ export function weightedMix(stats: Stats, weights: Partial<Record<StatKey, numbe
 
   for (const [key, weight] of Object.entries(weights)) {
     if (weight === undefined) continue;
-    weightedSum += stats[key as StatKey] * weight;
+    if (!Number.isFinite(weight)) {
+      throw new Error(`Invalid weight for stat "${key}": expected a finite number.`);
+    }
+
+    const value = stats[key as StatKey];
+    if (!Number.isFinite(value)) {
+      throw new Error(`Invalid stat "${key}": expected a finite number.`);
+    }
+
+    weightedSum += value * weight;
     totalAbsWeight += Math.abs(weight);
   }
 
   if (totalAbsWeight === 0) return 0;
-  // Normaliser par la somme des poids absolus : un poids négatif (ex: emotionalControl
-  // qui tempère dangerProfile) tire le score vers le bas sans fausser l'échelle 0-100.
-  return Math.round(weightedSum / totalAbsWeight);
+
+  const value = weightedSum / totalAbsWeight;
+  return Math.max(0, Math.min(100, Math.round(value)));
 }
