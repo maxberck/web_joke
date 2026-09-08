@@ -21,12 +21,8 @@ jobs:
           node-version: 20
           cache: npm
 
-      # Le lockfile actuel provient d'une version antérieure du monorepo.
-      # npm ci refuse donc l'installation avant même d'atteindre nos validations.
-      # On utilise temporairement npm install sans réécrire le lockfile du dépôt.
-      # Une fois le lockfile régénéré proprement, cette étape devra revenir à npm ci.
       - name: Installer les dépendances
-        run: npm install --no-audit --no-fund --no-package-lock
+        run: npm ci
 
       - name: Valider le contenu
         run: npm run content:validate
