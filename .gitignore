@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.log
+content-pipeline/data/authoring.sqlite
+simulation/reports/*.json
+*.tsbuildinfo
+.DS_Store

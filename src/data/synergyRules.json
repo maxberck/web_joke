@@ -1,0 +1,585 @@
+[
+  {
+    "id": "syn_fixes_everything_with_a_paperclip",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">",
+        "value": 75
+      },
+      {
+        "stat": "creativity",
+        "op": ">",
+        "value": 70
+      },
+      {
+        "stat": "discipline",
+        "op": ">",
+        "value": 60
+      }
+    ],
+    "weight": 3,
+    "rarityScore": 12,
+    "tags": [
+      "fixes_everything_with_a_paperclip"
+    ]
+  },
+  {
+    "id": "syn_genius_with_47_open_tabs",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">",
+        "value": 75
+      },
+      {
+        "stat": "creativity",
+        "op": ">",
+        "value": 70
+      },
+      {
+        "stat": "discipline",
+        "op": "<",
+        "value": 40
+      },
+      {
+        "stat": "chaos",
+        "op": ">",
+        "value": 65
+      }
+    ],
+    "weight": 4,
+    "rarityScore": 18,
+    "tags": [
+      "genius_with_47_open_tabs",
+      "high_chaos_genius"
+    ]
+  },
+  {
+    "id": "syn_remembers_your_dogs_name",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">",
+        "value": 75
+      },
+      {
+        "stat": "communication",
+        "op": ">",
+        "value": 75
+      },
+      {
+        "stat": "empathy",
+        "op": ">",
+        "value": 70
+      }
+    ],
+    "weight": 3,
+    "rarityScore": 10,
+    "tags": [
+      "remembers_your_dogs_name"
+    ]
+  },
+  {
+    "id": "syn_secretly_a_finance_wizard",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">",
+        "value": 75
+      },
+      {
+        "stat": "risk",
+        "op": ">",
+        "value": 70
+      },
+      {
+        "stat": "financialSense",
+        "op": ">",
+        "value": 70
+      },
+      {
+        "stat": "luck",
+        "op": ">",
+        "value": 80
+      },
+      {
+        "stat": "ambition",
+        "op": ">",
+        "value": 80
+      }
+    ],
+    "weight": 6,
+    "rarityScore": 28,
+    "tags": [
+      "secretly_a_finance_wizard",
+      "jackpot_eligible"
+    ]
+  },
+  {
+    "id": "syn_human_do_not_disturb_sign",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">",
+        "value": 78
+      },
+      {
+        "stat": "chaos",
+        "op": "<",
+        "value": 40
+      }
+    ],
+    "weight": 2,
+    "rarityScore": 6,
+    "tags": [
+      "human_do_not_disturb_sign"
+    ]
+  },
+  {
+    "id": "syn_walking_hr_incident",
+    "conditions": [
+      {
+        "stat": "chaos",
+        "op": ">",
+        "value": 80
+      },
+      {
+        "stat": "risk",
+        "op": ">",
+        "value": 75
+      },
+      {
+        "stat": "emotionalControl",
+        "op": "<",
+        "value": 35
+      }
+    ],
+    "weight": 5,
+    "rarityScore": 22,
+    "tags": [
+      "walking_hr_incident",
+      "high_threat"
+    ]
+  },
+  {
+    "id": "syn_glue_gun_and_a_dream",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">",
+        "value": 80
+      },
+      {
+        "stat": "chaos",
+        "op": ">",
+        "value": 60
+      },
+      {
+        "stat": "discipline",
+        "op": "<",
+        "value": 40
+      }
+    ],
+    "weight": 3,
+    "rarityScore": 14,
+    "tags": [
+      "glue_gun_and_a_dream"
+    ]
+  },
+  {
+    "id": "syn_suspiciously_organized_binder",
+    "conditions": [
+      {
+        "stat": "professionalism",
+        "op": ">",
+        "value": 75
+      },
+      {
+        "stat": "discipline",
+        "op": ">",
+        "value": 75
+      },
+      {
+        "stat": "chaos",
+        "op": "<",
+        "value": 30
+      }
+    ],
+    "weight": 3,
+    "rarityScore": 12,
+    "tags": [
+      "suspiciously_organized_binder"
+    ]
+  },
+  {
+    "id": "syn_knows_everyone_at_the_party",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">",
+        "value": 80
+      },
+      {
+        "stat": "humor",
+        "op": ">",
+        "value": 70
+      },
+      {
+        "stat": "energy",
+        "op": ">",
+        "value": 70
+      }
+    ],
+    "weight": 3,
+    "rarityScore": 13,
+    "tags": [
+      "knows_everyone_at_the_party"
+    ]
+  },
+  {
+    "id": "syn_solo_genius_no_group_chat",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": "<",
+        "value": 25
+      },
+      {
+        "stat": "intelligence",
+        "op": ">",
+        "value": 70
+      },
+      {
+        "stat": "discipline",
+        "op": ">",
+        "value": 60
+      }
+    ],
+    "weight": 3,
+    "rarityScore": 15,
+    "tags": [
+      "solo_genius_no_group_chat"
+    ]
+  },
+  {
+    "id": "syn_running_on_coffee_and_spite",
+    "conditions": [
+      {
+        "stat": "ambition",
+        "op": ">",
+        "value": 85
+      },
+      {
+        "stat": "energy",
+        "op": "<",
+        "value": 30
+      },
+      {
+        "stat": "emotionalControl",
+        "op": "<",
+        "value": 35
+      }
+    ],
+    "weight": 4,
+    "rarityScore": 18,
+    "tags": [
+      "running_on_coffee_and_spite"
+    ]
+  },
+  {
+    "id": "syn_annoyingly_good_at_everything",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">",
+        "value": 80
+      },
+      {
+        "stat": "discipline",
+        "op": ">",
+        "value": 80
+      },
+      {
+        "stat": "professionalism",
+        "op": ">",
+        "value": 80
+      },
+      {
+        "stat": "emotionalControl",
+        "op": ">",
+        "value": 75
+      }
+    ],
+    "weight": 6,
+    "rarityScore": 26,
+    "tags": [
+      "annoyingly_good_at_everything"
+    ]
+  },
+  {
+    "id": "syn_reply_all_menace",
+    "conditions": [
+      {
+        "stat": "chaos",
+        "op": ">",
+        "value": 85
+      },
+      {
+        "stat": "risk",
+        "op": ">",
+        "value": 80
+      },
+      {
+        "stat": "humor",
+        "op": ">",
+        "value": 70
+      }
+    ],
+    "weight": 4,
+    "rarityScore": 20,
+    "tags": [
+      "reply_all_menace"
+    ]
+  },
+  {
+    "id": "syn_still_uses_a_coupon_binder",
+    "conditions": [
+      {
+        "stat": "financialSense",
+        "op": ">",
+        "value": 85
+      },
+      {
+        "stat": "discipline",
+        "op": ">",
+        "value": 70
+      },
+      {
+        "stat": "risk",
+        "op": "<",
+        "value": 25
+      }
+    ],
+    "weight": 3,
+    "rarityScore": 14,
+    "tags": [
+      "still_uses_a_coupon_binder"
+    ]
+  },
+  {
+    "id": "syn_thinks_the_glass_is_a_fresh_start",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">",
+        "value": 80
+      },
+      {
+        "stat": "luck",
+        "op": ">",
+        "value": 75
+      },
+      {
+        "stat": "emotionalControl",
+        "op": ">",
+        "value": 65
+      }
+    ],
+    "weight": 3,
+    "rarityScore": 13,
+    "tags": [
+      "thinks_the_glass_is_a_fresh_start"
+    ]
+  },
+  {
+    "id": "syn_cannot_be_stopped_will_not_be_stopped",
+    "conditions": [
+      {
+        "stat": "ambition",
+        "op": ">",
+        "value": 90
+      },
+      {
+        "stat": "energy",
+        "op": ">",
+        "value": 85
+      },
+      {
+        "stat": "risk",
+        "op": ">",
+        "value": 80
+      },
+      {
+        "stat": "discipline",
+        "op": ">",
+        "value": 70
+      }
+    ],
+    "weight": 7,
+    "rarityScore": 30,
+    "tags": [
+      "cannot_be_stopped_will_not_be_stopped"
+    ]
+  },
+  {
+    "id": "syn_scary_looking_softie",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">",
+        "value": 78
+      },
+      {
+        "stat": "energy",
+        "op": ">",
+        "value": 65
+      },
+      {
+        "stat": "risk",
+        "op": "<",
+        "value": 35
+      }
+    ],
+    "weight": 3,
+    "rarityScore": 12,
+    "tags": [
+      "scary_looking_softie"
+    ]
+  },
+  {
+    "id": "syn_negotiates_like_its_personal",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">",
+        "value": 82
+      },
+      {
+        "stat": "communication",
+        "op": ">",
+        "value": 75
+      },
+      {
+        "stat": "empathy",
+        "op": "<",
+        "value": 40
+      }
+    ],
+    "weight": 4,
+    "rarityScore": 17,
+    "tags": [
+      "negotiates_like_its_personal"
+    ]
+  },
+  {
+    "id": "syn_menace_with_a_heart_of_gold",
+    "conditions": [
+      {
+        "stat": "chaos",
+        "op": ">",
+        "value": 75
+      },
+      {
+        "stat": "empathy",
+        "op": ">",
+        "value": 70
+      },
+      {
+        "stat": "discipline",
+        "op": "<",
+        "value": 40
+      }
+    ],
+    "weight": 4,
+    "rarityScore": 16,
+    "tags": [
+      "menace_with_a_heart_of_gold"
+    ]
+  },
+  {
+    "id": "syn_47_drafts_zero_sent",
+    "conditions": [
+      {
+        "stat": "discipline",
+        "op": ">",
+        "value": 80
+      },
+      {
+        "stat": "intelligence",
+        "op": ">",
+        "value": 75
+      },
+      {
+        "stat": "emotionalControl",
+        "op": "<",
+        "value": 35
+      }
+    ],
+    "weight": 4,
+    "rarityScore": 19,
+    "tags": [
+      "47_drafts_zero_sent"
+    ]
+  },
+  {
+    "id": "syn_wins_the_lottery_skips_the_meeting",
+    "conditions": [
+      {
+        "stat": "luck",
+        "op": ">",
+        "value": 85
+      },
+      {
+        "stat": "ambition",
+        "op": "<",
+        "value": 35
+      },
+      {
+        "stat": "discipline",
+        "op": "<",
+        "value": 40
+      }
+    ],
+    "weight": 4,
+    "rarityScore": 18,
+    "tags": [
+      "wins_the_lottery_skips_the_meeting"
+    ]
+  },
+  {
+    "id": "syn_annoyingly_good_at_literally_everything",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">",
+        "value": 78
+      },
+      {
+        "stat": "creativity",
+        "op": ">",
+        "value": 78
+      },
+      {
+        "stat": "communication",
+        "op": ">",
+        "value": 70
+      },
+      {
+        "stat": "discipline",
+        "op": ">",
+        "value": 65
+      },
+      {
+        "stat": "empathy",
+        "op": ">",
+        "value": 65
+      }
+    ],
+    "weight": 8,
+    "rarityScore": 35,
+    "tags": [
+      "annoyingly_good_at_literally_everything"
+    ]
+  }
+]

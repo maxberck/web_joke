@@ -1,0 +1,17 @@
+{
+  "name": "@final-form/simulation",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@final-form/shared-types": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2"
+  },
+  "scripts": {
+    "run": "node --experimental-strip-types runSimulation.ts",
+    "build-rarity": "node --experimental-strip-types buildRarityDistribution.ts",
+    "build-baselines": "node --experimental-strip-types buildMatchBaselines.ts"
+  }
+}

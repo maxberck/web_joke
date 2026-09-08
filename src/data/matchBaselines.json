@@ -1,0 +1,432 @@
+{
+  "careers": {
+    "career_software_developer": {
+      "mean": 18.58808058724416,
+      "std": 3.654644179960019
+    },
+    "career_architect": {
+      "mean": 15.84049753954244,
+      "std": 3.5190641795456945
+    },
+    "career_lawyer": {
+      "mean": 18.033629355010312,
+      "std": 3.501393477761119
+    },
+    "career_journalist": {
+      "mean": 10.831989306051103,
+      "std": 3.419540272258763
+    },
+    "career_engineer": {
+      "mean": 22.962652911256875,
+      "std": 4.586509705336475
+    },
+    "career_teacher": {
+      "mean": 14.68962673248107,
+      "std": 4.281002039287108
+    },
+    "career_doctor": {
+      "mean": 20.611960384542748,
+      "std": 4.381663737217029
+    },
+    "career_accountant": {
+      "mean": 29.90628058256974,
+      "std": 5.5555127321066555
+    },
+    "career_designer": {
+      "mean": 13.085353085725806,
+      "std": 4.033211452662205
+    },
+    "career_mechanic": {
+      "mean": 12.861151745279772,
+      "std": 4.2306690705947165
+    },
+    "career_professional_overthinker": {
+      "mean": 22.62534269504186,
+      "std": 5.373479685633907
+    },
+    "career_internet_detective": {
+      "mean": 22.783042888611345,
+      "std": 4.2833604489584935
+    },
+    "career_meeting_survivor": {
+      "mean": 19.281669945122456,
+      "std": 4.064143221807335
+    },
+    "career_family_it_support": {
+      "mean": 20.877268248674476,
+      "std": 5.671573544695071
+    },
+    "career_human_gps": {
+      "mean": 16.48120351768525,
+      "std": 3.7488001558675688
+    },
+    "career_spreadsheet_therapist": {
+      "mean": 26.22611362473569,
+      "std": 4.524914600570604
+    },
+    "career_last_minute_problem_solver": {
+      "mean": 21.096801406766982,
+      "std": 5.063701255349081
+    },
+    "career_group_chat_manager": {
+      "mean": 12.267482263409834,
+      "std": 4.112600019078614
+    },
+    "career_backseat_driver": {
+      "mean": 24.692032280191825,
+      "std": 4.096575871865874
+    },
+    "career_workplace_firefighter": {
+      "mean": 20.20365375269135,
+      "std": 4.6513420688393
+    },
+    "career_serial_plan_b_creator": {
+      "mean": 20.84817350828871,
+      "std": 4.804259918893344
+    },
+    "career_unofficial_tech_support": {
+      "mean": 22.896150306627714,
+      "std": 5.795790984525414
+    },
+    "career_chief_snack_officer": {
+      "mean": 27.96066842169166,
+      "std": 4.593247806534238
+    },
+    "career_senior_queue_strategist": {
+      "mean": 31.66054067136892,
+      "std": 4.971541450757198
+    },
+    "career_professional_door_opener": {
+      "mean": 30.277712791490867,
+      "std": 3.766809806192451
+    },
+    "career_freelance_button_presser": {
+      "mean": 36.01058198907925,
+      "std": 4.734774419947826
+    },
+    "career_certified_problem_creator": {
+      "mean": 35.85376643089604,
+      "std": 5.256299527117934
+    },
+    "career_chief_excuse_architect": {
+      "mean": 29.129774767251153,
+      "std": 5.325965359369919
+    },
+    "career_professional_tab_opener": {
+      "mean": 32.666027563732115,
+      "std": 4.931495432980264
+    },
+    "career_executive_nap_consultant": {
+      "mean": 35.520959475404354,
+      "std": 4.281519116703312
+    },
+    "career_wifi_whisperer": {
+      "mean": 30.51364735153799,
+      "std": 4.492351422805887
+    },
+    "career_fridge_inspector": {
+      "mean": 32.69619702596287,
+      "std": 4.817611445462965
+    },
+    "career_remote_control_manager": {
+      "mean": 38.00099914886534,
+      "std": 4.069526715472606
+    },
+    "career_professional_sock_finder": {
+      "mean": 29.815113651570762,
+      "std": 4.595002278988997
+    }
+  },
+  "classes": {
+    "class_strategist": {
+      "mean": 25.404590989959704,
+      "std": 5.083154692988955
+    },
+    "class_improviser": {
+      "mean": 22.881801159732728,
+      "std": 5.777808034753278
+    },
+    "class_people_person": {
+      "mean": 17.886373361664493,
+      "std": 5.548043015377281
+    },
+    "class_highly_functional_disaster": {
+      "mean": 26.180410769652756,
+      "std": 5.937454583594823
+    },
+    "class_opportunist": {
+      "mean": 20.11579468777909,
+      "std": 4.504978588085654
+    },
+    "class_accidental_genius": {
+      "mean": 23.896959969189552,
+      "std": 4.152958491358214
+    },
+    "class_suspiciously_competent": {
+      "mean": 20.40730061359319,
+      "std": 4.812158212949901
+    },
+    "class_professional_menace": {
+      "mean": 15.423250954902347,
+      "std": 5.315434599551665
+    },
+    "class_last_minute_legend": {
+      "mean": 22.333057433867264,
+      "std": 4.903992420017785
+    },
+    "class_quiet_architect": {
+      "mean": 20.237980333620833,
+      "std": 4.478327479763076
+    },
+    "class_wildcard": {
+      "mean": 12.474007518581523,
+      "std": 2.5054443570699823
+    },
+    "class_diplomat": {
+      "mean": 17.329097873365377,
+      "std": 5.956694292586911
+    },
+    "class_human_group_chat": {
+      "mean": 13.262889514138388,
+      "std": 3.7943143960087946
+    }
+  },
+  "animals": {
+    "animal_raccoon": {
+      "mean": 25.63497378510535,
+      "std": 5.5906872598064785
+    },
+    "animal_cat": {
+      "mean": 20.870943136452755,
+      "std": 5.508275373923628
+    },
+    "animal_golden_retriever": {
+      "mean": 27.796423893668702,
+      "std": 4.881784891152181
+    },
+    "animal_crow": {
+      "mean": 19.135122616591325,
+      "std": 4.217535707973841
+    },
+    "animal_owl": {
+      "mean": 23.323467529844457,
+      "std": 4.5757521113261665
+    },
+    "animal_fox": {
+      "mean": 13.863507020583762,
+      "std": 3.6591874904445896
+    },
+    "animal_turtle": {
+      "mean": 30.736644043084766,
+      "std": 5.400835395444137
+    },
+    "animal_octopus": {
+      "mean": 28.279810577686433,
+      "std": 4.552228980417247
+    },
+    "animal_meerkat": {
+      "mean": 15.738605805280278,
+      "std": 4.417514267776343
+    }
+  },
+  "powers": {
+    "power_explains_complex_things": {
+      "mean": 17.4780927715809,
+      "std": 4.800907525458979
+    },
+    "power_funny_awkward": {
+      "mean": 15.757599604006089,
+      "std": 4.562191146056893
+    },
+    "power_finds_solutions": {
+      "mean": 18.783227453316513,
+      "std": 4.5789576437921085
+    },
+    "power_calm_under_pressure": {
+      "mean": 25.8045689051751,
+      "std": 8.646716348885702
+    },
+    "power_cheapest_option": {
+      "mean": 21.61186300615415,
+      "std": 5.032635896813028
+    },
+    "power_reads_the_room": {
+      "mean": 15.106032757964826,
+      "std": 5.717873233580595
+    },
+    "power_turns_chaos_into_plan": {
+      "mean": 16.95256514865956,
+      "std": 4.744351892561809
+    },
+    "power_never_forgets": {
+      "mean": 13.589375186433427,
+      "std": 5.490347473127835
+    },
+    "power_makes_hard_things_look_easy": {
+      "mean": 15.597772357657812,
+      "std": 4.828102195689224
+    },
+    "power_makes_everyone_feel_important": {
+      "mean": 12.263902043598488,
+      "std": 4.627854794432851
+    },
+    "power_wins_every_board_game": {
+      "mean": 21.162880036248836,
+      "std": 5.904309886684132
+    }
+  },
+  "abilities": {
+    "ability_useless_info": {
+      "mean": 18.100153890530223,
+      "std": 6.7923706567827935
+    },
+    "ability_save_3_euros": {
+      "mean": 18.492410210386016,
+      "std": 5.159676793249841
+    },
+    "ability_quick_question_radar": {
+      "mean": 13.822768833534774,
+      "std": 5.889472679394338
+    },
+    "ability_printer_sense": {
+      "mean": 24.34673317585892,
+      "std": 5.156073796685806
+    },
+    "ability_parking_spot_radar": {
+      "mean": 29.914380651663517,
+      "std": 6.915091965702328
+    },
+    "ability_typo_spotter": {
+      "mean": 11.288657378137147,
+      "std": 5.347732971303491
+    },
+    "ability_predicts_awkward_silence": {
+      "mean": 13.869236592942658,
+      "std": 5.452457824594602
+    },
+    "ability_reheats_perfectly": {
+      "mean": 37.45996600022328,
+      "std": 4.887261734567036
+    },
+    "ability_group_photo_timing": {
+      "mean": 22.011980229877256,
+      "std": 4.716924106464834
+    },
+    "ability_reads_the_room_wrong": {
+      "mean": 25.543586779326905,
+      "std": 5.595292168155203
+    },
+    "ability_finds_the_one_flaw": {
+      "mean": 23.037480486568814,
+      "std": 5.980932438254855
+    },
+    "ability_remembers_wifi_password": {
+      "mean": 20.780202752822923,
+      "std": 5.873946448930139
+    }
+  },
+  "workStyles": {
+    "workstyle_sprint_vanish": {
+      "mean": 22.149749042198028,
+      "std": 6.24532203874635
+    },
+    "workstyle_gantt_chart": {
+      "mean": 29.65119264279371,
+      "std": 5.80366348610333
+    },
+    "workstyle_last_night_genius": {
+      "mean": 26.53272491668575,
+      "std": 5.751906074987477
+    },
+    "workstyle_delegates_everything": {
+      "mean": 31.191561685353225,
+      "std": 5.688215856382576
+    },
+    "workstyle_silent_fixer": {
+      "mean": 19.09319110105166,
+      "std": 4.159623610225581
+    },
+    "workstyle_quick_call": {
+      "mean": 24.57785955293347,
+      "std": 5.476082066248153
+    },
+    "workstyle_night_owl": {
+      "mean": 27.538392572857592,
+      "std": 5.56979214182888
+    },
+    "workstyle_calm_anchor": {
+      "mean": 28.12826369372423,
+      "std": 5.794815922555898
+    },
+    "workstyle_perfectionist_polish": {
+      "mean": 25.91994941354437,
+      "std": 5.443103655021378
+    },
+    "workstyle_delegator_supreme": {
+      "mean": 14.668772006518282,
+      "std": 5.214984930063267
+    },
+    "workstyle_improvises_confidently": {
+      "mean": 25.823571421293188,
+      "std": 5.7563177509035475
+    },
+    "workstyle_reply_all_villain": {
+      "mean": 29.421478229064068,
+      "std": 6.165015313581526
+    },
+    "workstyle_snack_powered": {
+      "mean": 27.682540824806804,
+      "std": 5.032110241533134
+    }
+  },
+  "weaknesses": {
+    "weakness_phone_calls": {
+      "mean": 38.56841840206573,
+      "std": 6.857278757873521
+    },
+    "weakness_finishing_projects": {
+      "mean": 39.59391415120234,
+      "std": 8.808080505264314
+    },
+    "weakness_instructions": {
+      "mean": 34.099536928519505,
+      "std": 9.042110995808914
+    },
+    "weakness_group_projects": {
+      "mean": 30.06592988525804,
+      "std": 7.195690386249349
+    },
+    "weakness_people_who_are_late": {
+      "mean": 34.337711948542854,
+      "std": 9.778867937490617
+    },
+    "weakness_free_shipping": {
+      "mean": 35.42866780876157,
+      "std": 9.104190095576024
+    },
+    "weakness_open_ended_questions": {
+      "mean": 40.22714447387356,
+      "std": 8.689452656989072
+    },
+    "weakness_notifications": {
+      "mean": 38.13176460168466,
+      "std": 9.730562592250083
+    },
+    "weakness_small_talk": {
+      "mean": 32.63488000779588,
+      "std": 6.0041741211212205
+    },
+    "weakness_asking_for_help": {
+      "mean": 33.2120313704587,
+      "std": 7.845742937903782
+    },
+    "weakness_progress_bar": {
+      "mean": 39.15047817563893,
+      "std": 9.855261468820135
+    },
+    "weakness_left_on_read": {
+      "mean": 37.50765469271675,
+      "std": 9.194166055272348
+    }
+  }
+}

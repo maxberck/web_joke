@@ -1,0 +1,912 @@
+[
+  { "id": "class_strategist", "name": { "en": "The Strategist", "fr": "Le Stratège", "es": "El Estratega" }, "idealProfile": { "intelligence": 85, "discipline": 75, "ambition": 70, "chaos": 30 } },
+  { "id": "class_improviser", "name": { "en": "Held Together By Duct Tape and Vibes", "fr": "Tenu par du scotch et de la bonne volonté", "es": "Sostenido por cinta adhesiva y buena onda" }, "idealProfile": { "creativity": 85, "chaos": 75, "humor": 65, "discipline": 35 } },
+  { "id": "class_people_person", "name": { "en": "The People Person", "fr": "Le Relationnel", "es": "El Sociable" }, "idealProfile": { "social": 85, "communication": 80, "empathy": 75 } },
+  { "id": "class_highly_functional_disaster", "name": { "en": "Highly Functional Disaster", "fr": "Désastre Hautement Fonctionnel", "es": "Desastre Altamente Funcional" }, "idealProfile": { "intelligence": 78, "chaos": 80, "discipline": 25, "ambition": 70 } },
+  { "id": "class_opportunist", "name": { "en": "Somehow Always Lands on Their Feet", "fr": "Retombe toujours sur ses pattes, mystérieusement", "es": "De algún modo siempre cae de pie" }, "idealProfile": { "intelligence": 70, "risk": 75, "ambition": 78, "luck": 65, "empathy": 30 } },
+  { "id": "class_accidental_genius", "name": { "en": "Accidental Genius", "fr": "Génie Accidentel", "es": "Genio Accidental" }, "idealProfile": { "intelligence": 88, "luck": 70, "chaos": 60, "discipline": 40 } },
+  { "id": "class_suspiciously_competent", "name": { "en": "Suspiciously Competent for Someone Who Looks This Tired", "fr": "Suspicieusement compétent pour quelqu'un qui a l'air si fatigué", "es": "Sospechosamente competente para alguien con tanta cara de cansancio" }, "idealProfile": { "intelligence": 80, "professionalism": 78, "discipline": 72, "chaos": 45 } },
+  { "id": "class_professional_menace", "name": { "en": "Professional Menace", "fr": "Menace Professionnelle", "es": "Amenaza Profesional" }, "idealProfile": { "chaos": 82, "intelligence": 68, "risk": 72, "emotionalControl": 35 } },
+  { "id": "class_last_minute_legend", "name": { "en": "Last-Minute Legend", "fr": "Légende de la Dernière Minute", "es": "Leyenda de Último Momento" }, "idealProfile": { "creativity": 78, "chaos": 65, "energy": 70, "discipline": 30, "intelligence": 65 } },
+  { "id": "class_quiet_architect", "name": { "en": "Has a Plan for Everything, Tells No One", "fr": "A un plan pour tout, ne le dit à personne", "es": "Tiene un plan para todo, no se lo dice a nadie" }, "idealProfile": { "intelligence": 80, "discipline": 78, "social": 30, "creativity": 60 } },
+  { "id": "class_wildcard", "name": { "en": "The Wildcard", "fr": "L'Électron Libre", "es": "El Comodín" }, "idealProfile": { "chaos": 75, "luck": 70, "risk": 65, "creativity": 60 } },
+  { "id": "class_diplomat", "name": { "en": "Could End a War With a Well-Timed Compliment", "fr": "Pourrait mettre fin à une guerre avec un compliment bien placé", "es": "Podría terminar una guerra con un cumplido bien colocado" }, "idealProfile": { "communication": 82, "empathy": 75, "emotionalControl": 78, "ambition": 55 } },
+  { "id": "class_human_group_chat", "name": { "en": "One-Person Group Chat, Somehow", "fr": "Un groupe de discussion à lui tout seul, mystérieusement", "es": "Un chat grupal de una sola persona, misteriosamente" }, "idealProfile": { "humor": 78, "social": 60, "chaos": 55, "energy": 60 } },
+  [
+    {
+      "id": "class_human_plot_twist",
+      "name": {
+        "en": "Human Plot Twist",
+        "fr": "Plot Twist Humain",
+        "es": "Giro Argumental Humano"
+      },
+      "idealProfile": {
+        "chaos": 82,
+        "luck": 75,
+        "creativity": 78,
+        "risk": 68,
+        "humor": 72
+      }
+    },
+  
+    {
+      "id": "class_unlicensed_strategist",
+      "name": {
+        "en": "Unlicensed Strategist",
+        "fr": "Stratège Sans Licence",
+        "es": "Estratega Sin Licencia"
+      },
+      "idealProfile": {
+        "intelligence": 78,
+        "creativity": 72,
+        "ambition": 68,
+        "chaos": 55,
+        "discipline": 38
+      }
+    },
+  
+    {
+      "id": "class_overqualified",
+      "name": {
+        "en": "Overqualified for This",
+        "fr": "Surqualifié pour Ça",
+        "es": "Demasiado Cualificado para Esto"
+      },
+      "idealProfile": {
+        "intelligence": 85,
+        "professionalism": 78,
+        "discipline": 72,
+        "ambition": 62,
+        "humor": 55
+      }
+    },
+  
+    {
+      "id": "class_ceo_bad_decisions",
+      "name": {
+        "en": "CEO of Bad Decisions",
+        "fr": "PDG des Mauvaises Décisions",
+        "es": "CEO de las Malas Decisiones"
+      },
+      "idealProfile": {
+        "chaos": 92,
+        "risk": 88,
+        "ambition": 75,
+        "creativity": 72,
+        "discipline": 12
+      }
+    },
+  
+    {
+      "id": "class_statistical_anomaly",
+      "name": {
+        "en": "Statistical Anomaly",
+        "fr": "Anomalie Statistique",
+        "es": "Anomalía Estadística"
+      },
+      "idealProfile": {
+        "intelligence": 82,
+        "luck": 88,
+        "chaos": 78,
+        "creativity": 68,
+        "discipline": 32
+      }
+    },
+  
+    {
+      "id": "class_barely_legal_genius",
+      "name": {
+        "en": "Barely Legal Genius",
+        "fr": "Génie Presque Légal",
+        "es": "Genio Apenas Legal"
+      },
+      "idealProfile": {
+        "intelligence": 88,
+        "risk": 82,
+        "chaos": 72,
+        "creativity": 85,
+        "professionalism": 28
+      }
+    },
+  
+    {
+      "id": "class_somehow_responsible",
+      "name": {
+        "en": "Somehow Responsible",
+        "fr": "Étonnamment Responsable",
+        "es": "Sorprendentemente Responsable"
+      },
+      "idealProfile": {
+        "discipline": 72,
+        "professionalism": 68,
+        "empathy": 62,
+        "emotionalControl": 70,
+        "chaos": 42
+      }
+    },
+  
+    {
+      "id": "class_walking_side_quest",
+      "name": {
+        "en": "Walking Side Quest",
+        "fr": "Quête Secondaire sur Pattes",
+        "es": "Misión Secundaria con Patas"
+      },
+      "idealProfile": {
+        "chaos": 88,
+        "creativity": 82,
+        "social": 68,
+        "risk": 62,
+        "energy": 72
+      }
+    },
+  
+    {
+      "id": "class_professional_mess",
+      "name": {
+        "en": "Professional Mess",
+        "fr": "Catastrophe Professionnelle",
+        "es": "Desastre Profesional"
+      },
+      "idealProfile": {
+        "chaos": 90,
+        "energy": 65,
+        "creativity": 72,
+        "discipline": 18,
+        "humor": 82
+      }
+    },
+  
+    {
+      "id": "class_accidental_leader",
+      "name": {
+        "en": "Accidental Leader",
+        "fr": "Leader par Accident",
+        "es": "Líder por Accidente"
+      },
+      "idealProfile": {
+        "social": 72,
+        "communication": 78,
+        "ambition": 58,
+        "luck": 65,
+        "empathy": 62
+      }
+    },
+  
+    {
+      "id": "class_calm_until_not",
+      "name": {
+        "en": "Calm Until Something Minor Happens",
+        "fr": "Calme Jusqu'à un Truc Complètement Banal",
+        "es": "Tranquilo Hasta que Pasa una Tontería"
+      },
+      "idealProfile": {
+        "emotionalControl": 58,
+        "chaos": 68,
+        "humor": 75,
+        "social": 55,
+        "energy": 48
+      }
+    },
+  
+    {
+      "id": "class_main_character_energy",
+      "name": {
+        "en": "Main Character Energy",
+        "fr": "Énergie de Personnage Principal",
+        "es": "Energía de Protagonista"
+      },
+      "idealProfile": {
+        "ambition": 82,
+        "social": 72,
+        "creativity": 78,
+        "risk": 68,
+        "energy": 82
+      }
+    },
+  
+    {
+      "id": "class_side_character_survivor",
+      "name": {
+        "en": "Side Character Who Somehow Survives Everything",
+        "fr": "Personnage Secondaire qui Survit à Tout",
+        "es": "Personaje Secundario que Sobrevive a Todo"
+      },
+      "idealProfile": {
+        "luck": 90,
+        "emotionalControl": 72,
+        "risk": 62,
+        "chaos": 68,
+        "empathy": 55
+      }
+    },
+  
+    {
+      "id": "class_sleep_deprived_professor",
+      "name": {
+        "en": "Sleep-Deprived Professor",
+        "fr": "Professeur en Dette de Sommeil",
+        "es": "Profesor con Deuda de Sueño"
+      },
+      "idealProfile": {
+        "intelligence": 88,
+        "discipline": 62,
+        "energy": 22,
+        "creativity": 82,
+        "chaos": 58
+      }
+    },
+  
+    {
+      "id": "class_emotional_support_human",
+      "name": {
+        "en": "Emotional Support Human",
+        "fr": "Humain de Soutien Émotionnel",
+        "es": "Humano de Apoyo Emocional"
+      },
+      "idealProfile": {
+        "empathy": 92,
+        "social": 85,
+        "communication": 82,
+        "emotionalControl": 68,
+        "discipline": 48
+      }
+    },
+  
+    {
+      "id": "class_hyper_specific_expert",
+      "name": {
+        "en": "Expert in One Extremely Specific Thing",
+        "fr": "Expert dans un Truc Ridiculement Précis",
+        "es": "Experto en una Cosa Ridículamente Específica"
+      },
+      "idealProfile": {
+        "intelligence": 82,
+        "discipline": 68,
+        "creativity": 58,
+        "curiosity": 92,
+        "social": 32
+      }
+    },
+  
+    {
+      "id": "class_luck_based_engineering",
+      "name": {
+        "en": "Luck-Based Engineering",
+        "fr": "Ingénierie Basée sur la Chance",
+        "es": "Ingeniería Basada en la Suerte"
+      },
+      "idealProfile": {
+        "luck": 94,
+        "chaos": 82,
+        "creativity": 70,
+        "risk": 72,
+        "discipline": 25
+      }
+    },
+  
+    {
+      "id": "class_human_backup_plan",
+      "name": {
+        "en": "Human Backup Plan",
+        "fr": "Plan B Humain",
+        "es": "Plan B Humano"
+      },
+      "idealProfile": {
+        "discipline": 76,
+        "intelligence": 78,
+        "risk": 28,
+        "emotionalControl": 72,
+        "ambition": 48
+      }
+    },
+  
+    {
+      "id": "class_socially_selective",
+      "name": {
+        "en": "Socially Selective, Emotionally Exhausted",
+        "fr": "Socialement Sélectif, Émotionnellement Épuisé",
+        "es": "Socialmente Selectivo, Emocionalmente Agotado"
+      },
+      "idealProfile": {
+        "social": 38,
+        "emotionalControl": 62,
+        "empathy": 72,
+        "energy": 28,
+        "discipline": 55
+      }
+    },
+  
+    {
+      "id": "class_unpaid_consultant",
+      "name": {
+        "en": "Unpaid Consultant for Everyone's Problems",
+        "fr": "Consultant Gratuit pour les Problèmes de Tout le Monde",
+        "es": "Consultor Gratis para los Problemas de Todo el Mundo"
+      },
+      "idealProfile": {
+        "empathy": 82,
+        "intelligence": 72,
+        "communication": 82,
+        "social": 72,
+        "ambition": 35
+      }
+    },
+  
+    {
+      "id": "class_professional_avoidance",
+      "name": {
+        "en": "Advanced Avoidance Specialist",
+        "fr": "Spécialiste Avancé de l'Évitement",
+        "es": "Especialista Avanzado en Evitar Cosas"
+      },
+      "idealProfile": {
+        "chaos": 72,
+        "discipline": 18,
+        "emotionalControl": 68,
+        "creativity": 65,
+        "social": 42
+      }
+    },
+  
+    {
+      "id": "class_suspicious_optimist",
+      "name": {
+        "en": "Suspiciously Optimistic",
+        "fr": "Suspicieusement Optimiste",
+        "es": "Sospechosamente Optimista"
+      },
+      "idealProfile": {
+        "luck": 72,
+        "emotionalControl": 78,
+        "social": 68,
+        "risk": 52,
+        "empathy": 65
+      }
+    },
+  
+    {
+      "id": "class_disaster_management",
+      "name": {
+        "en": "Disaster Management, But Make It Personal",
+        "fr": "Gestion de Catastrophes, Mais à l'Échelle Personnelle",
+        "es": "Gestión de Desastres, Pero Personales"
+      },
+      "idealProfile": {
+        "chaos": 82,
+        "emotionalControl": 62,
+        "creativity": 75,
+        "energy": 65,
+        "intelligence": 68
+      }
+    },
+  
+    {
+      "id": "class_unexpectedly_competent",
+      "name": {
+        "en": "Why Are You Actually Good at This?",
+        "fr": "Pourquoi Tu Es En Fait Bon Là-Dedans ?",
+        "es": "¿Por Qué Se Te Da Bien Esto?"
+      },
+      "idealProfile": {
+        "intelligence": 78,
+        "creativity": 72,
+        "luck": 62,
+        "discipline": 55,
+        "chaos": 48
+      }
+    },
+  
+    {
+      "id": "class_chaos_accountant",
+      "name": {
+        "en": "Chaos Accountant",
+        "fr": "Comptable du Chaos",
+        "es": "Contable del Caos"
+      },
+      "idealProfile": {
+        "financialSense": 75,
+        "chaos": 82,
+        "intelligence": 72,
+        "discipline": 42,
+        "humor": 68
+      }
+    },
+  
+    {
+      "id": "class_professional_guessing",
+      "name": {
+        "en": "Professional Guessing Department",
+        "fr": "Service Professionnel de la Devinerie",
+        "es": "Departamento Profesional de Adivinar"
+      },
+      "idealProfile": {
+        "luck": 88,
+        "creativity": 72,
+        "risk": 75,
+        "intelligence": 42,
+        "discipline": 18
+      }
+    },
+  
+    {
+      "id": "class_technically_correct",
+      "name": {
+        "en": "Technically Correct, Unfortunately",
+        "fr": "Techniquement Correct, Malheureusement",
+        "es": "Técnicamente Correcto, Por Desgracia"
+      },
+      "idealProfile": {
+        "intelligence": 88,
+        "communication": 68,
+        "discipline": 62,
+        "social": 38,
+        "humor": 65
+      }
+    },
+  
+    {
+      "id": "class_overthinking_champion",
+      "name": {
+        "en": "Olympic-Level Overthinker",
+        "fr": "Surpenseur Niveau Olympique",
+        "es": "Sobrepensador de Nivel Olímpico"
+      },
+      "idealProfile": {
+        "intelligence": 82,
+        "emotionalControl": 25,
+        "creativity": 78,
+        "discipline": 42,
+        "empathy": 68
+      }
+    },
+  
+    {
+      "id": "class_unofficial_boss",
+      "name": {
+        "en": "Unofficial Boss Nobody Appointed",
+        "fr": "Chef Officieux que Personne n'a Nommé",
+        "es": "Jefe No Oficial que Nadie Nombró"
+      },
+      "idealProfile": {
+        "ambition": 72,
+        "communication": 78,
+        "social": 72,
+        "professionalism": 62,
+        "chaos": 48
+      }
+    },
+  
+    {
+      "id": "class_human_patch_note",
+      "name": {
+        "en": "Human Patch Note",
+        "fr": "Patch Note Humain",
+        "es": "Nota de Parche Humana"
+      },
+      "idealProfile": {
+        "creativity": 82,
+        "intelligence": 72,
+        "chaos": 68,
+        "luck": 58,
+        "discipline": 38
+      }
+    },
+  
+    {
+      "id": "class_final_boss_of_nothing",
+      "name": {
+        "en": "Final Boss of Absolutely Nothing",
+        "fr": "Boss Final de Littéralement Rien",
+        "es": "Jefe Final de Absolutamente Nada"
+      },
+      "idealProfile": {
+        "chaos": 92,
+        "humor": 92,
+        "risk": 65,
+        "ambition": 32,
+        "discipline": 8
+      }
+    },
+  
+    {
+      "id": "class_why_not",
+      "name": {
+        "en": "The \"Why Not?\" Department",
+        "fr": "Le Département « Pourquoi Pas ? »",
+        "es": "El Departamento de «¿Por Qué No?»"
+      },
+      "idealProfile": {
+        "risk": 88,
+        "chaos": 82,
+        "creativity": 85,
+        "energy": 72,
+        "discipline": 22
+      }
+    },
+  
+    {
+      "id": "class_works_under_pressure",
+      "name": {
+        "en": "Only Functional Under Pressure",
+        "fr": "Fonctionne Uniquement Sous Pression",
+        "es": "Solo Funciona Bajo Presión"
+      },
+      "idealProfile": {
+        "energy": 82,
+        "creativity": 82,
+        "chaos": 68,
+        "discipline": 22,
+        "intelligence": 72
+      }
+    },
+  
+    {
+      "id": "class_group_project_villain",
+      "name": {
+        "en": "Group Project Villain",
+        "fr": "Méchant du Travail de Groupe",
+        "es": "Villano del Trabajo en Grupo"
+      },
+      "idealProfile": {
+        "ambition": 72,
+        "discipline": 65,
+        "communication": 68,
+        "social": 42,
+        "chaos": 68
+      }
+    },
+  
+    {
+      "id": "class_wifi_survivor",
+      "name": {
+        "en": "Survived the Wi Fi Outage of 2024",
+        "fr": "A Survécu à la Panne de Wi Fi de 2024",
+        "es": "Sobrevivió al Apagón de Wi Fi de 2024"
+      },
+      "idealProfile": {
+        "emotionalControl": 82,
+        "discipline": 68,
+        "intelligence": 58,
+        "chaos": 55,
+        "humor": 72
+      }
+    },
+  
+    {
+      "id": "class_unnecessary_expert",
+      "name": {
+        "en": "Unnecessarily Qualified",
+        "fr": "Inutilement Qualifié",
+        "es": "Innecesariamente Cualificado"
+      },
+      "idealProfile": {
+        "intelligence": 88,
+        "discipline": 72,
+        "curiosity": 90,
+        "professionalism": 65,
+        "chaos": 38
+      }
+    },
+  
+    {
+      "id": "class_fridge_philosopher",
+      "name": {
+        "en": "Fridge Philosopher",
+        "fr": "Philosophe du Frigo",
+        "es": "Filósofo de la Nevera"
+      },
+      "idealProfile": {
+        "creativity": 72,
+        "emotionalControl": 62,
+        "chaos": 68,
+        "intelligence": 58,
+        "energy": 32
+      }
+    },
+  
+    {
+      "id": "class_late_but_present",
+      "name": {
+        "en": "Late, But Technically Present",
+        "fr": "En Retard, Mais Techniquement Présent",
+        "es": "Tarde, Pero Técnicamente Presente"
+      },
+      "idealProfile": {
+        "chaos": 78,
+        "luck": 68,
+        "discipline": 22,
+        "energy": 62,
+        "humor": 65
+      }
+    },
+  
+    {
+      "id": "class_emergency_solution",
+      "name": {
+        "en": "Emergency Solution Nobody Asked For",
+        "fr": "Solution d'Urgence que Personne n'avait Demandée",
+        "es": "Solución de Emergencia que Nadie Había Pedido"
+      },
+      "idealProfile": {
+        "creativity": 88,
+        "chaos": 72,
+        "intelligence": 65,
+        "risk": 68,
+        "communication": 48
+      }
+    },
+  
+    {
+      "id": "class_professional_survivor",
+      "name": {
+        "en": "Professionally Unkillable",
+        "fr": "Professionnellement Increvable",
+        "es": "Profesionalmente Indestructible"
+      },
+      "idealProfile": {
+        "emotionalControl": 88,
+        "discipline": 72,
+        "luck": 82,
+        "energy": 62,
+        "risk": 55
+      }
+    },
+  
+    {
+      "id": "class_budget_terrorist",
+      "name": {
+        "en": "Financial Menace to Their Own Wallet",
+        "fr": "Menace Financière pour son Propre Portefeuille",
+        "es": "Amenaza Financiera para su Propia Cartera"
+      },
+      "idealProfile": {
+        "financialSense": 18,
+        "risk": 82,
+        "chaos": 88,
+        "ambition": 58,
+        "discipline": 12
+      }
+    },
+  
+    {
+      "id": "class_socially_armed",
+      "name": {
+        "en": "Armed With Small Talk",
+        "fr": "Armé de Small Talk",
+        "es": "Armado con Conversaciones Bananales"
+      },
+      "idealProfile": {
+        "social": 94,
+        "communication": 92,
+        "empathy": 72,
+        "energy": 78,
+        "humor": 68
+      }
+    },
+  
+    {
+      "id": "class_mildly_concerning",
+      "name": {
+        "en": "Mildly Concerning but Effective",
+        "fr": "Légèrement Inquiétant mais Efficace",
+        "es": "Ligeramente Preocupante pero Eficaz"
+      },
+      "idealProfile": {
+        "chaos": 78,
+        "intelligence": 75,
+        "risk": 72,
+        "creativity": 82,
+        "professionalism": 35
+      }
+    },
+  
+    {
+      "id": "class_corporate_survivor",
+      "name": {
+        "en": "Corporate Survivor",
+        "fr": "Survivant du Monde Corporate",
+        "es": "Superviviente del Mundo Corporativo"
+      },
+      "idealProfile": {
+        "professionalism": 78,
+        "emotionalControl": 82,
+        "discipline": 72,
+        "communication": 68,
+        "energy": 35
+      }
+    },
+  
+    {
+      "id": "class_human_escape_route",
+      "name": {
+        "en": "Human Escape Route",
+        "fr": "Sortie de Secours Humaine",
+        "es": "Salida de Emergencia Humana"
+      },
+      "idealProfile": {
+        "social": 48,
+        "emotionalControl": 82,
+        "creativity": 75,
+        "risk": 48,
+        "discipline": 65
+      }
+    },
+  
+    {
+      "id": "class_confidently_wrong",
+      "name": {
+        "en": "Confidently Incorrect",
+        "fr": "Faux avec une Confiance Absolue",
+        "es": "Equivocado con Confianza Absoluta"
+      },
+      "idealProfile": {
+        "communication": 82,
+        "chaos": 78,
+        "social": 68,
+        "emotionalControl": 45,
+        "intelligence": 38
+      }
+    },
+  
+    {
+      "id": "class_finally_got_it",
+      "name": {
+        "en": "Got There Eventually",
+        "fr": "A Fini par Comprendre",
+        "es": "Al Final lo Entendió"
+      },
+      "idealProfile": {
+        "intelligence": 62,
+        "discipline": 48,
+        "luck": 65,
+        "creativity": 58,
+        "chaos": 55
+      }
+    },
+  
+    {
+      "id": "class_human_receipt",
+      "name": {
+        "en": "Human Receipt",
+        "fr": "Ticket de Caisse Humain",
+        "es": "Ticket de Compra Humano"
+      },
+      "idealProfile": {
+        "discipline": 72,
+        "intelligence": 65,
+        "financialSense": 78,
+        "chaos": 35,
+        "memory": 82
+      }
+    },
+  
+    {
+      "id": "class_feral_professional",
+      "name": {
+        "en": "Feral Professional",
+        "fr": "Professionnel Feral",
+        "es": "Profesional en Modo Salvaje"
+      },
+      "idealProfile": {
+        "chaos": 92,
+        "energy": 85,
+        "risk": 78,
+        "creativity": 72,
+        "discipline": 20
+      }
+    },
+  
+    {
+      "id": "class_low_battery_genius",
+      "name": {
+        "en": "Low Battery Genius",
+        "fr": "Génie à 3 % de Batterie",
+        "es": "Genio con 3 % de Batería"
+      },
+      "idealProfile": {
+        "intelligence": 88,
+        "energy": 18,
+        "creativity": 75,
+        "discipline": 42,
+        "emotionalControl": 62
+      }
+    },
+  
+    {
+      "id": "class_questionable_legality",
+      "name": {
+        "en": "Legally Questionable, Surprisingly Efficient",
+        "fr": "Légalement Douteux, Étonnamment Efficace",
+        "es": "Legalmente Dudoso, Sorprendentemente Eficaz"
+      },
+      "idealProfile": {
+        "risk": 88,
+        "creativity": 90,
+        "chaos": 82,
+        "intelligence": 72,
+        "professionalism": 22
+      }
+    },
+  
+    {
+      "id": "class_do_not_touch",
+      "name": {
+        "en": "Do Not Touch Anything",
+        "fr": "Ne Touche à Rien",
+        "es": "No Toques Nada"
+      },
+      "idealProfile": {
+        "emotionalControl": 72,
+        "discipline": 82,
+        "risk": 12,
+        "chaos": 28,
+        "professionalism": 72
+      }
+    },
+  
+    {
+      "id": "class_chaos_with_receipts",
+      "name": {
+        "en": "Chaos With Receipts",
+        "fr": "Chaos avec Preuves à l'Appui",
+        "es": "Caos con Pruebas"
+      },
+      "idealProfile": {
+        "chaos": 82,
+        "intelligence": 78,
+        "creativity": 75,
+        "discipline": 52,
+        "communication": 68
+      }
+    },
+  
+    {
+      "id": "class_too_specific",
+      "name": {
+        "en": "Weirdly Good at Extremely Specific Problems",
+        "fr": "Étrangement Bon face aux Problèmes Très Précis",
+        "es": "Extrañamente Bueno con Problemas Muy Específicos"
+      },
+      "idealProfile": {
+        "intelligence": 78,
+        "creativity": 82,
+        "curiosity": 88,
+        "chaos": 62,
+        "discipline": 55
+      }
+    },
+  
+    {
+      "id": "class_doing_my_best",
+      "name": {
+        "en": "Doing My Best, Legally",
+        "fr": "Je Fais de Mon Mieux, Légalement",
+        "es": "Hago lo que Puedo, Legalmente"
+      },
+      "idealProfile": {
+        "empathy": 62,
+        "chaos": 68,
+        "humor": 82,
+        "discipline": 35,
+        "emotionalControl": 52
+      }
+    },
+  
+    {
+      "id": "class_tired_but_dangerous",
+      "name": {
+        "en": "Tired but Somehow Dangerous",
+        "fr": "Fatigué mais Étrangement Dangereux",
+        "es": "Cansado pero Extrañamente Peligroso"
+      },
+      "idealProfile": {
+        "energy": 28,
+        "risk": 78,
+        "chaos": 82,
+        "intelligence": 72,
+        "emotionalControl": 58
+      }
+    }
+  ]
+]

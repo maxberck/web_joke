@@ -1,0 +1,684 @@
+[
+  { "id": "power_explains_complex_things", "text": { "en": "Can explain quarterly taxes so clearly it's honestly a little unsettling.", "fr": "Peut expliquer les impôts trimestriels avec une clarté franchement dérangeante.", "es": "Puede explicar los impuestos trimestrales con una claridad francamente inquietante." }, "idealProfile": { "intelligence": 85, "communication": 78 } },
+  { "id": "power_funny_awkward", "text": { "en": "Can make a funeral home's awkward silence genuinely funny.", "fr": "Peut rendre drôle le silence gênant d'un salon funéraire.", "es": "Puede hacer graciosa la silencio incómodo de una funeraria." }, "idealProfile": { "humor": 82, "social": 60, "chaos": 55 } },
+  { "id": "power_finds_solutions", "text": { "en": "Fixes the printer with a paperclip nobody knew was for that.", "fr": "Répare l'imprimante avec un trombone dont personne ne connaissait l'usage.", "es": "Arregla la impresora con un clip cuyo uso nadie conocía." }, "idealProfile": { "creativity": 85, "intelligence": 75, "chaos": 55 } },
+  { "id": "power_calm_under_pressure", "text": { "en": "Stays unnervingly calm while three deadlines and the wifi go down at once.", "fr": "Reste étrangement calme quand trois deadlines et le wifi tombent en même temps.", "es": "Se mantiene inquietantemente tranquilo cuando caen tres plazos y el wifi a la vez." }, "idealProfile": { "emotionalControl": 88, "discipline": 65 } },
+  { "id": "power_cheapest_option", "text": { "en": "Finds the cheapest flight by opening eleven tabs and a burner account.", "fr": "Trouve le vol le moins cher en ouvrant onze onglets et un compte fantôme.", "es": "Encuentra el vuelo más barato abriendo once pestañas y una cuenta trampa." }, "idealProfile": { "financialSense": 82, "intelligence": 60, "discipline": 55 } },
+  { "id": "power_reads_the_room", "text": { "en": "Knows a meeting is about to go badly from the way one person sat down.", "fr": "Sait qu'une réunion va mal tourner rien qu'à la façon dont une personne s'est assise.", "es": "Sabe que una reunión saldrá mal solo por cómo se sentó una persona." }, "idealProfile": { "empathy": 82, "social": 68, "emotionalControl": 60 } },
+  { "id": "power_turns_chaos_into_plan", "text": { "en": "Turns a group chat spiraling into 200 messages into a working plan in ten minutes.", "fr": "Transforme un groupe de discussion parti en vrille avec 200 messages en un plan concret en dix minutes.", "es": "Convierte un chat grupal desbordado con 200 mensajes en un plan funcional en diez minutos." }, "idealProfile": { "intelligence": 78, "chaos": 55, "discipline": 60 } },
+  { "id": "power_never_forgets", "text": { "en": "Remembers exactly who didn't chip in for the office birthday card in 2021.", "fr": "Se souvient précisément de qui n'a pas participé à la carte d'anniversaire du bureau en 2021.", "es": "Recuerda exactamente quién no aportó a la tarjeta de cumpleaños de la oficina en 2021." }, "idealProfile": { "intelligence": 72, "social": 55, "emotionalControl": 40 } },
+  { "id": "power_makes_hard_things_look_easy", "text": { "en": "Assembles IKEA furniture with zero leftover screws, on the first try.", "fr": "Monte les meubles IKEA sans une seule vis en trop, du premier coup.", "es": "Arma muebles de IKEA sin un solo tornillo sobrante, al primer intento." }, "idealProfile": { "intelligence": 80, "discipline": 65, "emotionalControl": 65 } },
+  { "id": "power_makes_everyone_feel_important", "text": { "en": "Makes the office intern feel like the most important person in the meeting.", "fr": "Fait sentir au stagiaire du bureau qu'il est la personne la plus importante de la réunion.", "es": "Hace que el becario de la oficina se sienta la persona más importante de la reunión." }, "idealProfile": { "empathy": 78, "communication": 65, "social": 60 } },
+  { "id": "power_wins_every_board_game", "text": { "en": "Wins every board game night without anyone quite understanding how.", "fr": "Gagne à chaque soirée jeux de société sans que personne comprenne trop comment.", "es": "Gana cada noche de juegos de mesa sin que nadie entienda muy bien cómo." }, "idealProfile": { "intelligence": 75, "risk": 55, "chaos": 40 } },
+  [
+    {
+      "id": "power_password_from_memory",
+      "text": {
+        "en": "Remembers a password from 2016 but forgets what they ate yesterday.",
+        "fr": "Se souvient d'un mot de passe de 2016 mais oublie ce qu'il a mangé hier.",
+        "es": "Recuerda una contraseña de 2016 pero olvida lo que comió ayer."
+      },
+      "idealProfile": { "intelligence": 72, "chaos": 58 }
+    },
+  
+    {
+      "id": "power_detects_free_food",
+      "text": {
+        "en": "Can detect free food from three buildings away.",
+        "fr": "Peut détecter de la nourriture gratuite à trois bâtiments de distance.",
+        "es": "Puede detectar comida gratis desde tres edificios de distancia."
+      },
+      "idealProfile": { "energy": 78, "social": 68, "luck": 65 }
+    },
+  
+    {
+      "id": "power_uncomfortable_chair_radar",
+      "text": {
+        "en": "Always identifies the least comfortable chair in the room.",
+        "fr": "Identifie toujours la chaise la moins confortable de la pièce.",
+        "es": "Siempre identifica la silla menos cómoda de la habitación."
+      },
+      "idealProfile": { "intelligence": 48, "emotionalControl": 75 }
+    },
+  
+    {
+      "id": "power_knows_who_ate_it",
+      "text": {
+        "en": "Knows who ate the last snack without seeing the evidence.",
+        "fr": "Sait qui a mangé le dernier snack sans avoir vu les preuves.",
+        "es": "Sabe quién se comió el último snack sin haber visto las pruebas."
+      },
+      "idealProfile": { "empathy": 72, "intelligence": 62, "social": 58 }
+    },
+  
+    {
+      "id": "power_perfect_microwave_timing",
+      "text": {
+        "en": "Walks into the kitchen exactly one second before the microwave finishes.",
+        "fr": "Entre dans la cuisine exactement une seconde avant la fin du micro-ondes.",
+        "es": "Entra en la cocina exactamente un segundo antes de que termine el microondas."
+      },
+      "idealProfile": { "luck": 88, "discipline": 42 }
+    },
+  
+    {
+      "id": "power_detects_fake_discount",
+      "text": {
+        "en": "Can spot a fake 70% discount before opening the product page.",
+        "fr": "Repère une fausse réduction de 70 % avant même d'ouvrir la fiche produit.",
+        "es": "Detecta un falso descuento del 70 % antes de abrir la página del producto."
+      },
+      "idealProfile": { "financialSense": 88, "intelligence": 72 }
+    },
+  
+    {
+      "id": "power_wrong_door_instinct",
+      "text": {
+        "en": "Always opens the wrong door first, regardless of the building.",
+        "fr": "Ouvre toujours la mauvaise porte en premier, quel que soit le bâtiment.",
+        "es": "Siempre abre primero la puerta equivocada, sin importar el edificio."
+      },
+      "idealProfile": { "chaos": 88, "luck": 18 }
+    },
+  
+    {
+      "id": "power_delivery_radar",
+      "text": {
+        "en": "Knows the delivery arrived by instinct before the doorbell rings.",
+        "fr": "Sait que la livraison est arrivée par instinct avant même la sonnette.",
+        "es": "Sabe que el pedido llegó por instinto antes de que suene el timbre."
+      },
+      "idealProfile": { "luck": 82, "energy": 72 }
+    },
+  
+    {
+      "id": "power_silent_group_chat",
+      "text": {
+        "en": "Knows exactly when a silent group chat means something terrible happened.",
+        "fr": "Sait exactement quand le silence d'un groupe signifie qu'il s'est passé un truc grave.",
+        "es": "Sabe exactamente cuándo el silencio de un grupo significa que ha pasado algo grave."
+      },
+      "idealProfile": { "empathy": 82, "social": 78 }
+    },
+  
+    {
+      "id": "power_fake_confidence",
+      "text": {
+        "en": "Can explain something they barely understand with terrifying confidence.",
+        "fr": "Peut expliquer quelque chose qu'il comprend à peine avec une confiance terrifiante.",
+        "es": "Puede explicar algo que apenas entiende con una confianza aterradora."
+      },
+      "idealProfile": { "communication": 88, "chaos": 72, "humor": 68 }
+    },
+  
+    {
+      "id": "power_three_hour_research",
+      "text": {
+        "en": "Can spend three hours researching something nobody asked about.",
+        "fr": "Peut passer trois heures à faire des recherches sur quelque chose que personne n'a demandé.",
+        "es": "Puede pasar tres horas investigando algo que nadie pidió."
+      },
+      "idealProfile": { "intelligence": 82, "curiosity": 95, "chaos": 65 }
+    },
+  
+    {
+      "id": "power_find_cheapest_option",
+      "text": {
+        "en": "Finds the cheapest acceptable option after an investigation worthy of the CIA.",
+        "fr": "Trouve l'option acceptable la moins chère après une enquête digne de la CIA.",
+        "es": "Encuentra la opción aceptable más barata tras una investigación digna de la CIA."
+      },
+      "idealProfile": { "financialSense": 92, "intelligence": 78, "discipline": 68 }
+    },
+  
+    {
+      "id": "power_knows_when_meeting_is_dead",
+      "text": {
+        "en": "Can feel a meeting becoming useless before anyone says it.",
+        "fr": "Sent qu'une réunion devient inutile avant même que quelqu'un le dise.",
+        "es": "Siente que una reunión se vuelve inútil antes de que alguien lo diga."
+      },
+      "idealProfile": { "intelligence": 72, "professionalism": 68, "emotionalControl": 72 }
+    },
+  
+    {
+      "id": "power_detects_phone_call_length",
+      "text": {
+        "en": "Knows a phone call will last 40 minutes from the first hello.",
+        "fr": "Sait qu'un appel va durer 40 minutes dès le premier bonjour.",
+        "es": "Sabe que una llamada durará 40 minutos desde el primer hola."
+      },
+      "idealProfile": { "empathy": 75, "communication": 62, "social": 55 }
+    },
+  
+    {
+      "id": "power_find_missing_sock",
+      "text": {
+        "en": "Can locate the missing sock everyone else gave up on.",
+        "fr": "Retrouve la chaussette disparue que tout le monde avait abandonnée.",
+        "es": "Encuentra el calcetín perdido al que todos los demás ya habían renunciado."
+      },
+      "idealProfile": { "luck": 72, "discipline": 48, "chaos": 55 }
+    },
+  
+    {
+      "id": "power_avoid_eye_contact",
+      "text": {
+        "en": "Can avoid an acquaintance in a supermarket for an entire aisle.",
+        "fr": "Peut éviter une connaissance dans un supermarché pendant tout un rayon.",
+        "es": "Puede evitar a un conocido en un supermercado durante todo un pasillo."
+      },
+      "idealProfile": { "social": 35, "emotionalControl": 82, "chaos": 48 }
+    },
+  
+    {
+      "id": "power_know_bad_avocado",
+      "text": {
+        "en": "Can identify a ruined avocado without cutting it open.",
+        "fr": "Peut identifier un avocat foutu sans le couper.",
+        "es": "Puede identificar un aguacate podrido sin cortarlo."
+      },
+      "idealProfile": { "intelligence": 48, "luck": 68 }
+    },
+  
+    {
+      "id": "power_perfect_excuse",
+      "text": {
+        "en": "Invents a believable excuse before the question is even finished.",
+        "fr": "Invente une excuse crédible avant même que la question soit terminée.",
+        "es": "Inventa una excusa creíble antes de que termine la pregunta."
+      },
+      "idealProfile": { "creativity": 92, "communication": 82, "chaos": 68 }
+    },
+  
+    {
+      "id": "power_detect_bad_wifi",
+      "text": {
+        "en": "Can sense Wi Fi dying before the loading circle appears.",
+        "fr": "Peut sentir le Wi Fi mourir avant même l'apparition du cercle de chargement.",
+        "es": "Puede sentir que el Wi Fi va a morir antes de que aparezca el círculo de carga."
+      },
+      "idealProfile": { "intelligence": 65, "emotionalControl": 35, "chaos": 58 }
+    },
+  
+    {
+      "id": "power_memory_for_arguments",
+      "text": {
+        "en": "Remembers exactly what someone said during an argument seven years ago.",
+        "fr": "Se souvient exactement de ce que quelqu'un a dit pendant une dispute il y a sept ans.",
+        "es": "Recuerda exactamente lo que alguien dijo durante una discusión hace siete años."
+      },
+      "idealProfile": { "intelligence": 78, "emotionalControl": 28, "empathy": 62 }
+    },
+  
+    {
+      "id": "power_knows_bad_idea",
+      "text": {
+        "en": "Recognizes a terrible idea immediately and says yes anyway.",
+        "fr": "Reconnaît immédiatement une idée catastrophique et dit quand même oui.",
+        "es": "Reconoce inmediatamente una idea terrible y dice que sí de todos modos."
+      },
+      "idealProfile": { "risk": 88, "chaos": 90, "humor": 78 }
+    },
+  
+    {
+      "id": "power_fake_laugh",
+      "text": {
+        "en": "Can fake-laugh convincingly without knowing what was said.",
+        "fr": "Peut rire de manière crédible sans avoir la moindre idée de ce qui a été dit.",
+        "es": "Puede reírse de forma convincente sin tener idea de lo que se dijo."
+      },
+      "idealProfile": { "social": 88, "communication": 72, "emotionalControl": 55 }
+    },
+  
+    {
+      "id": "power_exact_queue_prediction",
+      "text": {
+        "en": "Can choose the slowest checkout line with supernatural consistency.",
+        "fr": "Peut choisir la file de caisse la plus lente avec une régularité surnaturelle.",
+        "es": "Puede elegir la fila más lenta con una consistencia sobrenatural."
+      },
+      "idealProfile": { "chaos": 85, "luck": 8, "risk": 62 }
+    },
+  
+    {
+      "id": "power_detect_free_parking",
+      "text": {
+        "en": "Spots an empty parking space from an irresponsible distance.",
+        "fr": "Repère une place libre depuis une distance totalement irresponsable.",
+        "es": "Detecta un lugar de estacionamiento libre desde una distancia totalmente irresponsable."
+      },
+      "idealProfile": { "luck": 88, "risk": 68, "energy": 62 }
+    },
+  
+    {
+      "id": "power_remembers_useless_details",
+      "text": {
+        "en": "Remembers the name of someone's childhood hamster but not their birthday.",
+        "fr": "Se souvient du nom du hamster d'enfance de quelqu'un mais pas de son anniversaire.",
+        "es": "Recuerda el nombre del hámster de la infancia de alguien pero no su cumpleaños."
+      },
+      "idealProfile": { "intelligence": 72, "chaos": 62 }
+    },
+  
+    {
+      "id": "power_phone_battery_survival",
+      "text": {
+        "en": "Can keep a phone alive for 50 minutes at 2% battery.",
+        "fr": "Peut faire survivre un téléphone 50 minutes avec 2 % de batterie.",
+        "es": "Puede mantener un teléfono vivo durante 50 minutos con un 2 % de batería."
+      },
+      "idealProfile": { "discipline": 78, "intelligence": 65, "chaos": 58 }
+    },
+  
+    {
+      "id": "power_knows_who_will_cancel",
+      "text": {
+        "en": "Knows which friend will cancel before they even accept the invitation.",
+        "fr": "Sait quel ami va annuler avant même qu'il accepte l'invitation.",
+        "es": "Sabe qué amigo va a cancelar antes de que acepte la invitación."
+      },
+      "idealProfile": { "empathy": 88, "social": 82, "intelligence": 62 }
+    },
+  
+    {
+      "id": "power_spot_fake_urgency",
+      "text": {
+        "en": "Can tell when an \"URGENT\" email absolutely could have waited three days.",
+        "fr": "Sait quand un e-mail « URGENT » aurait parfaitement pu attendre trois jours.",
+        "es": "Sabe cuándo un correo «URGENTE» perfectamente podría haber esperado tres días."
+      },
+      "idealProfile": { "intelligence": 75, "professionalism": 72, "emotionalControl": 68 }
+    },
+  
+    {
+      "id": "power_perfect_awkwarness",
+      "text": {
+        "en": "Can predict the exact second a conversation becomes painfully awkward.",
+        "fr": "Peut prédire la seconde exacte où une conversation devient atrocement gênante.",
+        "es": "Puede predecir el segundo exacto en que una conversación se vuelve terriblemente incómoda."
+      },
+      "idealProfile": { "empathy": 88, "social": 72, "emotionalControl": 55 }
+    },
+  
+    {
+      "id": "power_never_loses_remote",
+      "text": {
+        "en": "Always knows which cushion is hiding the remote.",
+        "fr": "Sait toujours sous quel coussin se cache la télécommande.",
+        "es": "Siempre sabe bajo qué cojín está escondido el mando."
+      },
+      "idealProfile": { "luck": 72, "intelligence": 48 }
+    },
+  
+    {
+      "id": "power_professional_nod",
+      "text": {
+        "en": "Can nod through an explanation while understanding absolutely nothing.",
+        "fr": "Peut hocher la tête pendant une explication sans absolument rien comprendre.",
+        "es": "Puede asentir durante una explicación sin entender absolutamente nada."
+      },
+      "idealProfile": { "social": 82, "communication": 72, "professionalism": 48 }
+    },
+  
+    {
+      "id": "power_detects_burnt_toast",
+      "text": {
+        "en": "Can smell burnt toast from an offensively far distance.",
+        "fr": "Peut sentir du pain brûlé à une distance offensivement lointaine.",
+        "es": "Puede oler una tostada quemada desde una distancia ofensivamente absurda."
+      },
+      "idealProfile": { "intelligence": 38, "energy": 55, "chaos": 48 }
+    },
+  
+    {
+      "id": "power_organizes_chaos",
+      "text": {
+        "en": "Can turn 147 unread messages into one understandable plan.",
+        "fr": "Peut transformer 147 messages non lus en un plan compréhensible.",
+        "es": "Puede convertir 147 mensajes sin leer en un plan comprensible."
+      },
+      "idealProfile": { "intelligence": 82, "discipline": 72, "communication": 78 }
+    },
+  
+    {
+      "id": "power_detects_bad_hotel",
+      "text": {
+        "en": "Can judge an entire hotel from the smell of its hallway.",
+        "fr": "Peut juger un hôtel entier à l'odeur de son couloir.",
+        "es": "Puede juzgar un hotel entero por el olor de su pasillo."
+      },
+      "idealProfile": { "intelligence": 55, "emotionalControl": 62, "luck": 45 }
+    },
+  
+    {
+      "id": "power_last_minute_genius",
+      "text": {
+        "en": "Becomes dramatically more intelligent approximately four minutes before the deadline.",
+        "fr": "Devient soudainement beaucoup plus intelligent environ quatre minutes avant la deadline.",
+        "es": "Se vuelve repentinamente mucho más inteligente unos cuatro minutos antes de la fecha límite."
+      },
+      "idealProfile": { "intelligence": 78, "chaos": 82, "discipline": 15 }
+    },
+  
+    {
+      "id": "power_professional_stalling",
+      "text": {
+        "en": "Can turn a five-minute task into a two-hour preparation ritual.",
+        "fr": "Peut transformer une tâche de cinq minutes en rituel de préparation de deux heures.",
+        "es": "Puede convertir una tarea de cinco minutos en un ritual de preparación de dos horas."
+      },
+      "idealProfile": { "chaos": 72, "creativity": 65, "discipline": 22 }
+    },
+  
+    {
+      "id": "power_detects_social_exit",
+      "text": {
+        "en": "Knows exactly when to leave a party before it becomes embarrassing.",
+        "fr": "Sait exactement quand quitter une soirée avant que ça devienne gênant.",
+        "es": "Sabe exactamente cuándo salir de una fiesta antes de que se vuelva incómoda."
+      },
+      "idealProfile": { "social": 72, "emotionalControl": 82, "luck": 62 }
+    },
+  
+    {
+      "id": "power_worst_timing",
+      "text": {
+        "en": "Can sneeze, cough or drop something exactly when everyone goes silent.",
+        "fr": "Peut éternuer, tousser ou faire tomber un objet exactement quand tout le monde se tait.",
+        "es": "Puede estornudar, toser o dejar caer algo justo cuando todos se quedan en silencio."
+      },
+      "idealProfile": { "chaos": 94, "luck": 12, "humor": 78 }
+    },
+  
+    {
+      "id": "power_find_wrong_tab",
+      "text": {
+        "en": "Can identify the correct browser tab after opening 38 of them.",
+        "fr": "Peut retrouver le bon onglet après en avoir ouvert 38.",
+        "es": "Puede encontrar la pestaña correcta después de abrir 38."
+      },
+      "idealProfile": { "intelligence": 76, "chaos": 78, "discipline": 48 }
+    },
+  
+    {
+      "id": "power_reads_text_tone",
+      "text": {
+        "en": "Can tell someone is annoyed from a single \"ok.\"",
+        "fr": "Peut savoir que quelqu'un est énervé grâce à un simple « ok ».",
+        "es": "Puede saber que alguien está molesto por un simple «ok»."
+      },
+      "idealProfile": { "empathy": 90, "social": 78, "emotionalControl": 55 }
+    },
+  
+    {
+      "id": "power_detects_expiring_food",
+      "text": {
+        "en": "Can identify which fridge item is one day away from becoming evidence.",
+        "fr": "Peut identifier quel aliment du frigo est à un jour de devenir une pièce à conviction.",
+        "es": "Puede identificar qué comida de la nevera está a un día de convertirse en evidencia."
+      },
+      "idealProfile": { "intelligence": 52, "risk": 68, "chaos": 62 }
+    },
+  
+    {
+      "id": "power_instant_regret",
+      "text": {
+        "en": "Can experience complete regret approximately 0.8 seconds after making a decision.",
+        "fr": "Peut ressentir un regret complet environ 0,8 seconde après une décision.",
+        "es": "Puede sentir arrepentimiento total aproximadamente 0,8 segundos después de decidir."
+      },
+      "idealProfile": { "emotionalControl": 22, "intelligence": 62, "chaos": 72 }
+    },
+  
+    {
+      "id": "power_knows_free_trial_trap",
+      "text": {
+        "en": "Can smell a subscription trap hiding behind a free trial.",
+        "fr": "Peut sentir l'arnaque d'un abonnement cachée derrière une période d'essai gratuite.",
+        "es": "Puede detectar la trampa de una suscripción escondida tras una prueba gratuita."
+      },
+      "idealProfile": { "financialSense": 85, "intelligence": 78, "discipline": 72 }
+    },
+  
+    {
+      "id": "power_expert_of_nothing",
+      "text": {
+        "en": "Can confidently explain a subject they learned about 14 minutes ago.",
+        "fr": "Peut expliquer avec assurance un sujet découvert il y a seulement 14 minutes.",
+        "es": "Puede explicar con confianza un tema que descubrió hace solo 14 minutos."
+      },
+      "idealProfile": { "communication": 88, "creativity": 72, "chaos": 68 }
+    },
+  
+    {
+      "id": "power_social_battery_prediction",
+      "text": {
+        "en": "Can calculate exactly how many humans remain socially tolerable.",
+        "fr": "Peut calculer exactement combien d'humains restent socialement supportables.",
+        "es": "Puede calcular exactamente cuántos humanos siguen siendo socialmente soportables."
+      },
+      "idealProfile": { "social": 42, "emotionalControl": 82, "intelligence": 72 }
+    },
+  
+    {
+      "id": "power_unnecessary_knowledge",
+      "text": {
+        "en": "Knows three facts about a topic nobody mentioned.",
+        "fr": "Connaît trois faits sur un sujet dont personne n'a parlé.",
+        "es": "Conoce tres datos sobre un tema que nadie mencionó."
+      },
+      "idealProfile": { "intelligence": 82, "curiosity": 88, "chaos": 52 }
+    },
+  
+    {
+      "id": "power_knows_when_food_is_ready",
+      "text": {
+        "en": "Knows dinner is ready exactly before someone announces it.",
+        "fr": "Sait que le repas est prêt juste avant que quelqu'un l'annonce.",
+        "es": "Sabe que la cena está lista justo antes de que alguien lo anuncie."
+      },
+      "idealProfile": { "luck": 72, "empathy": 55, "discipline": 48 }
+    },
+  
+    {
+      "id": "power_terrible_purchase_memory",
+      "text": {
+        "en": "Remembers every terrible purchase they have made with museum-level detail.",
+        "fr": "Se souvient de chaque achat catastrophique avec un niveau de détail muséal.",
+        "es": "Recuerda cada compra desastrosa con un nivel de detalle digno de museo."
+      },
+      "idealProfile": { "financialSense": 42, "intelligence": 72, "chaos": 62 }
+    },
+  
+    {
+      "id": "power_perfectly_timed_message",
+      "text": {
+        "en": "Sends a message exactly when the person is already thinking about them.",
+        "fr": "Envoie un message exactement au moment où l'autre personne pense déjà à lui.",
+        "es": "Envía un mensaje exactamente cuando la otra persona ya está pensando en él."
+      },
+      "idealProfile": { "social": 82, "luck": 85, "empathy": 72 }
+    },
+  
+    {
+      "id": "power_survive_awkward_silence",
+      "text": {
+        "en": "Can survive an awkward silence without touching their phone.",
+        "fr": "Peut survivre à un silence gênant sans toucher à son téléphone.",
+        "es": "Puede sobrevivir a un silencio incómodo sin tocar el teléfono."
+      },
+      "idealProfile": { "emotionalControl": 92, "social": 68, "discipline": 72 }
+    },
+  
+    {
+      "id": "power_terrible_idea_detector",
+      "text": {
+        "en": "Can identify exactly which sentence will eventually ruin the evening.",
+        "fr": "Peut identifier exactement quelle phrase finira par ruiner la soirée.",
+        "es": "Puede identificar exactamente qué frase terminará arruinando la noche."
+      },
+      "idealProfile": { "empathy": 82, "social": 75, "intelligence": 68 }
+    },
+  
+    {
+      "id": "power_reconstruct_conversation",
+      "text": {
+        "en": "Can replay an entire conversation mentally at 3 AM for no reason.",
+        "fr": "Peut rejouer mentalement une conversation entière à 3 h du matin sans aucune raison.",
+        "es": "Puede reproducir mentalmente una conversación entera a las 3 de la mañana sin motivo."
+      },
+      "idealProfile": { "intelligence": 72, "emotionalControl": 18, "empathy": 68 }
+    },
+  
+    {
+      "id": "power_detects_pending_mess",
+      "text": {
+        "en": "Can tell a perfectly calm situation is about to become someone's problem.",
+        "fr": "Sait qu'une situation parfaitement calme va bientôt devenir le problème de quelqu'un.",
+        "es": "Sabe que una situación perfectamente tranquila está a punto de convertirse en el problema de alguien."
+      },
+      "idealProfile": { "intelligence": 68, "empathy": 78, "chaos": 62 }
+    },
+  
+    {
+      "id": "power_last_bite_instinct",
+      "text": {
+        "en": "Always knows someone is about to ask for the last bite.",
+        "fr": "Sait toujours que quelqu'un va demander la dernière bouchée.",
+        "es": "Siempre sabe que alguien está a punto de pedir el último bocado."
+      },
+      "idealProfile": { "social": 65, "empathy": 62, "luck": 72 }
+    },
+  
+    {
+      "id": "power_sudden_genius",
+      "text": {
+        "en": "Has their best idea while brushing their teeth, naturally useless by morning.",
+        "fr": "A sa meilleure idée en se brossant les dents, naturellement inutile le lendemain matin.",
+        "es": "Tiene su mejor idea mientras se cepilla los dientes y naturalmente la olvida por la mañana."
+      },
+      "idealProfile": { "creativity": 88, "chaos": 78, "discipline": 22 }
+    },
+  
+    {
+      "id": "power_know_bad_chair",
+      "text": {
+        "en": "Can detect a chair that looks comfortable but is actually a trap.",
+        "fr": "Peut détecter une chaise qui semble confortable mais qui est en réalité un piège.",
+        "es": "Puede detectar una silla que parece cómoda pero en realidad es una trampa."
+      },
+      "idealProfile": { "intelligence": 45, "emotionalControl": 72, "chaos": 38 }
+    },
+  
+    {
+      "id": "power_chaotic_solution",
+      "text": {
+        "en": "Fixes simple problems using methods nobody should legally document.",
+        "fr": "Résout des problèmes simples avec des méthodes qu'il ne faudrait légalement jamais documenter.",
+        "es": "Resuelve problemas simples con métodos que nadie debería documentar legalmente."
+      },
+      "idealProfile": { "creativity": 92, "chaos": 88, "risk": 82, "intelligence": 68 }
+    },
+  
+    {
+      "id": "power_instant_social_forensics",
+      "text": {
+        "en": "Can reconstruct who dislikes whom after observing one dinner.",
+        "fr": "Peut déterminer qui déteste qui après avoir observé un seul dîner.",
+        "es": "Puede descubrir quién odia a quién después de observar una sola cena."
+      },
+      "idealProfile": { "empathy": 88, "social": 85, "intelligence": 78 }
+    },
+  
+    {
+      "id": "power_perfectly_bad_timing",
+      "text": {
+        "en": "Arrives exactly when everyone has finished discussing the thing they needed.",
+        "fr": "Arrive exactement quand tout le monde vient de finir de discuter du sujet important.",
+        "es": "Llega exactamente cuando todos acaban de terminar de hablar del tema importante."
+      },
+      "idealProfile": { "chaos": 92, "luck": 8, "discipline": 15 }
+    },
+  
+    {
+      "id": "power_confidently_wrong",
+      "text": {
+        "en": "Can be completely wrong with enough confidence to start a debate.",
+        "fr": "Peut avoir totalement tort avec assez d'assurance pour lancer un débat.",
+        "es": "Puede estar completamente equivocado con suficiente confianza para iniciar un debate."
+      },
+      "idealProfile": { "communication": 82, "chaos": 82, "humor": 78 }
+    },
+  
+    {
+      "id": "power_everything_is_a_sign",
+      "text": {
+        "en": "Can turn three unrelated coincidences into a convincing conspiracy.",
+        "fr": "Peut transformer trois coïncidences sans rapport en théorie du complot crédible.",
+        "es": "Puede convertir tres coincidencias sin relación en una teoría conspirativa convincente."
+      },
+      "idealProfile": { "creativity": 92, "chaos": 85, "intelligence": 55 }
+    },
+  
+    {
+      "id": "power_know_when_to_leave",
+      "text": {
+        "en": "Leaves exactly before the person with the embarrassing story arrives.",
+        "fr": "Part exactement avant l'arrivée de la personne avec l'histoire embarrassante.",
+        "es": "Se va exactamente antes de que llegue la persona con la historia vergonzosa."
+      },
+      "idealProfile": { "luck": 88, "social": 68, "emotionalControl": 72 }
+    },
+  
+    {
+      "id": "power_detects_free_seat",
+      "text": {
+        "en": "Can identify the only free seat in a packed room instantly.",
+        "fr": "Repère instantanément la seule place libre dans une pièce bondée.",
+        "es": "Detecta al instante el único asiento libre en una sala llena."
+      },
+      "idealProfile": { "luck": 75, "intelligence": 52, "social": 42 }
+    },
+  
+    {
+      "id": "power_professional_stare",
+      "text": {
+        "en": "Can stare at a loading screen with enough intensity to make it feel guilty.",
+        "fr": "Peut fixer une page de chargement avec assez d'intensité pour la faire culpabiliser.",
+        "es": "Puede mirar una pantalla de carga con suficiente intensidad para hacerla sentirse culpable."
+      },
+      "idealProfile": { "emotionalControl": 25, "chaos": 72, "humor": 78 }
+    },
+  
+    {
+      "id": "power_knows_exactly_what_to_order",
+      "text": {
+        "en": "Knows exactly what to order after saying \"I don't know\" for ten minutes.",
+        "fr": "Sait exactement quoi commander après avoir dit « je sais pas » pendant dix minutes.",
+        "es": "Sabe exactamente qué pedir después de decir «no sé» durante diez minutos."
+      },
+      "idealProfile": { "social": 55, "emotionalControl": 45, "discipline": 62 }
+    },
+  
+    {
+      "id": "power_truly_unnecessary",
+      "text": {
+        "en": "Can remember a license plate but forget why they walked into the room.",
+        "fr": "Peut retenir une plaque d'immatriculation mais oublier pourquoi il est entré dans la pièce.",
+        "es": "Puede recordar una matrícula pero olvidar por qué entró en la habitación."
+      },
+      "idealProfile": { "intelligence": 72, "chaos": 78 }
+    },
+  
+    {
+      "id": "power_terrifyingly_specific",
+      "text": {
+        "en": "Can recognize a microwave from its sound alone.",
+        "fr": "Peut reconnaître un micro-ondes uniquement à son bruit.",
+        "es": "Puede reconocer un microondas solo por su sonido."
+      },
+      "idealProfile": { "intelligence": 45, "discipline": 55, "chaos": 32 }
+    }
+  ]
+]

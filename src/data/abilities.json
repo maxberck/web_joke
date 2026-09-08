@@ -1,0 +1,1045 @@
+[
+  { "id": "ability_useless_info", "text": { "en": "Remembers a coworker's ex's dog's name from a story told once in 2019.", "fr": "Se souvient du prénom du chien de l'ex d'un collègue, mentionné une fois en 2019.", "es": "Recuerda el nombre del perro del ex de un compañero, mencionado una vez en 2019." }, "idealProfile": { "intelligence": 75, "chaos": 50 } },
+  { "id": "ability_save_3_euros", "text": { "en": "Can spend 45 minutes comparing prices to save €1.20.", "fr": "Peut passer 45 minutes à comparer les prix pour économiser 1,20€.", "es": "Puede pasar 45 minutos comparando precios para ahorrar 1,20€." }, "idealProfile": { "financialSense": 40, "intelligence": 60, "chaos": 45 } },
+  { "id": "ability_quick_question_radar", "text": { "en": "Can detect a \"quick question\" incoming from three rooms away.", "fr": "Peut détecter une « petite question rapide » arriver depuis trois pièces plus loin.", "es": "Puede detectar una \"pregunta rápida\" llegando desde tres habitaciones de distancia." }, "idealProfile": { "empathy": 60, "communication": 55, "emotionalControl": 45 } },
+  { "id": "ability_printer_sense", "text": { "en": "Knows the office printer is about to jam before it even starts printing.", "fr": "Sait que l'imprimante du bureau va bourrer avant même qu'elle commence à imprimer.", "es": "Sabe que la impresora de la oficina se va a atascar antes de que empiece a imprimir." }, "idealProfile": { "intelligence": 55, "chaos": 40, "discipline": 50 } },
+  { "id": "ability_parking_spot_radar", "text": { "en": "Finds the exact parking spot someone is leaving, every single time.", "fr": "Trouve à chaque fois la place exacte que quelqu'un est en train de libérer.", "es": "Encuentra siempre el lugar exacto que alguien está dejando libre." }, "idealProfile": { "luck": 70, "intelligence": 40, "discipline": 30 } },
+  { "id": "ability_typo_spotter", "text": { "en": "Spots the one typo on a 40-slide deck from across a dark auditorium.", "fr": "Repère l'unique faute de frappe sur un diaporama de 40 slides depuis le fond d'une salle sombre.", "es": "Detecta la única errata en una presentación de 40 diapositivas desde el fondo de un auditorio oscuro." }, "idealProfile": { "intelligence": 68, "discipline": 60, "professionalism": 50 } },
+  { "id": "ability_predicts_awkward_silence", "text": { "en": "Feels an awkward silence coming three full seconds before it lands.", "fr": "Sent un silence gênant arriver trois bonnes secondes avant qu'il ne tombe.", "es": "Siente venir un silencio incómodo tres segundos completos antes de que llegue." }, "idealProfile": { "empathy": 68, "social": 55, "emotionalControl": 40 } },
+  { "id": "ability_reheats_perfectly", "text": { "en": "Reheats leftover pizza to a scientifically perfect crispness, every time.", "fr": "Réchauffe la pizza de la veille à une croustillance scientifiquement parfaite, à chaque fois.", "es": "Recalienta la pizza sobrante hasta un crujido científicamente perfecto, siempre." }, "idealProfile": { "discipline": 50, "intelligence": 35, "chaos": 20 } },
+  { "id": "ability_group_photo_timing", "text": { "en": "Blinks in exactly one out of every ten group photos, with perfect consistency.", "fr": "Cligne des yeux dans exactement une photo de groupe sur dix, avec une régularité parfaite.", "es": "Parpadea en exactamente una de cada diez fotos grupales, con una regularidad perfecta." }, "idealProfile": { "luck": 30, "chaos": 45, "social": 50 } },
+  { "id": "ability_reads_the_room_wrong", "text": { "en": "Can confidently misread a room's entire mood in under two seconds.", "fr": "Peut se tromper avec assurance sur l'ambiance d'une pièce en moins de deux secondes.", "es": "Puede malinterpretar con confianza el ambiente de una sala en menos de dos segundos." }, "idealProfile": { "social": 45, "emotionalControl": 35, "chaos": 40 } },
+  { "id": "ability_finds_the_one_flaw", "text": { "en": "Instantly spots the one flaw in an otherwise perfect plan, always mid-execution.", "fr": "Repère instantanément l'unique faille d'un plan par ailleurs parfait, toujours en pleine exécution.", "es": "Detecta al instante la única falla de un plan por lo demás perfecto, siempre a mitad de ejecución." }, "idealProfile": { "intelligence": 70, "chaos": 45, "emotionalControl": 30 } },
+  { "id": "ability_remembers_wifi_password", "text": { "en": "Is the only person in any household who remembers the wifi password.", "fr": "Est la seule personne du foyer à se souvenir du mot de passe wifi.", "es": "Es la única persona en cualquier hogar que recuerda la contraseña del wifi." }, "idealProfile": { "discipline": 55, "intelligence": 45, "professionalism": 35 } },
+  [
+    {
+      "id": "ability_microwave_countdown",
+      "text": {
+        "en": "Knows exactly when to enter the kitchen so the microwave finishes at 00:01.",
+        "fr": "Sait exactement quand entrer dans la cuisine pour arriver à 00:01 au micro-ondes.",
+        "es": "Sabe exactamente cuándo entrar en la cocina para llegar justo al 00:01 del microondas."
+      },
+      "idealProfile": { "intelligence": 55, "discipline": 45, "luck": 60 }
+    },
+  
+    {
+      "id": "ability_fake_productive",
+      "text": {
+        "en": "Can look extremely busy while doing absolutely nothing useful.",
+        "fr": "Peut avoir l'air extrêmement occupé sans rien faire d'utile.",
+        "es": "Puede parecer extremadamente ocupado sin hacer absolutamente nada útil."
+      },
+      "idealProfile": { "chaos": 65, "social": 60, "professionalism": 30 }
+    },
+  
+    {
+      "id": "ability_fridge_memory",
+      "text": {
+        "en": "Remembers exactly what expired in the fridge three weeks ago.",
+        "fr": "Se souvient exactement de ce qui a périmé dans le frigo il y a trois semaines.",
+        "es": "Recuerda exactamente qué caducó en la nevera hace tres semanas."
+      },
+      "idealProfile": { "intelligence": 55, "discipline": 45, "chaos": 55 }
+    },
+  
+    {
+      "id": "ability_chair_claim",
+      "text": {
+        "en": "Can identify which chair someone considers \"their chair\" within five minutes.",
+        "fr": "Peut déterminer en cinq minutes quelle chaise quelqu'un considère comme « sa chaise ».",
+        "es": "Puede determinar en cinco minutos qué silla considera alguien «su silla»."
+      },
+      "idealProfile": { "social": 50, "empathy": 55, "intelligence": 50 }
+    },
+  
+    {
+      "id": "ability_notification_prediction",
+      "text": {
+        "en": "Looks at the phone exactly one second before an unnecessary notification arrives.",
+        "fr": "Regarde son téléphone exactement une seconde avant une notification inutile.",
+        "es": "Mira el teléfono exactamente un segundo antes de que llegue una notificación inútil."
+      },
+      "idealProfile": { "luck": 75, "chaos": 35, "social": 40 }
+    },
+  
+    {
+      "id": "ability_detect_expensive_water",
+      "text": {
+        "en": "Can instantly tell when bottled water costs more than it should.",
+        "fr": "Détecte instantanément quand une bouteille d'eau coûte beaucoup trop cher.",
+        "es": "Detecta al instante cuándo una botella de agua cuesta demasiado."
+      },
+      "idealProfile": { "financialSense": 75, "intelligence": 55, "discipline": 60 }
+    },
+  
+    {
+      "id": "ability_wrong_door",
+      "text": {
+        "en": "Always chooses the wrong door first, even when there are only two.",
+        "fr": "Choisit toujours la mauvaise porte en premier, même quand il n'y en a que deux.",
+        "es": "Siempre elige primero la puerta equivocada, incluso cuando solo hay dos."
+      },
+      "idealProfile": { "chaos": 75, "luck": 20, "intelligence": 30 }
+    },
+  
+    {
+      "id": "ability_receipt_archaeology",
+      "text": {
+        "en": "Can identify a purchase from 2017 by a crumpled receipt fragment.",
+        "fr": "Peut identifier un achat de 2017 grâce à un bout de ticket froissé.",
+        "es": "Puede identificar una compra de 2017 gracias a un fragmento de recibo arrugado."
+      },
+      "idealProfile": { "intelligence": 70, "discipline": 55, "chaos": 45 }
+    },
+  
+    {
+      "id": "ability_bathroom_queue",
+      "text": {
+        "en": "Can sense an empty bathroom stall from thirty meters away.",
+        "fr": "Peut sentir une cabine de toilettes libre à trente mètres.",
+        "es": "Puede detectar un baño libre a treinta metros de distancia."
+      },
+      "idealProfile": { "luck": 70, "intelligence": 45, "chaos": 35 }
+    },
+  
+    {
+      "id": "ability_wrong_name",
+      "text": {
+        "en": "Can forget someone's name immediately after hearing it three times.",
+        "fr": "Peut oublier un prénom immédiatement après l'avoir entendu trois fois.",
+        "es": "Puede olvidar un nombre inmediatamente después de escucharlo tres veces."
+      },
+      "idealProfile": { "chaos": 70, "social": 50, "intelligence": 25 }
+    },
+  
+    {
+      "id": "ability_spot_bad_avocado",
+      "text": {
+        "en": "Knows an avocado is ruined without opening it.",
+        "fr": "Sait qu'un avocat est foutu sans même l'ouvrir.",
+        "es": "Sabe que un aguacate está arruinado sin abrirlo."
+      },
+      "idealProfile": { "intelligence": 45, "luck": 60, "discipline": 50 }
+    },
+  
+    {
+      "id": "ability_cable_identification",
+      "text": {
+        "en": "Knows which mystery cable belongs to which device by instinct alone.",
+        "fr": "Sait quel câble mystérieux appartient à quel appareil par pur instinct.",
+        "es": "Sabe qué cable misterioso pertenece a cada aparato solo por instinto."
+      },
+      "idealProfile": { "intelligence": 72, "discipline": 58, "professionalism": 45 }
+    },
+  
+    {
+      "id": "ability_menu_scanner",
+      "text": {
+        "en": "Can scan an entire menu before the waiter finishes saying hello.",
+        "fr": "Peut scanner tout un menu avant que le serveur ait fini de dire bonjour.",
+        "es": "Puede escanear todo el menú antes de que el camarero termine de saludar."
+      },
+      "idealProfile": { "intelligence": 62, "energy": 65, "discipline": 60 }
+    },
+  
+    {
+      "id": "ability_dramatic_sigh",
+      "text": {
+        "en": "Can produce a sigh loud enough to communicate a full emotional report.",
+        "fr": "Peut pousser un soupir assez fort pour transmettre un rapport émotionnel complet.",
+        "es": "Puede soltar un suspiro capaz de transmitir un informe emocional completo."
+      },
+      "idealProfile": { "communication": 70, "emotionalControl": 35, "chaos": 60 }
+    },
+  
+    {
+      "id": "ability_detect_free_food",
+      "text": {
+        "en": "Can hear someone say \"there's free food\" from a different building.",
+        "fr": "Peut entendre « il y a de la nourriture gratuite » depuis un autre bâtiment.",
+        "es": "Puede oír «hay comida gratis» desde otro edificio."
+      },
+      "idealProfile": { "social": 65, "energy": 85, "luck": 70 }
+    },
+  
+    {
+      "id": "ability_awkward_exit",
+      "text": {
+        "en": "Can leave a conversation without making it obvious they escaped.",
+        "fr": "Peut quitter une conversation sans que personne ne remarque la fuite.",
+        "es": "Puede escapar de una conversación sin que nadie note la huida."
+      },
+      "idealProfile": { "social": 75, "communication": 70, "emotionalControl": 65 }
+    },
+  
+    {
+      "id": "ability_fake_confidence",
+      "text": {
+        "en": "Can sound 100% confident while having absolutely no idea what is happening.",
+        "fr": "Peut avoir l'air sûr de lui à 100 % sans comprendre absolument rien.",
+        "es": "Puede sonar 100 % seguro sin tener ni idea de lo que está pasando."
+      },
+      "idealProfile": { "communication": 82, "social": 70, "chaos": 72 }
+    },
+  
+    {
+      "id": "ability_cheap_snack",
+      "text": {
+        "en": "Can find the cheapest snack in any vending machine without looking twice.",
+        "fr": "Trouve le snack le moins cher d'un distributeur sans regarder deux fois.",
+        "es": "Encuentra el snack más barato de cualquier máquina sin mirar dos veces."
+      },
+      "idealProfile": { "financialSense": 72, "intelligence": 58, "discipline": 48 }
+    },
+  
+    {
+      "id": "ability_undo_button",
+      "text": {
+        "en": "Knows which undo button will save the situation before everyone panics.",
+        "fr": "Sait quel bouton Annuler va sauver la situation avant que tout le monde panique.",
+        "es": "Sabe qué botón Deshacer salvará la situación antes de que todos entren en pánico."
+      },
+      "idealProfile": { "intelligence": 70, "professionalism": 65, "emotionalControl": 58 }
+    },
+  
+    {
+      "id": "ability_window_seat",
+      "text": {
+        "en": "Can predict which train seat will stay empty until the last second.",
+        "fr": "Peut prédire quelle place de train restera libre jusqu'à la dernière seconde.",
+        "es": "Puede predecir qué asiento del tren seguirá libre hasta el último segundo."
+      },
+      "idealProfile": { "luck": 78, "intelligence": 48, "social": 38 }
+    },
+  
+    {
+      "id": "ability_shopping_cart_hoarder",
+      "text": {
+        "en": "Can maintain 47 open shopping carts and remember why only three exist.",
+        "fr": "Peut garder 47 paniers d'achat ouverts et se souvenir de trois seulement.",
+        "es": "Puede mantener 47 carritos de compra abiertos y recordar por qué existen tres."
+      },
+      "idealProfile": { "chaos": 92, "creativity": 55, "intelligence": 48 }
+    },
+  
+    {
+      "id": "ability_remote_control",
+      "text": {
+        "en": "Always knows which cushion is hiding the remote control.",
+        "fr": "Sait toujours sous quel coussin se cache la télécommande.",
+        "es": "Siempre sabe bajo qué cojín está escondido el mando."
+      },
+      "idealProfile": { "intelligence": 42, "luck": 72, "discipline": 35 }
+    },
+  
+    {
+      "id": "ability_password_pattern",
+      "text": {
+        "en": "Can reconstruct a forgotten password from three completely useless clues.",
+        "fr": "Peut reconstruire un mot de passe oublié à partir de trois indices totalement inutiles.",
+        "es": "Puede reconstruir una contraseña olvidada a partir de tres pistas completamente inútiles."
+      },
+      "idealProfile": { "intelligence": 80, "creativity": 65, "discipline": 55 }
+    },
+  
+    {
+      "id": "ability_find_missing_sock",
+      "text": {
+        "en": "Can locate the missing sock after everyone else has declared it dead.",
+        "fr": "Retrouve la chaussette disparue après que tout le monde l'a déclarée morte.",
+        "es": "Encuentra el calcetín perdido después de que todos lo hayan dado por muerto."
+      },
+      "idealProfile": { "luck": 68, "intelligence": 45, "chaos": 55 }
+    },
+  
+    {
+      "id": "ability_avoid_group_photo",
+      "text": {
+        "en": "Can disappear from a group photo without looking like they disappeared.",
+        "fr": "Peut disparaître d'une photo de groupe sans avoir l'air d'avoir fui.",
+        "es": "Puede desaparecer de una foto grupal sin parecer que ha escapado."
+      },
+      "idealProfile": { "social": 62, "chaos": 65, "creativity": 58 }
+    },
+  
+    {
+      "id": "ability_food_expiration_guess",
+      "text": {
+        "en": "Can estimate whether suspicious leftovers are still edible with disturbing accuracy.",
+        "fr": "Peut estimer avec une précision inquiétante si des restes douteux sont encore mangeables.",
+        "es": "Puede estimar con una precisión inquietante si unas sobras dudosas siguen siendo comestibles."
+      },
+      "idealProfile": { "risk": 72, "intelligence": 52, "chaos": 65 }
+    },
+  
+    {
+      "id": "ability_late_reply",
+      "text": {
+        "en": "Can wait exactly long enough before replying to avoid looking too available.",
+        "fr": "Peut attendre exactement assez longtemps avant de répondre pour ne pas avoir l'air disponible.",
+        "es": "Puede esperar exactamente lo suficiente antes de responder para no parecer demasiado disponible."
+      },
+      "idealProfile": { "social": 72, "emotionalControl": 68, "communication": 60 }
+    },
+  
+    {
+      "id": "ability_excel_survival",
+      "text": {
+        "en": "Can pretend to understand a spreadsheet by clicking cells with authority.",
+        "fr": "Peut faire semblant de comprendre un tableur en cliquant sur des cellules avec assurance.",
+        "es": "Puede fingir que entiende una hoja de cálculo haciendo clic con autoridad."
+      },
+      "idealProfile": { "professionalism": 40, "communication": 62, "chaos": 58 }
+    },
+  
+    {
+      "id": "ability_spot_fake_smile",
+      "text": {
+        "en": "Can identify a fake smile before the mouth has finished smiling.",
+        "fr": "Repère un faux sourire avant même que la bouche ait fini de sourire.",
+        "es": "Detecta una sonrisa falsa antes de que la boca termine de sonreír."
+      },
+      "idealProfile": { "empathy": 82, "social": 72, "intelligence": 62 }
+    },
+  
+    {
+      "id": "ability_conversation_escape",
+      "text": {
+        "en": "Can turn \"nice weather\" into a conversation-ending opportunity in under ten seconds.",
+        "fr": "Peut transformer « quel beau temps » en sortie de conversation en moins de dix secondes.",
+        "es": "Puede convertir «qué buen tiempo» en una salida de conversación en menos de diez segundos."
+      },
+      "idealProfile": { "communication": 75, "social": 62, "emotionalControl": 70 }
+    },
+  
+    {
+      "id": "ability_detect_burnt_toast",
+      "text": {
+        "en": "Can smell burnt toast from a completely unreasonable distance.",
+        "fr": "Peut sentir du pain brûlé à une distance complètement absurde.",
+        "es": "Puede oler una tostada quemada desde una distancia completamente absurda."
+      },
+      "idealProfile": { "intelligence": 42, "energy": 52, "chaos": 48 }
+    },
+  
+    {
+      "id": "ability_opening_fridge",
+      "text": {
+        "en": "Can open the fridge four times in a row and still expect new food.",
+        "fr": "Peut ouvrir le frigo quatre fois de suite en espérant voir apparaître de la nouvelle nourriture.",
+        "es": "Puede abrir la nevera cuatro veces seguidas esperando que aparezca comida nueva."
+      },
+      "idealProfile": { "chaos": 85, "creativity": 48, "energy": 35 }
+    },
+  
+    {
+      "id": "ability_doorbell_timing",
+      "text": {
+        "en": "Reaches the door exactly when the delivery person is about to leave.",
+        "fr": "Arrive à la porte exactement quand le livreur s'apprête à partir.",
+        "es": "Llega a la puerta exactamente cuando el repartidor está a punto de irse."
+      },
+      "idealProfile": { "luck": 82, "energy": 70, "chaos": 72 }
+    },
+  
+    {
+      "id": "ability_memorize_random_number",
+      "text": {
+        "en": "Remembers random numbers but forgets every useful phone number.",
+        "fr": "Retient des chiffres complètement inutiles mais oublie tous les numéros importants.",
+        "es": "Recuerda números completamente inútiles pero olvida todos los números importantes."
+      },
+      "idealProfile": { "intelligence": 72, "chaos": 68, "discipline": 28 }
+    },
+  
+    {
+      "id": "ability_staircase_escape",
+      "text": {
+        "en": "Can hear someone coming upstairs and instantly reconsider every life choice.",
+        "fr": "Entend quelqu'un monter les escaliers et reconsidère instantanément toute son existence.",
+        "es": "Oye a alguien subir las escaleras y reconsidera instantáneamente toda su existencia."
+      },
+      "idealProfile": { "empathy": 50, "emotionalControl": 35, "social": 45 }
+    },
+  
+    {
+      "id": "ability_detect_phone_call",
+      "text": {
+        "en": "Can tell a phone call will last thirty minutes from the first hello.",
+        "fr": "Sait qu'un appel va durer trente minutes dès le premier bonjour.",
+        "es": "Sabe que una llamada durará treinta minutos desde el primer hola."
+      },
+      "idealProfile": { "empathy": 72, "communication": 60, "emotionalControl": 42 }
+    },
+  
+    {
+      "id": "ability_dead_battery_prediction",
+      "text": {
+        "en": "Knows a device will die at the worst possible moment.",
+        "fr": "Sait qu'un appareil va mourir exactement au pire moment.",
+        "es": "Sabe que un dispositivo va a morir exactamente en el peor momento."
+      },
+      "idealProfile": { "luck": 25, "chaos": 82, "intelligence": 48 }
+    },
+  
+    {
+      "id": "ability_stare_at_loading",
+      "text": {
+        "en": "Can make a loading bar move faster by staring at it aggressively.",
+        "fr": "Peut faire avancer une barre de chargement plus vite en la fixant agressivement.",
+        "es": "Puede hacer que una barra de carga avance más rápido mirándola agresivamente."
+      },
+      "idealProfile": { "chaos": 78, "emotionalControl": 25, "intelligence": 30 }
+    },
+  
+    {
+      "id": "ability_never_wrong_exit",
+      "text": {
+        "en": "Takes the wrong motorway exit with enough confidence to make everyone accept it.",
+        "fr": "Prend la mauvaise sortie d'autoroute avec assez d'assurance pour convaincre tout le monde.",
+        "es": "Toma la salida equivocada de la autopista con suficiente confianza para convencer a todos."
+      },
+      "idealProfile": { "communication": 78, "chaos": 85, "confidence": 80 }
+    },
+  
+    {
+      "id": "ability_find_best_toilet",
+      "text": {
+        "en": "Can identify the cleanest public toilet without entering any of them.",
+        "fr": "Peut identifier les toilettes publiques les plus propres sans en utiliser une seule.",
+        "es": "Puede identificar el baño público más limpio sin entrar en ninguno."
+      },
+      "idealProfile": { "intelligence": 58, "social": 52, "luck": 65 }
+    },
+  
+    {
+      "id": "ability_detect_microwave_smell",
+      "text": {
+        "en": "Knows when someone reheated fish at work before anyone complains.",
+        "fr": "Sait que quelqu'un a réchauffé du poisson au boulot avant même les plaintes.",
+        "es": "Sabe que alguien calentó pescado en el trabajo antes de que empiecen las quejas."
+      },
+      "idealProfile": { "empathy": 45, "intelligence": 50, "chaos": 62 }
+    },
+  
+    {
+      "id": "ability_fake_laugh",
+      "text": {
+        "en": "Can produce a convincing laugh for a joke they did not hear.",
+        "fr": "Peut produire un rire crédible pour une blague qu'il n'a même pas entendue.",
+        "es": "Puede soltar una risa convincente por un chiste que ni siquiera escuchó."
+      },
+      "idealProfile": { "social": 82, "communication": 75, "emotionalControl": 55 }
+    },
+  
+    {
+      "id": "ability_delete_message",
+      "text": {
+        "en": "Can delete a message seconds before the other person reads it.",
+        "fr": "Peut supprimer un message quelques secondes avant que l'autre personne le lise.",
+        "es": "Puede borrar un mensaje segundos antes de que la otra persona lo lea."
+      },
+      "idealProfile": { "luck": 88, "chaos": 72, "communication": 45 }
+    },
+  
+    {
+      "id": "ability_cheap_flight_radar",
+      "text": {
+        "en": "Can smell a suspiciously cheap flight before the price changes.",
+        "fr": "Peut sentir un vol suspectement bon marché avant que le prix change.",
+        "es": "Puede detectar un vuelo sospechosamente barato antes de que cambie el precio."
+      },
+      "idealProfile": { "financialSense": 78, "luck": 70, "intelligence": 62 }
+    },
+  
+    {
+      "id": "ability_know_who_ate_it",
+      "text": {
+        "en": "Can identify who ate the last snack without checking the evidence.",
+        "fr": "Peut identifier qui a mangé le dernier snack sans examiner les preuves.",
+        "es": "Puede identificar quién se comió el último snack sin examinar las pruebas."
+      },
+      "idealProfile": { "empathy": 68, "intelligence": 60, "social": 58 }
+    },
+  
+    {
+      "id": "ability_avoid_eye_contact",
+      "text": {
+        "en": "Can avoid eye contact with an acquaintance across an entire supermarket.",
+        "fr": "Peut éviter le regard d'une connaissance pendant tout un passage au supermarché.",
+        "es": "Puede evitar el contacto visual con un conocido durante todo un supermercado."
+      },
+      "idealProfile": { "social": 38, "emotionalControl": 72, "chaos": 45 }
+    },
+  
+    {
+      "id": "ability_know_when_food_is_ready",
+      "text": {
+        "en": "Knows food is ready exactly three seconds before the timer rings.",
+        "fr": "Sait que la nourriture est prête exactement trois secondes avant la sonnerie.",
+        "es": "Sabe que la comida está lista exactamente tres segundos antes de que suene el temporizador."
+      },
+      "idealProfile": { "discipline": 62, "luck": 68, "intelligence": 42 }
+    },
+  
+    {
+      "id": "ability_detect_bad_chair",
+      "text": {
+        "en": "Can identify the one uncomfortable chair in a room instantly.",
+        "fr": "Repère instantanément l'unique chaise inconfortable d'une pièce.",
+        "es": "Detecta instantáneamente la única silla incómoda de una habitación."
+      },
+      "idealProfile": { "intelligence": 48, "emotionalControl": 72, "social": 38 }
+    },
+  
+    {
+      "id": "ability_know_the_friend",
+      "text": {
+        "en": "Knows which friend will cancel before the invitation is even accepted.",
+        "fr": "Sait quel ami va annuler avant même qu'il accepte l'invitation.",
+        "es": "Sabe qué amigo va a cancelar antes de que siquiera acepte la invitación."
+      },
+      "idealProfile": { "empathy": 80, "social": 78, "intelligence": 60 }
+    },
+  
+    {
+      "id": "ability_unnecessary_research",
+      "text": {
+        "en": "Can spend three hours researching something that will never be used.",
+        "fr": "Peut passer trois heures à chercher des informations qui ne serviront jamais.",
+        "es": "Puede pasar tres horas investigando algo que jamás utilizará."
+      },
+      "idealProfile": { "intelligence": 78, "creativity": 65, "chaos": 72 }
+    },
+  
+    {
+      "id": "ability_bus_stop_guess",
+      "text": {
+        "en": "Knows the exact moment a bus will appear after giving up on it.",
+        "fr": "Sait exactement quand le bus va apparaître après avoir abandonné l'idée d'attendre.",
+        "es": "Sabe exactamente cuándo aparecerá el autobús después de rendirse."
+      },
+      "idealProfile": { "luck": 82, "emotionalControl": 45, "chaos": 58 }
+    },
+  
+    {
+      "id": "ability_perfect_excuse",
+      "text": {
+        "en": "Can invent a believable excuse before anyone finishes asking what happened.",
+        "fr": "Peut inventer une excuse crédible avant même que la question soit terminée.",
+        "es": "Puede inventar una excusa creíble antes de que termine la pregunta."
+      },
+      "idealProfile": { "creativity": 85, "communication": 78, "chaos": 65 }
+    },
+  
+    {
+      "id": "ability_bag_organization",
+      "text": {
+        "en": "Can fit six completely unnecessary things into a bag designed for two.",
+        "fr": "Peut faire rentrer six objets totalement inutiles dans un sac prévu pour deux.",
+        "es": "Puede meter seis cosas completamente innecesarias en una bolsa diseñada para dos."
+      },
+      "idealProfile": { "creativity": 72, "discipline": 55, "chaos": 68 }
+    },
+  
+    {
+      "id": "ability_detect_fake_sale",
+      "text": {
+        "en": "Can tell when a \"70% off\" sticker is complete nonsense.",
+        "fr": "Repère immédiatement quand une réduction de 70 % est du pur cinéma.",
+        "es": "Detecta al instante cuando un descuento del 70 % es puro teatro."
+      },
+      "idealProfile": { "financialSense": 88, "intelligence": 65, "discipline": 62 }
+    },
+  
+    {
+      "id": "ability_survive_small_talk",
+      "text": {
+        "en": "Can survive five minutes of small talk without mentally leaving the building.",
+        "fr": "Peut survivre cinq minutes de conversation inutile sans mentalement quitter le bâtiment.",
+        "es": "Puede sobrevivir cinco minutos de conversación banal sin abandonar mentalmente el edificio."
+      },
+      "idealProfile": { "social": 82, "emotionalControl": 72, "communication": 75 }
+    },
+  
+    {
+      "id": "ability_detect_bad_vibe",
+      "text": {
+        "en": "Can detect a bad vibe before anyone has technically done anything wrong.",
+        "fr": "Peut détecter une mauvaise vibe avant que personne n'ait techniquement rien fait.",
+        "es": "Puede detectar una mala vibra antes de que técnicamente nadie haya hecho nada."
+      },
+      "idealProfile": { "empathy": 88, "social": 72, "emotionalControl": 62 }
+    },
+  
+    {
+      "id": "ability_food_delivery_tracking",
+      "text": {
+        "en": "Refreshes food delivery tracking so often the app probably fears them.",
+        "fr": "Actualise tellement le suivi du livreur que l'application doit probablement avoir peur.",
+        "es": "Actualiza tanto el seguimiento del repartidor que la aplicación probablemente le tenga miedo."
+      },
+      "idealProfile": { "chaos": 78, "energy": 68, "patience": 18 }
+    },
+  
+    {
+      "id": "ability_bedtime_lie",
+      "text": {
+        "en": "Can convincingly say \"I'll sleep after this\" at 2:47 AM.",
+        "fr": "Peut dire avec conviction « je dors après ça » à 2 h 47 du matin.",
+        "es": "Puede decir con absoluta convicción «duermo después de esto» a las 2:47."
+      },
+      "idealProfile": { "chaos": 82, "energy": 35, "discipline": 22 }
+    },
+  
+    {
+      "id": "ability_laundry_prediction",
+      "text": {
+        "en": "Knows exactly which laundry cycle will somehow take twice as long.",
+        "fr": "Sait exactement quel cycle de machine va mystérieusement durer deux fois plus longtemps.",
+        "es": "Sabe exactamente qué ciclo de lavado tardará misteriosamente el doble."
+      },
+      "idealProfile": { "intelligence": 45, "chaos": 65, "emotionalControl": 55 }
+    },
+  
+    {
+      "id": "ability_social_battery_meter",
+      "text": {
+        "en": "Can calculate the exact number of people they can tolerate before needing to leave.",
+        "fr": "Peut calculer le nombre exact de personnes supportables avant de devoir partir.",
+        "es": "Puede calcular el número exacto de personas que puede soportar antes de tener que irse."
+      },
+      "idealProfile": { "emotionalControl": 72, "social": 45, "intelligence": 65 }
+    },
+  
+    {
+      "id": "ability_queue_switch",
+      "text": {
+        "en": "Changes checkout lines at exactly the wrong mathematical moment.",
+        "fr": "Change de file à la caisse exactement au pire moment mathématique.",
+        "es": "Cambia de fila en la caja exactamente en el peor momento matemático."
+      },
+      "idealProfile": { "chaos": 82, "luck": 18, "risk": 55 }
+    },
+  
+    {
+      "id": "ability_suspicious_noise",
+      "text": {
+        "en": "Can identify the exact household object that just made a suspicious noise.",
+        "fr": "Peut identifier exactement quel objet de la maison vient de faire un bruit suspect.",
+        "es": "Puede identificar exactamente qué objeto de la casa acaba de hacer un ruido sospechoso."
+      },
+      "idealProfile": { "intelligence": 60, "emotionalControl": 68, "chaos": 55 }
+    },
+  
+    {
+      "id": "ability_first_bite",
+      "text": {
+        "en": "Can tell a pizza is too hot from the first microscopic bite.",
+        "fr": "Sait qu'une pizza est beaucoup trop chaude après une première bouchée minuscule.",
+        "es": "Sabe que una pizza está demasiado caliente después del primer mordisco microscópico."
+      },
+      "idealProfile": { "intelligence": 35, "risk": 65, "chaos": 52 }
+    },
+  
+    {
+      "id": "ability_wrong_tab",
+      "text": {
+        "en": "Can open twenty browser tabs and still know which one matters.",
+        "fr": "Peut ouvrir vingt onglets et savoir quand même lequel est important.",
+        "es": "Puede abrir veinte pestañas y aun así saber cuál es importante."
+      },
+      "idealProfile": { "intelligence": 72, "chaos": 76, "creativity": 65 }
+    },
+  
+    {
+      "id": "ability_refill_detector",
+      "text": {
+        "en": "Knows a vending machine item is empty before pressing the button.",
+        "fr": "Sait qu'un produit est vide dans un distributeur avant même d'appuyer sur le bouton.",
+        "es": "Sabe que un producto está agotado en una máquina antes de pulsar el botón."
+      },
+      "idealProfile": { "intelligence": 42, "luck": 72, "discipline": 38 }
+    },
+  
+    {
+      "id": "ability_awkward_wave",
+      "text": {
+        "en": "Can determine whether a distant wave was actually meant for them within 0.4 seconds.",
+        "fr": "Peut déterminer en 0,4 seconde si un signe de la main était vraiment pour lui.",
+        "es": "Puede determinar en 0,4 segundos si un saludo lejano era realmente para él."
+      },
+      "idealProfile": { "social": 65, "empathy": 55, "intelligence": 48 }
+    },
+  
+    {
+      "id": "ability_bread_crust",
+      "text": {
+        "en": "Always knows which side of the bread bag contains the worst piece.",
+        "fr": "Sait toujours de quel côté du sachet se trouve le pire morceau de pain.",
+        "es": "Siempre sabe qué lado de la bolsa contiene el peor trozo de pan."
+      },
+      "idealProfile": { "intelligence": 35, "chaos": 42, "luck": 62 }
+    },
+  
+    {
+      "id": "ability_meeting_exit",
+      "text": {
+        "en": "Can sense the exact moment a meeting has stopped being useful.",
+        "fr": "Sent exactement le moment où une réunion ne sert plus absolument à rien.",
+        "es": "Siente el momento exacto en que una reunión deja de servir para nada."
+      },
+      "idealProfile": { "intelligence": 72, "professionalism": 68, "emotionalControl": 62 }
+    },
+  
+    {
+      "id": "ability_wrong_package",
+      "text": {
+        "en": "Can tell a delivery is for a neighbor simply by looking at the box.",
+        "fr": "Peut savoir qu'un colis est pour le voisin rien qu'en regardant la boîte.",
+        "es": "Puede saber que un paquete es del vecino solo mirando la caja."
+      },
+      "idealProfile": { "intelligence": 42, "social": 55, "luck": 58 }
+    },
+  
+    {
+      "id": "ability_last_charge",
+      "text": {
+        "en": "Can keep a phone alive for 47 minutes on 2% battery.",
+        "fr": "Peut faire survivre un téléphone pendant 47 minutes avec 2 % de batterie.",
+        "es": "Puede mantener un teléfono vivo durante 47 minutos con un 2 % de batería."
+      },
+      "idealProfile": { "discipline": 72, "intelligence": 60, "chaos": 55 }
+    },
+  
+    {
+      "id": "ability_smell_rain",
+      "text": {
+        "en": "Knows it will rain five minutes before everyone else checks the forecast.",
+        "fr": "Sait qu'il va pleuvoir cinq minutes avant que tout le monde regarde la météo.",
+        "es": "Sabe que va a llover cinco minutos antes de que todos miren el pronóstico."
+      },
+      "idealProfile": { "emotionalControl": 58, "intelligence": 52, "luck": 68 }
+    },
+  
+    {
+      "id": "ability_know_the_cheapest_option",
+      "text": {
+        "en": "Finds the cheapest acceptable option after an unnecessarily intense investigation.",
+        "fr": "Trouve l'option la moins chère acceptable après une enquête inutilement intense.",
+        "es": "Encuentra la opción más barata aceptable después de una investigación innecesariamente intensa."
+      },
+      "idealProfile": { "financialSense": 82, "intelligence": 78, "discipline": 62 }
+    },
+  
+    {
+      "id": "ability_ignore_spam",
+      "text": {
+        "en": "Can identify spam instantly but still open it to see how ridiculous it is.",
+        "fr": "Reconnaît immédiatement un spam mais l'ouvre quand même pour voir jusqu'où ça va.",
+        "es": "Reconoce el spam al instante pero lo abre para ver hasta dónde llega."
+      },
+      "idealProfile": { "intelligence": 68, "chaos": 72, "curiosity": 88 }
+    },
+  
+    {
+      "id": "ability_perfect_timing_sneeze",
+      "text": {
+        "en": "Always sneezes exactly when everyone becomes completely silent.",
+        "fr": "Éternue toujours exactement au moment où tout le monde devient silencieux.",
+        "es": "Siempre estornuda justo cuando todo el mundo se queda completamente en silencio."
+      },
+      "idealProfile": { "chaos": 88, "luck": 22, "social": 48 }
+    },
+  
+    {
+      "id": "ability_detect_fake urgency",
+      "text": {
+        "en": "Can tell when an \"URGENT\" message could have absolutely waited until Tuesday.",
+        "fr": "Sait quand un message « URGENT » aurait parfaitement pu attendre mardi.",
+        "es": "Sabe cuándo un mensaje «URGENTE» perfectamente podría haber esperado hasta el martes."
+      },
+      "idealProfile": { "professionalism": 62, "intelligence": 72, "emotionalControl": 65 }
+    },
+  
+    {
+      "id": "ability_one_more_episode",
+      "text": {
+        "en": "Can say \"one more episode\" with full confidence after episode eleven.",
+        "fr": "Peut dire « encore un épisode » avec sérieux après le onzième.",
+        "es": "Puede decir «un episodio más» con total seriedad después del undécimo."
+      },
+      "idealProfile": { "chaos": 82, "energy": 42, "discipline": 18 }
+    },
+  
+    {
+      "id": "ability_detect_bad_hotel",
+      "text": {
+        "en": "Can judge an entire hotel room from the smell of the hallway.",
+        "fr": "Peut juger un hôtel entier grâce à l'odeur du couloir.",
+        "es": "Puede juzgar un hotel entero por el olor del pasillo."
+      },
+      "idealProfile": { "intelligence": 52, "emotionalControl": 55, "luck": 48 }
+    },
+  
+    {
+      "id": "ability_breakfast_repeat",
+      "text": {
+        "en": "Can eat the exact same breakfast for 93 days and call it efficiency.",
+        "fr": "Peut manger exactement le même petit-déjeuner pendant 93 jours et appeler ça de l'efficacité.",
+        "es": "Puede desayunar exactamente lo mismo durante 93 días y llamarlo eficiencia."
+      },
+      "idealProfile": { "discipline": 82, "emotionalControl": 72, "chaos": 22 }
+    },
+  
+    {
+      "id": "ability_detect_room_temperature",
+      "text": {
+        "en": "Can identify which person changed the thermostat without asking anyone.",
+        "fr": "Peut identifier qui a touché au thermostat sans poser une seule question.",
+        "es": "Puede identificar quién tocó el termostato sin preguntar a nadie."
+      },
+      "idealProfile": { "empathy": 65, "intelligence": 55, "social": 52 }
+    },
+  
+    {
+      "id": "ability_perfectly_wrong_guess",
+      "text": {
+        "en": "Can confidently guess the wrong answer on questions they actually knew.",
+        "fr": "Peut répondre avec confiance à côté sur une question dont il connaissait pourtant la réponse.",
+        "es": "Puede responder con total confianza algo incorrecto a una pregunta que sí conocía."
+      },
+      "idealProfile": { "chaos": 86, "intelligence": 55, "emotionalControl": 28 }
+    },
+  
+    {
+      "id": "ability_detect_room_exit",
+      "text": {
+        "en": "Always knows where the emergency exit is, just in case the party gets interesting.",
+        "fr": "Sait toujours où se trouve la sortie de secours, au cas où la soirée deviendrait intéressante.",
+        "es": "Siempre sabe dónde está la salida de emergencia, por si la fiesta se pone interesante."
+      },
+      "idealProfile": { "risk": 62, "intelligence": 68, "emotionalControl": 72 }
+    },
+  
+    {
+      "id": "ability_lose_phone",
+      "text": {
+        "en": "Can search for their phone while holding it.",
+        "fr": "Peut chercher son téléphone alors qu'il le tient dans sa main.",
+        "es": "Puede buscar su teléfono mientras lo tiene en la mano."
+      },
+      "idealProfile": { "chaos": 95, "intelligence": 20, "energy": 48 }
+    },
+  
+    {
+      "id": "ability_fake_understanding",
+      "text": {
+        "en": "Can nod convincingly through an explanation they understood approximately 7%.",
+        "fr": "Peut hocher la tête avec assurance après avoir compris environ 7 % de l'explication.",
+        "es": "Puede asentir con seguridad después de entender aproximadamente el 7 % de la explicación."
+      },
+      "idealProfile": { "social": 75, "communication": 68, "professionalism": 42 }
+    },
+  
+    {
+      "id": "ability_predict_argument",
+      "text": {
+        "en": "Can identify exactly when a normal discussion is about to become a completely unnecessary argument.",
+        "fr": "Peut repérer exactement quand une discussion normale va devenir une dispute totalement inutile.",
+        "es": "Puede detectar exactamente cuándo una conversación normal está a punto de convertirse en una discusión completamente innecesaria."
+      },
+      "idealProfile": { "empathy": 82, "social": 72, "emotionalControl": 62 }
+    },
+  
+    {
+      "id": "ability_find_charger",
+      "text": {
+        "en": "Always knows which drawer contains the one charger that actually works.",
+        "fr": "Sait toujours dans quel tiroir se trouve le seul chargeur qui fonctionne.",
+        "es": "Siempre sabe en qué cajón está el único cargador que funciona."
+      },
+      "idealProfile": { "discipline": 58, "intelligence": 48, "luck": 65 }
+    },
+  
+    {
+      "id": "ability_avoid_cold_call",
+      "text": {
+        "en": "Can sense an incoming phone call from someone they absolutely do not want to speak to.",
+        "fr": "Peut sentir arriver l'appel de quelqu'un à qui il n'a absolument aucune envie de parler.",
+        "es": "Puede sentir una llamada entrante de alguien con quien no quiere hablar en absoluto."
+      },
+      "idealProfile": { "empathy": 72, "social": 55, "emotionalControl": 48 }
+    },
+  
+    {
+      "id": "ability_suspicious_silence",
+      "text": {
+        "en": "Knows when silence in a group chat means something terrible happened.",
+        "fr": "Sait quand le silence d'un groupe de discussion annonce probablement une catastrophe.",
+        "es": "Sabe cuándo el silencio de un grupo de chat significa que probablemente ocurrió algo terrible."
+      },
+      "idealProfile": { "empathy": 78, "social": 72, "emotionalControl": 55 }
+    },
+  
+    {
+      "id": "ability_terrible_dance_escape",
+      "text": {
+        "en": "Can leave a dance floor without anyone knowing whether it was intentional.",
+        "fr": "Peut quitter une piste de danse sans que personne ne sache si c'était volontaire.",
+        "es": "Puede abandonar una pista de baile sin que nadie sepa si fue intencionado."
+      },
+      "idealProfile": { "social": 58, "chaos": 72, "creativity": 55 }
+    },
+  
+    {
+      "id": "ability_password_autocomplete",
+      "text": {
+        "en": "Types a password so automatically that they panic when asked what it was.",
+        "fr": "Tape un mot de passe tellement automatiquement qu'il panique quand on lui demande lequel c'était.",
+        "es": "Escribe una contraseña tan automáticamente que entra en pánico cuando le preguntan cuál era."
+      },
+      "idealProfile": { "discipline": 62, "intelligence": 55, "chaos": 65 }
+    },
+  
+    {
+      "id": "ability_survive_without_context",
+      "text": {
+        "en": "Can enter a conversation with zero context and somehow contribute confidently.",
+        "fr": "Peut entrer dans une conversation sans aucun contexte et participer avec assurance.",
+        "es": "Puede entrar en una conversación sin contexto alguno y participar con total seguridad."
+      },
+      "idealProfile": { "communication": 82, "social": 78, "chaos": 68 }
+    },
+  
+    {
+      "id": "ability_detect_free_trial",
+      "text": {
+        "en": "Can smell a subscription renewal hiding behind a free trial.",
+        "fr": "Peut sentir un abonnement caché derrière une période d'essai gratuite.",
+        "es": "Puede detectar una suscripción escondida detrás de una prueba gratuita."
+      },
+      "idealProfile": { "financialSense": 82, "intelligence": 75, "discipline": 68 }
+    },
+  
+    {
+      "id": "ability_perfectly_timed_yawn",
+      "text": {
+        "en": "Yawns exactly when someone says something nobody wanted to hear.",
+        "fr": "Baille exactement quand quelqu'un dit quelque chose que personne ne voulait entendre.",
+        "es": "Bosteza exactamente cuando alguien dice algo que nadie quería escuchar."
+      },
+      "idealProfile": { "chaos": 72, "social": 52, "emotionalControl": 32 }
+    },
+  
+    {
+      "id": "ability_wrong_floor",
+      "text": {
+        "en": "Can exit an elevator on the wrong floor with complete confidence.",
+        "fr": "Peut sortir d'un ascenseur au mauvais étage avec une confiance totale.",
+        "es": "Puede salir de un ascensor en el piso equivocado con total confianza."
+      },
+      "idealProfile": { "chaos": 88, "intelligence": 25, "emotionalControl": 45 }
+    },
+  
+    {
+      "id": "ability_most_specific_memory",
+      "text": {
+        "en": "Remembers exactly what someone was wearing during an argument six years ago.",
+        "fr": "Se souvient exactement de la tenue de quelqu'un pendant une dispute vieille de six ans.",
+        "es": "Recuerda exactamente qué llevaba alguien durante una discusión de hace seis años."
+      },
+      "idealProfile": { "intelligence": 72, "empathy": 62, "chaos": 48 }
+    },
+  
+    {
+      "id": "ability_snack_disappearance",
+      "text": {
+        "en": "Can make an entire bag of snacks disappear while technically \"just having one.\"",
+        "fr": "Peut faire disparaître un paquet entier de snacks tout en ayant officiellement « juste pris un ». ",
+        "es": "Puede hacer desaparecer una bolsa entera de snacks mientras oficialmente solo ha tomado «uno»."
+      },
+      "idealProfile": { "chaos": 82, "energy": 62, "discipline": 18 }
+    },
+  
+    {
+      "id": "ability_detect_bad_wifi",
+      "text": {
+        "en": "Can tell the Wi Fi is about to die from the first suspicious loading circle.",
+        "fr": "Sait que le Wi Fi va mourir dès l'apparition du premier cercle de chargement suspect.",
+        "es": "Sabe que el Wi Fi va a morir desde que aparece el primer círculo de carga sospechoso."
+      },
+      "idealProfile": { "intelligence": 62, "chaos": 58, "emotionalControl": 35 }
+    },
+  
+    {
+      "id": "ability_corporate_survival",
+      "text": {
+        "en": "Can survive an entire meeting using only \"exactly\", \"makes sense\" and strategic nodding.",
+        "fr": "Peut survivre à une réunion entière avec seulement « exactement », « ça se tient » et des hochements de tête stratégiques.",
+        "es": "Puede sobrevivir a una reunión entera usando solo «exacto», «tiene sentido» y asentimientos estratégicos."
+      },
+      "idealProfile": { "professionalism": 72, "communication": 68, "social": 78 }
+    },
+  
+    {
+      "id": "ability_know_when_to_leave",
+      "text": {
+        "en": "Always leaves the party exactly eleven minutes before the awkward part begins.",
+        "fr": "Quitte toujours la soirée exactement onze minutes avant que ça devienne gênant.",
+        "es": "Siempre abandona la fiesta exactamente once minutos antes de que empiece la parte incómoda."
+      },
+      "idealProfile": { "social": 68, "emotionalControl": 78, "luck": 65 }
+    },
+  
+    {
+      "id": "ability_accidental_stalking",
+      "text": {
+        "en": "Can accidentally discover someone's entire online history while looking for one photo.",
+        "fr": "Peut accidentellement découvrir toute la vie numérique de quelqu'un en cherchant une seule photo.",
+        "es": "Puede descubrir accidentalmente toda la vida digital de alguien buscando una sola foto."
+      },
+      "idealProfile": { "intelligence": 78, "curiosity": 95, "chaos": 72 }
+    },
+  
+    {
+      "id": "ability_detect_fake_apology",
+      "text": {
+        "en": "Can tell \"sorry you feel that way\" is not actually an apology.",
+        "fr": "Sait que « désolé que tu le prennes comme ça » n'est absolument pas une excuse.",
+        "es": "Sabe que «siento que te sientas así» no es realmente una disculpa."
+      },
+      "idealProfile": { "empathy": 82, "communication": 72, "intelligence": 68 }
+    },
+  
+    {
+      "id": "ability_perfectly_ignore_alarm",
+      "text": {
+        "en": "Can silence six alarms without becoming remotely conscious.",
+        "fr": "Peut éteindre six réveils sans devenir ne serait-ce qu'un peu conscient.",
+        "es": "Puede apagar seis alarmas sin llegar a estar mínimamente consciente."
+      },
+      "idealProfile": { "chaos": 88, "energy": 15, "discipline": 12 }
+    },
+  
+    {
+      "id": "ability_detect_free_parking",
+      "text": {
+        "en": "Spots an empty parking space while driving past at deeply unreasonable speed.",
+        "fr": "Repère une place libre en roulant à une vitesse profondément déraisonnable.",
+        "es": "Detecta una plaza libre mientras pasa a una velocidad profundamente cuestionable."
+      },
+      "idealProfile": { "luck": 82, "risk": 72, "energy": 65 }
+    },
+  
+    {
+      "id": "ability_know_bad_idea",
+      "text": {
+        "en": "Can recognize a terrible idea immediately and still participate enthusiastically.",
+        "fr": "Reconnaît immédiatement une idée catastrophique et participe quand même avec enthousiasme.",
+        "es": "Reconoce inmediatamente una idea terrible y aun así participa con entusiasmo."
+      },
+      "idealProfile": { "intelligence": 62, "risk": 82, "chaos": 88 }
+    }
+  ]
+]

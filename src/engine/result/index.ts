@@ -1,0 +1,14 @@
+export { computeCareer } from "./computeCareer.ts";
+export { computeClass } from "./computeClass.ts";
+export { computePower } from "./computePower.ts";
+export { computeWeakness } from "./computeWeakness.ts";
+export { computeAbility } from "./computeAbility.ts";
+export { computeWorkStyle } from "./computeWorkStyle.ts";
+export { computeAnimal } from "./computeAnimal.ts";
+export { computeAlignment } from "./computeAlignment.ts";
+export { computeAuraPercent } from "./computeAura.ts";
+export { computeThreatLevel } from "./computeThreatLevel.ts";
+export { computeLifeExpectancy } from "./computeLifeExpectancy.ts";
+export { computeWorth } from "./computeWorth.ts";
+export { computeRarity, FALLBACK_RARITY_TABLE, type RarityBucket } from "./computeRarity.ts";
+export { profileDistance, findBestMatch } from "./profileMatch.ts";

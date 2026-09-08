@@ -1,0 +1,782 @@
+[
+  { "id": "animal_raccoon", "name": { "en": "Raccoon", "fr": "Raton laveur", "es": "Mapache" }, "idealProfile": { "intelligence": 82, "creativity": 80, "chaos": 78, "discipline": 30 } },
+  { "id": "animal_cat", "name": { "en": "Cat", "fr": "Chat", "es": "Gato" }, "idealProfile": { "social": 45, "emotionalControl": 78, "ambition": 55, "empathy": 40 } },
+  { "id": "animal_golden_retriever", "name": { "en": "Golden Retriever", "fr": "Golden Retriever", "es": "Golden Retriever" }, "idealProfile": { "social": 85, "empathy": 82, "energy": 80, "risk": 25 } },
+  { "id": "animal_crow", "name": { "en": "Crow", "fr": "Corneille", "es": "Cuervo" }, "idealProfile": { "intelligence": 85, "creativity": 78, "risk": 55, "social": 40 } },
+  { "id": "animal_owl", "name": { "en": "Owl", "fr": "Hibou", "es": "Búho" }, "idealProfile": { "intelligence": 82, "emotionalControl": 72, "social": 30, "discipline": 60 } },
+  { "id": "animal_fox", "name": { "en": "Fox", "fr": "Renard", "es": "Zorro" }, "idealProfile": { "intelligence": 75, "creativity": 65, "risk": 65, "chaos": 55, "communication": 55 } },
+  { "id": "animal_turtle", "name": { "en": "Turtle", "fr": "Tortue", "es": "Tortuga" }, "idealProfile": { "discipline": 72, "emotionalControl": 80, "risk": 20, "energy": 25 } },
+  { "id": "animal_octopus", "name": { "en": "Octopus", "fr": "Pieuvre", "es": "Pulpo" }, "idealProfile": { "intelligence": 88, "creativity": 75, "social": 20, "chaos": 50 } },
+  { "id": "animal_meerkat", "name": { "en": "Meerkat", "fr": "Suricate", "es": "Suricata" }, "idealProfile": { "social": 78, "energy": 72, "emotionalControl": 45, "communication": 60 } },
+  [
+    {
+      "id": "animal_dog",
+      "name": { "en": "Dog", "fr": "Chien", "es": "Perro" },
+      "idealProfile": {
+        "social": 82,
+        "empathy": 78,
+        "energy": 85,
+        "communication": 72,
+        "risk": 35
+      }
+    },
+  
+    {
+      "id": "animal_wolf",
+      "name": { "en": "Wolf", "fr": "Loup", "es": "Lobo" },
+      "idealProfile": {
+        "social": 65,
+        "intelligence": 78,
+        "emotionalControl": 72,
+        "risk": 65,
+        "discipline": 60
+      }
+    },
+  
+    {
+      "id": "animal_bear",
+      "name": { "en": "Bear", "fr": "Ours", "es": "Oso" },
+      "idealProfile": {
+        "emotionalControl": 70,
+        "energy": 72,
+        "discipline": 55,
+        "risk": 60,
+        "ambition": 68
+      }
+    },
+  
+    {
+      "id": "animal_dolphin",
+      "name": { "en": "Dolphin", "fr": "Dauphin", "es": "Delfín" },
+      "idealProfile": {
+        "intelligence": 85,
+        "social": 88,
+        "communication": 85,
+        "creativity": 72,
+        "energy": 78
+      }
+    },
+  
+    {
+      "id": "animal_penguin",
+      "name": { "en": "Penguin", "fr": "Manchot", "es": "Pingüino" },
+      "idealProfile": {
+        "social": 75,
+        "discipline": 72,
+        "empathy": 70,
+        "emotionalControl": 65,
+        "energy": 58
+      }
+    },
+  
+    {
+      "id": "animal_eagle",
+      "name": { "en": "Eagle", "fr": "Aigle", "es": "Águila" },
+      "idealProfile": {
+        "ambition": 88,
+        "intelligence": 82,
+        "risk": 72,
+        "discipline": 78,
+        "emotionalControl": 70
+      }
+    },
+  
+    {
+      "id": "animal_goat",
+      "name": { "en": "Goat", "fr": "Chèvre", "es": "Cabra" },
+      "idealProfile": {
+        "chaos": 72,
+        "energy": 78,
+        "risk": 75,
+        "ambition": 68,
+        "discipline": 42
+      }
+    },
+  
+    {
+      "id": "animal_sloth",
+      "name": { "en": "Sloth", "fr": "Paresseux", "es": "Perezoso" },
+      "idealProfile": {
+        "emotionalControl": 88,
+        "risk": 15,
+        "energy": 18,
+        "discipline": 35,
+        "social": 30
+      }
+    },
+  
+    {
+      "id": "animal_parrot",
+      "name": { "en": "Parrot", "fr": "Perroquet", "es": "Loro" },
+      "idealProfile": {
+        "communication": 90,
+        "social": 85,
+        "creativity": 75,
+        "energy": 78,
+        "chaos": 62
+      }
+    },
+  
+    {
+      "id": "animal_horse",
+      "name": { "en": "Horse", "fr": "Cheval", "es": "Caballo" },
+      "idealProfile": {
+        "energy": 88,
+        "discipline": 75,
+        "empathy": 68,
+        "social": 65,
+        "emotionalControl": 72
+      }
+    },
+  
+    {
+      "id": "animal_shark",
+      "name": { "en": "Shark", "fr": "Requin", "es": "Tiburón" },
+      "idealProfile": {
+        "ambition": 92,
+        "risk": 82,
+        "discipline": 80,
+        "emotionalControl": 85,
+        "empathy": 18
+      }
+    },
+  
+    {
+      "id": "animal_raven",
+      "name": { "en": "Raven", "fr": "Corbeau", "es": "Cuervo" },
+      "idealProfile": {
+        "intelligence": 90,
+        "creativity": 85,
+        "chaos": 58,
+        "risk": 62,
+        "social": 35
+      }
+    },
+  
+    {
+      "id": "animal_deer",
+      "name": { "en": "Deer", "fr": "Cerf", "es": "Ciervo" },
+      "idealProfile": {
+        "empathy": 78,
+        "emotionalControl": 68,
+        "social": 62,
+        "energy": 65,
+        "risk": 28
+      }
+    },
+  
+    {
+      "id": "animal_hyena",
+      "name": { "en": "Hyena", "fr": "Hyène", "es": "Hiena" },
+      "idealProfile": {
+        "social": 80,
+        "chaos": 82,
+        "communication": 68,
+        "risk": 70,
+        "empathy": 42
+      }
+    },
+  
+    {
+      "id": "animal_squirrel",
+      "name": { "en": "Squirrel", "fr": "Écureuil", "es": "Ardilla" },
+      "idealProfile": {
+        "energy": 92,
+        "chaos": 78,
+        "risk": 68,
+        "discipline": 48,
+        "social": 60
+      }
+    },
+  
+    {
+      "id": "animal_panda",
+      "name": { "en": "Panda", "fr": "Panda", "es": "Panda" },
+      "idealProfile": {
+        "emotionalControl": 82,
+        "empathy": 72,
+        "risk": 18,
+        "energy": 35,
+        "social": 48
+      }
+    },
+  
+    {
+      "id": "animal_chameleon",
+      "name": { "en": "Chameleon", "fr": "Caméléon", "es": "Camaleón" },
+      "idealProfile": {
+        "communication": 72,
+        "emotionalControl": 80,
+        "creativity": 82,
+        "social": 58,
+        "risk": 55
+      }
+    },
+  
+    {
+      "id": "animal_badger",
+      "name": { "en": "Badger", "fr": "Blaireau", "es": "Tejón" },
+      "idealProfile": {
+        "discipline": 78,
+        "risk": 76,
+        "emotionalControl": 72,
+        "ambition": 65,
+        "social": 35
+      }
+    },
+  
+    {
+      "id": "animal_otter",
+      "name": { "en": "Otter", "fr": "Loutre", "es": "Nutria" },
+      "idealProfile": {
+        "social": 88,
+        "energy": 82,
+        "creativity": 75,
+        "empathy": 80,
+        "chaos": 65
+      }
+    },
+  
+    {
+      "id": "animal_capybara",
+      "name": { "en": "Capybara", "fr": "Capybara", "es": "Carpincho" },
+      "idealProfile": {
+        "emotionalControl": 95,
+        "social": 72,
+        "empathy": 75,
+        "risk": 12,
+        "energy": 45
+      }
+    },
+  
+    {
+      "id": "animal_crow",
+      "name": { "en": "Crow", "fr": "Corbeau", "es": "Cuervo" },
+      "idealProfile": {
+        "intelligence": 88,
+        "creativity": 82,
+        "chaos": 65,
+        "risk": 58,
+        "social": 42
+      }
+    },
+  
+    {
+      "id": "animal_frog",
+      "name": { "en": "Frog", "fr": "Grenouille", "es": "Rana" },
+      "idealProfile": {
+        "chaos": 68,
+        "energy": 62,
+        "creativity": 70,
+        "risk": 58,
+        "social": 55
+      }
+    },
+  
+    {
+      "id": "animal_spider",
+      "name": { "en": "Spider", "fr": "Araignée", "es": "Araña" },
+      "idealProfile": {
+        "intelligence": 76,
+        "discipline": 82,
+        "creativity": 72,
+        "social": 12,
+        "emotionalControl": 78
+      }
+    },
+  
+    {
+      "id": "animal_pig",
+      "name": { "en": "Pig", "fr": "Cochon", "es": "Cerdo" },
+      "idealProfile": {
+        "social": 72,
+        "empathy": 68,
+        "creativity": 62,
+        "chaos": 58,
+        "energy": 65
+      }
+    },
+  
+    {
+      "id": "animal_mantis",
+      "name": { "en": "Praying Mantis", "fr": "Mante religieuse", "es": "Mantis religiosa" },
+      "idealProfile": {
+        "emotionalControl": 92,
+        "discipline": 88,
+        "risk": 72,
+        "social": 15,
+        "intelligence": 78
+      }
+    },
+  
+    {
+      "id": "animal_fox",
+      "name": { "en": "Arctic Fox", "fr": "Renard arctique", "es": "Zorro ártico" },
+      "idealProfile": {
+        "intelligence": 78,
+        "creativity": 72,
+        "emotionalControl": 76,
+        "risk": 62,
+        "discipline": 68
+      }
+    },
+  
+    {
+      "id": "animal_mantis_shrimp",
+      "name": { "en": "Mantis Shrimp", "fr": "Crevette-mante", "es": "Camarón mantis" },
+      "idealProfile": {
+        "risk": 88,
+        "chaos": 82,
+        "energy": 78,
+        "intelligence": 72,
+        "emotionalControl": 45
+      }
+    },
+  
+    {
+      "id": "animal_goose",
+      "name": { "en": "Goose", "fr": "Oie", "es": "Ganso" },
+      "idealProfile": {
+        "chaos": 88,
+        "risk": 80,
+        "energy": 78,
+        "social": 65,
+        "emotionalControl": 28
+      }
+    },
+  
+    {
+      "id": "animal_hamster",
+      "name": { "en": "Hamster", "fr": "Hamster", "es": "Hámster" },
+      "idealProfile": {
+        "energy": 72,
+        "chaos": 62,
+        "social": 65,
+        "discipline": 45,
+        "empathy": 62
+      }
+    }
+  ],
+  [
+    {
+      "id": "animal_goose",
+      "name": { "en": "Goose", "fr": "Oie", "es": "Ganso" },
+      "idealProfile": {
+        "chaos": 92,
+        "risk": 85,
+        "energy": 82,
+        "social": 68,
+        "emotionalControl": 25
+      }
+    },
+  
+    {
+      "id": "animal_seagull",
+      "name": { "en": "Seagull", "fr": "Mouette", "es": "Gaviota" },
+      "idealProfile": {
+        "chaos": 88,
+        "social": 72,
+        "risk": 78,
+        "ambition": 65,
+        "empathy": 18
+      }
+    },
+  
+    {
+      "id": "animal_opossum",
+      "name": { "en": "Opossum", "fr": "Opossum", "es": "Zarigüeya" },
+      "idealProfile": {
+        "chaos": 84,
+        "emotionalControl": 70,
+        "risk": 68,
+        "social": 32,
+        "energy": 48
+      }
+    },
+  
+    {
+      "id": "animal_axolotl",
+      "name": { "en": "Axolotl", "fr": "Axolotl", "es": "Ajolote" },
+      "idealProfile": {
+        "emotionalControl": 82,
+        "chaos": 58,
+        "social": 42,
+        "creativity": 88,
+        "risk": 20
+      }
+    },
+  
+    {
+      "id": "animal_pigeon",
+      "name": { "en": "Pigeon", "fr": "Pigeon", "es": "Paloma" },
+      "idealProfile": {
+        "social": 72,
+        "chaos": 78,
+        "risk": 82,
+        "energy": 76,
+        "intelligence": 55
+      }
+    },
+  
+    {
+      "id": "animal_llama",
+      "name": { "en": "Llama", "fr": "Lama", "es": "Llama" },
+      "idealProfile": {
+        "emotionalControl": 74,
+        "social": 58,
+        "chaos": 68,
+        "energy": 55,
+        "risk": 42
+      }
+    },
+  
+    {
+      "id": "animal_alpaca",
+      "name": { "en": "Alpaca", "fr": "Alpaga", "es": "Alpaca" },
+      "idealProfile": {
+        "empathy": 82,
+        "social": 75,
+        "emotionalControl": 76,
+        "risk": 22,
+        "chaos": 35
+      }
+    },
+  
+    {
+      "id": "animal_flamingo",
+      "name": { "en": "Flamingo", "fr": "Flamant rose", "es": "Flamenco" },
+      "idealProfile": {
+        "social": 82,
+        "creativity": 72,
+        "ambition": 68,
+        "emotionalControl": 62,
+        "chaos": 48
+      }
+    },
+  
+    {
+      "id": "animal_honey_badger",
+      "name": { "en": "Honey Badger", "fr": "Ratel", "es": "Tejón de la miel" },
+      "idealProfile": {
+        "risk": 98,
+        "chaos": 92,
+        "emotionalControl": 78,
+        "ambition": 80,
+        "empathy": 12
+      }
+    },
+  
+    {
+      "id": "animal_bat",
+      "name": { "en": "Bat", "fr": "Chauve-souris", "es": "Murciélago" },
+      "idealProfile": {
+        "intelligence": 78,
+        "social": 65,
+        "creativity": 72,
+        "emotionalControl": 75,
+        "energy": 68
+      }
+    },
+  
+    {
+      "id": "animal_skunk",
+      "name": { "en": "Skunk", "fr": "Moufette", "es": "Mofeta" },
+      "idealProfile": {
+        "emotionalControl": 65,
+        "risk": 72,
+        "chaos": 74,
+        "social": 28,
+        "discipline": 52
+      }
+    },
+  
+    {
+      "id": "animal_crocodile",
+      "name": { "en": "Crocodile", "fr": "Crocodile", "es": "Cocodrilo" },
+      "idealProfile": {
+        "emotionalControl": 94,
+        "discipline": 78,
+        "risk": 82,
+        "ambition": 72,
+        "social": 18
+      }
+    },
+  
+    {
+      "id": "animal_frog",
+      "name": { "en": "Frog", "fr": "Grenouille", "es": "Rana" },
+      "idealProfile": {
+        "chaos": 72,
+        "energy": 68,
+        "creativity": 76,
+        "risk": 62,
+        "social": 52
+      }
+    },
+  
+    {
+      "id": "animal_toad",
+      "name": { "en": "Toad", "fr": "Crapaud", "es": "Sapo" },
+      "idealProfile": {
+        "emotionalControl": 82,
+        "chaos": 62,
+        "social": 22,
+        "discipline": 58,
+        "risk": 45
+      }
+    },
+  
+    {
+      "id": "animal_snail",
+      "name": { "en": "Snail", "fr": "Escargot", "es": "Caracol" },
+      "idealProfile": {
+        "discipline": 84,
+        "emotionalControl": 92,
+        "risk": 8,
+        "energy": 12,
+        "social": 18
+      }
+    },
+  
+    {
+      "id": "animal_sloth",
+      "name": { "en": "Sloth", "fr": "Paresseux", "es": "Perezoso" },
+      "idealProfile": {
+        "emotionalControl": 95,
+        "energy": 10,
+        "risk": 8,
+        "discipline": 35,
+        "social": 25
+      }
+    },
+  
+    {
+      "id": "animal_jellyfish",
+      "name": { "en": "Jellyfish", "fr": "Méduse", "es": "Medusa" },
+      "idealProfile": {
+        "chaos": 62,
+        "emotionalControl": 88,
+        "social": 15,
+        "risk": 52,
+        "energy": 25
+      }
+    },
+  
+    {
+      "id": "animal_octopus",
+      "name": { "en": "Octopus", "fr": "Pieuvre", "es": "Pulpo" },
+      "idealProfile": {
+        "intelligence": 94,
+        "creativity": 90,
+        "chaos": 68,
+        "social": 25,
+        "discipline": 72
+      }
+    },
+  
+    {
+      "id": "animal_mantis_shrimp",
+      "name": { "en": "Mantis Shrimp", "fr": "Crevette-mante", "es": "Camarón mantis" },
+      "idealProfile": {
+        "risk": 95,
+        "chaos": 88,
+        "energy": 82,
+        "intelligence": 78,
+        "emotionalControl": 38
+      }
+    },
+  
+    {
+      "id": "animal_turkey",
+      "name": { "en": "Turkey", "fr": "Dindon", "es": "Pavo" },
+      "idealProfile": {
+        "chaos": 86,
+        "social": 62,
+        "energy": 72,
+        "emotionalControl": 28,
+        "communication": 78
+      }
+    },
+  
+    {
+      "id": "animal_duck",
+      "name": { "en": "Duck", "fr": "Canard", "es": "Pato" },
+      "idealProfile": {
+        "chaos": 65,
+        "social": 82,
+        "energy": 74,
+        "empathy": 64,
+        "risk": 48
+      }
+    },
+  
+    {
+      "id": "animal_donkey",
+      "name": { "en": "Donkey", "fr": "Âne", "es": "Burro" },
+      "idealProfile": {
+        "discipline": 82,
+        "emotionalControl": 72,
+        "energy": 68,
+        "risk": 35,
+        "social": 58
+      }
+    },
+  
+    {
+      "id": "animal_camel",
+      "name": { "en": "Camel", "fr": "Chameau", "es": "Camello" },
+      "idealProfile": {
+        "discipline": 88,
+        "emotionalControl": 90,
+        "energy": 55,
+        "risk": 38,
+        "ambition": 62
+      }
+    },
+  
+    {
+      "id": "animal_wombat",
+      "name": { "en": "Wombat", "fr": "Wombat", "es": "Wombat" },
+      "idealProfile": {
+        "chaos": 58,
+        "discipline": 65,
+        "emotionalControl": 78,
+        "risk": 52,
+        "social": 35
+      }
+    },
+  
+    {
+      "id": "animal_hamster",
+      "name": { "en": "Hamster", "fr": "Hamster", "es": "Hámster" },
+      "idealProfile": {
+        "energy": 82,
+        "chaos": 72,
+        "social": 68,
+        "discipline": 42,
+        "risk": 38
+      }
+    },
+  
+    {
+      "id": "animal_chihuahua",
+      "name": { "en": "Chihuahua", "fr": "Chihuahua", "es": "Chihuahua" },
+      "idealProfile": {
+        "chaos": 92,
+        "energy": 90,
+        "risk": 78,
+        "social": 72,
+        "emotionalControl": 18
+      }
+    },
+  
+    {
+      "id": "animal_dachshund",
+      "name": { "en": "Dachshund", "fr": "Teckel", "es": "Teckel" },
+      "idealProfile": {
+        "ambition": 68,
+        "chaos": 72,
+        "energy": 75,
+        "social": 65,
+        "risk": 62
+      }
+    },
+  
+    {
+      "id": "animal_sphynx",
+      "name": { "en": "Sphynx Cat", "fr": "Sphynx", "es": "Gato esfinge" },
+      "idealProfile": {
+        "emotionalControl": 82,
+        "social": 52,
+        "creativity": 74,
+        "ambition": 65,
+        "chaos": 48
+      }
+    },
+  
+    {
+      "id": "animal_ferret",
+      "name": { "en": "Ferret", "fr": "Furet", "es": "Hurón" },
+      "idealProfile": {
+        "chaos": 88,
+        "energy": 92,
+        "curiosity": 95,
+        "social": 68,
+        "discipline": 18
+      }
+    },
+  
+    {
+      "id": "animal_raven",
+      "name": { "en": "Raven", "fr": "Corbeau", "es": "Cuervo" },
+      "idealProfile": {
+        "intelligence": 94,
+        "creativity": 88,
+        "risk": 62,
+        "chaos": 58,
+        "social": 35
+      }
+    },
+  
+    {
+      "id": "animal_horse",
+      "name": { "en": "Horse", "fr": "Cheval", "es": "Caballo" },
+      "idealProfile": {
+        "energy": 90,
+        "discipline": 78,
+        "empathy": 65,
+        "social": 68,
+        "emotionalControl": 72
+      }
+    },
+  
+    {
+      "id": "animal_cow",
+      "name": { "en": "Cow", "fr": "Vache", "es": "Vaca" },
+      "idealProfile": {
+        "emotionalControl": 86,
+        "empathy": 74,
+        "social": 72,
+        "energy": 42,
+        "risk": 12
+      }
+    },
+  
+    {
+      "id": "animal_mouse",
+      "name": { "en": "Mouse", "fr": "Souris", "es": "Ratón" },
+      "idealProfile": {
+        "intelligence": 72,
+        "risk": 35,
+        "energy": 75,
+        "chaos": 62,
+        "social": 48
+      }
+    },
+  
+    {
+      "id": "animal_rat",
+      "name": { "en": "Rat", "fr": "Rat", "es": "Rata" },
+      "idealProfile": {
+        "intelligence": 84,
+        "creativity": 68,
+        "risk": 72,
+        "chaos": 70,
+        "social": 55
+      }
+    },
+  
+    {
+      "id": "animal_capybara",
+      "name": { "en": "Capybara", "fr": "Capybara", "es": "Capibara" },
+      "idealProfile": {
+        "emotionalControl": 98,
+        "social": 78,
+        "empathy": 82,
+        "risk": 8,
+        "chaos": 12,
+        "energy": 38
+      }
+    }
+  ]
+]
