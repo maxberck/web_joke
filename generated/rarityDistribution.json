@@ -1,0 +1,10 @@
+[
+  {"minScore":0.5416000000000001,"oneInX":1},
+  {"minScore":3.0631999999999997,"oneInX":2},
+  {"minScore":3.6880000000000006,"oneInX":4},
+  {"minScore":4.3544,"oneInX":10},
+  {"minScore":4.934400000000001,"oneInX":20},
+  {"minScore":16.5208,"oneInX":100},
+  {"minScore":26.724,"oneInX":1000},
+  {"minScore":51.4056,"oneInX":10000}
+]
