@@ -1,0 +1,34 @@
+name: Qualité du quiz
+
+on:
+  push:
+    branches: [main, 'refactor/**']
+  pull_request:
+    branches: [main]
+
+jobs:
+  quality:
+    name: Validation contenu et build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Installer les dépendances
+        run: npm ci
+
+      - name: Valider le contenu
+        run: npm run content:validate
+
+      - name: Vérifier les types
+        run: npm run typecheck
+
+      - name: Construire l'application
+        run: npm run build
