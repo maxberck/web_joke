@@ -38,10 +38,15 @@ export function findBestMatchNormalized<T extends { id: string; idealProfile: Id
   function zScore(entry: T): number {
     const distance = profileDistance(stats, entry.idealProfile);
     if (!Number.isFinite(distance)) return Number.POSITIVE_INFINITY;
+
     const baseline = baselines[entry.id];
-    if (!baseline || !Number.isFinite(baseline.mean) || !Number.isFinite(baseline.std) || baseline.std <= 0) {
-      return distance;
+    if (!baseline) {
+      throw new Error(`Baseline manquante pour ${entry.id}`);
     }
+    if (!Number.isFinite(baseline.mean) || !Number.isFinite(baseline.std) || baseline.std <= 0) {
+      throw new Error(`Baseline invalide pour ${entry.id}`);
+    }
+
     return (distance - baseline.mean) / baseline.std;
   }
 
