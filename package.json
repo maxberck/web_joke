@@ -11,6 +11,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "typecheck": "tsc -b --pretty false",
     "preview": "vite preview",
     "content:seed": "npm run seed -w content-pipeline",
     "content:export": "npm run export -w content-pipeline",
