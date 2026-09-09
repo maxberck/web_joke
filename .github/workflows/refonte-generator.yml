@@ -83,7 +83,7 @@ jobs:
           git push origin HEAD:feat/refonte-contenu-massive
 
   expand-content:
-    if: ${{ contains(github.event.head_commit.message, '[run-content-expansion]') }}
+    if: ${{ contains(github.event.head_commit.message, '[run-content-expansion-v2]') }}
     runs-on: ubuntu-latest
     steps:
       - name: Récupérer la branche
@@ -101,15 +101,18 @@ jobs:
       - name: Installer les dépendances
         run: npm ci
 
-      - name: Étendre les données canoniques
-        run: node content-pipeline/scripts/expandCanonicalContent.mjs
+      - name: Étendre les questions
+        run: node content-pipeline/scripts/expandQuestionsTo150.mjs
+
+      - name: Doubler les catalogues de résultats
+        run: node content-pipeline/scripts/expandResultCatalogsV2.mjs
 
       - name: Vérifier la conservation historique
         run: node content-pipeline/scripts/validateCanonicalMigration.mjs
 
       - name: Vérifier les volumes générés
         run: |
-          node --input-type=module -e "import fs from 'node:fs'; const q=['work','social','life','personality','general']; for(const n of q){const a=JSON.parse(fs.readFileSync('src/data/questions/'+n+'.json')); if(a.length!==30) throw new Error(n+': '+a.length);} const targets={careers:100,classes:75,powers:75,weaknesses:75,abilities:75,workStyles:75,animals:75,synergyRules:100}; for(const [n,c] of Object.entries(targets)){const a=JSON.parse(fs.readFileSync('src/data/'+n+'.json')); if(a.length!==c) throw new Error(n+': '+a.length+' != '+c);} console.log('Volumes générés conformes.');"
+          node --input-type=module -e "import fs from 'node:fs'; const q=['work','social','life','personality','general']; for(const n of q){const a=JSON.parse(fs.readFileSync('src/data/questions/'+n+'.json')); if(a.length!==30) throw new Error(n+': '+a.length);} const targets={careers:200,classes:150,powers:150,weaknesses:150,abilities:150,workStyles:150,animals:150,synergyRules:200}; for(const [n,c] of Object.entries(targets)){const a=JSON.parse(fs.readFileSync('src/data/'+n+'.json')); if(a.length!==c) throw new Error(n+': '+a.length+' != '+c);} console.log('Volumes V2 générés conformes.');"
 
       - name: Committer le contenu étendu
         run: |
@@ -120,5 +123,5 @@ jobs:
             echo "Aucun contenu étendu à committer."
             exit 0
           fi
-          git commit -m "data: étendre massivement le contenu [refonte-generated]"
+          git commit -m "data: doubler les catalogues du quiz [refonte-generated]"
           git push origin HEAD:feat/refonte-contenu-massive
