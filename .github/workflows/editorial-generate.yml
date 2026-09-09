@@ -58,4 +58,4 @@ jobs:
           git commit -m "fix: enrichir les résultats et recalibrer"
           git push origin HEAD:fix/qualite-editoriale-resultats
 
-# Déclencheur ponctuel de génération éditoriale.
+# Déclencheur ponctuel de génération éditoriale — tentative 2.
