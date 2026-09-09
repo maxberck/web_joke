@@ -4,8 +4,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "run": "node runSimulation.mjs",
-    "build-rarity": "node buildRarityDistribution.mjs",
     "build-baselines": "node buildMatchBaselines.mjs",
     "build-appearance": "node buildAppearanceCalibrationV2.mjs"
   }
