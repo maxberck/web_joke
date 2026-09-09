@@ -1093,5 +1093,3755 @@
     "tags": [
       "office_survivor"
     ]
+  },
+  {
+    "id": "career_data_analyst",
+    "name": {
+      "en": "Data Analyst",
+      "fr": "Données Analyste",
+      "es": "Datos Analista"
+    },
+    "idealProfile": {
+      "communication": 94,
+      "humor": 29,
+      "discipline": 72,
+      "emotionalControl": 87,
+      "risk": 35,
+      "professionalism": 78
+    },
+    "tags": [
+      "expanded_v2",
+      "data",
+      "analyst"
+    ],
+    "worthPotential": {
+      "min": 36413,
+      "max": 104211
+    }
+  },
+  {
+    "id": "career_data_coordinator",
+    "name": {
+      "en": "Data Coordinator",
+      "fr": "Données Coordinateur",
+      "es": "Datos Coordinador"
+    },
+    "idealProfile": {
+      "creativity": 68,
+      "discipline": 60,
+      "chaos": 40,
+      "luck": 66,
+      "social": 79,
+      "emotionalControl": 80
+    },
+    "tags": [
+      "expanded_v2",
+      "data",
+      "coordinator"
+    ],
+    "worthPotential": {
+      "min": 74901,
+      "max": 241170
+    }
+  },
+  {
+    "id": "career_data_specialist",
+    "name": {
+      "en": "Data Specialist",
+      "fr": "Données Spécialiste",
+      "es": "Datos Especialista"
+    },
+    "idealProfile": {
+      "emotionalControl": 70,
+      "humor": 40,
+      "risk": 28,
+      "professionalism": 37,
+      "discipline": 76,
+      "communication": 88
+    },
+    "tags": [
+      "expanded_v2",
+      "data",
+      "specialist"
+    ],
+    "worthPotential": {
+      "min": 34592,
+      "max": 216262
+    }
+  },
+  {
+    "id": "career_data_consultant",
+    "name": {
+      "en": "Data Consultant",
+      "fr": "Données Consultant",
+      "es": "Datos Consultor"
+    },
+    "idealProfile": {
+      "creativity": 62,
+      "humor": 48,
+      "luck": 93,
+      "risk": 68,
+      "communication": 74,
+      "professionalism": 80
+    },
+    "tags": [
+      "expanded_v2",
+      "data",
+      "consultant"
+    ],
+    "worthPotential": {
+      "min": 68420,
+      "max": 237792
+    }
+  },
+  {
+    "id": "career_data_designer",
+    "name": {
+      "en": "Data Designer",
+      "fr": "Données Concepteur",
+      "es": "Datos Diseñador"
+    },
+    "idealProfile": {
+      "humor": 51,
+      "discipline": 86,
+      "emotionalControl": 43,
+      "risk": 57,
+      "professionalism": 92,
+      "communication": 61
+    },
+    "tags": [
+      "expanded_v2",
+      "data",
+      "designer"
+    ],
+    "worthPotential": {
+      "min": 39040,
+      "max": 146993
+    }
+  },
+  {
+    "id": "career_data_manager",
+    "name": {
+      "en": "Data Manager",
+      "fr": "Données Responsable",
+      "es": "Datos Gerente"
+    },
+    "idealProfile": {
+      "ambition": 27,
+      "humor": 50,
+      "intelligence": 32,
+      "risk": 33,
+      "empathy": 81,
+      "creativity": 38
+    },
+    "tags": [
+      "expanded_v2",
+      "data",
+      "manager"
+    ],
+    "worthPotential": {
+      "min": 25960,
+      "max": 124541
+    }
+  },
+  {
+    "id": "career_data_researcher",
+    "name": {
+      "en": "Data Researcher",
+      "fr": "Données Chercheur",
+      "es": "Datos Investigador"
+    },
+    "idealProfile": {
+      "emotionalControl": 73,
+      "risk": 66,
+      "social": 47,
+      "chaos": 93,
+      "discipline": 72,
+      "communication": 53
+    },
+    "tags": [
+      "expanded_v2",
+      "data",
+      "researcher"
+    ],
+    "worthPotential": {
+      "min": 44015,
+      "max": 185491
+    }
+  },
+  {
+    "id": "career_data_strategist",
+    "name": {
+      "en": "Data Strategist",
+      "fr": "Données Stratège",
+      "es": "Datos Estratega"
+    },
+    "idealProfile": {
+      "communication": 50,
+      "creativity": 86,
+      "humor": 58,
+      "luck": 49,
+      "risk": 56,
+      "professionalism": 68
+    },
+    "tags": [
+      "expanded_v2",
+      "data",
+      "strategist"
+    ],
+    "worthPotential": {
+      "min": 58375,
+      "max": 195962
+    }
+  },
+  {
+    "id": "career_data_technician",
+    "name": {
+      "en": "Data Technician",
+      "fr": "Données Technicien",
+      "es": "Datos Técnico"
+    },
+    "idealProfile": {
+      "communication": 43,
+      "creativity": 88,
+      "humor": 45,
+      "luck": 66,
+      "risk": 49,
+      "professionalism": 61
+    },
+    "tags": [
+      "expanded_v2",
+      "data",
+      "technician"
+    ],
+    "worthPotential": {
+      "min": 49895,
+      "max": 156277
+    }
+  },
+  {
+    "id": "career_data_advisor",
+    "name": {
+      "en": "Data Advisor",
+      "fr": "Données Conseiller",
+      "es": "Datos Asesor"
+    },
+    "idealProfile": {
+      "social": 87,
+      "creativity": 27,
+      "chaos": 70,
+      "humor": 74,
+      "professionalism": 28,
+      "luck": 86
+    },
+    "tags": [
+      "expanded_v2",
+      "data",
+      "advisor"
+    ],
+    "worthPotential": {
+      "min": 69903,
+      "max": 119332
+    }
+  },
+  {
+    "id": "career_data_producer",
+    "name": {
+      "en": "Data Producer",
+      "fr": "Données Producteur",
+      "es": "Datos Productor"
+    },
+    "idealProfile": {
+      "professionalism": 44,
+      "social": 46,
+      "creativity": 46,
+      "chaos": 86,
+      "humor": 50,
+      "luck": 62
+    },
+    "tags": [
+      "expanded_v2",
+      "data",
+      "producer"
+    ],
+    "worthPotential": {
+      "min": 48003,
+      "max": 176753
+    }
+  },
+  {
+    "id": "career_data_facilitator",
+    "name": {
+      "en": "Data Facilitator",
+      "fr": "Données Facilitateur",
+      "es": "Datos Facilitador"
+    },
+    "idealProfile": {
+      "social": 55,
+      "risk": 66,
+      "emotionalControl": 67,
+      "chaos": 72,
+      "discipline": 84,
+      "communication": 67
+    },
+    "tags": [
+      "expanded_v2",
+      "data",
+      "facilitator"
+    ],
+    "worthPotential": {
+      "min": 40989,
+      "max": 122469
+    }
+  },
+  {
+    "id": "career_security_analyst",
+    "name": {
+      "en": "Security Analyst",
+      "fr": "Sécurité Analyste",
+      "es": "Seguridad Analista"
+    },
+    "idealProfile": {
+      "risk": 49,
+      "discipline": 48,
+      "communication": 90,
+      "social": 52,
+      "chaos": 61,
+      "emotionalControl": 64
+    },
+    "tags": [
+      "expanded_v2",
+      "security",
+      "analyst"
+    ],
+    "worthPotential": {
+      "min": 66959,
+      "max": 122126
+    }
+  },
+  {
+    "id": "career_security_coordinator",
+    "name": {
+      "en": "Security Coordinator",
+      "fr": "Sécurité Coordinateur",
+      "es": "Seguridad Coordinador"
+    },
+    "idealProfile": {
+      "creativity": 38,
+      "discipline": 68,
+      "chaos": 58,
+      "luck": 74,
+      "social": 70,
+      "emotionalControl": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "security",
+      "coordinator"
+    ],
+    "worthPotential": {
+      "min": 26171,
+      "max": 70152
+    }
+  },
+  {
+    "id": "career_security_specialist",
+    "name": {
+      "en": "Security Specialist",
+      "fr": "Sécurité Spécialiste",
+      "es": "Seguridad Especialista"
+    },
+    "idealProfile": {
+      "intelligence": 65,
+      "discipline": 24,
+      "financialSense": 71,
+      "social": 71,
+      "energy": 47,
+      "risk": 77
+    },
+    "tags": [
+      "expanded_v2",
+      "security",
+      "specialist"
+    ],
+    "worthPotential": {
+      "min": 77914,
+      "max": 224167
+    }
+  },
+  {
+    "id": "career_security_consultant",
+    "name": {
+      "en": "Security Consultant",
+      "fr": "Sécurité Consultant",
+      "es": "Seguridad Consultor"
+    },
+    "idealProfile": {
+      "risk": 68,
+      "discipline": 40,
+      "communication": 35,
+      "social": 57,
+      "chaos": 80,
+      "emotionalControl": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "security",
+      "consultant"
+    ],
+    "worthPotential": {
+      "min": 58254,
+      "max": 153258
+    }
+  },
+  {
+    "id": "career_security_designer",
+    "name": {
+      "en": "Security Designer",
+      "fr": "Sécurité Concepteur",
+      "es": "Seguridad Diseñador"
+    },
+    "idealProfile": {
+      "creativity": 67,
+      "humor": 73,
+      "luck": 87,
+      "risk": 76,
+      "communication": 79,
+      "professionalism": 88
+    },
+    "tags": [
+      "expanded_v2",
+      "security",
+      "designer"
+    ],
+    "worthPotential": {
+      "min": 59190,
+      "max": 105339
+    }
+  },
+  {
+    "id": "career_security_manager",
+    "name": {
+      "en": "Security Manager",
+      "fr": "Sécurité Responsable",
+      "es": "Seguridad Gerente"
+    },
+    "idealProfile": {
+      "emotionalControl": 70,
+      "humor": 80,
+      "risk": 65,
+      "professionalism": 67,
+      "discipline": 76,
+      "communication": 88
+    },
+    "tags": [
+      "expanded_v2",
+      "security",
+      "manager"
+    ],
+    "worthPotential": {
+      "min": 83542,
+      "max": 179579
+    }
+  },
+  {
+    "id": "career_security_researcher",
+    "name": {
+      "en": "Security Researcher",
+      "fr": "Sécurité Chercheur",
+      "es": "Seguridad Investigador"
+    },
+    "idealProfile": {
+      "creativity": 94,
+      "risk": 56,
+      "communication": 93,
+      "humor": 29,
+      "luck": 62,
+      "professionalism": 40
+    },
+    "tags": [
+      "expanded_v2",
+      "security",
+      "researcher"
+    ],
+    "worthPotential": {
+      "min": 36473,
+      "max": 176814
+    }
+  },
+  {
+    "id": "career_security_strategist",
+    "name": {
+      "en": "Security Strategist",
+      "fr": "Sécurité Stratège",
+      "es": "Seguridad Estratega"
+    },
+    "idealProfile": {
+      "professionalism": 90,
+      "humor": 38,
+      "social": 37,
+      "luck": 90,
+      "creativity": 31,
+      "chaos": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "security",
+      "strategist"
+    ],
+    "worthPotential": {
+      "min": 80789,
+      "max": 163854
+    }
+  },
+  {
+    "id": "career_security_technician",
+    "name": {
+      "en": "Security Technician",
+      "fr": "Sécurité Technicien",
+      "es": "Seguridad Técnico"
+    },
+    "idealProfile": {
+      "emotionalControl": 41,
+      "humor": 34,
+      "risk": 66,
+      "professionalism": 56,
+      "discipline": 47,
+      "communication": 59
+    },
+    "tags": [
+      "expanded_v2",
+      "security",
+      "technician"
+    ],
+    "worthPotential": {
+      "min": 81477,
+      "max": 134369
+    }
+  },
+  {
+    "id": "career_security_advisor",
+    "name": {
+      "en": "Security Advisor",
+      "fr": "Sécurité Conseiller",
+      "es": "Seguridad Asesor"
+    },
+    "idealProfile": {
+      "creativity": 63,
+      "discipline": 40,
+      "chaos": 90,
+      "luck": 46,
+      "social": 58,
+      "emotionalControl": 75
+    },
+    "tags": [
+      "expanded_v2",
+      "security",
+      "advisor"
+    ],
+    "worthPotential": {
+      "min": 44081,
+      "max": 104479
+    }
+  },
+  {
+    "id": "career_security_producer",
+    "name": {
+      "en": "Security Producer",
+      "fr": "Sécurité Producteur",
+      "es": "Seguridad Productor"
+    },
+    "idealProfile": {
+      "luck": 89,
+      "social": 45,
+      "humor": 86,
+      "professionalism": 94,
+      "creativity": 51,
+      "chaos": 92
+    },
+    "tags": [
+      "expanded_v2",
+      "security",
+      "producer"
+    ],
+    "worthPotential": {
+      "min": 40089,
+      "max": 120034
+    }
+  },
+  {
+    "id": "career_security_facilitator",
+    "name": {
+      "en": "Security Facilitator",
+      "fr": "Sécurité Facilitateur",
+      "es": "Seguridad Facilitador"
+    },
+    "idealProfile": {
+      "luck": 66,
+      "social": 51,
+      "humor": 51,
+      "professionalism": 91,
+      "creativity": 57,
+      "chaos": 57
+    },
+    "tags": [
+      "expanded_v2",
+      "security",
+      "facilitator"
+    ],
+    "worthPotential": {
+      "min": 37079,
+      "max": 149575
+    }
+  },
+  {
+    "id": "career_automation_analyst",
+    "name": {
+      "en": "Automation Analyst",
+      "fr": "Automatisation Analyste",
+      "es": "Automatización Analista"
+    },
+    "idealProfile": {
+      "intelligence": 29,
+      "risk": 50,
+      "ambition": 75,
+      "empathy": 83,
+      "creativity": 35,
+      "humor": 68
+    },
+    "tags": [
+      "expanded_v2",
+      "automation",
+      "analyst"
+    ],
+    "worthPotential": {
+      "min": 73066,
+      "max": 130331
+    }
+  },
+  {
+    "id": "career_automation_coordinator",
+    "name": {
+      "en": "Automation Coordinator",
+      "fr": "Automatisation Coordinateur",
+      "es": "Automatización Coordinador"
+    },
+    "idealProfile": {
+      "energy": 56,
+      "discipline": 75,
+      "empathy": 87,
+      "intelligence": 70,
+      "humor": 62,
+      "risk": 93
+    },
+    "tags": [
+      "expanded_v2",
+      "automation",
+      "coordinator"
+    ],
+    "worthPotential": {
+      "min": 48938,
+      "max": 206035
+    }
+  },
+  {
+    "id": "career_automation_specialist",
+    "name": {
+      "en": "Automation Specialist",
+      "fr": "Automatisation Spécialiste",
+      "es": "Automatización Especialista"
+    },
+    "idealProfile": {
+      "social": 72,
+      "humor": 51,
+      "professionalism": 51,
+      "creativity": 78,
+      "chaos": 57,
+      "luck": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "automation",
+      "specialist"
+    ],
+    "worthPotential": {
+      "min": 47341,
+      "max": 152213
+    }
+  },
+  {
+    "id": "career_automation_consultant",
+    "name": {
+      "en": "Automation Consultant",
+      "fr": "Automatisation Consultant",
+      "es": "Automatización Consultor"
+    },
+    "idealProfile": {
+      "creativity": 42,
+      "humor": 72,
+      "luck": 78,
+      "risk": 87,
+      "communication": 54,
+      "professionalism": 28
+    },
+    "tags": [
+      "expanded_v2",
+      "automation",
+      "consultant"
+    ],
+    "worthPotential": {
+      "min": 26285,
+      "max": 102266
+    }
+  },
+  {
+    "id": "career_automation_designer",
+    "name": {
+      "en": "Automation Designer",
+      "fr": "Automatisation Concepteur",
+      "es": "Automatización Diseñador"
+    },
+    "idealProfile": {
+      "ambition": 88,
+      "creativity": 87,
+      "energy": 72,
+      "financialSense": 80,
+      "discipline": 94,
+      "social": 34
+    },
+    "tags": [
+      "expanded_v2",
+      "automation",
+      "designer"
+    ],
+    "worthPotential": {
+      "min": 40357,
+      "max": 98549
+    }
+  },
+  {
+    "id": "career_automation_manager",
+    "name": {
+      "en": "Automation Manager",
+      "fr": "Automatisation Responsable",
+      "es": "Automatización Gerente"
+    },
+    "idealProfile": {
+      "luck": 71,
+      "discipline": 35,
+      "social": 46,
+      "emotionalControl": 60,
+      "creativity": 77,
+      "chaos": 89
+    },
+    "tags": [
+      "expanded_v2",
+      "automation",
+      "manager"
+    ],
+    "worthPotential": {
+      "min": 70331,
+      "max": 193855
+    }
+  },
+  {
+    "id": "career_automation_researcher",
+    "name": {
+      "en": "Automation Researcher",
+      "fr": "Automatisation Chercheur",
+      "es": "Automatización Investigador"
+    },
+    "idealProfile": {
+      "discipline": 39,
+      "humor": 37,
+      "communication": 52,
+      "emotionalControl": 43,
+      "risk": 41,
+      "professionalism": 51
+    },
+    "tags": [
+      "expanded_v2",
+      "automation",
+      "researcher"
+    ],
+    "worthPotential": {
+      "min": 50282,
+      "max": 129349
+    }
+  },
+  {
+    "id": "career_automation_strategist",
+    "name": {
+      "en": "Automation Strategist",
+      "fr": "Automatisation Stratège",
+      "es": "Automatización Estratega"
+    },
+    "idealProfile": {
+      "empathy": 79,
+      "humor": 29,
+      "financialSense": 68,
+      "ambition": 58,
+      "social": 85,
+      "creativity": 47
+    },
+    "tags": [
+      "expanded_v2",
+      "automation",
+      "strategist"
+    ],
+    "worthPotential": {
+      "min": 41134,
+      "max": 152294
+    }
+  },
+  {
+    "id": "career_automation_technician",
+    "name": {
+      "en": "Automation Technician",
+      "fr": "Automatisation Technicien",
+      "es": "Automatización Técnico"
+    },
+    "idealProfile": {
+      "energy": 92,
+      "social": 49,
+      "ambition": 80,
+      "creativity": 27,
+      "financialSense": 77,
+      "discipline": 86
+    },
+    "tags": [
+      "expanded_v2",
+      "automation",
+      "technician"
+    ],
+    "worthPotential": {
+      "min": 79106,
+      "max": 205286
+    }
+  },
+  {
+    "id": "career_automation_advisor",
+    "name": {
+      "en": "Automation Advisor",
+      "fr": "Automatisation Conseiller",
+      "es": "Automatización Asesor"
+    },
+    "idealProfile": {
+      "ambition": 34,
+      "creativity": 39,
+      "energy": 88,
+      "financialSense": 45,
+      "discipline": 40,
+      "social": 57
+    },
+    "tags": [
+      "expanded_v2",
+      "automation",
+      "advisor"
+    ],
+    "worthPotential": {
+      "min": 39812,
+      "max": 140373
+    }
+  },
+  {
+    "id": "career_automation_producer",
+    "name": {
+      "en": "Automation Producer",
+      "fr": "Automatisation Producteur",
+      "es": "Automatización Productor"
+    },
+    "idealProfile": {
+      "chaos": 75,
+      "social": 55,
+      "risk": 51,
+      "emotionalControl": 31,
+      "discipline": 87,
+      "communication": 67
+    },
+    "tags": [
+      "expanded_v2",
+      "automation",
+      "producer"
+    ],
+    "worthPotential": {
+      "min": 57230,
+      "max": 175226
+    }
+  },
+  {
+    "id": "career_automation_facilitator",
+    "name": {
+      "en": "Automation Facilitator",
+      "fr": "Automatisation Facilitateur",
+      "es": "Automatización Facilitador"
+    },
+    "idealProfile": {
+      "discipline": 49,
+      "humor": 86,
+      "communication": 36,
+      "emotionalControl": 92,
+      "risk": 65,
+      "professionalism": 61
+    },
+    "tags": [
+      "expanded_v2",
+      "automation",
+      "facilitator"
+    ],
+    "worthPotential": {
+      "min": 43342,
+      "max": 213788
+    }
+  },
+  {
+    "id": "career_research_analyst",
+    "name": {
+      "en": "Research Analyst",
+      "fr": "Recherche Analyste",
+      "es": "Investigación Analista"
+    },
+    "idealProfile": {
+      "discipline": 38,
+      "humor": 30,
+      "communication": 59,
+      "emotionalControl": 36,
+      "risk": 44,
+      "professionalism": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "research",
+      "analyst"
+    ],
+    "worthPotential": {
+      "min": 62172,
+      "max": 144813
+    }
+  },
+  {
+    "id": "career_research_coordinator",
+    "name": {
+      "en": "Research Coordinator",
+      "fr": "Recherche Coordinateur",
+      "es": "Investigación Coordinador"
+    },
+    "idealProfile": {
+      "emotionalControl": 63,
+      "risk": 77,
+      "social": 49,
+      "chaos": 53,
+      "discipline": 83,
+      "communication": 55
+    },
+    "tags": [
+      "expanded_v2",
+      "research",
+      "coordinator"
+    ],
+    "worthPotential": {
+      "min": 26600,
+      "max": 136414
+    }
+  },
+  {
+    "id": "career_research_specialist",
+    "name": {
+      "en": "Research Specialist",
+      "fr": "Recherche Spécialiste",
+      "es": "Investigación Especialista"
+    },
+    "idealProfile": {
+      "communication": 41,
+      "humor": 30,
+      "discipline": 26,
+      "emotionalControl": 61,
+      "risk": 36,
+      "professionalism": 32
+    },
+    "tags": [
+      "expanded_v2",
+      "research",
+      "specialist"
+    ],
+    "worthPotential": {
+      "min": 34263,
+      "max": 154799
+    }
+  },
+  {
+    "id": "career_research_consultant",
+    "name": {
+      "en": "Research Consultant",
+      "fr": "Recherche Consultant",
+      "es": "Investigación Consultor"
+    },
+    "idealProfile": {
+      "humor": 81,
+      "risk": 84,
+      "professionalism": 27,
+      "discipline": 48,
+      "emotionalControl": 93,
+      "communication": 60
+    },
+    "tags": [
+      "expanded_v2",
+      "research",
+      "consultant"
+    ],
+    "worthPotential": {
+      "min": 36647,
+      "max": 174629
+    }
+  },
+  {
+    "id": "career_research_designer",
+    "name": {
+      "en": "Research Designer",
+      "fr": "Recherche Concepteur",
+      "es": "Investigación Diseñador"
+    },
+    "idealProfile": {
+      "luck": 59,
+      "discipline": 79,
+      "social": 58,
+      "emotionalControl": 42,
+      "creativity": 65,
+      "chaos": 77
+    },
+    "tags": [
+      "expanded_v2",
+      "research",
+      "designer"
+    ],
+    "worthPotential": {
+      "min": 70731,
+      "max": 208577
+    }
+  },
+  {
+    "id": "career_research_manager",
+    "name": {
+      "en": "Research Manager",
+      "fr": "Recherche Responsable",
+      "es": "Investigación Gerente"
+    },
+    "idealProfile": {
+      "risk": 39,
+      "creativity": 57,
+      "professionalism": 73,
+      "communication": 63,
+      "humor": 38,
+      "luck": 51
+    },
+    "tags": [
+      "expanded_v2",
+      "research",
+      "manager"
+    ],
+    "worthPotential": {
+      "min": 52265,
+      "max": 115230
+    }
+  },
+  {
+    "id": "career_research_researcher",
+    "name": {
+      "en": "Research Researcher",
+      "fr": "Recherche Chercheur",
+      "es": "Investigación Investigador"
+    },
+    "idealProfile": {
+      "intelligence": 93,
+      "discipline": 29,
+      "financialSense": 72,
+      "social": 28,
+      "energy": 29,
+      "risk": 78
+    },
+    "tags": [
+      "expanded_v2",
+      "research",
+      "researcher"
+    ],
+    "worthPotential": {
+      "min": 83324,
+      "max": 221743
+    }
+  },
+  {
+    "id": "career_research_strategist",
+    "name": {
+      "en": "Research Strategist",
+      "fr": "Recherche Stratège",
+      "es": "Investigación Estratega"
+    },
+    "idealProfile": {
+      "emotionalControl": 53,
+      "risk": 46,
+      "social": 64,
+      "chaos": 31,
+      "discipline": 52,
+      "communication": 70
+    },
+    "tags": [
+      "expanded_v2",
+      "research",
+      "strategist"
+    ],
+    "worthPotential": {
+      "min": 42340,
+      "max": 99853
+    }
+  },
+  {
+    "id": "career_research_technician",
+    "name": {
+      "en": "Research Technician",
+      "fr": "Recherche Technicien",
+      "es": "Investigación Técnico"
+    },
+    "idealProfile": {
+      "luck": 56,
+      "discipline": 62,
+      "social": 80,
+      "emotionalControl": 54,
+      "creativity": 62,
+      "chaos": 74
+    },
+    "tags": [
+      "expanded_v2",
+      "research",
+      "technician"
+    ],
+    "worthPotential": {
+      "min": 24576,
+      "max": 158625
+    }
+  },
+  {
+    "id": "career_research_advisor",
+    "name": {
+      "en": "Research Advisor",
+      "fr": "Recherche Conseiller",
+      "es": "Investigación Asesor"
+    },
+    "idealProfile": {
+      "communication": 76,
+      "risk": 93,
+      "creativity": 43,
+      "professionalism": 51,
+      "humor": 88,
+      "luck": 34
+    },
+    "tags": [
+      "expanded_v2",
+      "research",
+      "advisor"
+    ],
+    "worthPotential": {
+      "min": 78406,
+      "max": 252048
+    }
+  },
+  {
+    "id": "career_research_producer",
+    "name": {
+      "en": "Research Producer",
+      "fr": "Recherche Producteur",
+      "es": "Investigación Productor"
+    },
+    "idealProfile": {
+      "creativity": 83,
+      "humor": 78,
+      "luck": 29,
+      "risk": 41,
+      "communication": 24,
+      "professionalism": 53
+    },
+    "tags": [
+      "expanded_v2",
+      "research",
+      "producer"
+    ],
+    "worthPotential": {
+      "min": 40260,
+      "max": 142343
+    }
+  },
+  {
+    "id": "career_research_facilitator",
+    "name": {
+      "en": "Research Facilitator",
+      "fr": "Recherche Facilitateur",
+      "es": "Investigación Facilitador"
+    },
+    "idealProfile": {
+      "energy": 45,
+      "discipline": 72,
+      "empathy": 49,
+      "intelligence": 60,
+      "humor": 51,
+      "risk": 90
+    },
+    "tags": [
+      "expanded_v2",
+      "research",
+      "facilitator"
+    ],
+    "worthPotential": {
+      "min": 72768,
+      "max": 169970
+    }
+  },
+  {
+    "id": "career_operations_analyst",
+    "name": {
+      "en": "Operations Analyst",
+      "fr": "Opérations Analyste",
+      "es": "Operaciones Analista"
+    },
+    "idealProfile": {
+      "creativity": 33,
+      "discipline": 65,
+      "chaos": 33,
+      "luck": 71,
+      "social": 34,
+      "emotionalControl": 45
+    },
+    "tags": [
+      "expanded_v2",
+      "operations",
+      "analyst"
+    ],
+    "worthPotential": {
+      "min": 34631,
+      "max": 98602
+    }
+  },
+  {
+    "id": "career_operations_coordinator",
+    "name": {
+      "en": "Operations Coordinator",
+      "fr": "Opérations Coordinateur",
+      "es": "Operaciones Coordinador"
+    },
+    "idealProfile": {
+      "emotionalControl": 73,
+      "discipline": 40,
+      "humor": 68,
+      "communication": 38,
+      "risk": 85,
+      "professionalism": 52
+    },
+    "tags": [
+      "expanded_v2",
+      "operations",
+      "coordinator"
+    ],
+    "worthPotential": {
+      "min": 30243,
+      "max": 148865
+    }
+  },
+  {
+    "id": "career_operations_specialist",
+    "name": {
+      "en": "Operations Specialist",
+      "fr": "Opérations Spécialiste",
+      "es": "Operaciones Especialista"
+    },
+    "idealProfile": {
+      "empathy": 87,
+      "risk": 56,
+      "energy": 36,
+      "discipline": 93,
+      "intelligence": 81,
+      "humor": 42
+    },
+    "tags": [
+      "expanded_v2",
+      "operations",
+      "specialist"
+    ],
+    "worthPotential": {
+      "min": 79562,
+      "max": 165544
+    }
+  },
+  {
+    "id": "career_operations_consultant",
+    "name": {
+      "en": "Operations Consultant",
+      "fr": "Opérations Consultant",
+      "es": "Operaciones Consultor"
+    },
+    "idealProfile": {
+      "emotionalControl": 77,
+      "risk": 60,
+      "social": 29,
+      "chaos": 72,
+      "discipline": 66,
+      "communication": 35
+    },
+    "tags": [
+      "expanded_v2",
+      "operations",
+      "consultant"
+    ],
+    "worthPotential": {
+      "min": 66470,
+      "max": 176014
+    }
+  },
+  {
+    "id": "career_operations_designer",
+    "name": {
+      "en": "Operations Designer",
+      "fr": "Opérations Concepteur",
+      "es": "Operaciones Diseñador"
+    },
+    "idealProfile": {
+      "empathy": 87,
+      "humor": 29,
+      "financialSense": 88,
+      "ambition": 50,
+      "social": 93,
+      "creativity": 47
+    },
+    "tags": [
+      "expanded_v2",
+      "operations",
+      "designer"
+    ],
+    "worthPotential": {
+      "min": 51054,
+      "max": 154038
+    }
+  },
+  {
+    "id": "career_operations_manager",
+    "name": {
+      "en": "Operations Manager",
+      "fr": "Opérations Responsable",
+      "es": "Operaciones Gerente"
+    },
+    "idealProfile": {
+      "risk": 44,
+      "creativity": 74,
+      "professionalism": 38,
+      "communication": 80,
+      "humor": 85,
+      "luck": 56
+    },
+    "tags": [
+      "expanded_v2",
+      "operations",
+      "manager"
+    ],
+    "worthPotential": {
+      "min": 76630,
+      "max": 120480
+    }
+  },
+  {
+    "id": "career_operations_researcher",
+    "name": {
+      "en": "Operations Researcher",
+      "fr": "Opérations Chercheur",
+      "es": "Operaciones Investigador"
+    },
+    "idealProfile": {
+      "financialSense": 69,
+      "creativity": 71,
+      "empathy": 66,
+      "humor": 75,
+      "ambition": 39,
+      "social": 72
+    },
+    "tags": [
+      "expanded_v2",
+      "operations",
+      "researcher"
+    ],
+    "worthPotential": {
+      "min": 51113,
+      "max": 205968
+    }
+  },
+  {
+    "id": "career_operations_strategist",
+    "name": {
+      "en": "Operations Strategist",
+      "fr": "Opérations Stratège",
+      "es": "Operaciones Estratega"
+    },
+    "idealProfile": {
+      "empathy": 66,
+      "risk": 73,
+      "energy": 63,
+      "discipline": 72,
+      "intelligence": 84,
+      "humor": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "operations",
+      "strategist"
+    ],
+    "worthPotential": {
+      "min": 79237,
+      "max": 200206
+    }
+  },
+  {
+    "id": "career_operations_technician",
+    "name": {
+      "en": "Operations Technician",
+      "fr": "Opérations Technicien",
+      "es": "Operaciones Técnico"
+    },
+    "idealProfile": {
+      "discipline": 59,
+      "humor": 57,
+      "communication": 26,
+      "emotionalControl": 63,
+      "risk": 45,
+      "professionalism": 71
+    },
+    "tags": [
+      "expanded_v2",
+      "operations",
+      "technician"
+    ],
+    "worthPotential": {
+      "min": 81117,
+      "max": 237320
+    }
+  },
+  {
+    "id": "career_operations_advisor",
+    "name": {
+      "en": "Operations Advisor",
+      "fr": "Opérations Conseiller",
+      "es": "Operaciones Asesor"
+    },
+    "idealProfile": {
+      "risk": 34,
+      "discipline": 45,
+      "communication": 86,
+      "social": 72,
+      "chaos": 46,
+      "emotionalControl": 84
+    },
+    "tags": [
+      "expanded_v2",
+      "operations",
+      "advisor"
+    ],
+    "worthPotential": {
+      "min": 64649,
+      "max": 218018
+    }
+  },
+  {
+    "id": "career_operations_producer",
+    "name": {
+      "en": "Operations Producer",
+      "fr": "Opérations Producteur",
+      "es": "Operaciones Productor"
+    },
+    "idealProfile": {
+      "energy": 54,
+      "discipline": 73,
+      "empathy": 80,
+      "intelligence": 56,
+      "humor": 60,
+      "risk": 91
+    },
+    "tags": [
+      "expanded_v2",
+      "operations",
+      "producer"
+    ],
+    "worthPotential": {
+      "min": 69673,
+      "max": 124847
+    }
+  },
+  {
+    "id": "career_operations_facilitator",
+    "name": {
+      "en": "Operations Facilitator",
+      "fr": "Opérations Facilitateur",
+      "es": "Operaciones Facilitador"
+    },
+    "idealProfile": {
+      "creativity": 46,
+      "discipline": 94,
+      "chaos": 83,
+      "luck": 29,
+      "social": 56,
+      "emotionalControl": 58
+    },
+    "tags": [
+      "expanded_v2",
+      "operations",
+      "facilitator"
+    ],
+    "worthPotential": {
+      "min": 56311,
+      "max": 110941
+    }
+  },
+  {
+    "id": "career_product_analyst",
+    "name": {
+      "en": "Product Analyst",
+      "fr": "Produit Analyste",
+      "es": "Producto Analista"
+    },
+    "idealProfile": {
+      "luck": 50,
+      "social": 79,
+      "humor": 78,
+      "professionalism": 87,
+      "creativity": 85,
+      "chaos": 84
+    },
+    "tags": [
+      "expanded_v2",
+      "product",
+      "analyst"
+    ],
+    "worthPotential": {
+      "min": 44714,
+      "max": 214064
+    }
+  },
+  {
+    "id": "career_product_coordinator",
+    "name": {
+      "en": "Product Coordinator",
+      "fr": "Produit Coordinateur",
+      "es": "Producto Coordinador"
+    },
+    "idealProfile": {
+      "chaos": 49,
+      "discipline": 41,
+      "creativity": 90,
+      "luck": 50,
+      "social": 47,
+      "emotionalControl": 25
+    },
+    "tags": [
+      "expanded_v2",
+      "product",
+      "coordinator"
+    ],
+    "worthPotential": {
+      "min": 55642,
+      "max": 236124
+    }
+  },
+  {
+    "id": "career_product_specialist",
+    "name": {
+      "en": "Product Specialist",
+      "fr": "Produit Spécialiste",
+      "es": "Producto Especialista"
+    },
+    "idealProfile": {
+      "communication": 37,
+      "risk": 25,
+      "creativity": 68,
+      "professionalism": 36,
+      "humor": 49,
+      "luck": 37
+    },
+    "tags": [
+      "expanded_v2",
+      "product",
+      "specialist"
+    ],
+    "worthPotential": {
+      "min": 38941,
+      "max": 154421
+    }
+  },
+  {
+    "id": "career_product_consultant",
+    "name": {
+      "en": "Product Consultant",
+      "fr": "Produit Consultant",
+      "es": "Producto Consultor"
+    },
+    "idealProfile": {
+      "empathy": 94,
+      "risk": 83,
+      "energy": 57,
+      "discipline": 29,
+      "intelligence": 49,
+      "humor": 63
+    },
+    "tags": [
+      "expanded_v2",
+      "product",
+      "consultant"
+    ],
+    "worthPotential": {
+      "min": 76277,
+      "max": 116785
+    }
+  },
+  {
+    "id": "career_product_designer",
+    "name": {
+      "en": "Product Designer",
+      "fr": "Produit Concepteur",
+      "es": "Producto Diseñador"
+    },
+    "idealProfile": {
+      "ambition": 37,
+      "creativity": 25,
+      "energy": 39,
+      "financialSense": 73,
+      "discipline": 43,
+      "social": 43
+    },
+    "tags": [
+      "expanded_v2",
+      "product",
+      "designer"
+    ],
+    "worthPotential": {
+      "min": 41597,
+      "max": 88493
+    }
+  },
+  {
+    "id": "career_product_manager",
+    "name": {
+      "en": "Product Manager",
+      "fr": "Produit Responsable",
+      "es": "Producto Gerente"
+    },
+    "idealProfile": {
+      "financialSense": 68,
+      "creativity": 82,
+      "empathy": 36,
+      "humor": 74,
+      "ambition": 84,
+      "social": 42
+    },
+    "tags": [
+      "expanded_v2",
+      "product",
+      "manager"
+    ],
+    "worthPotential": {
+      "min": 75083,
+      "max": 131813
+    }
+  },
+  {
+    "id": "career_product_researcher",
+    "name": {
+      "en": "Product Researcher",
+      "fr": "Produit Chercheur",
+      "es": "Producto Investigador"
+    },
+    "idealProfile": {
+      "luck": 45,
+      "creativity": 50,
+      "discipline": 42,
+      "chaos": 55,
+      "social": 57,
+      "emotionalControl": 62
+    },
+    "tags": [
+      "expanded_v2",
+      "product",
+      "researcher"
+    ],
+    "worthPotential": {
+      "min": 52682,
+      "max": 121094
+    }
+  },
+  {
+    "id": "career_product_strategist",
+    "name": {
+      "en": "Product Strategist",
+      "fr": "Produit Stratège",
+      "es": "Producto Estratega"
+    },
+    "idealProfile": {
+      "discipline": 60,
+      "social": 39,
+      "emotionalControl": 77,
+      "creativity": 25,
+      "luck": 72,
+      "chaos": 37
+    },
+    "tags": [
+      "expanded_v2",
+      "product",
+      "strategist"
+    ],
+    "worthPotential": {
+      "min": 71406,
+      "max": 136911
+    }
+  },
+  {
+    "id": "career_product_technician",
+    "name": {
+      "en": "Product Technician",
+      "fr": "Produit Technicien",
+      "es": "Producto Técnico"
+    },
+    "idealProfile": {
+      "discipline": 91,
+      "social": 65,
+      "emotionalControl": 75,
+      "creativity": 38,
+      "luck": 32,
+      "chaos": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "product",
+      "technician"
+    ],
+    "worthPotential": {
+      "min": 56586,
+      "max": 144525
+    }
+  },
+  {
+    "id": "career_product_advisor",
+    "name": {
+      "en": "Product Advisor",
+      "fr": "Produit Conseiller",
+      "es": "Producto Asesor"
+    },
+    "idealProfile": {
+      "emotionalControl": 79,
+      "discipline": 51,
+      "humor": 93,
+      "communication": 83,
+      "risk": 91,
+      "professionalism": 63
+    },
+    "tags": [
+      "expanded_v2",
+      "product",
+      "advisor"
+    ],
+    "worthPotential": {
+      "min": 48468,
+      "max": 125501
+    }
+  },
+  {
+    "id": "career_product_producer",
+    "name": {
+      "en": "Product Producer",
+      "fr": "Produit Producteur",
+      "es": "Producto Productor"
+    },
+    "idealProfile": {
+      "financialSense": 36,
+      "humor": 92,
+      "empathy": 34,
+      "creativity": 42,
+      "ambition": 33,
+      "social": 46
+    },
+    "tags": [
+      "expanded_v2",
+      "product",
+      "producer"
+    ],
+    "worthPotential": {
+      "min": 78926,
+      "max": 244140
+    }
+  },
+  {
+    "id": "career_product_facilitator",
+    "name": {
+      "en": "Product Facilitator",
+      "fr": "Produit Facilitateur",
+      "es": "Producto Facilitador"
+    },
+    "idealProfile": {
+      "professionalism": 31,
+      "social": 45,
+      "creativity": 50,
+      "chaos": 53,
+      "humor": 37,
+      "luck": 49
+    },
+    "tags": [
+      "expanded_v2",
+      "product",
+      "facilitator"
+    ],
+    "worthPotential": {
+      "min": 75678,
+      "max": 250969
+    }
+  },
+  {
+    "id": "career_community_analyst",
+    "name": {
+      "en": "Community Analyst",
+      "fr": "Communauté Analyste",
+      "es": "Comunidad Analista"
+    },
+    "idealProfile": {
+      "emotionalControl": 84,
+      "risk": 80,
+      "social": 89,
+      "chaos": 39,
+      "discipline": 86,
+      "communication": 24
+    },
+    "tags": [
+      "expanded_v2",
+      "community",
+      "analyst"
+    ],
+    "worthPotential": {
+      "min": 63900,
+      "max": 124926
+    }
+  },
+  {
+    "id": "career_community_coordinator",
+    "name": {
+      "en": "Community Coordinator",
+      "fr": "Communauté Coordinateur",
+      "es": "Comunidad Coordinador"
+    },
+    "idealProfile": {
+      "discipline": 60,
+      "social": 71,
+      "emotionalControl": 51,
+      "creativity": 29,
+      "luck": 72,
+      "chaos": 41
+    },
+    "tags": [
+      "expanded_v2",
+      "community",
+      "coordinator"
+    ],
+    "worthPotential": {
+      "min": 51696,
+      "max": 194858
+    }
+  },
+  {
+    "id": "career_community_specialist",
+    "name": {
+      "en": "Community Specialist",
+      "fr": "Communauté Spécialiste",
+      "es": "Comunidad Especialista"
+    },
+    "idealProfile": {
+      "discipline": 88,
+      "humor": 65,
+      "communication": 33,
+      "emotionalControl": 71,
+      "risk": 52,
+      "professionalism": 29
+    },
+    "tags": [
+      "expanded_v2",
+      "community",
+      "specialist"
+    ],
+    "worthPotential": {
+      "min": 24007,
+      "max": 64210
+    }
+  },
+  {
+    "id": "career_community_consultant",
+    "name": {
+      "en": "Community Consultant",
+      "fr": "Communauté Consultant",
+      "es": "Comunidad Consultor"
+    },
+    "idealProfile": {
+      "discipline": 88,
+      "social": 65,
+      "emotionalControl": 51,
+      "creativity": 51,
+      "luck": 29,
+      "chaos": 63
+    },
+    "tags": [
+      "expanded_v2",
+      "community",
+      "consultant"
+    ],
+    "worthPotential": {
+      "min": 83871,
+      "max": 264593
+    }
+  },
+  {
+    "id": "career_community_designer",
+    "name": {
+      "en": "Community Designer",
+      "fr": "Communauté Concepteur",
+      "es": "Comunidad Diseñador"
+    },
+    "idealProfile": {
+      "professionalism": 81,
+      "humor": 76,
+      "social": 67,
+      "luck": 76,
+      "creativity": 93,
+      "chaos": 88
+    },
+    "tags": [
+      "expanded_v2",
+      "community",
+      "designer"
+    ],
+    "worthPotential": {
+      "min": 43099,
+      "max": 144880
+    }
+  },
+  {
+    "id": "career_community_manager",
+    "name": {
+      "en": "Community Manager",
+      "fr": "Communauté Responsable",
+      "es": "Comunidad Gerente"
+    },
+    "idealProfile": {
+      "empathy": 79,
+      "discipline": 93,
+      "energy": 74,
+      "risk": 85,
+      "intelligence": 34,
+      "humor": 86
+    },
+    "tags": [
+      "expanded_v2",
+      "community",
+      "manager"
+    ],
+    "worthPotential": {
+      "min": 31945,
+      "max": 90999
+    }
+  },
+  {
+    "id": "career_community_researcher",
+    "name": {
+      "en": "Community Researcher",
+      "fr": "Communauté Chercheur",
+      "es": "Comunidad Investigador"
+    },
+    "idealProfile": {
+      "professionalism": 93,
+      "social": 47,
+      "creativity": 86,
+      "chaos": 88,
+      "humor": 28,
+      "luck": 40
+    },
+    "tags": [
+      "expanded_v2",
+      "community",
+      "researcher"
+    ],
+    "worthPotential": {
+      "min": 61308,
+      "max": 239777
+    }
+  },
+  {
+    "id": "career_community_strategist",
+    "name": {
+      "en": "Community Strategist",
+      "fr": "Communauté Stratège",
+      "es": "Comunidad Estratega"
+    },
+    "idealProfile": {
+      "creativity": 36,
+      "risk": 79,
+      "communication": 47,
+      "humor": 42,
+      "luck": 85,
+      "professionalism": 65
+    },
+    "tags": [
+      "expanded_v2",
+      "community",
+      "strategist"
+    ],
+    "worthPotential": {
+      "min": 64348,
+      "max": 160150
+    }
+  },
+  {
+    "id": "career_community_technician",
+    "name": {
+      "en": "Community Technician",
+      "fr": "Communauté Technicien",
+      "es": "Comunidad Técnico"
+    },
+    "idealProfile": {
+      "creativity": 77,
+      "humor": 73,
+      "luck": 54,
+      "risk": 31,
+      "communication": 89,
+      "professionalism": 43
+    },
+    "tags": [
+      "expanded_v2",
+      "community",
+      "technician"
+    ],
+    "worthPotential": {
+      "min": 54360,
+      "max": 131416
+    }
+  },
+  {
+    "id": "career_community_advisor",
+    "name": {
+      "en": "Community Advisor",
+      "fr": "Communauté Conseiller",
+      "es": "Comunidad Asesor"
+    },
+    "idealProfile": {
+      "creativity": 82,
+      "risk": 89,
+      "communication": 65,
+      "humor": 88,
+      "luck": 24,
+      "professionalism": 83
+    },
+    "tags": [
+      "expanded_v2",
+      "community",
+      "advisor"
+    ],
+    "worthPotential": {
+      "min": 60358,
+      "max": 109316
+    }
+  },
+  {
+    "id": "career_community_producer",
+    "name": {
+      "en": "Community Producer",
+      "fr": "Communauté Producteur",
+      "es": "Comunidad Productor"
+    },
+    "idealProfile": {
+      "creativity": 27,
+      "risk": 41,
+      "communication": 81,
+      "humor": 33,
+      "luck": 47,
+      "professionalism": 28
+    },
+    "tags": [
+      "expanded_v2",
+      "community",
+      "producer"
+    ],
+    "worthPotential": {
+      "min": 59788,
+      "max": 223611
+    }
+  },
+  {
+    "id": "career_community_facilitator",
+    "name": {
+      "en": "Community Facilitator",
+      "fr": "Communauté Facilitateur",
+      "es": "Comunidad Facilitador"
+    },
+    "idealProfile": {
+      "luck": 92,
+      "discipline": 36,
+      "social": 41,
+      "emotionalControl": 51,
+      "creativity": 27,
+      "chaos": 39
+    },
+    "tags": [
+      "expanded_v2",
+      "community",
+      "facilitator"
+    ],
+    "worthPotential": {
+      "min": 73496,
+      "max": 239451
+    }
+  },
+  {
+    "id": "career_experience_analyst",
+    "name": {
+      "en": "Experience Analyst",
+      "fr": "Expérience Analyste",
+      "es": "Experiencia Analista"
+    },
+    "idealProfile": {
+      "communication": 33,
+      "humor": 61,
+      "discipline": 27,
+      "emotionalControl": 44,
+      "risk": 67,
+      "professionalism": 33
+    },
+    "tags": [
+      "expanded_v2",
+      "experience",
+      "analyst"
+    ],
+    "worthPotential": {
+      "min": 48233,
+      "max": 99437
+    }
+  },
+  {
+    "id": "career_experience_coordinator",
+    "name": {
+      "en": "Experience Coordinator",
+      "fr": "Expérience Coordinateur",
+      "es": "Experiencia Coordinador"
+    },
+    "idealProfile": {
+      "intelligence": 27,
+      "discipline": 83,
+      "financialSense": 60,
+      "social": 33,
+      "energy": 62,
+      "risk": 66
+    },
+    "tags": [
+      "expanded_v2",
+      "experience",
+      "coordinator"
+    ],
+    "worthPotential": {
+      "min": 47609,
+      "max": 195287
+    }
+  },
+  {
+    "id": "career_experience_specialist",
+    "name": {
+      "en": "Experience Specialist",
+      "fr": "Expérience Spécialiste",
+      "es": "Experiencia Especialista"
+    },
+    "idealProfile": {
+      "professionalism": 54,
+      "creativity": 66,
+      "risk": 47,
+      "communication": 64,
+      "humor": 72,
+      "luck": 53
+    },
+    "tags": [
+      "expanded_v2",
+      "experience",
+      "specialist"
+    ],
+    "worthPotential": {
+      "min": 45036,
+      "max": 130852
+    }
+  },
+  {
+    "id": "career_experience_consultant",
+    "name": {
+      "en": "Experience Consultant",
+      "fr": "Expérience Consultant",
+      "es": "Experiencia Consultor"
+    },
+    "idealProfile": {
+      "chaos": 49,
+      "risk": 28,
+      "discipline": 92,
+      "communication": 41,
+      "social": 55,
+      "emotionalControl": 67
+    },
+    "tags": [
+      "expanded_v2",
+      "experience",
+      "consultant"
+    ],
+    "worthPotential": {
+      "min": 55344,
+      "max": 187810
+    }
+  },
+  {
+    "id": "career_experience_designer",
+    "name": {
+      "en": "Experience Designer",
+      "fr": "Expérience Concepteur",
+      "es": "Experiencia Diseñador"
+    },
+    "idealProfile": {
+      "chaos": 90,
+      "discipline": 40,
+      "creativity": 52,
+      "luck": 64,
+      "social": 46,
+      "emotionalControl": 58
+    },
+    "tags": [
+      "expanded_v2",
+      "experience",
+      "designer"
+    ],
+    "worthPotential": {
+      "min": 48372,
+      "max": 172267
+    }
+  },
+  {
+    "id": "career_experience_manager",
+    "name": {
+      "en": "Experience Manager",
+      "fr": "Expérience Responsable",
+      "es": "Experiencia Gerente"
+    },
+    "idealProfile": {
+      "energy": 41,
+      "creativity": 72,
+      "ambition": 34,
+      "social": 47,
+      "financialSense": 84,
+      "discipline": 46
+    },
+    "tags": [
+      "expanded_v2",
+      "experience",
+      "manager"
+    ],
+    "worthPotential": {
+      "min": 44564,
+      "max": 123988
+    }
+  },
+  {
+    "id": "career_experience_researcher",
+    "name": {
+      "en": "Experience Researcher",
+      "fr": "Expérience Chercheur",
+      "es": "Experiencia Investigador"
+    },
+    "idealProfile": {
+      "emotionalControl": 39,
+      "discipline": 88,
+      "humor": 43,
+      "communication": 77,
+      "risk": 51,
+      "professionalism": 29
+    },
+    "tags": [
+      "expanded_v2",
+      "experience",
+      "researcher"
+    ],
+    "worthPotential": {
+      "min": 76203,
+      "max": 141340
+    }
+  },
+  {
+    "id": "career_experience_strategist",
+    "name": {
+      "en": "Experience Strategist",
+      "fr": "Expérience Stratège",
+      "es": "Experiencia Estratega"
+    },
+    "idealProfile": {
+      "social": 51,
+      "risk": 26,
+      "emotionalControl": 72,
+      "chaos": 32,
+      "discipline": 64,
+      "communication": 63
+    },
+    "tags": [
+      "expanded_v2",
+      "experience",
+      "strategist"
+    ],
+    "worthPotential": {
+      "min": 52259,
+      "max": 199717
+    }
+  },
+  {
+    "id": "career_experience_technician",
+    "name": {
+      "en": "Experience Technician",
+      "fr": "Expérience Technicien",
+      "es": "Experiencia Técnico"
+    },
+    "idealProfile": {
+      "risk": 27,
+      "creativity": 25,
+      "professionalism": 52,
+      "communication": 31,
+      "humor": 66,
+      "luck": 39
+    },
+    "tags": [
+      "expanded_v2",
+      "experience",
+      "technician"
+    ],
+    "worthPotential": {
+      "min": 29275,
+      "max": 142401
+    }
+  },
+  {
+    "id": "career_experience_advisor",
+    "name": {
+      "en": "Experience Advisor",
+      "fr": "Expérience Conseiller",
+      "es": "Experiencia Asesor"
+    },
+    "idealProfile": {
+      "humor": 75,
+      "social": 80,
+      "luck": 58,
+      "professionalism": 86,
+      "creativity": 77,
+      "chaos": 87
+    },
+    "tags": [
+      "expanded_v2",
+      "experience",
+      "advisor"
+    ],
+    "worthPotential": {
+      "min": 81523,
+      "max": 242165
+    }
+  },
+  {
+    "id": "career_experience_producer",
+    "name": {
+      "en": "Experience Producer",
+      "fr": "Expérience Producteur",
+      "es": "Experiencia Productor"
+    },
+    "idealProfile": {
+      "humor": 29,
+      "social": 74,
+      "luck": 47,
+      "professionalism": 80,
+      "creativity": 32,
+      "chaos": 41
+    },
+    "tags": [
+      "expanded_v2",
+      "experience",
+      "producer"
+    ],
+    "worthPotential": {
+      "min": 32663,
+      "max": 102708
+    }
+  },
+  {
+    "id": "career_experience_facilitator",
+    "name": {
+      "en": "Experience Facilitator",
+      "fr": "Expérience Facilitateur",
+      "es": "Experiencia Facilitador"
+    },
+    "idealProfile": {
+      "creativity": 82,
+      "risk": 82,
+      "communication": 74,
+      "humor": 88,
+      "luck": 88,
+      "professionalism": 92
+    },
+    "tags": [
+      "expanded_v2",
+      "experience",
+      "facilitator"
+    ],
+    "worthPotential": {
+      "min": 26953,
+      "max": 189066
+    }
+  },
+  {
+    "id": "career_systems_analyst",
+    "name": {
+      "en": "Systems Analyst",
+      "fr": "Systèmes Analyste",
+      "es": "Sistemas Analista"
+    },
+    "idealProfile": {
+      "empathy": 86,
+      "risk": 25,
+      "energy": 60,
+      "discipline": 92,
+      "intelligence": 51,
+      "humor": 66
+    },
+    "tags": [
+      "expanded_v2",
+      "systems",
+      "analyst"
+    ],
+    "worthPotential": {
+      "min": 50327,
+      "max": 137906
+    }
+  },
+  {
+    "id": "career_systems_coordinator",
+    "name": {
+      "en": "Systems Coordinator",
+      "fr": "Systèmes Coordinateur",
+      "es": "Sistemas Coordinador"
+    },
+    "idealProfile": {
+      "discipline": 47,
+      "humor": 52,
+      "communication": 93,
+      "emotionalControl": 58,
+      "risk": 43,
+      "professionalism": 59
+    },
+    "tags": [
+      "expanded_v2",
+      "systems",
+      "coordinator"
+    ],
+    "worthPotential": {
+      "min": 58747,
+      "max": 192320
+    }
+  },
+  {
+    "id": "career_systems_specialist",
+    "name": {
+      "en": "Systems Specialist",
+      "fr": "Systèmes Spécialiste",
+      "es": "Sistemas Especialista"
+    },
+    "idealProfile": {
+      "discipline": 89,
+      "creativity": 60,
+      "luck": 78,
+      "social": 24,
+      "emotionalControl": 66,
+      "chaos": 25
+    },
+    "tags": [
+      "expanded_v2",
+      "systems",
+      "specialist"
+    ],
+    "worthPotential": {
+      "min": 66474,
+      "max": 183882
+    }
+  },
+  {
+    "id": "career_systems_consultant",
+    "name": {
+      "en": "Systems Consultant",
+      "fr": "Systèmes Consultant",
+      "es": "Sistemas Consultor"
+    },
+    "idealProfile": {
+      "discipline": 50,
+      "creativity": 52,
+      "luck": 48,
+      "social": 56,
+      "emotionalControl": 58,
+      "chaos": 66
+    },
+    "tags": [
+      "expanded_v2",
+      "systems",
+      "consultant"
+    ],
+    "worthPotential": {
+      "min": 76574,
+      "max": 247513
+    }
+  },
+  {
+    "id": "career_systems_designer",
+    "name": {
+      "en": "Systems Designer",
+      "fr": "Systèmes Concepteur",
+      "es": "Sistemas Diseñador"
+    },
+    "idealProfile": {
+      "humor": 27,
+      "risk": 72,
+      "professionalism": 78,
+      "discipline": 65,
+      "emotionalControl": 39,
+      "communication": 77
+    },
+    "tags": [
+      "expanded_v2",
+      "systems",
+      "designer"
+    ],
+    "worthPotential": {
+      "min": 41222,
+      "max": 124195
+    }
+  },
+  {
+    "id": "career_systems_manager",
+    "name": {
+      "en": "Systems Manager",
+      "fr": "Systèmes Responsable",
+      "es": "Sistemas Gerente"
+    },
+    "idealProfile": {
+      "intelligence": 30,
+      "social": 43,
+      "financialSense": 44,
+      "discipline": 36,
+      "energy": 55,
+      "risk": 56
+    },
+    "tags": [
+      "expanded_v2",
+      "systems",
+      "manager"
+    ],
+    "worthPotential": {
+      "min": 29142,
+      "max": 89298
+    }
+  },
+  {
+    "id": "career_systems_researcher",
+    "name": {
+      "en": "Systems Researcher",
+      "fr": "Systèmes Chercheur",
+      "es": "Sistemas Investigador"
+    },
+    "idealProfile": {
+      "communication": 93,
+      "humor": 89,
+      "discipline": 85,
+      "emotionalControl": 76,
+      "risk": 24,
+      "professionalism": 91
+    },
+    "tags": [
+      "expanded_v2",
+      "systems",
+      "researcher"
+    ],
+    "worthPotential": {
+      "min": 51233,
+      "max": 196007
+    }
+  },
+  {
+    "id": "career_systems_strategist",
+    "name": {
+      "en": "Systems Strategist",
+      "fr": "Systèmes Stratège",
+      "es": "Sistemas Estratega"
+    },
+    "idealProfile": {
+      "risk": 68,
+      "social": 77,
+      "chaos": 49,
+      "discipline": 74,
+      "communication": 83,
+      "emotionalControl": 67
+    },
+    "tags": [
+      "expanded_v2",
+      "systems",
+      "strategist"
+    ],
+    "worthPotential": {
+      "min": 58837,
+      "max": 196523
+    }
+  },
+  {
+    "id": "career_systems_technician",
+    "name": {
+      "en": "Systems Technician",
+      "fr": "Systèmes Technicien",
+      "es": "Sistemas Técnico"
+    },
+    "idealProfile": {
+      "social": 30,
+      "risk": 81,
+      "emotionalControl": 69,
+      "chaos": 87,
+      "discipline": 49,
+      "communication": 42
+    },
+    "tags": [
+      "expanded_v2",
+      "systems",
+      "technician"
+    ],
+    "worthPotential": {
+      "min": 60069,
+      "max": 239616
+    }
+  },
+  {
+    "id": "career_systems_advisor",
+    "name": {
+      "en": "Systems Advisor",
+      "fr": "Systèmes Conseiller",
+      "es": "Sistemas Asesor"
+    },
+    "idealProfile": {
+      "professionalism": 26,
+      "social": 63,
+      "creativity": 29,
+      "chaos": 59,
+      "humor": 32,
+      "luck": 44
+    },
+    "tags": [
+      "expanded_v2",
+      "systems",
+      "advisor"
+    ],
+    "worthPotential": {
+      "min": 34513,
+      "max": 139050
+    }
+  },
+  {
+    "id": "career_systems_producer",
+    "name": {
+      "en": "Systems Producer",
+      "fr": "Systèmes Producteur",
+      "es": "Sistemas Productor"
+    },
+    "idealProfile": {
+      "emotionalControl": 85,
+      "humor": 89,
+      "risk": 34,
+      "professionalism": 86,
+      "discipline": 91,
+      "communication": 32
+    },
+    "tags": [
+      "expanded_v2",
+      "systems",
+      "producer"
+    ],
+    "worthPotential": {
+      "min": 83697,
+      "max": 253055
+    }
+  },
+  {
+    "id": "career_systems_facilitator",
+    "name": {
+      "en": "Systems Facilitator",
+      "fr": "Systèmes Facilitateur",
+      "es": "Sistemas Facilitador"
+    },
+    "idealProfile": {
+      "humor": 66,
+      "social": 33,
+      "luck": 26,
+      "professionalism": 39,
+      "creativity": 41,
+      "chaos": 78
+    },
+    "tags": [
+      "expanded_v2",
+      "systems",
+      "facilitator"
+    ],
+    "worthPotential": {
+      "min": 24023,
+      "max": 104503
+    }
+  },
+  {
+    "id": "career_content_analyst",
+    "name": {
+      "en": "Content Analyst",
+      "fr": "Contenu Analyste",
+      "es": "Contenido Analista"
+    },
+    "idealProfile": {
+      "chaos": 54,
+      "risk": 84,
+      "discipline": 43,
+      "communication": 44,
+      "social": 60,
+      "emotionalControl": 72
+    },
+    "tags": [
+      "expanded_v2",
+      "content",
+      "analyst"
+    ],
+    "worthPotential": {
+      "min": 36444,
+      "max": 76809
+    }
+  },
+  {
+    "id": "career_content_coordinator",
+    "name": {
+      "en": "Content Coordinator",
+      "fr": "Contenu Coordinateur",
+      "es": "Contenido Coordinador"
+    },
+    "idealProfile": {
+      "empathy": 64,
+      "risk": 44,
+      "energy": 27,
+      "discipline": 70,
+      "intelligence": 85,
+      "humor": 33
+    },
+    "tags": [
+      "expanded_v2",
+      "content",
+      "coordinator"
+    ],
+    "worthPotential": {
+      "min": 60832,
+      "max": 135014
+    }
+  },
+  {
+    "id": "career_content_specialist",
+    "name": {
+      "en": "Content Specialist",
+      "fr": "Contenu Spécialiste",
+      "es": "Contenido Especialista"
+    },
+    "idealProfile": {
+      "financialSense": 66,
+      "creativity": 86,
+      "empathy": 50,
+      "humor": 72,
+      "ambition": 87,
+      "social": 56
+    },
+    "tags": [
+      "expanded_v2",
+      "content",
+      "specialist"
+    ],
+    "worthPotential": {
+      "min": 75503,
+      "max": 147411
+    }
+  },
+  {
+    "id": "career_content_consultant",
+    "name": {
+      "en": "Content Consultant",
+      "fr": "Contenu Consultant",
+      "es": "Contenido Consultor"
+    },
+    "idealProfile": {
+      "communication": 24,
+      "humor": 27,
+      "discipline": 76,
+      "emotionalControl": 50,
+      "risk": 33,
+      "professionalism": 82
+    },
+    "tags": [
+      "expanded_v2",
+      "content",
+      "consultant"
+    ],
+    "worthPotential": {
+      "min": 83183,
+      "max": 137714
+    }
+  },
+  {
+    "id": "career_content_designer",
+    "name": {
+      "en": "Content Designer",
+      "fr": "Contenu Concepteur",
+      "es": "Contenido Diseñador"
+    },
+    "idealProfile": {
+      "energy": 64,
+      "social": 55,
+      "ambition": 28,
+      "creativity": 70,
+      "financialSense": 92,
+      "discipline": 34
+    },
+    "tags": [
+      "expanded_v2",
+      "content",
+      "designer"
+    ],
+    "worthPotential": {
+      "min": 77651,
+      "max": 162469
+    }
+  },
+  {
+    "id": "career_content_manager",
+    "name": {
+      "en": "Content Manager",
+      "fr": "Contenu Responsable",
+      "es": "Contenido Gerente"
+    },
+    "idealProfile": {
+      "emotionalControl": 68,
+      "discipline": 51,
+      "humor": 62,
+      "communication": 40,
+      "risk": 80,
+      "professionalism": 63
+    },
+    "tags": [
+      "expanded_v2",
+      "content",
+      "manager"
+    ],
+    "worthPotential": {
+      "min": 26433,
+      "max": 115305
+    }
+  },
+  {
+    "id": "career_content_researcher",
+    "name": {
+      "en": "Content Researcher",
+      "fr": "Contenu Chercheur",
+      "es": "Contenido Investigador"
+    },
+    "idealProfile": {
+      "humor": 91,
+      "social": 43,
+      "luck": 44,
+      "professionalism": 49,
+      "creativity": 59,
+      "chaos": 32
+    },
+    "tags": [
+      "expanded_v2",
+      "content",
+      "researcher"
+    ],
+    "worthPotential": {
+      "min": 31068,
+      "max": 141380
+    }
+  },
+  {
+    "id": "career_content_strategist",
+    "name": {
+      "en": "Content Strategist",
+      "fr": "Contenu Stratège",
+      "es": "Contenido Estratega"
+    },
+    "idealProfile": {
+      "intelligence": 36,
+      "discipline": 43,
+      "financialSense": 39,
+      "social": 42,
+      "energy": 87,
+      "risk": 45
+    },
+    "tags": [
+      "expanded_v2",
+      "content",
+      "strategist"
+    ],
+    "worthPotential": {
+      "min": 38844,
+      "max": 81663
+    }
+  },
+  {
+    "id": "career_content_technician",
+    "name": {
+      "en": "Content Technician",
+      "fr": "Contenu Technicien",
+      "es": "Contenido Técnico"
+    },
+    "idealProfile": {
+      "financialSense": 49,
+      "creativity": 46,
+      "empathy": 44,
+      "humor": 55,
+      "ambition": 34,
+      "social": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "content",
+      "technician"
+    ],
+    "worthPotential": {
+      "min": 68048,
+      "max": 132763
+    }
+  },
+  {
+    "id": "career_content_advisor",
+    "name": {
+      "en": "Content Advisor",
+      "fr": "Contenu Conseiller",
+      "es": "Contenido Asesor"
+    },
+    "idealProfile": {
+      "humor": 37,
+      "risk": 76,
+      "professionalism": 49,
+      "discipline": 33,
+      "emotionalControl": 49,
+      "communication": 45
+    },
+    "tags": [
+      "expanded_v2",
+      "content",
+      "advisor"
+    ],
+    "worthPotential": {
+      "min": 51062,
+      "max": 211624
+    }
+  },
+  {
+    "id": "career_content_producer",
+    "name": {
+      "en": "Content Producer",
+      "fr": "Contenu Producteur",
+      "es": "Contenido Productor"
+    },
+    "idealProfile": {
+      "luck": 45,
+      "creativity": 81,
+      "discipline": 38,
+      "chaos": 66,
+      "social": 57,
+      "emotionalControl": 93
+    },
+    "tags": [
+      "expanded_v2",
+      "content",
+      "producer"
+    ],
+    "worthPotential": {
+      "min": 48452,
+      "max": 205070
+    }
+  },
+  {
+    "id": "career_content_facilitator",
+    "name": {
+      "en": "Content Facilitator",
+      "fr": "Contenu Facilitateur",
+      "es": "Contenido Facilitador"
+    },
+    "idealProfile": {
+      "emotionalControl": 25,
+      "discipline": 81,
+      "humor": 83,
+      "communication": 79,
+      "risk": 37,
+      "professionalism": 93
+    },
+    "tags": [
+      "expanded_v2",
+      "content",
+      "facilitator"
+    ],
+    "worthPotential": {
+      "min": 65208,
+      "max": 215560
+    }
+  },
+  {
+    "id": "career_logistics_analyst",
+    "name": {
+      "en": "Logistics Analyst",
+      "fr": "Logistique Analyste",
+      "es": "Logística Analista"
+    },
+    "idealProfile": {
+      "professionalism": 86,
+      "humor": 62,
+      "social": 55,
+      "luck": 36,
+      "creativity": 27,
+      "chaos": 74
+    },
+    "tags": [
+      "expanded_v2",
+      "logistics",
+      "analyst"
+    ],
+    "worthPotential": {
+      "min": 66654,
+      "max": 200445
+    }
+  },
+  {
+    "id": "career_logistics_coordinator",
+    "name": {
+      "en": "Logistics Coordinator",
+      "fr": "Logistique Coordinateur",
+      "es": "Logística Coordinador"
+    },
+    "idealProfile": {
+      "professionalism": 28,
+      "humor": 74,
+      "social": 27,
+      "luck": 77,
+      "creativity": 40,
+      "chaos": 86
+    },
+    "tags": [
+      "expanded_v2",
+      "logistics",
+      "coordinator"
+    ],
+    "worthPotential": {
+      "min": 61454,
+      "max": 117959
+    }
+  },
+  {
+    "id": "career_logistics_specialist",
+    "name": {
+      "en": "Logistics Specialist",
+      "fr": "Logistique Spécialiste",
+      "es": "Logística Especialista"
+    },
+    "idealProfile": {
+      "discipline": 64,
+      "humor": 24,
+      "communication": 54,
+      "emotionalControl": 30,
+      "risk": 77,
+      "professionalism": 76
+    },
+    "tags": [
+      "expanded_v2",
+      "logistics",
+      "specialist"
+    ],
+    "worthPotential": {
+      "min": 42697,
+      "max": 97195
+    }
+  },
+  {
+    "id": "career_logistics_consultant",
+    "name": {
+      "en": "Logistics Consultant",
+      "fr": "Logistique Consultant",
+      "es": "Logística Consultor"
+    },
+    "idealProfile": {
+      "financialSense": 73,
+      "humor": 44,
+      "empathy": 70,
+      "creativity": 79,
+      "ambition": 56,
+      "social": 82
+    },
+    "tags": [
+      "expanded_v2",
+      "logistics",
+      "consultant"
+    ],
+    "worthPotential": {
+      "min": 25521,
+      "max": 91796
+    }
+  },
+  {
+    "id": "career_logistics_designer",
+    "name": {
+      "en": "Logistics Designer",
+      "fr": "Logistique Concepteur",
+      "es": "Logística Diseñador"
+    },
+    "idealProfile": {
+      "social": 66,
+      "humor": 29,
+      "professionalism": 39,
+      "creativity": 72,
+      "chaos": 35,
+      "luck": 57
+    },
+    "tags": [
+      "expanded_v2",
+      "logistics",
+      "designer"
+    ],
+    "worthPotential": {
+      "min": 74041,
+      "max": 203662
+    }
+  },
+  {
+    "id": "career_logistics_manager",
+    "name": {
+      "en": "Logistics Manager",
+      "fr": "Logistique Responsable",
+      "es": "Logística Gerente"
+    },
+    "idealProfile": {
+      "luck": 49,
+      "discipline": 83,
+      "social": 94,
+      "emotionalControl": 66,
+      "creativity": 55,
+      "chaos": 67
+    },
+    "tags": [
+      "expanded_v2",
+      "logistics",
+      "manager"
+    ],
+    "worthPotential": {
+      "min": 75391,
+      "max": 123076
+    }
+  },
+  {
+    "id": "career_logistics_researcher",
+    "name": {
+      "en": "Logistics Researcher",
+      "fr": "Logistique Chercheur",
+      "es": "Logística Investigador"
+    },
+    "idealProfile": {
+      "communication": 55,
+      "creativity": 64,
+      "humor": 78,
+      "luck": 81,
+      "risk": 61,
+      "professionalism": 73
+    },
+    "tags": [
+      "expanded_v2",
+      "logistics",
+      "researcher"
+    ],
+    "worthPotential": {
+      "min": 83750,
+      "max": 176686
+    }
+  },
+  {
+    "id": "career_logistics_strategist",
+    "name": {
+      "en": "Logistics Strategist",
+      "fr": "Logistique Stratège",
+      "es": "Logística Estratega"
+    },
+    "idealProfile": {
+      "energy": 35,
+      "discipline": 63,
+      "empathy": 44,
+      "intelligence": 91,
+      "humor": 41,
+      "risk": 81
+    },
+    "tags": [
+      "expanded_v2",
+      "logistics",
+      "strategist"
+    ],
+    "worthPotential": {
+      "min": 64378,
+      "max": 182969
+    }
+  },
+  {
+    "id": "career_logistics_technician",
+    "name": {
+      "en": "Logistics Technician",
+      "fr": "Logistique Technicien",
+      "es": "Logística Técnico"
+    },
+    "idealProfile": {
+      "professionalism": 91,
+      "humor": 74,
+      "social": 62,
+      "luck": 78,
+      "creativity": 32,
+      "chaos": 86
+    },
+    "tags": [
+      "expanded_v2",
+      "logistics",
+      "technician"
+    ],
+    "worthPotential": {
+      "min": 47854,
+      "max": 171677
+    }
+  },
+  {
+    "id": "career_logistics_advisor",
+    "name": {
+      "en": "Logistics Advisor",
+      "fr": "Logistique Conseiller",
+      "es": "Logística Asesor"
+    },
+    "idealProfile": {
+      "emotionalControl": 24,
+      "discipline": 25,
+      "humor": 39,
+      "communication": 48,
+      "risk": 36,
+      "professionalism": 37
+    },
+    "tags": [
+      "expanded_v2",
+      "logistics",
+      "advisor"
+    ],
+    "worthPotential": {
+      "min": 24768,
+      "max": 99028
+    }
+  },
+  {
+    "id": "career_logistics_producer",
+    "name": {
+      "en": "Logistics Producer",
+      "fr": "Logistique Producteur",
+      "es": "Logística Productor"
+    },
+    "idealProfile": {
+      "discipline": 35,
+      "social": 45,
+      "emotionalControl": 64,
+      "creativity": 54,
+      "luck": 47,
+      "chaos": 66
+    },
+    "tags": [
+      "expanded_v2",
+      "logistics",
+      "producer"
+    ],
+    "worthPotential": {
+      "min": 68786,
+      "max": 188042
+    }
+  },
+  {
+    "id": "career_logistics_facilitator",
+    "name": {
+      "en": "Logistics Facilitator",
+      "fr": "Logistique Facilitateur",
+      "es": "Logística Facilitador"
+    },
+    "idealProfile": {
+      "energy": 39,
+      "discipline": 37,
+      "empathy": 37,
+      "intelligence": 88,
+      "humor": 45,
+      "risk": 55
+    },
+    "tags": [
+      "expanded_v2",
+      "logistics",
+      "facilitator"
+    ],
+    "worthPotential": {
+      "min": 77978,
+      "max": 215583
+    }
+  },
+  {
+    "id": "career_sustainability_analyst",
+    "name": {
+      "en": "Sustainability Analyst",
+      "fr": "Durabilité Analyste",
+      "es": "Sostenibilidad Analista"
+    },
+    "idealProfile": {
+      "energy": 39,
+      "creativity": 50,
+      "ambition": 88,
+      "social": 45,
+      "financialSense": 62,
+      "discipline": 29
+    },
+    "tags": [
+      "expanded_v2",
+      "sustainability",
+      "analyst"
+    ],
+    "worthPotential": {
+      "min": 35644,
+      "max": 139619
+    }
+  },
+  {
+    "id": "career_sustainability_coordinator",
+    "name": {
+      "en": "Sustainability Coordinator",
+      "fr": "Durabilité Coordinateur",
+      "es": "Sostenibilidad Coordinador"
+    },
+    "idealProfile": {
+      "creativity": 78,
+      "humor": 93,
+      "luck": 34,
+      "risk": 66,
+      "communication": 90,
+      "professionalism": 78
+    },
+    "tags": [
+      "expanded_v2",
+      "sustainability",
+      "coordinator"
+    ],
+    "worthPotential": {
+      "min": 82920,
+      "max": 210626
+    }
+  },
+  {
+    "id": "career_sustainability_specialist",
+    "name": {
+      "en": "Sustainability Specialist",
+      "fr": "Durabilité Spécialiste",
+      "es": "Sostenibilidad Especialista"
+    },
+    "idealProfile": {
+      "social": 53,
+      "creativity": 57,
+      "chaos": 80,
+      "humor": 83,
+      "professionalism": 65,
+      "luck": 24
+    },
+    "tags": [
+      "expanded_v2",
+      "sustainability",
+      "specialist"
+    ],
+    "worthPotential": {
+      "min": 47903,
+      "max": 149363
+    }
+  },
+  {
+    "id": "career_sustainability_consultant",
+    "name": {
+      "en": "Sustainability Consultant",
+      "fr": "Durabilité Consultant",
+      "es": "Sostenibilidad Consultor"
+    },
+    "idealProfile": {
+      "professionalism": 31,
+      "social": 78,
+      "creativity": 60,
+      "chaos": 76,
+      "humor": 37,
+      "luck": 49
+    },
+    "tags": [
+      "expanded_v2",
+      "sustainability",
+      "consultant"
+    ],
+    "worthPotential": {
+      "min": 68583,
+      "max": 144706
+    }
+  },
+  {
+    "id": "career_sustainability_designer",
+    "name": {
+      "en": "Sustainability Designer",
+      "fr": "Durabilité Concepteur",
+      "es": "Sostenibilidad Diseñador"
+    },
+    "idealProfile": {
+      "social": 38,
+      "risk": 85,
+      "emotionalControl": 29,
+      "chaos": 91,
+      "discipline": 90,
+      "communication": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "sustainability",
+      "designer"
+    ],
+    "worthPotential": {
+      "min": 36659,
+      "max": 133602
+    }
+  },
+  {
+    "id": "career_sustainability_manager",
+    "name": {
+      "en": "Sustainability Manager",
+      "fr": "Durabilité Responsable",
+      "es": "Sostenibilidad Gerente"
+    },
+    "idealProfile": {
+      "intelligence": 40,
+      "social": 77,
+      "financialSense": 31,
+      "discipline": 46,
+      "energy": 89,
+      "risk": 43
+    },
+    "tags": [
+      "expanded_v2",
+      "sustainability",
+      "manager"
+    ],
+    "worthPotential": {
+      "min": 25737,
+      "max": 110036
+    }
+  },
+  {
+    "id": "career_sustainability_researcher",
+    "name": {
+      "en": "Sustainability Researcher",
+      "fr": "Durabilité Chercheur",
+      "es": "Sostenibilidad Investigador"
+    },
+    "idealProfile": {
+      "humor": 92,
+      "discipline": 80,
+      "emotionalControl": 25,
+      "risk": 27,
+      "professionalism": 86,
+      "communication": 43
+    },
+    "tags": [
+      "expanded_v2",
+      "sustainability",
+      "researcher"
+    ],
+    "worthPotential": {
+      "min": 58660,
+      "max": 115369
+    }
+  },
+  {
+    "id": "career_sustainability_strategist",
+    "name": {
+      "en": "Sustainability Strategist",
+      "fr": "Durabilité Stratège",
+      "es": "Sostenibilidad Estratega"
+    },
+    "idealProfile": {
+      "financialSense": 78,
+      "social": 49,
+      "intelligence": 82,
+      "energy": 25,
+      "risk": 84,
+      "discipline": 67
+    },
+    "tags": [
+      "expanded_v2",
+      "sustainability",
+      "strategist"
+    ],
+    "worthPotential": {
+      "min": 26020,
+      "max": 103672
+    }
+  },
+  {
+    "id": "career_sustainability_technician",
+    "name": {
+      "en": "Sustainability Technician",
+      "fr": "Durabilité Technicien",
+      "es": "Sostenibilidad Técnico"
+    },
+    "idealProfile": {
+      "ambition": 79,
+      "risk": 25,
+      "intelligence": 79,
+      "humor": 85,
+      "empathy": 37,
+      "creativity": 91
+    },
+    "tags": [
+      "expanded_v2",
+      "sustainability",
+      "technician"
+    ],
+    "worthPotential": {
+      "min": 63408,
+      "max": 115788
+    }
+  },
+  {
+    "id": "career_sustainability_advisor",
+    "name": {
+      "en": "Sustainability Advisor",
+      "fr": "Durabilité Conseiller",
+      "es": "Sostenibilidad Asesor"
+    },
+    "idealProfile": {
+      "humor": 67,
+      "social": 55,
+      "luck": 84,
+      "professionalism": 61,
+      "creativity": 87,
+      "chaos": 79
+    },
+    "tags": [
+      "expanded_v2",
+      "sustainability",
+      "advisor"
+    ],
+    "worthPotential": {
+      "min": 79598,
+      "max": 206944
+    }
+  },
+  {
+    "id": "career_sustainability_producer",
+    "name": {
+      "en": "Sustainability Producer",
+      "fr": "Durabilité Producteur",
+      "es": "Sostenibilidad Productor"
+    },
+    "idealProfile": {
+      "humor": 35,
+      "discipline": 41,
+      "emotionalControl": 81,
+      "risk": 41,
+      "professionalism": 47,
+      "communication": 28
+    },
+    "tags": [
+      "expanded_v2",
+      "sustainability",
+      "producer"
+    ],
+    "worthPotential": {
+      "min": 29420,
+      "max": 70347
+    }
+  },
+  {
+    "id": "career_sustainability_facilitator",
+    "name": {
+      "en": "Sustainability Facilitator",
+      "fr": "Durabilité Facilitateur",
+      "es": "Sostenibilidad Facilitador"
+    },
+    "idealProfile": {
+      "communication": 40,
+      "creativity": 43,
+      "humor": 75,
+      "luck": 58,
+      "risk": 46,
+      "professionalism": 58
+    },
+    "tags": [
+      "expanded_v2",
+      "sustainability",
+      "facilitator"
+    ],
+    "worthPotential": {
+      "min": 53000,
+      "max": 203621
+    }
+  },
+  {
+    "id": "career_quality_analyst",
+    "name": {
+      "en": "Quality Analyst",
+      "fr": "Qualité Analyste",
+      "es": "Calidad Analista"
+    },
+    "idealProfile": {
+      "intelligence": 42,
+      "risk": 83,
+      "ambition": 49,
+      "empathy": 55,
+      "creativity": 48,
+      "humor": 30
+    },
+    "tags": [
+      "expanded_v2",
+      "quality",
+      "analyst"
+    ],
+    "worthPotential": {
+      "min": 83016,
+      "max": 140035
+    }
+  },
+  {
+    "id": "career_quality_coordinator",
+    "name": {
+      "en": "Quality Coordinator",
+      "fr": "Qualité Coordinateur",
+      "es": "Calidad Coordinador"
+    },
+    "idealProfile": {
+      "humor": 57,
+      "discipline": 90,
+      "emotionalControl": 63,
+      "risk": 63,
+      "professionalism": 25,
+      "communication": 81
+    },
+    "tags": [
+      "expanded_v2",
+      "quality",
+      "coordinator"
+    ],
+    "worthPotential": {
+      "min": 72100,
+      "max": 196877
+    }
+  },
+  {
+    "id": "career_quality_specialist",
+    "name": {
+      "en": "Quality Specialist",
+      "fr": "Qualité Spécialiste",
+      "es": "Calidad Especialista"
+    },
+    "idealProfile": {
+      "chaos": 42,
+      "social": 41,
+      "risk": 44,
+      "emotionalControl": 31,
+      "discipline": 54,
+      "communication": 53
+    },
+    "tags": [
+      "expanded_v2",
+      "quality",
+      "specialist"
+    ],
+    "worthPotential": {
+      "min": 79555,
+      "max": 154123
+    }
+  },
+  {
+    "id": "career_quality_consultant",
+    "name": {
+      "en": "Quality Consultant",
+      "fr": "Qualité Consultant",
+      "es": "Calidad Consultor"
+    },
+    "idealProfile": {
+      "energy": 31,
+      "creativity": 70,
+      "ambition": 56,
+      "social": 37,
+      "financialSense": 82,
+      "discipline": 68
+    },
+    "tags": [
+      "expanded_v2",
+      "quality",
+      "consultant"
+    ],
+    "worthPotential": {
+      "min": 55179,
+      "max": 217187
+    }
+  },
+  {
+    "id": "career_quality_designer",
+    "name": {
+      "en": "Quality Designer",
+      "fr": "Qualité Concepteur",
+      "es": "Calidad Diseñador"
+    },
+    "idealProfile": {
+      "empathy": 76,
+      "humor": 91,
+      "financialSense": 52,
+      "ambition": 38,
+      "social": 82,
+      "creativity": 38
+    },
+    "tags": [
+      "expanded_v2",
+      "quality",
+      "designer"
+    ],
+    "worthPotential": {
+      "min": 30319,
+      "max": 105812
+    }
+  },
+  {
+    "id": "career_quality_manager",
+    "name": {
+      "en": "Quality Manager",
+      "fr": "Qualité Responsable",
+      "es": "Calidad Gerente"
+    },
+    "idealProfile": {
+      "intelligence": 34,
+      "social": 54,
+      "financialSense": 82,
+      "discipline": 40,
+      "energy": 66,
+      "risk": 94
+    },
+    "tags": [
+      "expanded_v2",
+      "quality",
+      "manager"
+    ],
+    "worthPotential": {
+      "min": 60197,
+      "max": 189518
+    }
   }
 ]

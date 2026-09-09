@@ -393,5 +393,2525 @@
       "professionalism": 42,
       "humor": 38
     }
+  },
+  {
+    "id": "weakness_notification_spiral",
+    "name": {
+      "en": "Notification Spiral",
+      "fr": "Notification Spirale",
+      "es": "Notificación Espiral"
+    },
+    "lowProfile": {
+      "energy": 17,
+      "discipline": 30,
+      "empathy": 45,
+      "intelligence": 63,
+      "humor": 31,
+      "risk": 72
+    },
+    "tags": [
+      "expanded_v2",
+      "notification",
+      "spiral"
+    ]
+  },
+  {
+    "id": "weakness_notification_panic",
+    "name": {
+      "en": "Notification Panic",
+      "fr": "Notification Panique",
+      "es": "Notificación Pánico"
+    },
+    "lowProfile": {
+      "communication": 31,
+      "humor": 35,
+      "discipline": 54,
+      "emotionalControl": 19,
+      "risk": 49,
+      "professionalism": 68
+    },
+    "tags": [
+      "expanded_v2",
+      "notification",
+      "panic"
+    ]
+  },
+  {
+    "id": "weakness_notification_freeze",
+    "name": {
+      "en": "Notification Freeze",
+      "fr": "Notification Blocage",
+      "es": "Notificación Bloqueo"
+    },
+    "lowProfile": {
+      "luck": 64,
+      "social": 34,
+      "humor": 25,
+      "professionalism": 39,
+      "creativity": 48,
+      "chaos": 39
+    },
+    "tags": [
+      "expanded_v2",
+      "notification",
+      "freeze"
+    ]
+  },
+  {
+    "id": "weakness_notification_overthink",
+    "name": {
+      "en": "Notification Overthinking",
+      "fr": "Notification Surréflexion",
+      "es": "Notificación Sobrepensamiento"
+    },
+    "lowProfile": {
+      "intelligence": 10,
+      "risk": 63,
+      "ambition": 38,
+      "empathy": 48,
+      "creativity": 24,
+      "humor": 38
+    },
+    "tags": [
+      "expanded_v2",
+      "notification",
+      "overthink"
+    ]
+  },
+  {
+    "id": "weakness_notification_avoidance",
+    "name": {
+      "en": "Notification Avoidance",
+      "fr": "Notification Évitement",
+      "es": "Notificación Evitación"
+    },
+    "lowProfile": {
+      "intelligence": 24,
+      "discipline": 60,
+      "financialSense": 45,
+      "social": 38,
+      "energy": 31,
+      "risk": 59
+    },
+    "tags": [
+      "expanded_v2",
+      "notification",
+      "avoidance"
+    ]
+  },
+  {
+    "id": "weakness_notification_rage",
+    "name": {
+      "en": "Notification Rage",
+      "fr": "Notification Colère",
+      "es": "Notificación Rabia"
+    },
+    "lowProfile": {
+      "chaos": 47,
+      "risk": 52,
+      "discipline": 38,
+      "communication": 15,
+      "social": 61,
+      "emotionalControl": 22
+    },
+    "tags": [
+      "expanded_v2",
+      "notification",
+      "rage"
+    ]
+  },
+  {
+    "id": "weakness_notification_shutdown",
+    "name": {
+      "en": "Notification Shutdown",
+      "fr": "Notification Extinction",
+      "es": "Notificación Apagado"
+    },
+    "lowProfile": {
+      "empathy": 55,
+      "humor": 46,
+      "financialSense": 59,
+      "ambition": 13,
+      "social": 69,
+      "creativity": 21
+    },
+    "tags": [
+      "expanded_v2",
+      "notification",
+      "shutdown"
+    ]
+  },
+  {
+    "id": "weakness_notification_distraction",
+    "name": {
+      "en": "Notification Distraction",
+      "fr": "Notification Distraction",
+      "es": "Notificación Distracción"
+    },
+    "lowProfile": {
+      "luck": 35,
+      "discipline": 54,
+      "social": 38,
+      "emotionalControl": 59,
+      "creativity": 49,
+      "chaos": 10
+    },
+    "tags": [
+      "expanded_v2",
+      "notification",
+      "distraction"
+    ]
+  },
+  {
+    "id": "weakness_notification_impulse",
+    "name": {
+      "en": "Notification Impulse",
+      "fr": "Notification Impulsion",
+      "es": "Notificación Impulso"
+    },
+    "lowProfile": {
+      "emotionalControl": 47,
+      "discipline": 52,
+      "humor": 50,
+      "communication": 23,
+      "risk": 8,
+      "professionalism": 13
+    },
+    "tags": [
+      "expanded_v2",
+      "notification",
+      "impulse"
+    ]
+  },
+  {
+    "id": "weakness_notification_procrastination",
+    "name": {
+      "en": "Notification Procrastination",
+      "fr": "Notification Procrastination",
+      "es": "Notificación Procrastinación"
+    },
+    "lowProfile": {
+      "financialSense": 34,
+      "humor": 14,
+      "empathy": 28,
+      "creativity": 48,
+      "ambition": 42,
+      "social": 56
+    },
+    "tags": [
+      "expanded_v2",
+      "notification",
+      "procrastination"
+    ]
+  },
+  {
+    "id": "weakness_deadline_spiral",
+    "name": {
+      "en": "Deadline Spiral",
+      "fr": "Deadline Spirale",
+      "es": "Plazo Espiral"
+    },
+    "lowProfile": {
+      "risk": 13,
+      "discipline": 36,
+      "communication": 46,
+      "social": 61,
+      "chaos": 41,
+      "emotionalControl": 22
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "spiral"
+    ]
+  },
+  {
+    "id": "weakness_deadline_panic",
+    "name": {
+      "en": "Deadline Panic",
+      "fr": "Deadline Panique",
+      "es": "Plazo Pánico"
+    },
+    "lowProfile": {
+      "emotionalControl": 17,
+      "humor": 41,
+      "risk": 31,
+      "professionalism": 54,
+      "discipline": 31,
+      "communication": 59
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "panic"
+    ]
+  },
+  {
+    "id": "weakness_deadline_freeze",
+    "name": {
+      "en": "Deadline Freeze",
+      "fr": "Deadline Blocage",
+      "es": "Plazo Bloqueo"
+    },
+    "lowProfile": {
+      "professionalism": 57,
+      "social": 59,
+      "creativity": 21,
+      "chaos": 12,
+      "humor": 71,
+      "luck": 32
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "freeze"
+    ]
+  },
+  {
+    "id": "weakness_deadline_overthink",
+    "name": {
+      "en": "Deadline Overthinking",
+      "fr": "Deadline Surréflexion",
+      "es": "Plazo Sobrepensamiento"
+    },
+    "lowProfile": {
+      "communication": 64,
+      "creativity": 17,
+      "humor": 37,
+      "luck": 56,
+      "risk": 11,
+      "professionalism": 39
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "overthink"
+    ]
+  },
+  {
+    "id": "weakness_deadline_avoidance",
+    "name": {
+      "en": "Deadline Avoidance",
+      "fr": "Deadline Évitement",
+      "es": "Plazo Evitación"
+    },
+    "lowProfile": {
+      "energy": 63,
+      "creativity": 73,
+      "ambition": 68,
+      "social": 10,
+      "financialSense": 34,
+      "discipline": 29
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "avoidance"
+    ]
+  },
+  {
+    "id": "weakness_deadline_rage",
+    "name": {
+      "en": "Deadline Rage",
+      "fr": "Deadline Colère",
+      "es": "Plazo Rabia"
+    },
+    "lowProfile": {
+      "humor": 31,
+      "social": 8,
+      "luck": 70,
+      "professionalism": 22,
+      "creativity": 55,
+      "chaos": 59
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "rage"
+    ]
+  },
+  {
+    "id": "weakness_deadline_shutdown",
+    "name": {
+      "en": "Deadline Shutdown",
+      "fr": "Deadline Extinction",
+      "es": "Plazo Apagado"
+    },
+    "lowProfile": {
+      "empathy": 27,
+      "discipline": 22,
+      "energy": 35,
+      "risk": 41,
+      "intelligence": 50,
+      "humor": 63
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "shutdown"
+    ]
+  },
+  {
+    "id": "weakness_deadline_distraction",
+    "name": {
+      "en": "Deadline Distraction",
+      "fr": "Deadline Distraction",
+      "es": "Plazo Distracción"
+    },
+    "lowProfile": {
+      "financialSense": 57,
+      "humor": 48,
+      "empathy": 52,
+      "creativity": 71,
+      "ambition": 9,
+      "social": 13
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "distraction"
+    ]
+  },
+  {
+    "id": "weakness_deadline_impulse",
+    "name": {
+      "en": "Deadline Impulse",
+      "fr": "Deadline Impulsion",
+      "es": "Plazo Impulso"
+    },
+    "lowProfile": {
+      "humor": 49,
+      "social": 25,
+      "luck": 10,
+      "professionalism": 39,
+      "creativity": 17,
+      "chaos": 10
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "impulse"
+    ]
+  },
+  {
+    "id": "weakness_deadline_procrastination",
+    "name": {
+      "en": "Deadline Procrastination",
+      "fr": "Deadline Procrastination",
+      "es": "Plazo Procrastinación"
+    },
+    "lowProfile": {
+      "ambition": 10,
+      "creativity": 70,
+      "energy": 70,
+      "financialSense": 30,
+      "discipline": 24,
+      "social": 45
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "procrastination"
+    ]
+  },
+  {
+    "id": "weakness_ambiguity_spiral",
+    "name": {
+      "en": "Ambiguity Spiral",
+      "fr": "Ambiguïté Spirale",
+      "es": "Ambigüedad Espiral"
+    },
+    "lowProfile": {
+      "discipline": 71,
+      "creativity": 28,
+      "luck": 27,
+      "social": 18,
+      "emotionalControl": 42,
+      "chaos": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "ambiguity",
+      "spiral"
+    ]
+  },
+  {
+    "id": "weakness_ambiguity_panic",
+    "name": {
+      "en": "Ambiguity Panic",
+      "fr": "Ambiguïté Panique",
+      "es": "Ambigüedad Pánico"
+    },
+    "lowProfile": {
+      "creativity": 18,
+      "humor": 32,
+      "luck": 71,
+      "risk": 47,
+      "communication": 46,
+      "professionalism": 8
+    },
+    "tags": [
+      "expanded_v2",
+      "ambiguity",
+      "panic"
+    ]
+  },
+  {
+    "id": "weakness_ambiguity_freeze",
+    "name": {
+      "en": "Ambiguity Freeze",
+      "fr": "Ambiguïté Blocage",
+      "es": "Ambigüedad Bloqueo"
+    },
+    "lowProfile": {
+      "professionalism": 38,
+      "humor": 62,
+      "social": 65,
+      "luck": 17,
+      "creativity": 66,
+      "chaos": 23
+    },
+    "tags": [
+      "expanded_v2",
+      "ambiguity",
+      "freeze"
+    ]
+  },
+  {
+    "id": "weakness_ambiguity_overthink",
+    "name": {
+      "en": "Ambiguity Overthinking",
+      "fr": "Ambiguïté Surréflexion",
+      "es": "Ambigüedad Sobrepensamiento"
+    },
+    "lowProfile": {
+      "humor": 71,
+      "social": 34,
+      "luck": 43,
+      "professionalism": 48,
+      "creativity": 39,
+      "chaos": 32
+    },
+    "tags": [
+      "expanded_v2",
+      "ambiguity",
+      "overthink"
+    ]
+  },
+  {
+    "id": "weakness_ambiguity_avoidance",
+    "name": {
+      "en": "Ambiguity Avoidance",
+      "fr": "Ambiguïté Évitement",
+      "es": "Ambigüedad Evitación"
+    },
+    "lowProfile": {
+      "intelligence": 36,
+      "risk": 18,
+      "ambition": 18,
+      "empathy": 64,
+      "creativity": 50,
+      "humor": 60
+    },
+    "tags": [
+      "expanded_v2",
+      "ambiguity",
+      "avoidance"
+    ]
+  },
+  {
+    "id": "weakness_ambiguity_rage",
+    "name": {
+      "en": "Ambiguity Rage",
+      "fr": "Ambiguïté Colère",
+      "es": "Ambigüedad Rabia"
+    },
+    "lowProfile": {
+      "ambition": 30,
+      "humor": 8,
+      "intelligence": 19,
+      "risk": 44,
+      "empathy": 73,
+      "creativity": 33
+    },
+    "tags": [
+      "expanded_v2",
+      "ambiguity",
+      "rage"
+    ]
+  },
+  {
+    "id": "weakness_ambiguity_shutdown",
+    "name": {
+      "en": "Ambiguity Shutdown",
+      "fr": "Ambiguïté Extinction",
+      "es": "Ambigüedad Apagado"
+    },
+    "lowProfile": {
+      "luck": 55,
+      "creativity": 12,
+      "discipline": 60,
+      "chaos": 17,
+      "social": 16,
+      "emotionalControl": 40
+    },
+    "tags": [
+      "expanded_v2",
+      "ambiguity",
+      "shutdown"
+    ]
+  },
+  {
+    "id": "weakness_ambiguity_distraction",
+    "name": {
+      "en": "Ambiguity Distraction",
+      "fr": "Ambiguïté Distraction",
+      "es": "Ambigüedad Distracción"
+    },
+    "lowProfile": {
+      "intelligence": 14,
+      "risk": 34,
+      "ambition": 41,
+      "empathy": 36,
+      "creativity": 28,
+      "humor": 9
+    },
+    "tags": [
+      "expanded_v2",
+      "ambiguity",
+      "distraction"
+    ]
+  },
+  {
+    "id": "weakness_ambiguity_impulse",
+    "name": {
+      "en": "Ambiguity Impulse",
+      "fr": "Ambiguïté Impulsion",
+      "es": "Ambigüedad Impulso"
+    },
+    "lowProfile": {
+      "emotionalControl": 45,
+      "humor": 65,
+      "risk": 74,
+      "professionalism": 26,
+      "discipline": 59,
+      "communication": 20
+    },
+    "tags": [
+      "expanded_v2",
+      "ambiguity",
+      "impulse"
+    ]
+  },
+  {
+    "id": "weakness_ambiguity_procrastination",
+    "name": {
+      "en": "Ambiguity Procrastination",
+      "fr": "Ambiguïté Procrastination",
+      "es": "Ambigüedad Procrastinación"
+    },
+    "lowProfile": {
+      "social": 49,
+      "risk": 37,
+      "emotionalControl": 14,
+      "chaos": 51,
+      "discipline": 22,
+      "communication": 10
+    },
+    "tags": [
+      "expanded_v2",
+      "ambiguity",
+      "procrastination"
+    ]
+  },
+  {
+    "id": "weakness_silence_spiral",
+    "name": {
+      "en": "Silence Spiral",
+      "fr": "Silence Spirale",
+      "es": "Silencio Espiral"
+    },
+    "lowProfile": {
+      "energy": 29,
+      "social": 26,
+      "ambition": 62,
+      "creativity": 43,
+      "financialSense": 20,
+      "discipline": 9
+    },
+    "tags": [
+      "expanded_v2",
+      "silence",
+      "spiral"
+    ]
+  },
+  {
+    "id": "weakness_silence_panic",
+    "name": {
+      "en": "Silence Panic",
+      "fr": "Silence Panique",
+      "es": "Silencio Pánico"
+    },
+    "lowProfile": {
+      "emotionalControl": 20,
+      "humor": 49,
+      "risk": 67,
+      "professionalism": 74,
+      "discipline": 34,
+      "communication": 62
+    },
+    "tags": [
+      "expanded_v2",
+      "silence",
+      "panic"
+    ]
+  },
+  {
+    "id": "weakness_silence_freeze",
+    "name": {
+      "en": "Silence Freeze",
+      "fr": "Silence Blocage",
+      "es": "Silencio Bloqueo"
+    },
+    "lowProfile": {
+      "humor": 44,
+      "social": 21,
+      "luck": 12,
+      "professionalism": 35,
+      "creativity": 42,
+      "chaos": 72
+    },
+    "tags": [
+      "expanded_v2",
+      "silence",
+      "freeze"
+    ]
+  },
+  {
+    "id": "weakness_silence_overthink",
+    "name": {
+      "en": "Silence Overthinking",
+      "fr": "Silence Surréflexion",
+      "es": "Silencio Sobrepensamiento"
+    },
+    "lowProfile": {
+      "intelligence": 43,
+      "discipline": 62,
+      "financialSense": 69,
+      "social": 57,
+      "energy": 54,
+      "risk": 16
+    },
+    "tags": [
+      "expanded_v2",
+      "silence",
+      "overthink"
+    ]
+  },
+  {
+    "id": "weakness_silence_avoidance",
+    "name": {
+      "en": "Silence Avoidance",
+      "fr": "Silence Évitement",
+      "es": "Silencio Evitación"
+    },
+    "lowProfile": {
+      "financialSense": 39,
+      "social": 45,
+      "intelligence": 61,
+      "energy": 34,
+      "risk": 53,
+      "discipline": 20
+    },
+    "tags": [
+      "expanded_v2",
+      "silence",
+      "avoidance"
+    ]
+  },
+  {
+    "id": "weakness_silence_rage",
+    "name": {
+      "en": "Silence Rage",
+      "fr": "Silence Colère",
+      "es": "Silencio Rabia"
+    },
+    "lowProfile": {
+      "humor": 52,
+      "discipline": 25,
+      "emotionalControl": 45,
+      "risk": 66,
+      "professionalism": 39,
+      "communication": 20
+    },
+    "tags": [
+      "expanded_v2",
+      "silence",
+      "rage"
+    ]
+  },
+  {
+    "id": "weakness_silence_shutdown",
+    "name": {
+      "en": "Silence Shutdown",
+      "fr": "Silence Extinction",
+      "es": "Silencio Apagado"
+    },
+    "lowProfile": {
+      "chaos": 29,
+      "discipline": 12,
+      "creativity": 68,
+      "luck": 68,
+      "social": 26,
+      "emotionalControl": 15
+    },
+    "tags": [
+      "expanded_v2",
+      "silence",
+      "shutdown"
+    ]
+  },
+  {
+    "id": "weakness_silence_distraction",
+    "name": {
+      "en": "Silence Distraction",
+      "fr": "Silence Distraction",
+      "es": "Silencio Distracción"
+    },
+    "lowProfile": {
+      "luck": 58,
+      "social": 65,
+      "humor": 19,
+      "professionalism": 12,
+      "creativity": 12,
+      "chaos": 33
+    },
+    "tags": [
+      "expanded_v2",
+      "silence",
+      "distraction"
+    ]
+  },
+  {
+    "id": "weakness_silence_impulse",
+    "name": {
+      "en": "Silence Impulse",
+      "fr": "Silence Impulsion",
+      "es": "Silencio Impulso"
+    },
+    "lowProfile": {
+      "chaos": 12,
+      "social": 57,
+      "risk": 61,
+      "emotionalControl": 45,
+      "discipline": 40,
+      "communication": 18
+    },
+    "tags": [
+      "expanded_v2",
+      "silence",
+      "impulse"
+    ]
+  },
+  {
+    "id": "weakness_silence_procrastination",
+    "name": {
+      "en": "Silence Procrastination",
+      "fr": "Silence Procrastination",
+      "es": "Silencio Procrastinación"
+    },
+    "lowProfile": {
+      "ambition": 61,
+      "risk": 42,
+      "intelligence": 31,
+      "humor": 8,
+      "empathy": 70,
+      "creativity": 59
+    },
+    "tags": [
+      "expanded_v2",
+      "silence",
+      "procrastination"
+    ]
+  },
+  {
+    "id": "weakness_comparison_spiral",
+    "name": {
+      "en": "Comparison Spiral",
+      "fr": "Comparaison Spirale",
+      "es": "Comparación Espiral"
+    },
+    "lowProfile": {
+      "social": 52,
+      "creativity": 17,
+      "chaos": 51,
+      "humor": 30,
+      "professionalism": 13,
+      "luck": 58
+    },
+    "tags": [
+      "expanded_v2",
+      "comparison",
+      "spiral"
+    ]
+  },
+  {
+    "id": "weakness_comparison_panic",
+    "name": {
+      "en": "Comparison Panic",
+      "fr": "Comparaison Panique",
+      "es": "Comparación Pánico"
+    },
+    "lowProfile": {
+      "discipline": 29,
+      "social": 60,
+      "emotionalControl": 46,
+      "creativity": 9,
+      "luck": 57,
+      "chaos": 37
+    },
+    "tags": [
+      "expanded_v2",
+      "comparison",
+      "panic"
+    ]
+  },
+  {
+    "id": "weakness_comparison_freeze",
+    "name": {
+      "en": "Comparison Freeze",
+      "fr": "Comparaison Blocage",
+      "es": "Comparación Bloqueo"
+    },
+    "lowProfile": {
+      "creativity": 28,
+      "humor": 70,
+      "luck": 9,
+      "risk": 56,
+      "communication": 56,
+      "professionalism": 17
+    },
+    "tags": [
+      "expanded_v2",
+      "comparison",
+      "freeze"
+    ]
+  },
+  {
+    "id": "weakness_comparison_overthink",
+    "name": {
+      "en": "Comparison Overthinking",
+      "fr": "Comparaison Surréflexion",
+      "es": "Comparación Sobrepensamiento"
+    },
+    "lowProfile": {
+      "risk": 66,
+      "creativity": 53,
+      "professionalism": 61,
+      "communication": 67,
+      "humor": 50,
+      "luck": 27
+    },
+    "tags": [
+      "expanded_v2",
+      "comparison",
+      "overthink"
+    ]
+  },
+  {
+    "id": "weakness_comparison_avoidance",
+    "name": {
+      "en": "Comparison Avoidance",
+      "fr": "Comparaison Évitement",
+      "es": "Comparación Evitación"
+    },
+    "lowProfile": {
+      "social": 43,
+      "creativity": 71,
+      "chaos": 17,
+      "humor": 12,
+      "professionalism": 71,
+      "luck": 40
+    },
+    "tags": [
+      "expanded_v2",
+      "comparison",
+      "avoidance"
+    ]
+  },
+  {
+    "id": "weakness_comparison_rage",
+    "name": {
+      "en": "Comparison Rage",
+      "fr": "Comparaison Colère",
+      "es": "Comparación Rabia"
+    },
+    "lowProfile": {
+      "ambition": 32,
+      "creativity": 66,
+      "energy": 34,
+      "financialSense": 10,
+      "discipline": 46,
+      "social": 41
+    },
+    "tags": [
+      "expanded_v2",
+      "comparison",
+      "rage"
+    ]
+  },
+  {
+    "id": "weakness_comparison_shutdown",
+    "name": {
+      "en": "Comparison Shutdown",
+      "fr": "Comparaison Extinction",
+      "es": "Comparación Apagado"
+    },
+    "lowProfile": {
+      "chaos": 50,
+      "risk": 14,
+      "discipline": 34,
+      "communication": 35,
+      "social": 64,
+      "emotionalControl": 25
+    },
+    "tags": [
+      "expanded_v2",
+      "comparison",
+      "shutdown"
+    ]
+  },
+  {
+    "id": "weakness_comparison_distraction",
+    "name": {
+      "en": "Comparison Distraction",
+      "fr": "Comparaison Distraction",
+      "es": "Comparación Distracción"
+    },
+    "lowProfile": {
+      "chaos": 31,
+      "risk": 33,
+      "discipline": 8,
+      "communication": 20,
+      "social": 45,
+      "emotionalControl": 73
+    },
+    "tags": [
+      "expanded_v2",
+      "comparison",
+      "distraction"
+    ]
+  },
+  {
+    "id": "weakness_comparison_impulse",
+    "name": {
+      "en": "Comparison Impulse",
+      "fr": "Comparaison Impulsion",
+      "es": "Comparación Impulso"
+    },
+    "lowProfile": {
+      "intelligence": 56,
+      "risk": 33,
+      "ambition": 58,
+      "empathy": 32,
+      "creativity": 70,
+      "humor": 8
+    },
+    "tags": [
+      "expanded_v2",
+      "comparison",
+      "impulse"
+    ]
+  },
+  {
+    "id": "weakness_comparison_procrastination",
+    "name": {
+      "en": "Comparison Procrastination",
+      "fr": "Comparaison Procrastination",
+      "es": "Comparación Procrastinación"
+    },
+    "lowProfile": {
+      "professionalism": 53,
+      "humor": 42,
+      "social": 73,
+      "luck": 47,
+      "creativity": 14,
+      "chaos": 70
+    },
+    "tags": [
+      "expanded_v2",
+      "comparison",
+      "procrastination"
+    ]
+  },
+  {
+    "id": "weakness_queue_spiral",
+    "name": {
+      "en": "Queue Spiral",
+      "fr": "File d'attente Spirale",
+      "es": "Cola Espiral"
+    },
+    "lowProfile": {
+      "empathy": 71,
+      "humor": 49,
+      "financialSense": 54,
+      "ambition": 28,
+      "social": 18,
+      "creativity": 24
+    },
+    "tags": [
+      "expanded_v2",
+      "queue",
+      "spiral"
+    ]
+  },
+  {
+    "id": "weakness_queue_panic",
+    "name": {
+      "en": "Queue Panic",
+      "fr": "File d'attente Panique",
+      "es": "Cola Pánico"
+    },
+    "lowProfile": {
+      "ambition": 45,
+      "creativity": 27,
+      "energy": 12,
+      "financialSense": 68,
+      "discipline": 59,
+      "social": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "queue",
+      "panic"
+    ]
+  },
+  {
+    "id": "weakness_queue_freeze",
+    "name": {
+      "en": "Queue Freeze",
+      "fr": "File d'attente Blocage",
+      "es": "Cola Bloqueo"
+    },
+    "lowProfile": {
+      "ambition": 42,
+      "risk": 16,
+      "intelligence": 64,
+      "humor": 56,
+      "empathy": 44,
+      "creativity": 25
+    },
+    "tags": [
+      "expanded_v2",
+      "queue",
+      "freeze"
+    ]
+  },
+  {
+    "id": "weakness_queue_overthink",
+    "name": {
+      "en": "Queue Overthinking",
+      "fr": "File d'attente Surréflexion",
+      "es": "Cola Sobrepensamiento"
+    },
+    "lowProfile": {
+      "empathy": 47,
+      "humor": 21,
+      "financialSense": 70,
+      "ambition": 74,
+      "social": 61,
+      "creativity": 63
+    },
+    "tags": [
+      "expanded_v2",
+      "queue",
+      "overthink"
+    ]
+  },
+  {
+    "id": "weakness_queue_avoidance",
+    "name": {
+      "en": "Queue Avoidance",
+      "fr": "File d'attente Évitement",
+      "es": "Cola Evitación"
+    },
+    "lowProfile": {
+      "professionalism": 68,
+      "social": 32,
+      "creativity": 37,
+      "chaos": 15,
+      "humor": 15,
+      "luck": 43
+    },
+    "tags": [
+      "expanded_v2",
+      "queue",
+      "avoidance"
+    ]
+  },
+  {
+    "id": "weakness_queue_rage",
+    "name": {
+      "en": "Queue Rage",
+      "fr": "File d'attente Colère",
+      "es": "Cola Rabia"
+    },
+    "lowProfile": {
+      "financialSense": 57,
+      "social": 27,
+      "intelligence": 29,
+      "energy": 52,
+      "risk": 71,
+      "discipline": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "queue",
+      "rage"
+    ]
+  },
+  {
+    "id": "weakness_queue_shutdown",
+    "name": {
+      "en": "Queue Shutdown",
+      "fr": "File d'attente Extinction",
+      "es": "Cola Apagado"
+    },
+    "lowProfile": {
+      "humor": 25,
+      "discipline": 53,
+      "emotionalControl": 11,
+      "risk": 39,
+      "professionalism": 67,
+      "communication": 53
+    },
+    "tags": [
+      "expanded_v2",
+      "queue",
+      "shutdown"
+    ]
+  },
+  {
+    "id": "weakness_queue_distraction",
+    "name": {
+      "en": "Queue Distraction",
+      "fr": "File d'attente Distraction",
+      "es": "Cola Distracción"
+    },
+    "lowProfile": {
+      "creativity": 25,
+      "discipline": 37,
+      "chaos": 27,
+      "luck": 51,
+      "social": 41,
+      "emotionalControl": 53
+    },
+    "tags": [
+      "expanded_v2",
+      "queue",
+      "distraction"
+    ]
+  },
+  {
+    "id": "weakness_queue_impulse",
+    "name": {
+      "en": "Queue Impulse",
+      "fr": "File d'attente Impulsion",
+      "es": "Cola Impulso"
+    },
+    "lowProfile": {
+      "empathy": 24,
+      "humor": 32,
+      "financialSense": 8,
+      "ambition": 66,
+      "social": 38,
+      "creativity": 74
+    },
+    "tags": [
+      "expanded_v2",
+      "queue",
+      "impulse"
+    ]
+  },
+  {
+    "id": "weakness_queue_procrastination",
+    "name": {
+      "en": "Queue Procrastination",
+      "fr": "File d'attente Procrastination",
+      "es": "Cola Procrastinación"
+    },
+    "lowProfile": {
+      "luck": 50,
+      "discipline": 44,
+      "social": 54,
+      "emotionalControl": 63,
+      "creativity": 64,
+      "chaos": 25
+    },
+    "tags": [
+      "expanded_v2",
+      "queue",
+      "procrastination"
+    ]
+  },
+  {
+    "id": "weakness_choice_spiral",
+    "name": {
+      "en": "Too Many Choices Spiral",
+      "fr": "Trop de choix Spirale",
+      "es": "Demasiadas opciones Espiral"
+    },
+    "lowProfile": {
+      "discipline": 58,
+      "creativity": 67,
+      "luck": 55,
+      "social": 72,
+      "emotionalControl": 14,
+      "chaos": 30
+    },
+    "tags": [
+      "expanded_v2",
+      "choice",
+      "spiral"
+    ]
+  },
+  {
+    "id": "weakness_choice_panic",
+    "name": {
+      "en": "Too Many Choices Panic",
+      "fr": "Trop de choix Panique",
+      "es": "Demasiadas opciones Pánico"
+    },
+    "lowProfile": {
+      "communication": 30,
+      "risk": 49,
+      "creativity": 8,
+      "professionalism": 70,
+      "humor": 58,
+      "luck": 10
+    },
+    "tags": [
+      "expanded_v2",
+      "choice",
+      "panic"
+    ]
+  },
+  {
+    "id": "weakness_choice_freeze",
+    "name": {
+      "en": "Too Many Choices Freeze",
+      "fr": "Trop de choix Blocage",
+      "es": "Demasiadas opciones Bloqueo"
+    },
+    "lowProfile": {
+      "communication": 25,
+      "risk": 18,
+      "creativity": 70,
+      "professionalism": 68,
+      "humor": 53,
+      "luck": 46
+    },
+    "tags": [
+      "expanded_v2",
+      "choice",
+      "freeze"
+    ]
+  },
+  {
+    "id": "weakness_choice_overthink",
+    "name": {
+      "en": "Too Many Choices Overthinking",
+      "fr": "Trop de choix Surréflexion",
+      "es": "Demasiadas opciones Sobrepensamiento"
+    },
+    "lowProfile": {
+      "chaos": 11,
+      "risk": 66,
+      "discipline": 30,
+      "communication": 18,
+      "social": 25,
+      "emotionalControl": 53
+    },
+    "tags": [
+      "expanded_v2",
+      "choice",
+      "overthink"
+    ]
+  },
+  {
+    "id": "weakness_choice_avoidance",
+    "name": {
+      "en": "Too Many Choices Avoidance",
+      "fr": "Trop de choix Évitement",
+      "es": "Demasiadas opciones Evitación"
+    },
+    "lowProfile": {
+      "financialSense": 42,
+      "creativity": 73,
+      "empathy": 52,
+      "humor": 56,
+      "ambition": 44,
+      "social": 66
+    },
+    "tags": [
+      "expanded_v2",
+      "choice",
+      "avoidance"
+    ]
+  },
+  {
+    "id": "weakness_choice_rage",
+    "name": {
+      "en": "Too Many Choices Rage",
+      "fr": "Trop de choix Colère",
+      "es": "Demasiadas opciones Rabia"
+    },
+    "lowProfile": {
+      "empathy": 35,
+      "risk": 52,
+      "energy": 56,
+      "discipline": 49,
+      "intelligence": 45,
+      "humor": 70
+    },
+    "tags": [
+      "expanded_v2",
+      "choice",
+      "rage"
+    ]
+  },
+  {
+    "id": "weakness_choice_shutdown",
+    "name": {
+      "en": "Too Many Choices Shutdown",
+      "fr": "Trop de choix Extinction",
+      "es": "Demasiadas opciones Apagado"
+    },
+    "lowProfile": {
+      "luck": 66,
+      "social": 19,
+      "humor": 10,
+      "professionalism": 68,
+      "creativity": 33,
+      "chaos": 24
+    },
+    "tags": [
+      "expanded_v2",
+      "choice",
+      "shutdown"
+    ]
+  },
+  {
+    "id": "weakness_choice_distraction",
+    "name": {
+      "en": "Too Many Choices Distraction",
+      "fr": "Trop de choix Distraction",
+      "es": "Demasiadas opciones Distracción"
+    },
+    "lowProfile": {
+      "energy": 63,
+      "discipline": 71,
+      "empathy": 17,
+      "intelligence": 52,
+      "humor": 10,
+      "risk": 46
+    },
+    "tags": [
+      "expanded_v2",
+      "choice",
+      "distraction"
+    ]
+  },
+  {
+    "id": "weakness_choice_impulse",
+    "name": {
+      "en": "Too Many Choices Impulse",
+      "fr": "Trop de choix Impulsion",
+      "es": "Demasiadas opciones Impulso"
+    },
+    "lowProfile": {
+      "creativity": 14,
+      "risk": 49,
+      "communication": 23,
+      "humor": 28,
+      "luck": 63,
+      "professionalism": 65
+    },
+    "tags": [
+      "expanded_v2",
+      "choice",
+      "impulse"
+    ]
+  },
+  {
+    "id": "weakness_choice_procrastination",
+    "name": {
+      "en": "Too Many Choices Procrastination",
+      "fr": "Trop de choix Procrastination",
+      "es": "Demasiadas opciones Procrastinación"
+    },
+    "lowProfile": {
+      "discipline": 68,
+      "humor": 44,
+      "communication": 65,
+      "emotionalControl": 58,
+      "risk": 44,
+      "professionalism": 29
+    },
+    "tags": [
+      "expanded_v2",
+      "choice",
+      "procrastination"
+    ]
+  },
+  {
+    "id": "weakness_interruption_spiral",
+    "name": {
+      "en": "Interruption Spiral",
+      "fr": "Interruption Spirale",
+      "es": "Interrupción Espiral"
+    },
+    "lowProfile": {
+      "humor": 10,
+      "social": 66,
+      "luck": 42,
+      "professionalism": 13,
+      "creativity": 37,
+      "chaos": 38
+    },
+    "tags": [
+      "expanded_v2",
+      "interruption",
+      "spiral"
+    ]
+  },
+  {
+    "id": "weakness_interruption_panic",
+    "name": {
+      "en": "Interruption Panic",
+      "fr": "Interruption Panique",
+      "es": "Interrupción Pánico"
+    },
+    "lowProfile": {
+      "financialSense": 47,
+      "social": 27,
+      "intelligence": 33,
+      "energy": 60,
+      "risk": 61,
+      "discipline": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "interruption",
+      "panic"
+    ]
+  },
+  {
+    "id": "weakness_interruption_freeze",
+    "name": {
+      "en": "Interruption Freeze",
+      "fr": "Interruption Blocage",
+      "es": "Interrupción Bloqueo"
+    },
+    "lowProfile": {
+      "risk": 11,
+      "discipline": 38,
+      "communication": 44,
+      "social": 69,
+      "chaos": 39,
+      "emotionalControl": 30
+    },
+    "tags": [
+      "expanded_v2",
+      "interruption",
+      "freeze"
+    ]
+  },
+  {
+    "id": "weakness_interruption_overthink",
+    "name": {
+      "en": "Interruption Overthinking",
+      "fr": "Interruption Surréflexion",
+      "es": "Interrupción Sobrepensamiento"
+    },
+    "lowProfile": {
+      "creativity": 21,
+      "humor": 70,
+      "luck": 15,
+      "risk": 60,
+      "communication": 49,
+      "professionalism": 21
+    },
+    "tags": [
+      "expanded_v2",
+      "interruption",
+      "overthink"
+    ]
+  },
+  {
+    "id": "weakness_interruption_avoidance",
+    "name": {
+      "en": "Interruption Avoidance",
+      "fr": "Interruption Évitement",
+      "es": "Interrupción Evitación"
+    },
+    "lowProfile": {
+      "intelligence": 13,
+      "social": 36,
+      "financialSense": 54,
+      "discipline": 27,
+      "energy": 64,
+      "risk": 15
+    },
+    "tags": [
+      "expanded_v2",
+      "interruption",
+      "avoidance"
+    ]
+  },
+  {
+    "id": "weakness_interruption_rage",
+    "name": {
+      "en": "Interruption Rage",
+      "fr": "Interruption Colère",
+      "es": "Interrupción Rabia"
+    },
+    "lowProfile": {
+      "discipline": 36,
+      "humor": 62,
+      "communication": 11,
+      "emotionalControl": 9,
+      "risk": 34,
+      "professionalism": 64
+    },
+    "tags": [
+      "expanded_v2",
+      "interruption",
+      "rage"
+    ]
+  },
+  {
+    "id": "weakness_interruption_shutdown",
+    "name": {
+      "en": "Interruption Shutdown",
+      "fr": "Interruption Extinction",
+      "es": "Interrupción Apagado"
+    },
+    "lowProfile": {
+      "energy": 20,
+      "discipline": 39,
+      "empathy": 56,
+      "intelligence": 26,
+      "humor": 34,
+      "risk": 14
+    },
+    "tags": [
+      "expanded_v2",
+      "interruption",
+      "shutdown"
+    ]
+  },
+  {
+    "id": "weakness_interruption_distraction",
+    "name": {
+      "en": "Interruption Distraction",
+      "fr": "Interruption Distraction",
+      "es": "Interrupción Distracción"
+    },
+    "lowProfile": {
+      "social": 52,
+      "creativity": 23,
+      "chaos": 64,
+      "humor": 68,
+      "professionalism": 13,
+      "luck": 29
+    },
+    "tags": [
+      "expanded_v2",
+      "interruption",
+      "distraction"
+    ]
+  },
+  {
+    "id": "weakness_interruption_impulse",
+    "name": {
+      "en": "Interruption Impulse",
+      "fr": "Interruption Impulsion",
+      "es": "Interrupción Impulso"
+    },
+    "lowProfile": {
+      "humor": 59,
+      "social": 52,
+      "luck": 48,
+      "professionalism": 66,
+      "creativity": 18,
+      "chaos": 20
+    },
+    "tags": [
+      "expanded_v2",
+      "interruption",
+      "impulse"
+    ]
+  },
+  {
+    "id": "weakness_interruption_procrastination",
+    "name": {
+      "en": "Interruption Procrastination",
+      "fr": "Interruption Procrastination",
+      "es": "Interrupción Procrastinación"
+    },
+    "lowProfile": {
+      "professionalism": 15,
+      "creativity": 24,
+      "risk": 20,
+      "communication": 54,
+      "humor": 38,
+      "luck": 34
+    },
+    "tags": [
+      "expanded_v2",
+      "interruption",
+      "procrastination"
+    ]
+  },
+  {
+    "id": "weakness_fatigue_spiral",
+    "name": {
+      "en": "Fatigue Spiral",
+      "fr": "Fatigue Spirale",
+      "es": "Fatiga Espiral"
+    },
+    "lowProfile": {
+      "social": 34,
+      "risk": 33,
+      "emotionalControl": 12,
+      "chaos": 47,
+      "discipline": 44,
+      "communication": 62
+    },
+    "tags": [
+      "expanded_v2",
+      "fatigue",
+      "spiral"
+    ]
+  },
+  {
+    "id": "weakness_fatigue_panic",
+    "name": {
+      "en": "Fatigue Panic",
+      "fr": "Fatigue Panique",
+      "es": "Fatiga Pánico"
+    },
+    "lowProfile": {
+      "risk": 19,
+      "discipline": 18,
+      "communication": 43,
+      "social": 48,
+      "chaos": 47,
+      "emotionalControl": 9
+    },
+    "tags": [
+      "expanded_v2",
+      "fatigue",
+      "panic"
+    ]
+  },
+  {
+    "id": "weakness_fatigue_freeze",
+    "name": {
+      "en": "Fatigue Freeze",
+      "fr": "Fatigue Blocage",
+      "es": "Fatiga Bloqueo"
+    },
+    "lowProfile": {
+      "financialSense": 23,
+      "creativity": 47,
+      "empathy": 42,
+      "humor": 37,
+      "ambition": 70,
+      "social": 56
+    },
+    "tags": [
+      "expanded_v2",
+      "fatigue",
+      "freeze"
+    ]
+  },
+  {
+    "id": "weakness_fatigue_overthink",
+    "name": {
+      "en": "Fatigue Overthinking",
+      "fr": "Fatigue Surréflexion",
+      "es": "Fatiga Sobrepensamiento"
+    },
+    "lowProfile": {
+      "professionalism": 25,
+      "humor": 28,
+      "social": 18,
+      "luck": 58,
+      "creativity": 53,
+      "chaos": 56
+    },
+    "tags": [
+      "expanded_v2",
+      "fatigue",
+      "overthink"
+    ]
+  },
+  {
+    "id": "weakness_fatigue_avoidance",
+    "name": {
+      "en": "Fatigue Avoidance",
+      "fr": "Fatigue Évitement",
+      "es": "Fatiga Evitación"
+    },
+    "lowProfile": {
+      "financialSense": 47,
+      "humor": 42,
+      "empathy": 33,
+      "creativity": 61,
+      "ambition": 70,
+      "social": 61
+    },
+    "tags": [
+      "expanded_v2",
+      "fatigue",
+      "avoidance"
+    ]
+  },
+  {
+    "id": "weakness_fatigue_rage",
+    "name": {
+      "en": "Fatigue Rage",
+      "fr": "Fatigue Colère",
+      "es": "Fatiga Rabia"
+    },
+    "lowProfile": {
+      "financialSense": 72,
+      "humor": 21,
+      "empathy": 39,
+      "creativity": 19,
+      "ambition": 49,
+      "social": 67
+    },
+    "tags": [
+      "expanded_v2",
+      "fatigue",
+      "rage"
+    ]
+  },
+  {
+    "id": "weakness_fatigue_shutdown",
+    "name": {
+      "en": "Fatigue Shutdown",
+      "fr": "Fatigue Extinction",
+      "es": "Fatiga Apagado"
+    },
+    "lowProfile": {
+      "emotionalControl": 71,
+      "risk": 21,
+      "social": 24,
+      "chaos": 16,
+      "discipline": 35,
+      "communication": 38
+    },
+    "tags": [
+      "expanded_v2",
+      "fatigue",
+      "shutdown"
+    ]
+  },
+  {
+    "id": "weakness_fatigue_distraction",
+    "name": {
+      "en": "Fatigue Distraction",
+      "fr": "Fatigue Distraction",
+      "es": "Fatiga Distracción"
+    },
+    "lowProfile": {
+      "professionalism": 39,
+      "social": 71,
+      "creativity": 66,
+      "chaos": 61,
+      "humor": 53,
+      "luck": 14
+    },
+    "tags": [
+      "expanded_v2",
+      "fatigue",
+      "distraction"
+    ]
+  },
+  {
+    "id": "weakness_fatigue_impulse",
+    "name": {
+      "en": "Fatigue Impulse",
+      "fr": "Fatigue Impulsion",
+      "es": "Fatiga Impulso"
+    },
+    "lowProfile": {
+      "chaos": 40,
+      "discipline": 71,
+      "creativity": 70,
+      "luck": 68,
+      "social": 18,
+      "emotionalControl": 17
+    },
+    "tags": [
+      "expanded_v2",
+      "fatigue",
+      "impulse"
+    ]
+  },
+  {
+    "id": "weakness_fatigue_procrastination",
+    "name": {
+      "en": "Fatigue Procrastination",
+      "fr": "Fatigue Procrastination",
+      "es": "Fatiga Procrastinación"
+    },
+    "lowProfile": {
+      "luck": 20,
+      "social": 60,
+      "humor": 55,
+      "professionalism": 9,
+      "creativity": 74,
+      "chaos": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "fatigue",
+      "procrastination"
+    ]
+  },
+  {
+    "id": "weakness_conflict_spiral",
+    "name": {
+      "en": "Conflict Spiral",
+      "fr": "Conflit Spirale",
+      "es": "Conflicto Espiral"
+    },
+    "lowProfile": {
+      "luck": 17,
+      "creativity": 57,
+      "discipline": 63,
+      "chaos": 13,
+      "social": 45,
+      "emotionalControl": 18
+    },
+    "tags": [
+      "expanded_v2",
+      "conflict",
+      "spiral"
+    ]
+  },
+  {
+    "id": "weakness_conflict_panic",
+    "name": {
+      "en": "Conflict Panic",
+      "fr": "Conflit Panique",
+      "es": "Conflicto Pánico"
+    },
+    "lowProfile": {
+      "social": 9,
+      "creativity": 45,
+      "chaos": 12,
+      "humor": 18,
+      "professionalism": 37,
+      "luck": 46
+    },
+    "tags": [
+      "expanded_v2",
+      "conflict",
+      "panic"
+    ]
+  },
+  {
+    "id": "weakness_conflict_freeze",
+    "name": {
+      "en": "Conflict Freeze",
+      "fr": "Conflit Blocage",
+      "es": "Conflicto Bloqueo"
+    },
+    "lowProfile": {
+      "risk": 70,
+      "social": 65,
+      "chaos": 19,
+      "discipline": 17,
+      "communication": 12,
+      "emotionalControl": 61
+    },
+    "tags": [
+      "expanded_v2",
+      "conflict",
+      "freeze"
+    ]
+  },
+  {
+    "id": "weakness_conflict_overthink",
+    "name": {
+      "en": "Conflict Overthinking",
+      "fr": "Conflit Surréflexion",
+      "es": "Conflicto Sobrepensamiento"
+    },
+    "lowProfile": {
+      "intelligence": 59,
+      "discipline": 27,
+      "financialSense": 10,
+      "social": 73,
+      "energy": 43,
+      "risk": 24
+    },
+    "tags": [
+      "expanded_v2",
+      "conflict",
+      "overthink"
+    ]
+  },
+  {
+    "id": "weakness_conflict_avoidance",
+    "name": {
+      "en": "Conflict Avoidance",
+      "fr": "Conflit Évitement",
+      "es": "Conflicto Evitación"
+    },
+    "lowProfile": {
+      "empathy": 66,
+      "risk": 9,
+      "energy": 69,
+      "discipline": 13,
+      "intelligence": 44,
+      "humor": 16
+    },
+    "tags": [
+      "expanded_v2",
+      "conflict",
+      "avoidance"
+    ]
+  },
+  {
+    "id": "weakness_conflict_rage",
+    "name": {
+      "en": "Conflict Rage",
+      "fr": "Conflit Colère",
+      "es": "Conflicto Rabia"
+    },
+    "lowProfile": {
+      "discipline": 11,
+      "humor": 28,
+      "communication": 56,
+      "emotionalControl": 42,
+      "risk": 52,
+      "professionalism": 39
+    },
+    "tags": [
+      "expanded_v2",
+      "conflict",
+      "rage"
+    ]
+  },
+  {
+    "id": "weakness_conflict_shutdown",
+    "name": {
+      "en": "Conflict Shutdown",
+      "fr": "Conflit Extinction",
+      "es": "Conflicto Apagado"
+    },
+    "lowProfile": {
+      "communication": 53,
+      "risk": 73,
+      "creativity": 38,
+      "professionalism": 17,
+      "humor": 14,
+      "luck": 34
+    },
+    "tags": [
+      "expanded_v2",
+      "conflict",
+      "shutdown"
+    ]
+  },
+  {
+    "id": "weakness_conflict_distraction",
+    "name": {
+      "en": "Conflict Distraction",
+      "fr": "Conflit Distraction",
+      "es": "Conflicto Distracción"
+    },
+    "lowProfile": {
+      "discipline": 31,
+      "creativity": 39,
+      "luck": 8,
+      "social": 45,
+      "emotionalControl": 53,
+      "chaos": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "conflict",
+      "distraction"
+    ]
+  },
+  {
+    "id": "weakness_conflict_impulse",
+    "name": {
+      "en": "Conflict Impulse",
+      "fr": "Conflit Impulsion",
+      "es": "Conflicto Impulso"
+    },
+    "lowProfile": {
+      "risk": 9,
+      "social": 36,
+      "chaos": 48,
+      "discipline": 23,
+      "communication": 50,
+      "emotionalControl": 23
+    },
+    "tags": [
+      "expanded_v2",
+      "conflict",
+      "impulse"
+    ]
+  },
+  {
+    "id": "weakness_conflict_procrastination",
+    "name": {
+      "en": "Conflict Procrastination",
+      "fr": "Conflit Procrastination",
+      "es": "Conflicto Procrastinación"
+    },
+    "lowProfile": {
+      "humor": 61,
+      "risk": 57,
+      "professionalism": 46,
+      "discipline": 21,
+      "emotionalControl": 22,
+      "communication": 49
+    },
+    "tags": [
+      "expanded_v2",
+      "conflict",
+      "procrastination"
+    ]
+  },
+  {
+    "id": "weakness_waiting_spiral",
+    "name": {
+      "en": "Waiting Spiral",
+      "fr": "Attente Spirale",
+      "es": "Espera Espiral"
+    },
+    "lowProfile": {
+      "risk": 34,
+      "creativity": 70,
+      "professionalism": 51,
+      "communication": 17,
+      "humor": 50,
+      "luck": 62
+    },
+    "tags": [
+      "expanded_v2",
+      "waiting",
+      "spiral"
+    ]
+  },
+  {
+    "id": "weakness_waiting_panic",
+    "name": {
+      "en": "Waiting Panic",
+      "fr": "Attente Panique",
+      "es": "Espera Pánico"
+    },
+    "lowProfile": {
+      "chaos": 73,
+      "risk": 44,
+      "discipline": 44,
+      "communication": 38,
+      "social": 20,
+      "emotionalControl": 48
+    },
+    "tags": [
+      "expanded_v2",
+      "waiting",
+      "panic"
+    ]
+  },
+  {
+    "id": "weakness_waiting_freeze",
+    "name": {
+      "en": "Waiting Freeze",
+      "fr": "Attente Blocage",
+      "es": "Espera Bloqueo"
+    },
+    "lowProfile": {
+      "creativity": 72,
+      "discipline": 55,
+      "chaos": 15,
+      "luck": 69,
+      "social": 49,
+      "emotionalControl": 33
+    },
+    "tags": [
+      "expanded_v2",
+      "waiting",
+      "freeze"
+    ]
+  },
+  {
+    "id": "weakness_waiting_overthink",
+    "name": {
+      "en": "Waiting Overthinking",
+      "fr": "Attente Surréflexion",
+      "es": "Espera Sobrepensamiento"
+    },
+    "lowProfile": {
+      "risk": 52,
+      "social": 65,
+      "chaos": 59,
+      "discipline": 66,
+      "communication": 12,
+      "emotionalControl": 34
+    },
+    "tags": [
+      "expanded_v2",
+      "waiting",
+      "overthink"
+    ]
+  },
+  {
+    "id": "weakness_waiting_avoidance",
+    "name": {
+      "en": "Waiting Avoidance",
+      "fr": "Attente Évitement",
+      "es": "Espera Evitación"
+    },
+    "lowProfile": {
+      "humor": 8,
+      "risk": 30,
+      "professionalism": 64,
+      "discipline": 32,
+      "emotionalControl": 36,
+      "communication": 60
+    },
+    "tags": [
+      "expanded_v2",
+      "waiting",
+      "avoidance"
+    ]
+  },
+  {
+    "id": "weakness_waiting_rage",
+    "name": {
+      "en": "Waiting Rage",
+      "fr": "Attente Colère",
+      "es": "Espera Rabia"
+    },
+    "lowProfile": {
+      "energy": 51,
+      "discipline": 56,
+      "empathy": 61,
+      "intelligence": 66,
+      "humor": 65,
+      "risk": 31
+    },
+    "tags": [
+      "expanded_v2",
+      "waiting",
+      "rage"
+    ]
+  },
+  {
+    "id": "weakness_waiting_shutdown",
+    "name": {
+      "en": "Waiting Shutdown",
+      "fr": "Attente Extinction",
+      "es": "Espera Apagado"
+    },
+    "lowProfile": {
+      "emotionalControl": 33,
+      "discipline": 29,
+      "humor": 43,
+      "communication": 19,
+      "risk": 61,
+      "professionalism": 57
+    },
+    "tags": [
+      "expanded_v2",
+      "waiting",
+      "shutdown"
+    ]
+  },
+  {
+    "id": "weakness_waiting_distraction",
+    "name": {
+      "en": "Waiting Distraction",
+      "fr": "Attente Distraction",
+      "es": "Espera Distracción"
+    },
+    "lowProfile": {
+      "discipline": 53,
+      "social": 21,
+      "emotionalControl": 31,
+      "creativity": 58,
+      "luck": 14,
+      "chaos": 19
+    },
+    "tags": [
+      "expanded_v2",
+      "waiting",
+      "distraction"
+    ]
+  },
+  {
+    "id": "weakness_waiting_impulse",
+    "name": {
+      "en": "Waiting Impulse",
+      "fr": "Attente Impulsion",
+      "es": "Espera Impulso"
+    },
+    "lowProfile": {
+      "social": 56,
+      "creativity": 8,
+      "chaos": 22,
+      "humor": 41,
+      "professionalism": 17,
+      "luck": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "waiting",
+      "impulse"
+    ]
+  },
+  {
+    "id": "weakness_waiting_procrastination",
+    "name": {
+      "en": "Waiting Procrastination",
+      "fr": "Attente Procrastination",
+      "es": "Espera Procrastinación"
+    },
+    "lowProfile": {
+      "humor": 17,
+      "social": 41,
+      "luck": 35,
+      "professionalism": 55,
+      "creativity": 56,
+      "chaos": 45
+    },
+    "tags": [
+      "expanded_v2",
+      "waiting",
+      "procrastination"
+    ]
+  },
+  {
+    "id": "weakness_uncertainty_spiral",
+    "name": {
+      "en": "Uncertainty Spiral",
+      "fr": "Incertitude Spirale",
+      "es": "Incertidumbre Espiral"
+    },
+    "lowProfile": {
+      "luck": 19,
+      "social": 36,
+      "humor": 8,
+      "professionalism": 43,
+      "creativity": 50,
+      "chaos": 22
+    },
+    "tags": [
+      "expanded_v2",
+      "uncertainty",
+      "spiral"
+    ]
+  },
+  {
+    "id": "weakness_uncertainty_panic",
+    "name": {
+      "en": "Uncertainty Panic",
+      "fr": "Incertitude Panique",
+      "es": "Incertidumbre Pánico"
+    },
+    "lowProfile": {
+      "humor": 62,
+      "social": 40,
+      "luck": 19,
+      "professionalism": 54,
+      "creativity": 66,
+      "chaos": 23
+    },
+    "tags": [
+      "expanded_v2",
+      "uncertainty",
+      "panic"
+    ]
+  },
+  {
+    "id": "weakness_uncertainty_freeze",
+    "name": {
+      "en": "Uncertainty Freeze",
+      "fr": "Incertitude Blocage",
+      "es": "Incertidumbre Bloqueo"
+    },
+    "lowProfile": {
+      "humor": 72,
+      "risk": 28,
+      "professionalism": 71,
+      "discipline": 47,
+      "emotionalControl": 33,
+      "communication": 8
+    },
+    "tags": [
+      "expanded_v2",
+      "uncertainty",
+      "freeze"
+    ]
+  },
+  {
+    "id": "weakness_uncertainty_overthink",
+    "name": {
+      "en": "Uncertainty Overthinking",
+      "fr": "Incertitude Surréflexion",
+      "es": "Incertidumbre Sobrepensamiento"
+    },
+    "lowProfile": {
+      "risk": 9,
+      "social": 13,
+      "chaos": 20,
+      "discipline": 23,
+      "communication": 27,
+      "emotionalControl": 62
+    },
+    "tags": [
+      "expanded_v2",
+      "uncertainty",
+      "overthink"
+    ]
+  },
+  {
+    "id": "weakness_uncertainty_avoidance",
+    "name": {
+      "en": "Uncertainty Avoidance",
+      "fr": "Incertitude Évitement",
+      "es": "Incertidumbre Evitación"
+    },
+    "lowProfile": {
+      "risk": 8,
+      "discipline": 45,
+      "communication": 56,
+      "social": 42,
+      "chaos": 36,
+      "emotionalControl": 70
+    },
+    "tags": [
+      "expanded_v2",
+      "uncertainty",
+      "avoidance"
+    ]
+  },
+  {
+    "id": "weakness_uncertainty_rage",
+    "name": {
+      "en": "Uncertainty Rage",
+      "fr": "Incertitude Colère",
+      "es": "Incertidumbre Rabia"
+    },
+    "lowProfile": {
+      "professionalism": 41,
+      "humor": 50,
+      "social": 52,
+      "luck": 63,
+      "creativity": 69,
+      "chaos": 11
+    },
+    "tags": [
+      "expanded_v2",
+      "uncertainty",
+      "rage"
+    ]
+  },
+  {
+    "id": "weakness_uncertainty_shutdown",
+    "name": {
+      "en": "Uncertainty Shutdown",
+      "fr": "Incertitude Extinction",
+      "es": "Incertidumbre Apagado"
+    },
+    "lowProfile": {
+      "risk": 23,
+      "creativity": 68,
+      "professionalism": 13,
+      "communication": 15,
+      "humor": 9,
+      "luck": 51
+    },
+    "tags": [
+      "expanded_v2",
+      "uncertainty",
+      "shutdown"
+    ]
+  },
+  {
+    "id": "weakness_uncertainty_distraction",
+    "name": {
+      "en": "Uncertainty Distraction",
+      "fr": "Incertitude Distraction",
+      "es": "Incertidumbre Distracción"
+    },
+    "lowProfile": {
+      "risk": 14,
+      "discipline": 36,
+      "communication": 29,
+      "social": 56,
+      "chaos": 42,
+      "emotionalControl": 17
+    },
+    "tags": [
+      "expanded_v2",
+      "uncertainty",
+      "distraction"
+    ]
+  },
+  {
+    "id": "weakness_uncertainty_impulse",
+    "name": {
+      "en": "Uncertainty Impulse",
+      "fr": "Incertitude Impulsion",
+      "es": "Incertidumbre Impulso"
+    },
+    "lowProfile": {
+      "intelligence": 12,
+      "discipline": 26,
+      "financialSense": 42,
+      "social": 26,
+      "energy": 45,
+      "risk": 56
+    },
+    "tags": [
+      "expanded_v2",
+      "uncertainty",
+      "impulse"
+    ]
+  },
+  {
+    "id": "weakness_uncertainty_procrastination",
+    "name": {
+      "en": "Uncertainty Procrastination",
+      "fr": "Incertitude Procrastination",
+      "es": "Incertidumbre Procrastinación"
+    },
+    "lowProfile": {
+      "empathy": 74,
+      "discipline": 17,
+      "energy": 22,
+      "risk": 21,
+      "intelligence": 45,
+      "humor": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "uncertainty",
+      "procrastination"
+    ]
   }
 ]

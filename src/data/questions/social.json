@@ -2900,5 +2900,1669 @@
         }
       }
     ]
+  },
+  {
+    "id": "q_social_surprise_guest",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Situation: a friend arrives with an unexpected extra guest. What do you do?",
+      "fr": "Situation : un ami arrive avec une personne en plus imprévue. Tu fais quoi ?",
+      "es": "Situación: un amigo llega con un invitado extra inesperado. ¿Qué haces?"
+    },
+    "answers": [
+      {
+        "id": "q_social_surprise_guest_plan",
+        "text": {
+          "en": "Make a plan and start with the most important step.",
+          "fr": "Faire un plan et commencer par l'étape la plus importante.",
+          "es": "Hacer un plan y empezar por el paso más importante."
+        },
+        "effects": {
+          "discipline": 7,
+          "professionalism": 4,
+          "emotionalControl": 3,
+          "chaos": -3,
+          "ambition": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_surprise_guest_ask",
+        "text": {
+          "en": "Ask someone competent before making it worse.",
+          "fr": "Demander à quelqu'un de compétent avant d'aggraver la situation.",
+          "es": "Preguntar a alguien competente antes de empeorarlo."
+        },
+        "effects": {
+          "communication": 6,
+          "empathy": 3,
+          "intelligence": 3,
+          "financialSense": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_surprise_guest_improvise",
+        "text": {
+          "en": "Improvise confidently and adapt as you go.",
+          "fr": "Improviser avec confiance et s'adapter en avançant.",
+          "es": "Improvisar con confianza y adaptarse sobre la marcha."
+        },
+        "effects": {
+          "creativity": 7,
+          "risk": 5,
+          "energy": 6,
+          "discipline": -3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_surprise_guest_joke",
+        "text": {
+          "en": "Make a joke first, then solve the real problem.",
+          "fr": "Faire d'abord une blague puis régler le vrai problème.",
+          "es": "Hacer primero una broma y luego resolver el problema real."
+        },
+        "effects": {
+          "humor": 8,
+          "social": 4,
+          "chaos": 3,
+          "professionalism": -2,
+          "intelligence": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_surprise_guest_research",
+        "text": {
+          "en": "Research everything until it makes sense.",
+          "fr": "Faire des recherches jusqu'à ce que tout devienne clair.",
+          "es": "Investigar hasta que todo tenga sentido."
+        },
+        "effects": {
+          "intelligence": 8,
+          "discipline": 3,
+          "energy": -2,
+          "empathy": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_surprise_guest_wait",
+        "text": {
+          "en": "Wait a few minutes and see if reality fixes itself.",
+          "fr": "Attendre quelques minutes pour voir si la réalité se répare seule.",
+          "es": "Esperar unos minutos para ver si la realidad se arregla sola."
+        },
+        "effects": {
+          "emotionalControl": 4,
+          "discipline": -5,
+          "chaos": 3,
+          "ambition": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_surprise_guest_automate",
+        "text": {
+          "en": "Automate the repetitive part.",
+          "fr": "Automatiser la partie répétitive.",
+          "es": "Automatizar la parte repetitiva."
+        },
+        "effects": {
+          "intelligence": 6,
+          "creativity": 5,
+          "discipline": 4,
+          "professionalism": 2,
+          "financialSense": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_surprise_guest_shortcut",
+        "text": {
+          "en": "Take the fastest risky shortcut.",
+          "fr": "Prendre le raccourci risqué le plus rapide.",
+          "es": "Tomar el atajo arriesgado más rápido."
+        },
+        "effects": {
+          "risk": 9,
+          "energy": 3,
+          "chaos": 5,
+          "discipline": -5
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_surprise_guest_help",
+        "text": {
+          "en": "Help the person most affected first.",
+          "fr": "Aider d'abord la personne la plus touchée.",
+          "es": "Ayudar primero a la persona más afectada."
+        },
+        "effects": {
+          "empathy": 8,
+          "social": 5,
+          "communication": 3,
+          "ambition": -2,
+          "intelligence": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_surprise_guest_backup",
+        "text": {
+          "en": "Prepare a backup plan for the backup plan.",
+          "fr": "Préparer un plan B pour le plan B.",
+          "es": "Preparar un plan B para el plan B."
+        },
+        "effects": {
+          "discipline": 7,
+          "intelligence": 4,
+          "risk": -5,
+          "emotionalControl": 4,
+          "empathy": -2
+        },
+        "selectionWeight": 1
+      }
+    ]
+  },
+  {
+    "id": "q_social_group_photo",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Situation: one quick group photo becomes thirty poses. What do you do?",
+      "fr": "Situation : une petite photo de groupe devient trente poses. Tu fais quoi ?",
+      "es": "Situación: una foto rápida de grupo se convierte en treinta poses. ¿Qué haces?"
+    },
+    "answers": [
+      {
+        "id": "q_social_group_photo_plan",
+        "text": {
+          "en": "Make a plan and start with the most important step.",
+          "fr": "Faire un plan et commencer par l'étape la plus importante.",
+          "es": "Hacer un plan y empezar por el paso más importante."
+        },
+        "effects": {
+          "discipline": 7,
+          "professionalism": 4,
+          "emotionalControl": 3,
+          "chaos": -3,
+          "risk": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_group_photo_ask",
+        "text": {
+          "en": "Ask someone competent before making it worse.",
+          "fr": "Demander à quelqu'un de compétent avant d'aggraver la situation.",
+          "es": "Preguntar a alguien competente antes de empeorarlo."
+        },
+        "effects": {
+          "communication": 6,
+          "empathy": 3,
+          "intelligence": 3,
+          "humor": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_group_photo_improvise",
+        "text": {
+          "en": "Improvise confidently and adapt as you go.",
+          "fr": "Improviser avec confiance et s'adapter en avançant.",
+          "es": "Improvisar con confianza y adaptarse sobre la marcha."
+        },
+        "effects": {
+          "creativity": 9,
+          "risk": 5,
+          "energy": 4,
+          "discipline": -3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_group_photo_joke",
+        "text": {
+          "en": "Make a joke first, then solve the real problem.",
+          "fr": "Faire d'abord une blague puis régler le vrai problème.",
+          "es": "Hacer primero una broma y luego resolver el problema real."
+        },
+        "effects": {
+          "humor": 8,
+          "social": 2,
+          "chaos": 3,
+          "professionalism": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_group_photo_research",
+        "text": {
+          "en": "Research everything until it makes sense.",
+          "fr": "Faire des recherches jusqu'à ce que tout devienne clair.",
+          "es": "Investigar hasta que todo tenga sentido."
+        },
+        "effects": {
+          "intelligence": 8,
+          "discipline": 5,
+          "energy": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_group_photo_wait",
+        "text": {
+          "en": "Wait a few minutes and see if reality fixes itself.",
+          "fr": "Attendre quelques minutes pour voir si la réalité se répare seule.",
+          "es": "Esperar unos minutos para ver si la realidad se arregla sola."
+        },
+        "effects": {
+          "emotionalControl": 4,
+          "discipline": -5,
+          "chaos": 3,
+          "risk": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_group_photo_automate",
+        "text": {
+          "en": "Automate the repetitive part.",
+          "fr": "Automatiser la partie répétitive.",
+          "es": "Automatizar la parte repetitiva."
+        },
+        "effects": {
+          "intelligence": 6,
+          "creativity": 5,
+          "discipline": 4,
+          "professionalism": 2,
+          "humor": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_group_photo_shortcut",
+        "text": {
+          "en": "Take the fastest risky shortcut.",
+          "fr": "Prendre le raccourci risqué le plus rapide.",
+          "es": "Tomar el atajo arriesgado más rápido."
+        },
+        "effects": {
+          "risk": 9,
+          "energy": 5,
+          "chaos": 5,
+          "discipline": -5,
+          "creativity": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_group_photo_help",
+        "text": {
+          "en": "Help the person most affected first.",
+          "fr": "Aider d'abord la personne la plus touchée.",
+          "es": "Ayudar primero a la persona más afectada."
+        },
+        "effects": {
+          "empathy": 8,
+          "social": 7,
+          "communication": 3,
+          "ambition": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_group_photo_backup",
+        "text": {
+          "en": "Prepare a backup plan for the backup plan.",
+          "fr": "Préparer un plan B pour le plan B.",
+          "es": "Preparar un plan B para el plan B."
+        },
+        "effects": {
+          "discipline": 5,
+          "intelligence": 4,
+          "risk": -5,
+          "emotionalControl": 4
+        },
+        "selectionWeight": 1
+      }
+    ]
+  },
+  {
+    "id": "q_social_friend_late",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Situation: your friend is forty minutes late and says almost there. What do you do?",
+      "fr": "Situation : ton ami a quarante minutes de retard et dit j'arrive. Tu fais quoi ?",
+      "es": "Situación: tu amigo llega cuarenta minutos tarde y dice ya casi. ¿Qué haces?"
+    },
+    "answers": [
+      {
+        "id": "q_social_friend_late_plan",
+        "text": {
+          "en": "Make a plan and start with the most important step.",
+          "fr": "Faire un plan et commencer par l'étape la plus importante.",
+          "es": "Hacer un plan y empezar por el paso más importante."
+        },
+        "effects": {
+          "discipline": 7,
+          "professionalism": 4,
+          "emotionalControl": 3,
+          "chaos": -1
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_friend_late_ask",
+        "text": {
+          "en": "Ask someone competent before making it worse.",
+          "fr": "Demander à quelqu'un de compétent avant d'aggraver la situation.",
+          "es": "Preguntar a alguien competente antes de empeorarlo."
+        },
+        "effects": {
+          "communication": 6,
+          "empathy": 3,
+          "intelligence": 3,
+          "emotionalControl": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_friend_late_improvise",
+        "text": {
+          "en": "Improvise confidently and adapt as you go.",
+          "fr": "Improviser avec confiance et s'adapter en avançant.",
+          "es": "Improvisar con confianza y adaptarse sobre la marcha."
+        },
+        "effects": {
+          "creativity": 7,
+          "risk": 5,
+          "energy": 4,
+          "discipline": -3,
+          "communication": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_friend_late_joke",
+        "text": {
+          "en": "Make a joke first, then solve the real problem.",
+          "fr": "Faire d'abord une blague puis régler le vrai problème.",
+          "es": "Hacer primero una broma y luego resolver el problema real."
+        },
+        "effects": {
+          "humor": 8,
+          "social": 4,
+          "chaos": 3,
+          "professionalism": -4
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_friend_late_research",
+        "text": {
+          "en": "Research everything until it makes sense.",
+          "fr": "Faire des recherches jusqu'à ce que tout devienne clair.",
+          "es": "Investigar hasta que todo tenga sentido."
+        },
+        "effects": {
+          "intelligence": 8,
+          "discipline": 3,
+          "energy": -2,
+          "luck": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_friend_late_wait",
+        "text": {
+          "en": "Wait a few minutes and see if reality fixes itself.",
+          "fr": "Attendre quelques minutes pour voir si la réalité se répare seule.",
+          "es": "Esperar unos minutos para ver si la realidad se arregla sola."
+        },
+        "effects": {
+          "emotionalControl": 4,
+          "discipline": -5,
+          "chaos": 1
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_friend_late_automate",
+        "text": {
+          "en": "Automate the repetitive part.",
+          "fr": "Automatiser la partie répétitive.",
+          "es": "Automatizar la parte repetitiva."
+        },
+        "effects": {
+          "intelligence": 6,
+          "creativity": 5,
+          "discipline": 4,
+          "professionalism": 2,
+          "emotionalControl": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_friend_late_shortcut",
+        "text": {
+          "en": "Take the fastest risky shortcut.",
+          "fr": "Prendre le raccourci risqué le plus rapide.",
+          "es": "Tomar el atajo arriesgado más rápido."
+        },
+        "effects": {
+          "risk": 9,
+          "energy": 5,
+          "chaos": 5,
+          "discipline": -5,
+          "communication": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_friend_late_help",
+        "text": {
+          "en": "Help the person most affected first.",
+          "fr": "Aider d'abord la personne la plus touchée.",
+          "es": "Ayudar primero a la persona más afectada."
+        },
+        "effects": {
+          "empathy": 8,
+          "social": 5,
+          "communication": 3,
+          "ambition": -2,
+          "professionalism": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_friend_late_backup",
+        "text": {
+          "en": "Prepare a backup plan for the backup plan.",
+          "fr": "Préparer un plan B pour le plan B.",
+          "es": "Preparar un plan B para el plan B."
+        },
+        "effects": {
+          "discipline": 7,
+          "intelligence": 4,
+          "risk": -5,
+          "emotionalControl": 4,
+          "luck": -2
+        },
+        "selectionWeight": 1
+      }
+    ]
+  },
+  {
+    "id": "q_social_shared_playlist",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Situation: someone adds a wildly inappropriate song. What do you do?",
+      "fr": "Situation : quelqu'un ajoute une chanson complètement inadaptée. Tu fais quoi ?",
+      "es": "Situación: alguien añade una canción totalmente inapropiada. ¿Qué haces?"
+    },
+    "answers": [
+      {
+        "id": "q_social_shared_playlist_plan",
+        "text": {
+          "en": "Make a plan and start with the most important step.",
+          "fr": "Faire un plan et commencer par l'étape la plus importante.",
+          "es": "Hacer un plan y empezar por el paso más importante."
+        },
+        "effects": {
+          "discipline": 7,
+          "professionalism": 4,
+          "emotionalControl": 3,
+          "chaos": -3,
+          "empathy": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_shared_playlist_ask",
+        "text": {
+          "en": "Ask someone competent before making it worse.",
+          "fr": "Demander à quelqu'un de compétent avant d'aggraver la situation.",
+          "es": "Preguntar a alguien competente antes de empeorarlo."
+        },
+        "effects": {
+          "communication": 6,
+          "empathy": 3,
+          "intelligence": 3,
+          "ambition": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_shared_playlist_improvise",
+        "text": {
+          "en": "Improvise confidently and adapt as you go.",
+          "fr": "Improviser avec confiance et s'adapter en avançant.",
+          "es": "Improvisar con confianza y adaptarse sobre la marcha."
+        },
+        "effects": {
+          "creativity": 7,
+          "risk": 5,
+          "energy": 4,
+          "discipline": -3,
+          "financialSense": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_shared_playlist_joke",
+        "text": {
+          "en": "Make a joke first, then solve the real problem.",
+          "fr": "Faire d'abord une blague puis régler le vrai problème.",
+          "es": "Hacer primero una broma y luego resolver el problema real."
+        },
+        "effects": {
+          "humor": 8,
+          "social": 4,
+          "chaos": 3,
+          "professionalism": -2,
+          "energy": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_shared_playlist_research",
+        "text": {
+          "en": "Research everything until it makes sense.",
+          "fr": "Faire des recherches jusqu'à ce que tout devienne clair.",
+          "es": "Investigar hasta que todo tenga sentido."
+        },
+        "effects": {
+          "intelligence": 10,
+          "discipline": 3,
+          "energy": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_shared_playlist_wait",
+        "text": {
+          "en": "Wait a few minutes and see if reality fixes itself.",
+          "fr": "Attendre quelques minutes pour voir si la réalité se répare seule.",
+          "es": "Esperar unos minutos para ver si la realidad se arregla sola."
+        },
+        "effects": {
+          "emotionalControl": 4,
+          "discipline": -5,
+          "chaos": 3,
+          "empathy": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_shared_playlist_automate",
+        "text": {
+          "en": "Automate the repetitive part.",
+          "fr": "Automatiser la partie répétitive.",
+          "es": "Automatizar la parte repetitiva."
+        },
+        "effects": {
+          "intelligence": 6,
+          "creativity": 5,
+          "discipline": 4,
+          "professionalism": 2,
+          "ambition": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_shared_playlist_shortcut",
+        "text": {
+          "en": "Take the fastest risky shortcut.",
+          "fr": "Prendre le raccourci risqué le plus rapide.",
+          "es": "Tomar el atajo arriesgado más rápido."
+        },
+        "effects": {
+          "risk": 9,
+          "energy": 5,
+          "chaos": 5,
+          "discipline": -5,
+          "financialSense": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_shared_playlist_help",
+        "text": {
+          "en": "Help the person most affected first.",
+          "fr": "Aider d'abord la personne la plus touchée.",
+          "es": "Ayudar primero a la persona más afectada."
+        },
+        "effects": {
+          "empathy": 8,
+          "social": 5,
+          "communication": 3,
+          "ambition": -2,
+          "energy": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_shared_playlist_backup",
+        "text": {
+          "en": "Prepare a backup plan for the backup plan.",
+          "fr": "Préparer un plan B pour le plan B.",
+          "es": "Preparar un plan B para el plan B."
+        },
+        "effects": {
+          "discipline": 7,
+          "intelligence": 2,
+          "risk": -5,
+          "emotionalControl": 4
+        },
+        "selectionWeight": 1
+      }
+    ]
+  },
+  {
+    "id": "q_social_elevator_small_talk",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Situation: you get trapped in awkward elevator small talk. What do you do?",
+      "fr": "Situation : tu te retrouves coincé dans un small talk gênant d'ascenseur. Tu fais quoi ?",
+      "es": "Situación: te quedas atrapado en una charla incómoda de ascensor. ¿Qué haces?"
+    },
+    "answers": [
+      {
+        "id": "q_social_elevator_small_talk_plan",
+        "text": {
+          "en": "Make a plan and start with the most important step.",
+          "fr": "Faire un plan et commencer par l'étape la plus importante.",
+          "es": "Hacer un plan y empezar por el paso más importante."
+        },
+        "effects": {
+          "discipline": 9,
+          "professionalism": 4,
+          "emotionalControl": 3,
+          "chaos": -3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_elevator_small_talk_ask",
+        "text": {
+          "en": "Ask someone competent before making it worse.",
+          "fr": "Demander à quelqu'un de compétent avant d'aggraver la situation.",
+          "es": "Preguntar a alguien competente antes de empeorarlo."
+        },
+        "effects": {
+          "communication": 6,
+          "empathy": 3,
+          "intelligence": 3,
+          "risk": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_elevator_small_talk_improvise",
+        "text": {
+          "en": "Improvise confidently and adapt as you go.",
+          "fr": "Improviser avec confiance et s'adapter en avançant.",
+          "es": "Improvisar con confianza y adaptarse sobre la marcha."
+        },
+        "effects": {
+          "creativity": 7,
+          "risk": 5,
+          "energy": 4,
+          "discipline": -3,
+          "humor": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_elevator_small_talk_joke",
+        "text": {
+          "en": "Make a joke first, then solve the real problem.",
+          "fr": "Faire d'abord une blague puis régler le vrai problème.",
+          "es": "Hacer primero una broma y luego resolver el problema real."
+        },
+        "effects": {
+          "humor": 8,
+          "social": 4,
+          "chaos": 3,
+          "professionalism": -2,
+          "creativity": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_elevator_small_talk_research",
+        "text": {
+          "en": "Research everything until it makes sense.",
+          "fr": "Faire des recherches jusqu'à ce que tout devienne clair.",
+          "es": "Investigar hasta que todo tenga sentido."
+        },
+        "effects": {
+          "intelligence": 8,
+          "discipline": 3,
+          "energy": -2,
+          "social": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_elevator_small_talk_wait",
+        "text": {
+          "en": "Wait a few minutes and see if reality fixes itself.",
+          "fr": "Attendre quelques minutes pour voir si la réalité se répare seule.",
+          "es": "Esperar unos minutos para ver si la realidad se arregla sola."
+        },
+        "effects": {
+          "emotionalControl": 4,
+          "discipline": -7,
+          "chaos": 3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_elevator_small_talk_automate",
+        "text": {
+          "en": "Automate the repetitive part.",
+          "fr": "Automatiser la partie répétitive.",
+          "es": "Automatizar la parte repetitiva."
+        },
+        "effects": {
+          "intelligence": 6,
+          "creativity": 5,
+          "discipline": 4,
+          "professionalism": 2,
+          "risk": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_elevator_small_talk_shortcut",
+        "text": {
+          "en": "Take the fastest risky shortcut.",
+          "fr": "Prendre le raccourci risqué le plus rapide.",
+          "es": "Tomar el atajo arriesgado más rápido."
+        },
+        "effects": {
+          "risk": 9,
+          "energy": 5,
+          "chaos": 5,
+          "discipline": -5,
+          "humor": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_elevator_small_talk_help",
+        "text": {
+          "en": "Help the person most affected first.",
+          "fr": "Aider d'abord la personne la plus touchée.",
+          "es": "Ayudar primero a la persona más afectada."
+        },
+        "effects": {
+          "empathy": 8,
+          "social": 5,
+          "communication": 3,
+          "ambition": -2,
+          "creativity": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_elevator_small_talk_backup",
+        "text": {
+          "en": "Prepare a backup plan for the backup plan.",
+          "fr": "Préparer un plan B pour le plan B.",
+          "es": "Preparar un plan B para el plan B."
+        },
+        "effects": {
+          "discipline": 7,
+          "intelligence": 4,
+          "risk": -5,
+          "emotionalControl": 4,
+          "social": -2
+        },
+        "selectionWeight": 1
+      }
+    ]
+  },
+  {
+    "id": "q_social_party_game",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Situation: a party game suddenly puts you on stage. What do you do?",
+      "fr": "Situation : un jeu de soirée te met soudain sur scène. Tu fais quoi ?",
+      "es": "Situación: un juego de fiesta te pone de repente en escena. ¿Qué haces?"
+    },
+    "answers": [
+      {
+        "id": "q_social_party_game_plan",
+        "text": {
+          "en": "Make a plan and start with the most important step.",
+          "fr": "Faire un plan et commencer par l'étape la plus importante.",
+          "es": "Hacer un plan y empezar por el paso más importante."
+        },
+        "effects": {
+          "discipline": 7,
+          "professionalism": 4,
+          "emotionalControl": 3,
+          "chaos": -3,
+          "luck": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_party_game_ask",
+        "text": {
+          "en": "Ask someone competent before making it worse.",
+          "fr": "Demander à quelqu'un de compétent avant d'aggraver la situation.",
+          "es": "Preguntar a alguien competente antes de empeorarlo."
+        },
+        "effects": {
+          "communication": 6,
+          "empathy": 3,
+          "intelligence": 3,
+          "chaos": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_party_game_improvise",
+        "text": {
+          "en": "Improvise confidently and adapt as you go.",
+          "fr": "Improviser avec confiance et s'adapter en avançant.",
+          "es": "Improvisar con confianza y adaptarse sobre la marcha."
+        },
+        "effects": {
+          "creativity": 7,
+          "risk": 5,
+          "energy": 4,
+          "discipline": -3,
+          "emotionalControl": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_party_game_joke",
+        "text": {
+          "en": "Make a joke first, then solve the real problem.",
+          "fr": "Faire d'abord une blague puis régler le vrai problème.",
+          "es": "Hacer primero una broma y luego resolver el problema real."
+        },
+        "effects": {
+          "humor": 8,
+          "social": 4,
+          "chaos": 3,
+          "professionalism": -2,
+          "communication": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_party_game_research",
+        "text": {
+          "en": "Research everything until it makes sense.",
+          "fr": "Faire des recherches jusqu'à ce que tout devienne clair.",
+          "es": "Investigar hasta que todo tenga sentido."
+        },
+        "effects": {
+          "intelligence": 8,
+          "discipline": 3,
+          "energy": -2,
+          "professionalism": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_party_game_wait",
+        "text": {
+          "en": "Wait a few minutes and see if reality fixes itself.",
+          "fr": "Attendre quelques minutes pour voir si la réalité se répare seule.",
+          "es": "Esperar unos minutos para ver si la realidad se arregla sola."
+        },
+        "effects": {
+          "emotionalControl": 4,
+          "discipline": -5,
+          "chaos": 3,
+          "luck": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_party_game_automate",
+        "text": {
+          "en": "Automate the repetitive part.",
+          "fr": "Automatiser la partie répétitive.",
+          "es": "Automatizar la parte repetitiva."
+        },
+        "effects": {
+          "intelligence": 6,
+          "creativity": 5,
+          "discipline": 4,
+          "professionalism": 2,
+          "chaos": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_party_game_shortcut",
+        "text": {
+          "en": "Take the fastest risky shortcut.",
+          "fr": "Prendre le raccourci risqué le plus rapide.",
+          "es": "Tomar el atajo arriesgado más rápido."
+        },
+        "effects": {
+          "risk": 9,
+          "energy": 5,
+          "chaos": 5,
+          "discipline": -5,
+          "emotionalControl": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_party_game_help",
+        "text": {
+          "en": "Help the person most affected first.",
+          "fr": "Aider d'abord la personne la plus touchée.",
+          "es": "Ayudar primero a la persona más afectada."
+        },
+        "effects": {
+          "empathy": 8,
+          "social": 5,
+          "communication": 5,
+          "ambition": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_party_game_backup",
+        "text": {
+          "en": "Prepare a backup plan for the backup plan.",
+          "fr": "Préparer un plan B pour le plan B.",
+          "es": "Preparar un plan B para el plan B."
+        },
+        "effects": {
+          "discipline": 7,
+          "intelligence": 4,
+          "risk": -5,
+          "emotionalControl": 4,
+          "professionalism": -2
+        },
+        "selectionWeight": 1
+      }
+    ]
+  },
+  {
+    "id": "q_social_message_seen",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Situation: you left an important message on seen for two days. What do you do?",
+      "fr": "Situation : tu as laissé un message important en vu pendant deux jours. Tu fais quoi ?",
+      "es": "Situación: dejaste un mensaje importante en visto durante dos días. ¿Qué haces?"
+    },
+    "answers": [
+      {
+        "id": "q_social_message_seen_plan",
+        "text": {
+          "en": "Make a plan and start with the most important step.",
+          "fr": "Faire un plan et commencer par l'étape la plus importante.",
+          "es": "Hacer un plan y empezar por el paso más importante."
+        },
+        "effects": {
+          "discipline": 7,
+          "professionalism": 4,
+          "emotionalControl": 3,
+          "chaos": -3,
+          "intelligence": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_message_seen_ask",
+        "text": {
+          "en": "Ask someone competent before making it worse.",
+          "fr": "Demander à quelqu'un de compétent avant d'aggraver la situation.",
+          "es": "Preguntar a alguien competente antes de empeorarlo."
+        },
+        "effects": {
+          "communication": 6,
+          "empathy": 1,
+          "intelligence": 3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_message_seen_improvise",
+        "text": {
+          "en": "Improvise confidently and adapt as you go.",
+          "fr": "Improviser avec confiance et s'adapter en avançant.",
+          "es": "Improvisar con confianza y adaptarse sobre la marcha."
+        },
+        "effects": {
+          "creativity": 7,
+          "risk": 5,
+          "energy": 4,
+          "discipline": -3,
+          "ambition": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_message_seen_joke",
+        "text": {
+          "en": "Make a joke first, then solve the real problem.",
+          "fr": "Faire d'abord une blague puis régler le vrai problème.",
+          "es": "Hacer primero una broma y luego resolver el problema real."
+        },
+        "effects": {
+          "humor": 8,
+          "social": 4,
+          "chaos": 3,
+          "professionalism": -2,
+          "financialSense": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_message_seen_research",
+        "text": {
+          "en": "Research everything until it makes sense.",
+          "fr": "Faire des recherches jusqu'à ce que tout devienne clair.",
+          "es": "Investigar hasta que todo tenga sentido."
+        },
+        "effects": {
+          "intelligence": 8,
+          "discipline": 3,
+          "energy": 0
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_message_seen_wait",
+        "text": {
+          "en": "Wait a few minutes and see if reality fixes itself.",
+          "fr": "Attendre quelques minutes pour voir si la réalité se répare seule.",
+          "es": "Esperar unos minutos para ver si la realidad se arregla sola."
+        },
+        "effects": {
+          "emotionalControl": 4,
+          "discipline": -5,
+          "chaos": 3,
+          "intelligence": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_message_seen_automate",
+        "text": {
+          "en": "Automate the repetitive part.",
+          "fr": "Automatiser la partie répétitive.",
+          "es": "Automatizar la parte repetitiva."
+        },
+        "effects": {
+          "intelligence": 6,
+          "creativity": 5,
+          "discipline": 4,
+          "professionalism": 2,
+          "empathy": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_message_seen_shortcut",
+        "text": {
+          "en": "Take the fastest risky shortcut.",
+          "fr": "Prendre le raccourci risqué le plus rapide.",
+          "es": "Tomar el atajo arriesgado más rápido."
+        },
+        "effects": {
+          "risk": 9,
+          "energy": 5,
+          "chaos": 5,
+          "discipline": -5,
+          "ambition": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_message_seen_help",
+        "text": {
+          "en": "Help the person most affected first.",
+          "fr": "Aider d'abord la personne la plus touchée.",
+          "es": "Ayudar primero a la persona más afectada."
+        },
+        "effects": {
+          "empathy": 8,
+          "social": 5,
+          "communication": 3,
+          "ambition": -2,
+          "financialSense": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_message_seen_backup",
+        "text": {
+          "en": "Prepare a backup plan for the backup plan.",
+          "fr": "Préparer un plan B pour le plan B.",
+          "es": "Preparar un plan B para el plan B."
+        },
+        "effects": {
+          "discipline": 7,
+          "intelligence": 4,
+          "risk": -5,
+          "emotionalControl": 4,
+          "energy": -2
+        },
+        "selectionWeight": 1
+      }
+    ]
+  },
+  {
+    "id": "q_social_borrowed_item",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Situation: a friend returns your item in suspicious condition. What do you do?",
+      "fr": "Situation : un ami te rend ton objet dans un état suspect. Tu fais quoi ?",
+      "es": "Situación: un amigo devuelve tu objeto en un estado sospechoso. ¿Qué haces?"
+    },
+    "answers": [
+      {
+        "id": "q_social_borrowed_item_plan",
+        "text": {
+          "en": "Make a plan and start with the most important step.",
+          "fr": "Faire un plan et commencer par l'étape la plus importante.",
+          "es": "Hacer un plan y empezar por el paso más importante."
+        },
+        "effects": {
+          "discipline": 7,
+          "professionalism": 4,
+          "emotionalControl": 3,
+          "chaos": -3,
+          "social": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_borrowed_item_ask",
+        "text": {
+          "en": "Ask someone competent before making it worse.",
+          "fr": "Demander à quelqu'un de compétent avant d'aggraver la situation.",
+          "es": "Preguntar a alguien competente antes de empeorarlo."
+        },
+        "effects": {
+          "communication": 6,
+          "empathy": 3,
+          "intelligence": 3,
+          "discipline": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_borrowed_item_improvise",
+        "text": {
+          "en": "Improvise confidently and adapt as you go.",
+          "fr": "Improviser avec confiance et s'adapter en avançant.",
+          "es": "Improvisar con confianza y adaptarse sobre la marcha."
+        },
+        "effects": {
+          "creativity": 7,
+          "risk": 7,
+          "energy": 4,
+          "discipline": -3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_borrowed_item_joke",
+        "text": {
+          "en": "Make a joke first, then solve the real problem.",
+          "fr": "Faire d'abord une blague puis régler le vrai problème.",
+          "es": "Hacer primero una broma y luego resolver el problema real."
+        },
+        "effects": {
+          "humor": 6,
+          "social": 4,
+          "chaos": 3,
+          "professionalism": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_borrowed_item_research",
+        "text": {
+          "en": "Research everything until it makes sense.",
+          "fr": "Faire des recherches jusqu'à ce que tout devienne clair.",
+          "es": "Investigar hasta que todo tenga sentido."
+        },
+        "effects": {
+          "intelligence": 8,
+          "discipline": 3,
+          "energy": -2,
+          "creativity": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_borrowed_item_wait",
+        "text": {
+          "en": "Wait a few minutes and see if reality fixes itself.",
+          "fr": "Attendre quelques minutes pour voir si la réalité se répare seule.",
+          "es": "Esperar unos minutos para ver si la realidad se arregla sola."
+        },
+        "effects": {
+          "emotionalControl": 4,
+          "discipline": -5,
+          "chaos": 3,
+          "social": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_borrowed_item_automate",
+        "text": {
+          "en": "Automate the repetitive part.",
+          "fr": "Automatiser la partie répétitive.",
+          "es": "Automatizar la parte repetitiva."
+        },
+        "effects": {
+          "intelligence": 6,
+          "creativity": 5,
+          "discipline": 6,
+          "professionalism": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_borrowed_item_shortcut",
+        "text": {
+          "en": "Take the fastest risky shortcut.",
+          "fr": "Prendre le raccourci risqué le plus rapide.",
+          "es": "Tomar el atajo arriesgado más rápido."
+        },
+        "effects": {
+          "risk": 7,
+          "energy": 5,
+          "chaos": 5,
+          "discipline": -5
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_borrowed_item_help",
+        "text": {
+          "en": "Help the person most affected first.",
+          "fr": "Aider d'abord la personne la plus touchée.",
+          "es": "Ayudar primero a la persona más afectada."
+        },
+        "effects": {
+          "empathy": 8,
+          "social": 5,
+          "communication": 3,
+          "ambition": -2,
+          "humor": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_borrowed_item_backup",
+        "text": {
+          "en": "Prepare a backup plan for the backup plan.",
+          "fr": "Préparer un plan B pour le plan B.",
+          "es": "Preparar un plan B para el plan B."
+        },
+        "effects": {
+          "discipline": 7,
+          "intelligence": 4,
+          "risk": -5,
+          "emotionalControl": 4,
+          "creativity": -2
+        },
+        "selectionWeight": 1
+      }
+    ]
+  },
+  {
+    "id": "q_social_trip_planning",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Situation: your group plans a trip and agrees on nothing. What do you do?",
+      "fr": "Situation : ton groupe organise un voyage et personne n'est d'accord. Tu fais quoi ?",
+      "es": "Situación: tu grupo organiza un viaje y nadie se pone de acuerdo. ¿Qué haces?"
+    },
+    "answers": [
+      {
+        "id": "q_social_trip_planning_plan",
+        "text": {
+          "en": "Make a plan and start with the most important step.",
+          "fr": "Faire un plan et commencer par l'étape la plus importante.",
+          "es": "Hacer un plan y empezar por el paso más importante."
+        },
+        "effects": {
+          "discipline": 7,
+          "professionalism": 6,
+          "emotionalControl": 3,
+          "chaos": -3
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_trip_planning_ask",
+        "text": {
+          "en": "Ask someone competent before making it worse.",
+          "fr": "Demander à quelqu'un de compétent avant d'aggraver la situation.",
+          "es": "Preguntar a alguien competente antes de empeorarlo."
+        },
+        "effects": {
+          "communication": 6,
+          "empathy": 3,
+          "intelligence": 3,
+          "luck": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_trip_planning_improvise",
+        "text": {
+          "en": "Improvise confidently and adapt as you go.",
+          "fr": "Improviser avec confiance et s'adapter en avançant.",
+          "es": "Improvisar con confianza y adaptarse sobre la marcha."
+        },
+        "effects": {
+          "creativity": 7,
+          "risk": 5,
+          "energy": 4,
+          "discipline": -3,
+          "chaos": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_trip_planning_joke",
+        "text": {
+          "en": "Make a joke first, then solve the real problem.",
+          "fr": "Faire d'abord une blague puis régler le vrai problème.",
+          "es": "Hacer primero una broma y luego resolver el problema real."
+        },
+        "effects": {
+          "humor": 8,
+          "social": 4,
+          "chaos": 3,
+          "professionalism": -2,
+          "emotionalControl": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_trip_planning_research",
+        "text": {
+          "en": "Research everything until it makes sense.",
+          "fr": "Faire des recherches jusqu'à ce que tout devienne clair.",
+          "es": "Investigar hasta que todo tenga sentido."
+        },
+        "effects": {
+          "intelligence": 8,
+          "discipline": 3,
+          "energy": -2,
+          "communication": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_trip_planning_wait",
+        "text": {
+          "en": "Wait a few minutes and see if reality fixes itself.",
+          "fr": "Attendre quelques minutes pour voir si la réalité se répare seule.",
+          "es": "Esperar unos minutos para ver si la realidad se arregla sola."
+        },
+        "effects": {
+          "emotionalControl": 4,
+          "discipline": -5,
+          "chaos": 3,
+          "professionalism": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_trip_planning_automate",
+        "text": {
+          "en": "Automate the repetitive part.",
+          "fr": "Automatiser la partie répétitive.",
+          "es": "Automatizar la parte repetitiva."
+        },
+        "effects": {
+          "intelligence": 6,
+          "creativity": 5,
+          "discipline": 4,
+          "professionalism": 2,
+          "luck": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_trip_planning_shortcut",
+        "text": {
+          "en": "Take the fastest risky shortcut.",
+          "fr": "Prendre le raccourci risqué le plus rapide.",
+          "es": "Tomar el atajo arriesgado más rápido."
+        },
+        "effects": {
+          "risk": 9,
+          "energy": 5,
+          "chaos": 3,
+          "discipline": -5
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_trip_planning_help",
+        "text": {
+          "en": "Help the person most affected first.",
+          "fr": "Aider d'abord la personne la plus touchée.",
+          "es": "Ayudar primero a la persona más afectada."
+        },
+        "effects": {
+          "empathy": 8,
+          "social": 5,
+          "communication": 3,
+          "ambition": -2,
+          "emotionalControl": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_trip_planning_backup",
+        "text": {
+          "en": "Prepare a backup plan for the backup plan.",
+          "fr": "Préparer un plan B pour le plan B.",
+          "es": "Preparar un plan B para el plan B."
+        },
+        "effects": {
+          "discipline": 7,
+          "intelligence": 4,
+          "risk": -5,
+          "emotionalControl": 4,
+          "communication": -2
+        },
+        "selectionWeight": 1
+      }
+    ]
+  },
+  {
+    "id": "q_social_inside_joke",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Situation: everyone laughs at an inside joke you missed. What do you do?",
+      "fr": "Situation : tout le monde rit à une private joke que tu as ratée. Tu fais quoi ?",
+      "es": "Situación: todos se ríen de una broma interna que no entendiste. ¿Qué haces?"
+    },
+    "answers": [
+      {
+        "id": "q_social_inside_joke_plan",
+        "text": {
+          "en": "Make a plan and start with the most important step.",
+          "fr": "Faire un plan et commencer par l'étape la plus importante.",
+          "es": "Hacer un plan y empezar por el paso más importante."
+        },
+        "effects": {
+          "discipline": 7,
+          "professionalism": 4,
+          "emotionalControl": 3,
+          "chaos": -3,
+          "energy": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_inside_joke_ask",
+        "text": {
+          "en": "Ask someone competent before making it worse.",
+          "fr": "Demander à quelqu'un de compétent avant d'aggraver la situation.",
+          "es": "Preguntar a alguien competente antes de empeorarlo."
+        },
+        "effects": {
+          "communication": 6,
+          "empathy": 3,
+          "intelligence": 1
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_inside_joke_improvise",
+        "text": {
+          "en": "Improvise confidently and adapt as you go.",
+          "fr": "Improviser avec confiance et s'adapter en avançant.",
+          "es": "Improvisar con confianza y adaptarse sobre la marcha."
+        },
+        "effects": {
+          "creativity": 7,
+          "risk": 5,
+          "energy": 4,
+          "discipline": -3,
+          "empathy": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_inside_joke_joke",
+        "text": {
+          "en": "Make a joke first, then solve the real problem.",
+          "fr": "Faire d'abord une blague puis régler le vrai problème.",
+          "es": "Hacer primero una broma y luego resolver el problema real."
+        },
+        "effects": {
+          "humor": 8,
+          "social": 4,
+          "chaos": 3,
+          "professionalism": -2,
+          "ambition": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_inside_joke_research",
+        "text": {
+          "en": "Research everything until it makes sense.",
+          "fr": "Faire des recherches jusqu'à ce que tout devienne clair.",
+          "es": "Investigar hasta que todo tenga sentido."
+        },
+        "effects": {
+          "intelligence": 8,
+          "discipline": 3,
+          "energy": -2,
+          "financialSense": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_inside_joke_wait",
+        "text": {
+          "en": "Wait a few minutes and see if reality fixes itself.",
+          "fr": "Attendre quelques minutes pour voir si la réalité se répare seule.",
+          "es": "Esperar unos minutos para ver si la realidad se arregla sola."
+        },
+        "effects": {
+          "emotionalControl": 4,
+          "discipline": -5,
+          "chaos": 3,
+          "energy": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_inside_joke_automate",
+        "text": {
+          "en": "Automate the repetitive part.",
+          "fr": "Automatiser la partie répétitive.",
+          "es": "Automatizar la parte repetitiva."
+        },
+        "effects": {
+          "intelligence": 8,
+          "creativity": 5,
+          "discipline": 4,
+          "professionalism": 2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_inside_joke_shortcut",
+        "text": {
+          "en": "Take the fastest risky shortcut.",
+          "fr": "Prendre le raccourci risqué le plus rapide.",
+          "es": "Tomar el atajo arriesgado más rápido."
+        },
+        "effects": {
+          "risk": 9,
+          "energy": 5,
+          "chaos": 5,
+          "discipline": -5,
+          "empathy": -2
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_inside_joke_help",
+        "text": {
+          "en": "Help the person most affected first.",
+          "fr": "Aider d'abord la personne la plus touchée.",
+          "es": "Ayudar primero a la persona más afectada."
+        },
+        "effects": {
+          "empathy": 8,
+          "social": 5,
+          "communication": 3,
+          "ambition": 0
+        },
+        "selectionWeight": 1
+      },
+      {
+        "id": "q_social_inside_joke_backup",
+        "text": {
+          "en": "Prepare a backup plan for the backup plan.",
+          "fr": "Préparer un plan B pour le plan B.",
+          "es": "Preparar un plan B para el plan B."
+        },
+        "effects": {
+          "discipline": 7,
+          "intelligence": 4,
+          "risk": -5,
+          "emotionalControl": 4,
+          "financialSense": -2
+        },
+        "selectionWeight": 1
+      }
+    ]
   }
 ]

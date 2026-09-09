@@ -1188,5 +1188,3260 @@
       "everything_somehow_works",
       "very_rare"
     ]
+  },
+  {
+    "id": "synergy_intelligence_creativity_amplified",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 61
+      },
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 65
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_creativity_contrast",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 70
+      },
+      {
+        "stat": "creativity",
+        "op": "<=",
+        "value": 35
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_emotionalControl_amplified",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 62
+      },
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 65
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_emotionalControl_contrast",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 67
+      },
+      {
+        "stat": "emotionalControl",
+        "op": "<=",
+        "value": 39
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_empathy_amplified",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 68
+      },
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 60
+      }
+    ],
+    "weight": 0.8,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_empathy_contrast",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 70
+      },
+      {
+        "stat": "empathy",
+        "op": "<=",
+        "value": 37
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_social_amplified",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 70
+      },
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 64
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 5,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_social_contrast",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 65
+      },
+      {
+        "stat": "social",
+        "op": "<=",
+        "value": 40
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_communication_amplified",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 63
+      },
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 57
+      }
+    ],
+    "weight": 1.4000000000000001,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_communication_contrast",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 64
+      },
+      {
+        "stat": "communication",
+        "op": "<=",
+        "value": 40
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_ambition_amplified",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 70
+      },
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 57
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_ambition_contrast",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 64
+      },
+      {
+        "stat": "ambition",
+        "op": "<=",
+        "value": 41
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 3,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_discipline_amplified",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 65
+      },
+      {
+        "stat": "discipline",
+        "op": ">=",
+        "value": 59
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_discipline_contrast",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 67
+      },
+      {
+        "stat": "discipline",
+        "op": "<=",
+        "value": 41
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 5,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_professionalism_amplified",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 71
+      },
+      {
+        "stat": "professionalism",
+        "op": ">=",
+        "value": 60
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_professionalism_contrast",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 62
+      },
+      {
+        "stat": "professionalism",
+        "op": "<=",
+        "value": 37
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_financialSense_amplified",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 63
+      },
+      {
+        "stat": "financialSense",
+        "op": ">=",
+        "value": 54
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 5,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_financialSense_contrast",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 61
+      },
+      {
+        "stat": "financialSense",
+        "op": "<=",
+        "value": 41
+      }
+    ],
+    "weight": 1.4,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_risk_amplified",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 65
+      },
+      {
+        "stat": "risk",
+        "op": ">=",
+        "value": 65
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 5,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_risk_contrast",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 64
+      },
+      {
+        "stat": "risk",
+        "op": "<=",
+        "value": 37
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_luck_amplified",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 70
+      },
+      {
+        "stat": "luck",
+        "op": ">=",
+        "value": 57
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 3,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_luck_contrast",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 66
+      },
+      {
+        "stat": "luck",
+        "op": "<=",
+        "value": 33
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_energy_amplified",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "stat": "energy",
+        "op": ">=",
+        "value": 56
+      }
+    ],
+    "weight": 0.8,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_energy_contrast",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "stat": "energy",
+        "op": "<=",
+        "value": 46
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_humor_amplified",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 67
+      },
+      {
+        "stat": "humor",
+        "op": ">=",
+        "value": 68
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 5,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_humor_contrast",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 64
+      },
+      {
+        "stat": "humor",
+        "op": "<=",
+        "value": 41
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_chaos_amplified",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "stat": "chaos",
+        "op": ">=",
+        "value": 55
+      }
+    ],
+    "weight": 0.8,
+    "rarityScore": 2,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_intelligence_chaos_contrast",
+    "conditions": [
+      {
+        "stat": "intelligence",
+        "op": ">=",
+        "value": 67
+      },
+      {
+        "stat": "chaos",
+        "op": "<=",
+        "value": 38
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_creativity_emotionalControl_amplified",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 61
+      },
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 62
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_creativity_emotionalControl_contrast",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 61
+      },
+      {
+        "stat": "emotionalControl",
+        "op": "<=",
+        "value": 44
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_creativity_empathy_amplified",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 58
+      },
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 67
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_creativity_empathy_contrast",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 70
+      },
+      {
+        "stat": "empathy",
+        "op": "<=",
+        "value": 34
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_creativity_social_amplified",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 68
+      },
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 68
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_creativity_social_contrast",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 71
+      },
+      {
+        "stat": "social",
+        "op": "<=",
+        "value": 44
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 3,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_creativity_communication_amplified",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 69
+      },
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 65
+      }
+    ],
+    "weight": 1.4000000000000001,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_creativity_communication_contrast",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 65
+      },
+      {
+        "stat": "communication",
+        "op": "<=",
+        "value": 45
+      }
+    ],
+    "weight": 1.4,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_creativity_ambition_amplified",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 67
+      },
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 66
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_creativity_ambition_contrast",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 67
+      },
+      {
+        "stat": "ambition",
+        "op": "<=",
+        "value": 43
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 3,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_creativity_discipline_amplified",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 63
+      },
+      {
+        "stat": "discipline",
+        "op": ">=",
+        "value": 56
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 3,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_creativity_discipline_contrast",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 65
+      },
+      {
+        "stat": "discipline",
+        "op": "<=",
+        "value": 45
+      }
+    ],
+    "weight": 1.4,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_creativity_professionalism_amplified",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 59
+      },
+      {
+        "stat": "professionalism",
+        "op": ">=",
+        "value": 60
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 5,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_creativity_professionalism_contrast",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 69
+      },
+      {
+        "stat": "professionalism",
+        "op": "<=",
+        "value": 41
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_creativity_financialSense_amplified",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 61
+      },
+      {
+        "stat": "financialSense",
+        "op": ">=",
+        "value": 66
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_creativity_financialSense_contrast",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 64
+      },
+      {
+        "stat": "financialSense",
+        "op": "<=",
+        "value": 38
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_creativity_risk_amplified",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 65
+      },
+      {
+        "stat": "risk",
+        "op": ">=",
+        "value": 58
+      }
+    ],
+    "weight": 1.4000000000000001,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_creativity_risk_contrast",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 71
+      },
+      {
+        "stat": "risk",
+        "op": "<=",
+        "value": 35
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 10,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_creativity_luck_amplified",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 59
+      },
+      {
+        "stat": "luck",
+        "op": ">=",
+        "value": 54
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_creativity_luck_contrast",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 61
+      },
+      {
+        "stat": "luck",
+        "op": "<=",
+        "value": 39
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_creativity_energy_amplified",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 59
+      },
+      {
+        "stat": "energy",
+        "op": ">=",
+        "value": 55
+      }
+    ],
+    "weight": 1.4000000000000001,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_creativity_energy_contrast",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 67
+      },
+      {
+        "stat": "energy",
+        "op": "<=",
+        "value": 37
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 5,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_creativity_humor_amplified",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 71
+      },
+      {
+        "stat": "humor",
+        "op": ">=",
+        "value": 66
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_creativity_humor_contrast",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 71
+      },
+      {
+        "stat": "humor",
+        "op": "<=",
+        "value": 35
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 10,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_creativity_chaos_amplified",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 66
+      },
+      {
+        "stat": "chaos",
+        "op": ">=",
+        "value": 62
+      }
+    ],
+    "weight": 1.4000000000000001,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_creativity_chaos_contrast",
+    "conditions": [
+      {
+        "stat": "creativity",
+        "op": ">=",
+        "value": 61
+      },
+      {
+        "stat": "chaos",
+        "op": "<=",
+        "value": 33
+      }
+    ],
+    "weight": 1.4,
+    "rarityScore": 5,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_empathy_amplified",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 64
+      },
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 65
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_empathy_contrast",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 61
+      },
+      {
+        "stat": "empathy",
+        "op": "<=",
+        "value": 34
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_social_amplified",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 59
+      },
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 54
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_social_contrast",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 67
+      },
+      {
+        "stat": "social",
+        "op": "<=",
+        "value": 36
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_communication_amplified",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 72
+      },
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 63
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_communication_contrast",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 66
+      },
+      {
+        "stat": "communication",
+        "op": "<=",
+        "value": 33
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 10,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_ambition_amplified",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 64
+      },
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 60
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_ambition_contrast",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 68
+      },
+      {
+        "stat": "ambition",
+        "op": "<=",
+        "value": 36
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_discipline_amplified",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 72
+      },
+      {
+        "stat": "discipline",
+        "op": ">=",
+        "value": 57
+      }
+    ],
+    "weight": 1.4000000000000001,
+    "rarityScore": 2,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_discipline_contrast",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 72
+      },
+      {
+        "stat": "discipline",
+        "op": "<=",
+        "value": 44
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_professionalism_amplified",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 62
+      },
+      {
+        "stat": "professionalism",
+        "op": ">=",
+        "value": 57
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_professionalism_contrast",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 65
+      },
+      {
+        "stat": "professionalism",
+        "op": "<=",
+        "value": 46
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_financialSense_amplified",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 61
+      },
+      {
+        "stat": "financialSense",
+        "op": ">=",
+        "value": 71
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_financialSense_contrast",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 69
+      },
+      {
+        "stat": "financialSense",
+        "op": "<=",
+        "value": 42
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_risk_amplified",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 58
+      },
+      {
+        "stat": "risk",
+        "op": ">=",
+        "value": 65
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_risk_contrast",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 61
+      },
+      {
+        "stat": "risk",
+        "op": "<=",
+        "value": 44
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 5,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_luck_amplified",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 67
+      },
+      {
+        "stat": "luck",
+        "op": ">=",
+        "value": 62
+      }
+    ],
+    "weight": 1.4000000000000001,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_luck_contrast",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 68
+      },
+      {
+        "stat": "luck",
+        "op": "<=",
+        "value": 40
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_energy_amplified",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 72
+      },
+      {
+        "stat": "energy",
+        "op": ">=",
+        "value": 55
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_energy_contrast",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 67
+      },
+      {
+        "stat": "energy",
+        "op": "<=",
+        "value": 45
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_humor_amplified",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 67
+      },
+      {
+        "stat": "humor",
+        "op": ">=",
+        "value": 55
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_humor_contrast",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 72
+      },
+      {
+        "stat": "humor",
+        "op": "<=",
+        "value": 33
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 3,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_chaos_amplified",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 71
+      },
+      {
+        "stat": "chaos",
+        "op": ">=",
+        "value": 70
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_emotionalControl_chaos_contrast",
+    "conditions": [
+      {
+        "stat": "emotionalControl",
+        "op": ">=",
+        "value": 69
+      },
+      {
+        "stat": "chaos",
+        "op": "<=",
+        "value": 42
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_empathy_social_amplified",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 67
+      },
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 68
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_empathy_social_contrast",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "stat": "social",
+        "op": "<=",
+        "value": 39
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_empathy_communication_amplified",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 62
+      },
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 69
+      }
+    ],
+    "weight": 1.4000000000000001,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_empathy_communication_contrast",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 68
+      },
+      {
+        "stat": "communication",
+        "op": "<=",
+        "value": 36
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_empathy_ambition_amplified",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 72
+      },
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 59
+      }
+    ],
+    "weight": 0.8,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_empathy_ambition_contrast",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "stat": "ambition",
+        "op": "<=",
+        "value": 44
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 10,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_empathy_discipline_amplified",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 69
+      },
+      {
+        "stat": "discipline",
+        "op": ">=",
+        "value": 71
+      }
+    ],
+    "weight": 0.8,
+    "rarityScore": 3,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_empathy_discipline_contrast",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 64
+      },
+      {
+        "stat": "discipline",
+        "op": "<=",
+        "value": 35
+      }
+    ],
+    "weight": 1.4,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_empathy_professionalism_amplified",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 72
+      },
+      {
+        "stat": "professionalism",
+        "op": ">=",
+        "value": 64
+      }
+    ],
+    "weight": 1.4000000000000001,
+    "rarityScore": 5,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_empathy_professionalism_contrast",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 71
+      },
+      {
+        "stat": "professionalism",
+        "op": "<=",
+        "value": 42
+      }
+    ],
+    "weight": 1.4,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_empathy_financialSense_amplified",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 62
+      },
+      {
+        "stat": "financialSense",
+        "op": ">=",
+        "value": 66
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_empathy_financialSense_contrast",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 66
+      },
+      {
+        "stat": "financialSense",
+        "op": "<=",
+        "value": 33
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_empathy_risk_amplified",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 66
+      },
+      {
+        "stat": "risk",
+        "op": ">=",
+        "value": 56
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_empathy_risk_contrast",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 66
+      },
+      {
+        "stat": "risk",
+        "op": "<=",
+        "value": 33
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 3,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_empathy_luck_amplified",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 70
+      },
+      {
+        "stat": "luck",
+        "op": ">=",
+        "value": 63
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_empathy_luck_contrast",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "stat": "luck",
+        "op": "<=",
+        "value": 41
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_empathy_energy_amplified",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 72
+      },
+      {
+        "stat": "energy",
+        "op": ">=",
+        "value": 66
+      }
+    ],
+    "weight": 1.4000000000000001,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_empathy_energy_contrast",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 68
+      },
+      {
+        "stat": "energy",
+        "op": "<=",
+        "value": 41
+      }
+    ],
+    "weight": 1.4,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_empathy_humor_amplified",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 68
+      },
+      {
+        "stat": "humor",
+        "op": ">=",
+        "value": 57
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_empathy_humor_contrast",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 66
+      },
+      {
+        "stat": "humor",
+        "op": "<=",
+        "value": 45
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_empathy_chaos_amplified",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 67
+      },
+      {
+        "stat": "chaos",
+        "op": ">=",
+        "value": 64
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_empathy_chaos_contrast",
+    "conditions": [
+      {
+        "stat": "empathy",
+        "op": ">=",
+        "value": 61
+      },
+      {
+        "stat": "chaos",
+        "op": "<=",
+        "value": 33
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_social_communication_amplified",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 59
+      },
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 59
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_social_communication_contrast",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "stat": "communication",
+        "op": "<=",
+        "value": 37
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 5,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_social_ambition_amplified",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 58
+      },
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 57
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_social_ambition_contrast",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 64
+      },
+      {
+        "stat": "ambition",
+        "op": "<=",
+        "value": 46
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_social_discipline_amplified",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "stat": "discipline",
+        "op": ">=",
+        "value": 54
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_social_discipline_contrast",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 72
+      },
+      {
+        "stat": "discipline",
+        "op": "<=",
+        "value": 35
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_social_professionalism_amplified",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 62
+      },
+      {
+        "stat": "professionalism",
+        "op": ">=",
+        "value": 55
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_social_professionalism_contrast",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 62
+      },
+      {
+        "stat": "professionalism",
+        "op": "<=",
+        "value": 33
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 3,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_social_financialSense_amplified",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 70
+      },
+      {
+        "stat": "financialSense",
+        "op": ">=",
+        "value": 61
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 5,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_social_financialSense_contrast",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 63
+      },
+      {
+        "stat": "financialSense",
+        "op": "<=",
+        "value": 38
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_social_risk_amplified",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 58
+      },
+      {
+        "stat": "risk",
+        "op": ">=",
+        "value": 59
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 5,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_social_risk_contrast",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 72
+      },
+      {
+        "stat": "risk",
+        "op": "<=",
+        "value": 44
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_social_luck_amplified",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "stat": "luck",
+        "op": ">=",
+        "value": 63
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 3,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_social_luck_contrast",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 63
+      },
+      {
+        "stat": "luck",
+        "op": "<=",
+        "value": 34
+      }
+    ],
+    "weight": 1.4,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_social_energy_amplified",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 71
+      },
+      {
+        "stat": "energy",
+        "op": ">=",
+        "value": 67
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_social_energy_contrast",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 68
+      },
+      {
+        "stat": "energy",
+        "op": "<=",
+        "value": 34
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_social_humor_amplified",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 58
+      },
+      {
+        "stat": "humor",
+        "op": ">=",
+        "value": 55
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 5,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_social_humor_contrast",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 68
+      },
+      {
+        "stat": "humor",
+        "op": "<=",
+        "value": 41
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_social_chaos_amplified",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 64
+      },
+      {
+        "stat": "chaos",
+        "op": ">=",
+        "value": 58
+      }
+    ],
+    "weight": 1.4000000000000001,
+    "rarityScore": 2,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_social_chaos_contrast",
+    "conditions": [
+      {
+        "stat": "social",
+        "op": ">=",
+        "value": 68
+      },
+      {
+        "stat": "chaos",
+        "op": "<=",
+        "value": 43
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_communication_ambition_amplified",
+    "conditions": [
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 62
+      },
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 56
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_communication_ambition_contrast",
+    "conditions": [
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 69
+      },
+      {
+        "stat": "ambition",
+        "op": "<=",
+        "value": 45
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_communication_discipline_amplified",
+    "conditions": [
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 72
+      },
+      {
+        "stat": "discipline",
+        "op": ">=",
+        "value": 72
+      }
+    ],
+    "weight": 0.8,
+    "rarityScore": 3,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_communication_discipline_contrast",
+    "conditions": [
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 61
+      },
+      {
+        "stat": "discipline",
+        "op": "<=",
+        "value": 36
+      }
+    ],
+    "weight": 1.4,
+    "rarityScore": 3,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_communication_professionalism_amplified",
+    "conditions": [
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 67
+      },
+      {
+        "stat": "professionalism",
+        "op": ">=",
+        "value": 69
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 5,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_communication_professionalism_contrast",
+    "conditions": [
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 64
+      },
+      {
+        "stat": "professionalism",
+        "op": "<=",
+        "value": 46
+      }
+    ],
+    "weight": 1.2000000000000002,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_communication_financialSense_amplified",
+    "conditions": [
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 68
+      },
+      {
+        "stat": "financialSense",
+        "op": ">=",
+        "value": 67
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_communication_financialSense_contrast",
+    "conditions": [
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 70
+      },
+      {
+        "stat": "financialSense",
+        "op": "<=",
+        "value": 37
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 10,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_communication_risk_amplified",
+    "conditions": [
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 72
+      },
+      {
+        "stat": "risk",
+        "op": ">=",
+        "value": 61
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_communication_risk_contrast",
+    "conditions": [
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "stat": "risk",
+        "op": "<=",
+        "value": 38
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_communication_luck_amplified",
+    "conditions": [
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 62
+      },
+      {
+        "stat": "luck",
+        "op": ">=",
+        "value": 72
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_communication_luck_contrast",
+    "conditions": [
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 71
+      },
+      {
+        "stat": "luck",
+        "op": "<=",
+        "value": 36
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 5,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_communication_energy_amplified",
+    "conditions": [
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 59
+      },
+      {
+        "stat": "energy",
+        "op": ">=",
+        "value": 59
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_communication_energy_contrast",
+    "conditions": [
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 64
+      },
+      {
+        "stat": "energy",
+        "op": "<=",
+        "value": 46
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_communication_humor_amplified",
+    "conditions": [
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 61
+      },
+      {
+        "stat": "humor",
+        "op": ">=",
+        "value": 57
+      }
+    ],
+    "weight": 0.8,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_communication_humor_contrast",
+    "conditions": [
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "stat": "humor",
+        "op": "<=",
+        "value": 36
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_communication_chaos_amplified",
+    "conditions": [
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 68
+      },
+      {
+        "stat": "chaos",
+        "op": ">=",
+        "value": 71
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_communication_chaos_contrast",
+    "conditions": [
+      {
+        "stat": "communication",
+        "op": ">=",
+        "value": 64
+      },
+      {
+        "stat": "chaos",
+        "op": "<=",
+        "value": 41
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_ambition_discipline_amplified",
+    "conditions": [
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 72
+      },
+      {
+        "stat": "discipline",
+        "op": ">=",
+        "value": 55
+      }
+    ],
+    "weight": 0.8,
+    "rarityScore": 2,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_ambition_discipline_contrast",
+    "conditions": [
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 71
+      },
+      {
+        "stat": "discipline",
+        "op": "<=",
+        "value": 38
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_ambition_professionalism_amplified",
+    "conditions": [
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 58
+      },
+      {
+        "stat": "professionalism",
+        "op": ">=",
+        "value": 60
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 6,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_ambition_professionalism_contrast",
+    "conditions": [
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 62
+      },
+      {
+        "stat": "professionalism",
+        "op": "<=",
+        "value": 41
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 5,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_ambition_financialSense_amplified",
+    "conditions": [
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 68
+      },
+      {
+        "stat": "financialSense",
+        "op": ">=",
+        "value": 65
+      }
+    ],
+    "weight": 0.9,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_ambition_financialSense_contrast",
+    "conditions": [
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 61
+      },
+      {
+        "stat": "financialSense",
+        "op": "<=",
+        "value": 45
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 4,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_ambition_risk_amplified",
+    "conditions": [
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 69
+      },
+      {
+        "stat": "risk",
+        "op": ">=",
+        "value": 65
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_ambition_risk_contrast",
+    "conditions": [
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 72
+      },
+      {
+        "stat": "risk",
+        "op": "<=",
+        "value": 37
+      }
+    ],
+    "weight": 1.4,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_ambition_luck_amplified",
+    "conditions": [
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 65
+      },
+      {
+        "stat": "luck",
+        "op": ">=",
+        "value": 66
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_ambition_luck_contrast",
+    "conditions": [
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 60
+      },
+      {
+        "stat": "luck",
+        "op": "<=",
+        "value": 41
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_ambition_energy_amplified",
+    "conditions": [
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 63
+      },
+      {
+        "stat": "energy",
+        "op": ">=",
+        "value": 58
+      }
+    ],
+    "weight": 1.4000000000000001,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_ambition_energy_contrast",
+    "conditions": [
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 67
+      },
+      {
+        "stat": "energy",
+        "op": "<=",
+        "value": 39
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 3,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_ambition_humor_amplified",
+    "conditions": [
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 71
+      },
+      {
+        "stat": "humor",
+        "op": ">=",
+        "value": 61
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_ambition_humor_contrast",
+    "conditions": [
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 68
+      },
+      {
+        "stat": "humor",
+        "op": "<=",
+        "value": 39
+      }
+    ],
+    "weight": 1,
+    "rarityScore": 7,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_ambition_chaos_amplified",
+    "conditions": [
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 63
+      },
+      {
+        "stat": "chaos",
+        "op": ">=",
+        "value": 60
+      }
+    ],
+    "weight": 0.8,
+    "rarityScore": 8,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
+  },
+  {
+    "id": "synergy_ambition_chaos_contrast",
+    "conditions": [
+      {
+        "stat": "ambition",
+        "op": ">=",
+        "value": 68
+      },
+      {
+        "stat": "chaos",
+        "op": "<=",
+        "value": 39
+      }
+    ],
+    "weight": 1.1,
+    "rarityScore": 3,
+    "tags": [
+      "expanded_v2",
+      "contrast"
+    ]
+  },
+  {
+    "id": "synergy_discipline_professionalism_amplified",
+    "conditions": [
+      {
+        "stat": "discipline",
+        "op": ">=",
+        "value": 65
+      },
+      {
+        "stat": "professionalism",
+        "op": ">=",
+        "value": 68
+      }
+    ],
+    "weight": 1.3,
+    "rarityScore": 9,
+    "tags": [
+      "expanded_v2",
+      "amplified"
+    ]
   }
 ]

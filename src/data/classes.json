@@ -435,5 +435,2525 @@
       "creativity": 78,
       "emotionalControl": 66
     }
+  },
+  {
+    "id": "class_chaotic_tactician",
+    "name": {
+      "en": "Chaotic Tactician",
+      "fr": "Chaotique Tacticien",
+      "es": "Caótico Táctico"
+    },
+    "idealProfile": {
+      "communication": 85,
+      "creativity": 42,
+      "humor": 46,
+      "luck": 26,
+      "risk": 91,
+      "professionalism": 32
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "tactician"
+    ]
+  },
+  {
+    "id": "class_chaotic_explorer",
+    "name": {
+      "en": "Chaotic Explorer",
+      "fr": "Chaotique Explorateur",
+      "es": "Caótico Explorador"
+    },
+    "idealProfile": {
+      "emotionalControl": 63,
+      "risk": 40,
+      "social": 79,
+      "chaos": 34,
+      "discipline": 46,
+      "communication": 85
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "explorer"
+    ]
+  },
+  {
+    "id": "class_chaotic_fixer",
+    "name": {
+      "en": "Chaotic Fixer",
+      "fr": "Chaotique Dépanneur",
+      "es": "Caótico Solucionador"
+    },
+    "idealProfile": {
+      "communication": 53,
+      "risk": 33,
+      "creativity": 59,
+      "professionalism": 62,
+      "humor": 65,
+      "luck": 45
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "fixer"
+    ]
+  },
+  {
+    "id": "class_chaotic_analyst",
+    "name": {
+      "en": "Chaotic Analyst",
+      "fr": "Chaotique Analyste",
+      "es": "Caótico Analista"
+    },
+    "idealProfile": {
+      "financialSense": 74,
+      "creativity": 49,
+      "empathy": 58,
+      "humor": 80,
+      "ambition": 65,
+      "social": 64
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "analyst"
+    ]
+  },
+  {
+    "id": "class_chaotic_catalyst",
+    "name": {
+      "en": "Chaotic Catalyst",
+      "fr": "Chaotique Catalyseur",
+      "es": "Caótico Catalizador"
+    },
+    "idealProfile": {
+      "financialSense": 93,
+      "creativity": 45,
+      "empathy": 78,
+      "humor": 28,
+      "ambition": 81,
+      "social": 84
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "catalyst"
+    ]
+  },
+  {
+    "id": "class_chaotic_guardian",
+    "name": {
+      "en": "Chaotic Guardian",
+      "fr": "Chaotique Gardien",
+      "es": "Caótico Guardián"
+    },
+    "idealProfile": {
+      "intelligence": 25,
+      "social": 87,
+      "financialSense": 69,
+      "discipline": 31,
+      "energy": 28,
+      "risk": 81
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "guardian"
+    ]
+  },
+  {
+    "id": "class_chaotic_broker",
+    "name": {
+      "en": "Chaotic Broker",
+      "fr": "Chaotique Intermédiaire",
+      "es": "Caótico Mediador"
+    },
+    "idealProfile": {
+      "discipline": 41,
+      "creativity": 74,
+      "luck": 34,
+      "social": 47,
+      "emotionalControl": 80,
+      "chaos": 52
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "broker"
+    ]
+  },
+  {
+    "id": "class_chaotic_builder",
+    "name": {
+      "en": "Chaotic Builder",
+      "fr": "Chaotique Bâtisseur",
+      "es": "Caótico Constructor"
+    },
+    "idealProfile": {
+      "empathy": 39,
+      "discipline": 39,
+      "energy": 66,
+      "risk": 45,
+      "intelligence": 51,
+      "humor": 78
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "builder"
+    ]
+  },
+  {
+    "id": "class_chaotic_scout",
+    "name": {
+      "en": "Chaotic Scout",
+      "fr": "Chaotique Éclaireur",
+      "es": "Caótico Explorador"
+    },
+    "idealProfile": {
+      "discipline": 74,
+      "humor": 49,
+      "communication": 93,
+      "emotionalControl": 55,
+      "risk": 38,
+      "professionalism": 86
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "scout"
+    ]
+  },
+  {
+    "id": "class_chaotic_operator",
+    "name": {
+      "en": "Chaotic Operator",
+      "fr": "Chaotique Opérateur",
+      "es": "Caótico Operador"
+    },
+    "idealProfile": {
+      "humor": 29,
+      "social": 76,
+      "luck": 47,
+      "professionalism": 82,
+      "creativity": 35,
+      "chaos": 41
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "operator"
+    ]
+  },
+  {
+    "id": "class_methodical_tactician",
+    "name": {
+      "en": "Methodical Tactician",
+      "fr": "Méthodique Tacticien",
+      "es": "Metódico Táctico"
+    },
+    "idealProfile": {
+      "humor": 34,
+      "risk": 41,
+      "professionalism": 86,
+      "discipline": 79,
+      "emotionalControl": 46,
+      "communication": 91
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "tactician"
+    ]
+  },
+  {
+    "id": "class_methodical_explorer",
+    "name": {
+      "en": "Methodical Explorer",
+      "fr": "Méthodique Explorateur",
+      "es": "Metódico Explorador"
+    },
+    "idealProfile": {
+      "creativity": 58,
+      "risk": 88,
+      "communication": 32,
+      "humor": 64,
+      "luck": 94,
+      "professionalism": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "explorer"
+    ]
+  },
+  {
+    "id": "class_methodical_fixer",
+    "name": {
+      "en": "Methodical Fixer",
+      "fr": "Méthodique Dépanneur",
+      "es": "Metódico Solucionador"
+    },
+    "idealProfile": {
+      "energy": 44,
+      "social": 46,
+      "ambition": 69,
+      "creativity": 50,
+      "financialSense": 65,
+      "discipline": 75
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "fixer"
+    ]
+  },
+  {
+    "id": "class_methodical_analyst",
+    "name": {
+      "en": "Methodical Analyst",
+      "fr": "Méthodique Analyste",
+      "es": "Metódico Analista"
+    },
+    "idealProfile": {
+      "emotionalControl": 46,
+      "discipline": 28,
+      "humor": 94,
+      "communication": 94,
+      "risk": 58,
+      "professionalism": 40
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "analyst"
+    ]
+  },
+  {
+    "id": "class_methodical_catalyst",
+    "name": {
+      "en": "Methodical Catalyst",
+      "fr": "Méthodique Catalyseur",
+      "es": "Metódico Catalizador"
+    },
+    "idealProfile": {
+      "intelligence": 83,
+      "social": 65,
+      "financialSense": 69,
+      "discipline": 89,
+      "energy": 77,
+      "risk": 81
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "catalyst"
+    ]
+  },
+  {
+    "id": "class_methodical_guardian",
+    "name": {
+      "en": "Methodical Guardian",
+      "fr": "Méthodique Gardien",
+      "es": "Metódico Guardián"
+    },
+    "idealProfile": {
+      "financialSense": 86,
+      "creativity": 54,
+      "empathy": 55,
+      "humor": 92,
+      "ambition": 59,
+      "social": 61
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "guardian"
+    ]
+  },
+  {
+    "id": "class_methodical_broker",
+    "name": {
+      "en": "Methodical Broker",
+      "fr": "Méthodique Intermédiaire",
+      "es": "Metódico Mediador"
+    },
+    "idealProfile": {
+      "ambition": 93,
+      "risk": 92,
+      "intelligence": 50,
+      "humor": 28,
+      "empathy": 33,
+      "creativity": 62
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "broker"
+    ]
+  },
+  {
+    "id": "class_methodical_builder",
+    "name": {
+      "en": "Methodical Builder",
+      "fr": "Méthodique Bâtisseur",
+      "es": "Metódico Constructor"
+    },
+    "idealProfile": {
+      "chaos": 27,
+      "social": 76,
+      "risk": 94,
+      "emotionalControl": 46,
+      "discipline": 39,
+      "communication": 88
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "builder"
+    ]
+  },
+  {
+    "id": "class_methodical_scout",
+    "name": {
+      "en": "Methodical Scout",
+      "fr": "Méthodique Éclaireur",
+      "es": "Metódico Explorador"
+    },
+    "idealProfile": {
+      "discipline": 69,
+      "social": 89,
+      "emotionalControl": 52,
+      "creativity": 71,
+      "luck": 81,
+      "chaos": 83
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "scout"
+    ]
+  },
+  {
+    "id": "class_methodical_operator",
+    "name": {
+      "en": "Methodical Operator",
+      "fr": "Méthodique Opérateur",
+      "es": "Metódico Operador"
+    },
+    "idealProfile": {
+      "energy": 80,
+      "discipline": 78,
+      "empathy": 36,
+      "intelligence": 28,
+      "humor": 86,
+      "risk": 25
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "operator"
+    ]
+  },
+  {
+    "id": "class_relentless_tactician",
+    "name": {
+      "en": "Relentless Tactician",
+      "fr": "Tenace Tacticien",
+      "es": "Implacable Táctico"
+    },
+    "idealProfile": {
+      "ambition": 24,
+      "humor": 83,
+      "intelligence": 54,
+      "risk": 30,
+      "empathy": 24,
+      "creativity": 60
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "tactician"
+    ]
+  },
+  {
+    "id": "class_relentless_explorer",
+    "name": {
+      "en": "Relentless Explorer",
+      "fr": "Tenace Explorateur",
+      "es": "Implacable Explorador"
+    },
+    "idealProfile": {
+      "energy": 32,
+      "social": 76,
+      "ambition": 67,
+      "creativity": 38,
+      "financialSense": 66,
+      "discipline": 73
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "explorer"
+    ]
+  },
+  {
+    "id": "class_relentless_fixer",
+    "name": {
+      "en": "Relentless Fixer",
+      "fr": "Tenace Dépanneur",
+      "es": "Implacable Solucionador"
+    },
+    "idealProfile": {
+      "emotionalControl": 80,
+      "humor": 93,
+      "risk": 45,
+      "professionalism": 75,
+      "discipline": 86,
+      "communication": 27
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "fixer"
+    ]
+  },
+  {
+    "id": "class_relentless_analyst",
+    "name": {
+      "en": "Relentless Analyst",
+      "fr": "Tenace Analyste",
+      "es": "Implacable Analista"
+    },
+    "idealProfile": {
+      "financialSense": 81,
+      "social": 29,
+      "intelligence": 41,
+      "energy": 35,
+      "risk": 87,
+      "discipline": 47
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "analyst"
+    ]
+  },
+  {
+    "id": "class_relentless_catalyst",
+    "name": {
+      "en": "Relentless Catalyst",
+      "fr": "Tenace Catalyseur",
+      "es": "Implacable Catalizador"
+    },
+    "idealProfile": {
+      "social": 37,
+      "creativity": 43,
+      "chaos": 93,
+      "humor": 57,
+      "professionalism": 49,
+      "luck": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "catalyst"
+    ]
+  },
+  {
+    "id": "class_relentless_guardian",
+    "name": {
+      "en": "Relentless Guardian",
+      "fr": "Tenace Gardien",
+      "es": "Implacable Guardián"
+    },
+    "idealProfile": {
+      "chaos": 72,
+      "social": 86,
+      "risk": 58,
+      "emotionalControl": 40,
+      "discipline": 84,
+      "communication": 27
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "guardian"
+    ]
+  },
+  {
+    "id": "class_relentless_broker",
+    "name": {
+      "en": "Relentless Broker",
+      "fr": "Tenace Intermédiaire",
+      "es": "Implacable Mediador"
+    },
+    "idealProfile": {
+      "creativity": 78,
+      "discipline": 87,
+      "chaos": 52,
+      "luck": 93,
+      "social": 90,
+      "emotionalControl": 90
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "broker"
+    ]
+  },
+  {
+    "id": "class_relentless_builder",
+    "name": {
+      "en": "Relentless Builder",
+      "fr": "Tenace Bâtisseur",
+      "es": "Implacable Constructor"
+    },
+    "idealProfile": {
+      "communication": 91,
+      "humor": 32,
+      "discipline": 81,
+      "emotionalControl": 72,
+      "risk": 38,
+      "professionalism": 87
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "builder"
+    ]
+  },
+  {
+    "id": "class_relentless_scout",
+    "name": {
+      "en": "Relentless Scout",
+      "fr": "Tenace Éclaireur",
+      "es": "Implacable Explorador"
+    },
+    "idealProfile": {
+      "financialSense": 80,
+      "creativity": 80,
+      "empathy": 55,
+      "humor": 86,
+      "ambition": 60,
+      "social": 61
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "scout"
+    ]
+  },
+  {
+    "id": "class_relentless_operator",
+    "name": {
+      "en": "Relentless Operator",
+      "fr": "Tenace Opérateur",
+      "es": "Implacable Operador"
+    },
+    "idealProfile": {
+      "social": 58,
+      "humor": 70,
+      "professionalism": 49,
+      "creativity": 64,
+      "chaos": 76,
+      "luck": 67
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "operator"
+    ]
+  },
+  {
+    "id": "class_diplomatic_tactician",
+    "name": {
+      "en": "Diplomatic Tactician",
+      "fr": "Diplomate Tacticien",
+      "es": "Diplomático Táctico"
+    },
+    "idealProfile": {
+      "humor": 52,
+      "discipline": 50,
+      "emotionalControl": 53,
+      "risk": 58,
+      "professionalism": 56,
+      "communication": 71
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "tactician"
+    ]
+  },
+  {
+    "id": "class_diplomatic_explorer",
+    "name": {
+      "en": "Diplomatic Explorer",
+      "fr": "Diplomate Explorateur",
+      "es": "Diplomático Explorador"
+    },
+    "idealProfile": {
+      "humor": 25,
+      "social": 63,
+      "luck": 27,
+      "professionalism": 69,
+      "creativity": 50,
+      "chaos": 37
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "explorer"
+    ]
+  },
+  {
+    "id": "class_diplomatic_fixer",
+    "name": {
+      "en": "Diplomatic Fixer",
+      "fr": "Diplomate Dépanneur",
+      "es": "Diplomático Solucionador"
+    },
+    "idealProfile": {
+      "chaos": 90,
+      "social": 38,
+      "risk": 24,
+      "emotionalControl": 52,
+      "discipline": 31,
+      "communication": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "fixer"
+    ]
+  },
+  {
+    "id": "class_diplomatic_analyst",
+    "name": {
+      "en": "Diplomatic Analyst",
+      "fr": "Diplomate Analyste",
+      "es": "Diplomático Analista"
+    },
+    "idealProfile": {
+      "financialSense": 52,
+      "humor": 55,
+      "empathy": 51,
+      "creativity": 58,
+      "ambition": 67,
+      "social": 63
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "analyst"
+    ]
+  },
+  {
+    "id": "class_diplomatic_catalyst",
+    "name": {
+      "en": "Diplomatic Catalyst",
+      "fr": "Diplomate Catalyseur",
+      "es": "Diplomático Catalizador"
+    },
+    "idealProfile": {
+      "humor": 50,
+      "social": 84,
+      "luck": 83,
+      "professionalism": 90,
+      "creativity": 71,
+      "chaos": 62
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "catalyst"
+    ]
+  },
+  {
+    "id": "class_diplomatic_guardian",
+    "name": {
+      "en": "Diplomatic Guardian",
+      "fr": "Diplomate Gardien",
+      "es": "Diplomático Guardián"
+    },
+    "idealProfile": {
+      "empathy": 50,
+      "discipline": 75,
+      "energy": 49,
+      "risk": 56,
+      "intelligence": 87,
+      "humor": 61
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "guardian"
+    ]
+  },
+  {
+    "id": "class_diplomatic_broker",
+    "name": {
+      "en": "Diplomatic Broker",
+      "fr": "Diplomate Intermédiaire",
+      "es": "Diplomático Mediador"
+    },
+    "idealProfile": {
+      "humor": 52,
+      "social": 48,
+      "luck": 66,
+      "professionalism": 54,
+      "creativity": 73,
+      "chaos": 64
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "broker"
+    ]
+  },
+  {
+    "id": "class_diplomatic_builder",
+    "name": {
+      "en": "Diplomatic Builder",
+      "fr": "Diplomate Bâtisseur",
+      "es": "Diplomático Constructor"
+    },
+    "idealProfile": {
+      "intelligence": 81,
+      "social": 33,
+      "financialSense": 61,
+      "discipline": 87,
+      "energy": 45,
+      "risk": 73
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "builder"
+    ]
+  },
+  {
+    "id": "class_diplomatic_scout",
+    "name": {
+      "en": "Diplomatic Scout",
+      "fr": "Diplomate Éclaireur",
+      "es": "Diplomático Explorador"
+    },
+    "idealProfile": {
+      "financialSense": 46,
+      "humor": 77,
+      "empathy": 47,
+      "creativity": 52,
+      "ambition": 89,
+      "social": 59
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "scout"
+    ]
+  },
+  {
+    "id": "class_diplomatic_operator",
+    "name": {
+      "en": "Diplomatic Operator",
+      "fr": "Diplomate Opérateur",
+      "es": "Diplomático Operador"
+    },
+    "idealProfile": {
+      "discipline": 27,
+      "creativity": 52,
+      "luck": 26,
+      "social": 33,
+      "emotionalControl": 58,
+      "chaos": 44
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "operator"
+    ]
+  },
+  {
+    "id": "class_curious_tactician",
+    "name": {
+      "en": "Curious Tactician",
+      "fr": "Curieux Tacticien",
+      "es": "Curioso Táctico"
+    },
+    "idealProfile": {
+      "chaos": 32,
+      "risk": 59,
+      "discipline": 24,
+      "communication": 88,
+      "social": 38,
+      "emotionalControl": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "tactician"
+    ]
+  },
+  {
+    "id": "class_curious_explorer",
+    "name": {
+      "en": "Curious Explorer",
+      "fr": "Curieux Explorateur",
+      "es": "Curioso Explorador"
+    },
+    "idealProfile": {
+      "chaos": 34,
+      "social": 48,
+      "risk": 31,
+      "emotionalControl": 92,
+      "discipline": 46,
+      "communication": 60
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "explorer"
+    ]
+  },
+  {
+    "id": "class_curious_fixer",
+    "name": {
+      "en": "Curious Fixer",
+      "fr": "Curieux Dépanneur",
+      "es": "Curioso Solucionador"
+    },
+    "idealProfile": {
+      "communication": 37,
+      "creativity": 61,
+      "humor": 44,
+      "luck": 33,
+      "risk": 43,
+      "professionalism": 55
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "fixer"
+    ]
+  },
+  {
+    "id": "class_curious_analyst",
+    "name": {
+      "en": "Curious Analyst",
+      "fr": "Curieux Analyste",
+      "es": "Curioso Analista"
+    },
+    "idealProfile": {
+      "discipline": 30,
+      "social": 94,
+      "emotionalControl": 87,
+      "creativity": 34,
+      "luck": 42,
+      "chaos": 46
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "analyst"
+    ]
+  },
+  {
+    "id": "class_curious_catalyst",
+    "name": {
+      "en": "Curious Catalyst",
+      "fr": "Curieux Catalyseur",
+      "es": "Curioso Catalizador"
+    },
+    "idealProfile": {
+      "ambition": 36,
+      "risk": 70,
+      "intelligence": 49,
+      "humor": 42,
+      "empathy": 82,
+      "creativity": 61
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "catalyst"
+    ]
+  },
+  {
+    "id": "class_curious_guardian",
+    "name": {
+      "en": "Curious Guardian",
+      "fr": "Curieux Gardien",
+      "es": "Curioso Guardián"
+    },
+    "idealProfile": {
+      "communication": 42,
+      "risk": 39,
+      "creativity": 44,
+      "professionalism": 33,
+      "humor": 54,
+      "luck": 51
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "guardian"
+    ]
+  },
+  {
+    "id": "class_curious_broker",
+    "name": {
+      "en": "Curious Broker",
+      "fr": "Curieux Intermédiaire",
+      "es": "Curioso Mediador"
+    },
+    "idealProfile": {
+      "ambition": 59,
+      "creativity": 28,
+      "energy": 34,
+      "financialSense": 44,
+      "discipline": 65,
+      "social": 46
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "broker"
+    ]
+  },
+  {
+    "id": "class_curious_builder",
+    "name": {
+      "en": "Curious Builder",
+      "fr": "Curieux Bâtisseur",
+      "es": "Curioso Constructor"
+    },
+    "idealProfile": {
+      "discipline": 55,
+      "social": 28,
+      "emotionalControl": 25,
+      "creativity": 46,
+      "luck": 67,
+      "chaos": 58
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "builder"
+    ]
+  },
+  {
+    "id": "class_curious_scout",
+    "name": {
+      "en": "Curious Scout",
+      "fr": "Curieux Éclaireur",
+      "es": "Curioso Explorador"
+    },
+    "idealProfile": {
+      "emotionalControl": 57,
+      "discipline": 66,
+      "humor": 80,
+      "communication": 92,
+      "risk": 69,
+      "professionalism": 78
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "scout"
+    ]
+  },
+  {
+    "id": "class_curious_operator",
+    "name": {
+      "en": "Curious Operator",
+      "fr": "Curieux Opérateur",
+      "es": "Curioso Operador"
+    },
+    "idealProfile": {
+      "empathy": 82,
+      "discipline": 69,
+      "energy": 42,
+      "risk": 88,
+      "intelligence": 81,
+      "humor": 54
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "operator"
+    ]
+  },
+  {
+    "id": "class_stoic_tactician",
+    "name": {
+      "en": "Stoic Tactician",
+      "fr": "Stoïque Tacticien",
+      "es": "Estoico Táctico"
+    },
+    "idealProfile": {
+      "discipline": 82,
+      "social": 87,
+      "emotionalControl": 92,
+      "creativity": 34,
+      "luck": 94,
+      "chaos": 46
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "tactician"
+    ]
+  },
+  {
+    "id": "class_stoic_explorer",
+    "name": {
+      "en": "Stoic Explorer",
+      "fr": "Stoïque Explorateur",
+      "es": "Estoico Explorador"
+    },
+    "idealProfile": {
+      "creativity": 84,
+      "discipline": 85,
+      "chaos": 76,
+      "luck": 91,
+      "social": 69,
+      "emotionalControl": 25
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "explorer"
+    ]
+  },
+  {
+    "id": "class_stoic_fixer",
+    "name": {
+      "en": "Stoic Fixer",
+      "fr": "Stoïque Dépanneur",
+      "es": "Estoico Solucionador"
+    },
+    "idealProfile": {
+      "discipline": 78,
+      "social": 78,
+      "emotionalControl": 80,
+      "creativity": 36,
+      "luck": 90,
+      "chaos": 48
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "fixer"
+    ]
+  },
+  {
+    "id": "class_stoic_analyst",
+    "name": {
+      "en": "Stoic Analyst",
+      "fr": "Stoïque Analyste",
+      "es": "Estoico Analista"
+    },
+    "idealProfile": {
+      "intelligence": 92,
+      "risk": 69,
+      "ambition": 89,
+      "empathy": 79,
+      "creativity": 27,
+      "humor": 87
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "analyst"
+    ]
+  },
+  {
+    "id": "class_stoic_catalyst",
+    "name": {
+      "en": "Stoic Catalyst",
+      "fr": "Stoïque Catalyseur",
+      "es": "Estoico Catalizador"
+    },
+    "idealProfile": {
+      "professionalism": 68,
+      "humor": 40,
+      "social": 35,
+      "luck": 79,
+      "creativity": 80,
+      "chaos": 52
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "catalyst"
+    ]
+  },
+  {
+    "id": "class_stoic_guardian",
+    "name": {
+      "en": "Stoic Guardian",
+      "fr": "Stoïque Gardien",
+      "es": "Estoico Guardián"
+    },
+    "idealProfile": {
+      "professionalism": 58,
+      "humor": 35,
+      "social": 77,
+      "luck": 58,
+      "creativity": 70,
+      "chaos": 47
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "guardian"
+    ]
+  },
+  {
+    "id": "class_stoic_broker",
+    "name": {
+      "en": "Stoic Broker",
+      "fr": "Stoïque Intermédiaire",
+      "es": "Estoico Mediador"
+    },
+    "idealProfile": {
+      "empathy": 34,
+      "discipline": 56,
+      "energy": 71,
+      "risk": 40,
+      "intelligence": 68,
+      "humor": 83
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "broker"
+    ]
+  },
+  {
+    "id": "class_stoic_builder",
+    "name": {
+      "en": "Stoic Builder",
+      "fr": "Stoïque Bâtisseur",
+      "es": "Estoico Constructor"
+    },
+    "idealProfile": {
+      "risk": 86,
+      "creativity": 40,
+      "professionalism": 55,
+      "communication": 46,
+      "humor": 64,
+      "luck": 27
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "builder"
+    ]
+  },
+  {
+    "id": "class_stoic_scout",
+    "name": {
+      "en": "Stoic Scout",
+      "fr": "Stoïque Éclaireur",
+      "es": "Estoico Explorador"
+    },
+    "idealProfile": {
+      "professionalism": 43,
+      "creativity": 39,
+      "risk": 92,
+      "communication": 61,
+      "humor": 45,
+      "luck": 27
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "scout"
+    ]
+  },
+  {
+    "id": "class_stoic_operator",
+    "name": {
+      "en": "Stoic Operator",
+      "fr": "Stoïque Opérateur",
+      "es": "Estoico Operador"
+    },
+    "idealProfile": {
+      "professionalism": 73,
+      "social": 89,
+      "creativity": 70,
+      "chaos": 74,
+      "humor": 79,
+      "luck": 91
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "operator"
+    ]
+  },
+  {
+    "id": "class_social_tactician",
+    "name": {
+      "en": "Social Tactician",
+      "fr": "Social Tacticien",
+      "es": "Social Táctico"
+    },
+    "idealProfile": {
+      "emotionalControl": 48,
+      "risk": 35,
+      "social": 70,
+      "chaos": 63,
+      "discipline": 41,
+      "communication": 76
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "tactician"
+    ]
+  },
+  {
+    "id": "class_social_explorer",
+    "name": {
+      "en": "Social Explorer",
+      "fr": "Social Explorateur",
+      "es": "Social Explorador"
+    },
+    "idealProfile": {
+      "discipline": 31,
+      "creativity": 52,
+      "luck": 68,
+      "social": 37,
+      "emotionalControl": 58,
+      "chaos": 86
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "explorer"
+    ]
+  },
+  {
+    "id": "class_social_fixer",
+    "name": {
+      "en": "Social Fixer",
+      "fr": "Social Dépanneur",
+      "es": "Social Solucionador"
+    },
+    "idealProfile": {
+      "communication": 50,
+      "risk": 39,
+      "creativity": 84,
+      "professionalism": 70,
+      "humor": 62,
+      "luck": 51
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "fixer"
+    ]
+  },
+  {
+    "id": "class_social_analyst",
+    "name": {
+      "en": "Social Analyst",
+      "fr": "Social Analyste",
+      "es": "Social Analista"
+    },
+    "idealProfile": {
+      "intelligence": 43,
+      "social": 46,
+      "financialSense": 37,
+      "discipline": 49,
+      "energy": 58,
+      "risk": 49
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "analyst"
+    ]
+  },
+  {
+    "id": "class_social_catalyst",
+    "name": {
+      "en": "Social Catalyst",
+      "fr": "Social Catalyseur",
+      "es": "Social Catalizador"
+    },
+    "idealProfile": {
+      "financialSense": 26,
+      "creativity": 41,
+      "empathy": 81,
+      "humor": 32,
+      "ambition": 94,
+      "social": 87
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "catalyst"
+    ]
+  },
+  {
+    "id": "class_social_guardian",
+    "name": {
+      "en": "Social Guardian",
+      "fr": "Social Gardien",
+      "es": "Social Guardián"
+    },
+    "idealProfile": {
+      "humor": 42,
+      "discipline": 68,
+      "emotionalControl": 64,
+      "risk": 48,
+      "professionalism": 74,
+      "communication": 82
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "guardian"
+    ]
+  },
+  {
+    "id": "class_social_broker",
+    "name": {
+      "en": "Social Broker",
+      "fr": "Social Intermédiaire",
+      "es": "Social Mediador"
+    },
+    "idealProfile": {
+      "intelligence": 93,
+      "discipline": 27,
+      "financialSense": 75,
+      "social": 28,
+      "energy": 54,
+      "risk": 81
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "broker"
+    ]
+  },
+  {
+    "id": "class_social_builder",
+    "name": {
+      "en": "Social Builder",
+      "fr": "Social Bâtisseur",
+      "es": "Social Constructor"
+    },
+    "idealProfile": {
+      "creativity": 67,
+      "risk": 80,
+      "communication": 47,
+      "humor": 73,
+      "luck": 86,
+      "professionalism": 65
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "builder"
+    ]
+  },
+  {
+    "id": "class_social_scout",
+    "name": {
+      "en": "Social Scout",
+      "fr": "Social Éclaireur",
+      "es": "Social Explorador"
+    },
+    "idealProfile": {
+      "intelligence": 83,
+      "social": 91,
+      "financialSense": 63,
+      "discipline": 89,
+      "energy": 32,
+      "risk": 75
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "scout"
+    ]
+  },
+  {
+    "id": "class_social_operator",
+    "name": {
+      "en": "Social Operator",
+      "fr": "Social Opérateur",
+      "es": "Social Operador"
+    },
+    "idealProfile": {
+      "communication": 43,
+      "creativity": 41,
+      "humor": 81,
+      "luck": 63,
+      "risk": 49,
+      "professionalism": 61
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "operator"
+    ]
+  },
+  {
+    "id": "class_improvised_tactician",
+    "name": {
+      "en": "Improvised Tactician",
+      "fr": "Improvisé Tacticien",
+      "es": "Improvisado Táctico"
+    },
+    "idealProfile": {
+      "ambition": 70,
+      "risk": 86,
+      "intelligence": 30,
+      "humor": 76,
+      "empathy": 27,
+      "creativity": 42
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "tactician"
+    ]
+  },
+  {
+    "id": "class_improvised_explorer",
+    "name": {
+      "en": "Improvised Explorer",
+      "fr": "Improvisé Explorateur",
+      "es": "Improvisado Explorador"
+    },
+    "idealProfile": {
+      "discipline": 25,
+      "social": 32,
+      "emotionalControl": 68,
+      "creativity": 36,
+      "luck": 37,
+      "chaos": 48
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "explorer"
+    ]
+  },
+  {
+    "id": "class_improvised_fixer",
+    "name": {
+      "en": "Improvised Fixer",
+      "fr": "Improvisé Dépanneur",
+      "es": "Improvisado Solucionador"
+    },
+    "idealProfile": {
+      "emotionalControl": 90,
+      "risk": 78,
+      "social": 85,
+      "chaos": 52,
+      "discipline": 84,
+      "communication": 91
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "fixer"
+    ]
+  },
+  {
+    "id": "class_improvised_analyst",
+    "name": {
+      "en": "Improvised Analyst",
+      "fr": "Improvisé Analyste",
+      "es": "Improvisado Analista"
+    },
+    "idealProfile": {
+      "creativity": 58,
+      "risk": 90,
+      "communication": 83,
+      "humor": 64,
+      "luck": 25,
+      "professionalism": 30
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "analyst"
+    ]
+  },
+  {
+    "id": "class_improvised_catalyst",
+    "name": {
+      "en": "Improvised Catalyst",
+      "fr": "Improvisé Catalyseur",
+      "es": "Improvisado Catalizador"
+    },
+    "idealProfile": {
+      "discipline": 49,
+      "social": 59,
+      "emotionalControl": 91,
+      "creativity": 46,
+      "luck": 61,
+      "chaos": 58
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "catalyst"
+    ]
+  },
+  {
+    "id": "class_improvised_guardian",
+    "name": {
+      "en": "Improvised Guardian",
+      "fr": "Improvisé Gardien",
+      "es": "Improvisado Guardián"
+    },
+    "idealProfile": {
+      "ambition": 62,
+      "creativity": 35,
+      "energy": 90,
+      "financialSense": 92,
+      "discipline": 68,
+      "social": 53
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "guardian"
+    ]
+  },
+  {
+    "id": "class_improvised_broker",
+    "name": {
+      "en": "Improvised Broker",
+      "fr": "Improvisé Intermédiaire",
+      "es": "Improvisado Mediador"
+    },
+    "idealProfile": {
+      "chaos": 31,
+      "discipline": 94,
+      "creativity": 81,
+      "luck": 47,
+      "social": 29,
+      "emotionalControl": 87
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "broker"
+    ]
+  },
+  {
+    "id": "class_improvised_builder",
+    "name": {
+      "en": "Improvised Builder",
+      "fr": "Improvisé Bâtisseur",
+      "es": "Improvisado Constructor"
+    },
+    "idealProfile": {
+      "creativity": 29,
+      "humor": 81,
+      "luck": 83,
+      "risk": 48,
+      "communication": 41,
+      "professionalism": 60
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "builder"
+    ]
+  },
+  {
+    "id": "class_improvised_scout",
+    "name": {
+      "en": "Improvised Scout",
+      "fr": "Improvisé Éclaireur",
+      "es": "Improvisado Explorador"
+    },
+    "idealProfile": {
+      "chaos": 73,
+      "social": 62,
+      "risk": 66,
+      "emotionalControl": 58,
+      "discipline": 85,
+      "communication": 74
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "scout"
+    ]
+  },
+  {
+    "id": "class_improvised_operator",
+    "name": {
+      "en": "Improvised Operator",
+      "fr": "Improvisé Opérateur",
+      "es": "Improvisado Operador"
+    },
+    "idealProfile": {
+      "risk": 37,
+      "creativity": 34,
+      "professionalism": 70,
+      "communication": 40,
+      "humor": 44,
+      "luck": 49
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "operator"
+    ]
+  },
+  {
+    "id": "class_strategic_tactician",
+    "name": {
+      "en": "Strategic Tactician",
+      "fr": "Stratégique Tacticien",
+      "es": "Estratégico Táctico"
+    },
+    "idealProfile": {
+      "chaos": 70,
+      "discipline": 55,
+      "creativity": 44,
+      "luck": 55,
+      "social": 61,
+      "emotionalControl": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "tactician"
+    ]
+  },
+  {
+    "id": "class_strategic_explorer",
+    "name": {
+      "en": "Strategic Explorer",
+      "fr": "Stratégique Explorateur",
+      "es": "Estratégico Explorador"
+    },
+    "idealProfile": {
+      "risk": 43,
+      "creativity": 68,
+      "professionalism": 27,
+      "communication": 74,
+      "humor": 61,
+      "luck": 55
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "explorer"
+    ]
+  },
+  {
+    "id": "class_strategic_fixer",
+    "name": {
+      "en": "Strategic Fixer",
+      "fr": "Stratégique Dépanneur",
+      "es": "Estratégico Solucionador"
+    },
+    "idealProfile": {
+      "social": 62,
+      "creativity": 46,
+      "chaos": 39,
+      "humor": 44,
+      "professionalism": 74,
+      "luck": 56
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "fixer"
+    ]
+  },
+  {
+    "id": "class_strategic_analyst",
+    "name": {
+      "en": "Strategic Analyst",
+      "fr": "Stratégique Analyste",
+      "es": "Estratégico Analista"
+    },
+    "idealProfile": {
+      "communication": 64,
+      "humor": 82,
+      "discipline": 74,
+      "emotionalControl": 47,
+      "risk": 88,
+      "professionalism": 80
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "analyst"
+    ]
+  },
+  {
+    "id": "class_strategic_catalyst",
+    "name": {
+      "en": "Strategic Catalyst",
+      "fr": "Stratégique Catalyseur",
+      "es": "Estratégico Catalizador"
+    },
+    "idealProfile": {
+      "emotionalControl": 37,
+      "discipline": 37,
+      "humor": 37,
+      "communication": 73,
+      "risk": 49,
+      "professionalism": 49
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "catalyst"
+    ]
+  },
+  {
+    "id": "class_strategic_guardian",
+    "name": {
+      "en": "Strategic Guardian",
+      "fr": "Stratégique Gardien",
+      "es": "Estratégico Guardián"
+    },
+    "idealProfile": {
+      "discipline": 91,
+      "social": 43,
+      "emotionalControl": 90,
+      "creativity": 77,
+      "luck": 32,
+      "chaos": 89
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "guardian"
+    ]
+  },
+  {
+    "id": "class_strategic_broker",
+    "name": {
+      "en": "Strategic Broker",
+      "fr": "Stratégique Intermédiaire",
+      "es": "Estratégico Mediador"
+    },
+    "idealProfile": {
+      "communication": 88,
+      "risk": 58,
+      "creativity": 42,
+      "professionalism": 37,
+      "humor": 29,
+      "luck": 70
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "broker"
+    ]
+  },
+  {
+    "id": "class_strategic_builder",
+    "name": {
+      "en": "Strategic Builder",
+      "fr": "Stratégique Bâtisseur",
+      "es": "Estratégico Constructor"
+    },
+    "idealProfile": {
+      "professionalism": 63,
+      "humor": 28,
+      "social": 48,
+      "luck": 69,
+      "creativity": 75,
+      "chaos": 40
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "builder"
+    ]
+  },
+  {
+    "id": "class_strategic_scout",
+    "name": {
+      "en": "Strategic Scout",
+      "fr": "Stratégique Éclaireur",
+      "es": "Estratégico Explorador"
+    },
+    "idealProfile": {
+      "energy": 44,
+      "discipline": 37,
+      "empathy": 61,
+      "intelligence": 31,
+      "humor": 50,
+      "risk": 55
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "scout"
+    ]
+  },
+  {
+    "id": "class_strategic_operator",
+    "name": {
+      "en": "Strategic Operator",
+      "fr": "Stratégique Opérateur",
+      "es": "Estratégico Operador"
+    },
+    "idealProfile": {
+      "communication": 40,
+      "humor": 28,
+      "discipline": 68,
+      "emotionalControl": 34,
+      "risk": 34,
+      "professionalism": 74
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "operator"
+    ]
+  },
+  {
+    "id": "class_patient_tactician",
+    "name": {
+      "en": "Patient Tactician",
+      "fr": "Patient Tacticien",
+      "es": "Paciente Táctico"
+    },
+    "idealProfile": {
+      "ambition": 74,
+      "creativity": 44,
+      "energy": 33,
+      "financialSense": 59,
+      "discipline": 80,
+      "social": 62
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "tactician"
+    ]
+  },
+  {
+    "id": "class_patient_explorer",
+    "name": {
+      "en": "Patient Explorer",
+      "fr": "Patient Explorateur",
+      "es": "Paciente Explorador"
+    },
+    "idealProfile": {
+      "discipline": 69,
+      "social": 62,
+      "emotionalControl": 27,
+      "creativity": 75,
+      "luck": 81,
+      "chaos": 87
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "explorer"
+    ]
+  },
+  {
+    "id": "class_patient_fixer",
+    "name": {
+      "en": "Patient Fixer",
+      "fr": "Patient Dépanneur",
+      "es": "Paciente Solucionador"
+    },
+    "idealProfile": {
+      "humor": 29,
+      "social": 41,
+      "luck": 26,
+      "professionalism": 47,
+      "creativity": 63,
+      "chaos": 41
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "fixer"
+    ]
+  },
+  {
+    "id": "class_patient_analyst",
+    "name": {
+      "en": "Patient Analyst",
+      "fr": "Patient Analyste",
+      "es": "Paciente Analista"
+    },
+    "idealProfile": {
+      "emotionalControl": 81,
+      "humor": 56,
+      "risk": 73,
+      "professionalism": 63,
+      "discipline": 87,
+      "communication": 28
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "analyst"
+    ]
+  },
+  {
+    "id": "class_patient_catalyst",
+    "name": {
+      "en": "Patient Catalyst",
+      "fr": "Patient Catalyseur",
+      "es": "Paciente Catalizador"
+    },
+    "idealProfile": {
+      "chaos": 87,
+      "discipline": 94,
+      "creativity": 61,
+      "luck": 51,
+      "social": 29,
+      "emotionalControl": 67
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "catalyst"
+    ]
+  },
+  {
+    "id": "class_patient_guardian",
+    "name": {
+      "en": "Patient Guardian",
+      "fr": "Patient Gardien",
+      "es": "Paciente Guardián"
+    },
+    "idealProfile": {
+      "luck": 80,
+      "discipline": 25,
+      "social": 41,
+      "emotionalControl": 73,
+      "creativity": 86,
+      "chaos": 27
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "guardian"
+    ]
+  },
+  {
+    "id": "class_patient_broker",
+    "name": {
+      "en": "Patient Broker",
+      "fr": "Patient Intermédiaire",
+      "es": "Paciente Mediador"
+    },
+    "idealProfile": {
+      "chaos": 77,
+      "discipline": 93,
+      "creativity": 83,
+      "luck": 70,
+      "social": 28,
+      "emotionalControl": 89
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "broker"
+    ]
+  },
+  {
+    "id": "class_patient_builder",
+    "name": {
+      "en": "Patient Builder",
+      "fr": "Patient Bâtisseur",
+      "es": "Paciente Constructor"
+    },
+    "idealProfile": {
+      "energy": 88,
+      "creativity": 51,
+      "ambition": 48,
+      "social": 94,
+      "financialSense": 63,
+      "discipline": 60
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "builder"
+    ]
+  },
+  {
+    "id": "class_patient_scout",
+    "name": {
+      "en": "Patient Scout",
+      "fr": "Patient Éclaireur",
+      "es": "Paciente Explorador"
+    },
+    "idealProfile": {
+      "emotionalControl": 48,
+      "humor": 70,
+      "risk": 84,
+      "professionalism": 30,
+      "discipline": 54,
+      "communication": 66
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "scout"
+    ]
+  },
+  {
+    "id": "class_patient_operator",
+    "name": {
+      "en": "Patient Operator",
+      "fr": "Patient Opérateur",
+      "es": "Paciente Operador"
+    },
+    "idealProfile": {
+      "financialSense": 33,
+      "creativity": 59,
+      "empathy": 28,
+      "humor": 39,
+      "ambition": 48,
+      "social": 34
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "operator"
+    ]
+  },
+  {
+    "id": "class_restless_tactician",
+    "name": {
+      "en": "Restless Tactician",
+      "fr": "Agité Tacticien",
+      "es": "Inquieto Táctico"
+    },
+    "idealProfile": {
+      "emotionalControl": 71,
+      "risk": 24,
+      "social": 76,
+      "chaos": 76,
+      "discipline": 30,
+      "communication": 82
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "tactician"
+    ]
+  },
+  {
+    "id": "class_restless_explorer",
+    "name": {
+      "en": "Restless Explorer",
+      "fr": "Agité Explorateur",
+      "es": "Inquieto Explorador"
+    },
+    "idealProfile": {
+      "financialSense": 24,
+      "social": 45,
+      "intelligence": 30,
+      "energy": 30,
+      "risk": 30,
+      "discipline": 63
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "explorer"
+    ]
+  },
+  {
+    "id": "class_restless_fixer",
+    "name": {
+      "en": "Restless Fixer",
+      "fr": "Agité Dépanneur",
+      "es": "Inquieto Solucionador"
+    },
+    "idealProfile": {
+      "social": 81,
+      "risk": 65,
+      "emotionalControl": 71,
+      "chaos": 71,
+      "discipline": 46,
+      "communication": 93
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "fixer"
+    ]
+  },
+  {
+    "id": "class_restless_analyst",
+    "name": {
+      "en": "Restless Analyst",
+      "fr": "Agité Analyste",
+      "es": "Inquieto Analista"
+    },
+    "idealProfile": {
+      "professionalism": 94,
+      "humor": 27,
+      "social": 94,
+      "luck": 77,
+      "creativity": 35,
+      "chaos": 39
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "analyst"
+    ]
+  },
+  {
+    "id": "class_restless_catalyst",
+    "name": {
+      "en": "Restless Catalyst",
+      "fr": "Agité Catalyseur",
+      "es": "Inquieto Catalizador"
+    },
+    "idealProfile": {
+      "intelligence": 44,
+      "risk": 54,
+      "ambition": 46,
+      "empathy": 69,
+      "creativity": 50,
+      "humor": 72
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "catalyst"
+    ]
+  },
+  {
+    "id": "class_restless_guardian",
+    "name": {
+      "en": "Restless Guardian",
+      "fr": "Agité Gardien",
+      "es": "Inquieto Guardián"
+    },
+    "idealProfile": {
+      "professionalism": 46,
+      "social": 32,
+      "creativity": 54,
+      "chaos": 80,
+      "humor": 52,
+      "luck": 64
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "guardian"
+    ]
+  },
+  {
+    "id": "class_restless_broker",
+    "name": {
+      "en": "Restless Broker",
+      "fr": "Agité Intermédiaire",
+      "es": "Inquieto Mediador"
+    },
+    "idealProfile": {
+      "chaos": 88,
+      "risk": 25,
+      "discipline": 45,
+      "communication": 66,
+      "social": 94,
+      "emotionalControl": 35
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "broker"
+    ]
+  },
+  {
+    "id": "class_restless_builder",
+    "name": {
+      "en": "Restless Builder",
+      "fr": "Agité Bâtisseur",
+      "es": "Inquieto Constructor"
+    },
+    "idealProfile": {
+      "luck": 51,
+      "creativity": 52,
+      "discipline": 64,
+      "chaos": 56,
+      "social": 63,
+      "emotionalControl": 64
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "builder"
+    ]
+  },
+  {
+    "id": "class_restless_scout",
+    "name": {
+      "en": "Restless Scout",
+      "fr": "Agité Éclaireur",
+      "es": "Inquieto Explorador"
+    },
+    "idealProfile": {
+      "empathy": 80,
+      "risk": 93,
+      "energy": 75,
+      "discipline": 86,
+      "intelligence": 38,
+      "humor": 81
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "scout"
+    ]
+  },
+  {
+    "id": "class_restless_operator",
+    "name": {
+      "en": "Restless Operator",
+      "fr": "Agité Opérateur",
+      "es": "Inquieto Operador"
+    },
+    "idealProfile": {
+      "chaos": 45,
+      "discipline": 37,
+      "creativity": 92,
+      "luck": 50,
+      "social": 43,
+      "emotionalControl": 27
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "operator"
+    ]
+  },
+  {
+    "id": "class_precise_tactician",
+    "name": {
+      "en": "Precise Tactician",
+      "fr": "Précis Tacticien",
+      "es": "Preciso Táctico"
+    },
+    "idealProfile": {
+      "creativity": 89,
+      "humor": 34,
+      "luck": 46,
+      "risk": 69,
+      "communication": 30,
+      "professionalism": 81
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "tactician"
+    ]
+  },
+  {
+    "id": "class_precise_explorer",
+    "name": {
+      "en": "Precise Explorer",
+      "fr": "Précis Explorateur",
+      "es": "Preciso Explorador"
+    },
+    "idealProfile": {
+      "chaos": 85,
+      "risk": 71,
+      "discipline": 45,
+      "communication": 53,
+      "social": 91,
+      "emotionalControl": 32
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "explorer"
+    ]
+  },
+  {
+    "id": "class_precise_fixer",
+    "name": {
+      "en": "Precise Fixer",
+      "fr": "Précis Dépanneur",
+      "es": "Preciso Solucionador"
+    },
+    "idealProfile": {
+      "professionalism": 45,
+      "social": 32,
+      "creativity": 28,
+      "chaos": 41,
+      "humor": 51,
+      "luck": 63
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "fixer"
+    ]
+  },
+  {
+    "id": "class_precise_analyst",
+    "name": {
+      "en": "Precise Analyst",
+      "fr": "Précis Analyste",
+      "es": "Preciso Analista"
+    },
+    "idealProfile": {
+      "luck": 58,
+      "creativity": 66,
+      "discipline": 67,
+      "chaos": 74,
+      "social": 70,
+      "emotionalControl": 78
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "analyst"
+    ]
+  },
+  {
+    "id": "class_precise_catalyst",
+    "name": {
+      "en": "Precise Catalyst",
+      "fr": "Précis Catalyseur",
+      "es": "Preciso Catalizador"
+    },
+    "idealProfile": {
+      "communication": 50,
+      "humor": 90,
+      "discipline": 87,
+      "emotionalControl": 70,
+      "risk": 25,
+      "professionalism": 93
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "catalyst"
+    ]
+  },
+  {
+    "id": "class_precise_guardian",
+    "name": {
+      "en": "Precise Guardian",
+      "fr": "Précis Gardien",
+      "es": "Preciso Guardián"
+    },
+    "idealProfile": {
+      "intelligence": 57,
+      "risk": 70,
+      "ambition": 53,
+      "empathy": 62,
+      "creativity": 63,
+      "humor": 88
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "guardian"
+    ]
+  },
+  {
+    "id": "class_precise_broker",
+    "name": {
+      "en": "Precise Broker",
+      "fr": "Précis Intermédiaire",
+      "es": "Preciso Mediador"
+    },
+    "idealProfile": {
+      "humor": 64,
+      "social": 91,
+      "luck": 92,
+      "professionalism": 26,
+      "creativity": 78,
+      "chaos": 76
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "broker"
+    ]
+  },
+  {
+    "id": "class_precise_builder",
+    "name": {
+      "en": "Precise Builder",
+      "fr": "Précis Bâtisseur",
+      "es": "Preciso Constructor"
+    },
+    "idealProfile": {
+      "emotionalControl": 54,
+      "discipline": 73,
+      "humor": 27,
+      "communication": 75,
+      "risk": 66,
+      "professionalism": 85
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "builder"
+    ]
+  },
+  {
+    "id": "class_precise_scout",
+    "name": {
+      "en": "Precise Scout",
+      "fr": "Précis Éclaireur",
+      "es": "Preciso Explorador"
+    },
+    "idealProfile": {
+      "ambition": 91,
+      "risk": 87,
+      "intelligence": 65,
+      "humor": 26,
+      "empathy": 28,
+      "creativity": 77
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "scout"
+    ]
+  },
+  {
+    "id": "class_precise_operator",
+    "name": {
+      "en": "Precise Operator",
+      "fr": "Précis Opérateur",
+      "es": "Preciso Operador"
+    },
+    "idealProfile": {
+      "energy": 85,
+      "social": 42,
+      "ambition": 82,
+      "creativity": 91,
+      "financialSense": 41,
+      "discipline": 88
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "operator"
+    ]
   }
 ]
