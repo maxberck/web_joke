@@ -1,13 +1,3593 @@
 [
-  { "id": "animal_raccoon", "name": { "en": "Raccoon", "fr": "Raton laveur", "es": "Mapache" }, "description": { "en": "Ingenious under pressure, slightly chaotic, and somehow always finds the useful thing nobody else noticed.", "fr": "Ingénieux sous pression, légèrement chaotique, et toujours capable de trouver le truc utile que personne n'avait vu.", "es": "Ingenioso bajo presión, un poco caótico y siempre capaz de encontrar lo útil que nadie había visto." }, "idealProfile": { "intelligence": 82, "creativity": 80, "chaos": 78, "discipline": 30 } },
-  { "id": "animal_cat", "name": { "en": "Cat", "fr": "Chat", "es": "Gato" }, "description": { "en": "Independent, selective with attention, and mysteriously present exactly when something interesting happens.", "fr": "Indépendant, très sélectif avec son attention, et mystérieusement présent dès qu'il se passe quelque chose d'intéressant.", "es": "Independiente, muy selectivo con su atención y misteriosamente presente cuando pasa algo interesante." }, "idealProfile": { "social": 45, "emotionalControl": 78, "ambition": 55, "empathy": 40 } },
-  { "id": "animal_golden_retriever", "name": { "en": "Golden Retriever", "fr": "Golden Retriever", "es": "Golden Retriever" }, "description": { "en": "Friendly, energetic, and genuinely convinced the group project can still be saved with enough enthusiasm.", "fr": "Sociable, énergique, et sincèrement convaincu qu'on peut encore sauver le projet de groupe avec assez d'enthousiasme.", "es": "Sociable, enérgico y sinceramente convencido de que el trabajo en grupo aún puede salvarse con suficiente entusiasmo." }, "idealProfile": { "social": 85, "empathy": 82, "energy": 80, "risk": 25 } },
-  { "id": "animal_crow", "name": { "en": "Crow", "fr": "Corneille", "es": "Cuervo" }, "description": { "en": "Observant, clever, and remembers both the shortcut and the person who said it would never work.", "fr": "Observateur, malin, et se souvient à la fois du raccourci et de la personne qui disait que ça ne marcherait jamais.", "es": "Observador, listo y recuerda tanto el atajo como a quien dijo que nunca funcionaría." }, "idealProfile": { "intelligence": 85, "creativity": 78, "risk": 55, "social": 40 } },
-  { "id": "animal_owl", "name": { "en": "Owl", "fr": "Hibou", "es": "Búho" }, "description": { "en": "Quietly analyzes everything, says little, then drops the one sentence that makes everyone reconsider the whole plan.", "fr": "Analyse tout en silence, parle peu, puis lâche la phrase qui oblige tout le monde à revoir le plan entier.", "es": "Analiza todo en silencio, habla poco y luego suelta la frase que obliga a replantear todo el plan." }, "idealProfile": { "intelligence": 82, "emotionalControl": 72, "social": 30, "discipline": 60 } },
-  { "id": "animal_fox", "name": { "en": "Fox", "fr": "Renard", "es": "Zorro" }, "description": { "en": "Quick-thinking, adaptable, and very comfortable turning a questionable plan into something that somehow works.", "fr": "Rapide, adaptable, et très à l'aise pour transformer un plan douteux en quelque chose qui fonctionne quand même.", "es": "Rápido, adaptable y muy cómodo convirtiendo un plan dudoso en algo que, de algún modo, funciona." }, "idealProfile": { "intelligence": 75, "creativity": 65, "risk": 65, "chaos": 55, "communication": 55 } },
-  { "id": "animal_turtle", "name": { "en": "Turtle", "fr": "Tortue", "es": "Tortuga" }, "description": { "en": "Not in a rush, rarely panics, and usually arrives with more battery, patience, and preparation than everyone else.", "fr": "Jamais pressé, panique rarement, et arrive généralement avec plus de batterie, de patience et de préparation que les autres.", "es": "Nunca tiene prisa, rara vez entra en pánico y suele llegar con más batería, paciencia y preparación que los demás." }, "idealProfile": { "discipline": 72, "emotionalControl": 80, "risk": 20, "energy": 25 } },
-  { "id": "animal_octopus", "name": { "en": "Octopus", "fr": "Pieuvre", "es": "Pulpo" }, "description": { "en": "Can handle eight problems at once, including several that were never officially their responsibility.", "fr": "Peut gérer huit problèmes en même temps, dont plusieurs qui n'étaient officiellement pas de sa responsabilité.", "es": "Puede manejar ocho problemas a la vez, incluidos varios que oficialmente nunca fueron su responsabilidad." }, "idealProfile": { "intelligence": 88, "creativity": 75, "social": 20, "chaos": 50 } },
-  { "id": "animal_meerkat", "name": { "en": "Meerkat", "fr": "Suricate", "es": "Suricata" }, "description": { "en": "Alert, social, and somehow aware of every tiny change in the room before anyone else notices.", "fr": "Vigilant, sociable, et au courant de chaque micro-changement dans la pièce avant tout le monde.", "es": "Alerta, sociable y consciente de cada pequeño cambio en la sala antes que los demás." }, "idealProfile": { "social": 78, "energy": 72, "emotionalControl": 45, "communication": 60 } },
-  { "id": "animal_pigeon", "name": { "en": "Pigeon", "fr": "Pigeon", "es": "Paloma" }, "description": { "en": "Survives chaos, adapts instantly, and appears exactly where the snacks, opportunities, or confusion are concentrated.", "fr": "Survit au chaos, s'adapte instantanément, et apparaît pile là où se concentrent les snacks, les opportunités ou la confusion.", "es": "Sobrevive al caos, se adapta al instante y aparece justo donde se concentran los snacks, las oportunidades o la confusión." }, "idealProfile": { "social": 60, "luck": 80, "chaos": 55, "energy": 65 } },
-  { "id": "animal_goat", "name": { "en": "Confident Goat", "fr": "Chèvre Beaucoup Trop Sûre d'Elle", "es": "Cabra Demasiado Segura de Sí Misma" }, "description": { "en": "Climbs first, checks the route later, and treats confidence as a perfectly acceptable substitute for a map.", "fr": "Monte d'abord, vérifie le chemin ensuite, et considère la confiance comme un remplacement parfaitement valable pour une carte.", "es": "Sube primero, revisa la ruta después y considera la confianza un sustituto perfectamente válido de un mapa." }, "idealProfile": { "intelligence": 50, "chaos": 78, "risk": 72, "ambition": 65, "humor": 70 } }
+  {
+    "id": "animal_raccoon",
+    "name": {
+      "en": "Raccoon",
+      "fr": "Raton laveur",
+      "es": "Mapache"
+    },
+    "description": {
+      "en": "Ingenious under pressure, slightly chaotic, and somehow always finds the useful thing nobody else noticed.",
+      "fr": "Ingénieux sous pression, légèrement chaotique, et toujours capable de trouver le truc utile que personne n'avait vu.",
+      "es": "Ingenioso bajo presión, un poco caótico y siempre capaz de encontrar lo útil que nadie había visto."
+    },
+    "idealProfile": {
+      "intelligence": 82,
+      "creativity": 80,
+      "chaos": 78,
+      "discipline": 30
+    }
+  },
+  {
+    "id": "animal_cat",
+    "name": {
+      "en": "Cat",
+      "fr": "Chat",
+      "es": "Gato"
+    },
+    "description": {
+      "en": "Independent, selective with attention, and mysteriously present exactly when something interesting happens.",
+      "fr": "Indépendant, très sélectif avec son attention, et mystérieusement présent dès qu'il se passe quelque chose d'intéressant.",
+      "es": "Independiente, muy selectivo con su atención y misteriosamente presente cuando pasa algo interesante."
+    },
+    "idealProfile": {
+      "social": 45,
+      "emotionalControl": 78,
+      "ambition": 55,
+      "empathy": 40
+    }
+  },
+  {
+    "id": "animal_golden_retriever",
+    "name": {
+      "en": "Golden Retriever",
+      "fr": "Golden Retriever",
+      "es": "Golden Retriever"
+    },
+    "description": {
+      "en": "Friendly, energetic, and genuinely convinced the group project can still be saved with enough enthusiasm.",
+      "fr": "Sociable, énergique, et sincèrement convaincu qu'on peut encore sauver le projet de groupe avec assez d'enthousiasme.",
+      "es": "Sociable, enérgico y sinceramente convencido de que el trabajo en grupo aún puede salvarse con suficiente entusiasmo."
+    },
+    "idealProfile": {
+      "social": 85,
+      "empathy": 82,
+      "energy": 80,
+      "risk": 25
+    }
+  },
+  {
+    "id": "animal_crow",
+    "name": {
+      "en": "Crow",
+      "fr": "Corneille",
+      "es": "Cuervo"
+    },
+    "description": {
+      "en": "Observant, clever, and remembers both the shortcut and the person who said it would never work.",
+      "fr": "Observateur, malin, et se souvient à la fois du raccourci et de la personne qui disait que ça ne marcherait jamais.",
+      "es": "Observador, listo y recuerda tanto el atajo como a quien dijo que nunca funcionaría."
+    },
+    "idealProfile": {
+      "intelligence": 85,
+      "creativity": 78,
+      "risk": 55,
+      "social": 40
+    }
+  },
+  {
+    "id": "animal_owl",
+    "name": {
+      "en": "Owl",
+      "fr": "Hibou",
+      "es": "Búho"
+    },
+    "description": {
+      "en": "Quietly analyzes everything, says little, then drops the one sentence that makes everyone reconsider the whole plan.",
+      "fr": "Analyse tout en silence, parle peu, puis lâche la phrase qui oblige tout le monde à revoir le plan entier.",
+      "es": "Analiza todo en silencio, habla poco y luego suelta la frase que obliga a replantear todo el plan."
+    },
+    "idealProfile": {
+      "intelligence": 82,
+      "emotionalControl": 72,
+      "social": 30,
+      "discipline": 60
+    }
+  },
+  {
+    "id": "animal_fox",
+    "name": {
+      "en": "Fox",
+      "fr": "Renard",
+      "es": "Zorro"
+    },
+    "description": {
+      "en": "Quick-thinking, adaptable, and very comfortable turning a questionable plan into something that somehow works.",
+      "fr": "Rapide, adaptable, et très à l'aise pour transformer un plan douteux en quelque chose qui fonctionne quand même.",
+      "es": "Rápido, adaptable y muy cómodo convirtiendo un plan dudoso en algo que, de algún modo, funciona."
+    },
+    "idealProfile": {
+      "intelligence": 75,
+      "creativity": 65,
+      "risk": 65,
+      "chaos": 55,
+      "communication": 55
+    }
+  },
+  {
+    "id": "animal_turtle",
+    "name": {
+      "en": "Turtle",
+      "fr": "Tortue",
+      "es": "Tortuga"
+    },
+    "description": {
+      "en": "Not in a rush, rarely panics, and usually arrives with more battery, patience, and preparation than everyone else.",
+      "fr": "Jamais pressé, panique rarement, et arrive généralement avec plus de batterie, de patience et de préparation que les autres.",
+      "es": "Nunca tiene prisa, rara vez entra en pánico y suele llegar con más batería, paciencia y preparación que los demás."
+    },
+    "idealProfile": {
+      "discipline": 72,
+      "emotionalControl": 80,
+      "risk": 20,
+      "energy": 25
+    }
+  },
+  {
+    "id": "animal_octopus",
+    "name": {
+      "en": "Octopus",
+      "fr": "Pieuvre",
+      "es": "Pulpo"
+    },
+    "description": {
+      "en": "Can handle eight problems at once, including several that were never officially their responsibility.",
+      "fr": "Peut gérer huit problèmes en même temps, dont plusieurs qui n'étaient officiellement pas de sa responsabilité.",
+      "es": "Puede manejar ocho problemas a la vez, incluidos varios que oficialmente nunca fueron su responsabilidad."
+    },
+    "idealProfile": {
+      "intelligence": 88,
+      "creativity": 75,
+      "social": 20,
+      "chaos": 50
+    }
+  },
+  {
+    "id": "animal_meerkat",
+    "name": {
+      "en": "Meerkat",
+      "fr": "Suricate",
+      "es": "Suricata"
+    },
+    "description": {
+      "en": "Alert, social, and somehow aware of every tiny change in the room before anyone else notices.",
+      "fr": "Vigilant, sociable, et au courant de chaque micro-changement dans la pièce avant tout le monde.",
+      "es": "Alerta, sociable y consciente de cada pequeño cambio en la sala antes que los demás."
+    },
+    "idealProfile": {
+      "social": 78,
+      "energy": 72,
+      "emotionalControl": 45,
+      "communication": 60
+    }
+  },
+  {
+    "id": "animal_pigeon",
+    "name": {
+      "en": "Pigeon",
+      "fr": "Pigeon",
+      "es": "Paloma"
+    },
+    "description": {
+      "en": "Survives chaos, adapts instantly, and appears exactly where the snacks, opportunities, or confusion are concentrated.",
+      "fr": "Survit au chaos, s'adapte instantanément, et apparaît pile là où se concentrent les snacks, les opportunités ou la confusion.",
+      "es": "Sobrevive al caos, se adapta al instante y aparece justo donde se concentran los snacks, las oportunidades o la confusión."
+    },
+    "idealProfile": {
+      "social": 60,
+      "luck": 80,
+      "chaos": 55,
+      "energy": 65
+    }
+  },
+  {
+    "id": "animal_goat",
+    "name": {
+      "en": "Confident Goat",
+      "fr": "Chèvre Beaucoup Trop Sûre d'Elle",
+      "es": "Cabra Demasiado Segura de Sí Misma"
+    },
+    "description": {
+      "en": "Climbs first, checks the route later, and treats confidence as a perfectly acceptable substitute for a map.",
+      "fr": "Monte d'abord, vérifie le chemin ensuite, et considère la confiance comme un remplacement parfaitement valable pour une carte.",
+      "es": "Sube primero, revisa la ruta después y considera la confianza un sustituto perfectamente válido de un mapa."
+    },
+    "idealProfile": {
+      "intelligence": 50,
+      "chaos": 78,
+      "risk": 72,
+      "ambition": 65,
+      "humor": 70
+    }
+  },
+  {
+    "id": "animal_duck",
+    "name": {
+      "en": "Suspicious Duck",
+      "fr": "Canard Suspect",
+      "es": "Pato Sospechoso"
+    },
+    "description": {
+      "en": "Looks harmless, knows more than it should, and leaves the scene before anyone can ask follow-up questions.",
+      "fr": "A l'air inoffensif, en sait beaucoup trop, et quitte les lieux avant que quelqu'un puisse poser une deuxième question.",
+      "es": "Parece inofensivo, sabe demasiado y abandona la escena antes de que alguien pueda hacer una segunda pregunta."
+    },
+    "idealProfile": {
+      "chaos": 70,
+      "social": 62,
+      "humor": 78,
+      "emotionalControl": 42,
+      "luck": 55
+    }
+  },
+  {
+    "id": "animal_office_raccoon",
+    "name": {
+      "en": "Office Raccoon",
+      "fr": "Raton Laveur de Bureau",
+      "es": "Mapache de Oficina"
+    },
+    "description": {
+      "en": "Thrives between abandoned coffee cups, forgotten files, and one spreadsheet that somehow keeps the whole operation alive.",
+      "fr": "Prospère entre les cafés abandonnés, les fichiers oubliés et le tableur qui maintient mystérieusement toute l'opération en vie.",
+      "es": "Prospera entre cafés abandonados, archivos olvidados y una hoja de cálculo que misteriosamente mantiene toda la operación con vida."
+    },
+    "idealProfile": {
+      "creativity": 76,
+      "chaos": 82,
+      "energy": 62,
+      "financialSense": 48,
+      "humor": 80
+    }
+  },
+  {
+    "id": "animal_pigeon_manager",
+    "name": {
+      "en": "Middle-Management Pigeon",
+      "fr": "Pigeon Cadre Intermédiaire",
+      "es": "Paloma de Mando Intermedio"
+    },
+    "description": {
+      "en": "Walks into meetings with authority, contributes three vague sentences, and somehow leaves with fewer tasks than it arrived with.",
+      "fr": "Entre en réunion avec autorité, prononce trois phrases vagues, et repart mystérieusement avec moins de tâches qu'en arrivant.",
+      "es": "Entra a las reuniones con autoridad, aporta tres frases vagas y misteriosamente sale con menos tareas de las que tenía al entrar."
+    },
+    "idealProfile": {
+      "social": 72,
+      "professionalism": 58,
+      "communication": 68,
+      "ambition": 64,
+      "chaos": 55
+    }
+  },
+  {
+    "id": "animal_capable_capibara",
+    "name": {
+      "en": "Suspiciously Capable Capybara",
+      "fr": "Capybara Étrangement Compétent",
+      "es": "Capibara Sospechosamente Competente"
+    },
+    "description": {
+      "en": "Calm enough to lower everyone's heart rate and competent enough to quietly solve the problem while the rest are still discussing it.",
+      "fr": "Assez calme pour faire baisser le rythme cardiaque du groupe et assez compétent pour régler le problème pendant que les autres en parlent encore.",
+      "es": "Lo bastante tranquilo para bajar el pulso del grupo y lo bastante competente para resolver el problema mientras los demás aún lo discuten."
+    },
+    "idealProfile": {
+      "emotionalControl": 90,
+      "empathy": 78,
+      "social": 70,
+      "discipline": 65,
+      "humor": 58
+    }
+  },
+  {
+    "id": "animal_red_panda",
+    "name": {
+      "en": "Overqualified Red Panda",
+      "fr": "Panda Roux Surqualifié",
+      "es": "Panda Rojo Sobrecualificado"
+    },
+    "description": {
+      "en": "Looks permanently tired, remains unexpectedly competent, and would prefer everyone to lower the volume.",
+      "fr": "A l'air constamment fatigué, reste étonnamment compétent et aimerait que tout le monde baisse d'un ton.",
+      "es": "Parece permanentemente cansado, sigue siendo sorprendentemente competente y preferiría que todos bajaran el volumen."
+    },
+    "idealProfile": {
+      "intelligence": 76,
+      "emotionalControl": 72,
+      "social": 38,
+      "discipline": 66,
+      "humor": 64
+    }
+  },
+  {
+    "id": "animal_border_collie",
+    "name": {
+      "en": "Spreadsheet Border Collie",
+      "fr": "Border Collie du Tableur",
+      "es": "Border Collie de la Hoja de Cálculo"
+    },
+    "description": {
+      "en": "Needs a task, a second task, and preferably a dashboard showing progress on both.",
+      "fr": "A besoin d'une tâche, d'une deuxième tâche et idéalement d'un dashboard montrant l'avancement des deux.",
+      "es": "Necesita una tarea, una segunda tarea y, si puede ser, un dashboard con el progreso de ambas."
+    },
+    "idealProfile": {
+      "energy": 90,
+      "discipline": 86,
+      "intelligence": 76,
+      "professionalism": 72,
+      "social": 66
+    }
+  },
+  {
+    "id": "animal_hedgehog",
+    "name": {
+      "en": "Meeting-Averse Hedgehog",
+      "fr": "Hérisson Allergique aux Réunions",
+      "es": "Erizo Alérgico a las Reuniones"
+    },
+    "description": {
+      "en": "Friendly in controlled doses, highly effective alone, and visibly defensive when a calendar invite appears.",
+      "fr": "Sympa à dose contrôlée, très efficace seul et visiblement défensif dès qu'une invitation calendrier apparaît.",
+      "es": "Amable en dosis controladas, muy eficaz a solas y visiblemente defensivo cuando aparece una invitación de calendario."
+    },
+    "idealProfile": {
+      "social": 32,
+      "discipline": 76,
+      "emotionalControl": 74,
+      "intelligence": 72,
+      "communication": 48
+    }
+  },
+  {
+    "id": "animal_otter",
+    "name": {
+      "en": "Deadline Otter",
+      "fr": "Loutre de Deadline",
+      "es": "Nutria de Fecha Límite"
+    },
+    "description": {
+      "en": "Playful until the deadline gets close, then suddenly reveals an alarming amount of competence.",
+      "fr": "Joue jusqu'à ce que la deadline approche, puis révèle soudainement une quantité inquiétante de compétence.",
+      "es": "Juguetona hasta que se acerca la fecha límite y entonces revela una cantidad alarmante de competencia."
+    },
+    "idealProfile": {
+      "humor": 80,
+      "energy": 82,
+      "creativity": 76,
+      "discipline": 52,
+      "chaos": 64
+    }
+  },
+  {
+    "id": "animal_bear",
+    "name": {
+      "en": "Do-Not-Disturb Bear",
+      "fr": "Ours en Ne Pas Déranger",
+      "es": "Oso en No Molestar"
+    },
+    "description": {
+      "en": "Perfectly reasonable when rested, increasingly dangerous after the third unnecessary notification.",
+      "fr": "Parfaitement raisonnable quand il est reposé, de plus en plus dangereux après la troisième notification inutile.",
+      "es": "Perfectamente razonable descansado, cada vez más peligroso después de la tercera notificación innecesaria."
+    },
+    "idealProfile": {
+      "emotionalControl": 76,
+      "social": 28,
+      "energy": 58,
+      "discipline": 68,
+      "risk": 56
+    }
+  },
+  {
+    "id": "animal_squirrel",
+    "name": {
+      "en": "Tab-Hoarding Squirrel",
+      "fr": "Écureuil Collectionneur d'Onglets",
+      "es": "Ardilla Coleccionista de Pestañas"
+    },
+    "description": {
+      "en": "Stores information everywhere, remembers where almost none of it is, and still finds exactly what matters under pressure.",
+      "fr": "Stocke des informations partout, ne sait presque jamais où elles sont et retrouve pourtant l'essentiel sous pression.",
+      "es": "Guarda información por todas partes, casi nunca recuerda dónde está y aun así encuentra lo importante bajo presión."
+    },
+    "idealProfile": {
+      "chaos": 82,
+      "creativity": 78,
+      "energy": 74,
+      "intelligence": 68,
+      "discipline": 34
+    }
+  },
+  {
+    "id": "animal_penguin",
+    "name": {
+      "en": "Corporate Penguin",
+      "fr": "Pingouin Corporate",
+      "es": "Pingüino Corporativo"
+    },
+    "description": {
+      "en": "Looks formal, travels in groups, and has mastered the art of appearing calm while everything underneath is moving fast.",
+      "fr": "A l'air formel, se déplace en groupe et maîtrise l'art de paraître calme pendant que tout s'agite dessous.",
+      "es": "Parece formal, se mueve en grupo y domina el arte de parecer tranquilo mientras todo se mueve rápidamente por debajo."
+    },
+    "idealProfile": {
+      "professionalism": 84,
+      "social": 76,
+      "emotionalControl": 80,
+      "communication": 68,
+      "discipline": 72
+    }
+  },
+  {
+    "id": "animal_ferret",
+    "name": {
+      "en": "Cable Ferret",
+      "fr": "Furet des Câbles",
+      "es": "Hurón de los Cables"
+    },
+    "description": {
+      "en": "Will enter any impossible space if there is a charger, adapter, or suspicious loose cable at the other end.",
+      "fr": "Entre dans n'importe quel espace impossible s'il y a un chargeur, un adaptateur ou un câble suspect de l'autre côté.",
+      "es": "Entrará en cualquier espacio imposible si al otro lado hay un cargador, un adaptador o un cable sospechoso."
+    },
+    "idealProfile": {
+      "creativity": 78,
+      "risk": 72,
+      "energy": 80,
+      "chaos": 70,
+      "intelligence": 64
+    }
+  },
+  {
+    "id": "animal_elephant",
+    "name": {
+      "en": "Receipt Elephant",
+      "fr": "Éléphant des Tickets",
+      "es": "Elefante de los Recibos"
+    },
+    "description": {
+      "en": "Remembers what everyone ordered, who still owes money, and the one detail you hoped had been forgotten.",
+      "fr": "Se souvient de ce que chacun a commandé, de qui doit encore de l'argent et du détail que tu espérais oublié.",
+      "es": "Recuerda lo que pidió cada uno, quién aún debe dinero y ese detalle que esperabas que se hubiera olvidado."
+    },
+    "idealProfile": {
+      "intelligence": 78,
+      "financialSense": 82,
+      "empathy": 72,
+      "discipline": 74,
+      "communication": 68
+    }
+  },
+  {
+    "id": "animal_gecko",
+    "name": {
+      "en": "Wi-Fi Gecko",
+      "fr": "Gecko du Wi-Fi",
+      "es": "Gecko del Wi-Fi"
+    },
+    "description": {
+      "en": "Somehow always ends up next to the router and becomes technical support by geographic accident.",
+      "fr": "Se retrouve mystérieusement toujours à côté du routeur et devient support technique par accident géographique.",
+      "es": "Misteriosamente siempre termina junto al router y se convierte en soporte técnico por accidente geográfico."
+    },
+    "idealProfile": {
+      "luck": 78,
+      "intelligence": 66,
+      "emotionalControl": 72,
+      "social": 58,
+      "humor": 70
+    }
+  },
+  {
+    "id": "animal_beaver",
+    "name": {
+      "en": "Process Beaver",
+      "fr": "Castor des Process",
+      "es": "Castor de Procesos"
+    },
+    "description": {
+      "en": "Cannot see a messy workflow without quietly building a system, labels, and a backup system for the system.",
+      "fr": "Ne peut pas voir un workflow désordonné sans construire discrètement un système, des labels et un système de secours.",
+      "es": "No puede ver un flujo desordenado sin construir en silencio un sistema, etiquetas y un sistema de respaldo."
+    },
+    "idealProfile": {
+      "discipline": 90,
+      "professionalism": 80,
+      "intelligence": 74,
+      "energy": 72,
+      "creativity": 62
+    }
+  },
+  {
+    "id": "animal_shiba",
+    "name": {
+      "en": "Selective Shiba",
+      "fr": "Shiba Sélectif",
+      "es": "Shiba Selectivo"
+    },
+    "description": {
+      "en": "Understands the request perfectly, evaluates whether it deserves a response, and proceeds according to its own internal policy.",
+      "fr": "Comprend parfaitement la demande, évalue si elle mérite une réponse et agit selon sa propre politique interne.",
+      "es": "Entiende perfectamente la petición, evalúa si merece respuesta y actúa según su propia política interna."
+    },
+    "idealProfile": {
+      "emotionalControl": 82,
+      "social": 42,
+      "discipline": 62,
+      "humor": 74,
+      "risk": 46
+    }
+  },
+  {
+    "id": "animal_ant",
+    "name": {
+      "en": "Checklist Ant",
+      "fr": "Fourmi à Checklist",
+      "es": "Hormiga de Checklist"
+    },
+    "description": {
+      "en": "Small task, big task, impossible task: everything becomes a line item and eventually gets moved to done.",
+      "fr": "Petite tâche, grosse tâche, tâche impossible : tout devient une ligne de checklist et finit par passer en terminé.",
+      "es": "Tarea pequeña, grande o imposible: todo se convierte en una línea de checklist y acaba en completado."
+    },
+    "idealProfile": {
+      "discipline": 92,
+      "energy": 82,
+      "professionalism": 76,
+      "social": 66,
+      "emotionalControl": 74
+    }
+  },
+  {
+    "id": "animal_alpaca",
+    "name": {
+      "en": "Boundary-Setting Alpaca",
+      "fr": "Alpaga Poseur de Limites",
+      "es": "Alpaca que Pone Límites"
+    },
+    "description": {
+      "en": "Pleasant, calm, and fully capable of making it extremely clear when one more request is not happening today.",
+      "fr": "Sympa, calme et parfaitement capable de faire comprendre qu'une demande de plus n'arrivera pas aujourd'hui.",
+      "es": "Agradable, tranquila y perfectamente capaz de dejar claro que una petición más no va a ocurrir hoy."
+    },
+    "idealProfile": {
+      "empathy": 76,
+      "emotionalControl": 88,
+      "communication": 72,
+      "social": 64,
+      "discipline": 70
+    }
+  },
+  {
+    "id": "animal_dolphin",
+    "name": {
+      "en": "Group-Project Dolphin",
+      "fr": "Dauphin de Projet de Groupe",
+      "es": "Delfín de Proyecto Grupal"
+    },
+    "description": {
+      "en": "Social, quick, and mysteriously able to coordinate people who were absolutely not planning to cooperate.",
+      "fr": "Social, rapide et mystérieusement capable de coordonner des gens qui n'avaient absolument pas prévu de coopérer.",
+      "es": "Social, rápido y misteriosamente capaz de coordinar a personas que no pensaban colaborar en absoluto."
+    },
+    "idealProfile": {
+      "social": 88,
+      "communication": 86,
+      "intelligence": 76,
+      "empathy": 78,
+      "energy": 80
+    }
+  },
+  {
+    "id": "animal_arctic_fox",
+    "name": {
+      "en": "Arctic Fox",
+      "fr": "Renard arctique",
+      "es": "Zorro ártico"
+    },
+    "description": {
+      "en": "Arctic Fox: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Renard arctique : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Zorro ártico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "creativity": 60,
+      "humor": 35,
+      "luck": 35,
+      "risk": 93,
+      "communication": 72,
+      "professionalism": 34
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_arctic_wolf",
+    "name": {
+      "en": "Arctic Wolf",
+      "fr": "Loup arctique",
+      "es": "Lobo ártico"
+    },
+    "description": {
+      "en": "Arctic Wolf: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Loup arctique : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Lobo ártico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "ambition": 78,
+      "humor": 87,
+      "intelligence": 92,
+      "risk": 84,
+      "empathy": 33,
+      "creativity": 27
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_arctic_owl",
+    "name": {
+      "en": "Arctic Owl",
+      "fr": "Hibou arctique",
+      "es": "Búho ártico"
+    },
+    "description": {
+      "en": "Arctic Owl: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Hibou arctique : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Búho ártico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "creativity": 78,
+      "risk": 42,
+      "communication": 53,
+      "humor": 84,
+      "luck": 48,
+      "professionalism": 71
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_arctic_otter",
+    "name": {
+      "en": "Arctic Otter",
+      "fr": "Loutre arctique",
+      "es": "Nutria ártico"
+    },
+    "description": {
+      "en": "Arctic Otter: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Loutre arctique : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Nutria ártico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "risk": 64,
+      "social": 91,
+      "chaos": 36,
+      "discipline": 70,
+      "communication": 26,
+      "emotionalControl": 54
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_arctic_falcon",
+    "name": {
+      "en": "Arctic Falcon",
+      "fr": "Faucon arctique",
+      "es": "Halcón ártico"
+    },
+    "description": {
+      "en": "Arctic Falcon: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Faucon arctique : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Halcón ártico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "intelligence": 28,
+      "risk": 92,
+      "ambition": 81,
+      "empathy": 52,
+      "creativity": 34,
+      "humor": 39
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_arctic_lynx",
+    "name": {
+      "en": "Arctic Lynx",
+      "fr": "Lynx arctique",
+      "es": "Lince ártico"
+    },
+    "description": {
+      "en": "Arctic Lynx: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Lynx arctique : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Lince ártico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "risk": 80,
+      "creativity": 76,
+      "professionalism": 40,
+      "communication": 82,
+      "humor": 39,
+      "luck": 92
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_arctic_bear",
+    "name": {
+      "en": "Arctic Bear",
+      "fr": "Ours arctique",
+      "es": "Oso ártico"
+    },
+    "description": {
+      "en": "Arctic Bear: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Ours arctique : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Oso ártico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "emotionalControl": 61,
+      "humor": 88,
+      "risk": 41,
+      "professionalism": 42,
+      "discipline": 67,
+      "communication": 79
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_arctic_rabbit",
+    "name": {
+      "en": "Arctic Rabbit",
+      "fr": "Lapin arctique",
+      "es": "Conejo ártico"
+    },
+    "description": {
+      "en": "Arctic Rabbit: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Lapin arctique : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Conejo ártico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "risk": 33,
+      "discipline": 83,
+      "communication": 89,
+      "social": 81,
+      "chaos": 45,
+      "emotionalControl": 93
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_arctic_raven",
+    "name": {
+      "en": "Arctic Raven",
+      "fr": "Corbeau arctique",
+      "es": "Cuervo ártico"
+    },
+    "description": {
+      "en": "Arctic Raven: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Corbeau arctique : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Cuervo ártico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "communication": 67,
+      "creativity": 26,
+      "humor": 85,
+      "luck": 90,
+      "risk": 73,
+      "professionalism": 85
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_arctic_gecko",
+    "name": {
+      "en": "Arctic Gecko",
+      "fr": "Gecko arctique",
+      "es": "Geco ártico"
+    },
+    "description": {
+      "en": "Arctic Gecko: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Gecko arctique : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Geco ártico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "ambition": 56,
+      "creativity": 75,
+      "energy": 62,
+      "financialSense": 73,
+      "discipline": 62,
+      "social": 93
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_arctic_dolphin",
+    "name": {
+      "en": "Arctic Dolphin",
+      "fr": "Dauphin arctique",
+      "es": "Delfín ártico"
+    },
+    "description": {
+      "en": "Arctic Dolphin: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Dauphin arctique : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Delfín ártico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "risk": 44,
+      "discipline": 32,
+      "communication": 79,
+      "social": 32,
+      "chaos": 56,
+      "emotionalControl": 44
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_arctic_turtle",
+    "name": {
+      "en": "Arctic Turtle",
+      "fr": "Tortue arctique",
+      "es": "Tortuga ártico"
+    },
+    "description": {
+      "en": "Arctic Turtle: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Tortue arctique : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Tortuga ártico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "discipline": 84,
+      "social": 51,
+      "emotionalControl": 59,
+      "creativity": 36,
+      "luck": 25,
+      "chaos": 48
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_arctic_badger",
+    "name": {
+      "en": "Arctic Badger",
+      "fr": "Blaireau arctique",
+      "es": "Tejón ártico"
+    },
+    "description": {
+      "en": "Arctic Badger: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Blaireau arctique : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Tejón ártico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "intelligence": 45,
+      "social": 37,
+      "financialSense": 72,
+      "discipline": 51,
+      "energy": 49,
+      "risk": 84
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_arctic_heron",
+    "name": {
+      "en": "Arctic Heron",
+      "fr": "Héron arctique",
+      "es": "Garza ártico"
+    },
+    "description": {
+      "en": "Arctic Heron: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Héron arctique : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Garza ártico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "energy": 57,
+      "social": 75,
+      "ambition": 37,
+      "creativity": 63,
+      "financialSense": 46,
+      "discipline": 43
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_desert_fox",
+    "name": {
+      "en": "Desert Fox",
+      "fr": "Renard désert",
+      "es": "Zorro desértico"
+    },
+    "description": {
+      "en": "Desert Fox: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Renard désert : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Zorro desértico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "luck": 69,
+      "discipline": 80,
+      "social": 63,
+      "emotionalControl": 76,
+      "creativity": 75,
+      "chaos": 87
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_desert_wolf",
+    "name": {
+      "en": "Desert Wolf",
+      "fr": "Loup désert",
+      "es": "Lobo desértico"
+    },
+    "description": {
+      "en": "Desert Wolf: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Loup désert : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Lobo desértico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "humor": 40,
+      "social": 79,
+      "luck": 49,
+      "professionalism": 85,
+      "creativity": 28,
+      "chaos": 52
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_desert_owl",
+    "name": {
+      "en": "Desert Owl",
+      "fr": "Hibou désert",
+      "es": "Búho desértico"
+    },
+    "description": {
+      "en": "Desert Owl: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Hibou désert : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Búho desértico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "social": 50,
+      "humor": 88,
+      "professionalism": 92,
+      "creativity": 56,
+      "chaos": 94,
+      "luck": 39
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_desert_otter",
+    "name": {
+      "en": "Desert Otter",
+      "fr": "Loutre désert",
+      "es": "Nutria desértico"
+    },
+    "description": {
+      "en": "Desert Otter: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Loutre désert : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Nutria desértico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "ambition": 54,
+      "humor": 44,
+      "intelligence": 86,
+      "risk": 60,
+      "empathy": 30,
+      "creativity": 92
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_desert_falcon",
+    "name": {
+      "en": "Desert Falcon",
+      "fr": "Faucon désert",
+      "es": "Halcón desértico"
+    },
+    "description": {
+      "en": "Desert Falcon: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Faucon désert : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Halcón desértico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "energy": 63,
+      "discipline": 66,
+      "empathy": 40,
+      "intelligence": 62,
+      "humor": 69,
+      "risk": 84
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_desert_lynx",
+    "name": {
+      "en": "Desert Lynx",
+      "fr": "Lynx désert",
+      "es": "Lince desértico"
+    },
+    "description": {
+      "en": "Desert Lynx: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Lynx désert : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Lince desértico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "intelligence": 74,
+      "discipline": 82,
+      "financialSense": 73,
+      "social": 80,
+      "energy": 58,
+      "risk": 79
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_desert_bear",
+    "name": {
+      "en": "Desert Bear",
+      "fr": "Ours désert",
+      "es": "Oso desértico"
+    },
+    "description": {
+      "en": "Desert Bear: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Ours désert : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Oso desértico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "professionalism": 65,
+      "social": 86,
+      "creativity": 63,
+      "chaos": 25,
+      "humor": 71,
+      "luck": 83
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_desert_rabbit",
+    "name": {
+      "en": "Desert Rabbit",
+      "fr": "Lapin désert",
+      "es": "Conejo desértico"
+    },
+    "description": {
+      "en": "Desert Rabbit: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Lapin désert : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Conejo desértico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "creativity": 53,
+      "risk": 90,
+      "communication": 30,
+      "humor": 59,
+      "luck": 25,
+      "professionalism": 48
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_desert_raven",
+    "name": {
+      "en": "Desert Raven",
+      "fr": "Corbeau désert",
+      "es": "Cuervo desértico"
+    },
+    "description": {
+      "en": "Desert Raven: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Corbeau désert : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Cuervo desértico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "professionalism": 93,
+      "humor": 78,
+      "social": 63,
+      "luck": 36,
+      "creativity": 34,
+      "chaos": 90
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_desert_gecko",
+    "name": {
+      "en": "Desert Gecko",
+      "fr": "Gecko désert",
+      "es": "Geco desértico"
+    },
+    "description": {
+      "en": "Desert Gecko: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Gecko désert : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Geco desértico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "social": 37,
+      "risk": 83,
+      "emotionalControl": 63,
+      "chaos": 89,
+      "discipline": 53,
+      "communication": 49
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_desert_dolphin",
+    "name": {
+      "en": "Desert Dolphin",
+      "fr": "Dauphin désert",
+      "es": "Delfín desértico"
+    },
+    "description": {
+      "en": "Desert Dolphin: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Dauphin désert : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Delfín desértico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "luck": 37,
+      "discipline": 81,
+      "social": 29,
+      "emotionalControl": 92,
+      "creativity": 43,
+      "chaos": 55
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_desert_turtle",
+    "name": {
+      "en": "Desert Turtle",
+      "fr": "Tortue désert",
+      "es": "Tortuga desértico"
+    },
+    "description": {
+      "en": "Desert Turtle: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Tortue désert : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Tortuga desértico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "chaos": 33,
+      "discipline": 41,
+      "creativity": 24,
+      "luck": 30,
+      "social": 47,
+      "emotionalControl": 30
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_desert_badger",
+    "name": {
+      "en": "Desert Badger",
+      "fr": "Blaireau désert",
+      "es": "Tejón desértico"
+    },
+    "description": {
+      "en": "Desert Badger: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Blaireau désert : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Tejón desértico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "professionalism": 44,
+      "creativity": 81,
+      "risk": 47,
+      "communication": 35,
+      "humor": 87,
+      "luck": 53
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_desert_heron",
+    "name": {
+      "en": "Desert Heron",
+      "fr": "Héron désert",
+      "es": "Garza desértico"
+    },
+    "description": {
+      "en": "Desert Heron: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Héron désert : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Garza desértico: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "risk": 30,
+      "creativity": 34,
+      "professionalism": 79,
+      "communication": 40,
+      "humor": 62,
+      "luck": 42
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_forest_fox",
+    "name": {
+      "en": "Forest Fox",
+      "fr": "Renard forêt",
+      "es": "Zorro bosque"
+    },
+    "description": {
+      "en": "Forest Fox: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Renard forêt : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Zorro bosque: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "energy": 47,
+      "social": 83,
+      "ambition": 51,
+      "creativity": 53,
+      "financialSense": 53,
+      "discipline": 57
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_forest_wolf",
+    "name": {
+      "en": "Forest Wolf",
+      "fr": "Loup forêt",
+      "es": "Lobo bosque"
+    },
+    "description": {
+      "en": "Forest Wolf: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Loup forêt : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Lobo bosque: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "ambition": 73,
+      "creativity": 82,
+      "energy": 69,
+      "financialSense": 60,
+      "discipline": 79,
+      "social": 29
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_forest_owl",
+    "name": {
+      "en": "Forest Owl",
+      "fr": "Hibou forêt",
+      "es": "Búho bosque"
+    },
+    "description": {
+      "en": "Forest Owl: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Hibou forêt : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Búho bosque: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "intelligence": 67,
+      "risk": 91,
+      "ambition": 78,
+      "empathy": 87,
+      "creativity": 73,
+      "humor": 38
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_forest_otter",
+    "name": {
+      "en": "Forest Otter",
+      "fr": "Loutre forêt",
+      "es": "Nutria bosque"
+    },
+    "description": {
+      "en": "Forest Otter: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Loutre forêt : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Nutria bosque: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "empathy": 35,
+      "discipline": 72,
+      "energy": 78,
+      "risk": 41,
+      "intelligence": 84,
+      "humor": 90
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_forest_falcon",
+    "name": {
+      "en": "Forest Falcon",
+      "fr": "Faucon forêt",
+      "es": "Halcón bosque"
+    },
+    "description": {
+      "en": "Forest Falcon: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Faucon forêt : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Halcón bosque: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "financialSense": 29,
+      "creativity": 43,
+      "empathy": 44,
+      "humor": 35,
+      "ambition": 52,
+      "social": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_forest_lynx",
+    "name": {
+      "en": "Forest Lynx",
+      "fr": "Lynx forêt",
+      "es": "Lince bosque"
+    },
+    "description": {
+      "en": "Forest Lynx: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Lynx forêt : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Lince bosque: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "communication": 27,
+      "risk": 47,
+      "creativity": 39,
+      "professionalism": 66,
+      "humor": 39,
+      "luck": 59
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_forest_bear",
+    "name": {
+      "en": "Forest Bear",
+      "fr": "Ours forêt",
+      "es": "Oso bosque"
+    },
+    "description": {
+      "en": "Forest Bear: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Ours forêt : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Oso bosque: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "empathy": 34,
+      "discipline": 87,
+      "energy": 41,
+      "risk": 40,
+      "intelligence": 28,
+      "humor": 53
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_forest_rabbit",
+    "name": {
+      "en": "Forest Rabbit",
+      "fr": "Lapin forêt",
+      "es": "Conejo bosque"
+    },
+    "description": {
+      "en": "Forest Rabbit: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Lapin forêt : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Conejo bosque: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "professionalism": 86,
+      "humor": 58,
+      "social": 89,
+      "luck": 28,
+      "creativity": 27,
+      "chaos": 70
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_forest_raven",
+    "name": {
+      "en": "Forest Raven",
+      "fr": "Corbeau forêt",
+      "es": "Cuervo bosque"
+    },
+    "description": {
+      "en": "Forest Raven: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Corbeau forêt : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Cuervo bosque: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "empathy": 64,
+      "humor": 48,
+      "financialSense": 44,
+      "ambition": 91,
+      "social": 70,
+      "creativity": 66
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_forest_gecko",
+    "name": {
+      "en": "Forest Gecko",
+      "fr": "Gecko forêt",
+      "es": "Geco bosque"
+    },
+    "description": {
+      "en": "Forest Gecko: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Gecko forêt : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Geco bosque: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "intelligence": 29,
+      "discipline": 83,
+      "financialSense": 62,
+      "social": 35,
+      "energy": 69,
+      "risk": 68
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_forest_dolphin",
+    "name": {
+      "en": "Forest Dolphin",
+      "fr": "Dauphin forêt",
+      "es": "Delfín bosque"
+    },
+    "description": {
+      "en": "Forest Dolphin: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Dauphin forêt : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Delfín bosque: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "emotionalControl": 86,
+      "risk": 49,
+      "social": 35,
+      "chaos": 55,
+      "discipline": 55,
+      "communication": 41
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_forest_turtle",
+    "name": {
+      "en": "Forest Turtle",
+      "fr": "Tortue forêt",
+      "es": "Tortuga bosque"
+    },
+    "description": {
+      "en": "Forest Turtle: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Tortue forêt : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Tortuga bosque: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "financialSense": 41,
+      "creativity": 77,
+      "empathy": 91,
+      "humor": 47,
+      "ambition": 69,
+      "social": 26
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_forest_badger",
+    "name": {
+      "en": "Forest Badger",
+      "fr": "Blaireau forêt",
+      "es": "Tejón bosque"
+    },
+    "description": {
+      "en": "Forest Badger: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Blaireau forêt : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Tejón bosque: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "communication": 26,
+      "humor": 58,
+      "discipline": 69,
+      "emotionalControl": 49,
+      "risk": 64,
+      "professionalism": 75
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_forest_heron",
+    "name": {
+      "en": "Forest Heron",
+      "fr": "Héron forêt",
+      "es": "Garza bosque"
+    },
+    "description": {
+      "en": "Forest Heron: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Héron forêt : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Garza bosque: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "empathy": 36,
+      "discipline": 65,
+      "energy": 80,
+      "risk": 42,
+      "intelligence": 77,
+      "humor": 92
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_mountain_fox",
+    "name": {
+      "en": "Mountain Fox",
+      "fr": "Renard montagne",
+      "es": "Zorro montaña"
+    },
+    "description": {
+      "en": "Mountain Fox: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Renard montagne : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Zorro montaña: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "professionalism": 54,
+      "humor": 41,
+      "social": 41,
+      "luck": 79,
+      "creativity": 66,
+      "chaos": 53
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_mountain_wolf",
+    "name": {
+      "en": "Mountain Wolf",
+      "fr": "Loup montagne",
+      "es": "Lobo montaña"
+    },
+    "description": {
+      "en": "Mountain Wolf: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Loup montagne : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Lobo montaña: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "social": 63,
+      "risk": 37,
+      "emotionalControl": 39,
+      "chaos": 43,
+      "discipline": 83,
+      "communication": 75
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_mountain_owl",
+    "name": {
+      "en": "Mountain Owl",
+      "fr": "Hibou montagne",
+      "es": "Búho montaña"
+    },
+    "description": {
+      "en": "Mountain Owl: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Hibou montagne : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Búho montaña: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "humor": 58,
+      "risk": 84,
+      "professionalism": 38,
+      "discipline": 28,
+      "emotionalControl": 70,
+      "communication": 40
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_mountain_otter",
+    "name": {
+      "en": "Mountain Otter",
+      "fr": "Loutre montagne",
+      "es": "Nutria montaña"
+    },
+    "description": {
+      "en": "Mountain Otter: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Loutre montagne : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Nutria montaña: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "empathy": 88,
+      "discipline": 80,
+      "energy": 45,
+      "risk": 94,
+      "intelligence": 92,
+      "humor": 57
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_mountain_falcon",
+    "name": {
+      "en": "Mountain Falcon",
+      "fr": "Faucon montagne",
+      "es": "Halcón montaña"
+    },
+    "description": {
+      "en": "Mountain Falcon: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Faucon montagne : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Halcón montaña: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "chaos": 49,
+      "risk": 75,
+      "discipline": 31,
+      "communication": 81,
+      "social": 55,
+      "emotionalControl": 67
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_mountain_lynx",
+    "name": {
+      "en": "Mountain Lynx",
+      "fr": "Lynx montagne",
+      "es": "Lince montaña"
+    },
+    "description": {
+      "en": "Mountain Lynx: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Lynx montagne : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Lince montaña: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "ambition": 33,
+      "risk": 92,
+      "intelligence": 87,
+      "humor": 39,
+      "empathy": 33,
+      "creativity": 28
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_mountain_bear",
+    "name": {
+      "en": "Mountain Bear",
+      "fr": "Ours montagne",
+      "es": "Oso montaña"
+    },
+    "description": {
+      "en": "Mountain Bear: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Ours montagne : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Oso montaña: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "energy": 57,
+      "social": 73,
+      "ambition": 32,
+      "creativity": 63,
+      "financialSense": 88,
+      "discipline": 38
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_mountain_rabbit",
+    "name": {
+      "en": "Mountain Rabbit",
+      "fr": "Lapin montagne",
+      "es": "Conejo montaña"
+    },
+    "description": {
+      "en": "Mountain Rabbit: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Lapin montagne : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Conejo montaña: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "chaos": 93,
+      "social": 69,
+      "risk": 84,
+      "emotionalControl": 76,
+      "discipline": 34,
+      "communication": 81
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_mountain_raven",
+    "name": {
+      "en": "Mountain Raven",
+      "fr": "Corbeau montagne",
+      "es": "Cuervo montaña"
+    },
+    "description": {
+      "en": "Mountain Raven: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Corbeau montagne : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Cuervo montaña: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "social": 38,
+      "humor": 83,
+      "professionalism": 36,
+      "creativity": 44,
+      "chaos": 89,
+      "luck": 54
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_mountain_gecko",
+    "name": {
+      "en": "Mountain Gecko",
+      "fr": "Gecko montagne",
+      "es": "Geco montaña"
+    },
+    "description": {
+      "en": "Mountain Gecko: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Gecko montagne : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Geco montaña: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "creativity": 89,
+      "discipline": 54,
+      "chaos": 64,
+      "luck": 60,
+      "social": 33,
+      "emotionalControl": 30
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_mountain_dolphin",
+    "name": {
+      "en": "Mountain Dolphin",
+      "fr": "Dauphin montagne",
+      "es": "Delfín montaña"
+    },
+    "description": {
+      "en": "Mountain Dolphin: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Dauphin montagne : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Delfín montaña: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "emotionalControl": 57,
+      "humor": 50,
+      "risk": 62,
+      "professionalism": 49,
+      "discipline": 63,
+      "communication": 75
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_mountain_turtle",
+    "name": {
+      "en": "Mountain Turtle",
+      "fr": "Tortue montagne",
+      "es": "Tortuga montaña"
+    },
+    "description": {
+      "en": "Mountain Turtle: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Tortue montagne : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Tortuga montaña: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "intelligence": 43,
+      "risk": 77,
+      "ambition": 65,
+      "empathy": 29,
+      "creativity": 49,
+      "humor": 24
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_mountain_badger",
+    "name": {
+      "en": "Mountain Badger",
+      "fr": "Blaireau montagne",
+      "es": "Tejón montaña"
+    },
+    "description": {
+      "en": "Mountain Badger: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Blaireau montagne : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Tejón montaña: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "energy": 51,
+      "social": 92,
+      "ambition": 70,
+      "creativity": 57,
+      "financialSense": 36,
+      "discipline": 76
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_mountain_heron",
+    "name": {
+      "en": "Mountain Heron",
+      "fr": "Héron montagne",
+      "es": "Garza montaña"
+    },
+    "description": {
+      "en": "Mountain Heron: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Héron montagne : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Garza montaña: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "creativity": 66,
+      "humor": 31,
+      "luck": 28,
+      "risk": 44,
+      "communication": 78,
+      "professionalism": 56
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_river_fox",
+    "name": {
+      "en": "River Fox",
+      "fr": "Renard rivière",
+      "es": "Zorro río"
+    },
+    "description": {
+      "en": "River Fox: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Renard rivière : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Zorro río: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "social": 30,
+      "humor": 43,
+      "professionalism": 70,
+      "creativity": 36,
+      "chaos": 49,
+      "luck": 88
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_river_wolf",
+    "name": {
+      "en": "River Wolf",
+      "fr": "Loup rivière",
+      "es": "Lobo río"
+    },
+    "description": {
+      "en": "River Wolf: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Loup rivière : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Lobo río: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "creativity": 44,
+      "humor": 68,
+      "luck": 91,
+      "risk": 85,
+      "communication": 56,
+      "professionalism": 26
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_river_owl",
+    "name": {
+      "en": "River Owl",
+      "fr": "Hibou rivière",
+      "es": "Búho río"
+    },
+    "description": {
+      "en": "River Owl: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Hibou rivière : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Búho río: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "luck": 49,
+      "discipline": 35,
+      "social": 41,
+      "emotionalControl": 31,
+      "creativity": 55,
+      "chaos": 67
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_river_otter",
+    "name": {
+      "en": "River Otter",
+      "fr": "Loutre rivière",
+      "es": "Nutria río"
+    },
+    "description": {
+      "en": "River Otter: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Loutre rivière : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Nutria río: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "communication": 93,
+      "creativity": 54,
+      "humor": 26,
+      "luck": 50,
+      "risk": 28,
+      "professionalism": 40
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_river_falcon",
+    "name": {
+      "en": "River Falcon",
+      "fr": "Faucon rivière",
+      "es": "Halcón río"
+    },
+    "description": {
+      "en": "River Falcon: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Faucon rivière : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Halcón río: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "intelligence": 73,
+      "risk": 29,
+      "ambition": 32,
+      "empathy": 26,
+      "creativity": 79,
+      "humor": 47
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_river_lynx",
+    "name": {
+      "en": "River Lynx",
+      "fr": "Lynx rivière",
+      "es": "Lince río"
+    },
+    "description": {
+      "en": "River Lynx: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Lynx rivière : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Lince río: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "intelligence": 49,
+      "discipline": 28,
+      "financialSense": 40,
+      "social": 55,
+      "energy": 47,
+      "risk": 46
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_river_bear",
+    "name": {
+      "en": "River Bear",
+      "fr": "Ours rivière",
+      "es": "Oso río"
+    },
+    "description": {
+      "en": "River Bear: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Ours rivière : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Oso río: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "humor": 45,
+      "social": 30,
+      "luck": 77,
+      "professionalism": 36,
+      "creativity": 80,
+      "chaos": 57
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_river_rabbit",
+    "name": {
+      "en": "River Rabbit",
+      "fr": "Lapin rivière",
+      "es": "Conejo río"
+    },
+    "description": {
+      "en": "River Rabbit: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Lapin rivière : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Conejo río: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "social": 90,
+      "humor": 74,
+      "professionalism": 76,
+      "creativity": 25,
+      "chaos": 80,
+      "luck": 94
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_river_raven",
+    "name": {
+      "en": "River Raven",
+      "fr": "Corbeau rivière",
+      "es": "Cuervo río"
+    },
+    "description": {
+      "en": "River Raven: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Corbeau rivière : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Cuervo río: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "discipline": 50,
+      "creativity": 72,
+      "luck": 69,
+      "social": 56,
+      "emotionalControl": 78,
+      "chaos": 87
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_river_gecko",
+    "name": {
+      "en": "River Gecko",
+      "fr": "Gecko rivière",
+      "es": "Geco río"
+    },
+    "description": {
+      "en": "River Gecko: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Gecko rivière : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Geco río: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "discipline": 88,
+      "social": 27,
+      "emotionalControl": 85,
+      "creativity": 41,
+      "luck": 29,
+      "chaos": 53
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_river_dolphin",
+    "name": {
+      "en": "River Dolphin",
+      "fr": "Dauphin rivière",
+      "es": "Delfín río"
+    },
+    "description": {
+      "en": "River Dolphin: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Dauphin rivière : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Delfín río: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "risk": 56,
+      "social": 81,
+      "chaos": 45,
+      "discipline": 62,
+      "communication": 87,
+      "emotionalControl": 63
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_river_turtle",
+    "name": {
+      "en": "River Turtle",
+      "fr": "Tortue rivière",
+      "es": "Tortuga río"
+    },
+    "description": {
+      "en": "River Turtle: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Tortue rivière : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Tortuga río: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "discipline": 75,
+      "creativity": 35,
+      "luck": 92,
+      "social": 81,
+      "emotionalControl": 41,
+      "chaos": 39
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_river_badger",
+    "name": {
+      "en": "River Badger",
+      "fr": "Blaireau rivière",
+      "es": "Tejón río"
+    },
+    "description": {
+      "en": "River Badger: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Blaireau rivière : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Tejón río: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "humor": 86,
+      "risk": 62,
+      "professionalism": 71,
+      "discipline": 92,
+      "emotionalControl": 27,
+      "communication": 33
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_river_heron",
+    "name": {
+      "en": "River Heron",
+      "fr": "Héron rivière",
+      "es": "Garza río"
+    },
+    "description": {
+      "en": "River Heron: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Héron rivière : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Garza río: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "social": 51,
+      "risk": 39,
+      "emotionalControl": 39,
+      "chaos": 45,
+      "discipline": 90,
+      "communication": 63
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_coastal_fox",
+    "name": {
+      "en": "Coastal Fox",
+      "fr": "Renard côtier",
+      "es": "Zorro costero"
+    },
+    "description": {
+      "en": "Coastal Fox: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Renard côtier : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Zorro costero: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "ambition": 73,
+      "creativity": 75,
+      "energy": 91,
+      "financialSense": 79,
+      "discipline": 79,
+      "social": 93
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_coastal_wolf",
+    "name": {
+      "en": "Coastal Wolf",
+      "fr": "Loup côtier",
+      "es": "Lobo costero"
+    },
+    "description": {
+      "en": "Coastal Wolf: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Loup côtier : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Lobo costero: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "ambition": 27,
+      "humor": 89,
+      "intelligence": 79,
+      "risk": 33,
+      "empathy": 33,
+      "creativity": 85
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_coastal_owl",
+    "name": {
+      "en": "Coastal Owl",
+      "fr": "Hibou côtier",
+      "es": "Búho costero"
+    },
+    "description": {
+      "en": "Coastal Owl: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Hibou côtier : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Búho costero: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "financialSense": 44,
+      "social": 79,
+      "intelligence": 78,
+      "energy": 25,
+      "risk": 50,
+      "discipline": 26
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_coastal_otter",
+    "name": {
+      "en": "Coastal Otter",
+      "fr": "Loutre côtier",
+      "es": "Nutria costero"
+    },
+    "description": {
+      "en": "Coastal Otter: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Loutre côtier : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Nutria costero: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "luck": 39,
+      "discipline": 68,
+      "social": 84,
+      "emotionalControl": 90,
+      "creativity": 45,
+      "chaos": 57
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_coastal_falcon",
+    "name": {
+      "en": "Coastal Falcon",
+      "fr": "Faucon côtier",
+      "es": "Halcón costero"
+    },
+    "description": {
+      "en": "Coastal Falcon: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Faucon côtier : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Halcón costero: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "energy": 81,
+      "discipline": 67,
+      "empathy": 24,
+      "intelligence": 59,
+      "humor": 87,
+      "risk": 85
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_coastal_lynx",
+    "name": {
+      "en": "Coastal Lynx",
+      "fr": "Lynx côtier",
+      "es": "Lince costero"
+    },
+    "description": {
+      "en": "Coastal Lynx: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Lynx côtier : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Lince costero: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "intelligence": 67,
+      "risk": 88,
+      "ambition": 36,
+      "empathy": 79,
+      "creativity": 73,
+      "humor": 35
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_coastal_bear",
+    "name": {
+      "en": "Coastal Bear",
+      "fr": "Ours côtier",
+      "es": "Oso costero"
+    },
+    "description": {
+      "en": "Coastal Bear: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Ours côtier : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Oso costero: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "chaos": 75,
+      "risk": 51,
+      "discipline": 68,
+      "communication": 87,
+      "social": 81,
+      "emotionalControl": 93
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_coastal_rabbit",
+    "name": {
+      "en": "Coastal Rabbit",
+      "fr": "Lapin côtier",
+      "es": "Conejo costero"
+    },
+    "description": {
+      "en": "Coastal Rabbit: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Lapin côtier : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Conejo costero: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "ambition": 87,
+      "humor": 65,
+      "intelligence": 49,
+      "risk": 93,
+      "empathy": 70,
+      "creativity": 55
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_coastal_raven",
+    "name": {
+      "en": "Coastal Raven",
+      "fr": "Corbeau côtier",
+      "es": "Cuervo costero"
+    },
+    "description": {
+      "en": "Coastal Raven: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Corbeau côtier : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Cuervo costero: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "ambition": 72,
+      "humor": 80,
+      "intelligence": 37,
+      "risk": 78,
+      "empathy": 35,
+      "creativity": 43
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_coastal_gecko",
+    "name": {
+      "en": "Coastal Gecko",
+      "fr": "Gecko côtier",
+      "es": "Geco costero"
+    },
+    "description": {
+      "en": "Coastal Gecko: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Gecko côtier : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Geco costero: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "creativity": 30,
+      "risk": 72,
+      "communication": 53,
+      "humor": 36,
+      "luck": 78,
+      "professionalism": 71
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_coastal_dolphin",
+    "name": {
+      "en": "Coastal Dolphin",
+      "fr": "Dauphin côtier",
+      "es": "Delfín costero"
+    },
+    "description": {
+      "en": "Coastal Dolphin: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Dauphin côtier : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Delfín costero: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "empathy": 35,
+      "risk": 45,
+      "energy": 33,
+      "discipline": 41,
+      "intelligence": 39,
+      "humor": 39
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_coastal_turtle",
+    "name": {
+      "en": "Coastal Turtle",
+      "fr": "Tortue côtier",
+      "es": "Tortuga costero"
+    },
+    "description": {
+      "en": "Coastal Turtle: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Tortue côtier : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Tortuga costero: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "social": 43,
+      "humor": 50,
+      "professionalism": 86,
+      "creativity": 49,
+      "chaos": 56,
+      "luck": 33
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_coastal_badger",
+    "name": {
+      "en": "Coastal Badger",
+      "fr": "Blaireau côtier",
+      "es": "Tejón costero"
+    },
+    "description": {
+      "en": "Coastal Badger: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Blaireau côtier : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Tejón costero: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "luck": 44,
+      "creativity": 32,
+      "discipline": 52,
+      "chaos": 60,
+      "social": 56,
+      "emotionalControl": 44
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_coastal_heron",
+    "name": {
+      "en": "Coastal Heron",
+      "fr": "Héron côtier",
+      "es": "Garza costero"
+    },
+    "description": {
+      "en": "Coastal Heron: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Héron côtier : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Garza costero: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "luck": 27,
+      "creativity": 94,
+      "discipline": 92,
+      "chaos": 61,
+      "social": 39,
+      "emotionalControl": 35
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_storm_fox",
+    "name": {
+      "en": "Storm Fox",
+      "fr": "Renard tempête",
+      "es": "Zorro tormenta"
+    },
+    "description": {
+      "en": "Storm Fox: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Renard tempête : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Zorro tormenta: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "intelligence": 64,
+      "risk": 33,
+      "ambition": 86,
+      "empathy": 50,
+      "creativity": 70,
+      "humor": 51
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_storm_wolf",
+    "name": {
+      "en": "Storm Wolf",
+      "fr": "Loup tempête",
+      "es": "Lobo tormenta"
+    },
+    "description": {
+      "en": "Storm Wolf: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Loup tempête : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Lobo tormenta: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "risk": 41,
+      "discipline": 46,
+      "communication": 53,
+      "social": 44,
+      "chaos": 53,
+      "emotionalControl": 56
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_storm_owl",
+    "name": {
+      "en": "Storm Owl",
+      "fr": "Hibou tempête",
+      "es": "Búho tormenta"
+    },
+    "description": {
+      "en": "Storm Owl: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Hibou tempête : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Búho tormenta: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "creativity": 28,
+      "humor": 56,
+      "luck": 73,
+      "risk": 58,
+      "communication": 40,
+      "professionalism": 70
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_storm_otter",
+    "name": {
+      "en": "Storm Otter",
+      "fr": "Loutre tempête",
+      "es": "Nutria tormenta"
+    },
+    "description": {
+      "en": "Storm Otter: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Loutre tempête : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Nutria tormenta: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "professionalism": 50,
+      "creativity": 52,
+      "risk": 31,
+      "communication": 84,
+      "humor": 58,
+      "luck": 37
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_storm_falcon",
+    "name": {
+      "en": "Storm Falcon",
+      "fr": "Faucon tempête",
+      "es": "Halcón tormenta"
+    },
+    "description": {
+      "en": "Storm Falcon: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Faucon tempête : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Halcón tormenta: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "chaos": 25,
+      "social": 69,
+      "risk": 84,
+      "emotionalControl": 32,
+      "discipline": 37,
+      "communication": 81
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_storm_lynx",
+    "name": {
+      "en": "Storm Lynx",
+      "fr": "Lynx tempête",
+      "es": "Lince tormenta"
+    },
+    "description": {
+      "en": "Storm Lynx: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Lynx tempête : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Lince tormenta: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "emotionalControl": 90,
+      "humor": 65,
+      "risk": 71,
+      "professionalism": 54,
+      "discipline": 25,
+      "communication": 37
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_storm_bear",
+    "name": {
+      "en": "Storm Bear",
+      "fr": "Ours tempête",
+      "es": "Oso tormenta"
+    },
+    "description": {
+      "en": "Storm Bear: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Ours tempête : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Oso tormenta: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "social": 28,
+      "humor": 74,
+      "professionalism": 85,
+      "creativity": 34,
+      "chaos": 80,
+      "luck": 32
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_storm_rabbit",
+    "name": {
+      "en": "Storm Rabbit",
+      "fr": "Lapin tempête",
+      "es": "Conejo tormenta"
+    },
+    "description": {
+      "en": "Storm Rabbit: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Lapin tempête : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Conejo tormenta: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "discipline": 31,
+      "social": 59,
+      "emotionalControl": 86,
+      "creativity": 28,
+      "luck": 43,
+      "chaos": 40
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_storm_raven",
+    "name": {
+      "en": "Storm Raven",
+      "fr": "Corbeau tempête",
+      "es": "Cuervo tormenta"
+    },
+    "description": {
+      "en": "Storm Raven: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Corbeau tempête : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Cuervo tormenta: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "creativity": 59,
+      "discipline": 55,
+      "chaos": 66,
+      "luck": 61,
+      "social": 40,
+      "emotionalControl": 71
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_storm_gecko",
+    "name": {
+      "en": "Storm Gecko",
+      "fr": "Gecko tempête",
+      "es": "Geco tormenta"
+    },
+    "description": {
+      "en": "Storm Gecko: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Gecko tempête : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Geco tormenta: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "communication": 90,
+      "risk": 60,
+      "creativity": 82,
+      "professionalism": 43,
+      "humor": 31,
+      "luck": 72
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_storm_dolphin",
+    "name": {
+      "en": "Storm Dolphin",
+      "fr": "Dauphin tempête",
+      "es": "Delfín tormenta"
+    },
+    "description": {
+      "en": "Storm Dolphin: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Dauphin tempête : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Delfín tormenta: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "creativity": 94,
+      "discipline": 32,
+      "chaos": 81,
+      "luck": 38,
+      "social": 56,
+      "emotionalControl": 35
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_storm_turtle",
+    "name": {
+      "en": "Storm Turtle",
+      "fr": "Tortue tempête",
+      "es": "Tortuga tormenta"
+    },
+    "description": {
+      "en": "Storm Turtle: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Tortue tempête : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Tortuga tormenta: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "luck": 79,
+      "creativity": 91,
+      "discipline": 56,
+      "chaos": 27,
+      "social": 91,
+      "emotionalControl": 32
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_storm_badger",
+    "name": {
+      "en": "Storm Badger",
+      "fr": "Blaireau tempête",
+      "es": "Tejón tormenta"
+    },
+    "description": {
+      "en": "Storm Badger: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Blaireau tempête : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Tejón tormenta: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "emotionalControl": 33,
+      "risk": 92,
+      "social": 76,
+      "chaos": 74,
+      "discipline": 27,
+      "communication": 82
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_storm_heron",
+    "name": {
+      "en": "Storm Heron",
+      "fr": "Héron tempête",
+      "es": "Garza tormenta"
+    },
+    "description": {
+      "en": "Storm Heron: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Héron tempête : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Garza tormenta: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "energy": 79,
+      "social": 38,
+      "ambition": 27,
+      "creativity": 85,
+      "financialSense": 83,
+      "discipline": 33
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_midnight_fox",
+    "name": {
+      "en": "Midnight Fox",
+      "fr": "Renard minuit",
+      "es": "Zorro medianoche"
+    },
+    "description": {
+      "en": "Midnight Fox: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Renard minuit : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Zorro medianoche: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "chaos": 62,
+      "risk": 48,
+      "discipline": 55,
+      "communication": 33,
+      "social": 68,
+      "emotionalControl": 80
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_midnight_wolf",
+    "name": {
+      "en": "Midnight Wolf",
+      "fr": "Loup minuit",
+      "es": "Lobo medianoche"
+    },
+    "description": {
+      "en": "Midnight Wolf: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Loup minuit : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Lobo medianoche: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "discipline": 46,
+      "social": 41,
+      "emotionalControl": 72,
+      "creativity": 43,
+      "luck": 58,
+      "chaos": 55
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_midnight_owl",
+    "name": {
+      "en": "Midnight Owl",
+      "fr": "Hibou minuit",
+      "es": "Búho medianoche"
+    },
+    "description": {
+      "en": "Midnight Owl: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Hibou minuit : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Búho medianoche: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "empathy": 24,
+      "risk": 89,
+      "energy": 36,
+      "discipline": 30,
+      "intelligence": 80,
+      "humor": 42
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_midnight_otter",
+    "name": {
+      "en": "Midnight Otter",
+      "fr": "Loutre minuit",
+      "es": "Nutria medianoche"
+    },
+    "description": {
+      "en": "Midnight Otter: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Loutre minuit : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Nutria medianoche: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "financialSense": 68,
+      "humor": 73,
+      "empathy": 67,
+      "creativity": 74,
+      "ambition": 85,
+      "social": 79
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_midnight_falcon",
+    "name": {
+      "en": "Midnight Falcon",
+      "fr": "Faucon minuit",
+      "es": "Halcón medianoche"
+    },
+    "description": {
+      "en": "Midnight Falcon: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Faucon minuit : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Halcón medianoche: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "communication": 40,
+      "humor": 39,
+      "discipline": 59,
+      "emotionalControl": 42,
+      "risk": 45,
+      "professionalism": 65
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_midnight_lynx",
+    "name": {
+      "en": "Midnight Lynx",
+      "fr": "Lynx minuit",
+      "es": "Lince medianoche"
+    },
+    "description": {
+      "en": "Midnight Lynx: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Lynx minuit : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Lince medianoche: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "professionalism": 84,
+      "humor": 40,
+      "social": 77,
+      "luck": 87,
+      "creativity": 25,
+      "chaos": 52
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_midnight_bear",
+    "name": {
+      "en": "Midnight Bear",
+      "fr": "Ours minuit",
+      "es": "Oso medianoche"
+    },
+    "description": {
+      "en": "Midnight Bear: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Ours minuit : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Oso medianoche: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "chaos": 43,
+      "risk": 57,
+      "discipline": 91,
+      "communication": 30,
+      "social": 49,
+      "emotionalControl": 61
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_midnight_rabbit",
+    "name": {
+      "en": "Midnight Rabbit",
+      "fr": "Lapin minuit",
+      "es": "Conejo medianoche"
+    },
+    "description": {
+      "en": "Midnight Rabbit: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Lapin minuit : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Conejo medianoche: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "emotionalControl": 55,
+      "humor": 70,
+      "risk": 42,
+      "professionalism": 93,
+      "discipline": 61,
+      "communication": 73
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_midnight_raven",
+    "name": {
+      "en": "Midnight Raven",
+      "fr": "Corbeau minuit",
+      "es": "Cuervo medianoche"
+    },
+    "description": {
+      "en": "Midnight Raven: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Corbeau minuit : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Cuervo medianoche: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "discipline": 86,
+      "humor": 42,
+      "communication": 39,
+      "emotionalControl": 48,
+      "risk": 54,
+      "professionalism": 27
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_midnight_gecko",
+    "name": {
+      "en": "Midnight Gecko",
+      "fr": "Gecko minuit",
+      "es": "Geco medianoche"
+    },
+    "description": {
+      "en": "Midnight Gecko: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Gecko minuit : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Geco medianoche: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "professionalism": 27,
+      "social": 89,
+      "creativity": 32,
+      "chaos": 61,
+      "humor": 33,
+      "luck": 45
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_midnight_dolphin",
+    "name": {
+      "en": "Midnight Dolphin",
+      "fr": "Dauphin minuit",
+      "es": "Delfín medianoche"
+    },
+    "description": {
+      "en": "Midnight Dolphin: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Dauphin minuit : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Delfín medianoche: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "ambition": 46,
+      "risk": 46,
+      "intelligence": 50,
+      "humor": 52,
+      "empathy": 58,
+      "creativity": 62
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_midnight_turtle",
+    "name": {
+      "en": "Midnight Turtle",
+      "fr": "Tortue minuit",
+      "es": "Tortuga medianoche"
+    },
+    "description": {
+      "en": "Midnight Turtle: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Tortue minuit : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Tortuga medianoche: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "creativity": 92,
+      "humor": 43,
+      "luck": 93,
+      "risk": 79,
+      "communication": 33,
+      "professionalism": 91
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_midnight_badger",
+    "name": {
+      "en": "Midnight Badger",
+      "fr": "Blaireau minuit",
+      "es": "Tejón medianoche"
+    },
+    "description": {
+      "en": "Midnight Badger: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Blaireau minuit : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Tejón medianoche: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "chaos": 38,
+      "risk": 48,
+      "discipline": 64,
+      "communication": 45,
+      "social": 44,
+      "emotionalControl": 56
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_midnight_heron",
+    "name": {
+      "en": "Midnight Heron",
+      "fr": "Héron minuit",
+      "es": "Garza medianoche"
+    },
+    "description": {
+      "en": "Midnight Heron: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Héron minuit : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Garza medianoche: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "professionalism": 85,
+      "social": 58,
+      "creativity": 86,
+      "chaos": 65,
+      "humor": 91,
+      "luck": 32
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_golden_fox",
+    "name": {
+      "en": "Golden Fox",
+      "fr": "Renard doré",
+      "es": "Zorro dorado"
+    },
+    "description": {
+      "en": "Golden Fox: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Renard doré : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Zorro dorado: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "chaos": 41,
+      "discipline": 88,
+      "creativity": 25,
+      "luck": 46,
+      "social": 94,
+      "emotionalControl": 31
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_golden_wolf",
+    "name": {
+      "en": "Golden Wolf",
+      "fr": "Loup doré",
+      "es": "Lobo dorado"
+    },
+    "description": {
+      "en": "Golden Wolf: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Loup doré : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Lobo dorado: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "financialSense": 70,
+      "creativity": 40,
+      "empathy": 41,
+      "humor": 76,
+      "ambition": 81,
+      "social": 47
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_golden_owl",
+    "name": {
+      "en": "Golden Owl",
+      "fr": "Hibou doré",
+      "es": "Búho dorado"
+    },
+    "description": {
+      "en": "Golden Owl: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Hibou doré : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Búho dorado: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "discipline": 93,
+      "humor": 25,
+      "communication": 54,
+      "emotionalControl": 31,
+      "risk": 81,
+      "professionalism": 34
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_golden_otter",
+    "name": {
+      "en": "Golden Otter",
+      "fr": "Loutre doré",
+      "es": "Nutria dorado"
+    },
+    "description": {
+      "en": "Golden Otter: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Loutre doré : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Nutria dorado: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "ambition": 93,
+      "humor": 43,
+      "intelligence": 87,
+      "risk": 28,
+      "empathy": 61,
+      "creativity": 93
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_golden_falcon",
+    "name": {
+      "en": "Golden Falcon",
+      "fr": "Faucon doré",
+      "es": "Halcón dorado"
+    },
+    "description": {
+      "en": "Golden Falcon: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Faucon doré : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Halcón dorado: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "communication": 78,
+      "humor": 82,
+      "discipline": 83,
+      "emotionalControl": 28,
+      "risk": 88,
+      "professionalism": 89
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_golden_lynx",
+    "name": {
+      "en": "Golden Lynx",
+      "fr": "Lynx doré",
+      "es": "Lince dorado"
+    },
+    "description": {
+      "en": "Golden Lynx: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Lynx doré : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Lince dorado: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "social": 91,
+      "risk": 67,
+      "emotionalControl": 24,
+      "chaos": 73,
+      "discipline": 45,
+      "communication": 32
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_golden_bear",
+    "name": {
+      "en": "Golden Bear",
+      "fr": "Ours doré",
+      "es": "Oso dorado"
+    },
+    "description": {
+      "en": "Golden Bear: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Ours doré : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Oso dorado: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "professionalism": 68,
+      "humor": 75,
+      "social": 27,
+      "luck": 52,
+      "creativity": 80,
+      "chaos": 87
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  },
+  {
+    "id": "animal_golden_rabbit",
+    "name": {
+      "en": "Golden Rabbit",
+      "fr": "Lapin doré",
+      "es": "Conejo dorado"
+    },
+    "description": {
+      "en": "Golden Rabbit: observant, adaptable and unexpectedly determined when it matters.",
+      "fr": "Lapin doré : observateur, adaptable et étonnamment déterminé quand ça compte.",
+      "es": "Conejo dorado: observador, adaptable y sorprendentemente decidido cuando importa."
+    },
+    "idealProfile": {
+      "chaos": 29,
+      "discipline": 36,
+      "creativity": 75,
+      "luck": 74,
+      "social": 42,
+      "emotionalControl": 81
+    },
+    "tags": [
+      "expanded_v2",
+      "animal"
+    ]
+  }
 ]

@@ -1,16 +1,2956 @@
 [
-  { "id": "workstyle_sprint_vanish", "text": { "en": "Sprints for 45 focused minutes, then vanishes for two hours to 'think'.", "fr": "Sprinte pendant 45 minutes très concentrées, puis disparaît deux heures pour « réfléchir ».", "es": "Trabaja a tope 45 minutos muy concentrado, luego desaparece dos horas a 'pensar'." }, "idealProfile": { "chaos": 75, "creativity": 65, "discipline": 30, "energy": 60 } },
-  { "id": "workstyle_gantt_chart", "text": { "en": "Turns a 5-minute task into a 6-step process with a color-coded chart nobody asked for.", "fr": "Transforme une tâche de 5 minutes en un processus à 6 étapes avec un graphique codé par couleur que personne n'a demandé.", "es": "Convierte una tarea de 5 minutos en un proceso de 6 pasos con un gráfico codificado por colores que nadie pidió." }, "idealProfile": { "discipline": 85, "professionalism": 78, "intelligence": 65, "chaos": 20 } },
-  { "id": "workstyle_last_night_genius", "text": { "en": "Finishes the whole project at 2am the night before, brilliantly, fueled by regret.", "fr": "Termine tout le projet à 2h du matin la veille, brillamment, alimenté par le regret.", "es": "Termina todo el proyecto a las 2am la noche anterior, brillantemente, alimentado por el arrepentimiento." }, "idealProfile": { "creativity": 80, "chaos": 70, "intelligence": 75, "discipline": 25 } },
-  { "id": "workstyle_delegates_everything", "text": { "en": "Delegates everything, does almost nothing, and somehow presents it as their idea.", "fr": "Délègue tout, ne fait presque rien, et présente quand même ça comme son idée à lui.", "es": "Delega todo, no hace casi nada, y de algún modo lo presenta como su propia idea." }, "idealProfile": { "ambition": 82, "communication": 70, "discipline": 30, "empathy": 25 } },
-  { "id": "workstyle_silent_fixer", "text": { "en": "Silently fixes three of everyone else's mistakes before 9am, tells no one.", "fr": "Corrige silencieusement trois erreurs des autres avant 9h, sans jamais le dire.", "es": "Corrige en silencio tres errores de los demás antes de las 9am, sin decírselo a nadie." }, "idealProfile": { "discipline": 72, "empathy": 68, "social": 30, "professionalism": 65 } },
-  { "id": "workstyle_quick_call", "text": { "en": "Says \"quick call, five minutes\" and means ninety, with three unplanned tangents.", "fr": "Dit « petit appel de cinq minutes » et ça dure quatre-vingt-dix, avec trois digressions imprévues.", "es": "Dice \"llamada rápida, cinco minutos\" y en realidad son noventa, con tres desvíos imprevistos." }, "idealProfile": { "communication": 80, "chaos": 55, "ambition": 60, "discipline": 30 } },
-  { "id": "workstyle_night_owl", "text": { "en": "Peaks creatively at 2am writing genius emails they'll regret sending at 9am.", "fr": "Au sommet de sa créativité à 2h du matin, écrit des emails géniaux qu'il regrettera d'avoir envoyés à 9h.", "es": "En su punto creativo a las 2am, escribe correos geniales que lamentará haber enviado a las 9am." }, "idealProfile": { "creativity": 78, "chaos": 60, "energy": 40, "discipline": 25 } },
-  { "id": "workstyle_calm_anchor", "text": { "en": "The one person who stays calm while three deadlines and the printer collide.", "fr": "La seule personne qui reste calme quand trois deadlines et l'imprimante se percutent en même temps.", "es": "La única persona que se mantiene tranquila cuando chocan tres plazos y la impresora a la vez." }, "idealProfile": { "emotionalControl": 85, "discipline": 68, "professionalism": 70, "chaos": 30 } },
-  { "id": "workstyle_perfectionist_polish", "text": { "en": "Submits everything five minutes late because it needed one more pass, always.", "fr": "Rend tout avec cinq minutes de retard parce qu'il fallait toujours une dernière relecture.", "es": "Entrega todo con cinco minutos de retraso porque siempre necesitaba una revisión más." }, "idealProfile": { "discipline": 78, "intelligence": 65, "professionalism": 72, "chaos": 25 } },
-  { "id": "workstyle_delegator_supreme", "text": { "en": "Has a system for everything, including a system to track the other systems.", "fr": "A un système pour tout, y compris un système pour suivre les autres systèmes.", "es": "Tiene un sistema para todo, incluido un sistema para rastrear los otros sistemas." }, "idealProfile": { "discipline": 82, "intelligence": 70, "professionalism": 75 } },
-  { "id": "workstyle_improvises_confidently", "text": { "en": "Walks into every meeting unprepared and somehow ends up leading it anyway.", "fr": "Arrive à chaque réunion sans aucune préparation et finit quand même par la mener.", "es": "Llega a cada reunión sin ninguna preparación y aun así termina liderándola." }, "idealProfile": { "communication": 78, "chaos": 60, "ambition": 65, "discipline": 25 } },
-  { "id": "workstyle_reply_all_villain", "text": { "en": "Hits Reply All to a 200-person thread to say \"thanks!\" and immediately regrets it.", "fr": "Répond à tous sur un fil de 200 personnes pour dire « merci ! » et le regrette instantanément.", "es": "Responde a todos en un hilo de 200 personas para decir \"¡gracias!\" y se arrepiente al instante." }, "idealProfile": { "chaos": 60, "discipline": 25, "communication": 55, "emotionalControl": 30 } },
-  { "id": "workstyle_snack_powered", "text": { "en": "Productivity runs entirely on a strict and mysterious snack schedule.", "fr": "La productivité fonctionne entièrement sur un programme de grignotage strict et mystérieux.", "es": "La productividad funciona enteramente con un horario de snacks estricto y misterioso." }, "idealProfile": { "discipline": 45, "energy": 60, "chaos": 35 } },
-  { "id": "workstyle_tab_hoarder", "text": { "en": "Keeps 37 browser tabs open because closing one might delete the future.", "fr": "Garde 37 onglets ouverts parce que fermer l'un d'eux pourrait supprimer le futur.", "es": "Mantiene 37 pestañas abiertas porque cerrar una podría borrar el futuro." }, "idealProfile": { "chaos": 70, "creativity": 65, "discipline": 30, "energy": 50 } }
+  {
+    "id": "workstyle_sprint_vanish",
+    "text": {
+      "en": "Sprints for 45 focused minutes, then vanishes for two hours to 'think'.",
+      "fr": "Sprinte pendant 45 minutes très concentrées, puis disparaît deux heures pour « réfléchir ».",
+      "es": "Trabaja a tope 45 minutos muy concentrado, luego desaparece dos horas a 'pensar'."
+    },
+    "idealProfile": {
+      "chaos": 75,
+      "creativity": 65,
+      "discipline": 30,
+      "energy": 60
+    }
+  },
+  {
+    "id": "workstyle_gantt_chart",
+    "text": {
+      "en": "Turns a 5-minute task into a 6-step process with a color-coded chart nobody asked for.",
+      "fr": "Transforme une tâche de 5 minutes en un processus à 6 étapes avec un graphique codé par couleur que personne n'a demandé.",
+      "es": "Convierte una tarea de 5 minutos en un proceso de 6 pasos con un gráfico codificado por colores que nadie pidió."
+    },
+    "idealProfile": {
+      "discipline": 85,
+      "professionalism": 78,
+      "intelligence": 65,
+      "chaos": 20
+    }
+  },
+  {
+    "id": "workstyle_last_night_genius",
+    "text": {
+      "en": "Finishes the whole project at 2am the night before, brilliantly, fueled by regret.",
+      "fr": "Termine tout le projet à 2h du matin la veille, brillamment, alimenté par le regret.",
+      "es": "Termina todo el proyecto a las 2am la noche anterior, brillantemente, alimentado por el arrepentimiento."
+    },
+    "idealProfile": {
+      "creativity": 80,
+      "chaos": 70,
+      "intelligence": 75,
+      "discipline": 25
+    }
+  },
+  {
+    "id": "workstyle_delegates_everything",
+    "text": {
+      "en": "Delegates everything, does almost nothing, and somehow presents it as their idea.",
+      "fr": "Délègue tout, ne fait presque rien, et présente quand même ça comme son idée à lui.",
+      "es": "Delega todo, no hace casi nada, y de algún modo lo presenta como su propia idea."
+    },
+    "idealProfile": {
+      "ambition": 82,
+      "communication": 70,
+      "discipline": 30,
+      "empathy": 25
+    }
+  },
+  {
+    "id": "workstyle_silent_fixer",
+    "text": {
+      "en": "Silently fixes three of everyone else's mistakes before 9am, tells no one.",
+      "fr": "Corrige silencieusement trois erreurs des autres avant 9h, sans jamais le dire.",
+      "es": "Corrige en silencio tres errores de los demás antes de las 9am, sin decírselo a nadie."
+    },
+    "idealProfile": {
+      "discipline": 72,
+      "empathy": 68,
+      "social": 30,
+      "professionalism": 65
+    }
+  },
+  {
+    "id": "workstyle_quick_call",
+    "text": {
+      "en": "Says \"quick call, five minutes\" and means ninety, with three unplanned tangents.",
+      "fr": "Dit « petit appel de cinq minutes » et ça dure quatre-vingt-dix, avec trois digressions imprévues.",
+      "es": "Dice \"llamada rápida, cinco minutos\" y en realidad son noventa, con tres desvíos imprevistos."
+    },
+    "idealProfile": {
+      "communication": 80,
+      "chaos": 55,
+      "ambition": 60,
+      "discipline": 30
+    }
+  },
+  {
+    "id": "workstyle_night_owl",
+    "text": {
+      "en": "Peaks creatively at 2am writing genius emails they'll regret sending at 9am.",
+      "fr": "Au sommet de sa créativité à 2h du matin, écrit des emails géniaux qu'il regrettera d'avoir envoyés à 9h.",
+      "es": "En su punto creativo a las 2am, escribe correos geniales que lamentará haber enviado a las 9am."
+    },
+    "idealProfile": {
+      "creativity": 78,
+      "chaos": 60,
+      "energy": 40,
+      "discipline": 25
+    }
+  },
+  {
+    "id": "workstyle_calm_anchor",
+    "text": {
+      "en": "The one person who stays calm while three deadlines and the printer collide.",
+      "fr": "La seule personne qui reste calme quand trois deadlines et l'imprimante se percutent en même temps.",
+      "es": "La única persona que se mantiene tranquila cuando chocan tres plazos y la impresora a la vez."
+    },
+    "idealProfile": {
+      "emotionalControl": 85,
+      "discipline": 68,
+      "professionalism": 70,
+      "chaos": 30
+    }
+  },
+  {
+    "id": "workstyle_perfectionist_polish",
+    "text": {
+      "en": "Submits everything five minutes late because it needed one more pass, always.",
+      "fr": "Rend tout avec cinq minutes de retard parce qu'il fallait toujours une dernière relecture.",
+      "es": "Entrega todo con cinco minutos de retraso porque siempre necesitaba una revisión más."
+    },
+    "idealProfile": {
+      "discipline": 78,
+      "intelligence": 65,
+      "professionalism": 72,
+      "chaos": 25
+    }
+  },
+  {
+    "id": "workstyle_delegator_supreme",
+    "text": {
+      "en": "Has a system for everything, including a system to track the other systems.",
+      "fr": "A un système pour tout, y compris un système pour suivre les autres systèmes.",
+      "es": "Tiene un sistema para todo, incluido un sistema para rastrear los otros sistemas."
+    },
+    "idealProfile": {
+      "discipline": 82,
+      "intelligence": 70,
+      "professionalism": 75
+    }
+  },
+  {
+    "id": "workstyle_improvises_confidently",
+    "text": {
+      "en": "Walks into every meeting unprepared and somehow ends up leading it anyway.",
+      "fr": "Arrive à chaque réunion sans aucune préparation et finit quand même par la mener.",
+      "es": "Llega a cada reunión sin ninguna preparación y aun así termina liderándola."
+    },
+    "idealProfile": {
+      "communication": 78,
+      "chaos": 60,
+      "ambition": 65,
+      "discipline": 25
+    }
+  },
+  {
+    "id": "workstyle_reply_all_villain",
+    "text": {
+      "en": "Hits Reply All to a 200-person thread to say \"thanks!\" and immediately regrets it.",
+      "fr": "Répond à tous sur un fil de 200 personnes pour dire « merci ! » et le regrette instantanément.",
+      "es": "Responde a todos en un hilo de 200 personas para decir \"¡gracias!\" y se arrepiente al instante."
+    },
+    "idealProfile": {
+      "chaos": 60,
+      "discipline": 25,
+      "communication": 55,
+      "emotionalControl": 30
+    }
+  },
+  {
+    "id": "workstyle_snack_powered",
+    "text": {
+      "en": "Productivity runs entirely on a strict and mysterious snack schedule.",
+      "fr": "La productivité fonctionne entièrement sur un programme de grignotage strict et mystérieux.",
+      "es": "La productividad funciona enteramente con un horario de snacks estricto y misterioso."
+    },
+    "idealProfile": {
+      "discipline": 45,
+      "energy": 60,
+      "chaos": 35
+    }
+  },
+  {
+    "id": "workstyle_tab_hoarder",
+    "text": {
+      "en": "Keeps 37 browser tabs open because closing one might delete the future.",
+      "fr": "Garde 37 onglets ouverts parce que fermer l'un d'eux pourrait supprimer le futur.",
+      "es": "Mantiene 37 pestañas abiertas porque cerrar una podría borrar el futuro."
+    },
+    "idealProfile": {
+      "chaos": 70,
+      "creativity": 65,
+      "discipline": 30,
+      "energy": 50
+    }
+  },
+  {
+    "id": "workstyle_tabs_everywhere",
+    "name": {
+      "en": "47 Tabs and a Dream",
+      "fr": "47 Onglets et un Rêve",
+      "es": "47 Pestañas y un Sueño"
+    },
+    "idealProfile": {
+      "chaos": 82,
+      "creativity": 72,
+      "energy": 62,
+      "discipline": 28,
+      "humor": 75
+    }
+  },
+  {
+    "id": "workstyle_calendar_tetris",
+    "name": {
+      "en": "Calendar Tetris Until Something Fits",
+      "fr": "Tetris de Calendrier Jusqu'à ce que Ça Rentre",
+      "es": "Tetris de Calendario Hasta que Algo Encaje"
+    },
+    "idealProfile": {
+      "discipline": 78,
+      "professionalism": 72,
+      "communication": 65,
+      "creativity": 62,
+      "energy": 68
+    }
+  },
+  {
+    "id": "workstyle_last_minute_clean",
+    "name": {
+      "en": "Starts at 23:48, Delivers at 23:57",
+      "fr": "Commence à 23 h 48, Livre à 23 h 57",
+      "es": "Empieza a las 23:48, Entrega a las 23:57"
+    },
+    "idealProfile": {
+      "discipline": 30,
+      "chaos": 78,
+      "energy": 84,
+      "emotionalControl": 70,
+      "creativity": 74
+    }
+  },
+  {
+    "id": "workstyle_one_clean_notebook",
+    "name": {
+      "en": "One Perfect Notebook, Six Unread Notifications",
+      "fr": "Un Carnet Parfait, Six Notifications Ignorées",
+      "es": "Un Cuaderno Perfecto, Seis Notificaciones Ignoradas"
+    },
+    "idealProfile": {
+      "discipline": 70,
+      "creativity": 68,
+      "communication": 42,
+      "professionalism": 72,
+      "chaos": 48
+    }
+  },
+  {
+    "id": "workstyle_inbox_zeroish",
+    "name": {
+      "en": "Inbox Zero-ish",
+      "fr": "Inbox Zéro-ish",
+      "es": "Bandeja Casi Cero"
+    },
+    "idealProfile": {
+      "discipline": 74,
+      "professionalism": 70,
+      "chaos": 44,
+      "communication": 68,
+      "energy": 58
+    }
+  },
+  {
+    "id": "workstyle_focus_music",
+    "name": {
+      "en": "One Playlist, No Eye Contact",
+      "fr": "Une Playlist, Zéro Contact Visuel",
+      "es": "Una Playlist, Cero Contacto Visual"
+    },
+    "idealProfile": {
+      "discipline": 76,
+      "social": 30,
+      "creativity": 72,
+      "emotionalControl": 78,
+      "energy": 66
+    }
+  },
+  {
+    "id": "workstyle_postit_ecosystem",
+    "name": {
+      "en": "Post-it Ecosystem",
+      "fr": "Écosystème de Post-it",
+      "es": "Ecosistema de Post-it"
+    },
+    "idealProfile": {
+      "creativity": 80,
+      "chaos": 68,
+      "discipline": 52,
+      "energy": 64,
+      "humor": 66
+    }
+  },
+  {
+    "id": "workstyle_meeting_notes",
+    "name": {
+      "en": "Takes Notes Nobody Asked For",
+      "fr": "Prend des Notes que Personne n'a Demandées",
+      "es": "Toma Notas que Nadie Pidió"
+    },
+    "idealProfile": {
+      "discipline": 84,
+      "professionalism": 80,
+      "communication": 62,
+      "energy": 56,
+      "social": 52
+    }
+  },
+  {
+    "id": "workstyle_deep_work_ghost",
+    "name": {
+      "en": "Disappears for Two Hours, Returns With the Answer",
+      "fr": "Disparaît Deux Heures, Revient avec la Réponse",
+      "es": "Desaparece Dos Horas y Vuelve con la Respuesta"
+    },
+    "idealProfile": {
+      "intelligence": 84,
+      "discipline": 78,
+      "social": 28,
+      "creativity": 76,
+      "communication": 46
+    }
+  },
+  {
+    "id": "workstyle_pomodoro_negotiator",
+    "name": {
+      "en": "Negotiates With the Pomodoro Timer",
+      "fr": "Négocie avec le Timer Pomodoro",
+      "es": "Negocia con el Temporizador Pomodoro"
+    },
+    "idealProfile": {
+      "discipline": 58,
+      "chaos": 62,
+      "humor": 72,
+      "energy": 64,
+      "creativity": 66
+    }
+  },
+  {
+    "id": "workstyle_reply_later",
+    "name": {
+      "en": "Marks Everything 'Reply Later'",
+      "fr": "Marque Tout « Répondre Plus Tard »",
+      "es": "Marca Todo « Responder Luego »"
+    },
+    "idealProfile": {
+      "communication": 42,
+      "discipline": 48,
+      "professionalism": 58,
+      "chaos": 66,
+      "emotionalControl": 70
+    }
+  },
+  {
+    "id": "workstyle_clean_desk_chaos",
+    "name": {
+      "en": "Clean Desk, Chaotic Desktop",
+      "fr": "Bureau Propre, Desktop Chaotique",
+      "es": "Mesa Limpia, Escritorio Digital Caótico"
+    },
+    "idealProfile": {
+      "discipline": 68,
+      "chaos": 72,
+      "professionalism": 70,
+      "creativity": 62,
+      "intelligence": 60
+    }
+  },
+  {
+    "id": "workstyle_lunch_break_solver",
+    "name": {
+      "en": "Solves It During Lunch Break",
+      "fr": "Résout le Problème Pendant la Pause Déjeuner",
+      "es": "Lo Resuelve Durante la Pausa de Comer"
+    },
+    "idealProfile": {
+      "intelligence": 78,
+      "energy": 68,
+      "creativity": 76,
+      "discipline": 52,
+      "luck": 64
+    }
+  },
+  {
+    "id": "workstyle_checklist_dopamine",
+    "name": {
+      "en": "Runs on Checklist Dopamine",
+      "fr": "Fonctionne à la Dopamine de Checklist",
+      "es": "Funciona con Dopamina de Checklist"
+    },
+    "idealProfile": {
+      "discipline": 90,
+      "energy": 74,
+      "professionalism": 76,
+      "emotionalControl": 78,
+      "humor": 54
+    }
+  },
+  {
+    "id": "workstyle_async_evangelist",
+    "name": {
+      "en": "Would Rather Send a Message Than Book a Meeting",
+      "fr": "Préfère Envoyer un Message que Planifier une Réunion",
+      "es": "Prefiere Mandar un Mensaje que Agendar una Reunión"
+    },
+    "idealProfile": {
+      "communication": 78,
+      "discipline": 72,
+      "social": 40,
+      "professionalism": 76,
+      "intelligence": 68
+    }
+  },
+  {
+    "id": "workstyle_version_name_artist",
+    "name": {
+      "en": "Names Files final_v2_REAL_final",
+      "fr": "Nomme les Fichiers final_v2_VRAI_final",
+      "es": "Nombra Archivos final_v2_AHORA_SI"
+    },
+    "idealProfile": {
+      "chaos": 78,
+      "creativity": 68,
+      "discipline": 34,
+      "humor": 76,
+      "professionalism": 46
+    }
+  },
+  {
+    "id": "workstyle_sprint_planner",
+    "name": {
+      "en": "Sprint Planner",
+      "fr": "Sprint Planificateur",
+      "es": "Sprint Planificador"
+    },
+    "idealProfile": {
+      "discipline": 71,
+      "creativity": 93,
+      "luck": 72,
+      "social": 77,
+      "emotionalControl": 28,
+      "chaos": 90
+    },
+    "tags": [
+      "expanded_v2",
+      "sprint",
+      "planner"
+    ]
+  },
+  {
+    "id": "workstyle_sprint_improviser",
+    "name": {
+      "en": "Sprint Improviser",
+      "fr": "Sprint Improvisateur",
+      "es": "Sprint Improvisador"
+    },
+    "idealProfile": {
+      "creativity": 66,
+      "humor": 91,
+      "luck": 32,
+      "risk": 46,
+      "communication": 78,
+      "professionalism": 58
+    },
+    "tags": [
+      "expanded_v2",
+      "sprint",
+      "improviser"
+    ]
+  },
+  {
+    "id": "workstyle_sprint_collaborator",
+    "name": {
+      "en": "Sprint Collaborator",
+      "fr": "Sprint Collaborateur",
+      "es": "Sprint Colaborador"
+    },
+    "idealProfile": {
+      "creativity": 76,
+      "humor": 38,
+      "luck": 90,
+      "risk": 30,
+      "communication": 88,
+      "professionalism": 42
+    },
+    "tags": [
+      "expanded_v2",
+      "sprint",
+      "collaborator"
+    ]
+  },
+  {
+    "id": "workstyle_sprint_soloist",
+    "name": {
+      "en": "Sprint Soloist",
+      "fr": "Sprint Soliste",
+      "es": "Sprint Solista"
+    },
+    "idealProfile": {
+      "luck": 61,
+      "discipline": 73,
+      "social": 51,
+      "emotionalControl": 64,
+      "creativity": 67,
+      "chaos": 79
+    },
+    "tags": [
+      "expanded_v2",
+      "sprint",
+      "soloist"
+    ]
+  },
+  {
+    "id": "workstyle_sprint_optimizer",
+    "name": {
+      "en": "Sprint Optimizer",
+      "fr": "Sprint Optimiseur",
+      "es": "Sprint Optimizador"
+    },
+    "idealProfile": {
+      "energy": 26,
+      "creativity": 61,
+      "ambition": 84,
+      "social": 32,
+      "financialSense": 73,
+      "discipline": 25
+    },
+    "tags": [
+      "expanded_v2",
+      "sprint",
+      "optimizer"
+    ]
+  },
+  {
+    "id": "workstyle_sprint_finisher",
+    "name": {
+      "en": "Sprint Finisher",
+      "fr": "Sprint Finisseur",
+      "es": "Sprint Finalizador"
+    },
+    "idealProfile": {
+      "ambition": 57,
+      "risk": 75,
+      "intelligence": 69,
+      "humor": 63,
+      "empathy": 87,
+      "creativity": 81
+    },
+    "tags": [
+      "expanded_v2",
+      "sprint",
+      "finisher"
+    ]
+  },
+  {
+    "id": "workstyle_sprint_explorer",
+    "name": {
+      "en": "Sprint Explorer",
+      "fr": "Sprint Explorateur",
+      "es": "Sprint Explorador"
+    },
+    "idealProfile": {
+      "emotionalControl": 75,
+      "discipline": 42,
+      "humor": 90,
+      "communication": 94,
+      "risk": 87,
+      "professionalism": 54
+    },
+    "tags": [
+      "expanded_v2",
+      "sprint",
+      "explorer"
+    ]
+  },
+  {
+    "id": "workstyle_sprint_coordinator",
+    "name": {
+      "en": "Sprint Coordinator",
+      "fr": "Sprint Coordinateur",
+      "es": "Sprint Coordinador"
+    },
+    "idealProfile": {
+      "social": 34,
+      "humor": 32,
+      "professionalism": 37,
+      "creativity": 40,
+      "chaos": 38,
+      "luck": 55
+    },
+    "tags": [
+      "expanded_v2",
+      "sprint",
+      "coordinator"
+    ]
+  },
+  {
+    "id": "workstyle_sprint_maker",
+    "name": {
+      "en": "Sprint Maker",
+      "fr": "Sprint Créateur",
+      "es": "Sprint Creador"
+    },
+    "idealProfile": {
+      "communication": 83,
+      "humor": 67,
+      "discipline": 40,
+      "emotionalControl": 46,
+      "risk": 73,
+      "professionalism": 46
+    },
+    "tags": [
+      "expanded_v2",
+      "sprint",
+      "maker"
+    ]
+  },
+  {
+    "id": "workstyle_sprint_reviewer",
+    "name": {
+      "en": "Sprint Reviewer",
+      "fr": "Sprint Relecteur",
+      "es": "Sprint Revisor"
+    },
+    "idealProfile": {
+      "ambition": 66,
+      "creativity": 31,
+      "energy": 70,
+      "financialSense": 34,
+      "discipline": 72,
+      "social": 49
+    },
+    "tags": [
+      "expanded_v2",
+      "sprint",
+      "reviewer"
+    ]
+  },
+  {
+    "id": "workstyle_steady_planner",
+    "name": {
+      "en": "Steady Planner",
+      "fr": "Régulier Planificateur",
+      "es": "Constante Planificador"
+    },
+    "idealProfile": {
+      "humor": 31,
+      "discipline": 34,
+      "emotionalControl": 48,
+      "risk": 37,
+      "professionalism": 40,
+      "communication": 66
+    },
+    "tags": [
+      "expanded_v2",
+      "steady",
+      "planner"
+    ]
+  },
+  {
+    "id": "workstyle_steady_improviser",
+    "name": {
+      "en": "Steady Improviser",
+      "fr": "Régulier Improvisateur",
+      "es": "Constante Improvisador"
+    },
+    "idealProfile": {
+      "discipline": 45,
+      "humor": 66,
+      "communication": 60,
+      "emotionalControl": 72,
+      "risk": 44,
+      "professionalism": 57
+    },
+    "tags": [
+      "expanded_v2",
+      "steady",
+      "improviser"
+    ]
+  },
+  {
+    "id": "workstyle_steady_collaborator",
+    "name": {
+      "en": "Steady Collaborator",
+      "fr": "Régulier Collaborateur",
+      "es": "Constante Colaborador"
+    },
+    "idealProfile": {
+      "financialSense": 67,
+      "humor": 57,
+      "empathy": 37,
+      "creativity": 73,
+      "ambition": 69,
+      "social": 49
+    },
+    "tags": [
+      "expanded_v2",
+      "steady",
+      "collaborator"
+    ]
+  },
+  {
+    "id": "workstyle_steady_soloist",
+    "name": {
+      "en": "Steady Soloist",
+      "fr": "Régulier Soliste",
+      "es": "Constante Solista"
+    },
+    "idealProfile": {
+      "chaos": 81,
+      "social": 69,
+      "risk": 76,
+      "emotionalControl": 61,
+      "discipline": 93,
+      "communication": 81
+    },
+    "tags": [
+      "expanded_v2",
+      "steady",
+      "soloist"
+    ]
+  },
+  {
+    "id": "workstyle_steady_optimizer",
+    "name": {
+      "en": "Steady Optimizer",
+      "fr": "Régulier Optimiseur",
+      "es": "Constante Optimizador"
+    },
+    "idealProfile": {
+      "luck": 53,
+      "discipline": 64,
+      "social": 24,
+      "emotionalControl": 83,
+      "creativity": 59,
+      "chaos": 71
+    },
+    "tags": [
+      "expanded_v2",
+      "steady",
+      "optimizer"
+    ]
+  },
+  {
+    "id": "workstyle_steady_finisher",
+    "name": {
+      "en": "Steady Finisher",
+      "fr": "Régulier Finisseur",
+      "es": "Constante Finalizador"
+    },
+    "idealProfile": {
+      "emotionalControl": 34,
+      "humor": 54,
+      "risk": 33,
+      "professionalism": 39,
+      "discipline": 40,
+      "communication": 52
+    },
+    "tags": [
+      "expanded_v2",
+      "steady",
+      "finisher"
+    ]
+  },
+  {
+    "id": "workstyle_steady_explorer",
+    "name": {
+      "en": "Steady Explorer",
+      "fr": "Régulier Explorateur",
+      "es": "Constante Explorador"
+    },
+    "idealProfile": {
+      "luck": 94,
+      "social": 89,
+      "humor": 87,
+      "professionalism": 92,
+      "creativity": 24,
+      "chaos": 93
+    },
+    "tags": [
+      "expanded_v2",
+      "steady",
+      "explorer"
+    ]
+  },
+  {
+    "id": "workstyle_steady_coordinator",
+    "name": {
+      "en": "Steady Coordinator",
+      "fr": "Régulier Coordinateur",
+      "es": "Constante Coordinador"
+    },
+    "idealProfile": {
+      "humor": 60,
+      "social": 51,
+      "luck": 24,
+      "professionalism": 57,
+      "creativity": 92,
+      "chaos": 72
+    },
+    "tags": [
+      "expanded_v2",
+      "steady",
+      "coordinator"
+    ]
+  },
+  {
+    "id": "workstyle_steady_maker",
+    "name": {
+      "en": "Steady Maker",
+      "fr": "Régulier Créateur",
+      "es": "Constante Creador"
+    },
+    "idealProfile": {
+      "ambition": 35,
+      "creativity": 34,
+      "energy": 28,
+      "financialSense": 81,
+      "discipline": 41,
+      "social": 52
+    },
+    "tags": [
+      "expanded_v2",
+      "steady",
+      "maker"
+    ]
+  },
+  {
+    "id": "workstyle_steady_reviewer",
+    "name": {
+      "en": "Steady Reviewer",
+      "fr": "Régulier Relecteur",
+      "es": "Constante Revisor"
+    },
+    "idealProfile": {
+      "creativity": 64,
+      "humor": 93,
+      "luck": 59,
+      "risk": 69,
+      "communication": 76,
+      "professionalism": 81
+    },
+    "tags": [
+      "expanded_v2",
+      "steady",
+      "reviewer"
+    ]
+  },
+  {
+    "id": "workstyle_deep_focus_planner",
+    "name": {
+      "en": "Deep Focus Planner",
+      "fr": "Concentration profonde Planificateur",
+      "es": "Concentración profunda Planificador"
+    },
+    "idealProfile": {
+      "emotionalControl": 64,
+      "risk": 53,
+      "social": 77,
+      "chaos": 72,
+      "discipline": 59,
+      "communication": 83
+    },
+    "tags": [
+      "expanded_v2",
+      "deep_focus",
+      "planner"
+    ]
+  },
+  {
+    "id": "workstyle_deep_focus_improviser",
+    "name": {
+      "en": "Deep Focus Improviser",
+      "fr": "Concentration profonde Improvisateur",
+      "es": "Concentración profunda Improvisador"
+    },
+    "idealProfile": {
+      "energy": 60,
+      "discipline": 75,
+      "empathy": 62,
+      "intelligence": 58,
+      "humor": 66,
+      "risk": 93
+    },
+    "tags": [
+      "expanded_v2",
+      "deep_focus",
+      "improviser"
+    ]
+  },
+  {
+    "id": "workstyle_deep_focus_collaborator",
+    "name": {
+      "en": "Deep Focus Collaborator",
+      "fr": "Concentration profonde Collaborateur",
+      "es": "Concentración profunda Colaborador"
+    },
+    "idealProfile": {
+      "humor": 62,
+      "discipline": 48,
+      "emotionalControl": 28,
+      "risk": 68,
+      "professionalism": 54,
+      "communication": 46
+    },
+    "tags": [
+      "expanded_v2",
+      "deep_focus",
+      "collaborator"
+    ]
+  },
+  {
+    "id": "workstyle_deep_focus_soloist",
+    "name": {
+      "en": "Deep Focus Soloist",
+      "fr": "Concentration profonde Soliste",
+      "es": "Concentración profunda Solista"
+    },
+    "idealProfile": {
+      "intelligence": 69,
+      "risk": 44,
+      "ambition": 88,
+      "empathy": 79,
+      "creativity": 75,
+      "humor": 62
+    },
+    "tags": [
+      "expanded_v2",
+      "deep_focus",
+      "soloist"
+    ]
+  },
+  {
+    "id": "workstyle_deep_focus_optimizer",
+    "name": {
+      "en": "Deep Focus Optimizer",
+      "fr": "Concentration profonde Optimiseur",
+      "es": "Concentración profunda Optimizador"
+    },
+    "idealProfile": {
+      "humor": 28,
+      "social": 36,
+      "luck": 41,
+      "professionalism": 42,
+      "creativity": 88,
+      "chaos": 40
+    },
+    "tags": [
+      "expanded_v2",
+      "deep_focus",
+      "optimizer"
+    ]
+  },
+  {
+    "id": "workstyle_deep_focus_finisher",
+    "name": {
+      "en": "Deep Focus Finisher",
+      "fr": "Concentration profonde Finisseur",
+      "es": "Concentración profunda Finalizador"
+    },
+    "idealProfile": {
+      "communication": 49,
+      "creativity": 90,
+      "humor": 34,
+      "luck": 70,
+      "risk": 55,
+      "professionalism": 67
+    },
+    "tags": [
+      "expanded_v2",
+      "deep_focus",
+      "finisher"
+    ]
+  },
+  {
+    "id": "workstyle_deep_focus_explorer",
+    "name": {
+      "en": "Deep Focus Explorer",
+      "fr": "Concentration profonde Explorateur",
+      "es": "Concentración profunda Explorador"
+    },
+    "idealProfile": {
+      "risk": 92,
+      "discipline": 38,
+      "communication": 86,
+      "social": 88,
+      "chaos": 33,
+      "emotionalControl": 29
+    },
+    "tags": [
+      "expanded_v2",
+      "deep_focus",
+      "explorer"
+    ]
+  },
+  {
+    "id": "workstyle_deep_focus_coordinator",
+    "name": {
+      "en": "Deep Focus Coordinator",
+      "fr": "Concentration profonde Coordinateur",
+      "es": "Concentración profunda Coordinador"
+    },
+    "idealProfile": {
+      "chaos": 89,
+      "social": 51,
+      "risk": 62,
+      "emotionalControl": 54,
+      "discipline": 30,
+      "communication": 63
+    },
+    "tags": [
+      "expanded_v2",
+      "deep_focus",
+      "coordinator"
+    ]
+  },
+  {
+    "id": "workstyle_deep_focus_maker",
+    "name": {
+      "en": "Deep Focus Maker",
+      "fr": "Concentration profonde Créateur",
+      "es": "Concentración profunda Creador"
+    },
+    "idealProfile": {
+      "luck": 35,
+      "creativity": 85,
+      "discipline": 89,
+      "chaos": 52,
+      "social": 47,
+      "emotionalControl": 26
+    },
+    "tags": [
+      "expanded_v2",
+      "deep_focus",
+      "maker"
+    ]
+  },
+  {
+    "id": "workstyle_deep_focus_reviewer",
+    "name": {
+      "en": "Deep Focus Reviewer",
+      "fr": "Concentration profonde Relecteur",
+      "es": "Concentración profunda Revisor"
+    },
+    "idealProfile": {
+      "discipline": 71,
+      "humor": 53,
+      "communication": 75,
+      "emotionalControl": 59,
+      "risk": 29,
+      "professionalism": 83
+    },
+    "tags": [
+      "expanded_v2",
+      "deep_focus",
+      "reviewer"
+    ]
+  },
+  {
+    "id": "workstyle_social_planner",
+    "name": {
+      "en": "Social Planner",
+      "fr": "Social Planificateur",
+      "es": "Social Planificador"
+    },
+    "idealProfile": {
+      "creativity": 90,
+      "risk": 45,
+      "communication": 35,
+      "humor": 25,
+      "luck": 51,
+      "professionalism": 53
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "planner"
+    ]
+  },
+  {
+    "id": "workstyle_social_improviser",
+    "name": {
+      "en": "Social Improviser",
+      "fr": "Social Improvisateur",
+      "es": "Social Improvisador"
+    },
+    "idealProfile": {
+      "energy": 65,
+      "discipline": 29,
+      "empathy": 26,
+      "intelligence": 92,
+      "humor": 71,
+      "risk": 47
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "improviser"
+    ]
+  },
+  {
+    "id": "workstyle_social_collaborator",
+    "name": {
+      "en": "Social Collaborator",
+      "fr": "Social Collaborateur",
+      "es": "Social Colaborador"
+    },
+    "idealProfile": {
+      "empathy": 39,
+      "risk": 45,
+      "energy": 52,
+      "discipline": 45,
+      "intelligence": 83,
+      "humor": 58
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "collaborator"
+    ]
+  },
+  {
+    "id": "workstyle_social_soloist",
+    "name": {
+      "en": "Social Soloist",
+      "fr": "Social Soliste",
+      "es": "Social Solista"
+    },
+    "idealProfile": {
+      "risk": 43,
+      "social": 52,
+      "chaos": 64,
+      "discipline": 49,
+      "communication": 58,
+      "emotionalControl": 82
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "soloist"
+    ]
+  },
+  {
+    "id": "workstyle_social_optimizer",
+    "name": {
+      "en": "Social Optimizer",
+      "fr": "Social Optimiseur",
+      "es": "Social Optimizador"
+    },
+    "idealProfile": {
+      "professionalism": 81,
+      "humor": 89,
+      "social": 34,
+      "luck": 39,
+      "creativity": 93,
+      "chaos": 30
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "optimizer"
+    ]
+  },
+  {
+    "id": "workstyle_social_finisher",
+    "name": {
+      "en": "Social Finisher",
+      "fr": "Social Finisseur",
+      "es": "Social Finalizador"
+    },
+    "idealProfile": {
+      "luck": 24,
+      "creativity": 92,
+      "discipline": 65,
+      "chaos": 82,
+      "social": 36,
+      "emotionalControl": 33
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "finisher"
+    ]
+  },
+  {
+    "id": "workstyle_social_explorer",
+    "name": {
+      "en": "Social Explorer",
+      "fr": "Social Explorateur",
+      "es": "Social Explorador"
+    },
+    "idealProfile": {
+      "luck": 86,
+      "social": 56,
+      "humor": 26,
+      "professionalism": 88,
+      "creativity": 62,
+      "chaos": 32
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "explorer"
+    ]
+  },
+  {
+    "id": "workstyle_social_coordinator",
+    "name": {
+      "en": "Social Coordinator",
+      "fr": "Social Coordinateur",
+      "es": "Social Coordinador"
+    },
+    "idealProfile": {
+      "creativity": 74,
+      "risk": 58,
+      "communication": 60,
+      "humor": 80,
+      "luck": 64,
+      "professionalism": 78
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "coordinator"
+    ]
+  },
+  {
+    "id": "workstyle_social_maker",
+    "name": {
+      "en": "Social Maker",
+      "fr": "Social Créateur",
+      "es": "Social Creador"
+    },
+    "idealProfile": {
+      "professionalism": 92,
+      "humor": 32,
+      "social": 66,
+      "luck": 71,
+      "creativity": 33,
+      "chaos": 44
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "maker"
+    ]
+  },
+  {
+    "id": "workstyle_social_reviewer",
+    "name": {
+      "en": "Social Reviewer",
+      "fr": "Social Relecteur",
+      "es": "Social Revisor"
+    },
+    "idealProfile": {
+      "risk": 89,
+      "discipline": 63,
+      "communication": 38,
+      "social": 79,
+      "chaos": 30,
+      "emotionalControl": 91
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "reviewer"
+    ]
+  },
+  {
+    "id": "workstyle_night_owl_planner",
+    "name": {
+      "en": "Night Owl Planner",
+      "fr": "Oiseau de nuit Planificateur",
+      "es": "Noctámbulo Planificador"
+    },
+    "idealProfile": {
+      "intelligence": 48,
+      "risk": 75,
+      "ambition": 74,
+      "empathy": 76,
+      "creativity": 54,
+      "humor": 93
+    },
+    "tags": [
+      "expanded_v2",
+      "night_owl",
+      "planner"
+    ]
+  },
+  {
+    "id": "workstyle_night_owl_improviser",
+    "name": {
+      "en": "Night Owl Improviser",
+      "fr": "Oiseau de nuit Improvisateur",
+      "es": "Noctámbulo Improvisador"
+    },
+    "idealProfile": {
+      "risk": 32,
+      "discipline": 25,
+      "communication": 30,
+      "social": 79,
+      "chaos": 44,
+      "emotionalControl": 91
+    },
+    "tags": [
+      "expanded_v2",
+      "night_owl",
+      "improviser"
+    ]
+  },
+  {
+    "id": "workstyle_night_owl_collaborator",
+    "name": {
+      "en": "Night Owl Collaborator",
+      "fr": "Oiseau de nuit Collaborateur",
+      "es": "Noctámbulo Colaborador"
+    },
+    "idealProfile": {
+      "empathy": 40,
+      "risk": 48,
+      "energy": 94,
+      "discipline": 46,
+      "intelligence": 94,
+      "humor": 29
+    },
+    "tags": [
+      "expanded_v2",
+      "night_owl",
+      "collaborator"
+    ]
+  },
+  {
+    "id": "workstyle_night_owl_soloist",
+    "name": {
+      "en": "Night Owl Soloist",
+      "fr": "Oiseau de nuit Soliste",
+      "es": "Noctámbulo Solista"
+    },
+    "idealProfile": {
+      "chaos": 38,
+      "discipline": 76,
+      "creativity": 85,
+      "luck": 90,
+      "social": 82,
+      "emotionalControl": 91
+    },
+    "tags": [
+      "expanded_v2",
+      "night_owl",
+      "soloist"
+    ]
+  },
+  {
+    "id": "workstyle_night_owl_optimizer",
+    "name": {
+      "en": "Night Owl Optimizer",
+      "fr": "Oiseau de nuit Optimiseur",
+      "es": "Noctámbulo Optimizador"
+    },
+    "idealProfile": {
+      "energy": 73,
+      "discipline": 89,
+      "empathy": 41,
+      "intelligence": 79,
+      "humor": 79,
+      "risk": 36
+    },
+    "tags": [
+      "expanded_v2",
+      "night_owl",
+      "optimizer"
+    ]
+  },
+  {
+    "id": "workstyle_night_owl_finisher",
+    "name": {
+      "en": "Night Owl Finisher",
+      "fr": "Oiseau de nuit Finisseur",
+      "es": "Noctámbulo Finalizador"
+    },
+    "idealProfile": {
+      "luck": 91,
+      "creativity": 29,
+      "discipline": 26,
+      "chaos": 79,
+      "social": 32,
+      "emotionalControl": 41
+    },
+    "tags": [
+      "expanded_v2",
+      "night_owl",
+      "finisher"
+    ]
+  },
+  {
+    "id": "workstyle_night_owl_explorer",
+    "name": {
+      "en": "Night Owl Explorer",
+      "fr": "Oiseau de nuit Explorateur",
+      "es": "Noctámbulo Explorador"
+    },
+    "idealProfile": {
+      "ambition": 54,
+      "creativity": 37,
+      "energy": 48,
+      "financialSense": 33,
+      "discipline": 60,
+      "social": 55
+    },
+    "tags": [
+      "expanded_v2",
+      "night_owl",
+      "explorer"
+    ]
+  },
+  {
+    "id": "workstyle_night_owl_coordinator",
+    "name": {
+      "en": "Night Owl Coordinator",
+      "fr": "Oiseau de nuit Coordinateur",
+      "es": "Noctámbulo Coordinador"
+    },
+    "idealProfile": {
+      "humor": 90,
+      "discipline": 40,
+      "emotionalControl": 79,
+      "risk": 25,
+      "professionalism": 46,
+      "communication": 26
+    },
+    "tags": [
+      "expanded_v2",
+      "night_owl",
+      "coordinator"
+    ]
+  },
+  {
+    "id": "workstyle_night_owl_maker",
+    "name": {
+      "en": "Night Owl Maker",
+      "fr": "Oiseau de nuit Créateur",
+      "es": "Noctámbulo Creador"
+    },
+    "idealProfile": {
+      "emotionalControl": 27,
+      "humor": 63,
+      "risk": 29,
+      "professionalism": 26,
+      "discipline": 33,
+      "communication": 45
+    },
+    "tags": [
+      "expanded_v2",
+      "night_owl",
+      "maker"
+    ]
+  },
+  {
+    "id": "workstyle_night_owl_reviewer",
+    "name": {
+      "en": "Night Owl Reviewer",
+      "fr": "Oiseau de nuit Relecteur",
+      "es": "Noctámbulo Revisor"
+    },
+    "idealProfile": {
+      "intelligence": 51,
+      "risk": 66,
+      "ambition": 49,
+      "empathy": 86,
+      "creativity": 57,
+      "humor": 84
+    },
+    "tags": [
+      "expanded_v2",
+      "night_owl",
+      "reviewer"
+    ]
+  },
+  {
+    "id": "workstyle_early_bird_planner",
+    "name": {
+      "en": "Early Bird Planner",
+      "fr": "Lève-tôt Planificateur",
+      "es": "Madrugador Planificador"
+    },
+    "idealProfile": {
+      "chaos": 52,
+      "social": 57,
+      "risk": 46,
+      "emotionalControl": 42,
+      "discipline": 64,
+      "communication": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "early_bird",
+      "planner"
+    ]
+  },
+  {
+    "id": "workstyle_early_bird_improviser",
+    "name": {
+      "en": "Early Bird Improviser",
+      "fr": "Lève-tôt Improvisateur",
+      "es": "Madrugador Improvisador"
+    },
+    "idealProfile": {
+      "risk": 54,
+      "creativity": 66,
+      "professionalism": 29,
+      "communication": 72,
+      "humor": 32,
+      "luck": 66
+    },
+    "tags": [
+      "expanded_v2",
+      "early_bird",
+      "improviser"
+    ]
+  },
+  {
+    "id": "workstyle_early_bird_collaborator",
+    "name": {
+      "en": "Early Bird Collaborator",
+      "fr": "Lève-tôt Collaborateur",
+      "es": "Madrugador Colaborador"
+    },
+    "idealProfile": {
+      "social": 38,
+      "risk": 34,
+      "emotionalControl": 61,
+      "chaos": 40,
+      "discipline": 66,
+      "communication": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "early_bird",
+      "collaborator"
+    ]
+  },
+  {
+    "id": "workstyle_early_bird_soloist",
+    "name": {
+      "en": "Early Bird Soloist",
+      "fr": "Lève-tôt Soliste",
+      "es": "Madrugador Solista"
+    },
+    "idealProfile": {
+      "emotionalControl": 85,
+      "humor": 67,
+      "risk": 47,
+      "professionalism": 57,
+      "discipline": 91,
+      "communication": 32
+    },
+    "tags": [
+      "expanded_v2",
+      "early_bird",
+      "soloist"
+    ]
+  },
+  {
+    "id": "workstyle_early_bird_optimizer",
+    "name": {
+      "en": "Early Bird Optimizer",
+      "fr": "Lève-tôt Optimiseur",
+      "es": "Madrugador Optimizador"
+    },
+    "idealProfile": {
+      "professionalism": 61,
+      "social": 35,
+      "creativity": 70,
+      "chaos": 27,
+      "humor": 67,
+      "luck": 79
+    },
+    "tags": [
+      "expanded_v2",
+      "early_bird",
+      "optimizer"
+    ]
+  },
+  {
+    "id": "workstyle_early_bird_finisher",
+    "name": {
+      "en": "Early Bird Finisher",
+      "fr": "Lève-tôt Finisseur",
+      "es": "Madrugador Finalizador"
+    },
+    "idealProfile": {
+      "financialSense": 24,
+      "creativity": 47,
+      "empathy": 61,
+      "humor": 30,
+      "ambition": 81,
+      "social": 67
+    },
+    "tags": [
+      "expanded_v2",
+      "early_bird",
+      "finisher"
+    ]
+  },
+  {
+    "id": "workstyle_early_bird_explorer",
+    "name": {
+      "en": "Early Bird Explorer",
+      "fr": "Lève-tôt Explorateur",
+      "es": "Madrugador Explorador"
+    },
+    "idealProfile": {
+      "ambition": 58,
+      "creativity": 73,
+      "energy": 73,
+      "financialSense": 47,
+      "discipline": 64,
+      "social": 91
+    },
+    "tags": [
+      "expanded_v2",
+      "early_bird",
+      "explorer"
+    ]
+  },
+  {
+    "id": "workstyle_early_bird_coordinator",
+    "name": {
+      "en": "Early Bird Coordinator",
+      "fr": "Lève-tôt Coordinateur",
+      "es": "Madrugador Coordinador"
+    },
+    "idealProfile": {
+      "chaos": 36,
+      "social": 34,
+      "risk": 26,
+      "emotionalControl": 86,
+      "discipline": 48,
+      "communication": 46
+    },
+    "tags": [
+      "expanded_v2",
+      "early_bird",
+      "coordinator"
+    ]
+  },
+  {
+    "id": "workstyle_early_bird_maker",
+    "name": {
+      "en": "Early Bird Maker",
+      "fr": "Lève-tôt Créateur",
+      "es": "Madrugador Creador"
+    },
+    "idealProfile": {
+      "luck": 37,
+      "discipline": 59,
+      "social": 42,
+      "emotionalControl": 64,
+      "creativity": 43,
+      "chaos": 55
+    },
+    "tags": [
+      "expanded_v2",
+      "early_bird",
+      "maker"
+    ]
+  },
+  {
+    "id": "workstyle_early_bird_reviewer",
+    "name": {
+      "en": "Early Bird Reviewer",
+      "fr": "Lève-tôt Relecteur",
+      "es": "Madrugador Revisor"
+    },
+    "idealProfile": {
+      "energy": 57,
+      "social": 88,
+      "ambition": 86,
+      "creativity": 63,
+      "financialSense": 47,
+      "discipline": 92
+    },
+    "tags": [
+      "expanded_v2",
+      "early_bird",
+      "reviewer"
+    ]
+  },
+  {
+    "id": "workstyle_batch_planner",
+    "name": {
+      "en": "Batch Planner",
+      "fr": "Par lots Planificateur",
+      "es": "Por lotes Planificador"
+    },
+    "idealProfile": {
+      "creativity": 77,
+      "risk": 62,
+      "communication": 78,
+      "humor": 83,
+      "luck": 68,
+      "professionalism": 25
+    },
+    "tags": [
+      "expanded_v2",
+      "batch",
+      "planner"
+    ]
+  },
+  {
+    "id": "workstyle_batch_improviser",
+    "name": {
+      "en": "Batch Improviser",
+      "fr": "Par lots Improvisateur",
+      "es": "Por lotes Improvisador"
+    },
+    "idealProfile": {
+      "ambition": 50,
+      "risk": 64,
+      "intelligence": 53,
+      "humor": 56,
+      "empathy": 76,
+      "creativity": 65
+    },
+    "tags": [
+      "expanded_v2",
+      "batch",
+      "improviser"
+    ]
+  },
+  {
+    "id": "workstyle_batch_collaborator",
+    "name": {
+      "en": "Batch Collaborator",
+      "fr": "Par lots Collaborateur",
+      "es": "Por lotes Colaborador"
+    },
+    "idealProfile": {
+      "chaos": 57,
+      "risk": 57,
+      "discipline": 37,
+      "communication": 48,
+      "social": 63,
+      "emotionalControl": 75
+    },
+    "tags": [
+      "expanded_v2",
+      "batch",
+      "collaborator"
+    ]
+  },
+  {
+    "id": "workstyle_batch_soloist",
+    "name": {
+      "en": "Batch Soloist",
+      "fr": "Par lots Soliste",
+      "es": "Por lotes Solista"
+    },
+    "idealProfile": {
+      "social": 81,
+      "creativity": 38,
+      "chaos": 90,
+      "humor": 32,
+      "professionalism": 93,
+      "luck": 44
+    },
+    "tags": [
+      "expanded_v2",
+      "batch",
+      "soloist"
+    ]
+  },
+  {
+    "id": "workstyle_batch_optimizer",
+    "name": {
+      "en": "Batch Optimizer",
+      "fr": "Par lots Optimiseur",
+      "es": "Por lotes Optimizador"
+    },
+    "idealProfile": {
+      "risk": 43,
+      "social": 72,
+      "chaos": 73,
+      "discipline": 49,
+      "communication": 78,
+      "emotionalControl": 91
+    },
+    "tags": [
+      "expanded_v2",
+      "batch",
+      "optimizer"
+    ]
+  },
+  {
+    "id": "workstyle_batch_finisher",
+    "name": {
+      "en": "Batch Finisher",
+      "fr": "Par lots Finisseur",
+      "es": "Por lotes Finalizador"
+    },
+    "idealProfile": {
+      "ambition": 27,
+      "creativity": 34,
+      "energy": 61,
+      "financialSense": 69,
+      "discipline": 33,
+      "social": 52
+    },
+    "tags": [
+      "expanded_v2",
+      "batch",
+      "finisher"
+    ]
+  },
+  {
+    "id": "workstyle_batch_explorer",
+    "name": {
+      "en": "Batch Explorer",
+      "fr": "Par lots Explorateur",
+      "es": "Por lotes Explorador"
+    },
+    "idealProfile": {
+      "emotionalControl": 47,
+      "humor": 59,
+      "risk": 64,
+      "professionalism": 82,
+      "discipline": 53,
+      "communication": 65
+    },
+    "tags": [
+      "expanded_v2",
+      "batch",
+      "explorer"
+    ]
+  },
+  {
+    "id": "workstyle_batch_coordinator",
+    "name": {
+      "en": "Batch Coordinator",
+      "fr": "Par lots Coordinateur",
+      "es": "Por lotes Coordinador"
+    },
+    "idealProfile": {
+      "discipline": 49,
+      "humor": 39,
+      "communication": 72,
+      "emotionalControl": 45,
+      "risk": 24,
+      "professionalism": 61
+    },
+    "tags": [
+      "expanded_v2",
+      "batch",
+      "coordinator"
+    ]
+  },
+  {
+    "id": "workstyle_batch_maker",
+    "name": {
+      "en": "Batch Maker",
+      "fr": "Par lots Créateur",
+      "es": "Por lotes Creador"
+    },
+    "idealProfile": {
+      "emotionalControl": 49,
+      "discipline": 88,
+      "humor": 27,
+      "communication": 30,
+      "risk": 61,
+      "professionalism": 29
+    },
+    "tags": [
+      "expanded_v2",
+      "batch",
+      "maker"
+    ]
+  },
+  {
+    "id": "workstyle_batch_reviewer",
+    "name": {
+      "en": "Batch Reviewer",
+      "fr": "Par lots Relecteur",
+      "es": "Por lotes Revisor"
+    },
+    "idealProfile": {
+      "creativity": 42,
+      "humor": 74,
+      "luck": 89,
+      "risk": 57,
+      "communication": 54,
+      "professionalism": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "batch",
+      "reviewer"
+    ]
+  },
+  {
+    "id": "workstyle_reactive_planner",
+    "name": {
+      "en": "Reactive Planner",
+      "fr": "Réactif Planificateur",
+      "es": "Reactivo Planificador"
+    },
+    "idealProfile": {
+      "risk": 41,
+      "discipline": 77,
+      "communication": 29,
+      "social": 61,
+      "chaos": 53,
+      "emotionalControl": 73
+    },
+    "tags": [
+      "expanded_v2",
+      "reactive",
+      "planner"
+    ]
+  },
+  {
+    "id": "workstyle_reactive_improviser",
+    "name": {
+      "en": "Reactive Improviser",
+      "fr": "Réactif Improvisateur",
+      "es": "Reactivo Improvisador"
+    },
+    "idealProfile": {
+      "humor": 73,
+      "social": 64,
+      "luck": 87,
+      "professionalism": 70,
+      "creativity": 34,
+      "chaos": 85
+    },
+    "tags": [
+      "expanded_v2",
+      "reactive",
+      "improviser"
+    ]
+  },
+  {
+    "id": "workstyle_reactive_collaborator",
+    "name": {
+      "en": "Reactive Collaborator",
+      "fr": "Réactif Collaborateur",
+      "es": "Reactivo Colaborador"
+    },
+    "idealProfile": {
+      "professionalism": 38,
+      "social": 79,
+      "creativity": 74,
+      "chaos": 89,
+      "humor": 44,
+      "luck": 56
+    },
+    "tags": [
+      "expanded_v2",
+      "reactive",
+      "collaborator"
+    ]
+  },
+  {
+    "id": "workstyle_reactive_soloist",
+    "name": {
+      "en": "Reactive Soloist",
+      "fr": "Réactif Soliste",
+      "es": "Reactivo Solista"
+    },
+    "idealProfile": {
+      "creativity": 38,
+      "discipline": 76,
+      "chaos": 89,
+      "luck": 82,
+      "social": 76,
+      "emotionalControl": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "reactive",
+      "soloist"
+    ]
+  },
+  {
+    "id": "workstyle_reactive_optimizer",
+    "name": {
+      "en": "Reactive Optimizer",
+      "fr": "Réactif Optimiseur",
+      "es": "Reactivo Optimizador"
+    },
+    "idealProfile": {
+      "luck": 41,
+      "creativity": 88,
+      "discipline": 78,
+      "chaos": 45,
+      "social": 53,
+      "emotionalControl": 29
+    },
+    "tags": [
+      "expanded_v2",
+      "reactive",
+      "optimizer"
+    ]
+  },
+  {
+    "id": "workstyle_reactive_finisher",
+    "name": {
+      "en": "Reactive Finisher",
+      "fr": "Réactif Finisseur",
+      "es": "Reactivo Finalizador"
+    },
+    "idealProfile": {
+      "communication": 50,
+      "creativity": 61,
+      "humor": 84,
+      "luck": 72,
+      "risk": 56,
+      "professionalism": 68
+    },
+    "tags": [
+      "expanded_v2",
+      "reactive",
+      "finisher"
+    ]
+  },
+  {
+    "id": "workstyle_reactive_explorer",
+    "name": {
+      "en": "Reactive Explorer",
+      "fr": "Réactif Explorateur",
+      "es": "Reactivo Explorador"
+    },
+    "idealProfile": {
+      "discipline": 77,
+      "social": 71,
+      "emotionalControl": 40,
+      "creativity": 82,
+      "luck": 89,
+      "chaos": 94
+    },
+    "tags": [
+      "expanded_v2",
+      "reactive",
+      "explorer"
+    ]
+  },
+  {
+    "id": "workstyle_reactive_coordinator",
+    "name": {
+      "en": "Reactive Coordinator",
+      "fr": "Réactif Coordinateur",
+      "es": "Reactivo Coordinador"
+    },
+    "idealProfile": {
+      "energy": 26,
+      "discipline": 38,
+      "empathy": 61,
+      "intelligence": 93,
+      "humor": 32,
+      "risk": 56
+    },
+    "tags": [
+      "expanded_v2",
+      "reactive",
+      "coordinator"
+    ]
+  },
+  {
+    "id": "workstyle_reactive_maker",
+    "name": {
+      "en": "Reactive Maker",
+      "fr": "Réactif Créateur",
+      "es": "Reactivo Creador"
+    },
+    "idealProfile": {
+      "communication": 67,
+      "humor": 82,
+      "discipline": 58,
+      "emotionalControl": 93,
+      "risk": 88,
+      "professionalism": 64
+    },
+    "tags": [
+      "expanded_v2",
+      "reactive",
+      "maker"
+    ]
+  },
+  {
+    "id": "workstyle_reactive_reviewer",
+    "name": {
+      "en": "Reactive Reviewer",
+      "fr": "Réactif Relecteur",
+      "es": "Reactivo Revisor"
+    },
+    "idealProfile": {
+      "social": 64,
+      "risk": 42,
+      "emotionalControl": 53,
+      "chaos": 48,
+      "discipline": 30,
+      "communication": 76
+    },
+    "tags": [
+      "expanded_v2",
+      "reactive",
+      "reviewer"
+    ]
+  },
+  {
+    "id": "workstyle_ritual_planner",
+    "name": {
+      "en": "Ritual Planner",
+      "fr": "Rituel Planificateur",
+      "es": "Ritual Planificador"
+    },
+    "idealProfile": {
+      "ambition": 26,
+      "humor": 52,
+      "intelligence": 30,
+      "risk": 32,
+      "empathy": 26,
+      "creativity": 36
+    },
+    "tags": [
+      "expanded_v2",
+      "ritual",
+      "planner"
+    ]
+  },
+  {
+    "id": "workstyle_ritual_improviser",
+    "name": {
+      "en": "Ritual Improviser",
+      "fr": "Rituel Improvisateur",
+      "es": "Ritual Improvisador"
+    },
+    "idealProfile": {
+      "risk": 48,
+      "discipline": 35,
+      "communication": 94,
+      "social": 79,
+      "chaos": 60,
+      "emotionalControl": 91
+    },
+    "tags": [
+      "expanded_v2",
+      "ritual",
+      "improviser"
+    ]
+  },
+  {
+    "id": "workstyle_ritual_collaborator",
+    "name": {
+      "en": "Ritual Collaborator",
+      "fr": "Rituel Collaborateur",
+      "es": "Ritual Colaborador"
+    },
+    "idealProfile": {
+      "discipline": 72,
+      "creativity": 58,
+      "luck": 24,
+      "social": 78,
+      "emotionalControl": 64,
+      "chaos": 42
+    },
+    "tags": [
+      "expanded_v2",
+      "ritual",
+      "collaborator"
+    ]
+  },
+  {
+    "id": "workstyle_ritual_soloist",
+    "name": {
+      "en": "Ritual Soloist",
+      "fr": "Rituel Soliste",
+      "es": "Ritual Solista"
+    },
+    "idealProfile": {
+      "intelligence": 54,
+      "social": 68,
+      "financialSense": 69,
+      "discipline": 60,
+      "energy": 80,
+      "risk": 81
+    },
+    "tags": [
+      "expanded_v2",
+      "ritual",
+      "soloist"
+    ]
+  },
+  {
+    "id": "workstyle_ritual_optimizer",
+    "name": {
+      "en": "Ritual Optimizer",
+      "fr": "Rituel Optimiseur",
+      "es": "Ritual Optimizador"
+    },
+    "idealProfile": {
+      "ambition": 25,
+      "risk": 43,
+      "intelligence": 33,
+      "humor": 31,
+      "empathy": 55,
+      "creativity": 45
+    },
+    "tags": [
+      "expanded_v2",
+      "ritual",
+      "optimizer"
+    ]
+  },
+  {
+    "id": "workstyle_ritual_finisher",
+    "name": {
+      "en": "Ritual Finisher",
+      "fr": "Rituel Finisseur",
+      "es": "Ritual Finalizador"
+    },
+    "idealProfile": {
+      "emotionalControl": 71,
+      "discipline": 82,
+      "humor": 94,
+      "communication": 46,
+      "risk": 83,
+      "professionalism": 94
+    },
+    "tags": [
+      "expanded_v2",
+      "ritual",
+      "finisher"
+    ]
+  },
+  {
+    "id": "workstyle_ritual_explorer",
+    "name": {
+      "en": "Ritual Explorer",
+      "fr": "Rituel Explorateur",
+      "es": "Ritual Explorador"
+    },
+    "idealProfile": {
+      "social": 64,
+      "risk": 33,
+      "emotionalControl": 81,
+      "chaos": 39,
+      "discipline": 60,
+      "communication": 76
+    },
+    "tags": [
+      "expanded_v2",
+      "ritual",
+      "explorer"
+    ]
+  },
+  {
+    "id": "workstyle_ritual_coordinator",
+    "name": {
+      "en": "Ritual Coordinator",
+      "fr": "Rituel Coordinateur",
+      "es": "Ritual Coordinador"
+    },
+    "idealProfile": {
+      "communication": 34,
+      "risk": 83,
+      "creativity": 78,
+      "professionalism": 63,
+      "humor": 46,
+      "luck": 24
+    },
+    "tags": [
+      "expanded_v2",
+      "ritual",
+      "coordinator"
+    ]
+  },
+  {
+    "id": "workstyle_ritual_maker",
+    "name": {
+      "en": "Ritual Maker",
+      "fr": "Rituel Créateur",
+      "es": "Ritual Creador"
+    },
+    "idealProfile": {
+      "professionalism": 32,
+      "creativity": 83,
+      "risk": 63,
+      "communication": 45,
+      "humor": 89,
+      "luck": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "ritual",
+      "maker"
+    ]
+  },
+  {
+    "id": "workstyle_ritual_reviewer",
+    "name": {
+      "en": "Ritual Reviewer",
+      "fr": "Rituel Relecteur",
+      "es": "Ritual Revisor"
+    },
+    "idealProfile": {
+      "social": 70,
+      "risk": 46,
+      "emotionalControl": 82,
+      "chaos": 52,
+      "discipline": 49,
+      "communication": 82
+    },
+    "tags": [
+      "expanded_v2",
+      "ritual",
+      "reviewer"
+    ]
+  },
+  {
+    "id": "workstyle_async_planner",
+    "name": {
+      "en": "Async Planner",
+      "fr": "Asynchrone Planificateur",
+      "es": "Asíncrono Planificador"
+    },
+    "idealProfile": {
+      "discipline": 43,
+      "social": 39,
+      "emotionalControl": 52,
+      "creativity": 55,
+      "luck": 55,
+      "chaos": 67
+    },
+    "tags": [
+      "expanded_v2",
+      "async",
+      "planner"
+    ]
+  },
+  {
+    "id": "workstyle_async_improviser",
+    "name": {
+      "en": "Async Improviser",
+      "fr": "Asynchrone Improvisateur",
+      "es": "Asíncrono Improvisador"
+    },
+    "idealProfile": {
+      "empathy": 83,
+      "risk": 31,
+      "energy": 90,
+      "discipline": 89,
+      "intelligence": 36,
+      "humor": 25
+    },
+    "tags": [
+      "expanded_v2",
+      "async",
+      "improviser"
+    ]
+  },
+  {
+    "id": "workstyle_async_collaborator",
+    "name": {
+      "en": "Async Collaborator",
+      "fr": "Asynchrone Collaborateur",
+      "es": "Asíncrono Colaborador"
+    },
+    "idealProfile": {
+      "professionalism": 81,
+      "humor": 93,
+      "social": 47,
+      "luck": 49,
+      "creativity": 93,
+      "chaos": 34
+    },
+    "tags": [
+      "expanded_v2",
+      "async",
+      "collaborator"
+    ]
+  },
+  {
+    "id": "workstyle_async_soloist",
+    "name": {
+      "en": "Async Soloist",
+      "fr": "Asynchrone Soliste",
+      "es": "Asíncrono Solista"
+    },
+    "idealProfile": {
+      "communication": 57,
+      "humor": 37,
+      "discipline": 88,
+      "emotionalControl": 90,
+      "risk": 43,
+      "professionalism": 94
+    },
+    "tags": [
+      "expanded_v2",
+      "async",
+      "soloist"
+    ]
+  },
+  {
+    "id": "workstyle_async_optimizer",
+    "name": {
+      "en": "Async Optimizer",
+      "fr": "Asynchrone Optimiseur",
+      "es": "Asíncrono Optimizador"
+    },
+    "idealProfile": {
+      "intelligence": 38,
+      "discipline": 61,
+      "financialSense": 54,
+      "social": 44,
+      "energy": 86,
+      "risk": 60
+    },
+    "tags": [
+      "expanded_v2",
+      "async",
+      "optimizer"
+    ]
+  },
+  {
+    "id": "workstyle_async_finisher",
+    "name": {
+      "en": "Async Finisher",
+      "fr": "Asynchrone Finisseur",
+      "es": "Asíncrono Finalizador"
+    },
+    "idealProfile": {
+      "emotionalControl": 39,
+      "humor": 79,
+      "risk": 34,
+      "professionalism": 44,
+      "discipline": 45,
+      "communication": 57
+    },
+    "tags": [
+      "expanded_v2",
+      "async",
+      "finisher"
+    ]
+  },
+  {
+    "id": "workstyle_async_explorer",
+    "name": {
+      "en": "Async Explorer",
+      "fr": "Asynchrone Explorateur",
+      "es": "Asíncrono Explorador"
+    },
+    "idealProfile": {
+      "risk": 41,
+      "social": 63,
+      "chaos": 47,
+      "discipline": 47,
+      "communication": 69,
+      "emotionalControl": 65
+    },
+    "tags": [
+      "expanded_v2",
+      "async",
+      "explorer"
+    ]
+  },
+  {
+    "id": "workstyle_async_coordinator",
+    "name": {
+      "en": "Async Coordinator",
+      "fr": "Asynchrone Coordinateur",
+      "es": "Asíncrono Coordinador"
+    },
+    "idealProfile": {
+      "creativity": 61,
+      "humor": 84,
+      "luck": 45,
+      "risk": 84,
+      "communication": 73,
+      "professionalism": 25
+    },
+    "tags": [
+      "expanded_v2",
+      "async",
+      "coordinator"
+    ]
+  },
+  {
+    "id": "workstyle_async_maker",
+    "name": {
+      "en": "Async Maker",
+      "fr": "Asynchrone Créateur",
+      "es": "Asíncrono Creador"
+    },
+    "idealProfile": {
+      "luck": 69,
+      "creativity": 44,
+      "discipline": 48,
+      "chaos": 40,
+      "social": 81,
+      "emotionalControl": 56
+    },
+    "tags": [
+      "expanded_v2",
+      "async",
+      "maker"
+    ]
+  },
+  {
+    "id": "workstyle_async_reviewer",
+    "name": {
+      "en": "Async Reviewer",
+      "fr": "Asynchrone Relecteur",
+      "es": "Asíncrono Revisor"
+    },
+    "idealProfile": {
+      "ambition": 39,
+      "humor": 68,
+      "intelligence": 58,
+      "risk": 45,
+      "empathy": 77,
+      "creativity": 64
+    },
+    "tags": [
+      "expanded_v2",
+      "async",
+      "reviewer"
+    ]
+  },
+  {
+    "id": "workstyle_deadline_planner",
+    "name": {
+      "en": "Deadline Planner",
+      "fr": "Deadline Planificateur",
+      "es": "Plazo Planificador"
+    },
+    "idealProfile": {
+      "communication": 89,
+      "humor": 63,
+      "discipline": 73,
+      "emotionalControl": 52,
+      "risk": 69,
+      "professionalism": 79
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "planner"
+    ]
+  },
+  {
+    "id": "workstyle_deadline_improviser",
+    "name": {
+      "en": "Deadline Improviser",
+      "fr": "Deadline Improvisateur",
+      "es": "Plazo Improvisador"
+    },
+    "idealProfile": {
+      "creativity": 52,
+      "discipline": 59,
+      "chaos": 84,
+      "luck": 65,
+      "social": 27,
+      "emotionalControl": 64
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "improviser"
+    ]
+  },
+  {
+    "id": "workstyle_deadline_collaborator",
+    "name": {
+      "en": "Deadline Collaborator",
+      "fr": "Deadline Collaborateur",
+      "es": "Plazo Colaborador"
+    },
+    "idealProfile": {
+      "risk": 44,
+      "discipline": 72,
+      "communication": 73,
+      "social": 87,
+      "chaos": 56,
+      "emotionalControl": 28
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "collaborator"
+    ]
+  },
+  {
+    "id": "workstyle_deadline_soloist",
+    "name": {
+      "en": "Deadline Soloist",
+      "fr": "Deadline Soliste",
+      "es": "Plazo Solista"
+    },
+    "idealProfile": {
+      "emotionalControl": 29,
+      "discipline": 36,
+      "humor": 37,
+      "communication": 75,
+      "risk": 41,
+      "professionalism": 48
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "soloist"
+    ]
+  },
+  {
+    "id": "workstyle_deadline_optimizer",
+    "name": {
+      "en": "Deadline Optimizer",
+      "fr": "Deadline Optimiseur",
+      "es": "Plazo Optimizador"
+    },
+    "idealProfile": {
+      "ambition": 33,
+      "creativity": 94,
+      "energy": 34,
+      "financialSense": 90,
+      "discipline": 39,
+      "social": 41
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "optimizer"
+    ]
+  },
+  {
+    "id": "workstyle_deadline_finisher",
+    "name": {
+      "en": "Deadline Finisher",
+      "fr": "Deadline Finisseur",
+      "es": "Plazo Finalizador"
+    },
+    "idealProfile": {
+      "creativity": 64,
+      "risk": 37,
+      "communication": 79,
+      "humor": 70,
+      "luck": 43,
+      "professionalism": 26
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "finisher"
+    ]
+  },
+  {
+    "id": "workstyle_deadline_explorer",
+    "name": {
+      "en": "Deadline Explorer",
+      "fr": "Deadline Explorateur",
+      "es": "Plazo Explorador"
+    },
+    "idealProfile": {
+      "intelligence": 24,
+      "risk": 52,
+      "ambition": 68,
+      "empathy": 25,
+      "creativity": 30,
+      "humor": 70
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "explorer"
+    ]
+  },
+  {
+    "id": "workstyle_deadline_coordinator",
+    "name": {
+      "en": "Deadline Coordinator",
+      "fr": "Deadline Coordinateur",
+      "es": "Plazo Coordinador"
+    },
+    "idealProfile": {
+      "luck": 66,
+      "creativity": 68,
+      "discipline": 36,
+      "chaos": 84,
+      "social": 78,
+      "emotionalControl": 80
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "coordinator"
+    ]
+  },
+  {
+    "id": "workstyle_deadline_maker",
+    "name": {
+      "en": "Deadline Maker",
+      "fr": "Deadline Créateur",
+      "es": "Plazo Creador"
+    },
+    "idealProfile": {
+      "creativity": 32,
+      "humor": 76,
+      "luck": 76,
+      "risk": 56,
+      "communication": 44,
+      "professionalism": 68
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "maker"
+    ]
+  },
+  {
+    "id": "workstyle_deadline_reviewer",
+    "name": {
+      "en": "Deadline Reviewer",
+      "fr": "Deadline Relecteur",
+      "es": "Plazo Revisor"
+    },
+    "idealProfile": {
+      "social": 54,
+      "risk": 39,
+      "emotionalControl": 41,
+      "chaos": 45,
+      "discipline": 41,
+      "communication": 66
+    },
+    "tags": [
+      "expanded_v2",
+      "deadline",
+      "reviewer"
+    ]
+  },
+  {
+    "id": "workstyle_flow_planner",
+    "name": {
+      "en": "Flow Planner",
+      "fr": "Flow Planificateur",
+      "es": "Flujo Planificador"
+    },
+    "idealProfile": {
+      "financialSense": 31,
+      "humor": 65,
+      "empathy": 75,
+      "creativity": 37,
+      "ambition": 77,
+      "social": 87
+    },
+    "tags": [
+      "expanded_v2",
+      "flow",
+      "planner"
+    ]
+  },
+  {
+    "id": "workstyle_flow_improviser",
+    "name": {
+      "en": "Flow Improviser",
+      "fr": "Flow Improvisateur",
+      "es": "Flujo Improvisador"
+    },
+    "idealProfile": {
+      "energy": 53,
+      "discipline": 53,
+      "empathy": 73,
+      "intelligence": 47,
+      "humor": 59,
+      "risk": 71
+    },
+    "tags": [
+      "expanded_v2",
+      "flow",
+      "improviser"
+    ]
+  },
+  {
+    "id": "workstyle_flow_collaborator",
+    "name": {
+      "en": "Flow Collaborator",
+      "fr": "Flow Collaborateur",
+      "es": "Flujo Colaborador"
+    },
+    "idealProfile": {
+      "luck": 65,
+      "discipline": 75,
+      "social": 69,
+      "emotionalControl": 74,
+      "creativity": 71,
+      "chaos": 83
+    },
+    "tags": [
+      "expanded_v2",
+      "flow",
+      "collaborator"
+    ]
+  },
+  {
+    "id": "workstyle_flow_soloist",
+    "name": {
+      "en": "Flow Soloist",
+      "fr": "Flow Soliste",
+      "es": "Flujo Solista"
+    },
+    "idealProfile": {
+      "energy": 35,
+      "social": 41,
+      "ambition": 30,
+      "creativity": 41,
+      "financialSense": 94,
+      "discipline": 36
+    },
+    "tags": [
+      "expanded_v2",
+      "flow",
+      "soloist"
+    ]
+  },
+  {
+    "id": "workstyle_flow_optimizer",
+    "name": {
+      "en": "Flow Optimizer",
+      "fr": "Flow Optimiseur",
+      "es": "Flujo Optimizador"
+    },
+    "idealProfile": {
+      "empathy": 93,
+      "discipline": 78,
+      "energy": 60,
+      "risk": 28,
+      "intelligence": 90,
+      "humor": 72
+    },
+    "tags": [
+      "expanded_v2",
+      "flow",
+      "optimizer"
+    ]
+  },
+  {
+    "id": "workstyle_flow_finisher",
+    "name": {
+      "en": "Flow Finisher",
+      "fr": "Flow Finisseur",
+      "es": "Flujo Finalizador"
+    },
+    "idealProfile": {
+      "intelligence": 75,
+      "discipline": 71,
+      "financialSense": 84,
+      "social": 81,
+      "energy": 53,
+      "risk": 90
+    },
+    "tags": [
+      "expanded_v2",
+      "flow",
+      "finisher"
+    ]
+  },
+  {
+    "id": "workstyle_flow_explorer",
+    "name": {
+      "en": "Flow Explorer",
+      "fr": "Flow Explorateur",
+      "es": "Flujo Explorador"
+    },
+    "idealProfile": {
+      "creativity": 33,
+      "humor": 63,
+      "luck": 29,
+      "risk": 33,
+      "communication": 45,
+      "professionalism": 45
+    },
+    "tags": [
+      "expanded_v2",
+      "flow",
+      "explorer"
+    ]
+  },
+  {
+    "id": "workstyle_flow_coordinator",
+    "name": {
+      "en": "Flow Coordinator",
+      "fr": "Flow Coordinateur",
+      "es": "Flujo Coordinador"
+    },
+    "idealProfile": {
+      "empathy": 37,
+      "risk": 83,
+      "energy": 90,
+      "discipline": 43,
+      "intelligence": 44,
+      "humor": 25
+    },
+    "tags": [
+      "expanded_v2",
+      "flow",
+      "coordinator"
+    ]
+  },
+  {
+    "id": "workstyle_flow_maker",
+    "name": {
+      "en": "Flow Maker",
+      "fr": "Flow Créateur",
+      "es": "Flujo Creador"
+    },
+    "idealProfile": {
+      "risk": 67,
+      "creativity": 93,
+      "professionalism": 65,
+      "communication": 28,
+      "humor": 77,
+      "luck": 79
+    },
+    "tags": [
+      "expanded_v2",
+      "flow",
+      "maker"
+    ]
+  },
+  {
+    "id": "workstyle_flow_reviewer",
+    "name": {
+      "en": "Flow Reviewer",
+      "fr": "Flow Relecteur",
+      "es": "Flujo Revisor"
+    },
+    "idealProfile": {
+      "risk": 90,
+      "social": 40,
+      "chaos": 75,
+      "discipline": 25,
+      "communication": 46,
+      "emotionalControl": 93
+    },
+    "tags": [
+      "expanded_v2",
+      "flow",
+      "reviewer"
+    ]
+  }
 ]

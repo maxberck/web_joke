@@ -1,15 +1,2932 @@
 [
-  { "id": "ability_useless_info", "text": { "en": "Remembers a coworker's ex's dog's name from a story told once in 2019.", "fr": "Se souvient du prénom du chien de l'ex d'un collègue, mentionné une fois en 2019.", "es": "Recuerda el nombre del perro del ex de un compañero, mencionado una vez en 2019." }, "idealProfile": { "intelligence": 75, "chaos": 50 } },
-  { "id": "ability_save_3_euros", "text": { "en": "Can spend 45 minutes comparing prices to save €1.20.", "fr": "Peut passer 45 minutes à comparer les prix pour économiser 1,20€.", "es": "Puede pasar 45 minutos comparando precios para ahorrar 1,20€." }, "idealProfile": { "financialSense": 40, "intelligence": 60, "chaos": 45 } },
-  { "id": "ability_quick_question_radar", "text": { "en": "Can detect a \"quick question\" incoming from three rooms away.", "fr": "Peut détecter une « petite question rapide » arriver depuis trois pièces plus loin.", "es": "Puede detectar una \"pregunta rápida\" llegando desde tres habitaciones de distancia." }, "idealProfile": { "empathy": 60, "communication": 55, "emotionalControl": 45 } },
-  { "id": "ability_printer_sense", "text": { "en": "Knows the office printer is about to jam before it even starts printing.", "fr": "Sait que l'imprimante du bureau va bourrer avant même qu'elle commence à imprimer.", "es": "Sabe que la impresora de la oficina se va a atascar antes de que empiece a imprimir." }, "idealProfile": { "intelligence": 55, "chaos": 40, "discipline": 50 } },
-  { "id": "ability_parking_spot_radar", "text": { "en": "Finds the exact parking spot someone is leaving, every single time.", "fr": "Trouve à chaque fois la place exacte que quelqu'un est en train de libérer.", "es": "Encuentra siempre el lugar exacto que alguien está dejando libre." }, "idealProfile": { "luck": 70, "intelligence": 40, "discipline": 30 } },
-  { "id": "ability_typo_spotter", "text": { "en": "Spots the one typo on a 40-slide deck from across a dark auditorium.", "fr": "Repère l'unique faute de frappe sur un diaporama de 40 slides depuis le fond d'une salle sombre.", "es": "Detecta la única errata en una presentación de 40 diapositivas desde el fondo de un auditorio oscuro." }, "idealProfile": { "intelligence": 68, "discipline": 60, "professionalism": 50 } },
-  { "id": "ability_predicts_awkward_silence", "text": { "en": "Feels an awkward silence coming three full seconds before it lands.", "fr": "Sent un silence gênant arriver trois bonnes secondes avant qu'il ne tombe.", "es": "Siente venir un silencio incómodo tres segundos completos antes de que llegue." }, "idealProfile": { "empathy": 68, "social": 55, "emotionalControl": 40 } },
-  { "id": "ability_reheats_perfectly", "text": { "en": "Reheats leftover pizza to a scientifically perfect crispness, every time.", "fr": "Réchauffe la pizza de la veille à une croustillance scientifiquement parfaite, à chaque fois.", "es": "Recalienta la pizza sobrante hasta un crujido científicamente perfecto, siempre." }, "idealProfile": { "discipline": 50, "intelligence": 35, "chaos": 20 } },
-  { "id": "ability_group_photo_timing", "text": { "en": "Blinks in exactly one out of every ten group photos, with perfect consistency.", "fr": "Cligne des yeux dans exactement une photo de groupe sur dix, avec une régularité parfaite.", "es": "Parpadea en exactamente una de cada diez fotos grupales, con una regularidad perfecta." }, "idealProfile": { "luck": 30, "chaos": 45, "social": 50 } },
-  { "id": "ability_reads_the_room_wrong", "text": { "en": "Can confidently misread a room's entire mood in under two seconds.", "fr": "Peut se tromper avec assurance sur l'ambiance d'une pièce en moins de deux secondes.", "es": "Puede malinterpretar con confianza el ambiente de una sala en menos de dos segundos." }, "idealProfile": { "social": 45, "emotionalControl": 35, "chaos": 40 } },
-  { "id": "ability_finds_the_one_flaw", "text": { "en": "Instantly spots the one flaw in an otherwise perfect plan, always mid-execution.", "fr": "Repère instantanément l'unique faille d'un plan par ailleurs parfait, toujours en pleine exécution.", "es": "Detecta al instante la única falla de un plan por lo demás perfecto, siempre a mitad de ejecución." }, "idealProfile": { "intelligence": 70, "chaos": 45, "emotionalControl": 30 } },
-  { "id": "ability_remembers_wifi_password", "text": { "en": "Is the only person in any household who remembers the wifi password.", "fr": "Est la seule personne du foyer à se souvenir du mot de passe wifi.", "es": "Es la única persona en cualquier hogar que recuerda la contraseña del wifi." }, "idealProfile": { "discipline": 55, "intelligence": 45, "professionalism": 35 } },
-  { "id": "ability_finds_missing_charger", "text": { "en": "Finds the missing charger by looking in the one place everyone else dismissed.", "fr": "Trouve le chargeur disparu en regardant exactement à l'endroit que tout le monde avait écarté.", "es": "Encuentra el cargador perdido mirando justo donde todos los demás descartaron buscar." }, "idealProfile": { "luck": 70, "intelligence": 55, "discipline": 45 } }
+  {
+    "id": "ability_useless_info",
+    "text": {
+      "en": "Remembers a coworker's ex's dog's name from a story told once in 2019.",
+      "fr": "Se souvient du prénom du chien de l'ex d'un collègue, mentionné une fois en 2019.",
+      "es": "Recuerda el nombre del perro del ex de un compañero, mencionado una vez en 2019."
+    },
+    "idealProfile": {
+      "intelligence": 75,
+      "chaos": 50
+    }
+  },
+  {
+    "id": "ability_save_3_euros",
+    "text": {
+      "en": "Can spend 45 minutes comparing prices to save €1.20.",
+      "fr": "Peut passer 45 minutes à comparer les prix pour économiser 1,20€.",
+      "es": "Puede pasar 45 minutos comparando precios para ahorrar 1,20€."
+    },
+    "idealProfile": {
+      "financialSense": 40,
+      "intelligence": 60,
+      "chaos": 45
+    }
+  },
+  {
+    "id": "ability_quick_question_radar",
+    "text": {
+      "en": "Can detect a \"quick question\" incoming from three rooms away.",
+      "fr": "Peut détecter une « petite question rapide » arriver depuis trois pièces plus loin.",
+      "es": "Puede detectar una \"pregunta rápida\" llegando desde tres habitaciones de distancia."
+    },
+    "idealProfile": {
+      "empathy": 60,
+      "communication": 55,
+      "emotionalControl": 45
+    }
+  },
+  {
+    "id": "ability_printer_sense",
+    "text": {
+      "en": "Knows the office printer is about to jam before it even starts printing.",
+      "fr": "Sait que l'imprimante du bureau va bourrer avant même qu'elle commence à imprimer.",
+      "es": "Sabe que la impresora de la oficina se va a atascar antes de que empiece a imprimir."
+    },
+    "idealProfile": {
+      "intelligence": 55,
+      "chaos": 40,
+      "discipline": 50
+    }
+  },
+  {
+    "id": "ability_parking_spot_radar",
+    "text": {
+      "en": "Finds the exact parking spot someone is leaving, every single time.",
+      "fr": "Trouve à chaque fois la place exacte que quelqu'un est en train de libérer.",
+      "es": "Encuentra siempre el lugar exacto que alguien está dejando libre."
+    },
+    "idealProfile": {
+      "luck": 70,
+      "intelligence": 40,
+      "discipline": 30
+    }
+  },
+  {
+    "id": "ability_typo_spotter",
+    "text": {
+      "en": "Spots the one typo on a 40-slide deck from across a dark auditorium.",
+      "fr": "Repère l'unique faute de frappe sur un diaporama de 40 slides depuis le fond d'une salle sombre.",
+      "es": "Detecta la única errata en una presentación de 40 diapositivas desde el fondo de un auditorio oscuro."
+    },
+    "idealProfile": {
+      "intelligence": 68,
+      "discipline": 60,
+      "professionalism": 50
+    }
+  },
+  {
+    "id": "ability_predicts_awkward_silence",
+    "text": {
+      "en": "Feels an awkward silence coming three full seconds before it lands.",
+      "fr": "Sent un silence gênant arriver trois bonnes secondes avant qu'il ne tombe.",
+      "es": "Siente venir un silencio incómodo tres segundos completos antes de que llegue."
+    },
+    "idealProfile": {
+      "empathy": 68,
+      "social": 55,
+      "emotionalControl": 40
+    }
+  },
+  {
+    "id": "ability_reheats_perfectly",
+    "text": {
+      "en": "Reheats leftover pizza to a scientifically perfect crispness, every time.",
+      "fr": "Réchauffe la pizza de la veille à une croustillance scientifiquement parfaite, à chaque fois.",
+      "es": "Recalienta la pizza sobrante hasta un crujido científicamente perfecto, siempre."
+    },
+    "idealProfile": {
+      "discipline": 50,
+      "intelligence": 35,
+      "chaos": 20
+    }
+  },
+  {
+    "id": "ability_group_photo_timing",
+    "text": {
+      "en": "Blinks in exactly one out of every ten group photos, with perfect consistency.",
+      "fr": "Cligne des yeux dans exactement une photo de groupe sur dix, avec une régularité parfaite.",
+      "es": "Parpadea en exactamente una de cada diez fotos grupales, con una regularidad perfecta."
+    },
+    "idealProfile": {
+      "luck": 30,
+      "chaos": 45,
+      "social": 50
+    }
+  },
+  {
+    "id": "ability_reads_the_room_wrong",
+    "text": {
+      "en": "Can confidently misread a room's entire mood in under two seconds.",
+      "fr": "Peut se tromper avec assurance sur l'ambiance d'une pièce en moins de deux secondes.",
+      "es": "Puede malinterpretar con confianza el ambiente de una sala en menos de dos segundos."
+    },
+    "idealProfile": {
+      "social": 45,
+      "emotionalControl": 35,
+      "chaos": 40
+    }
+  },
+  {
+    "id": "ability_finds_the_one_flaw",
+    "text": {
+      "en": "Instantly spots the one flaw in an otherwise perfect plan, always mid-execution.",
+      "fr": "Repère instantanément l'unique faille d'un plan par ailleurs parfait, toujours en pleine exécution.",
+      "es": "Detecta al instante la única falla de un plan por lo demás perfecto, siempre a mitad de ejecución."
+    },
+    "idealProfile": {
+      "intelligence": 70,
+      "chaos": 45,
+      "emotionalControl": 30
+    }
+  },
+  {
+    "id": "ability_remembers_wifi_password",
+    "text": {
+      "en": "Is the only person in any household who remembers the wifi password.",
+      "fr": "Est la seule personne du foyer à se souvenir du mot de passe wifi.",
+      "es": "Es la única persona en cualquier hogar que recuerda la contraseña del wifi."
+    },
+    "idealProfile": {
+      "discipline": 55,
+      "intelligence": 45,
+      "professionalism": 35
+    }
+  },
+  {
+    "id": "ability_finds_missing_charger",
+    "text": {
+      "en": "Finds the missing charger by looking in the one place everyone else dismissed.",
+      "fr": "Trouve le chargeur disparu en regardant exactement à l'endroit que tout le monde avait écarté.",
+      "es": "Encuentra el cargador perdido mirando justo donde todos los demás descartaron buscar."
+    },
+    "idealProfile": {
+      "luck": 70,
+      "intelligence": 55,
+      "discipline": 45
+    }
+  },
+  {
+    "id": "ability_find_the_charger",
+    "name": {
+      "en": "Can Find the Charger Everyone Else Missed",
+      "fr": "Retrouve le Chargeur que Tout le Monde Avait Raté",
+      "es": "Encuentra el Cargador que Todos Pasaron por Alto"
+    },
+    "idealProfile": {
+      "luck": 82,
+      "intelligence": 55,
+      "creativity": 62,
+      "discipline": 38,
+      "humor": 65
+    }
+  },
+  {
+    "id": "ability_split_bill",
+    "name": {
+      "en": "Can Split a Restaurant Bill Without Starting a Civil War",
+      "fr": "Partage l'Addition Sans Déclencher de Guerre Civile",
+      "es": "Divide la Cuenta Sin Empezar una Guerra Civil"
+    },
+    "idealProfile": {
+      "financialSense": 86,
+      "communication": 82,
+      "empathy": 74,
+      "emotionalControl": 72,
+      "social": 68
+    }
+  },
+  {
+    "id": "ability_find_file",
+    "name": {
+      "en": "Finds the File Named final_FINAL_v7",
+      "fr": "Retrouve le Fichier final_FINAL_v7",
+      "es": "Encuentra el Archivo final_FINAL_v7"
+    },
+    "idealProfile": {
+      "discipline": 74,
+      "intelligence": 72,
+      "professionalism": 66,
+      "emotionalControl": 70,
+      "creativity": 52
+    }
+  },
+  {
+    "id": "ability_leave_party",
+    "name": {
+      "en": "Can Leave a Party Without a 40-Minute Goodbye",
+      "fr": "Quitte une Soirée Sans un Au Revoir de 40 Minutes",
+      "es": "Se Va de una Fiesta Sin una Despedida de 40 Minutos"
+    },
+    "idealProfile": {
+      "communication": 76,
+      "social": 72,
+      "discipline": 68,
+      "emotionalControl": 78,
+      "risk": 55
+    }
+  },
+  {
+    "id": "ability_name_everyone",
+    "name": {
+      "en": "Remembers Everyone's Name After One Introduction",
+      "fr": "Retient le Nom de Tout le Monde Après une Présentation",
+      "es": "Recuerda el Nombre de Todos Tras una Presentación"
+    },
+    "idealProfile": {
+      "social": 82,
+      "empathy": 80,
+      "communication": 76,
+      "intelligence": 68
+    }
+  },
+  {
+    "id": "ability_pack_cable",
+    "name": {
+      "en": "Can Coil a Cable Without Creating a Knot",
+      "fr": "Enroule un Câble Sans Créer de Nœud",
+      "es": "Enrolla un Cable Sin Crear un Nudo"
+    },
+    "idealProfile": {
+      "discipline": 78,
+      "intelligence": 62,
+      "emotionalControl": 72,
+      "creativity": 58
+    }
+  },
+  {
+    "id": "ability_order_group",
+    "name": {
+      "en": "Can Order for a Group Without Losing Track",
+      "fr": "Commande pour un Groupe Sans Rien Oublier",
+      "es": "Pide para un Grupo Sin Perderse"
+    },
+    "idealProfile": {
+      "communication": 82,
+      "social": 78,
+      "discipline": 72,
+      "empathy": 68
+    }
+  },
+  {
+    "id": "ability_find_settings",
+    "name": {
+      "en": "Finds the Setting Hidden Three Menus Deep",
+      "fr": "Trouve le Réglage Caché Trois Menus Plus Loin",
+      "es": "Encuentra el Ajuste Escondido Tres Menús Adentro"
+    },
+    "idealProfile": {
+      "intelligence": 84,
+      "discipline": 68,
+      "creativity": 66,
+      "emotionalControl": 76
+    }
+  },
+  {
+    "id": "ability_parallel_parking",
+    "name": {
+      "en": "Parallel Parks With Only One Correction",
+      "fr": "Fait un Créneau avec Une Seule Correction",
+      "es": "Aparca en Paralelo con una Sola Corrección"
+    },
+    "idealProfile": {
+      "emotionalControl": 82,
+      "risk": 58,
+      "discipline": 72,
+      "intelligence": 66
+    }
+  },
+  {
+    "id": "ability_know_when_leave",
+    "name": {
+      "en": "Knows Exactly When to Leave the Group Chat",
+      "fr": "Sait Exactement Quand Quitter le Groupe",
+      "es": "Sabe Exactamente Cuándo Salir del Chat"
+    },
+    "idealProfile": {
+      "social": 70,
+      "empathy": 72,
+      "emotionalControl": 84,
+      "communication": 76
+    }
+  },
+  {
+    "id": "ability_receipt_photo",
+    "name": {
+      "en": "Takes a Readable Photo of a Receipt",
+      "fr": "Prend une Photo Lisible d'un Ticket",
+      "es": "Hace una Foto Legible de un Recibo"
+    },
+    "idealProfile": {
+      "discipline": 74,
+      "financialSense": 72,
+      "professionalism": 64,
+      "intelligence": 58
+    }
+  },
+  {
+    "id": "ability_estimate_time",
+    "name": {
+      "en": "Says 'Five Minutes' and Actually Means Five Minutes",
+      "fr": "Dit « Cinq Minutes » et Parle Vraiment de Cinq Minutes",
+      "es": "Dice « Cinco Minutos » y Realmente Son Cinco"
+    },
+    "idealProfile": {
+      "discipline": 88,
+      "professionalism": 78,
+      "communication": 76,
+      "emotionalControl": 72
+    }
+  },
+  {
+    "id": "ability_choose_menu",
+    "name": {
+      "en": "Chooses From the Menu Before the Server Returns",
+      "fr": "Choisit Avant le Retour du Serveur",
+      "es": "Elige Antes de que Vuelva el Camarero"
+    },
+    "idealProfile": {
+      "discipline": 70,
+      "emotionalControl": 78,
+      "social": 64,
+      "risk": 56
+    }
+  },
+  {
+    "id": "ability_move_file",
+    "name": {
+      "en": "Moves a File Without Losing It Forever",
+      "fr": "Déplace un Fichier Sans le Perdre à Jamais",
+      "es": "Mueve un Archivo Sin Perderlo Para Siempre"
+    },
+    "idealProfile": {
+      "discipline": 82,
+      "intelligence": 72,
+      "professionalism": 72,
+      "emotionalControl": 70
+    }
+  },
+  {
+    "id": "ability_fix_printer",
+    "name": {
+      "en": "Makes the Printer Work Without Violence",
+      "fr": "Fait Fonctionner l'Imprimante Sans Violence",
+      "es": "Hace Funcionar la Impresora Sin Violencia"
+    },
+    "idealProfile": {
+      "emotionalControl": 86,
+      "intelligence": 74,
+      "creativity": 64,
+      "humor": 66
+    }
+  },
+  {
+    "id": "ability_read_room",
+    "name": {
+      "en": "Can Read the Room Before Making the Joke",
+      "fr": "Lit la Pièce Avant de Faire la Blague",
+      "es": "Lee el Ambiente Antes de Hacer la Broma"
+    },
+    "idealProfile": {
+      "empathy": 88,
+      "humor": 82,
+      "social": 78,
+      "communication": 76
+    }
+  },
+  {
+    "id": "ability_backup_before_update",
+    "name": {
+      "en": "Backs Up Before Clicking Update",
+      "fr": "Fait une Sauvegarde Avant de Cliquer sur Mettre à Jour",
+      "es": "Hace Copia de Seguridad Antes de Actualizar"
+    },
+    "idealProfile": {
+      "discipline": 92,
+      "professionalism": 82,
+      "risk": 22,
+      "intelligence": 68
+    }
+  },
+  {
+    "id": "ability_reading_instinct",
+    "name": {
+      "en": "Reading Instinct",
+      "fr": "Lecture Instinct",
+      "es": "Lectura Instinto"
+    },
+    "idealProfile": {
+      "intelligence": 58,
+      "risk": 59,
+      "ambition": 91,
+      "empathy": 63,
+      "creativity": 64,
+      "humor": 77
+    },
+    "tags": [
+      "expanded_v2",
+      "reading",
+      "instinct"
+    ]
+  },
+  {
+    "id": "ability_reading_precision",
+    "name": {
+      "en": "Reading Precision",
+      "fr": "Lecture Précision",
+      "es": "Lectura Precisión"
+    },
+    "idealProfile": {
+      "ambition": 93,
+      "humor": 63,
+      "intelligence": 73,
+      "risk": 28,
+      "empathy": 41,
+      "creativity": 79
+    },
+    "tags": [
+      "expanded_v2",
+      "reading",
+      "precision"
+    ]
+  },
+  {
+    "id": "ability_reading_speed",
+    "name": {
+      "en": "Reading Speed",
+      "fr": "Lecture Vitesse",
+      "es": "Lectura Velocidad"
+    },
+    "idealProfile": {
+      "discipline": 56,
+      "humor": 30,
+      "communication": 74,
+      "emotionalControl": 36,
+      "risk": 75,
+      "professionalism": 68
+    },
+    "tags": [
+      "expanded_v2",
+      "reading",
+      "speed"
+    ]
+  },
+  {
+    "id": "ability_reading_patience",
+    "name": {
+      "en": "Reading Patience",
+      "fr": "Lecture Patience",
+      "es": "Lectura Paciencia"
+    },
+    "idealProfile": {
+      "emotionalControl": 57,
+      "risk": 90,
+      "social": 63,
+      "chaos": 25,
+      "discipline": 25,
+      "communication": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "reading",
+      "patience"
+    ]
+  },
+  {
+    "id": "ability_reading_improvisation",
+    "name": {
+      "en": "Reading Improvisation",
+      "fr": "Lecture Improvisation",
+      "es": "Lectura Improvisación"
+    },
+    "idealProfile": {
+      "communication": 84,
+      "creativity": 29,
+      "humor": 92,
+      "luck": 46,
+      "risk": 90,
+      "professionalism": 31
+    },
+    "tags": [
+      "expanded_v2",
+      "reading",
+      "improvisation"
+    ]
+  },
+  {
+    "id": "ability_reading_clarity",
+    "name": {
+      "en": "Reading Clarity",
+      "fr": "Lecture Clarté",
+      "es": "Lectura Claridad"
+    },
+    "idealProfile": {
+      "financialSense": 44,
+      "humor": 68,
+      "empathy": 38,
+      "creativity": 50,
+      "ambition": 80,
+      "social": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "reading",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ability_reading_endurance",
+    "name": {
+      "en": "Reading Endurance",
+      "fr": "Lecture Endurance",
+      "es": "Lectura Resistencia"
+    },
+    "idealProfile": {
+      "risk": 94,
+      "discipline": 41,
+      "communication": 77,
+      "social": 89,
+      "chaos": 35,
+      "emotionalControl": 30
+    },
+    "tags": [
+      "expanded_v2",
+      "reading",
+      "endurance"
+    ]
+  },
+  {
+    "id": "ability_reading_timing",
+    "name": {
+      "en": "Reading Timing",
+      "fr": "Lecture Timing",
+      "es": "Lectura Timing"
+    },
+    "idealProfile": {
+      "luck": 59,
+      "social": 39,
+      "humor": 66,
+      "professionalism": 51,
+      "creativity": 45,
+      "chaos": 72
+    },
+    "tags": [
+      "expanded_v2",
+      "reading",
+      "timing"
+    ]
+  },
+  {
+    "id": "ability_reading_intuition",
+    "name": {
+      "en": "Reading Intuition",
+      "fr": "Lecture Intuition",
+      "es": "Lectura Intuición"
+    },
+    "idealProfile": {
+      "financialSense": 94,
+      "social": 94,
+      "intelligence": 81,
+      "energy": 90,
+      "risk": 29,
+      "discipline": 41
+    },
+    "tags": [
+      "expanded_v2",
+      "reading",
+      "intuition"
+    ]
+  },
+  {
+    "id": "ability_reading_discipline",
+    "name": {
+      "en": "Reading Discipline",
+      "fr": "Lecture Discipline",
+      "es": "Lectura Disciplina"
+    },
+    "idealProfile": {
+      "energy": 91,
+      "discipline": 49,
+      "empathy": 84,
+      "intelligence": 63,
+      "humor": 26,
+      "risk": 67
+    },
+    "tags": [
+      "expanded_v2",
+      "reading",
+      "discipline"
+    ]
+  },
+  {
+    "id": "ability_planning_instinct",
+    "name": {
+      "en": "Planning Instinct",
+      "fr": "Planification Instinct",
+      "es": "Planificación Instinto"
+    },
+    "idealProfile": {
+      "luck": 58,
+      "social": 57,
+      "humor": 64,
+      "professionalism": 62,
+      "creativity": 63,
+      "chaos": 70
+    },
+    "tags": [
+      "expanded_v2",
+      "planning",
+      "instinct"
+    ]
+  },
+  {
+    "id": "ability_planning_precision",
+    "name": {
+      "en": "Planning Precision",
+      "fr": "Planification Précision",
+      "es": "Planificación Precisión"
+    },
+    "idealProfile": {
+      "discipline": 75,
+      "social": 51,
+      "emotionalControl": 37,
+      "creativity": 82,
+      "luck": 87,
+      "chaos": 94
+    },
+    "tags": [
+      "expanded_v2",
+      "planning",
+      "precision"
+    ]
+  },
+  {
+    "id": "ability_planning_speed",
+    "name": {
+      "en": "Planning Speed",
+      "fr": "Planification Vitesse",
+      "es": "Planificación Velocidad"
+    },
+    "idealProfile": {
+      "energy": 92,
+      "creativity": 56,
+      "ambition": 93,
+      "social": 27,
+      "financialSense": 68,
+      "discipline": 34
+    },
+    "tags": [
+      "expanded_v2",
+      "planning",
+      "speed"
+    ]
+  },
+  {
+    "id": "ability_planning_patience",
+    "name": {
+      "en": "Planning Patience",
+      "fr": "Planification Patience",
+      "es": "Planificación Paciencia"
+    },
+    "idealProfile": {
+      "social": 92,
+      "risk": 91,
+      "emotionalControl": 39,
+      "chaos": 26,
+      "discipline": 90,
+      "communication": 33
+    },
+    "tags": [
+      "expanded_v2",
+      "planning",
+      "patience"
+    ]
+  },
+  {
+    "id": "ability_planning_improvisation",
+    "name": {
+      "en": "Planning Improvisation",
+      "fr": "Planification Improvisation",
+      "es": "Planificación Improvisación"
+    },
+    "idealProfile": {
+      "intelligence": 54,
+      "risk": 53,
+      "ambition": 44,
+      "empathy": 75,
+      "creativity": 60,
+      "humor": 71
+    },
+    "tags": [
+      "expanded_v2",
+      "planning",
+      "improvisation"
+    ]
+  },
+  {
+    "id": "ability_planning_clarity",
+    "name": {
+      "en": "Planning Clarity",
+      "fr": "Planification Clarté",
+      "es": "Planificación Claridad"
+    },
+    "idealProfile": {
+      "creativity": 60,
+      "humor": 71,
+      "luck": 76,
+      "risk": 58,
+      "communication": 72,
+      "professionalism": 70
+    },
+    "tags": [
+      "expanded_v2",
+      "planning",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ability_planning_endurance",
+    "name": {
+      "en": "Planning Endurance",
+      "fr": "Planification Endurance",
+      "es": "Planificación Resistencia"
+    },
+    "idealProfile": {
+      "intelligence": 85,
+      "social": 45,
+      "financialSense": 48,
+      "discipline": 91,
+      "energy": 57,
+      "risk": 60
+    },
+    "tags": [
+      "expanded_v2",
+      "planning",
+      "endurance"
+    ]
+  },
+  {
+    "id": "ability_planning_timing",
+    "name": {
+      "en": "Planning Timing",
+      "fr": "Planification Timing",
+      "es": "Planificación Timing"
+    },
+    "idealProfile": {
+      "social": 39,
+      "creativity": 45,
+      "chaos": 81,
+      "humor": 27,
+      "professionalism": 51,
+      "luck": 39
+    },
+    "tags": [
+      "expanded_v2",
+      "planning",
+      "timing"
+    ]
+  },
+  {
+    "id": "ability_planning_intuition",
+    "name": {
+      "en": "Planning Intuition",
+      "fr": "Planification Intuition",
+      "es": "Planificación Intuición"
+    },
+    "idealProfile": {
+      "risk": 48,
+      "discipline": 32,
+      "communication": 48,
+      "social": 53,
+      "chaos": 60,
+      "emotionalControl": 65
+    },
+    "tags": [
+      "expanded_v2",
+      "planning",
+      "intuition"
+    ]
+  },
+  {
+    "id": "ability_planning_discipline",
+    "name": {
+      "en": "Planning Discipline",
+      "fr": "Planification Discipline",
+      "es": "Planificación Disciplina"
+    },
+    "idealProfile": {
+      "luck": 63,
+      "discipline": 55,
+      "social": 93,
+      "emotionalControl": 50,
+      "creativity": 69,
+      "chaos": 81
+    },
+    "tags": [
+      "expanded_v2",
+      "planning",
+      "discipline"
+    ]
+  },
+  {
+    "id": "ability_explaining_instinct",
+    "name": {
+      "en": "Explaining Instinct",
+      "fr": "Explication Instinct",
+      "es": "Explicación Instinto"
+    },
+    "idealProfile": {
+      "empathy": 83,
+      "humor": 87,
+      "financialSense": 83,
+      "ambition": 25,
+      "social": 89,
+      "creativity": 34
+    },
+    "tags": [
+      "expanded_v2",
+      "explaining",
+      "instinct"
+    ]
+  },
+  {
+    "id": "ability_explaining_precision",
+    "name": {
+      "en": "Explaining Precision",
+      "fr": "Explication Précision",
+      "es": "Explicación Precisión"
+    },
+    "idealProfile": {
+      "social": 65,
+      "humor": 91,
+      "professionalism": 34,
+      "creativity": 71,
+      "chaos": 26,
+      "luck": 52
+    },
+    "tags": [
+      "expanded_v2",
+      "explaining",
+      "precision"
+    ]
+  },
+  {
+    "id": "ability_explaining_speed",
+    "name": {
+      "en": "Explaining Speed",
+      "fr": "Explication Vitesse",
+      "es": "Explicación Velocidad"
+    },
+    "idealProfile": {
+      "creativity": 60,
+      "risk": 46,
+      "communication": 84,
+      "humor": 66,
+      "luck": 52,
+      "professionalism": 31
+    },
+    "tags": [
+      "expanded_v2",
+      "explaining",
+      "speed"
+    ]
+  },
+  {
+    "id": "ability_explaining_patience",
+    "name": {
+      "en": "Explaining Patience",
+      "fr": "Explication Patience",
+      "es": "Explicación Paciencia"
+    },
+    "idealProfile": {
+      "professionalism": 59,
+      "creativity": 26,
+      "risk": 25,
+      "communication": 59,
+      "humor": 32,
+      "luck": 31
+    },
+    "tags": [
+      "expanded_v2",
+      "explaining",
+      "patience"
+    ]
+  },
+  {
+    "id": "ability_explaining_improvisation",
+    "name": {
+      "en": "Explaining Improvisation",
+      "fr": "Explication Improvisation",
+      "es": "Explicación Improvisación"
+    },
+    "idealProfile": {
+      "intelligence": 52,
+      "social": 57,
+      "financialSense": 51,
+      "discipline": 58,
+      "energy": 69,
+      "risk": 63
+    },
+    "tags": [
+      "expanded_v2",
+      "explaining",
+      "improvisation"
+    ]
+  },
+  {
+    "id": "ability_explaining_clarity",
+    "name": {
+      "en": "Explaining Clarity",
+      "fr": "Explication Clarté",
+      "es": "Explicación Claridad"
+    },
+    "idealProfile": {
+      "luck": 26,
+      "creativity": 74,
+      "discipline": 31,
+      "chaos": 53,
+      "social": 38,
+      "emotionalControl": 86
+    },
+    "tags": [
+      "expanded_v2",
+      "explaining",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ability_explaining_endurance",
+    "name": {
+      "en": "Explaining Endurance",
+      "fr": "Explication Endurance",
+      "es": "Explicación Resistencia"
+    },
+    "idealProfile": {
+      "professionalism": 31,
+      "social": 74,
+      "creativity": 85,
+      "chaos": 43,
+      "humor": 37,
+      "luck": 49
+    },
+    "tags": [
+      "expanded_v2",
+      "explaining",
+      "endurance"
+    ]
+  },
+  {
+    "id": "ability_explaining_timing",
+    "name": {
+      "en": "Explaining Timing",
+      "fr": "Explication Timing",
+      "es": "Explicación Timing"
+    },
+    "idealProfile": {
+      "financialSense": 75,
+      "creativity": 47,
+      "empathy": 54,
+      "humor": 81,
+      "ambition": 88,
+      "social": 60
+    },
+    "tags": [
+      "expanded_v2",
+      "explaining",
+      "timing"
+    ]
+  },
+  {
+    "id": "ability_explaining_intuition",
+    "name": {
+      "en": "Explaining Intuition",
+      "fr": "Explication Intuition",
+      "es": "Explicación Intuición"
+    },
+    "idealProfile": {
+      "discipline": 79,
+      "creativity": 93,
+      "luck": 79,
+      "social": 85,
+      "emotionalControl": 28,
+      "chaos": 26
+    },
+    "tags": [
+      "expanded_v2",
+      "explaining",
+      "intuition"
+    ]
+  },
+  {
+    "id": "ability_explaining_discipline",
+    "name": {
+      "en": "Explaining Discipline",
+      "fr": "Explication Discipline",
+      "es": "Explicación Disciplina"
+    },
+    "idealProfile": {
+      "financialSense": 32,
+      "creativity": 30,
+      "empathy": 71,
+      "humor": 38,
+      "ambition": 58,
+      "social": 77
+    },
+    "tags": [
+      "expanded_v2",
+      "explaining",
+      "discipline"
+    ]
+  },
+  {
+    "id": "ability_repairing_instinct",
+    "name": {
+      "en": "Repairing Instinct",
+      "fr": "Réparation Instinct",
+      "es": "Reparación Instinto"
+    },
+    "idealProfile": {
+      "chaos": 71,
+      "risk": 55,
+      "discipline": 71,
+      "communication": 52,
+      "social": 77,
+      "emotionalControl": 89
+    },
+    "tags": [
+      "expanded_v2",
+      "repairing",
+      "instinct"
+    ]
+  },
+  {
+    "id": "ability_repairing_precision",
+    "name": {
+      "en": "Repairing Precision",
+      "fr": "Réparation Précision",
+      "es": "Reparación Precisión"
+    },
+    "idealProfile": {
+      "ambition": 62,
+      "creativity": 79,
+      "energy": 27,
+      "financialSense": 46,
+      "discipline": 68,
+      "social": 26
+    },
+    "tags": [
+      "expanded_v2",
+      "repairing",
+      "precision"
+    ]
+  },
+  {
+    "id": "ability_repairing_speed",
+    "name": {
+      "en": "Repairing Speed",
+      "fr": "Réparation Vitesse",
+      "es": "Reparación Velocidad"
+    },
+    "idealProfile": {
+      "financialSense": 57,
+      "social": 70,
+      "intelligence": 45,
+      "energy": 66,
+      "risk": 63,
+      "discipline": 88
+    },
+    "tags": [
+      "expanded_v2",
+      "repairing",
+      "speed"
+    ]
+  },
+  {
+    "id": "ability_repairing_patience",
+    "name": {
+      "en": "Repairing Patience",
+      "fr": "Réparation Patience",
+      "es": "Reparación Paciencia"
+    },
+    "idealProfile": {
+      "communication": 39,
+      "humor": 83,
+      "discipline": 72,
+      "emotionalControl": 85,
+      "risk": 89,
+      "professionalism": 78
+    },
+    "tags": [
+      "expanded_v2",
+      "repairing",
+      "patience"
+    ]
+  },
+  {
+    "id": "ability_repairing_improvisation",
+    "name": {
+      "en": "Repairing Improvisation",
+      "fr": "Réparation Improvisation",
+      "es": "Reparación Improvisación"
+    },
+    "idealProfile": {
+      "social": 43,
+      "creativity": 94,
+      "chaos": 48,
+      "humor": 35,
+      "professionalism": 55,
+      "luck": 47
+    },
+    "tags": [
+      "expanded_v2",
+      "repairing",
+      "improvisation"
+    ]
+  },
+  {
+    "id": "ability_repairing_clarity",
+    "name": {
+      "en": "Repairing Clarity",
+      "fr": "Réparation Clarté",
+      "es": "Reparación Claridad"
+    },
+    "idealProfile": {
+      "emotionalControl": 27,
+      "humor": 63,
+      "risk": 55,
+      "professionalism": 51,
+      "discipline": 33,
+      "communication": 45
+    },
+    "tags": [
+      "expanded_v2",
+      "repairing",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ability_repairing_endurance",
+    "name": {
+      "en": "Repairing Endurance",
+      "fr": "Réparation Endurance",
+      "es": "Reparación Resistencia"
+    },
+    "idealProfile": {
+      "risk": 81,
+      "discipline": 31,
+      "communication": 85,
+      "social": 68,
+      "chaos": 93,
+      "emotionalControl": 80
+    },
+    "tags": [
+      "expanded_v2",
+      "repairing",
+      "endurance"
+    ]
+  },
+  {
+    "id": "ability_repairing_timing",
+    "name": {
+      "en": "Repairing Timing",
+      "fr": "Réparation Timing",
+      "es": "Reparación Timing"
+    },
+    "idealProfile": {
+      "energy": 74,
+      "social": 75,
+      "ambition": 53,
+      "creativity": 80,
+      "financialSense": 44,
+      "discipline": 59
+    },
+    "tags": [
+      "expanded_v2",
+      "repairing",
+      "timing"
+    ]
+  },
+  {
+    "id": "ability_repairing_intuition",
+    "name": {
+      "en": "Repairing Intuition",
+      "fr": "Réparation Intuition",
+      "es": "Reparación Intuición"
+    },
+    "idealProfile": {
+      "discipline": 47,
+      "humor": 52,
+      "communication": 75,
+      "emotionalControl": 58,
+      "risk": 31,
+      "professionalism": 59
+    },
+    "tags": [
+      "expanded_v2",
+      "repairing",
+      "intuition"
+    ]
+  },
+  {
+    "id": "ability_repairing_discipline",
+    "name": {
+      "en": "Repairing Discipline",
+      "fr": "Réparation Discipline",
+      "es": "Reparación Disciplina"
+    },
+    "idealProfile": {
+      "intelligence": 80,
+      "social": 71,
+      "financialSense": 87,
+      "discipline": 86,
+      "energy": 83,
+      "risk": 28
+    },
+    "tags": [
+      "expanded_v2",
+      "repairing",
+      "discipline"
+    ]
+  },
+  {
+    "id": "ability_negotiating_instinct",
+    "name": {
+      "en": "Negotiating Instinct",
+      "fr": "Négociation Instinct",
+      "es": "Negociación Instinto"
+    },
+    "idealProfile": {
+      "ambition": 44,
+      "creativity": 83,
+      "energy": 92,
+      "financialSense": 77,
+      "discipline": 50,
+      "social": 30
+    },
+    "tags": [
+      "expanded_v2",
+      "negotiating",
+      "instinct"
+    ]
+  },
+  {
+    "id": "ability_negotiating_precision",
+    "name": {
+      "en": "Negotiating Precision",
+      "fr": "Négociation Précision",
+      "es": "Negociación Precisión"
+    },
+    "idealProfile": {
+      "emotionalControl": 67,
+      "humor": 37,
+      "risk": 77,
+      "professionalism": 43,
+      "discipline": 73,
+      "communication": 85
+    },
+    "tags": [
+      "expanded_v2",
+      "negotiating",
+      "precision"
+    ]
+  },
+  {
+    "id": "ability_negotiating_speed",
+    "name": {
+      "en": "Negotiating Speed",
+      "fr": "Négociation Vitesse",
+      "es": "Negociación Velocidad"
+    },
+    "idealProfile": {
+      "discipline": 52,
+      "social": 41,
+      "emotionalControl": 35,
+      "creativity": 86,
+      "luck": 64,
+      "chaos": 27
+    },
+    "tags": [
+      "expanded_v2",
+      "negotiating",
+      "speed"
+    ]
+  },
+  {
+    "id": "ability_negotiating_patience",
+    "name": {
+      "en": "Negotiating Patience",
+      "fr": "Négociation Patience",
+      "es": "Negociación Paciencia"
+    },
+    "idealProfile": {
+      "ambition": 25,
+      "humor": 87,
+      "intelligence": 36,
+      "risk": 31,
+      "empathy": 80,
+      "creativity": 42
+    },
+    "tags": [
+      "expanded_v2",
+      "negotiating",
+      "patience"
+    ]
+  },
+  {
+    "id": "ability_negotiating_improvisation",
+    "name": {
+      "en": "Negotiating Improvisation",
+      "fr": "Négociation Improvisation",
+      "es": "Negociación Improvisación"
+    },
+    "idealProfile": {
+      "communication": 47,
+      "creativity": 32,
+      "humor": 34,
+      "luck": 86,
+      "risk": 53,
+      "professionalism": 65
+    },
+    "tags": [
+      "expanded_v2",
+      "negotiating",
+      "improvisation"
+    ]
+  },
+  {
+    "id": "ability_negotiating_clarity",
+    "name": {
+      "en": "Negotiating Clarity",
+      "fr": "Négociation Clarté",
+      "es": "Negociación Claridad"
+    },
+    "idealProfile": {
+      "empathy": 37,
+      "risk": 50,
+      "energy": 36,
+      "discipline": 43,
+      "intelligence": 70,
+      "humor": 42
+    },
+    "tags": [
+      "expanded_v2",
+      "negotiating",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ability_negotiating_endurance",
+    "name": {
+      "en": "Negotiating Endurance",
+      "fr": "Négociation Endurance",
+      "es": "Negociación Resistencia"
+    },
+    "idealProfile": {
+      "chaos": 75,
+      "social": 53,
+      "risk": 66,
+      "emotionalControl": 67,
+      "discipline": 87,
+      "communication": 65
+    },
+    "tags": [
+      "expanded_v2",
+      "negotiating",
+      "endurance"
+    ]
+  },
+  {
+    "id": "ability_negotiating_timing",
+    "name": {
+      "en": "Negotiating Timing",
+      "fr": "Négociation Timing",
+      "es": "Negociación Timing"
+    },
+    "idealProfile": {
+      "financialSense": 67,
+      "creativity": 77,
+      "empathy": 74,
+      "humor": 73,
+      "ambition": 77,
+      "social": 80
+    },
+    "tags": [
+      "expanded_v2",
+      "negotiating",
+      "timing"
+    ]
+  },
+  {
+    "id": "ability_negotiating_intuition",
+    "name": {
+      "en": "Negotiating Intuition",
+      "fr": "Négociation Intuition",
+      "es": "Negociación Intuición"
+    },
+    "idealProfile": {
+      "luck": 30,
+      "social": 67,
+      "humor": 58,
+      "professionalism": 45,
+      "creativity": 73,
+      "chaos": 64
+    },
+    "tags": [
+      "expanded_v2",
+      "negotiating",
+      "intuition"
+    ]
+  },
+  {
+    "id": "ability_negotiating_discipline",
+    "name": {
+      "en": "Negotiating Discipline",
+      "fr": "Négociation Discipline",
+      "es": "Negociación Disciplina"
+    },
+    "idealProfile": {
+      "communication": 55,
+      "risk": 68,
+      "creativity": 73,
+      "professionalism": 92,
+      "humor": 67,
+      "luck": 80
+    },
+    "tags": [
+      "expanded_v2",
+      "negotiating",
+      "discipline"
+    ]
+  },
+  {
+    "id": "ability_learning_instinct",
+    "name": {
+      "en": "Learning Instinct",
+      "fr": "Apprentissage Instinct",
+      "es": "Aprendizaje Instinto"
+    },
+    "idealProfile": {
+      "energy": 94,
+      "social": 92,
+      "ambition": 63,
+      "creativity": 29,
+      "financialSense": 78,
+      "discipline": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "learning",
+      "instinct"
+    ]
+  },
+  {
+    "id": "ability_learning_precision",
+    "name": {
+      "en": "Learning Precision",
+      "fr": "Apprentissage Précision",
+      "es": "Aprendizaje Precisión"
+    },
+    "idealProfile": {
+      "professionalism": 38,
+      "creativity": 50,
+      "risk": 66,
+      "communication": 38,
+      "humor": 56,
+      "luck": 72
+    },
+    "tags": [
+      "expanded_v2",
+      "learning",
+      "precision"
+    ]
+  },
+  {
+    "id": "ability_learning_speed",
+    "name": {
+      "en": "Learning Speed",
+      "fr": "Apprentissage Vitesse",
+      "es": "Aprendizaje Velocidad"
+    },
+    "idealProfile": {
+      "risk": 59,
+      "social": 77,
+      "chaos": 56,
+      "discipline": 65,
+      "communication": 83,
+      "emotionalControl": 74
+    },
+    "tags": [
+      "expanded_v2",
+      "learning",
+      "speed"
+    ]
+  },
+  {
+    "id": "ability_learning_patience",
+    "name": {
+      "en": "Learning Patience",
+      "fr": "Apprentissage Patience",
+      "es": "Aprendizaje Paciencia"
+    },
+    "idealProfile": {
+      "creativity": 88,
+      "discipline": 76,
+      "chaos": 58,
+      "luck": 82,
+      "social": 37,
+      "emotionalControl": 29
+    },
+    "tags": [
+      "expanded_v2",
+      "learning",
+      "patience"
+    ]
+  },
+  {
+    "id": "ability_learning_improvisation",
+    "name": {
+      "en": "Learning Improvisation",
+      "fr": "Apprentissage Improvisation",
+      "es": "Aprendizaje Improvisación"
+    },
+    "idealProfile": {
+      "energy": 88,
+      "discipline": 87,
+      "empathy": 74,
+      "intelligence": 47,
+      "humor": 94,
+      "risk": 34
+    },
+    "tags": [
+      "expanded_v2",
+      "learning",
+      "improvisation"
+    ]
+  },
+  {
+    "id": "ability_learning_clarity",
+    "name": {
+      "en": "Learning Clarity",
+      "fr": "Apprentissage Clarté",
+      "es": "Aprendizaje Claridad"
+    },
+    "idealProfile": {
+      "energy": 29,
+      "creativity": 83,
+      "ambition": 94,
+      "social": 35,
+      "financialSense": 24,
+      "discipline": 35
+    },
+    "tags": [
+      "expanded_v2",
+      "learning",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ability_learning_endurance",
+    "name": {
+      "en": "Learning Endurance",
+      "fr": "Apprentissage Endurance",
+      "es": "Aprendizaje Resistencia"
+    },
+    "idealProfile": {
+      "professionalism": 49,
+      "humor": 24,
+      "social": 74,
+      "luck": 41,
+      "creativity": 61,
+      "chaos": 36
+    },
+    "tags": [
+      "expanded_v2",
+      "learning",
+      "endurance"
+    ]
+  },
+  {
+    "id": "ability_learning_timing",
+    "name": {
+      "en": "Learning Timing",
+      "fr": "Apprentissage Timing",
+      "es": "Aprendizaje Timing"
+    },
+    "idealProfile": {
+      "social": 40,
+      "creativity": 54,
+      "chaos": 35,
+      "humor": 50,
+      "professionalism": 52,
+      "luck": 62
+    },
+    "tags": [
+      "expanded_v2",
+      "learning",
+      "timing"
+    ]
+  },
+  {
+    "id": "ability_learning_intuition",
+    "name": {
+      "en": "Learning Intuition",
+      "fr": "Apprentissage Intuition",
+      "es": "Aprendizaje Intuición"
+    },
+    "idealProfile": {
+      "emotionalControl": 25,
+      "risk": 49,
+      "social": 64,
+      "chaos": 80,
+      "discipline": 55,
+      "communication": 70
+    },
+    "tags": [
+      "expanded_v2",
+      "learning",
+      "intuition"
+    ]
+  },
+  {
+    "id": "ability_learning_discipline",
+    "name": {
+      "en": "Learning Discipline",
+      "fr": "Apprentissage Discipline",
+      "es": "Aprendizaje Disciplina"
+    },
+    "idealProfile": {
+      "professionalism": 37,
+      "humor": 83,
+      "social": 63,
+      "luck": 38,
+      "creativity": 49,
+      "chaos": 24
+    },
+    "tags": [
+      "expanded_v2",
+      "learning",
+      "discipline"
+    ]
+  },
+  {
+    "id": "ability_organizing_instinct",
+    "name": {
+      "en": "Organizing Instinct",
+      "fr": "Organisation Instinct",
+      "es": "Organización Instinto"
+    },
+    "idealProfile": {
+      "risk": 39,
+      "discipline": 30,
+      "communication": 90,
+      "social": 46,
+      "chaos": 51,
+      "emotionalControl": 58
+    },
+    "tags": [
+      "expanded_v2",
+      "organizing",
+      "instinct"
+    ]
+  },
+  {
+    "id": "ability_organizing_precision",
+    "name": {
+      "en": "Organizing Precision",
+      "fr": "Organisation Précision",
+      "es": "Organización Precisión"
+    },
+    "idealProfile": {
+      "risk": 57,
+      "social": 84,
+      "chaos": 76,
+      "discipline": 63,
+      "communication": 90,
+      "emotionalControl": 94
+    },
+    "tags": [
+      "expanded_v2",
+      "organizing",
+      "precision"
+    ]
+  },
+  {
+    "id": "ability_organizing_speed",
+    "name": {
+      "en": "Organizing Speed",
+      "fr": "Organisation Vitesse",
+      "es": "Organización Velocidad"
+    },
+    "idealProfile": {
+      "emotionalControl": 40,
+      "discipline": 61,
+      "humor": 86,
+      "communication": 30,
+      "risk": 52,
+      "professionalism": 73
+    },
+    "tags": [
+      "expanded_v2",
+      "organizing",
+      "speed"
+    ]
+  },
+  {
+    "id": "ability_organizing_patience",
+    "name": {
+      "en": "Organizing Patience",
+      "fr": "Organisation Patience",
+      "es": "Organización Paciencia"
+    },
+    "idealProfile": {
+      "luck": 69,
+      "social": 24,
+      "humor": 90,
+      "professionalism": 90,
+      "creativity": 30,
+      "chaos": 25
+    },
+    "tags": [
+      "expanded_v2",
+      "organizing",
+      "patience"
+    ]
+  },
+  {
+    "id": "ability_organizing_improvisation",
+    "name": {
+      "en": "Organizing Improvisation",
+      "fr": "Organisation Improvisation",
+      "es": "Organización Improvisación"
+    },
+    "idealProfile": {
+      "financialSense": 50,
+      "social": 64,
+      "intelligence": 67,
+      "energy": 45,
+      "risk": 56,
+      "discipline": 82
+    },
+    "tags": [
+      "expanded_v2",
+      "organizing",
+      "improvisation"
+    ]
+  },
+  {
+    "id": "ability_organizing_clarity",
+    "name": {
+      "en": "Organizing Clarity",
+      "fr": "Organisation Clarté",
+      "es": "Organización Claridad"
+    },
+    "idealProfile": {
+      "luck": 86,
+      "creativity": 78,
+      "discipline": 65,
+      "chaos": 49,
+      "social": 27,
+      "emotionalControl": 90
+    },
+    "tags": [
+      "expanded_v2",
+      "organizing",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ability_organizing_endurance",
+    "name": {
+      "en": "Organizing Endurance",
+      "fr": "Organisation Endurance",
+      "es": "Organización Resistencia"
+    },
+    "idealProfile": {
+      "empathy": 80,
+      "humor": 31,
+      "financialSense": 61,
+      "ambition": 36,
+      "social": 86,
+      "creativity": 49
+    },
+    "tags": [
+      "expanded_v2",
+      "organizing",
+      "endurance"
+    ]
+  },
+  {
+    "id": "ability_organizing_timing",
+    "name": {
+      "en": "Organizing Timing",
+      "fr": "Organisation Timing",
+      "es": "Organización Timing"
+    },
+    "idealProfile": {
+      "social": 49,
+      "risk": 66,
+      "emotionalControl": 67,
+      "chaos": 72,
+      "discipline": 42,
+      "communication": 61
+    },
+    "tags": [
+      "expanded_v2",
+      "organizing",
+      "timing"
+    ]
+  },
+  {
+    "id": "ability_organizing_intuition",
+    "name": {
+      "en": "Organizing Intuition",
+      "fr": "Organisation Intuition",
+      "es": "Organización Intuición"
+    },
+    "idealProfile": {
+      "risk": 58,
+      "discipline": 26,
+      "communication": 45,
+      "social": 33,
+      "chaos": 70,
+      "emotionalControl": 45
+    },
+    "tags": [
+      "expanded_v2",
+      "organizing",
+      "intuition"
+    ]
+  },
+  {
+    "id": "ability_organizing_discipline",
+    "name": {
+      "en": "Organizing Discipline",
+      "fr": "Organisation Discipline",
+      "es": "Organización Disciplina"
+    },
+    "idealProfile": {
+      "communication": 26,
+      "humor": 49,
+      "discipline": 44,
+      "emotionalControl": 66,
+      "risk": 55,
+      "professionalism": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "organizing",
+      "discipline"
+    ]
+  },
+  {
+    "id": "ability_adapting_instinct",
+    "name": {
+      "en": "Adapting Instinct",
+      "fr": "Adaptation Instinct",
+      "es": "Adaptación Instinto"
+    },
+    "idealProfile": {
+      "financialSense": 38,
+      "social": 76,
+      "intelligence": 34,
+      "energy": 50,
+      "risk": 44,
+      "discipline": 94
+    },
+    "tags": [
+      "expanded_v2",
+      "adapting",
+      "instinct"
+    ]
+  },
+  {
+    "id": "ability_adapting_precision",
+    "name": {
+      "en": "Adapting Precision",
+      "fr": "Adaptation Précision",
+      "es": "Adaptación Precisión"
+    },
+    "idealProfile": {
+      "intelligence": 37,
+      "social": 34,
+      "financialSense": 48,
+      "discipline": 43,
+      "energy": 46,
+      "risk": 60
+    },
+    "tags": [
+      "expanded_v2",
+      "adapting",
+      "precision"
+    ]
+  },
+  {
+    "id": "ability_adapting_speed",
+    "name": {
+      "en": "Adapting Speed",
+      "fr": "Adaptation Vitesse",
+      "es": "Adaptación Velocidad"
+    },
+    "idealProfile": {
+      "risk": 44,
+      "social": 30,
+      "chaos": 70,
+      "discipline": 50,
+      "communication": 36,
+      "emotionalControl": 88
+    },
+    "tags": [
+      "expanded_v2",
+      "adapting",
+      "speed"
+    ]
+  },
+  {
+    "id": "ability_adapting_patience",
+    "name": {
+      "en": "Adapting Patience",
+      "fr": "Adaptation Patience",
+      "es": "Adaptación Paciencia"
+    },
+    "idealProfile": {
+      "professionalism": 48,
+      "creativity": 79,
+      "risk": 29,
+      "communication": 35,
+      "humor": 85,
+      "luck": 35
+    },
+    "tags": [
+      "expanded_v2",
+      "adapting",
+      "patience"
+    ]
+  },
+  {
+    "id": "ability_adapting_improvisation",
+    "name": {
+      "en": "Adapting Improvisation",
+      "fr": "Adaptation Improvisation",
+      "es": "Adaptación Improvisación"
+    },
+    "idealProfile": {
+      "communication": 59,
+      "creativity": 35,
+      "humor": 43,
+      "luck": 44,
+      "risk": 65,
+      "professionalism": 77
+    },
+    "tags": [
+      "expanded_v2",
+      "adapting",
+      "improvisation"
+    ]
+  },
+  {
+    "id": "ability_adapting_clarity",
+    "name": {
+      "en": "Adapting Clarity",
+      "fr": "Adaptation Clarté",
+      "es": "Adaptación Claridad"
+    },
+    "idealProfile": {
+      "intelligence": 41,
+      "risk": 52,
+      "ambition": 73,
+      "empathy": 92,
+      "creativity": 47,
+      "humor": 70
+    },
+    "tags": [
+      "expanded_v2",
+      "adapting",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ability_adapting_endurance",
+    "name": {
+      "en": "Adapting Endurance",
+      "fr": "Adaptation Endurance",
+      "es": "Adaptación Resistencia"
+    },
+    "idealProfile": {
+      "ambition": 64,
+      "risk": 88,
+      "intelligence": 94,
+      "humor": 70,
+      "empathy": 29,
+      "creativity": 35
+    },
+    "tags": [
+      "expanded_v2",
+      "adapting",
+      "endurance"
+    ]
+  },
+  {
+    "id": "ability_adapting_timing",
+    "name": {
+      "en": "Adapting Timing",
+      "fr": "Adaptation Timing",
+      "es": "Adaptación Timing"
+    },
+    "idealProfile": {
+      "creativity": 88,
+      "humor": 43,
+      "luck": 53,
+      "risk": 78,
+      "communication": 29,
+      "professionalism": 90
+    },
+    "tags": [
+      "expanded_v2",
+      "adapting",
+      "timing"
+    ]
+  },
+  {
+    "id": "ability_adapting_intuition",
+    "name": {
+      "en": "Adapting Intuition",
+      "fr": "Adaptation Intuition",
+      "es": "Adaptación Intuición"
+    },
+    "idealProfile": {
+      "social": 31,
+      "creativity": 85,
+      "chaos": 83,
+      "humor": 52,
+      "professionalism": 43,
+      "luck": 64
+    },
+    "tags": [
+      "expanded_v2",
+      "adapting",
+      "intuition"
+    ]
+  },
+  {
+    "id": "ability_adapting_discipline",
+    "name": {
+      "en": "Adapting Discipline",
+      "fr": "Adaptation Discipline",
+      "es": "Adaptación Disciplina"
+    },
+    "idealProfile": {
+      "financialSense": 39,
+      "creativity": 30,
+      "empathy": 72,
+      "humor": 45,
+      "ambition": 89,
+      "social": 78
+    },
+    "tags": [
+      "expanded_v2",
+      "adapting",
+      "discipline"
+    ]
+  },
+  {
+    "id": "ability_observing_instinct",
+    "name": {
+      "en": "Observing Instinct",
+      "fr": "Observation Instinct",
+      "es": "Observación Instinto"
+    },
+    "idealProfile": {
+      "social": 80,
+      "creativity": 58,
+      "chaos": 77,
+      "humor": 52,
+      "professionalism": 92,
+      "luck": 64
+    },
+    "tags": [
+      "expanded_v2",
+      "observing",
+      "instinct"
+    ]
+  },
+  {
+    "id": "ability_observing_precision",
+    "name": {
+      "en": "Observing Precision",
+      "fr": "Observation Précision",
+      "es": "Observación Precisión"
+    },
+    "idealProfile": {
+      "emotionalControl": 24,
+      "discipline": 65,
+      "humor": 33,
+      "communication": 24,
+      "risk": 36,
+      "professionalism": 77
+    },
+    "tags": [
+      "expanded_v2",
+      "observing",
+      "precision"
+    ]
+  },
+  {
+    "id": "ability_observing_speed",
+    "name": {
+      "en": "Observing Speed",
+      "fr": "Observation Vitesse",
+      "es": "Observación Velocidad"
+    },
+    "idealProfile": {
+      "communication": 54,
+      "risk": 46,
+      "creativity": 88,
+      "professionalism": 90,
+      "humor": 66,
+      "luck": 58
+    },
+    "tags": [
+      "expanded_v2",
+      "observing",
+      "speed"
+    ]
+  },
+  {
+    "id": "ability_observing_patience",
+    "name": {
+      "en": "Observing Patience",
+      "fr": "Observation Patience",
+      "es": "Observación Paciencia"
+    },
+    "idealProfile": {
+      "risk": 70,
+      "social": 29,
+      "chaos": 85,
+      "discipline": 76,
+      "communication": 35,
+      "emotionalControl": 32
+    },
+    "tags": [
+      "expanded_v2",
+      "observing",
+      "patience"
+    ]
+  },
+  {
+    "id": "ability_observing_improvisation",
+    "name": {
+      "en": "Observing Improvisation",
+      "fr": "Observation Improvisation",
+      "es": "Observación Improvisación"
+    },
+    "idealProfile": {
+      "luck": 41,
+      "social": 90,
+      "humor": 72,
+      "professionalism": 38,
+      "creativity": 25,
+      "chaos": 78
+    },
+    "tags": [
+      "expanded_v2",
+      "observing",
+      "improvisation"
+    ]
+  },
+  {
+    "id": "ability_observing_clarity",
+    "name": {
+      "en": "Observing Clarity",
+      "fr": "Observation Clarté",
+      "es": "Observación Claridad"
+    },
+    "idealProfile": {
+      "social": 80,
+      "risk": 93,
+      "emotionalControl": 70,
+      "chaos": 28,
+      "discipline": 51,
+      "communication": 92
+    },
+    "tags": [
+      "expanded_v2",
+      "observing",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ability_observing_endurance",
+    "name": {
+      "en": "Observing Endurance",
+      "fr": "Observation Endurance",
+      "es": "Observación Resistencia"
+    },
+    "idealProfile": {
+      "ambition": 60,
+      "risk": 73,
+      "intelligence": 73,
+      "humor": 66,
+      "empathy": 85,
+      "creativity": 85
+    },
+    "tags": [
+      "expanded_v2",
+      "observing",
+      "endurance"
+    ]
+  },
+  {
+    "id": "ability_observing_timing",
+    "name": {
+      "en": "Observing Timing",
+      "fr": "Observation Timing",
+      "es": "Observación Timing"
+    },
+    "idealProfile": {
+      "creativity": 27,
+      "risk": 94,
+      "communication": 94,
+      "humor": 33,
+      "luck": 29,
+      "professionalism": 41
+    },
+    "tags": [
+      "expanded_v2",
+      "observing",
+      "timing"
+    ]
+  },
+  {
+    "id": "ability_observing_intuition",
+    "name": {
+      "en": "Observing Intuition",
+      "fr": "Observation Intuition",
+      "es": "Observación Intuición"
+    },
+    "idealProfile": {
+      "intelligence": 26,
+      "risk": 94,
+      "ambition": 65,
+      "empathy": 67,
+      "creativity": 32,
+      "humor": 41
+    },
+    "tags": [
+      "expanded_v2",
+      "observing",
+      "intuition"
+    ]
+  },
+  {
+    "id": "ability_observing_discipline",
+    "name": {
+      "en": "Observing Discipline",
+      "fr": "Observation Discipline",
+      "es": "Observación Disciplina"
+    },
+    "idealProfile": {
+      "intelligence": 60,
+      "discipline": 62,
+      "financialSense": 64,
+      "social": 66,
+      "energy": 53,
+      "risk": 70
+    },
+    "tags": [
+      "expanded_v2",
+      "observing",
+      "discipline"
+    ]
+  },
+  {
+    "id": "ability_prioritizing_instinct",
+    "name": {
+      "en": "Prioritizing Instinct",
+      "fr": "Priorisation Instinct",
+      "es": "Priorización Instinto"
+    },
+    "idealProfile": {
+      "energy": 88,
+      "social": 78,
+      "ambition": 72,
+      "creativity": 94,
+      "financialSense": 84,
+      "discipline": 78
+    },
+    "tags": [
+      "expanded_v2",
+      "prioritizing",
+      "instinct"
+    ]
+  },
+  {
+    "id": "ability_prioritizing_precision",
+    "name": {
+      "en": "Prioritizing Precision",
+      "fr": "Priorisation Précision",
+      "es": "Priorización Precisión"
+    },
+    "idealProfile": {
+      "discipline": 70,
+      "social": 86,
+      "emotionalControl": 76,
+      "creativity": 34,
+      "luck": 82,
+      "chaos": 46
+    },
+    "tags": [
+      "expanded_v2",
+      "prioritizing",
+      "precision"
+    ]
+  },
+  {
+    "id": "ability_prioritizing_speed",
+    "name": {
+      "en": "Prioritizing Speed",
+      "fr": "Priorisation Vitesse",
+      "es": "Priorización Velocidad"
+    },
+    "idealProfile": {
+      "social": 69,
+      "risk": 29,
+      "emotionalControl": 41,
+      "chaos": 35,
+      "discipline": 39,
+      "communication": 81
+    },
+    "tags": [
+      "expanded_v2",
+      "prioritizing",
+      "speed"
+    ]
+  },
+  {
+    "id": "ability_prioritizing_patience",
+    "name": {
+      "en": "Prioritizing Patience",
+      "fr": "Priorisation Patience",
+      "es": "Priorización Paciencia"
+    },
+    "idealProfile": {
+      "creativity": 29,
+      "risk": 67,
+      "communication": 51,
+      "humor": 35,
+      "luck": 73,
+      "professionalism": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "prioritizing",
+      "patience"
+    ]
+  },
+  {
+    "id": "ability_prioritizing_improvisation",
+    "name": {
+      "en": "Prioritizing Improvisation",
+      "fr": "Priorisation Improvisation",
+      "es": "Priorización Improvisación"
+    },
+    "idealProfile": {
+      "energy": 74,
+      "creativity": 55,
+      "ambition": 73,
+      "social": 80,
+      "financialSense": 67,
+      "discipline": 85
+    },
+    "tags": [
+      "expanded_v2",
+      "prioritizing",
+      "improvisation"
+    ]
+  },
+  {
+    "id": "ability_prioritizing_clarity",
+    "name": {
+      "en": "Prioritizing Clarity",
+      "fr": "Priorisation Clarté",
+      "es": "Priorización Claridad"
+    },
+    "idealProfile": {
+      "luck": 76,
+      "social": 64,
+      "humor": 60,
+      "professionalism": 40,
+      "creativity": 70,
+      "chaos": 66
+    },
+    "tags": [
+      "expanded_v2",
+      "prioritizing",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ability_prioritizing_endurance",
+    "name": {
+      "en": "Prioritizing Endurance",
+      "fr": "Priorisation Endurance",
+      "es": "Priorización Resistencia"
+    },
+    "idealProfile": {
+      "financialSense": 91,
+      "social": 47,
+      "intelligence": 48,
+      "energy": 46,
+      "risk": 26,
+      "discipline": 65
+    },
+    "tags": [
+      "expanded_v2",
+      "prioritizing",
+      "endurance"
+    ]
+  },
+  {
+    "id": "ability_prioritizing_timing",
+    "name": {
+      "en": "Prioritizing Timing",
+      "fr": "Priorisation Timing",
+      "es": "Priorización Timing"
+    },
+    "idealProfile": {
+      "discipline": 77,
+      "social": 49,
+      "emotionalControl": 51,
+      "creativity": 31,
+      "luck": 89,
+      "chaos": 43
+    },
+    "tags": [
+      "expanded_v2",
+      "prioritizing",
+      "timing"
+    ]
+  },
+  {
+    "id": "ability_prioritizing_intuition",
+    "name": {
+      "en": "Prioritizing Intuition",
+      "fr": "Priorisation Intuition",
+      "es": "Priorización Intuición"
+    },
+    "idealProfile": {
+      "luck": 83,
+      "creativity": 38,
+      "discipline": 68,
+      "chaos": 45,
+      "social": 24,
+      "emotionalControl": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "prioritizing",
+      "intuition"
+    ]
+  },
+  {
+    "id": "ability_prioritizing_discipline",
+    "name": {
+      "en": "Prioritizing Discipline",
+      "fr": "Priorisation Discipline",
+      "es": "Priorización Disciplina"
+    },
+    "idealProfile": {
+      "professionalism": 28,
+      "humor": 81,
+      "social": 56,
+      "luck": 53,
+      "creativity": 40,
+      "chaos": 93
+    },
+    "tags": [
+      "expanded_v2",
+      "prioritizing",
+      "discipline"
+    ]
+  },
+  {
+    "id": "ability_debugging_instinct",
+    "name": {
+      "en": "Debugging Instinct",
+      "fr": "Débogage Instinct",
+      "es": "Depuración Instinto"
+    },
+    "idealProfile": {
+      "humor": 61,
+      "social": 39,
+      "luck": 66,
+      "professionalism": 45,
+      "creativity": 26,
+      "chaos": 73
+    },
+    "tags": [
+      "expanded_v2",
+      "debugging",
+      "instinct"
+    ]
+  },
+  {
+    "id": "ability_debugging_precision",
+    "name": {
+      "en": "Debugging Precision",
+      "fr": "Débogage Précision",
+      "es": "Depuración Precisión"
+    },
+    "idealProfile": {
+      "chaos": 54,
+      "risk": 90,
+      "discipline": 76,
+      "communication": 50,
+      "social": 60,
+      "emotionalControl": 72
+    },
+    "tags": [
+      "expanded_v2",
+      "debugging",
+      "precision"
+    ]
+  },
+  {
+    "id": "ability_debugging_speed",
+    "name": {
+      "en": "Debugging Speed",
+      "fr": "Débogage Vitesse",
+      "es": "Depuración Velocidad"
+    },
+    "idealProfile": {
+      "intelligence": 24,
+      "risk": 56,
+      "ambition": 66,
+      "empathy": 43,
+      "creativity": 30,
+      "humor": 74
+    },
+    "tags": [
+      "expanded_v2",
+      "debugging",
+      "speed"
+    ]
+  },
+  {
+    "id": "ability_debugging_patience",
+    "name": {
+      "en": "Debugging Patience",
+      "fr": "Débogage Patience",
+      "es": "Depuración Paciencia"
+    },
+    "idealProfile": {
+      "energy": 71,
+      "creativity": 42,
+      "ambition": 61,
+      "social": 77,
+      "financialSense": 54,
+      "discipline": 73
+    },
+    "tags": [
+      "expanded_v2",
+      "debugging",
+      "patience"
+    ]
+  },
+  {
+    "id": "ability_debugging_improvisation",
+    "name": {
+      "en": "Debugging Improvisation",
+      "fr": "Débogage Improvisation",
+      "es": "Depuración Improvisación"
+    },
+    "idealProfile": {
+      "luck": 51,
+      "discipline": 88,
+      "social": 83,
+      "emotionalControl": 39,
+      "creativity": 57,
+      "chaos": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "debugging",
+      "improvisation"
+    ]
+  },
+  {
+    "id": "ability_debugging_clarity",
+    "name": {
+      "en": "Debugging Clarity",
+      "fr": "Débogage Clarté",
+      "es": "Depuración Claridad"
+    },
+    "idealProfile": {
+      "communication": 34,
+      "creativity": 54,
+      "humor": 86,
+      "luck": 56,
+      "risk": 40,
+      "professionalism": 52
+    },
+    "tags": [
+      "expanded_v2",
+      "debugging",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ability_debugging_endurance",
+    "name": {
+      "en": "Debugging Endurance",
+      "fr": "Débogage Endurance",
+      "es": "Depuración Resistencia"
+    },
+    "idealProfile": {
+      "communication": 81,
+      "creativity": 73,
+      "humor": 51,
+      "luck": 93,
+      "risk": 87,
+      "professionalism": 28
+    },
+    "tags": [
+      "expanded_v2",
+      "debugging",
+      "endurance"
+    ]
+  },
+  {
+    "id": "ability_debugging_timing",
+    "name": {
+      "en": "Debugging Timing",
+      "fr": "Débogage Timing",
+      "es": "Depuración Timing"
+    },
+    "idealProfile": {
+      "humor": 52,
+      "social": 33,
+      "luck": 57,
+      "professionalism": 39,
+      "creativity": 55,
+      "chaos": 64
+    },
+    "tags": [
+      "expanded_v2",
+      "debugging",
+      "timing"
+    ]
+  },
+  {
+    "id": "ability_debugging_intuition",
+    "name": {
+      "en": "Debugging Intuition",
+      "fr": "Débogage Intuition",
+      "es": "Depuración Intuición"
+    },
+    "idealProfile": {
+      "financialSense": 48,
+      "social": 70,
+      "intelligence": 40,
+      "energy": 88,
+      "risk": 54,
+      "discipline": 88
+    },
+    "tags": [
+      "expanded_v2",
+      "debugging",
+      "intuition"
+    ]
+  },
+  {
+    "id": "ability_debugging_discipline",
+    "name": {
+      "en": "Debugging Discipline",
+      "fr": "Débogage Discipline",
+      "es": "Depuración Disciplina"
+    },
+    "idealProfile": {
+      "luck": 87,
+      "discipline": 67,
+      "social": 33,
+      "emotionalControl": 24,
+      "creativity": 93,
+      "chaos": 34
+    },
+    "tags": [
+      "expanded_v2",
+      "debugging",
+      "discipline"
+    ]
+  },
+  {
+    "id": "ability_teaching_instinct",
+    "name": {
+      "en": "Teaching Instinct",
+      "fr": "Enseignement Instinct",
+      "es": "Enseñanza Instinto"
+    },
+    "idealProfile": {
+      "empathy": 29,
+      "discipline": 67,
+      "energy": 27,
+      "risk": 35,
+      "intelligence": 79,
+      "humor": 39
+    },
+    "tags": [
+      "expanded_v2",
+      "teaching",
+      "instinct"
+    ]
+  },
+  {
+    "id": "ability_teaching_precision",
+    "name": {
+      "en": "Teaching Precision",
+      "fr": "Enseignement Précision",
+      "es": "Enseñanza Precisión"
+    },
+    "idealProfile": {
+      "creativity": 74,
+      "risk": 35,
+      "communication": 70,
+      "humor": 80,
+      "luck": 41,
+      "professionalism": 88
+    },
+    "tags": [
+      "expanded_v2",
+      "teaching",
+      "precision"
+    ]
+  },
+  {
+    "id": "ability_teaching_speed",
+    "name": {
+      "en": "Teaching Speed",
+      "fr": "Enseignement Vitesse",
+      "es": "Enseñanza Velocidad"
+    },
+    "idealProfile": {
+      "energy": 60,
+      "discipline": 59,
+      "empathy": 38,
+      "intelligence": 31,
+      "humor": 66,
+      "risk": 77
+    },
+    "tags": [
+      "expanded_v2",
+      "teaching",
+      "speed"
+    ]
+  },
+  {
+    "id": "ability_teaching_patience",
+    "name": {
+      "en": "Teaching Patience",
+      "fr": "Enseignement Patience",
+      "es": "Enseñanza Paciencia"
+    },
+    "idealProfile": {
+      "humor": 59,
+      "social": 57,
+      "luck": 49,
+      "professionalism": 63,
+      "creativity": 68,
+      "chaos": 71
+    },
+    "tags": [
+      "expanded_v2",
+      "teaching",
+      "patience"
+    ]
+  },
+  {
+    "id": "ability_teaching_improvisation",
+    "name": {
+      "en": "Teaching Improvisation",
+      "fr": "Enseignement Improvisation",
+      "es": "Enseñanza Improvisación"
+    },
+    "idealProfile": {
+      "risk": 93,
+      "discipline": 29,
+      "communication": 26,
+      "social": 55,
+      "chaos": 34,
+      "emotionalControl": 67
+    },
+    "tags": [
+      "expanded_v2",
+      "teaching",
+      "improvisation"
+    ]
+  },
+  {
+    "id": "ability_teaching_clarity",
+    "name": {
+      "en": "Teaching Clarity",
+      "fr": "Enseignement Clarté",
+      "es": "Enseñanza Claridad"
+    },
+    "idealProfile": {
+      "social": 56,
+      "humor": 75,
+      "professionalism": 82,
+      "creativity": 62,
+      "chaos": 81,
+      "luck": 29
+    },
+    "tags": [
+      "expanded_v2",
+      "teaching",
+      "clarity"
+    ]
+  },
+  {
+    "id": "ability_teaching_endurance",
+    "name": {
+      "en": "Teaching Endurance",
+      "fr": "Enseignement Endurance",
+      "es": "Enseñanza Resistencia"
+    },
+    "idealProfile": {
+      "communication": 93,
+      "creativity": 58,
+      "humor": 57,
+      "luck": 73,
+      "risk": 28,
+      "professionalism": 40
+    },
+    "tags": [
+      "expanded_v2",
+      "teaching",
+      "endurance"
+    ]
+  },
+  {
+    "id": "ability_teaching_timing",
+    "name": {
+      "en": "Teaching Timing",
+      "fr": "Enseignement Timing",
+      "es": "Enseñanza Timing"
+    },
+    "idealProfile": {
+      "social": 87,
+      "risk": 51,
+      "emotionalControl": 55,
+      "chaos": 57,
+      "discipline": 37,
+      "communication": 28
+    },
+    "tags": [
+      "expanded_v2",
+      "teaching",
+      "timing"
+    ]
+  },
+  {
+    "id": "ability_teaching_intuition",
+    "name": {
+      "en": "Teaching Intuition",
+      "fr": "Enseignement Intuition",
+      "es": "Enseñanza Intuición"
+    },
+    "idealProfile": {
+      "emotionalControl": 59,
+      "discipline": 79,
+      "humor": 47,
+      "communication": 31,
+      "risk": 71,
+      "professionalism": 91
+    },
+    "tags": [
+      "expanded_v2",
+      "teaching",
+      "intuition"
+    ]
+  },
+  {
+    "id": "ability_teaching_discipline",
+    "name": {
+      "en": "Teaching Discipline",
+      "fr": "Enseignement Discipline",
+      "es": "Enseñanza Disciplina"
+    },
+    "idealProfile": {
+      "luck": 64,
+      "creativity": 35,
+      "discipline": 77,
+      "chaos": 36,
+      "social": 76,
+      "emotionalControl": 47
+    },
+    "tags": [
+      "expanded_v2",
+      "teaching",
+      "discipline"
+    ]
+  }
 ]

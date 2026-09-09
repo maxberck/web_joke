@@ -1,63 +1,4416 @@
 {
   "careers": {
-    "career_software_developer": {"mean":18.574387749886633,"std":3.6443473650097555},
-    "career_architect": {"mean":15.837982597130779,"std":3.5157377963938896},
-    "career_lawyer": {"mean":18.039260855821954,"std":3.480493036282865},
-    "career_journalist": {"mean":10.82608150499682,"std":3.411655206372915},
-    "career_engineer": {"mean":22.959694214437352,"std":4.566768395652632},
-    "career_teacher": {"mean":14.683642229165244,"std":4.280657763227409},
-    "career_doctor": {"mean":20.6211235623214,"std":4.370039247452665},
-    "career_accountant": {"mean":29.905278001380307,"std":5.538402085452665},
-    "career_designer": {"mean":13.082896063912202,"std":4.057785181705932},
-    "career_mechanic": {"mean":12.843556665047409,"std":4.207161417359039},
-    "career_professional_overthinker": {"mean":22.638805635173544,"std":5.341613558919637},
-    "career_internet_detective": {"mean":22.824182465915275,"std":4.285643331239886},
-    "career_meeting_survivor": {"mean":19.25378044855165,"std":4.042671695669178},
-    "career_family_it_support": {"mean":20.88553850748725,"std":5.639379864157283},
-    "career_human_gps": {"mean":16.48838409636223,"std":3.7441460829971236},
-    "career_spreadsheet_therapist": {"mean":26.217484970145087,"std":4.521254454267475},
-    "career_last_minute_problem_solver": {"mean":21.078334802602384,"std":5.0556556399140415},
-    "career_group_chat_manager": {"mean":12.29947589297398,"std":4.120220595811922},
-    "career_backseat_driver": {"mean":24.687929251198614,"std":4.090935013883253},
-    "career_workplace_firefighter": {"mean":20.18710165427157,"std":4.641671069827288},
-    "career_serial_plan_b_creator": {"mean":20.82577903308713,"std":4.775751633516238},
-    "career_unofficial_tech_support": {"mean":22.906472856645664,"std":5.755305181151066},
-    "career_chief_snack_officer": {"mean":27.944417196227093,"std":4.587115821867465},
-    "career_senior_queue_strategist": {"mean":31.63625661382707,"std":4.96009349348362},
-    "career_professional_door_opener": {"mean":30.265784771964206,"std":3.7741478690110744},
-    "career_freelance_button_presser": {"mean":35.96693882011313,"std":4.706060763551581},
-    "career_certified_problem_creator": {"mean":35.837327956343415,"std":5.215025690206574},
-    "career_chief_excuse_architect": {"mean":29.105772871143074,"std":5.312580406300585},
-    "career_professional_tab_opener": {"mean":32.63686920852576,"std":4.931456606887213},
-    "career_executive_nap_consultant": {"mean":35.490755569841184,"std":4.283203133381212},
-    "career_wifi_whisperer": {"mean":30.483847779599373,"std":4.491128649932729},
-    "career_fridge_inspector": {"mean":32.6740053024819,"std":4.813210726051562},
-    "career_remote_control_manager": {"mean":37.95314665828641,"std":4.056162069568913},
-    "career_professional_sock_finder": {"mean":29.786758966363365,"std":4.610269219881987},
-    "career_professional_meeting_escape_artist": {"mean":31.59,"std":8.13}
+    "career_software_developer": {
+      "mean": 18.4595284436,
+      "std": 3.846001253
+    },
+    "career_architect": {
+      "mean": 14.6417473926,
+      "std": 4.0318597806
+    },
+    "career_lawyer": {
+      "mean": 22.2944717622,
+      "std": 5.0216002273
+    },
+    "career_journalist": {
+      "mean": 13.8287709214,
+      "std": 4.6089420482
+    },
+    "career_engineer": {
+      "mean": 24.689475596,
+      "std": 5.2383729146
+    },
+    "career_teacher": {
+      "mean": 12.743101959,
+      "std": 3.6938971917
+    },
+    "career_doctor": {
+      "mean": 19.563364287,
+      "std": 4.8819743727
+    },
+    "career_accountant": {
+      "mean": 34.6958939269,
+      "std": 6.8713084353
+    },
+    "career_designer": {
+      "mean": 11.8588280668,
+      "std": 3.9122956027
+    },
+    "career_mechanic": {
+      "mean": 13.9555657899,
+      "std": 4.5070348884
+    },
+    "career_professional_overthinker": {
+      "mean": 23.8321215579,
+      "std": 4.8671472186
+    },
+    "career_internet_detective": {
+      "mean": 28.384486807,
+      "std": 5.0723068423
+    },
+    "career_meeting_survivor": {
+      "mean": 21.2091218864,
+      "std": 3.5021131915
+    },
+    "career_family_it_support": {
+      "mean": 21.0842064367,
+      "std": 5.5052617499
+    },
+    "career_human_gps": {
+      "mean": 17.806331523,
+      "std": 3.8328957322
+    },
+    "career_spreadsheet_therapist": {
+      "mean": 29.1070700533,
+      "std": 5.0107010402
+    },
+    "career_last_minute_problem_solver": {
+      "mean": 18.7321930584,
+      "std": 4.9846575833
+    },
+    "career_group_chat_manager": {
+      "mean": 12.0593071463,
+      "std": 4.3608767641
+    },
+    "career_backseat_driver": {
+      "mean": 26.3886321444,
+      "std": 3.4469803521
+    },
+    "career_workplace_firefighter": {
+      "mean": 19.8489825949,
+      "std": 4.7862989822
+    },
+    "career_serial_plan_b_creator": {
+      "mean": 23.4849895531,
+      "std": 5.6680618988
+    },
+    "career_unofficial_tech_support": {
+      "mean": 23.4953825052,
+      "std": 5.5362916229
+    },
+    "career_chief_snack_officer": {
+      "mean": 27.5580089467,
+      "std": 3.9964382761
+    },
+    "career_senior_queue_strategist": {
+      "mean": 34.6064228556,
+      "std": 6.5224913294
+    },
+    "career_professional_door_opener": {
+      "mean": 31.4630991351,
+      "std": 3.42085966
+    },
+    "career_freelance_button_presser": {
+      "mean": 33.7689435563,
+      "std": 3.8956482252
+    },
+    "career_certified_problem_creator": {
+      "mean": 36.5963997525,
+      "std": 4.64983582
+    },
+    "career_chief_excuse_architect": {
+      "mean": 26.5368837748,
+      "std": 5.161707036
+    },
+    "career_professional_tab_opener": {
+      "mean": 33.4522883721,
+      "std": 4.5396077661
+    },
+    "career_executive_nap_consultant": {
+      "mean": 34.6771095693,
+      "std": 4.033631108
+    },
+    "career_wifi_whisperer": {
+      "mean": 30.2055904171,
+      "std": 4.1526853427
+    },
+    "career_fridge_inspector": {
+      "mean": 33.2103804987,
+      "std": 3.6785952662
+    },
+    "career_remote_control_manager": {
+      "mean": 35.9442364493,
+      "std": 3.5072305426
+    },
+    "career_professional_sock_finder": {
+      "mean": 29.8354025467,
+      "std": 4.8052528418
+    },
+    "career_professional_meeting_escape_artist": {
+      "mean": 13.9480027059,
+      "std": 4.5608565551
+    },
+    "career_meme_architect": {
+      "mean": 25.0561725611,
+      "std": 4.7447053216
+    },
+    "career_emergency_spreadsheet": {
+      "mean": 17.3204882271,
+      "std": 5.1712338542
+    },
+    "career_meeting_escape_consultant": {
+      "mean": 12.6269177615,
+      "std": 3.1638236116
+    },
+    "career_queue_logistics": {
+      "mean": 20.5807085581,
+      "std": 6.1220852041
+    },
+    "career_notification_triage": {
+      "mean": 19.3398483638,
+      "std": 5.4846510615
+    },
+    "career_deadline_interpreter": {
+      "mean": 13.581049422,
+      "std": 4.1408869336
+    },
+    "career_password_recovery": {
+      "mean": 14.2823241907,
+      "std": 3.6798662629
+    },
+    "career_slide_deck_rescue": {
+      "mean": 16.4719874095,
+      "std": 4.4508905606
+    },
+    "career_excel_whisperer": {
+      "mean": 17.9278269765,
+      "std": 3.7483430875
+    },
+    "career_office_snack_economist": {
+      "mean": 12.7009408473,
+      "std": 2.8032826458
+    },
+    "career_calendar_negotiator": {
+      "mean": 16.0285315992,
+      "std": 4.3912133599
+    },
+    "career_bug_reproducer": {
+      "mean": 18.331944842,
+      "std": 5.1839986795
+    },
+    "career_meeting_minutes_archaeologist": {
+      "mean": 17.3616898649,
+      "std": 5.0480821145
+    },
+    "career_queue_psychologist": {
+      "mean": 12.8827861017,
+      "std": 3.9675839319
+    },
+    "career_tab_closer": {
+      "mean": 28.1056175148,
+      "std": 6.0694652243
+    },
+    "career_data_analyst": {
+      "mean": 30.2636724332,
+      "std": 5.225567356
+    },
+    "career_data_coordinator": {
+      "mean": 19.1850731751,
+      "std": 3.9407504275
+    },
+    "career_data_specialist": {
+      "mean": 27.5548931383,
+      "std": 5.202048392
+    },
+    "career_data_consultant": {
+      "mean": 21.8282003378,
+      "std": 3.4825900342
+    },
+    "career_data_designer": {
+      "mean": 24.0443829512,
+      "std": 4.5405122869
+    },
+    "career_data_manager": {
+      "mean": 29.8381025243,
+      "std": 4.2828710481
+    },
+    "career_data_researcher": {
+      "mean": 17.7406408265,
+      "std": 4.1469759744
+    },
+    "career_data_strategist": {
+      "mean": 17.4530374814,
+      "std": 3.6055317694
+    },
+    "career_data_technician": {
+      "mean": 21.8844010246,
+      "std": 3.790879642
+    },
+    "career_data_advisor": {
+      "mean": 25.5791982854,
+      "std": 3.4075399352
+    },
+    "career_data_producer": {
+      "mean": 18.6072559892,
+      "std": 3.6471401426
+    },
+    "career_data_facilitator": {
+      "mean": 14.7198155777,
+      "std": 5.1134355077
+    },
+    "career_security_analyst": {
+      "mean": 20.5186624687,
+      "std": 3.7003131166
+    },
+    "career_security_coordinator": {
+      "mean": 18.8226264698,
+      "std": 3.5836749453
+    },
+    "career_security_specialist": {
+      "mean": 21.6829522883,
+      "std": 4.6493698564
+    },
+    "career_security_consultant": {
+      "mean": 20.4846940511,
+      "std": 4.0226586937
+    },
+    "career_security_designer": {
+      "mean": 20.2967841466,
+      "std": 2.7516425351
+    },
+    "career_security_manager": {
+      "mean": 15.6957658193,
+      "std": 4.2699842325
+    },
+    "career_security_researcher": {
+      "mean": 26.6452398304,
+      "std": 3.6102591384
+    },
+    "career_security_strategist": {
+      "mean": 32.8495200869,
+      "std": 4.2373006418
+    },
+    "career_security_technician": {
+      "mean": 22.1541905227,
+      "std": 3.8913278302
+    },
+    "career_security_advisor": {
+      "mean": 16.7155433196,
+      "std": 4.6717047065
+    },
+    "career_security_producer": {
+      "mean": 26.1133912174,
+      "std": 2.8931791841
+    },
+    "career_security_facilitator": {
+      "mean": 21.3151129513,
+      "std": 4.2299952567
+    },
+    "career_automation_analyst": {
+      "mean": 26.2390064621,
+      "std": 3.5512213694
+    },
+    "career_automation_coordinator": {
+      "mean": 16.9729303595,
+      "std": 3.9546957334
+    },
+    "career_automation_specialist": {
+      "mean": 15.4212897853,
+      "std": 3.7588510687
+    },
+    "career_automation_consultant": {
+      "mean": 21.2190089987,
+      "std": 3.3539261241
+    },
+    "career_automation_designer": {
+      "mean": 29.2285713068,
+      "std": 4.1044560375
+    },
+    "career_automation_manager": {
+      "mean": 19.8038123546,
+      "std": 5.0299982992
+    },
+    "career_automation_researcher": {
+      "mean": 26.3879639904,
+      "std": 3.2813431867
+    },
+    "career_automation_strategist": {
+      "mean": 22.9316421355,
+      "std": 3.9240173678
+    },
+    "career_automation_technician": {
+      "mean": 29.04307107,
+      "std": 3.3940000227
+    },
+    "career_automation_advisor": {
+      "mean": 21.7893944401,
+      "std": 4.2367011459
+    },
+    "career_automation_producer": {
+      "mean": 22.2983263209,
+      "std": 4.5599864715
+    },
+    "career_automation_facilitator": {
+      "mean": 22.1655717244,
+      "std": 3.4857749204
+    },
+    "career_research_analyst": {
+      "mean": 28.1506215596,
+      "std": 3.4375178748
+    },
+    "career_research_coordinator": {
+      "mean": 18.6632380073,
+      "std": 4.70037237
+    },
+    "career_research_specialist": {
+      "mean": 32.8480528927,
+      "std": 3.1722133953
+    },
+    "career_research_consultant": {
+      "mean": 21.9885793879,
+      "std": 3.9635202998
+    },
+    "career_research_designer": {
+      "mean": 15.3585300279,
+      "std": 3.5956244772
+    },
+    "career_research_manager": {
+      "mean": 22.5877469712,
+      "std": 4.6339569229
+    },
+    "career_research_researcher": {
+      "mean": 31.3810502153,
+      "std": 3.3532214438
+    },
+    "career_research_strategist": {
+      "mean": 24.6561812544,
+      "std": 4.2469321418
+    },
+    "career_research_technician": {
+      "mean": 11.5209896995,
+      "std": 3.6994544207
+    },
+    "career_research_advisor": {
+      "mean": 19.8772054484,
+      "std": 3.8005552527
+    },
+    "career_research_producer": {
+      "mean": 27.570027051,
+      "std": 3.7229564962
+    },
+    "career_research_facilitator": {
+      "mean": 19.2594378025,
+      "std": 3.8437376165
+    },
+    "career_operations_analyst": {
+      "mean": 29.5201445874,
+      "std": 3.3604915622
+    },
+    "career_operations_coordinator": {
+      "mean": 19.5269807541,
+      "std": 4.7318748182
+    },
+    "career_operations_specialist": {
+      "mean": 25.4760143958,
+      "std": 6.0315045531
+    },
+    "career_operations_consultant": {
+      "mean": 24.797217725,
+      "std": 4.2015457195
+    },
+    "career_operations_designer": {
+      "mean": 28.1626892483,
+      "std": 3.8346756883
+    },
+    "career_operations_manager": {
+      "mean": 18.5583954436,
+      "std": 4.3785608623
+    },
+    "career_operations_researcher": {
+      "mean": 12.8361420676,
+      "std": 2.6665883611
+    },
+    "career_operations_strategist": {
+      "mean": 13.4588800198,
+      "std": 4.1076001038
+    },
+    "career_operations_technician": {
+      "mean": 24.4108186207,
+      "std": 3.4042469943
+    },
+    "career_operations_advisor": {
+      "mean": 26.1580276335,
+      "std": 4.7819358343
+    },
+    "career_operations_producer": {
+      "mean": 16.1420689872,
+      "std": 3.9439048519
+    },
+    "career_operations_facilitator": {
+      "mean": 22.1922833371,
+      "std": 4.0358592998
+    },
+    "career_product_analyst": {
+      "mean": 18.1322947782,
+      "std": 2.5533427911
+    },
+    "career_product_coordinator": {
+      "mean": 27.1427056416,
+      "std": 3.7302096169
+    },
+    "career_product_specialist": {
+      "mean": 28.9679571303,
+      "std": 4.1354060298
+    },
+    "career_product_consultant": {
+      "mean": 22.249712123,
+      "std": 5.6425420198
+    },
+    "career_product_designer": {
+      "mean": 27.7307505547,
+      "std": 3.1889486783
+    },
+    "career_product_manager": {
+      "mean": 24.5796373772,
+      "std": 4.7110893719
+    },
+    "career_product_researcher": {
+      "mean": 18.3751638463,
+      "std": 3.2764269597
+    },
+    "career_product_strategist": {
+      "mean": 28.8453079226,
+      "std": 3.6843720657
+    },
+    "career_product_technician": {
+      "mean": 23.9470196963,
+      "std": 5.0678069877
+    },
+    "career_product_advisor": {
+      "mean": 18.709015717,
+      "std": 4.2749558559
+    },
+    "career_product_producer": {
+      "mean": 25.0350827486,
+      "std": 3.9672326759
+    },
+    "career_product_facilitator": {
+      "mean": 24.6199092659,
+      "std": 3.5734000252
+    },
+    "career_community_analyst": {
+      "mean": 29.4383165208,
+      "std": 4.0712332802
+    },
+    "career_community_coordinator": {
+      "mean": 24.1395675177,
+      "std": 3.565383578
+    },
+    "career_community_specialist": {
+      "mean": 24.820146157,
+      "std": 4.4677453012
+    },
+    "career_community_consultant": {
+      "mean": 20.4583571352,
+      "std": 4.18668803
+    },
+    "career_community_designer": {
+      "mean": 19.376326296,
+      "std": 2.8217652759
+    },
+    "career_community_manager": {
+      "mean": 23.0969579575,
+      "std": 3.4075557869
+    },
+    "career_community_researcher": {
+      "mean": 28.5186120551,
+      "std": 3.9259877465
+    },
+    "career_community_strategist": {
+      "mean": 24.0671231839,
+      "std": 3.5918785686
+    },
+    "career_community_technician": {
+      "mean": 22.283253377,
+      "std": 4.7945582629
+    },
+    "career_community_advisor": {
+      "mean": 22.7694540591,
+      "std": 3.3397123402
+    },
+    "career_community_producer": {
+      "mean": 30.5065452368,
+      "std": 4.0265056457
+    },
+    "career_community_facilitator": {
+      "mean": 32.47057153,
+      "std": 3.1809408218
+    },
+    "career_experience_analyst": {
+      "mean": 26.6937605393,
+      "std": 4.4447075196
+    },
+    "career_experience_coordinator": {
+      "mean": 25.6704198349,
+      "std": 3.3712587414
+    },
+    "career_experience_specialist": {
+      "mean": 13.8330585192,
+      "std": 4.5909216944
+    },
+    "career_experience_consultant": {
+      "mean": 28.6429375653,
+      "std": 6.7006930707
+    },
+    "career_experience_designer": {
+      "mean": 18.7077141013,
+      "std": 4.7289829531
+    },
+    "career_experience_manager": {
+      "mean": 23.350307567,
+      "std": 2.8389052805
+    },
+    "career_experience_researcher": {
+      "mean": 25.8021421622,
+      "std": 4.1435857869
+    },
+    "career_experience_strategist": {
+      "mean": 29.0695235863,
+      "std": 5.6391008562
+    },
+    "career_experience_technician": {
+      "mean": 31.5555630287,
+      "std": 4.254480612
+    },
+    "career_experience_advisor": {
+      "mean": 16.6856422743,
+      "std": 2.3209097123
+    },
+    "career_experience_producer": {
+      "mean": 29.14669933,
+      "std": 4.5108289887
+    },
+    "career_experience_facilitator": {
+      "mean": 23.5255541312,
+      "std": 2.6877573343
+    },
+    "career_systems_analyst": {
+      "mean": 26.5335047687,
+      "std": 6.3882862612
+    },
+    "career_systems_coordinator": {
+      "mean": 21.8880697007,
+      "std": 3.9089753276
+    },
+    "career_systems_specialist": {
+      "mean": 32.0178767384,
+      "std": 4.7523821218
+    },
+    "career_systems_consultant": {
+      "mean": 14.9833965378,
+      "std": 3.3584869893
+    },
+    "career_systems_designer": {
+      "mean": 24.9364826003,
+      "std": 4.0300279807
+    },
+    "career_systems_manager": {
+      "mean": 25.1344375272,
+      "std": 3.5598076062
+    },
+    "career_systems_researcher": {
+      "mean": 30.692696492,
+      "std": 5.8439705722
+    },
+    "career_systems_strategist": {
+      "mean": 17.0908620314,
+      "std": 5.0120875583
+    },
+    "career_systems_technician": {
+      "mean": 23.3669670761,
+      "std": 4.7143288313
+    },
+    "career_systems_advisor": {
+      "mean": 28.1081798243,
+      "std": 3.4626926372
+    },
+    "career_systems_producer": {
+      "mean": 30.6971879516,
+      "std": 5.7042336788
+    },
+    "career_systems_facilitator": {
+      "mean": 24.9102903193,
+      "std": 3.1000155175
+    },
+    "career_content_analyst": {
+      "mean": 19.9394140661,
+      "std": 3.8500865837
+    },
+    "career_content_coordinator": {
+      "mean": 27.936725338,
+      "std": 5.0796004493
+    },
+    "career_content_specialist": {
+      "mean": 21.0194041039,
+      "std": 4.0281039107
+    },
+    "career_content_consultant": {
+      "mean": 34.1768316236,
+      "std": 4.2565091537
+    },
+    "career_content_designer": {
+      "mean": 25.2748823626,
+      "std": 3.4652592334
+    },
+    "career_content_manager": {
+      "mean": 17.0106120618,
+      "std": 3.9252389246
+    },
+    "career_content_researcher": {
+      "mean": 24.7507018982,
+      "std": 3.1847169753
+    },
+    "career_content_strategist": {
+      "mean": 26.3690379497,
+      "std": 3.128893991
+    },
+    "career_content_technician": {
+      "mean": 19.8369565419,
+      "std": 3.9692272745
+    },
+    "career_content_advisor": {
+      "mean": 24.1854001692,
+      "std": 4.6231578661
+    },
+    "career_content_producer": {
+      "mean": 21.07339213,
+      "std": 3.6418608985
+    },
+    "career_content_facilitator": {
+      "mean": 29.7806419805,
+      "std": 4.4178199636
+    },
+    "career_logistics_analyst": {
+      "mean": 24.2244614639,
+      "std": 3.4648588407
+    },
+    "career_logistics_coordinator": {
+      "mean": 26.5117207445,
+      "std": 3.2278738876
+    },
+    "career_logistics_specialist": {
+      "mean": 27.5818701682,
+      "std": 3.9653988479
+    },
+    "career_logistics_consultant": {
+      "mean": 17.9696674605,
+      "std": 3.2150015072
+    },
+    "career_logistics_designer": {
+      "mean": 26.1742147729,
+      "std": 4.1240782029
+    },
+    "career_logistics_manager": {
+      "mean": 17.1313332431,
+      "std": 4.571404742
+    },
+    "career_logistics_researcher": {
+      "mean": 16.5390174092,
+      "std": 3.2217976044
+    },
+    "career_logistics_strategist": {
+      "mean": 24.8648394378,
+      "std": 3.7526323734
+    },
+    "career_logistics_technician": {
+      "mean": 23.5264719388,
+      "std": 3.0245558537
+    },
+    "career_logistics_advisor": {
+      "mean": 34.0227058432,
+      "std": 3.4853690059
+    },
+    "career_logistics_producer": {
+      "mean": 19.6032600421,
+      "std": 3.8380623219
+    },
+    "career_logistics_facilitator": {
+      "mean": 27.41990781,
+      "std": 3.3816256978
+    },
+    "career_sustainability_analyst": {
+      "mean": 27.2766501174,
+      "std": 3.4148047833
+    },
+    "career_sustainability_coordinator": {
+      "mean": 21.1581705673,
+      "std": 3.2127477716
+    },
+    "career_sustainability_specialist": {
+      "mean": 18.8717507581,
+      "std": 3.0231016069
+    },
+    "career_sustainability_consultant": {
+      "mean": 20.1102928849,
+      "std": 3.2435371767
+    },
+    "career_sustainability_designer": {
+      "mean": 26.7244831459,
+      "std": 4.0384832863
+    },
+    "career_sustainability_manager": {
+      "mean": 24.5497497615,
+      "std": 3.3254884323
+    },
+    "career_sustainability_researcher": {
+      "mean": 32.6785015474,
+      "std": 4.5743618809
+    },
+    "career_sustainability_strategist": {
+      "mean": 24.5974995941,
+      "std": 3.2275543456
+    },
+    "career_sustainability_technician": {
+      "mean": 30.1076125044,
+      "std": 4.7349385021
+    },
+    "career_sustainability_advisor": {
+      "mean": 17.2405035182,
+      "std": 3.2914786607
+    },
+    "career_sustainability_producer": {
+      "mean": 30.1071772953,
+      "std": 3.1551057001
+    },
+    "career_sustainability_facilitator": {
+      "mean": 20.3550009838,
+      "std": 4.0769618935
+    },
+    "career_quality_analyst": {
+      "mean": 23.8554575235,
+      "std": 3.8494743813
+    },
+    "career_quality_coordinator": {
+      "mean": 21.7378039938,
+      "std": 3.9567580408
+    },
+    "career_quality_specialist": {
+      "mean": 28.4254193283,
+      "std": 3.550631307
+    },
+    "career_quality_consultant": {
+      "mean": 24.3588785076,
+      "std": 3.2996451101
+    },
+    "career_quality_designer": {
+      "mean": 18.3280880671,
+      "std": 3.9796764278
+    },
+    "career_quality_manager": {
+      "mean": 24.9446060854,
+      "std": 5.1802059719
+    }
   },
   "classes": {
-    "class_strategist":{"mean":25.398073945183043,"std":5.069802252061089},"class_improviser":{"mean":22.85327566369806,"std":5.777074643713021},"class_people_person":{"mean":17.838569404166837,"std":5.625214213347972},"class_highly_functional_disaster":{"mean":26.170700263406765,"std":5.8965924670878955},"class_opportunist":{"mean":20.11975500445148,"std":4.506194143469571},"class_accidental_genius":{"mean":23.879274443568235,"std":4.131801913057754},"class_suspiciously_competent":{"mean":20.413004207269005,"std":4.783447944112125},"class_professional_menace":{"mean":15.440774109827982,"std":5.332120112045103},"class_last_minute_legend":{"mean":22.318563296287916,"std":4.897893464500219},"class_quiet_architect":{"mean":20.281716715802464,"std":4.496492751018912},"class_wildcard":{"mean":12.458899168374865,"std":2.5100003012483745},"class_diplomat":{"mean":17.310964999637523,"std":5.956546044591139},"class_human_group_chat":{"mean":13.280926688488485,"std":3.7844809809266233},
-    "class_meeting_ghost":{"mean":35.36,"std":10.92}
-  },
-  "animals": {
-    "animal_raccoon":{"mean":25.620598401775357,"std":5.568885214738246},"animal_cat":{"mean":20.8653609067112,"std":5.579378928940139},"animal_golden_retriever":{"mean":27.793005983176013,"std":4.899173748616273},"animal_crow":{"mean":19.171422513254303,"std":4.263692509821026},"animal_owl":{"mean":23.351345738361964,"std":4.595280427513718},"animal_fox":{"mean":13.855557947751072,"std":3.666937953731893},"animal_turtle":{"mean":30.716263812472974,"std":5.394852398586652},"animal_octopus":{"mean":28.32896684261368,"std":4.551275663306659},"animal_meerkat":{"mean":15.75839780629022,"std":4.399011659306448},
-    "animal_pigeon":{"mean":32.43,"std":9.70}
+    "class_strategist": {
+      "mean": 27.8728668286,
+      "std": 5.8261599495
+    },
+    "class_improviser": {
+      "mean": 19.9531850604,
+      "std": 5.9192251134
+    },
+    "class_people_person": {
+      "mean": 14.5034114551,
+      "std": 5.5334795712
+    },
+    "class_highly_functional_disaster": {
+      "mean": 23.6825524015,
+      "std": 5.9709627992
+    },
+    "class_opportunist": {
+      "mean": 22.5748199069,
+      "std": 4.6855934704
+    },
+    "class_accidental_genius": {
+      "mean": 21.2199007232,
+      "std": 3.945785511
+    },
+    "class_suspiciously_competent": {
+      "mean": 21.8434724735,
+      "std": 5.8039633269
+    },
+    "class_professional_menace": {
+      "mean": 17.9728244711,
+      "std": 4.7306189374
+    },
+    "class_last_minute_legend": {
+      "mean": 19.1223983193,
+      "std": 5.2002198527
+    },
+    "class_quiet_architect": {
+      "mean": 24.0571624029,
+      "std": 5.1357620777
+    },
+    "class_wildcard": {
+      "mean": 12.5062351465,
+      "std": 4.2820838923
+    },
+    "class_diplomat": {
+      "mean": 13.270626912,
+      "std": 4.0765360738
+    },
+    "class_human_group_chat": {
+      "mean": 14.5809247203,
+      "std": 4.3491216699
+    },
+    "class_meeting_ghost": {
+      "mean": 32.6100367453,
+      "std": 5.2206415765
+    },
+    "class_confident_wrong": {
+      "mean": 17.011665912,
+      "std": 4.5942541176
+    },
+    "class_backup_backup_plan": {
+      "mean": 27.5276926627,
+      "std": 7.677003365
+    },
+    "class_accidental_solution": {
+      "mean": 17.0423281725,
+      "std": 3.1902536674
+    },
+    "class_unsupervised_plan": {
+      "mean": 22.8076605733,
+      "std": 6.7572638822
+    },
+    "class_polite_panic": {
+      "mean": 18.37869177,
+      "std": 3.5608938237
+    },
+    "class_low_battery_hero": {
+      "mean": 19.5783593131,
+      "std": 3.8597640609
+    },
+    "class_calendar_wizard": {
+      "mean": 25.2586779223,
+      "std": 6.053414377
+    },
+    "class_five_minute_expert": {
+      "mean": 11.8019778141,
+      "std": 3.3833574559
+    },
+    "class_silent_fixer": {
+      "mean": 20.4678146874,
+      "std": 4.3450866414
+    },
+    "class_group_chat_medic": {
+      "mean": 13.8059845023,
+      "std": 4.5377580281
+    },
+    "class_chaos_accountant": {
+      "mean": 18.2097690337,
+      "std": 3.1145830766
+    },
+    "class_last_tab_alive": {
+      "mean": 18.3788647564,
+      "std": 6.1417181853
+    },
+    "class_social_battery_guardian": {
+      "mean": 19.7025996146,
+      "std": 4.3257804415
+    },
+    "class_overprepared_minimalist": {
+      "mean": 31.1813392091,
+      "std": 7.4830264683
+    },
+    "class_conflict_buffer": {
+      "mean": 17.3766646102,
+      "std": 4.7101472402
+    },
+    "class_deadline_sprinter": {
+      "mean": 17.3753919065,
+      "std": 4.67168065
+    },
+    "class_chaotic_tactician": {
+      "mean": 25.6427245339,
+      "std": 3.5921333229
+    },
+    "class_chaotic_explorer": {
+      "mean": 26.3050739842,
+      "std": 4.6489148578
+    },
+    "class_chaotic_fixer": {
+      "mean": 20.3656024847,
+      "std": 4.8895281403
+    },
+    "class_chaotic_analyst": {
+      "mean": 16.180044542,
+      "std": 3.2579628531
+    },
+    "class_chaotic_catalyst": {
+      "mean": 30.3047529113,
+      "std": 3.2968258951
+    },
+    "class_chaotic_guardian": {
+      "mean": 29.7461773261,
+      "std": 4.3833823868
+    },
+    "class_chaotic_broker": {
+      "mean": 22.34544752,
+      "std": 3.2428148985
+    },
+    "class_chaotic_builder": {
+      "mean": 23.2729573893,
+      "std": 3.7593790738
+    },
+    "class_chaotic_scout": {
+      "mean": 25.7326759897,
+      "std": 4.898907675
+    },
+    "class_chaotic_operator": {
+      "mean": 28.924886627,
+      "std": 4.5225037624
+    },
+    "class_methodical_tactician": {
+      "mean": 28.6784700017,
+      "std": 4.8064791373
+    },
+    "class_methodical_explorer": {
+      "mean": 23.9477118462,
+      "std": 3.4884027861
+    },
+    "class_methodical_fixer": {
+      "mean": 19.1518232315,
+      "std": 3.7612976809
+    },
+    "class_methodical_analyst": {
+      "mean": 25.726789001,
+      "std": 4.6929149822
+    },
+    "class_methodical_catalyst": {
+      "mean": 18.5629614722,
+      "std": 4.0267250607
+    },
+    "class_methodical_guardian": {
+      "mean": 20.3165322872,
+      "std": 3.3275425101
+    },
+    "class_methodical_broker": {
+      "mean": 31.2045059931,
+      "std": 4.3088040559
+    },
+    "class_methodical_builder": {
+      "mean": 28.4509099907,
+      "std": 4.0798979602
+    },
+    "class_methodical_scout": {
+      "mean": 17.1396621004,
+      "std": 3.2938695206
+    },
+    "class_methodical_operator": {
+      "mean": 32.0913237516,
+      "std": 4.2538848758
+    },
+    "class_relentless_tactician": {
+      "mean": 30.2953558419,
+      "std": 4.2898183038
+    },
+    "class_relentless_explorer": {
+      "mean": 21.5356264725,
+      "std": 3.807848794
+    },
+    "class_relentless_fixer": {
+      "mean": 27.5387521083,
+      "std": 5.1230214702
+    },
+    "class_relentless_analyst": {
+      "mean": 28.997774317,
+      "std": 3.5474354108
+    },
+    "class_relentless_catalyst": {
+      "mean": 21.0732884943,
+      "std": 3.6934101725
+    },
+    "class_relentless_guardian": {
+      "mean": 25.2650283421,
+      "std": 3.9777845014
+    },
+    "class_relentless_broker": {
+      "mean": 26.0484275536,
+      "std": 4.4802331024
+    },
+    "class_relentless_builder": {
+      "mean": 29.1592006635,
+      "std": 5.409682061
+    },
+    "class_relentless_scout": {
+      "mean": 17.9493502211,
+      "std": 3.5083144063
+    },
+    "class_relentless_operator": {
+      "mean": 10.8499719974,
+      "std": 2.8802999244
+    },
+    "class_diplomatic_tactician": {
+      "mean": 16.1367584469,
+      "std": 3.7023573786
+    },
+    "class_diplomatic_explorer": {
+      "mean": 29.7314647419,
+      "std": 4.38773339
+    },
+    "class_diplomatic_fixer": {
+      "mean": 31.1660650869,
+      "std": 3.4056933211
+    },
+    "class_diplomatic_analyst": {
+      "mean": 14.2755563777,
+      "std": 4.0718628136
+    },
+    "class_diplomatic_catalyst": {
+      "mean": 22.2620431093,
+      "std": 3.5024215335
+    },
+    "class_diplomatic_guardian": {
+      "mean": 18.8270978016,
+      "std": 5.3209696833
+    },
+    "class_diplomatic_broker": {
+      "mean": 15.4648089365,
+      "std": 3.9947704847
+    },
+    "class_diplomatic_builder": {
+      "mean": 22.6106358001,
+      "std": 4.7350032083
+    },
+    "class_diplomatic_scout": {
+      "mean": 20.4334720272,
+      "std": 3.7514776085
+    },
+    "class_diplomatic_operator": {
+      "mean": 30.1527835982,
+      "std": 3.1703913449
+    },
+    "class_curious_tactician": {
+      "mean": 31.5115370557,
+      "std": 3.2231639299
+    },
+    "class_curious_explorer": {
+      "mean": 30.8225301979,
+      "std": 4.6091313933
+    },
+    "class_curious_fixer": {
+      "mean": 24.7060371383,
+      "std": 3.6677475725
+    },
+    "class_curious_analyst": {
+      "mean": 28.7203594575,
+      "std": 3.7420082796
+    },
+    "class_curious_catalyst": {
+      "mean": 19.0500744105,
+      "std": 3.8311606102
+    },
+    "class_curious_guardian": {
+      "mean": 24.7034721682,
+      "std": 3.877261856
+    },
+    "class_curious_broker": {
+      "mean": 23.9124908192,
+      "std": 3.3789499585
+    },
+    "class_curious_builder": {
+      "mean": 27.9115582999,
+      "std": 3.1709714503
+    },
+    "class_curious_scout": {
+      "mean": 17.616138372,
+      "std": 3.4724523789
+    },
+    "class_curious_operator": {
+      "mean": 18.8405461897,
+      "std": 3.7646349016
+    },
+    "class_stoic_tactician": {
+      "mean": 29.2130822924,
+      "std": 4.6097732749
+    },
+    "class_stoic_explorer": {
+      "mean": 25.7621626091,
+      "std": 3.4242134426
+    },
+    "class_stoic_fixer": {
+      "mean": 24.9253056521,
+      "std": 4.4393360784
+    },
+    "class_stoic_analyst": {
+      "mean": 27.2460629437,
+      "std": 2.9452267715
+    },
+    "class_stoic_catalyst": {
+      "mean": 25.1113214862,
+      "std": 4.4229537512
+    },
+    "class_stoic_guardian": {
+      "mean": 20.4705785872,
+      "std": 4.3929836829
+    },
+    "class_stoic_broker": {
+      "mean": 23.1435940654,
+      "std": 4.2342056009
+    },
+    "class_stoic_builder": {
+      "mean": 21.5892467287,
+      "std": 3.283945141
+    },
+    "class_stoic_scout": {
+      "mean": 23.8830694636,
+      "std": 3.6861275523
+    },
+    "class_stoic_operator": {
+      "mean": 19.420757086,
+      "std": 2.7089606013
+    },
+    "class_social_tactician": {
+      "mean": 22.828943988,
+      "std": 4.003255724
+    },
+    "class_social_explorer": {
+      "mean": 22.6214985993,
+      "std": 4.7464745992
+    },
+    "class_social_fixer": {
+      "mean": 20.4683124548,
+      "std": 4.3177619879
+    },
+    "class_social_analyst": {
+      "mean": 21.3085363369,
+      "std": 3.2754835541
+    },
+    "class_social_catalyst": {
+      "mean": 29.8286450764,
+      "std": 3.3484060244
+    },
+    "class_social_guardian": {
+      "mean": 20.7275726802,
+      "std": 4.6708943597
+    },
+    "class_social_broker": {
+      "mean": 29.0962877767,
+      "std": 3.9202029216
+    },
+    "class_social_builder": {
+      "mean": 17.4592062999,
+      "std": 3.179524919
+    },
+    "class_social_scout": {
+      "mean": 22.728405171,
+      "std": 4.649125909
+    },
+    "class_social_operator": {
+      "mean": 20.015846787,
+      "std": 4.0356322181
+    },
+    "class_improvised_tactician": {
+      "mean": 27.7110147447,
+      "std": 4.1538257651
+    },
+    "class_improvised_explorer": {
+      "mean": 30.4008117118,
+      "std": 3.3057435767
+    },
+    "class_improvised_fixer": {
+      "mean": 22.6578106891,
+      "std": 4.7944629288
+    },
+    "class_improvised_analyst": {
+      "mean": 22.1220506134,
+      "std": 3.3803027464
+    },
+    "class_improvised_catalyst": {
+      "mean": 19.5949640119,
+      "std": 3.6053227371
+    },
+    "class_improvised_guardian": {
+      "mean": 26.2404667266,
+      "std": 2.9757619707
+    },
+    "class_improvised_broker": {
+      "mean": 31.1098422719,
+      "std": 5.3118101579
+    },
+    "class_improvised_builder": {
+      "mean": 25.5329706662,
+      "std": 3.8682354665
+    },
+    "class_improvised_scout": {
+      "mean": 14.5924997145,
+      "std": 4.8165103637
+    },
+    "class_improvised_operator": {
+      "mean": 27.35560972,
+      "std": 4.1910627349
+    },
+    "class_strategic_tactician": {
+      "mean": 15.4424703334,
+      "std": 3.4631137245
+    },
+    "class_strategic_explorer": {
+      "mean": 20.0741019961,
+      "std": 3.8883448559
+    },
+    "class_strategic_fixer": {
+      "mean": 22.8050814931,
+      "std": 4.6349748031
+    },
+    "class_strategic_analyst": {
+      "mean": 18.0075990146,
+      "std": 3.6584870821
+    },
+    "class_strategic_catalyst": {
+      "mean": 25.585843384,
+      "std": 3.7021887665
+    },
+    "class_strategic_guardian": {
+      "mean": 24.4656993271,
+      "std": 4.2765986993
+    },
+    "class_strategic_broker": {
+      "mean": 25.8097125588,
+      "std": 3.8705332488
+    },
+    "class_strategic_builder": {
+      "mean": 26.174604436,
+      "std": 4.6578481389
+    },
+    "class_strategic_scout": {
+      "mean": 25.4382315869,
+      "std": 3.3848619468
+    },
+    "class_strategic_operator": {
+      "mean": 31.5461401188,
+      "std": 3.8995598387
+    },
+    "class_patient_tactician": {
+      "mean": 21.1423091818,
+      "std": 4.0425803387
+    },
+    "class_patient_explorer": {
+      "mean": 21.5366545828,
+      "std": 3.5912007345
+    },
+    "class_patient_fixer": {
+      "mean": 29.4784442599,
+      "std": 3.9978057334
+    },
+    "class_patient_analyst": {
+      "mean": 23.2926861808,
+      "std": 4.3335813304
+    },
+    "class_patient_catalyst": {
+      "mean": 23.3636280723,
+      "std": 4.2986652926
+    },
+    "class_patient_guardian": {
+      "mean": 32.0344142331,
+      "std": 3.350197717
+    },
+    "class_patient_broker": {
+      "mean": 26.174675824,
+      "std": 4.6934264854
+    },
+    "class_patient_builder": {
+      "mean": 18.4796135131,
+      "std": 3.4644803946
+    },
+    "class_patient_scout": {
+      "mean": 17.4558526628,
+      "std": 4.5340634257
+    },
+    "class_patient_operator": {
+      "mean": 27.8100968811,
+      "std": 4.6279954046
+    },
+    "class_restless_tactician": {
+      "mean": 27.4509443879,
+      "std": 4.0406178005
+    },
+    "class_restless_explorer": {
+      "mean": 32.2045566526,
+      "std": 3.9836261715
+    },
+    "class_restless_fixer": {
+      "mean": 17.8151108822,
+      "std": 4.2377947395
+    },
+    "class_restless_analyst": {
+      "mean": 33.9255742383,
+      "std": 4.3668981287
+    },
+    "class_restless_catalyst": {
+      "mean": 16.8447346158,
+      "std": 3.7774615449
+    },
+    "class_restless_guardian": {
+      "mean": 20.2589095181,
+      "std": 3.7357219479
+    },
+    "class_restless_broker": {
+      "mean": 28.7527822127,
+      "std": 4.1636916749
+    },
+    "class_restless_builder": {
+      "mean": 14.1907974421,
+      "std": 3.5637528849
+    },
+    "class_restless_scout": {
+      "mean": 21.4741176311,
+      "std": 3.5523431656
+    },
+    "class_restless_operator": {
+      "mean": 28.8272378407,
+      "std": 3.6972239777
+    },
+    "class_precise_tactician": {
+      "mean": 27.3634489417,
+      "std": 3.5354196381
+    },
+    "class_precise_explorer": {
+      "mean": 21.6653576184,
+      "std": 4.7396532153
+    },
+    "class_precise_fixer": {
+      "mean": 28.7559453743,
+      "std": 3.751008615
+    },
+    "class_precise_analyst": {
+      "mean": 11.2446506632,
+      "std": 3.5869901212
+    },
+    "class_precise_catalyst": {
+      "mean": 29.9129341483,
+      "std": 5.8119916814
+    },
+    "class_precise_guardian": {
+      "mean": 12.7801909856,
+      "std": 3.756386345
+    },
+    "class_precise_broker": {
+      "mean": 23.181476807,
+      "std": 2.9129343249
+    },
+    "class_precise_builder": {
+      "mean": 24.584422123,
+      "std": 4.2671253648
+    },
+    "class_precise_scout": {
+      "mean": 31.3999185371,
+      "std": 4.3574819791
+    },
+    "class_precise_operator": {
+      "mean": 25.0870654581,
+      "std": 3.9242247688
+    }
   },
   "powers": {
-    "power_explains_complex_things":{"mean":17.490101564770267,"std":4.811472462148996},"power_funny_awkward":{"mean":15.77149392051273,"std":4.561216889738755},"power_finds_solutions":{"mean":18.785709218501626,"std":4.577751913142},"power_calm_under_pressure":{"mean":25.736975325634774,"std":8.700806346981684},"power_cheapest_option":{"mean":21.573699718638373,"std":5.03968389715967},"power_reads_the_room":{"mean":15.118500549064697,"std":5.7376093582549474},"power_turns_chaos_into_plan":{"mean":16.933951612142412,"std":4.711633417858972},"power_never_forgets":{"mean":13.673043453140888,"std":5.486475133874266},"power_makes_hard_things_look_easy":{"mean":15.585334105658745,"std":4.81079281217402},"power_makes_everyone_feel_important":{"mean":12.302970033361213,"std":4.6286904222352705},"power_wins_every_board_game":{"mean":21.156943795317193,"std":5.89989682749766},
-    "power_untangles_charger":{"mean":30.65,"std":10.47}
-  },
-  "abilities": {
-    "ability_useless_info":{"mean":18.1073443671645,"std":6.769061971123679},"ability_save_3_euros":{"mean":18.485117760403515,"std":5.18160348901216},"ability_quick_question_radar":{"mean":13.857256335285795,"std":5.882085247443112},"ability_printer_sense":{"mean":24.31289855957152,"std":5.1711349784472125},"ability_parking_spot_radar":{"mean":29.888964718903523,"std":6.897087890228667},"ability_typo_spotter":{"mean":11.254679015453632,"std":5.329799895472304},"ability_predicts_awkward_silence":{"mean":13.94788371499396,"std":5.451814365237267},"ability_reheats_perfectly":{"mean":37.4335170307519,"std":4.901497326510579},"ability_group_photo_timing":{"mean":22.046018923988385,"std":4.694811633048566},"ability_reads_the_room_wrong":{"mean":25.59365857885176,"std":5.590692910173627},"ability_finds_the_one_flaw":{"mean":23.06033445481332,"std":5.989710190441309},"ability_remembers_wifi_password":{"mean":20.738517475535176,"std":5.874134794468266},
-    "ability_finds_missing_charger":{"mean":29.71,"std":9.89}
-  },
-  "workStyles": {
-    "workstyle_sprint_vanish":{"mean":22.131110796612987,"std":6.217644241033106},"workstyle_gantt_chart":{"mean":29.65542924375805,"std":5.773898281787852},"workstyle_last_night_genius":{"mean":26.514922605010327,"std":5.7328992883449255},"workstyle_delegates_everything":{"mean":31.188284986069867,"std":5.643091761408462},"workstyle_silent_fixer":{"mean":19.14208308680038,"std":4.172515440121205},"workstyle_quick_call":{"mean":24.54887682899138,"std":5.453000223273753},"workstyle_night_owl":{"mean":27.509475630237688,"std":5.561374429883606},"workstyle_calm_anchor":{"mean":28.10984413247757,"std":5.782858104210955},"workstyle_perfectionist_polish":{"mean":25.91897741510594,"std":5.418402124847884},"workstyle_delegator_supreme":{"mean":14.689627547751929,"std":5.188402050888505},"workstyle_improvises_confidently":{"mean":25.799676563394456,"std":5.730122531344019},"workstyle_reply_all_villain":{"mean":29.4190623049457,"std":6.135504714178664},"workstyle_snack_powered":{"mean":27.653047985588344,"std":5.035840589228492},
-    "workstyle_tab_hoarder":{"mean":31.70,"std":9.34}
+    "power_explains_complex_things": {
+      "mean": 16.5498857007,
+      "std": 4.9389992199
+    },
+    "power_funny_awkward": {
+      "mean": 16.8313964104,
+      "std": 4.7129108
+    },
+    "power_finds_solutions": {
+      "mean": 18.3859916455,
+      "std": 5.2666502206
+    },
+    "power_calm_under_pressure": {
+      "mean": 19.8511343569,
+      "std": 6.6667979379
+    },
+    "power_cheapest_option": {
+      "mean": 20.9281611405,
+      "std": 4.2408974612
+    },
+    "power_reads_the_room": {
+      "mean": 12.1354374512,
+      "std": 4.6375062841
+    },
+    "power_turns_chaos_into_plan": {
+      "mean": 17.0426024467,
+      "std": 5.2108433589
+    },
+    "power_never_forgets": {
+      "mean": 18.2210557287,
+      "std": 4.8885323085
+    },
+    "power_makes_hard_things_look_easy": {
+      "mean": 12.9258421879,
+      "std": 4.7906336116
+    },
+    "power_makes_everyone_feel_important": {
+      "mean": 11.6345993323,
+      "std": 4.1068461187
+    },
+    "power_wins_every_board_game": {
+      "mean": 24.8534409302,
+      "std": 7.5084202018
+    },
+    "power_untangles_charger": {
+      "mean": 11.1089716911,
+      "std": 5.3996186253
+    },
+    "power_group_chat_timing": {
+      "mean": 14.7925867057,
+      "std": 3.5200634304
+    },
+    "power_email_meeting_detector": {
+      "mean": 12.606343767,
+      "std": 3.1986467182
+    },
+    "power_correct_checkout_line": {
+      "mean": 24.8877880301,
+      "std": 5.2715848629
+    },
+    "power_wifi_fix": {
+      "mean": 16.9059989335,
+      "std": 3.6009408576
+    },
+    "power_find_socket": {
+      "mean": 18.9897706386,
+      "std": 4.3375299532
+    },
+    "power_skip_smalltalk": {
+      "mean": 14.9054816356,
+      "std": 4.0371750287
+    },
+    "power_detect_fake_urgent": {
+      "mean": 17.1076813199,
+      "std": 4.8282413835
+    },
+    "power_remember_wifi": {
+      "mean": 14.8981477895,
+      "std": 3.6476523193
+    },
+    "power_choose_parking": {
+      "mean": 24.4276767695,
+      "std": 5.7055523524
+    },
+    "power_end_meeting": {
+      "mean": 18.9019228526,
+      "std": 4.5037859047
+    },
+    "power_exact_tupperware": {
+      "mean": 14.9953413619,
+      "std": 4.2904046941
+    },
+    "power_open_pdf": {
+      "mean": 15.2900675881,
+      "std": 3.4729257337
+    },
+    "power_find_quiet_table": {
+      "mean": 21.1374062331,
+      "std": 4.3726333868
+    },
+    "power_correct_usb": {
+      "mean": 20.8864234461,
+      "std": 4.4392595815
+    },
+    "power_detect_muted": {
+      "mean": 13.891300793,
+      "std": 3.5229954979
+    },
+    "power_find_receipt": {
+      "mean": 18.3047417425,
+      "std": 4.5895407985
+    },
+    "power_cancel_subscription": {
+      "mean": 21.1571311933,
+      "std": 4.9529844206
+    },
+    "power_parallel_tasks": {
+      "mean": 15.8546347223,
+      "std": 4.1305021271
+    },
+    "power_chaotic_burst": {
+      "mean": 29.7922968287,
+      "std": 3.6466719534
+    },
+    "power_chaotic_shield": {
+      "mean": 19.5100369574,
+      "std": 3.35125816
+    },
+    "power_chaotic_radar": {
+      "mean": 29.3175441384,
+      "std": 3.644580318
+    },
+    "power_chaotic_override": {
+      "mean": 24.5280521844,
+      "std": 3.8820436252
+    },
+    "power_chaotic_echo": {
+      "mean": 22.5800963953,
+      "std": 3.404117621
+    },
+    "power_chaotic_pulse": {
+      "mean": 26.0735525873,
+      "std": 4.0982307741
+    },
+    "power_chaotic_anchor": {
+      "mean": 21.6302222109,
+      "std": 3.4505222466
+    },
+    "power_chaotic_lens": {
+      "mean": 21.2038129404,
+      "std": 4.3084610696
+    },
+    "power_chaotic_boost": {
+      "mean": 19.0842666851,
+      "std": 5.2139382198
+    },
+    "power_chaotic_field": {
+      "mean": 22.201172701,
+      "std": 5.5738371611
+    },
+    "power_methodical_burst": {
+      "mean": 24.7922275616,
+      "std": 3.9189559668
+    },
+    "power_methodical_shield": {
+      "mean": 16.548253095,
+      "std": 4.9998619483
+    },
+    "power_methodical_radar": {
+      "mean": 27.5977600749,
+      "std": 4.019421042
+    },
+    "power_methodical_override": {
+      "mean": 17.9121888546,
+      "std": 3.1362547361
+    },
+    "power_methodical_echo": {
+      "mean": 18.7843357541,
+      "std": 3.3623925427
+    },
+    "power_methodical_pulse": {
+      "mean": 23.1389969401,
+      "std": 4.0592643756
+    },
+    "power_methodical_anchor": {
+      "mean": 28.861575901,
+      "std": 3.4561370314
+    },
+    "power_methodical_lens": {
+      "mean": 31.0201543158,
+      "std": 4.2843151404
+    },
+    "power_methodical_boost": {
+      "mean": 24.363039992,
+      "std": 4.2432698493
+    },
+    "power_methodical_field": {
+      "mean": 27.0291855045,
+      "std": 3.6184712655
+    },
+    "power_relentless_burst": {
+      "mean": 25.0712940638,
+      "std": 4.4109138095
+    },
+    "power_relentless_shield": {
+      "mean": 30.91395983,
+      "std": 3.6584743126
+    },
+    "power_relentless_radar": {
+      "mean": 19.7095647602,
+      "std": 3.2771100524
+    },
+    "power_relentless_override": {
+      "mean": 28.0705623422,
+      "std": 5.093621154
+    },
+    "power_relentless_echo": {
+      "mean": 31.2045040612,
+      "std": 3.4949949395
+    },
+    "power_relentless_pulse": {
+      "mean": 14.1386445733,
+      "std": 3.4808097184
+    },
+    "power_relentless_anchor": {
+      "mean": 26.6469895101,
+      "std": 3.1795167425
+    },
+    "power_relentless_lens": {
+      "mean": 19.3006065119,
+      "std": 4.2865201435
+    },
+    "power_relentless_boost": {
+      "mean": 15.8733866541,
+      "std": 3.417342944
+    },
+    "power_relentless_field": {
+      "mean": 16.6404297023,
+      "std": 3.7814775759
+    },
+    "power_diplomatic_burst": {
+      "mean": 23.8054995977,
+      "std": 4.0745894152
+    },
+    "power_diplomatic_shield": {
+      "mean": 29.7602870239,
+      "std": 3.145578843
+    },
+    "power_diplomatic_radar": {
+      "mean": 20.2212839166,
+      "std": 4.1404597288
+    },
+    "power_diplomatic_override": {
+      "mean": 20.9044905658,
+      "std": 2.9253861595
+    },
+    "power_diplomatic_echo": {
+      "mean": 28.5058764766,
+      "std": 3.6802911527
+    },
+    "power_diplomatic_pulse": {
+      "mean": 31.9259470016,
+      "std": 3.5449562361
+    },
+    "power_diplomatic_anchor": {
+      "mean": 26.9427962136,
+      "std": 4.0335623863
+    },
+    "power_diplomatic_lens": {
+      "mean": 16.4182852381,
+      "std": 3.1706103262
+    },
+    "power_diplomatic_boost": {
+      "mean": 27.1090945217,
+      "std": 4.0384210049
+    },
+    "power_diplomatic_field": {
+      "mean": 19.4360653681,
+      "std": 3.7460391981
+    },
+    "power_curious_burst": {
+      "mean": 15.3990852307,
+      "std": 3.4530972656
+    },
+    "power_curious_shield": {
+      "mean": 19.4221219616,
+      "std": 4.0247743427
+    },
+    "power_curious_radar": {
+      "mean": 27.1690797464,
+      "std": 3.8817730998
+    },
+    "power_curious_override": {
+      "mean": 24.400049834,
+      "std": 3.6093353172
+    },
+    "power_curious_echo": {
+      "mean": 25.9592852277,
+      "std": 4.627244371
+    },
+    "power_curious_pulse": {
+      "mean": 14.9637055889,
+      "std": 3.6783118929
+    },
+    "power_curious_anchor": {
+      "mean": 20.8354889559,
+      "std": 5.20299721
+    },
+    "power_curious_lens": {
+      "mean": 17.3804658066,
+      "std": 4.2746494998
+    },
+    "power_curious_boost": {
+      "mean": 27.1807765132,
+      "std": 3.7911002982
+    },
+    "power_curious_field": {
+      "mean": 23.5688577274,
+      "std": 3.5758372578
+    },
+    "power_stoic_burst": {
+      "mean": 30.7747835887,
+      "std": 3.5656591356
+    },
+    "power_stoic_shield": {
+      "mean": 19.0228424707,
+      "std": 3.5417355916
+    },
+    "power_stoic_radar": {
+      "mean": 27.5816129599,
+      "std": 4.4487245212
+    },
+    "power_stoic_override": {
+      "mean": 24.3963482566,
+      "std": 3.0566596818
+    },
+    "power_stoic_echo": {
+      "mean": 18.6276389803,
+      "std": 3.8068498815
+    },
+    "power_stoic_pulse": {
+      "mean": 20.3473421185,
+      "std": 3.7302719355
+    },
+    "power_stoic_anchor": {
+      "mean": 12.8751101444,
+      "std": 2.7437806221
+    },
+    "power_stoic_lens": {
+      "mean": 19.4038186683,
+      "std": 4.3767858549
+    },
+    "power_stoic_boost": {
+      "mean": 25.6606661096,
+      "std": 4.1353929452
+    },
+    "power_stoic_field": {
+      "mean": 25.7861754208,
+      "std": 3.3057541499
+    },
+    "power_social_burst": {
+      "mean": 15.8886361443,
+      "std": 2.8260994569
+    },
+    "power_social_shield": {
+      "mean": 26.7105220471,
+      "std": 4.3016146546
+    },
+    "power_social_radar": {
+      "mean": 15.8502915921,
+      "std": 4.4036741984
+    },
+    "power_social_override": {
+      "mean": 28.4118317261,
+      "std": 3.8933222279
+    },
+    "power_social_echo": {
+      "mean": 25.8094049672,
+      "std": 3.4233699635
+    },
+    "power_social_pulse": {
+      "mean": 28.5644347824,
+      "std": 3.0030804564
+    },
+    "power_social_anchor": {
+      "mean": 27.1803877585,
+      "std": 4.2512340913
+    },
+    "power_social_lens": {
+      "mean": 28.4664188017,
+      "std": 5.639396298
+    },
+    "power_social_boost": {
+      "mean": 18.904282289,
+      "std": 3.4564670505
+    },
+    "power_social_field": {
+      "mean": 26.8354198836,
+      "std": 4.4168529148
+    },
+    "power_improvised_burst": {
+      "mean": 16.452940467,
+      "std": 3.6900429069
+    },
+    "power_improvised_shield": {
+      "mean": 24.0769292247,
+      "std": 3.4698572173
+    },
+    "power_improvised_radar": {
+      "mean": 27.6945397088,
+      "std": 3.8229469853
+    },
+    "power_improvised_override": {
+      "mean": 15.9991969933,
+      "std": 4.4434579893
+    },
+    "power_improvised_echo": {
+      "mean": 21.7189522757,
+      "std": 3.8411294404
+    },
+    "power_improvised_pulse": {
+      "mean": 35.1823016668,
+      "std": 4.1245124265
+    },
+    "power_improvised_anchor": {
+      "mean": 24.9906818824,
+      "std": 3.1208576361
+    },
+    "power_improvised_lens": {
+      "mean": 30.2248075583,
+      "std": 3.8559138213
+    },
+    "power_improvised_boost": {
+      "mean": 31.651763463,
+      "std": 2.9342534004
+    },
+    "power_improvised_field": {
+      "mean": 29.525889996,
+      "std": 3.8726997405
+    },
+    "power_strategic_burst": {
+      "mean": 26.5565529426,
+      "std": 3.3523632176
+    },
+    "power_strategic_shield": {
+      "mean": 26.756885378,
+      "std": 3.7507325775
+    },
+    "power_strategic_radar": {
+      "mean": 33.0964282832,
+      "std": 4.8858944826
+    },
+    "power_strategic_override": {
+      "mean": 19.6196866156,
+      "std": 3.2000474643
+    },
+    "power_strategic_echo": {
+      "mean": 19.7910384241,
+      "std": 4.5811695844
+    },
+    "power_strategic_pulse": {
+      "mean": 31.898182734,
+      "std": 3.4859209593
+    },
+    "power_strategic_anchor": {
+      "mean": 25.7161944712,
+      "std": 3.7371774449
+    },
+    "power_strategic_lens": {
+      "mean": 14.1382860509,
+      "std": 4.3606281132
+    },
+    "power_strategic_boost": {
+      "mean": 21.4564689041,
+      "std": 3.6693685427
+    },
+    "power_strategic_field": {
+      "mean": 27.9654155959,
+      "std": 3.8716379668
+    },
+    "power_patient_burst": {
+      "mean": 30.3714301362,
+      "std": 3.929038239
+    },
+    "power_patient_shield": {
+      "mean": 21.9555769037,
+      "std": 3.8634185416
+    },
+    "power_patient_radar": {
+      "mean": 31.4665101211,
+      "std": 4.2514233852
+    },
+    "power_patient_override": {
+      "mean": 27.3555437118,
+      "std": 3.9460703954
+    },
+    "power_patient_echo": {
+      "mean": 17.4896898952,
+      "std": 4.1488625796
+    },
+    "power_patient_pulse": {
+      "mean": 25.960174945,
+      "std": 4.082623767
+    },
+    "power_patient_anchor": {
+      "mean": 19.9097124607,
+      "std": 3.0990933726
+    },
+    "power_patient_lens": {
+      "mean": 27.1686922297,
+      "std": 3.6628853644
+    },
+    "power_patient_boost": {
+      "mean": 20.0925525353,
+      "std": 3.5833712178
+    },
+    "power_patient_field": {
+      "mean": 12.7237368845,
+      "std": 3.4691766115
+    },
+    "power_restless_burst": {
+      "mean": 23.5361207824,
+      "std": 4.0025227688
+    },
+    "power_restless_shield": {
+      "mean": 12.3212565931,
+      "std": 3.048635099
+    },
+    "power_restless_radar": {
+      "mean": 24.4485590068,
+      "std": 3.651241226
+    },
+    "power_restless_override": {
+      "mean": 24.5523431978,
+      "std": 6.078266488
+    },
+    "power_restless_echo": {
+      "mean": 30.7077918718,
+      "std": 4.1305707872
+    },
+    "power_restless_pulse": {
+      "mean": 28.2076255628,
+      "std": 3.5610607183
+    },
+    "power_restless_anchor": {
+      "mean": 29.7865371215,
+      "std": 3.7051202825
+    },
+    "power_restless_lens": {
+      "mean": 24.3498307071,
+      "std": 3.3878347859
+    },
+    "power_restless_boost": {
+      "mean": 25.0650631943,
+      "std": 3.2764880184
+    },
+    "power_restless_field": {
+      "mean": 24.6590287972,
+      "std": 2.9523378498
+    },
+    "power_precise_burst": {
+      "mean": 29.8565419956,
+      "std": 2.5652582846
+    },
+    "power_precise_shield": {
+      "mean": 18.4787368055,
+      "std": 4.3682703755
+    },
+    "power_precise_radar": {
+      "mean": 21.3119050828,
+      "std": 3.3245423356
+    },
+    "power_precise_override": {
+      "mean": 27.3719614364,
+      "std": 4.2994279223
+    },
+    "power_precise_echo": {
+      "mean": 21.1682962819,
+      "std": 5.3758598556
+    },
+    "power_precise_pulse": {
+      "mean": 19.8846981273,
+      "std": 4.2900435569
+    },
+    "power_precise_anchor": {
+      "mean": 22.5599128593,
+      "std": 3.7351776103
+    },
+    "power_precise_lens": {
+      "mean": 21.6735338176,
+      "std": 3.1556027195
+    },
+    "power_precise_boost": {
+      "mean": 27.745493533,
+      "std": 5.9360647972
+    },
+    "power_precise_field": {
+      "mean": 22.1160295078,
+      "std": 3.2575229052
+    }
   },
   "weaknesses": {
-    "weakness_phone_calls":{"mean":38.6237230638727,"std":6.899874396339019},"weakness_finishing_projects":{"mean":39.559382002685915,"std":8.765632068798865},"weakness_instructions":{"mean":34.06975314328274,"std":9.01623040720185},"weakness_group_projects":{"mean":30.15662471091613,"std":7.249805241865798},"weakness_people_who_are_late":{"mean":34.351496498290096,"std":9.72534515212547},"weakness_free_shipping":{"mean":35.41921830159364,"std":9.042324640492438},"weakness_open_ended_questions":{"mean":40.17244982572473,"std":8.629905271763807},"weakness_notifications":{"mean":38.13900199219876,"std":9.665773483744827},"weakness_small_talk":{"mean":32.69125705769632,"std":6.029872468600414},"weakness_asking_for_help":{"mean":33.24905602267036,"std":7.9580866796815695},"weakness_progress_bar":{"mean":39.16442161351438,"std":9.80020559370332},"weakness_left_on_read":{"mean":37.54657123700815,"std":9.180200888012543},
-    "weakness_loading_screen":{"mean":32.71,"std":11.79}
+    "weakness_phone_calls": {
+      "mean": 41.2489713297,
+      "std": 7.2437520828
+    },
+    "weakness_finishing_projects": {
+      "mean": 38.1871115776,
+      "std": 7.6946825378
+    },
+    "weakness_instructions": {
+      "mean": 30.8724491502,
+      "std": 10.0313604995
+    },
+    "weakness_group_projects": {
+      "mean": 37.5137623709,
+      "std": 6.1282201968
+    },
+    "weakness_people_who_are_late": {
+      "mean": 35.4087425948,
+      "std": 9.2110606259
+    },
+    "weakness_free_shipping": {
+      "mean": 31.1654917717,
+      "std": 8.4605290986
+    },
+    "weakness_open_ended_questions": {
+      "mean": 32.6121672636,
+      "std": 9.0771629033
+    },
+    "weakness_notifications": {
+      "mean": 37.3246330869,
+      "std": 9.9705794681
+    },
+    "weakness_small_talk": {
+      "mean": 39.9372173008,
+      "std": 5.8404164468
+    },
+    "weakness_asking_for_help": {
+      "mean": 39.1107806019,
+      "std": 8.9731811922
+    },
+    "weakness_progress_bar": {
+      "mean": 40.2021997052,
+      "std": 9.3477124934
+    },
+    "weakness_left_on_read": {
+      "mean": 44.7758489483,
+      "std": 7.1575638983
+    },
+    "weakness_loading_screen": {
+      "mean": 34.1449483485,
+      "std": 6.5914653612
+    },
+    "weakness_open_fridge_again": {
+      "mean": 27.2614260752,
+      "std": 5.3568940019
+    },
+    "weakness_voice_note": {
+      "mean": 31.3774959374,
+      "std": 5.4182223746
+    },
+    "weakness_calendar_invite": {
+      "mean": 32.9635831078,
+      "std": 4.5290312096
+    },
+    "weakness_low_battery": {
+      "mean": 28.9022148906,
+      "std": 5.410275355
+    },
+    "weakness_reply_all": {
+      "mean": 27.913127307,
+      "std": 4.2058458056
+    },
+    "weakness_update_restart": {
+      "mean": 29.1657667616,
+      "std": 4.8870133216
+    },
+    "weakness_unknown_call": {
+      "mean": 38.170934478,
+      "std": 4.7781294537
+    },
+    "weakness_two_factor": {
+      "mean": 30.4643373766,
+      "std": 5.8527316875
+    },
+    "weakness_smalltalk_elevator": {
+      "mean": 32.8287123636,
+      "std": 4.3647983401
+    },
+    "weakness_unnamed_file": {
+      "mean": 24.9088301169,
+      "std": 6.6979901618
+    },
+    "weakness_buffering": {
+      "mean": 29.5499829712,
+      "std": 4.8611867277
+    },
+    "weakness_empty_coffee": {
+      "mean": 32.3914123314,
+      "std": 4.298729717
+    },
+    "weakness_shared_doc_cursor": {
+      "mean": 28.8013399706,
+      "std": 4.6785057333
+    },
+    "weakness_typing_indicator": {
+      "mean": 28.4425987197,
+      "std": 4.654632431
+    },
+    "weakness_missing_attachment": {
+      "mean": 31.2610663237,
+      "std": 6.1143112698
+    },
+    "weakness_one_percent": {
+      "mean": 36.4742805794,
+      "std": 5.0999677658
+    },
+    "weakness_monday_0830": {
+      "mean": 32.8538107623,
+      "std": 3.9521985517
+    },
+    "weakness_notification_spiral": {
+      "mean": 32.1776122306,
+      "std": 3.2442114305
+    },
+    "weakness_notification_panic": {
+      "mean": 31.9405640832,
+      "std": 3.2409334122
+    },
+    "weakness_notification_freeze": {
+      "mean": 30.8681112552,
+      "std": 4.1319544454
+    },
+    "weakness_notification_overthink": {
+      "mean": 34.9082904577,
+      "std": 3.1620758988
+    },
+    "weakness_notification_avoidance": {
+      "mean": 28.0061265001,
+      "std": 3.0884643103
+    },
+    "weakness_notification_rage": {
+      "mean": 34.6859667448,
+      "std": 3.1001856358
+    },
+    "weakness_notification_shutdown": {
+      "mean": 28.546220887,
+      "std": 3.3845703427
+    },
+    "weakness_notification_distraction": {
+      "mean": 33.4776333065,
+      "std": 3.3083089628
+    },
+    "weakness_notification_impulse": {
+      "mean": 40.1278409355,
+      "std": 3.6634671909
+    },
+    "weakness_notification_procrastination": {
+      "mean": 32.0381891981,
+      "std": 4.0573517109
+    },
+    "weakness_deadline_spiral": {
+      "mean": 37.7296808501,
+      "std": 3.7093130021
+    },
+    "weakness_deadline_panic": {
+      "mean": 33.4218002647,
+      "std": 3.4343631725
+    },
+    "weakness_deadline_freeze": {
+      "mean": 34.5843028734,
+      "std": 3.8401034834
+    },
+    "weakness_deadline_overthink": {
+      "mean": 36.8564179724,
+      "std": 4.8330326134
+    },
+    "weakness_deadline_avoidance": {
+      "mean": 30.8640251591,
+      "std": 4.1183432324
+    },
+    "weakness_deadline_rage": {
+      "mean": 35.3476869398,
+      "std": 3.644217521
+    },
+    "weakness_deadline_shutdown": {
+      "mean": 32.5433622131,
+      "std": 3.4521277304
+    },
+    "weakness_deadline_distraction": {
+      "mean": 32.487549843,
+      "std": 3.7493246323
+    },
+    "weakness_deadline_impulse": {
+      "mean": 44.9010143915,
+      "std": 3.5257282857
+    },
+    "weakness_deadline_procrastination": {
+      "mean": 28.7366855237,
+      "std": 4.075789303
+    },
+    "weakness_ambiguity_spiral": {
+      "mean": 32.0925350346,
+      "std": 3.1523454314
+    },
+    "weakness_ambiguity_panic": {
+      "mean": 36.5747265056,
+      "std": 3.3320340698
+    },
+    "weakness_ambiguity_freeze": {
+      "mean": 29.572074627,
+      "std": 3.3990188172
+    },
+    "weakness_ambiguity_overthink": {
+      "mean": 27.5124971283,
+      "std": 3.4399963805
+    },
+    "weakness_ambiguity_avoidance": {
+      "mean": 31.7895177785,
+      "std": 4.4202487953
+    },
+    "weakness_ambiguity_rage": {
+      "mean": 39.1727758572,
+      "std": 3.6580529848
+    },
+    "weakness_ambiguity_shutdown": {
+      "mean": 41.4830199635,
+      "std": 3.2072919065
+    },
+    "weakness_ambiguity_distraction": {
+      "mean": 43.3370178292,
+      "std": 3.3239342665
+    },
+    "weakness_ambiguity_impulse": {
+      "mean": 26.7891235183,
+      "std": 3.4804843229
+    },
+    "weakness_ambiguity_procrastination": {
+      "mean": 41.9777055734,
+      "std": 3.1393887074
+    },
+    "weakness_silence_spiral": {
+      "mean": 36.7948564656,
+      "std": 3.7533706197
+    },
+    "weakness_silence_panic": {
+      "mean": 26.7717406401,
+      "std": 4.232850076
+    },
+    "weakness_silence_freeze": {
+      "mean": 33.2326246483,
+      "std": 3.2706175239
+    },
+    "weakness_silence_overthink": {
+      "mean": 28.5241570455,
+      "std": 4.8157690469
+    },
+    "weakness_silence_avoidance": {
+      "mean": 27.6172271464,
+      "std": 3.5741457833
+    },
+    "weakness_silence_rage": {
+      "mean": 30.2404177057,
+      "std": 4.1116452892
+    },
+    "weakness_silence_shutdown": {
+      "mean": 40.3464060257,
+      "std": 3.6872791427
+    },
+    "weakness_silence_distraction": {
+      "mean": 40.4887636489,
+      "std": 3.6216540673
+    },
+    "weakness_silence_impulse": {
+      "mean": 37.3916871813,
+      "std": 2.9602786585
+    },
+    "weakness_silence_procrastination": {
+      "mean": 33.6926622874,
+      "std": 3.6252063836
+    },
+    "weakness_comparison_spiral": {
+      "mean": 34.8971273586,
+      "std": 3.3603316484
+    },
+    "weakness_comparison_panic": {
+      "mean": 33.9288741274,
+      "std": 3.3917872058
+    },
+    "weakness_comparison_freeze": {
+      "mean": 32.5268468675,
+      "std": 3.0899529967
+    },
+    "weakness_comparison_overthink": {
+      "mean": 18.7215613168,
+      "std": 3.3631629746
+    },
+    "weakness_comparison_avoidance": {
+      "mean": 37.442039872,
+      "std": 4.7151143738
+    },
+    "weakness_comparison_rage": {
+      "mean": 27.8116347699,
+      "std": 2.719919991
+    },
+    "weakness_comparison_shutdown": {
+      "mean": 37.233616464,
+      "std": 3.5394375748
+    },
+    "weakness_comparison_distraction": {
+      "mean": 41.4307188009,
+      "std": 2.9348048733
+    },
+    "weakness_comparison_impulse": {
+      "mean": 35.4746273837,
+      "std": 3.9038457942
+    },
+    "weakness_comparison_procrastination": {
+      "mean": 26.1583681771,
+      "std": 3.7690123787
+    },
+    "weakness_queue_spiral": {
+      "mean": 31.372403358,
+      "std": 3.5981334343
+    },
+    "weakness_queue_panic": {
+      "mean": 28.9686602461,
+      "std": 3.4644716117
+    },
+    "weakness_queue_freeze": {
+      "mean": 32.5527809429,
+      "std": 4.8763804419
+    },
+    "weakness_queue_overthink": {
+      "mean": 26.369397676,
+      "std": 4.1541500778
+    },
+    "weakness_queue_avoidance": {
+      "mean": 40.1219682663,
+      "std": 4.5833142054
+    },
+    "weakness_queue_rage": {
+      "mean": 25.777721179,
+      "std": 3.1877302508
+    },
+    "weakness_queue_shutdown": {
+      "mean": 34.588034929,
+      "std": 3.4380512528
+    },
+    "weakness_queue_distraction": {
+      "mean": 32.3367729959,
+      "std": 2.9977256181
+    },
+    "weakness_queue_impulse": {
+      "mean": 33.972059345,
+      "std": 4.3225965032
+    },
+    "weakness_queue_procrastination": {
+      "mean": 25.1058846686,
+      "std": 3.1340657841
+    },
+    "weakness_choice_spiral": {
+      "mean": 29.3690102943,
+      "std": 3.4876555159
+    },
+    "weakness_choice_panic": {
+      "mean": 37.5253609151,
+      "std": 3.3382467738
+    },
+    "weakness_choice_freeze": {
+      "mean": 31.2222336902,
+      "std": 4.4698896404
+    },
+    "weakness_choice_overthink": {
+      "mean": 41.9474321119,
+      "std": 3.0387254818
+    },
+    "weakness_choice_avoidance": {
+      "mean": 13.6070935027,
+      "std": 3.5374816477
+    },
+    "weakness_choice_rage": {
+      "mean": 22.3365610827,
+      "std": 3.6437630275
+    },
+    "weakness_choice_shutdown": {
+      "mean": 41.7860598137,
+      "std": 4.5849898488
+    },
+    "weakness_choice_distraction": {
+      "mean": 36.5696304684,
+      "std": 3.8914698255
+    },
+    "weakness_choice_impulse": {
+      "mean": 35.7411784909,
+      "std": 3.6210362354
+    },
+    "weakness_choice_procrastination": {
+      "mean": 22.5636364957,
+      "std": 3.9032565154
+    },
+    "weakness_interruption_spiral": {
+      "mean": 37.6974849071,
+      "std": 3.6094974279
+    },
+    "weakness_interruption_panic": {
+      "mean": 24.8499149441,
+      "std": 3.2200984358
+    },
+    "weakness_interruption_freeze": {
+      "mean": 37.0087708728,
+      "std": 3.9478658983
+    },
+    "weakness_interruption_overthink": {
+      "mean": 32.0579072956,
+      "std": 3.0826562936
+    },
+    "weakness_interruption_avoidance": {
+      "mean": 39.2972927075,
+      "std": 3.2005092083
+    },
+    "weakness_interruption_rage": {
+      "mean": 39.4232437411,
+      "std": 3.2023339822
+    },
+    "weakness_interruption_shutdown": {
+      "mean": 40.5216201192,
+      "std": 3.6376548653
+    },
+    "weakness_interruption_distraction": {
+      "mean": 30.2212978471,
+      "std": 2.7959702733
+    },
+    "weakness_interruption_impulse": {
+      "mean": 32.5098662302,
+      "std": 4.1050730028
+    },
+    "weakness_interruption_procrastination": {
+      "mean": 37.9149398601,
+      "std": 4.0526080584
+    },
+    "weakness_fatigue_spiral": {
+      "mean": 35.3417528569,
+      "std": 3.3020980702
+    },
+    "weakness_fatigue_panic": {
+      "mean": 42.0624960889,
+      "std": 3.2079904568
+    },
+    "weakness_fatigue_freeze": {
+      "mean": 25.3368815511,
+      "std": 3.9127854445
+    },
+    "weakness_fatigue_overthink": {
+      "mean": 32.7129033537,
+      "std": 3.6932904264
+    },
+    "weakness_fatigue_avoidance": {
+      "mean": 21.7479558904,
+      "std": 4.399223938
+    },
+    "weakness_fatigue_rage": {
+      "mean": 32.6415713518,
+      "std": 3.8133593701
+    },
+    "weakness_fatigue_shutdown": {
+      "mean": 42.1848466847,
+      "std": 3.8584630173
+    },
+    "weakness_fatigue_distraction": {
+      "mean": 23.0350832025,
+      "std": 2.9594968922
+    },
+    "weakness_fatigue_impulse": {
+      "mean": 33.7490862829,
+      "std": 3.3538676784
+    },
+    "weakness_fatigue_procrastination": {
+      "mean": 27.7047289236,
+      "std": 2.5961359628
+    },
+    "weakness_conflict_spiral": {
+      "mean": 38.5312589748,
+      "std": 3.1872676625
+    },
+    "weakness_conflict_panic": {
+      "mean": 44.2939236665,
+      "std": 4.1058802824
+    },
+    "weakness_conflict_freeze": {
+      "mean": 39.1133672529,
+      "std": 2.9484722833
+    },
+    "weakness_conflict_overthink": {
+      "mean": 33.0613951886,
+      "std": 3.719813819
+    },
+    "weakness_conflict_avoidance": {
+      "mean": 42.6750485884,
+      "std": 3.2804620576
+    },
+    "weakness_conflict_rage": {
+      "mean": 33.2757127454,
+      "std": 4.1473161543
+    },
+    "weakness_conflict_shutdown": {
+      "mean": 33.891022949,
+      "std": 3.2126707691
+    },
+    "weakness_conflict_distraction": {
+      "mean": 32.1577877845,
+      "std": 3.1011618475
+    },
+    "weakness_conflict_impulse": {
+      "mean": 41.4605867302,
+      "std": 3.285004513
+    },
+    "weakness_conflict_procrastination": {
+      "mean": 28.9866710612,
+      "std": 4.4854629034
+    },
+    "weakness_waiting_spiral": {
+      "mean": 28.9664851346,
+      "std": 3.8329312908
+    },
+    "weakness_waiting_panic": {
+      "mean": 30.2649732515,
+      "std": 3.4327026407
+    },
+    "weakness_waiting_freeze": {
+      "mean": 31.1287702964,
+      "std": 3.3125528672
+    },
+    "weakness_waiting_overthink": {
+      "mean": 30.0472729434,
+      "std": 3.4741227185
+    },
+    "weakness_waiting_avoidance": {
+      "mean": 37.3558754063,
+      "std": 3.3918867846
+    },
+    "weakness_waiting_rage": {
+      "mean": 21.3207875797,
+      "std": 4.8331480749
+    },
+    "weakness_waiting_shutdown": {
+      "mean": 31.8923271966,
+      "std": 3.6937328882
+    },
+    "weakness_waiting_distraction": {
+      "mean": 39.2960546617,
+      "std": 2.9295383074
+    },
+    "weakness_waiting_impulse": {
+      "mean": 39.5746263467,
+      "std": 3.5617677521
+    },
+    "weakness_waiting_procrastination": {
+      "mean": 30.529709637,
+      "std": 4.3428611321
+    },
+    "weakness_uncertainty_spiral": {
+      "mean": 41.2569665634,
+      "std": 4.1267077254
+    },
+    "weakness_uncertainty_panic": {
+      "mean": 30.4417850867,
+      "std": 3.6556167834
+    },
+    "weakness_uncertainty_freeze": {
+      "mean": 35.7766299689,
+      "std": 3.2147573367
+    },
+    "weakness_uncertainty_overthink": {
+      "mean": 48.8274733157,
+      "std": 3.5083191043
+    },
+    "weakness_uncertainty_avoidance": {
+      "mean": 35.7230716411,
+      "std": 4.7351528513
+    },
+    "weakness_uncertainty_rage": {
+      "mean": 30.3345938963,
+      "std": 4.0476651478
+    },
+    "weakness_uncertainty_shutdown": {
+      "mean": 43.86388068,
+      "std": 3.5068430752
+    },
+    "weakness_uncertainty_distraction": {
+      "mean": 40.6977775359,
+      "std": 3.4660982341
+    },
+    "weakness_uncertainty_impulse": {
+      "mean": 35.5079414543,
+      "std": 3.5306808137
+    },
+    "weakness_uncertainty_procrastination": {
+      "mean": 37.1137340459,
+      "std": 3.709681276
+    }
+  },
+  "abilities": {
+    "ability_useless_info": {
+      "mean": 19.7836061572,
+      "std": 7.1635520111
+    },
+    "ability_save_3_euros": {
+      "mean": 20.0221987953,
+      "std": 5.192081349
+    },
+    "ability_quick_question_radar": {
+      "mean": 16.1222426853,
+      "std": 5.6280237024
+    },
+    "ability_printer_sense": {
+      "mean": 24.9519224079,
+      "std": 4.9973561159
+    },
+    "ability_parking_spot_radar": {
+      "mean": 26.5948925612,
+      "std": 7.8698066256
+    },
+    "ability_typo_spotter": {
+      "mean": 10.323309775,
+      "std": 4.9854510283
+    },
+    "ability_predicts_awkward_silence": {
+      "mean": 18.3778690539,
+      "std": 5.1015548972
+    },
+    "ability_reheats_perfectly": {
+      "mean": 38.8359335449,
+      "std": 4.8870576388
+    },
+    "ability_group_photo_timing": {
+      "mean": 27.2090885661,
+      "std": 4.9136740568
+    },
+    "ability_reads_the_room_wrong": {
+      "mean": 31.0971322377,
+      "std": 4.6312266111
+    },
+    "ability_finds_the_one_flaw": {
+      "mean": 27.6377002033,
+      "std": 4.900250416
+    },
+    "ability_remembers_wifi_password": {
+      "mean": 20.3521994422,
+      "std": 5.6356577138
+    },
+    "ability_finds_missing_charger": {
+      "mean": 16.5275938235,
+      "std": 6.8486355629
+    },
+    "ability_find_the_charger": {
+      "mean": 19.0814554127,
+      "std": 5.0601438056
+    },
+    "ability_split_bill": {
+      "mean": 19.292379705,
+      "std": 2.8525303363
+    },
+    "ability_find_file": {
+      "mean": 13.0505000571,
+      "std": 4.4453337625
+    },
+    "ability_leave_party": {
+      "mean": 15.0998417817,
+      "std": 5.3236707419
+    },
+    "ability_name_everyone": {
+      "mean": 12.4417047616,
+      "std": 4.8455141754
+    },
+    "ability_pack_cable": {
+      "mean": 13.1716706124,
+      "std": 5.2079058439
+    },
+    "ability_order_group": {
+      "mean": 13.8664918337,
+      "std": 4.4307882173
+    },
+    "ability_find_settings": {
+      "mean": 14.580543917,
+      "std": 4.5092426287
+    },
+    "ability_parallel_parking": {
+      "mean": 16.0853880417,
+      "std": 6.3087785307
+    },
+    "ability_know_when_leave": {
+      "mean": 13.877465273,
+      "std": 4.2654756587
+    },
+    "ability_receipt_photo": {
+      "mean": 15.3354644618,
+      "std": 3.9675111518
+    },
+    "ability_estimate_time": {
+      "mean": 18.9401032158,
+      "std": 5.9794147017
+    },
+    "ability_choose_menu": {
+      "mean": 15.789452522,
+      "std": 6.1791543964
+    },
+    "ability_move_file": {
+      "mean": 15.0732662636,
+      "std": 5.7876384776
+    },
+    "ability_fix_printer": {
+      "mean": 14.3771640455,
+      "std": 4.5334075495
+    },
+    "ability_read_room": {
+      "mean": 15.3025687786,
+      "std": 5.0657209533
+    },
+    "ability_backup_before_update": {
+      "mean": 32.7160912683,
+      "std": 8.305325227
+    },
+    "ability_reading_instinct": {
+      "mean": 19.7832395127,
+      "std": 3.0022171337
+    },
+    "ability_reading_precision": {
+      "mean": 29.3312432592,
+      "std": 4.2867978186
+    },
+    "ability_reading_speed": {
+      "mean": 23.541782705,
+      "std": 4.1660281329
+    },
+    "ability_reading_patience": {
+      "mean": 29.1259257382,
+      "std": 3.9353343644
+    },
+    "ability_reading_improvisation": {
+      "mean": 24.7624119315,
+      "std": 3.6498171647
+    },
+    "ability_reading_clarity": {
+      "mean": 21.1958902836,
+      "std": 4.3727579114
+    },
+    "ability_reading_endurance": {
+      "mean": 28.5569511325,
+      "std": 4.3676632213
+    },
+    "ability_reading_timing": {
+      "mean": 17.487048745,
+      "std": 3.3969181411
+    },
+    "ability_reading_intuition": {
+      "mean": 32.6610941357,
+      "std": 3.1863317248
+    },
+    "ability_reading_discipline": {
+      "mean": 25.6313050817,
+      "std": 4.1860231497
+    },
+    "ability_planning_instinct": {
+      "mean": 10.4767189349,
+      "std": 3.4743182102
+    },
+    "ability_planning_precision": {
+      "mean": 23.1909360356,
+      "std": 3.4482844712
+    },
+    "ability_planning_speed": {
+      "mean": 31.2563419217,
+      "std": 4.0555554084
+    },
+    "ability_planning_patience": {
+      "mean": 32.8333555427,
+      "std": 3.7294061828
+    },
+    "ability_planning_improvisation": {
+      "mean": 14.3384964856,
+      "std": 4.1479824655
+    },
+    "ability_planning_clarity": {
+      "mean": 14.4832563117,
+      "std": 3.6364126018
+    },
+    "ability_planning_endurance": {
+      "mean": 19.9374457758,
+      "std": 5.852329673
+    },
+    "ability_planning_timing": {
+      "mean": 26.0901893454,
+      "std": 3.9388323044
+    },
+    "ability_planning_intuition": {
+      "mean": 23.1657083934,
+      "std": 3.2259129918
+    },
+    "ability_planning_discipline": {
+      "mean": 15.4949467003,
+      "std": 4.227174796
+    },
+    "ability_explaining_instinct": {
+      "mean": 26.0238601154,
+      "std": 3.767973995
+    },
+    "ability_explaining_precision": {
+      "mean": 25.3101998813,
+      "std": 3.2055465427
+    },
+    "ability_explaining_speed": {
+      "mean": 19.2924066852,
+      "std": 4.0100533195
+    },
+    "ability_explaining_patience": {
+      "mean": 33.2682483286,
+      "std": 4.4939496153
+    },
+    "ability_explaining_improvisation": {
+      "mean": 13.6209489388,
+      "std": 3.5283475839
+    },
+    "ability_explaining_clarity": {
+      "mean": 27.8435101824,
+      "std": 3.3576004412
+    },
+    "ability_explaining_endurance": {
+      "mean": 24.8802311689,
+      "std": 3.6026402794
+    },
+    "ability_explaining_timing": {
+      "mean": 22.150876045,
+      "std": 3.2884444811
+    },
+    "ability_explaining_intuition": {
+      "mean": 31.4319611233,
+      "std": 3.9923301393
+    },
+    "ability_explaining_discipline": {
+      "mean": 23.2244370449,
+      "std": 3.6858369401
+    },
+    "ability_repairing_instinct": {
+      "mean": 17.9901453973,
+      "std": 4.8380052966
+    },
+    "ability_repairing_precision": {
+      "mean": 25.7362170272,
+      "std": 3.544617487
+    },
+    "ability_repairing_speed": {
+      "mean": 16.9958732334,
+      "std": 4.4132753939
+    },
+    "ability_repairing_patience": {
+      "mean": 21.6378109679,
+      "std": 3.5879065181
+    },
+    "ability_repairing_improvisation": {
+      "mean": 25.7399180772,
+      "std": 4.2986832148
+    },
+    "ability_repairing_clarity": {
+      "mean": 25.4902145407,
+      "std": 3.9636211559
+    },
+    "ability_repairing_endurance": {
+      "mean": 20.8954571666,
+      "std": 5.3562788513
+    },
+    "ability_repairing_timing": {
+      "mean": 11.9935280533,
+      "std": 3.3715611866
+    },
+    "ability_repairing_intuition": {
+      "mean": 22.8686624978,
+      "std": 3.9802310104
+    },
+    "ability_repairing_discipline": {
+      "mean": 28.4548754496,
+      "std": 5.2591966891
+    },
+    "ability_negotiating_instinct": {
+      "mean": 25.760373137,
+      "std": 3.8082168849
+    },
+    "ability_negotiating_precision": {
+      "mean": 20.0289491133,
+      "std": 3.8895253462
+    },
+    "ability_negotiating_speed": {
+      "mean": 29.2032120318,
+      "std": 3.2976375922
+    },
+    "ability_negotiating_patience": {
+      "mean": 28.6675107594,
+      "std": 4.6259557781
+    },
+    "ability_negotiating_improvisation": {
+      "mean": 27.8803064257,
+      "std": 3.8456248227
+    },
+    "ability_negotiating_clarity": {
+      "mean": 26.7389452445,
+      "std": 3.4029620249
+    },
+    "ability_negotiating_endurance": {
+      "mean": 15.7322313312,
+      "std": 5.1467488775
+    },
+    "ability_negotiating_timing": {
+      "mean": 15.9206187479,
+      "std": 2.5376318394
+    },
+    "ability_negotiating_intuition": {
+      "mean": 16.7155745551,
+      "std": 3.0402829847
+    },
+    "ability_negotiating_discipline": {
+      "mean": 20.2568688843,
+      "std": 2.9341153697
+    },
+    "ability_learning_instinct": {
+      "mean": 26.1450069971,
+      "std": 3.1174031591
+    },
+    "ability_learning_precision": {
+      "mean": 20.2507634297,
+      "std": 3.0441633522
+    },
+    "ability_learning_speed": {
+      "mean": 16.2769634343,
+      "std": 5.0129879338
+    },
+    "ability_learning_patience": {
+      "mean": 26.9338688368,
+      "std": 3.5690282731
+    },
+    "ability_learning_improvisation": {
+      "mean": 26.5650424117,
+      "std": 4.6831946005
+    },
+    "ability_learning_clarity": {
+      "mean": 32.6356865515,
+      "std": 3.3056996199
+    },
+    "ability_learning_endurance": {
+      "mean": 27.3498800135,
+      "std": 4.2822933787
+    },
+    "ability_learning_timing": {
+      "mean": 24.0294474824,
+      "std": 4.1472867065
+    },
+    "ability_learning_intuition": {
+      "mean": 22.1406999036,
+      "std": 3.7484264847
+    },
+    "ability_learning_discipline": {
+      "mean": 26.7637185124,
+      "std": 3.3072140428
+    },
+    "ability_organizing_instinct": {
+      "mean": 27.9118897063,
+      "std": 3.4099716066
+    },
+    "ability_organizing_precision": {
+      "mean": 20.5431557139,
+      "std": 4.3771748858
+    },
+    "ability_organizing_speed": {
+      "mean": 24.4323105108,
+      "std": 3.4909921853
+    },
+    "ability_organizing_patience": {
+      "mean": 36.143552072,
+      "std": 3.6466866634
+    },
+    "ability_organizing_improvisation": {
+      "mean": 15.7057615578,
+      "std": 5.861004512
+    },
+    "ability_organizing_clarity": {
+      "mean": 27.7351428018,
+      "std": 3.9634766429
+    },
+    "ability_organizing_endurance": {
+      "mean": 22.539505955,
+      "std": 4.0822127949
+    },
+    "ability_organizing_timing": {
+      "mean": 16.7398510165,
+      "std": 3.8180127395
+    },
+    "ability_organizing_intuition": {
+      "mean": 27.5486674962,
+      "std": 3.820152595
+    },
+    "ability_organizing_discipline": {
+      "mean": 24.6325867831,
+      "std": 3.0477355043
+    },
+    "ability_adapting_instinct": {
+      "mean": 24.8974532782,
+      "std": 5.2362308573
+    },
+    "ability_adapting_precision": {
+      "mean": 24.6151655545,
+      "std": 3.3101930541
+    },
+    "ability_adapting_speed": {
+      "mean": 28.3820863438,
+      "std": 3.9235164636
+    },
+    "ability_adapting_patience": {
+      "mean": 27.0468512149,
+      "std": 4.4242343246
+    },
+    "ability_adapting_improvisation": {
+      "mean": 22.1161813324,
+      "std": 3.7281738072
+    },
+    "ability_adapting_clarity": {
+      "mean": 22.1201663779,
+      "std": 3.7951740514
+    },
+    "ability_adapting_endurance": {
+      "mean": 26.3722797047,
+      "std": 3.9430761901
+    },
+    "ability_adapting_timing": {
+      "mean": 26.9182531627,
+      "std": 3.5296510693
+    },
+    "ability_adapting_intuition": {
+      "mean": 21.8215468129,
+      "std": 3.879993302
+    },
+    "ability_adapting_discipline": {
+      "mean": 25.5360045001,
+      "std": 3.2647099166
+    },
+    "ability_observing_instinct": {
+      "mean": 19.2037319639,
+      "std": 3.1720065142
+    },
+    "ability_observing_precision": {
+      "mean": 35.0408950501,
+      "std": 3.4728582011
+    },
+    "ability_observing_speed": {
+      "mean": 22.2376953605,
+      "std": 3.7685047945
+    },
+    "ability_observing_patience": {
+      "mean": 27.8355470043,
+      "std": 3.9662378863
+    },
+    "ability_observing_improvisation": {
+      "mean": 22.9641261132,
+      "std": 3.6582170323
+    },
+    "ability_observing_clarity": {
+      "mean": 26.5551880706,
+      "std": 3.8767374428
+    },
+    "ability_observing_endurance": {
+      "mean": 14.800948612,
+      "std": 3.3550002757
+    },
+    "ability_observing_timing": {
+      "mean": 30.7044300483,
+      "std": 3.9053286773
+    },
+    "ability_observing_intuition": {
+      "mean": 28.2241675053,
+      "std": 4.1106336047
+    },
+    "ability_observing_discipline": {
+      "mean": 12.4997617889,
+      "std": 3.6407575065
+    },
+    "ability_prioritizing_instinct": {
+      "mean": 24.2878568634,
+      "std": 2.892801811
+    },
+    "ability_prioritizing_precision": {
+      "mean": 23.992339135,
+      "std": 4.2268557461
+    },
+    "ability_prioritizing_speed": {
+      "mean": 30.438216201,
+      "std": 4.1542509755
+    },
+    "ability_prioritizing_patience": {
+      "mean": 25.2078519762,
+      "std": 3.7447699637
+    },
+    "ability_prioritizing_improvisation": {
+      "mean": 17.7235509947,
+      "std": 3.5296817805
+    },
+    "ability_prioritizing_clarity": {
+      "mean": 14.6599957611,
+      "std": 2.9838360575
+    },
+    "ability_prioritizing_endurance": {
+      "mean": 30.2284648553,
+      "std": 4.4205918713
+    },
+    "ability_prioritizing_timing": {
+      "mean": 27.5373483176,
+      "std": 3.811858816
+    },
+    "ability_prioritizing_intuition": {
+      "mean": 29.3511815477,
+      "std": 3.3991540743
+    },
+    "ability_prioritizing_discipline": {
+      "mean": 20.5815098266,
+      "std": 3.5196600109
+    },
+    "ability_debugging_instinct": {
+      "mean": 23.2358697636,
+      "std": 3.4145741063
+    },
+    "ability_debugging_precision": {
+      "mean": 18.3310032989,
+      "std": 4.0905278458
+    },
+    "ability_debugging_speed": {
+      "mean": 28.1293243236,
+      "std": 3.3805719086
+    },
+    "ability_debugging_patience": {
+      "mean": 14.7052627244,
+      "std": 3.5000421246
+    },
+    "ability_debugging_improvisation": {
+      "mean": 18.743160637,
+      "std": 4.1996995133
+    },
+    "ability_debugging_clarity": {
+      "mean": 22.5502889765,
+      "std": 4.3312973897
+    },
+    "ability_debugging_endurance": {
+      "mean": 23.8137065382,
+      "std": 3.268143853
+    },
+    "ability_debugging_timing": {
+      "mean": 20.9868647024,
+      "std": 3.5147968123
+    },
+    "ability_debugging_intuition": {
+      "mean": 21.6745310906,
+      "std": 3.7646773217
+    },
+    "ability_debugging_discipline": {
+      "mean": 33.6183071334,
+      "std": 3.4761106832
+    },
+    "ability_teaching_instinct": {
+      "mean": 32.1336642568,
+      "std": 4.8038551979
+    },
+    "ability_teaching_precision": {
+      "mean": 23.3427651653,
+      "std": 4.4319910243
+    },
+    "ability_teaching_speed": {
+      "mean": 22.129109416,
+      "std": 3.8656780074
+    },
+    "ability_teaching_patience": {
+      "mean": 11.6609087754,
+      "std": 3.6706466095
+    },
+    "ability_teaching_improvisation": {
+      "mean": 31.4263096053,
+      "std": 3.7736124945
+    },
+    "ability_teaching_clarity": {
+      "mean": 18.7626381838,
+      "std": 2.9467431257
+    },
+    "ability_teaching_endurance": {
+      "mean": 25.4051271486,
+      "std": 4.8194395835
+    },
+    "ability_teaching_timing": {
+      "mean": 26.473072347,
+      "std": 3.1064965013
+    },
+    "ability_teaching_intuition": {
+      "mean": 25.6882679451,
+      "std": 3.8375000516
+    },
+    "ability_teaching_discipline": {
+      "mean": 24.4388383967,
+      "std": 4.2533153134
+    }
+  },
+  "workStyles": {
+    "workstyle_sprint_vanish": {
+      "mean": 19.196217638,
+      "std": 6.2372697069
+    },
+    "workstyle_gantt_chart": {
+      "mean": 32.398864534,
+      "std": 6.5518254636
+    },
+    "workstyle_last_night_genius": {
+      "mean": 23.1083292945,
+      "std": 5.8506163963
+    },
+    "workstyle_delegates_everything": {
+      "mean": 32.3225473663,
+      "std": 5.7955208351
+    },
+    "workstyle_silent_fixer": {
+      "mean": 22.6134613593,
+      "std": 4.8733407793
+    },
+    "workstyle_quick_call": {
+      "mean": 22.7983029935,
+      "std": 5.1362224074
+    },
+    "workstyle_night_owl": {
+      "mean": 26.5803838316,
+      "std": 4.8259061704
+    },
+    "workstyle_calm_anchor": {
+      "mean": 27.3189105813,
+      "std": 5.7928330419
+    },
+    "workstyle_perfectionist_polish": {
+      "mean": 28.4081167331,
+      "std": 6.1623861998
+    },
+    "workstyle_delegator_supreme": {
+      "mean": 17.0156586996,
+      "std": 6.5201538085
+    },
+    "workstyle_improvises_confidently": {
+      "mean": 23.9619514969,
+      "std": 5.5244574809
+    },
+    "workstyle_reply_all_villain": {
+      "mean": 29.1872745324,
+      "std": 5.7945000101
+    },
+    "workstyle_snack_powered": {
+      "mean": 27.7064744353,
+      "std": 4.8941619339
+    },
+    "workstyle_tab_hoarder": {
+      "mean": 20.7060160151,
+      "std": 5.4589610535
+    },
+    "workstyle_tabs_everywhere": {
+      "mean": 18.8948393612,
+      "std": 5.9428024967
+    },
+    "workstyle_calendar_tetris": {
+      "mean": 12.9992020102,
+      "std": 4.3415295804
+    },
+    "workstyle_last_minute_clean": {
+      "mean": 20.2126021684,
+      "std": 5.8615620429
+    },
+    "workstyle_one_clean_notebook": {
+      "mean": 20.3735447049,
+      "std": 4.2378008633
+    },
+    "workstyle_inbox_zeroish": {
+      "mean": 18.0597464199,
+      "std": 5.4670887362
+    },
+    "workstyle_focus_music": {
+      "mean": 21.7235289481,
+      "std": 4.5424440603
+    },
+    "workstyle_postit_ecosystem": {
+      "mean": 13.4423915701,
+      "std": 4.1127028676
+    },
+    "workstyle_meeting_notes": {
+      "mean": 18.2626569767,
+      "std": 5.20511327
+    },
+    "workstyle_deep_work_ghost": {
+      "mean": 25.1794222411,
+      "std": 4.9697025671
+    },
+    "workstyle_pomodoro_negotiator": {
+      "mean": 11.9578873206,
+      "std": 3.8471260478
+    },
+    "workstyle_reply_later": {
+      "mean": 17.1629990701,
+      "std": 3.6465746833
+    },
+    "workstyle_clean_desk_chaos": {
+      "mean": 11.7490131141,
+      "std": 3.8641427049
+    },
+    "workstyle_lunch_break_solver": {
+      "mean": 13.0070306109,
+      "std": 3.7150529859
+    },
+    "workstyle_checklist_dopamine": {
+      "mean": 19.9858693397,
+      "std": 5.5599167921
+    },
+    "workstyle_async_evangelist": {
+      "mean": 18.9352528627,
+      "std": 4.0039993786
+    },
+    "workstyle_version_name_artist": {
+      "mean": 16.9175663413,
+      "std": 5.8540410905
+    },
+    "workstyle_sprint_planner": {
+      "mean": 22.8139430916,
+      "std": 3.7500489704
+    },
+    "workstyle_sprint_improviser": {
+      "mean": 19.7915338278,
+      "std": 4.3447207901
+    },
+    "workstyle_sprint_collaborator": {
+      "mean": 29.3243307574,
+      "std": 4.2869028017
+    },
+    "workstyle_sprint_soloist": {
+      "mean": 12.8963281566,
+      "std": 3.6536420293
+    },
+    "workstyle_sprint_optimizer": {
+      "mean": 32.2395433277,
+      "std": 3.2990452186
+    },
+    "workstyle_sprint_finisher": {
+      "mean": 14.2137049941,
+      "std": 3.5496634124
+    },
+    "workstyle_sprint_explorer": {
+      "mean": 20.3047139418,
+      "std": 4.6562955671
+    },
+    "workstyle_sprint_coordinator": {
+      "mean": 30.5631379364,
+      "std": 3.9375770233
+    },
+    "workstyle_sprint_maker": {
+      "mean": 17.642795598,
+      "std": 4.9116901524
+    },
+    "workstyle_sprint_reviewer": {
+      "mean": 21.1084825528,
+      "std": 3.3375067016
+    },
+    "workstyle_steady_planner": {
+      "mean": 28.8370743098,
+      "std": 3.4284625203
+    },
+    "workstyle_steady_improviser": {
+      "mean": 18.1927353665,
+      "std": 3.646052187
+    },
+    "workstyle_steady_collaborator": {
+      "mean": 20.2643754401,
+      "std": 4.8000240996
+    },
+    "workstyle_steady_soloist": {
+      "mean": 17.1599664812,
+      "std": 4.1608232795
+    },
+    "workstyle_steady_optimizer": {
+      "mean": 22.4975597425,
+      "std": 3.7825016811
+    },
+    "workstyle_steady_finisher": {
+      "mean": 27.656319551,
+      "std": 3.4343197617
+    },
+    "workstyle_steady_explorer": {
+      "mean": 30.7983469613,
+      "std": 3.0580469449
+    },
+    "workstyle_steady_coordinator": {
+      "mean": 21.1097400046,
+      "std": 3.442070637
+    },
+    "workstyle_steady_maker": {
+      "mean": 28.2917523089,
+      "std": 3.0646508159
+    },
+    "workstyle_steady_reviewer": {
+      "mean": 16.6268085257,
+      "std": 3.0325910124
+    },
+    "workstyle_deep_focus_planner": {
+      "mean": 15.2177249733,
+      "std": 4.5167148797
+    },
+    "workstyle_deep_focus_improviser": {
+      "mean": 15.0789295523,
+      "std": 4.1099919168
+    },
+    "workstyle_deep_focus_collaborator": {
+      "mean": 21.4914663102,
+      "std": 4.0349439284
+    },
+    "workstyle_deep_focus_soloist": {
+      "mean": 21.9455833993,
+      "std": 3.6406513973
+    },
+    "workstyle_deep_focus_optimizer": {
+      "mean": 30.3854699404,
+      "std": 4.1068540072
+    },
+    "workstyle_deep_focus_finisher": {
+      "mean": 23.4941937653,
+      "std": 3.7870238076
+    },
+    "workstyle_deep_focus_explorer": {
+      "mean": 30.0184442779,
+      "std": 4.3797735635
+    },
+    "workstyle_deep_focus_coordinator": {
+      "mean": 20.6400793922,
+      "std": 4.6511449503
+    },
+    "workstyle_deep_focus_maker": {
+      "mean": 27.5291237396,
+      "std": 3.9428550735
+    },
+    "workstyle_deep_focus_reviewer": {
+      "mean": 24.6167351465,
+      "std": 5.1839123638
+    },
+    "workstyle_social_planner": {
+      "mean": 28.9966422442,
+      "std": 3.6936966885
+    },
+    "workstyle_social_improviser": {
+      "mean": 29.0407597019,
+      "std": 3.6123795393
+    },
+    "workstyle_social_collaborator": {
+      "mean": 23.4324802898,
+      "std": 3.7433831582
+    },
+    "workstyle_social_soloist": {
+      "mean": 20.8999696662,
+      "std": 4.0744800836
+    },
+    "workstyle_social_optimizer": {
+      "mean": 30.6985503675,
+      "std": 3.6722688719
+    },
+    "workstyle_social_finisher": {
+      "mean": 27.3652794968,
+      "std": 3.6495750521
+    },
+    "workstyle_social_explorer": {
+      "mean": 32.0599365917,
+      "std": 4.671084714
+    },
+    "workstyle_social_coordinator": {
+      "mean": 15.2169929156,
+      "std": 3.3991837166
+    },
+    "workstyle_social_maker": {
+      "mean": 29.821274173,
+      "std": 4.4852476744
+    },
+    "workstyle_social_reviewer": {
+      "mean": 27.9383722481,
+      "std": 3.46682604
+    },
+    "workstyle_night_owl_planner": {
+      "mean": 18.3631752132,
+      "std": 3.4847576803
+    },
+    "workstyle_night_owl_improviser": {
+      "mean": 34.3392732042,
+      "std": 3.3776464896
+    },
+    "workstyle_night_owl_collaborator": {
+      "mean": 31.3480662816,
+      "std": 3.4923817669
+    },
+    "workstyle_night_owl_soloist": {
+      "mean": 26.8688008121,
+      "std": 4.3323107291
+    },
+    "workstyle_night_owl_optimizer": {
+      "mean": 24.6378960839,
+      "std": 6.006164602
+    },
+    "workstyle_night_owl_finisher": {
+      "mean": 32.6005975335,
+      "std": 4.1752405669
+    },
+    "workstyle_night_owl_explorer": {
+      "mean": 18.7867886751,
+      "std": 3.1743804559
+    },
+    "workstyle_night_owl_coordinator": {
+      "mean": 31.4471077373,
+      "std": 3.8872104343
+    },
+    "workstyle_night_owl_maker": {
+      "mean": 32.8011410833,
+      "std": 3.5446739815
+    },
+    "workstyle_night_owl_reviewer": {
+      "mean": 15.2318665136,
+      "std": 4.0086143713
+    },
+    "workstyle_early_bird_planner": {
+      "mean": 20.7094046,
+      "std": 4.3957730964
+    },
+    "workstyle_early_bird_improviser": {
+      "mean": 23.1950512119,
+      "std": 3.4992860146
+    },
+    "workstyle_early_bird_collaborator": {
+      "mean": 27.9301014632,
+      "std": 4.9798325529
+    },
+    "workstyle_early_bird_soloist": {
+      "mean": 24.7143237015,
+      "std": 5.6073494015
+    },
+    "workstyle_early_bird_optimizer": {
+      "mean": 26.9913970502,
+      "std": 3.9563980181
+    },
+    "workstyle_early_bird_finisher": {
+      "mean": 25.8789214512,
+      "std": 3.5496893557
+    },
+    "workstyle_early_bird_explorer": {
+      "mean": 13.6114130271,
+      "std": 3.2051201858
+    },
+    "workstyle_early_bird_coordinator": {
+      "mean": 33.7156191318,
+      "std": 4.5037680403
+    },
+    "workstyle_early_bird_maker": {
+      "mean": 21.2490102747,
+      "std": 3.1497030041
+    },
+    "workstyle_early_bird_reviewer": {
+      "mean": 21.3693355106,
+      "std": 4.032026765
+    },
+    "workstyle_batch_planner": {
+      "mean": 18.8359580378,
+      "std": 3.126044593
+    },
+    "workstyle_batch_improviser": {
+      "mean": 13.5086992566,
+      "std": 3.5573619992
+    },
+    "workstyle_batch_collaborator": {
+      "mean": 20.6059899505,
+      "std": 3.276138707
+    },
+    "workstyle_batch_soloist": {
+      "mean": 27.4995384325,
+      "std": 3.4714683732
+    },
+    "workstyle_batch_optimizer": {
+      "mean": 20.9056909739,
+      "std": 4.3142274209
+    },
+    "workstyle_batch_finisher": {
+      "mean": 24.8507950912,
+      "std": 3.8245657711
+    },
+    "workstyle_batch_explorer": {
+      "mean": 17.9476121341,
+      "std": 3.2818331286
+    },
+    "workstyle_batch_coordinator": {
+      "mean": 27.9272301343,
+      "std": 3.9266890663
+    },
+    "workstyle_batch_maker": {
+      "mean": 30.9001019427,
+      "std": 3.6945189036
+    },
+    "workstyle_batch_reviewer": {
+      "mean": 20.9151709334,
+      "std": 3.5390904897
+    },
+    "workstyle_reactive_planner": {
+      "mean": 25.5519634775,
+      "std": 5.3463952758
+    },
+    "workstyle_reactive_improviser": {
+      "mean": 20.7913637513,
+      "std": 3.1683350037
+    },
+    "workstyle_reactive_collaborator": {
+      "mean": 17.5482810478,
+      "std": 3.2245948999
+    },
+    "workstyle_reactive_soloist": {
+      "mean": 20.5393211795,
+      "std": 3.3733789421
+    },
+    "workstyle_reactive_optimizer": {
+      "mean": 25.5869664006,
+      "std": 3.7831746477
+    },
+    "workstyle_reactive_finisher": {
+      "mean": 16.2646631208,
+      "std": 3.6830236989
+    },
+    "workstyle_reactive_explorer": {
+      "mean": 22.0643997253,
+      "std": 3.2461574353
+    },
+    "workstyle_reactive_coordinator": {
+      "mean": 29.9812611629,
+      "std": 3.4168497794
+    },
+    "workstyle_reactive_maker": {
+      "mean": 17.8397408717,
+      "std": 3.7736952221
+    },
+    "workstyle_reactive_reviewer": {
+      "mean": 25.0493022702,
+      "std": 3.596586684
+    },
+    "workstyle_ritual_planner": {
+      "mean": 34.9376741223,
+      "std": 3.5402420246
+    },
+    "workstyle_ritual_improviser": {
+      "mean": 25.4154415964,
+      "std": 4.0925690945
+    },
+    "workstyle_ritual_collaborator": {
+      "mean": 22.3212174889,
+      "std": 3.9601704274
+    },
+    "workstyle_ritual_soloist": {
+      "mean": 15.1426825284,
+      "std": 4.1097338735
+    },
+    "workstyle_ritual_optimizer": {
+      "mean": 30.4192648643,
+      "std": 3.4217585801
+    },
+    "workstyle_ritual_finisher": {
+      "mean": 24.1470539151,
+      "std": 3.5578594531
+    },
+    "workstyle_ritual_explorer": {
+      "mean": 25.4670352676,
+      "std": 5.6107356629
+    },
+    "workstyle_ritual_coordinator": {
+      "mean": 24.6192741985,
+      "std": 3.4515515266
+    },
+    "workstyle_ritual_maker": {
+      "mean": 20.2117835799,
+      "std": 3.5934330643
+    },
+    "workstyle_ritual_reviewer": {
+      "mean": 21.0724992038,
+      "std": 4.5525967653
+    },
+    "workstyle_async_planner": {
+      "mean": 19.3525581262,
+      "std": 3.6274555784
+    },
+    "workstyle_async_improviser": {
+      "mean": 34.1116388847,
+      "std": 4.4054030385
+    },
+    "workstyle_async_collaborator": {
+      "mean": 27.2356103194,
+      "std": 3.6107649966
+    },
+    "workstyle_async_soloist": {
+      "mean": 29.7530522689,
+      "std": 5.671880701
+    },
+    "workstyle_async_optimizer": {
+      "mean": 21.2909702908,
+      "std": 3.1743583197
+    },
+    "workstyle_async_finisher": {
+      "mean": 24.1358631526,
+      "std": 3.938502238
+    },
+    "workstyle_async_explorer": {
+      "mean": 21.6410058875,
+      "std": 4.2189229486
+    },
+    "workstyle_async_coordinator": {
+      "mean": 18.3914454108,
+      "std": 3.3611990471
+    },
+    "workstyle_async_maker": {
+      "mean": 21.8488820805,
+      "std": 3.5593920593
+    },
+    "workstyle_async_reviewer": {
+      "mean": 16.4914986844,
+      "std": 4.627114775
+    },
+    "workstyle_deadline_planner": {
+      "mean": 17.8170790446,
+      "std": 3.8723805321
+    },
+    "workstyle_deadline_improviser": {
+      "mean": 21.1797649852,
+      "std": 3.5987944979
+    },
+    "workstyle_deadline_collaborator": {
+      "mean": 24.3962120998,
+      "std": 4.8497273309
+    },
+    "workstyle_deadline_soloist": {
+      "mean": 28.7999524148,
+      "std": 3.6167643326
+    },
+    "workstyle_deadline_optimizer": {
+      "mean": 30.1268095004,
+      "std": 3.0321690797
+    },
+    "workstyle_deadline_finisher": {
+      "mean": 22.5931230707,
+      "std": 4.2260966916
+    },
+    "workstyle_deadline_explorer": {
+      "mean": 32.0920275496,
+      "std": 3.4754550429
+    },
+    "workstyle_deadline_coordinator": {
+      "mean": 17.1025439462,
+      "std": 4.5517173207
+    },
+    "workstyle_deadline_maker": {
+      "mean": 22.1927995482,
+      "std": 3.6008366916
+    },
+    "workstyle_deadline_reviewer": {
+      "mean": 26.0121890732,
+      "std": 3.5332213282
+    },
+    "workstyle_flow_planner": {
+      "mean": 20.9697516947,
+      "std": 3.1619557019
+    },
+    "workstyle_flow_improviser": {
+      "mean": 15.651012193,
+      "std": 3.8582803596
+    },
+    "workstyle_flow_collaborator": {
+      "mean": 12.389111672,
+      "std": 3.479915513
+    },
+    "workstyle_flow_soloist": {
+      "mean": 31.2245275404,
+      "std": 2.9689279568
+    },
+    "workstyle_flow_optimizer": {
+      "mean": 25.7314632074,
+      "std": 6.2612898994
+    },
+    "workstyle_flow_finisher": {
+      "mean": 19.8527176736,
+      "std": 3.0548782253
+    },
+    "workstyle_flow_explorer": {
+      "mean": 27.9283876544,
+      "std": 4.1461805347
+    },
+    "workstyle_flow_coordinator": {
+      "mean": 30.1171693438,
+      "std": 4.8502145023
+    },
+    "workstyle_flow_maker": {
+      "mean": 23.6446720771,
+      "std": 3.3995831657
+    },
+    "workstyle_flow_reviewer": {
+      "mean": 27.5687924202,
+      "std": 5.036816239
+    }
+  },
+  "animals": {
+    "animal_raccoon": {
+      "mean": 22.0022850284,
+      "std": 5.6516544949
+    },
+    "animal_cat": {
+      "mean": 21.0668244722,
+      "std": 6.1810809458
+    },
+    "animal_golden_retriever": {
+      "mean": 28.8618458044,
+      "std": 6.0948631455
+    },
+    "animal_crow": {
+      "mean": 22.4259415566,
+      "std": 5.1244165814
+    },
+    "animal_owl": {
+      "mean": 23.6718408324,
+      "std": 4.6169439685
+    },
+    "animal_fox": {
+      "mean": 15.0569283362,
+      "std": 4.4613398299
+    },
+    "animal_turtle": {
+      "mean": 35.2600992201,
+      "std": 7.8931285298
+    },
+    "animal_octopus": {
+      "mean": 31.0677170634,
+      "std": 4.8355270102
+    },
+    "animal_meerkat": {
+      "mean": 14.1725224273,
+      "std": 4.3048772396
+    },
+    "animal_pigeon": {
+      "mean": 17.5367408649,
+      "std": 4.163739886
+    },
+    "animal_goat": {
+      "mean": 13.3042934643,
+      "std": 3.4827706521
+    },
+    "animal_duck": {
+      "mean": 14.2336694459,
+      "std": 3.5066134809
+    },
+    "animal_office_raccoon": {
+      "mean": 10.785786366,
+      "std": 3.3632592031
+    },
+    "animal_pigeon_manager": {
+      "mean": 12.705994048,
+      "std": 3.7611896059
+    },
+    "animal_capable_capibara": {
+      "mean": 17.0723207556,
+      "std": 4.3081959122
+    },
+    "animal_red_panda": {
+      "mean": 18.199891264,
+      "std": 4.4156043729
+    },
+    "animal_border_collie": {
+      "mean": 19.4951347046,
+      "std": 4.1583307767
+    },
+    "animal_hedgehog": {
+      "mean": 22.1432452498,
+      "std": 4.8568522531
+    },
+    "animal_otter": {
+      "mean": 16.0139425805,
+      "std": 3.794756781
+    },
+    "animal_bear": {
+      "mean": 23.4247032215,
+      "std": 4.6871371846
+    },
+    "animal_squirrel": {
+      "mean": 17.5640023357,
+      "std": 5.9447814048
+    },
+    "animal_penguin": {
+      "mean": 17.4137256086,
+      "std": 3.8819856294
+    },
+    "animal_ferret": {
+      "mean": 13.4554125098,
+      "std": 3.4847120671
+    },
+    "animal_elephant": {
+      "mean": 18.1082701145,
+      "std": 3.4600412514
+    },
+    "animal_gecko": {
+      "mean": 13.7101695717,
+      "std": 3.4152684106
+    },
+    "animal_beaver": {
+      "mean": 18.4420562343,
+      "std": 5.1612666904
+    },
+    "animal_shiba": {
+      "mean": 21.8810453873,
+      "std": 4.8376375182
+    },
+    "animal_ant": {
+      "mean": 19.8707566621,
+      "std": 4.9527266911
+    },
+    "animal_alpaca": {
+      "mean": 15.5064052656,
+      "std": 4.2747102522
+    },
+    "animal_dolphin": {
+      "mean": 17.2122030457,
+      "std": 3.7543465894
+    },
+    "animal_arctic_fox": {
+      "mean": 23.3024174893,
+      "std": 3.9092474749
+    },
+    "animal_arctic_wolf": {
+      "mean": 28.8580069188,
+      "std": 3.7234450905
+    },
+    "animal_arctic_owl": {
+      "mean": 19.1980845244,
+      "std": 4.3838248818
+    },
+    "animal_arctic_otter": {
+      "mean": 27.8249279686,
+      "std": 3.7055233829
+    },
+    "animal_arctic_falcon": {
+      "mean": 30.1279325798,
+      "std": 3.9662742968
+    },
+    "animal_arctic_lynx": {
+      "mean": 23.5384252274,
+      "std": 3.4403354218
+    },
+    "animal_arctic_bear": {
+      "mean": 19.5238289341,
+      "std": 4.9282099948
+    },
+    "animal_arctic_rabbit": {
+      "mean": 28.3078610165,
+      "std": 6.8198893934
+    },
+    "animal_arctic_raven": {
+      "mean": 26.2145076334,
+      "std": 3.1520352481
+    },
+    "animal_arctic_gecko": {
+      "mean": 16.3012187703,
+      "std": 3.0958703573
+    },
+    "animal_arctic_dolphin": {
+      "mean": 28.4765227742,
+      "std": 3.1113444075
+    },
+    "animal_arctic_turtle": {
+      "mean": 25.8736540244,
+      "std": 4.1329748072
+    },
+    "animal_arctic_badger": {
+      "mean": 22.3972500429,
+      "std": 3.819937676
+    },
+    "animal_arctic_heron": {
+      "mean": 14.3199858882,
+      "std": 4.107707085
+    },
+    "animal_desert_fox": {
+      "mean": 14.9496652943,
+      "std": 3.6508338212
+    },
+    "animal_desert_wolf": {
+      "mean": 26.6370271173,
+      "std": 4.2381583679
+    },
+    "animal_desert_owl": {
+      "mean": 22.7712272989,
+      "std": 2.9927157071
+    },
+    "animal_desert_otter": {
+      "mean": 25.6639312686,
+      "std": 4.1776235481
+    },
+    "animal_desert_falcon": {
+      "mean": 16.4606883285,
+      "std": 4.4609337309
+    },
+    "animal_desert_lynx": {
+      "mean": 16.5372776188,
+      "std": 3.7997555568
+    },
+    "animal_desert_bear": {
+      "mean": 25.4448319705,
+      "std": 4.0523202396
+    },
+    "animal_desert_rabbit": {
+      "mean": 24.6445980658,
+      "std": 3.3864813853
+    },
+    "animal_desert_raven": {
+      "mean": 24.2263370271,
+      "std": 3.0114372398
+    },
+    "animal_desert_gecko": {
+      "mean": 20.0864537384,
+      "std": 4.9223987596
+    },
+    "animal_desert_dolphin": {
+      "mean": 27.5943607446,
+      "std": 4.5201764455
+    },
+    "animal_desert_turtle": {
+      "mean": 34.361530767,
+      "std": 2.9900596454
+    },
+    "animal_desert_badger": {
+      "mean": 21.8372061531,
+      "std": 4.017818325
+    },
+    "animal_desert_heron": {
+      "mean": 28.5039742187,
+      "std": 4.3855357417
+    },
+    "animal_forest_fox": {
+      "mean": 13.7737439315,
+      "std": 3.7486892965
+    },
+    "animal_forest_wolf": {
+      "mean": 22.474176045,
+      "std": 4.0556780481
+    },
+    "animal_forest_owl": {
+      "mean": 22.1653579636,
+      "std": 4.1768472572
+    },
+    "animal_forest_otter": {
+      "mean": 24.963791959,
+      "std": 4.8272035757
+    },
+    "animal_forest_falcon": {
+      "mean": 24.680928707,
+      "std": 4.0536092755
+    },
+    "animal_forest_lynx": {
+      "mean": 27.7267281149,
+      "std": 3.679896472
+    },
+    "animal_forest_bear": {
+      "mean": 31.0336592435,
+      "std": 4.4684916124
+    },
+    "animal_forest_rabbit": {
+      "mean": 26.5550697502,
+      "std": 3.5087410701
+    },
+    "animal_forest_raven": {
+      "mean": 20.1805502761,
+      "std": 3.2731168458
+    },
+    "animal_forest_gecko": {
+      "mean": 24.827260295,
+      "std": 3.3491928744
+    },
+    "animal_forest_dolphin": {
+      "mean": 26.0707185661,
+      "std": 4.1442796054
+    },
+    "animal_forest_turtle": {
+      "mean": 25.2526777968,
+      "std": 3.5674286856
+    },
+    "animal_forest_badger": {
+      "mean": 23.1373236846,
+      "std": 3.3538867079
+    },
+    "animal_forest_heron": {
+      "mean": 24.1736227547,
+      "std": 4.4339064319
+    },
+    "animal_mountain_fox": {
+      "mean": 22.3928339357,
+      "std": 4.2243770739
+    },
+    "animal_mountain_wolf": {
+      "mean": 25.8457512031,
+      "std": 5.8065300667
+    },
+    "animal_mountain_owl": {
+      "mean": 23.422536517,
+      "std": 5.1506763093
+    },
+    "animal_mountain_otter": {
+      "mean": 22.4097593657,
+      "std": 3.809400019
+    },
+    "animal_mountain_falcon": {
+      "mean": 21.7773033427,
+      "std": 3.8716438094
+    },
+    "animal_mountain_lynx": {
+      "mean": 30.1534780433,
+      "std": 3.7935500383
+    },
+    "animal_mountain_bear": {
+      "mean": 22.2572604555,
+      "std": 3.4207480197
+    },
+    "animal_mountain_rabbit": {
+      "mean": 19.2891363756,
+      "std": 5.6712977249
+    },
+    "animal_mountain_raven": {
+      "mean": 21.0712123015,
+      "std": 3.3799751694
+    },
+    "animal_mountain_gecko": {
+      "mean": 25.1258617921,
+      "std": 3.7050572473
+    },
+    "animal_mountain_dolphin": {
+      "mean": 15.1530472982,
+      "std": 3.839026037
+    },
+    "animal_mountain_turtle": {
+      "mean": 29.6482369658,
+      "std": 3.8073838114
+    },
+    "animal_mountain_badger": {
+      "mean": 17.7186614619,
+      "std": 3.6946054368
+    },
+    "animal_mountain_heron": {
+      "mean": 25.4310025457,
+      "std": 4.0819308569
+    },
+    "animal_river_fox": {
+      "mean": 29.8829310792,
+      "std": 4.1672705032
+    },
+    "animal_river_wolf": {
+      "mean": 23.5796615724,
+      "std": 3.2034216289
+    },
+    "animal_river_owl": {
+      "mean": 24.2534657374,
+      "std": 4.0760904136
+    },
+    "animal_river_otter": {
+      "mean": 30.5885110355,
+      "std": 4.5799871866
+    },
+    "animal_river_falcon": {
+      "mean": 30.1876418185,
+      "std": 4.348403704
+    },
+    "animal_river_lynx": {
+      "mean": 24.2062984599,
+      "std": 3.6678006404
+    },
+    "animal_river_bear": {
+      "mean": 25.6149137753,
+      "std": 3.7422042011
+    },
+    "animal_river_rabbit": {
+      "mean": 26.561731528,
+      "std": 3.2817868462
+    },
+    "animal_river_raven": {
+      "mean": 15.2471439115,
+      "std": 3.9686844012
+    },
+    "animal_river_gecko": {
+      "mean": 29.6016422023,
+      "std": 4.5877320754
+    },
+    "animal_river_dolphin": {
+      "mean": 19.8093980085,
+      "std": 4.9684810428
+    },
+    "animal_river_turtle": {
+      "mean": 28.2761067394,
+      "std": 3.864602739
+    },
+    "animal_river_badger": {
+      "mean": 27.5293568237,
+      "std": 4.1230655511
+    },
+    "animal_river_heron": {
+      "mean": 26.8215659548,
+      "std": 5.8292823801
+    },
+    "animal_coastal_fox": {
+      "mean": 23.2952205702,
+      "std": 2.6505304977
+    },
+    "animal_coastal_wolf": {
+      "mean": 28.5176461077,
+      "std": 4.5884151739
+    },
+    "animal_coastal_owl": {
+      "mean": 26.9211435196,
+      "std": 3.7775668889
+    },
+    "animal_coastal_otter": {
+      "mean": 20.6335626839,
+      "std": 4.1859786951
+    },
+    "animal_coastal_falcon": {
+      "mean": 23.7618006816,
+      "std": 4.7072283105
+    },
+    "animal_coastal_lynx": {
+      "mean": 20.3637065233,
+      "std": 4.1553206813
+    },
+    "animal_coastal_bear": {
+      "mean": 20.3437855542,
+      "std": 4.8937840838
+    },
+    "animal_coastal_rabbit": {
+      "mean": 20.5866793494,
+      "std": 3.9759896085
+    },
+    "animal_coastal_raven": {
+      "mean": 24.1545728876,
+      "std": 3.9250743455
+    },
+    "animal_coastal_gecko": {
+      "mean": 25.1739907971,
+      "std": 3.7301149239
+    },
+    "animal_coastal_dolphin": {
+      "mean": 31.2364408891,
+      "std": 3.0901915657
+    },
+    "animal_coastal_turtle": {
+      "mean": 24.5216219565,
+      "std": 4.0468798625
+    },
+    "animal_coastal_badger": {
+      "mean": 21.8896172848,
+      "std": 3.2259605998
+    },
+    "animal_coastal_heron": {
+      "mean": 28.958337351,
+      "std": 3.9823039227
+    },
+    "animal_storm_fox": {
+      "mean": 25.703508777,
+      "std": 4.0828768307
+    },
+    "animal_storm_wolf": {
+      "mean": 23.9588942699,
+      "std": 3.5627468844
+    },
+    "animal_storm_owl": {
+      "mean": 24.2469604227,
+      "std": 3.5389292531
+    },
+    "animal_storm_otter": {
+      "mean": 23.4140871735,
+      "std": 4.9165847054
+    },
+    "animal_storm_falcon": {
+      "mean": 29.637160081,
+      "std": 3.8179508899
+    },
+    "animal_storm_lynx": {
+      "mean": 25.0923268612,
+      "std": 4.0391099711
+    },
+    "animal_storm_bear": {
+      "mean": 27.7250270534,
+      "std": 3.3441692869
+    },
+    "animal_storm_rabbit": {
+      "mean": 29.2210045135,
+      "std": 3.3495624427
+    },
+    "animal_storm_raven": {
+      "mean": 16.7627323655,
+      "std": 3.4242795312
+    },
+    "animal_storm_gecko": {
+      "mean": 23.7915647282,
+      "std": 3.6474179612
+    },
+    "animal_storm_dolphin": {
+      "mean": 24.9231331049,
+      "std": 4.9825772686
+    },
+    "animal_storm_turtle": {
+      "mean": 30.3378366805,
+      "std": 3.6341086315
+    },
+    "animal_storm_badger": {
+      "mean": 24.127573656,
+      "std": 6.2427464156
+    },
+    "animal_storm_heron": {
+      "mean": 27.7444540572,
+      "std": 3.9198157784
+    },
+    "animal_midnight_fox": {
+      "mean": 22.3569464352,
+      "std": 3.8391604236
+    },
+    "animal_midnight_wolf": {
+      "mean": 21.1471488873,
+      "std": 3.2581324823
+    },
+    "animal_midnight_owl": {
+      "mean": 31.2357732891,
+      "std": 4.1928475243
+    },
+    "animal_midnight_otter": {
+      "mean": 17.7620437946,
+      "std": 2.5619296577
+    },
+    "animal_midnight_falcon": {
+      "mean": 25.149041748,
+      "std": 3.4242443189
+    },
+    "animal_midnight_lynx": {
+      "mean": 29.4121315973,
+      "std": 4.1147233487
+    },
+    "animal_midnight_bear": {
+      "mean": 27.2636409822,
+      "std": 5.3582261113
+    },
+    "animal_midnight_rabbit": {
+      "mean": 22.4428645906,
+      "std": 3.8398149652
+    },
+    "animal_midnight_raven": {
+      "mean": 26.803479093,
+      "std": 3.8281986855
+    },
+    "animal_midnight_gecko": {
+      "mean": 27.8402078891,
+      "std": 3.5337550412
+    },
+    "animal_midnight_dolphin": {
+      "mean": 18.5248378006,
+      "std": 3.7905581553
+    },
+    "animal_midnight_turtle": {
+      "mean": 30.4061864574,
+      "std": 3.5009544108
+    },
+    "animal_midnight_badger": {
+      "mean": 25.4248171633,
+      "std": 4.3487675128
+    },
+    "animal_midnight_heron": {
+      "mean": 21.9515428498,
+      "std": 3.1146577949
+    },
+    "animal_golden_fox": {
+      "mean": 31.1481796314,
+      "std": 4.3091676282
+    },
+    "animal_golden_wolf": {
+      "mean": 23.974276449,
+      "std": 4.0804753089
+    },
+    "animal_golden_owl": {
+      "mean": 30.2577999026,
+      "std": 3.6963389619
+    },
+    "animal_golden_otter": {
+      "mean": 31.9614235032,
+      "std": 4.2435355911
+    },
+    "animal_golden_falcon": {
+      "mean": 25.2548507141,
+      "std": 3.5145097445
+    },
+    "animal_golden_lynx": {
+      "mean": 27.1594562269,
+      "std": 3.9243399605
+    },
+    "animal_golden_bear": {
+      "mean": 21.1214553723,
+      "std": 3.74604542
+    },
+    "animal_golden_rabbit": {
+      "mean": 28.3996586201,
+      "std": 3.2960517177
+    }
   }
 }

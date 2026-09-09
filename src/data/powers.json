@@ -1,14 +1,2930 @@
 [
-  { "id": "power_explains_complex_things", "text": { "en": "Can explain quarterly taxes so clearly it's honestly a little unsettling.", "fr": "Peut expliquer les impôts trimestriels avec une clarté franchement dérangeante.", "es": "Puede explicar los impuestos trimestrales con una claridad francamente inquietante." }, "idealProfile": { "intelligence": 85, "communication": 78 } },
-  { "id": "power_funny_awkward", "text": { "en": "Can make a funeral home's awkward silence genuinely funny.", "fr": "Peut rendre drôle le silence gênant d'un salon funéraire.", "es": "Puede hacer gracioso el silencio incómodo de una funeraria." }, "idealProfile": { "humor": 82, "social": 60, "chaos": 55 } },
-  { "id": "power_finds_solutions", "text": { "en": "Fixes the printer with a paperclip nobody knew was for that.", "fr": "Répare l'imprimante avec un trombone dont personne ne connaissait l'usage.", "es": "Arregla la impresora con un clip cuyo uso nadie conocía." }, "idealProfile": { "creativity": 85, "intelligence": 75, "chaos": 55 } },
-  { "id": "power_calm_under_pressure", "text": { "en": "Stays unnervingly calm while three deadlines and the wifi go down at once.", "fr": "Reste étrangement calme quand trois deadlines et le wifi tombent en même temps.", "es": "Se mantiene inquietantemente tranquilo cuando caen tres plazos y el wifi a la vez." }, "idealProfile": { "emotionalControl": 88, "discipline": 65 } },
-  { "id": "power_cheapest_option", "text": { "en": "Finds the cheapest flight by opening eleven tabs and a burner account.", "fr": "Trouve le vol le moins cher en ouvrant onze onglets et un compte fantôme.", "es": "Encuentra el vuelo más barato abriendo once pestañas y una cuenta trampa." }, "idealProfile": { "financialSense": 82, "intelligence": 60, "discipline": 55 } },
-  { "id": "power_reads_the_room", "text": { "en": "Knows a meeting is about to go badly from the way one person sat down.", "fr": "Sait qu'une réunion va mal tourner rien qu'à la façon dont une personne s'est assise.", "es": "Sabe que una reunión saldrá mal solo por cómo se sentó una persona." }, "idealProfile": { "empathy": 82, "social": 68, "emotionalControl": 60 } },
-  { "id": "power_turns_chaos_into_plan", "text": { "en": "Turns a group chat spiraling into 200 messages into a working plan in ten minutes.", "fr": "Transforme un groupe de discussion parti en vrille avec 200 messages en un plan concret en dix minutes.", "es": "Convierte un chat grupal desbordado con 200 mensajes en un plan funcional en diez minutos." }, "idealProfile": { "intelligence": 78, "chaos": 55, "discipline": 60 } },
-  { "id": "power_never_forgets", "text": { "en": "Remembers exactly who didn't chip in for the office birthday card in 2021.", "fr": "Se souvient précisément de qui n'a pas participé à la carte d'anniversaire du bureau en 2021.", "es": "Recuerda exactamente quién no aportó a la tarjeta de cumpleaños de la oficina en 2021." }, "idealProfile": { "intelligence": 72, "social": 55, "emotionalControl": 40 } },
-  { "id": "power_makes_hard_things_look_easy", "text": { "en": "Assembles IKEA furniture with zero leftover screws, on the first try.", "fr": "Monte les meubles IKEA sans une seule vis en trop, du premier coup.", "es": "Arma muebles de IKEA sin un solo tornillo sobrante, al primer intento." }, "idealProfile": { "intelligence": 80, "discipline": 65, "emotionalControl": 65 } },
-  { "id": "power_makes_everyone_feel_important", "text": { "en": "Makes the office intern feel like the most important person in the meeting.", "fr": "Fait sentir au stagiaire du bureau qu'il est la personne la plus importante de la réunion.", "es": "Hace que el becario de la oficina se sienta la persona más importante de la reunión." }, "idealProfile": { "empathy": 78, "communication": 65, "social": 60 } },
-  { "id": "power_wins_every_board_game", "text": { "en": "Wins every board game night without anyone quite understanding how.", "fr": "Gagne à chaque soirée jeux de société sans que personne comprenne trop comment.", "es": "Gana cada noche de juegos de mesa sin que nadie entienda muy bien cómo." }, "idealProfile": { "intelligence": 75, "risk": 55, "chaos": 40 } },
-  { "id": "power_untangles_charger", "text": { "en": "Untangles any charging cable in under ten seconds without checking the knot.", "fr": "Démêle n'importe quel câble de charge en moins de dix secondes sans même regarder le nœud.", "es": "Desenreda cualquier cable de carga en menos de diez segundos sin mirar siquiera el nudo." }, "idealProfile": { "intelligence": 65, "discipline": 55, "creativity": 70 } }
+  {
+    "id": "power_explains_complex_things",
+    "text": {
+      "en": "Can explain quarterly taxes so clearly it's honestly a little unsettling.",
+      "fr": "Peut expliquer les impôts trimestriels avec une clarté franchement dérangeante.",
+      "es": "Puede explicar los impuestos trimestrales con una claridad francamente inquietante."
+    },
+    "idealProfile": {
+      "intelligence": 85,
+      "communication": 78
+    }
+  },
+  {
+    "id": "power_funny_awkward",
+    "text": {
+      "en": "Can make a funeral home's awkward silence genuinely funny.",
+      "fr": "Peut rendre drôle le silence gênant d'un salon funéraire.",
+      "es": "Puede hacer gracioso el silencio incómodo de una funeraria."
+    },
+    "idealProfile": {
+      "humor": 82,
+      "social": 60,
+      "chaos": 55
+    }
+  },
+  {
+    "id": "power_finds_solutions",
+    "text": {
+      "en": "Fixes the printer with a paperclip nobody knew was for that.",
+      "fr": "Répare l'imprimante avec un trombone dont personne ne connaissait l'usage.",
+      "es": "Arregla la impresora con un clip cuyo uso nadie conocía."
+    },
+    "idealProfile": {
+      "creativity": 85,
+      "intelligence": 75,
+      "chaos": 55
+    }
+  },
+  {
+    "id": "power_calm_under_pressure",
+    "text": {
+      "en": "Stays unnervingly calm while three deadlines and the wifi go down at once.",
+      "fr": "Reste étrangement calme quand trois deadlines et le wifi tombent en même temps.",
+      "es": "Se mantiene inquietantemente tranquilo cuando caen tres plazos y el wifi a la vez."
+    },
+    "idealProfile": {
+      "emotionalControl": 88,
+      "discipline": 65
+    }
+  },
+  {
+    "id": "power_cheapest_option",
+    "text": {
+      "en": "Finds the cheapest flight by opening eleven tabs and a burner account.",
+      "fr": "Trouve le vol le moins cher en ouvrant onze onglets et un compte fantôme.",
+      "es": "Encuentra el vuelo más barato abriendo once pestañas y una cuenta trampa."
+    },
+    "idealProfile": {
+      "financialSense": 82,
+      "intelligence": 60,
+      "discipline": 55
+    }
+  },
+  {
+    "id": "power_reads_the_room",
+    "text": {
+      "en": "Knows a meeting is about to go badly from the way one person sat down.",
+      "fr": "Sait qu'une réunion va mal tourner rien qu'à la façon dont une personne s'est assise.",
+      "es": "Sabe que una reunión saldrá mal solo por cómo se sentó una persona."
+    },
+    "idealProfile": {
+      "empathy": 82,
+      "social": 68,
+      "emotionalControl": 60
+    }
+  },
+  {
+    "id": "power_turns_chaos_into_plan",
+    "text": {
+      "en": "Turns a group chat spiraling into 200 messages into a working plan in ten minutes.",
+      "fr": "Transforme un groupe de discussion parti en vrille avec 200 messages en un plan concret en dix minutes.",
+      "es": "Convierte un chat grupal desbordado con 200 mensajes en un plan funcional en diez minutos."
+    },
+    "idealProfile": {
+      "intelligence": 78,
+      "chaos": 55,
+      "discipline": 60
+    }
+  },
+  {
+    "id": "power_never_forgets",
+    "text": {
+      "en": "Remembers exactly who didn't chip in for the office birthday card in 2021.",
+      "fr": "Se souvient précisément de qui n'a pas participé à la carte d'anniversaire du bureau en 2021.",
+      "es": "Recuerda exactamente quién no aportó a la tarjeta de cumpleaños de la oficina en 2021."
+    },
+    "idealProfile": {
+      "intelligence": 72,
+      "social": 55,
+      "emotionalControl": 40
+    }
+  },
+  {
+    "id": "power_makes_hard_things_look_easy",
+    "text": {
+      "en": "Assembles IKEA furniture with zero leftover screws, on the first try.",
+      "fr": "Monte les meubles IKEA sans une seule vis en trop, du premier coup.",
+      "es": "Arma muebles de IKEA sin un solo tornillo sobrante, al primer intento."
+    },
+    "idealProfile": {
+      "intelligence": 80,
+      "discipline": 65,
+      "emotionalControl": 65
+    }
+  },
+  {
+    "id": "power_makes_everyone_feel_important",
+    "text": {
+      "en": "Makes the office intern feel like the most important person in the meeting.",
+      "fr": "Fait sentir au stagiaire du bureau qu'il est la personne la plus importante de la réunion.",
+      "es": "Hace que el becario de la oficina se sienta la persona más importante de la reunión."
+    },
+    "idealProfile": {
+      "empathy": 78,
+      "communication": 65,
+      "social": 60
+    }
+  },
+  {
+    "id": "power_wins_every_board_game",
+    "text": {
+      "en": "Wins every board game night without anyone quite understanding how.",
+      "fr": "Gagne à chaque soirée jeux de société sans que personne comprenne trop comment.",
+      "es": "Gana cada noche de juegos de mesa sin que nadie entienda muy bien cómo."
+    },
+    "idealProfile": {
+      "intelligence": 75,
+      "risk": 55,
+      "chaos": 40
+    }
+  },
+  {
+    "id": "power_untangles_charger",
+    "text": {
+      "en": "Untangles any charging cable in under ten seconds without checking the knot.",
+      "fr": "Démêle n'importe quel câble de charge en moins de dix secondes sans même regarder le nœud.",
+      "es": "Desenreda cualquier cable de carga en menos de diez segundos sin mirar siquiera el nudo."
+    },
+    "idealProfile": {
+      "intelligence": 65,
+      "discipline": 55,
+      "creativity": 70
+    }
+  },
+  {
+    "id": "power_group_chat_timing",
+    "name": {
+      "en": "Checks the Group Chat Exactly When Trouble Starts",
+      "fr": "Regarde le Groupe Exactement Quand les Problèmes Commencent",
+      "es": "Mira el Chat Justo Cuando Empiezan los Problemas"
+    },
+    "idealProfile": {
+      "empathy": 78,
+      "social": 72,
+      "luck": 76,
+      "humor": 70,
+      "emotionalControl": 48
+    }
+  },
+  {
+    "id": "power_email_meeting_detector",
+    "name": {
+      "en": "Can Detect a Meeting That Should Have Been an Email",
+      "fr": "Détecte une Réunion qui Aurait Dû Être un E-mail",
+      "es": "Detecta una Reunión que Debería Haber Sido un Correo"
+    },
+    "idealProfile": {
+      "intelligence": 80,
+      "professionalism": 68,
+      "communication": 72,
+      "humor": 72,
+      "discipline": 60
+    }
+  },
+  {
+    "id": "power_correct_checkout_line",
+    "name": {
+      "en": "Chooses the Fast Checkout Line on the First Try",
+      "fr": "Choisit la Bonne Caisse du Premier Coup",
+      "es": "Elige la Caja Rápida al Primer Intento"
+    },
+    "idealProfile": {
+      "luck": 92,
+      "intelligence": 64,
+      "emotionalControl": 70,
+      "risk": 42
+    }
+  },
+  {
+    "id": "power_wifi_fix",
+    "name": {
+      "en": "Fixes the Wi-Fi by Standing Near the Router",
+      "fr": "Répare le Wi-Fi en se Tenant Près du Routeur",
+      "es": "Arregla el Wi-Fi Solo con Acercarse al Router"
+    },
+    "idealProfile": {
+      "luck": 86,
+      "humor": 74,
+      "intelligence": 58,
+      "emotionalControl": 62
+    }
+  },
+  {
+    "id": "power_find_socket",
+    "name": {
+      "en": "Always Finds the Free Power Outlet",
+      "fr": "Trouve Toujours la Prise Libre",
+      "es": "Siempre Encuentra el Enchufe Libre"
+    },
+    "idealProfile": {
+      "luck": 88,
+      "intelligence": 58,
+      "discipline": 54,
+      "emotionalControl": 68
+    }
+  },
+  {
+    "id": "power_skip_smalltalk",
+    "name": {
+      "en": "Can Skip Small Talk Without Being Rude",
+      "fr": "Évite le Small Talk Sans Être Impoli",
+      "es": "Evita la Charla Vacía Sin Ser Descortés"
+    },
+    "idealProfile": {
+      "communication": 84,
+      "social": 62,
+      "empathy": 72,
+      "emotionalControl": 80
+    }
+  },
+  {
+    "id": "power_detect_fake_urgent",
+    "name": {
+      "en": "Detects Fake Urgency Instantly",
+      "fr": "Détecte Instantanément les Fausses Urgences",
+      "es": "Detecta al Instante la Falsa Urgencia"
+    },
+    "idealProfile": {
+      "intelligence": 80,
+      "professionalism": 72,
+      "emotionalControl": 84,
+      "discipline": 70
+    }
+  },
+  {
+    "id": "power_remember_wifi",
+    "name": {
+      "en": "Remembers the Wi-Fi Password After One Look",
+      "fr": "Retient le Mot de Passe Wi-Fi en un Regard",
+      "es": "Recuerda la Clave Wi-Fi con una Mirada"
+    },
+    "idealProfile": {
+      "intelligence": 84,
+      "luck": 72,
+      "discipline": 58,
+      "professionalism": 54
+    }
+  },
+  {
+    "id": "power_choose_parking",
+    "name": {
+      "en": "Chooses the Correct Parking Level",
+      "fr": "Choisit le Bon Niveau du Parking",
+      "es": "Elige el Nivel Correcto del Parking"
+    },
+    "idealProfile": {
+      "luck": 86,
+      "intelligence": 62,
+      "emotionalControl": 72,
+      "risk": 38
+    }
+  },
+  {
+    "id": "power_end_meeting",
+    "name": {
+      "en": "Can End a Meeting Five Minutes Early",
+      "fr": "Peut Finir une Réunion Cinq Minutes Plus Tôt",
+      "es": "Puede Terminar una Reunión Cinco Minutos Antes"
+    },
+    "idealProfile": {
+      "communication": 88,
+      "professionalism": 80,
+      "discipline": 76,
+      "social": 70
+    }
+  },
+  {
+    "id": "power_exact_tupperware",
+    "name": {
+      "en": "Picks the Exact Right Tupperware Size",
+      "fr": "Choisit Exactement la Bonne Taille de Tupperware",
+      "es": "Elige Exactamente el Tupper Adecuado"
+    },
+    "idealProfile": {
+      "intelligence": 68,
+      "discipline": 76,
+      "luck": 78,
+      "financialSense": 58
+    }
+  },
+  {
+    "id": "power_open_pdf",
+    "name": {
+      "en": "Opens the PDF on the First Try",
+      "fr": "Ouvre le PDF du Premier Coup",
+      "es": "Abre el PDF al Primer Intento"
+    },
+    "idealProfile": {
+      "luck": 82,
+      "intelligence": 66,
+      "professionalism": 64,
+      "emotionalControl": 74
+    }
+  },
+  {
+    "id": "power_find_quiet_table",
+    "name": {
+      "en": "Finds the Quiet Table in a Busy Café",
+      "fr": "Trouve la Table Calme dans un Café Bondé",
+      "es": "Encuentra la Mesa Tranquila en un Café Lleno"
+    },
+    "idealProfile": {
+      "social": 42,
+      "emotionalControl": 82,
+      "luck": 80,
+      "intelligence": 62
+    }
+  },
+  {
+    "id": "power_correct_usb",
+    "name": {
+      "en": "Plugs USB-C in Correctly Without Looking",
+      "fr": "Branche l'USB-C Correctement Sans Regarder",
+      "es": "Conecta el USB-C Correctamente Sin Mirar"
+    },
+    "idealProfile": {
+      "luck": 90,
+      "discipline": 54,
+      "intelligence": 52,
+      "humor": 64
+    }
+  },
+  {
+    "id": "power_detect_muted",
+    "name": {
+      "en": "Notices You're Muted Before You Speak for 30 Seconds",
+      "fr": "Voit que Tu es en Muet Avant 30 Secondes de Monologue",
+      "es": "Nota que Estás en Silencio Antes de Hablar 30 Segundos"
+    },
+    "idealProfile": {
+      "intelligence": 76,
+      "communication": 78,
+      "professionalism": 74,
+      "emotionalControl": 72
+    }
+  },
+  {
+    "id": "power_find_receipt",
+    "name": {
+      "en": "Finds the Receipt When Everyone Gave Up",
+      "fr": "Retrouve le Ticket Quand Tout le Monde a Abandonné",
+      "es": "Encuentra el Recibo Cuando Todos se Rindieron"
+    },
+    "idealProfile": {
+      "discipline": 82,
+      "financialSense": 76,
+      "intelligence": 70,
+      "luck": 68
+    }
+  },
+  {
+    "id": "power_cancel_subscription",
+    "name": {
+      "en": "Can Actually Cancel a Subscription",
+      "fr": "Réussit Vraiment à Résilier un Abonnement",
+      "es": "Consigue Cancelar una Suscripción de Verdad"
+    },
+    "idealProfile": {
+      "discipline": 80,
+      "intelligence": 72,
+      "emotionalControl": 86,
+      "financialSense": 78
+    }
+  },
+  {
+    "id": "power_parallel_tasks",
+    "name": {
+      "en": "Can Carry Three Bags Without a Second Trip",
+      "fr": "Porte Trois Sacs Sans Faire un Deuxième Voyage",
+      "es": "Lleva Tres Bolsas Sin Hacer un Segundo Viaje"
+    },
+    "idealProfile": {
+      "energy": 82,
+      "risk": 62,
+      "discipline": 60,
+      "humor": 68
+    }
+  },
+  {
+    "id": "power_chaotic_burst",
+    "name": {
+      "en": "Chaotic Burst",
+      "fr": "Chaotique Rafale",
+      "es": "Caótico Ráfaga"
+    },
+    "idealProfile": {
+      "creativity": 88,
+      "discipline": 43,
+      "chaos": 28,
+      "luck": 49,
+      "social": 87,
+      "emotionalControl": 29
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "burst"
+    ]
+  },
+  {
+    "id": "power_chaotic_shield",
+    "name": {
+      "en": "Chaotic Shield",
+      "fr": "Chaotique Bouclier",
+      "es": "Caótico Escudo"
+    },
+    "idealProfile": {
+      "professionalism": 36,
+      "humor": 52,
+      "social": 48,
+      "luck": 71,
+      "creativity": 48,
+      "chaos": 64
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "shield"
+    ]
+  },
+  {
+    "id": "power_chaotic_radar",
+    "name": {
+      "en": "Chaotic Radar",
+      "fr": "Chaotique Radar",
+      "es": "Caótico Radar"
+    },
+    "idealProfile": {
+      "chaos": 92,
+      "social": 29,
+      "risk": 43,
+      "emotionalControl": 68,
+      "discipline": 33,
+      "communication": 41
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "radar"
+    ]
+  },
+  {
+    "id": "power_chaotic_override",
+    "name": {
+      "en": "Chaotic Override",
+      "fr": "Chaotique Forçage",
+      "es": "Caótico Anulación"
+    },
+    "idealProfile": {
+      "chaos": 32,
+      "social": 67,
+      "risk": 91,
+      "emotionalControl": 50,
+      "discipline": 44,
+      "communication": 79
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "override"
+    ]
+  },
+  {
+    "id": "power_chaotic_echo",
+    "name": {
+      "en": "Chaotic Echo",
+      "fr": "Chaotique Écho",
+      "es": "Caótico Eco"
+    },
+    "idealProfile": {
+      "creativity": 43,
+      "risk": 77,
+      "communication": 89,
+      "humor": 49,
+      "luck": 83,
+      "professionalism": 36
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "echo"
+    ]
+  },
+  {
+    "id": "power_chaotic_pulse",
+    "name": {
+      "en": "Chaotic Pulse",
+      "fr": "Chaotique Impulsion",
+      "es": "Caótico Pulso"
+    },
+    "idealProfile": {
+      "intelligence": 69,
+      "risk": 77,
+      "ambition": 54,
+      "empathy": 33,
+      "creativity": 75,
+      "humor": 24
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "pulse"
+    ]
+  },
+  {
+    "id": "power_chaotic_anchor",
+    "name": {
+      "en": "Chaotic Anchor",
+      "fr": "Chaotique Ancre",
+      "es": "Caótico Ancla"
+    },
+    "idealProfile": {
+      "risk": 77,
+      "creativity": 82,
+      "professionalism": 63,
+      "communication": 88,
+      "humor": 46,
+      "luck": 89
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "anchor"
+    ]
+  },
+  {
+    "id": "power_chaotic_lens",
+    "name": {
+      "en": "Chaotic Lens",
+      "fr": "Chaotique Lentille",
+      "es": "Caótico Lente"
+    },
+    "idealProfile": {
+      "professionalism": 75,
+      "humor": 40,
+      "social": 70,
+      "luck": 67,
+      "creativity": 87,
+      "chaos": 52
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "lens"
+    ]
+  },
+  {
+    "id": "power_chaotic_boost",
+    "name": {
+      "en": "Chaotic Boost",
+      "fr": "Chaotique Boost",
+      "es": "Caótico Impulso"
+    },
+    "idealProfile": {
+      "risk": 62,
+      "discipline": 84,
+      "communication": 76,
+      "social": 81,
+      "chaos": 74,
+      "emotionalControl": 93
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "boost"
+    ]
+  },
+  {
+    "id": "power_chaotic_field",
+    "name": {
+      "en": "Chaotic Field",
+      "fr": "Chaotique Champ",
+      "es": "Caótico Campo"
+    },
+    "idealProfile": {
+      "emotionalControl": 32,
+      "humor": 81,
+      "risk": 83,
+      "professionalism": 43,
+      "discipline": 38,
+      "communication": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "chaotic",
+      "field"
+    ]
+  },
+  {
+    "id": "power_methodical_burst",
+    "name": {
+      "en": "Methodical Burst",
+      "fr": "Méthodique Rafale",
+      "es": "Metódico Ráfaga"
+    },
+    "idealProfile": {
+      "communication": 87,
+      "creativity": 38,
+      "humor": 39,
+      "luck": 68,
+      "risk": 93,
+      "professionalism": 34
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "burst"
+    ]
+  },
+  {
+    "id": "power_methodical_shield",
+    "name": {
+      "en": "Methodical Shield",
+      "fr": "Méthodique Bouclier",
+      "es": "Metódico Escudo"
+    },
+    "idealProfile": {
+      "social": 48,
+      "risk": 86,
+      "emotionalControl": 69,
+      "chaos": 92,
+      "discipline": 58,
+      "communication": 60
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "shield"
+    ]
+  },
+  {
+    "id": "power_methodical_radar",
+    "name": {
+      "en": "Methodical Radar",
+      "fr": "Méthodique Radar",
+      "es": "Metódico Radar"
+    },
+    "idealProfile": {
+      "emotionalControl": 25,
+      "risk": 81,
+      "social": 38,
+      "chaos": 90,
+      "discipline": 87,
+      "communication": 44
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "radar"
+    ]
+  },
+  {
+    "id": "power_methodical_override",
+    "name": {
+      "en": "Methodical Override",
+      "fr": "Méthodique Forçage",
+      "es": "Metódico Anulación"
+    },
+    "idealProfile": {
+      "creativity": 69,
+      "risk": 82,
+      "communication": 52,
+      "humor": 75,
+      "luck": 88,
+      "professionalism": 70
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "override"
+    ]
+  },
+  {
+    "id": "power_methodical_echo",
+    "name": {
+      "en": "Methodical Echo",
+      "fr": "Méthodique Écho",
+      "es": "Metódico Eco"
+    },
+    "idealProfile": {
+      "intelligence": 43,
+      "risk": 57,
+      "ambition": 73,
+      "empathy": 76,
+      "creativity": 49,
+      "humor": 75
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "echo"
+    ]
+  },
+  {
+    "id": "power_methodical_pulse",
+    "name": {
+      "en": "Methodical Pulse",
+      "fr": "Méthodique Impulsion",
+      "es": "Metódico Pulso"
+    },
+    "idealProfile": {
+      "professionalism": 62,
+      "social": 82,
+      "creativity": 43,
+      "chaos": 35,
+      "humor": 68,
+      "luck": 80
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "pulse"
+    ]
+  },
+  {
+    "id": "power_methodical_anchor",
+    "name": {
+      "en": "Methodical Anchor",
+      "fr": "Méthodique Ancre",
+      "es": "Metódico Ancla"
+    },
+    "idealProfile": {
+      "emotionalControl": 49,
+      "risk": 35,
+      "social": 94,
+      "chaos": 72,
+      "discipline": 41,
+      "communication": 29
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "anchor"
+    ]
+  },
+  {
+    "id": "power_methodical_lens",
+    "name": {
+      "en": "Methodical Lens",
+      "fr": "Méthodique Lentille",
+      "es": "Metódico Lente"
+    },
+    "idealProfile": {
+      "creativity": 34,
+      "risk": 30,
+      "communication": 81,
+      "humor": 40,
+      "luck": 36,
+      "professionalism": 28
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "lens"
+    ]
+  },
+  {
+    "id": "power_methodical_boost",
+    "name": {
+      "en": "Methodical Boost",
+      "fr": "Méthodique Boost",
+      "es": "Metódico Impulso"
+    },
+    "idealProfile": {
+      "communication": 30,
+      "creativity": 58,
+      "humor": 80,
+      "luck": 47,
+      "risk": 36,
+      "professionalism": 48
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "boost"
+    ]
+  },
+  {
+    "id": "power_methodical_field",
+    "name": {
+      "en": "Methodical Field",
+      "fr": "Méthodique Champ",
+      "es": "Metódico Campo"
+    },
+    "idealProfile": {
+      "humor": 81,
+      "discipline": 82,
+      "emotionalControl": 25,
+      "risk": 87,
+      "professionalism": 88,
+      "communication": 43
+    },
+    "tags": [
+      "expanded_v2",
+      "methodical",
+      "field"
+    ]
+  },
+  {
+    "id": "power_relentless_burst",
+    "name": {
+      "en": "Relentless Burst",
+      "fr": "Tenace Rafale",
+      "es": "Implacable Ráfaga"
+    },
+    "idealProfile": {
+      "creativity": 69,
+      "discipline": 84,
+      "chaos": 61,
+      "luck": 90,
+      "social": 33,
+      "emotionalControl": 81
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "burst"
+    ]
+  },
+  {
+    "id": "power_relentless_shield",
+    "name": {
+      "en": "Relentless Shield",
+      "fr": "Tenace Bouclier",
+      "es": "Implacable Escudo"
+    },
+    "idealProfile": {
+      "risk": 31,
+      "discipline": 45,
+      "communication": 77,
+      "social": 32,
+      "chaos": 43,
+      "emotionalControl": 44
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "shield"
+    ]
+  },
+  {
+    "id": "power_relentless_radar",
+    "name": {
+      "en": "Relentless Radar",
+      "fr": "Tenace Radar",
+      "es": "Implacable Radar"
+    },
+    "idealProfile": {
+      "social": 43,
+      "creativity": 83,
+      "chaos": 76,
+      "humor": 76,
+      "professionalism": 55,
+      "luck": 88
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "radar"
+    ]
+  },
+  {
+    "id": "power_relentless_override",
+    "name": {
+      "en": "Relentless Override",
+      "fr": "Tenace Forçage",
+      "es": "Implacable Anulación"
+    },
+    "idealProfile": {
+      "emotionalControl": 52,
+      "risk": 90,
+      "social": 92,
+      "chaos": 72,
+      "discipline": 25,
+      "communication": 27
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "override"
+    ]
+  },
+  {
+    "id": "power_relentless_echo",
+    "name": {
+      "en": "Relentless Echo",
+      "fr": "Tenace Écho",
+      "es": "Implacable Eco"
+    },
+    "idealProfile": {
+      "communication": 44,
+      "humor": 39,
+      "discipline": 32,
+      "emotionalControl": 26,
+      "risk": 45,
+      "professionalism": 38
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "echo"
+    ]
+  },
+  {
+    "id": "power_relentless_pulse",
+    "name": {
+      "en": "Relentless Pulse",
+      "fr": "Tenace Impulsion",
+      "es": "Implacable Pulso"
+    },
+    "idealProfile": {
+      "ambition": 51,
+      "creativity": 68,
+      "energy": 80,
+      "financialSense": 39,
+      "discipline": 57,
+      "social": 86
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "pulse"
+    ]
+  },
+  {
+    "id": "power_relentless_anchor",
+    "name": {
+      "en": "Relentless Anchor",
+      "fr": "Tenace Ancre",
+      "es": "Implacable Ancla"
+    },
+    "idealProfile": {
+      "risk": 70,
+      "creativity": 26,
+      "professionalism": 72,
+      "communication": 32,
+      "humor": 80,
+      "luck": 82
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "anchor"
+    ]
+  },
+  {
+    "id": "power_relentless_lens",
+    "name": {
+      "en": "Relentless Lens",
+      "fr": "Tenace Lentille",
+      "es": "Implacable Lente"
+    },
+    "idealProfile": {
+      "social": 54,
+      "creativity": 41,
+      "chaos": 59,
+      "humor": 45,
+      "professionalism": 66,
+      "luck": 57
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "lens"
+    ]
+  },
+  {
+    "id": "power_relentless_boost",
+    "name": {
+      "en": "Relentless Boost",
+      "fr": "Tenace Boost",
+      "es": "Implacable Impulso"
+    },
+    "idealProfile": {
+      "communication": 48,
+      "risk": 57,
+      "creativity": 73,
+      "professionalism": 47,
+      "humor": 60,
+      "luck": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "boost"
+    ]
+  },
+  {
+    "id": "power_relentless_field",
+    "name": {
+      "en": "Relentless Field",
+      "fr": "Tenace Champ",
+      "es": "Implacable Campo"
+    },
+    "idealProfile": {
+      "luck": 64,
+      "creativity": 77,
+      "discipline": 63,
+      "chaos": 58,
+      "social": 76,
+      "emotionalControl": 89
+    },
+    "tags": [
+      "expanded_v2",
+      "relentless",
+      "field"
+    ]
+  },
+  {
+    "id": "power_diplomatic_burst",
+    "name": {
+      "en": "Diplomatic Burst",
+      "fr": "Diplomate Rafale",
+      "es": "Diplomático Ráfaga"
+    },
+    "idealProfile": {
+      "discipline": 84,
+      "humor": 45,
+      "communication": 68,
+      "emotionalControl": 51,
+      "risk": 51,
+      "professionalism": 25
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "burst"
+    ]
+  },
+  {
+    "id": "power_diplomatic_shield",
+    "name": {
+      "en": "Diplomatic Shield",
+      "fr": "Diplomate Bouclier",
+      "es": "Diplomático Escudo"
+    },
+    "idealProfile": {
+      "emotionalControl": 26,
+      "humor": 58,
+      "risk": 46,
+      "professionalism": 84,
+      "discipline": 32,
+      "communication": 44
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "shield"
+    ]
+  },
+  {
+    "id": "power_diplomatic_radar",
+    "name": {
+      "en": "Diplomatic Radar",
+      "fr": "Diplomate Radar",
+      "es": "Diplomático Radar"
+    },
+    "idealProfile": {
+      "emotionalControl": 52,
+      "discipline": 92,
+      "humor": 59,
+      "communication": 76,
+      "risk": 64,
+      "professionalism": 33
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "radar"
+    ]
+  },
+  {
+    "id": "power_diplomatic_override",
+    "name": {
+      "en": "Diplomatic Override",
+      "fr": "Diplomate Forçage",
+      "es": "Diplomático Anulación"
+    },
+    "idealProfile": {
+      "risk": 78,
+      "creativity": 62,
+      "professionalism": 89,
+      "communication": 68,
+      "humor": 67,
+      "luck": 90
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "override"
+    ]
+  },
+  {
+    "id": "power_diplomatic_echo",
+    "name": {
+      "en": "Diplomatic Echo",
+      "fr": "Diplomate Écho",
+      "es": "Diplomático Eco"
+    },
+    "idealProfile": {
+      "discipline": 91,
+      "humor": 89,
+      "communication": 38,
+      "emotionalControl": 24,
+      "risk": 79,
+      "professionalism": 32
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "echo"
+    ]
+  },
+  {
+    "id": "power_diplomatic_pulse",
+    "name": {
+      "en": "Diplomatic Pulse",
+      "fr": "Diplomate Impulsion",
+      "es": "Diplomático Pulso"
+    },
+    "idealProfile": {
+      "chaos": 29,
+      "risk": 56,
+      "discipline": 57,
+      "communication": 29,
+      "social": 35,
+      "emotionalControl": 47
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "pulse"
+    ]
+  },
+  {
+    "id": "power_diplomatic_anchor",
+    "name": {
+      "en": "Diplomatic Anchor",
+      "fr": "Diplomate Ancre",
+      "es": "Diplomático Ancla"
+    },
+    "idealProfile": {
+      "professionalism": 38,
+      "social": 94,
+      "creativity": 48,
+      "chaos": 31,
+      "humor": 44,
+      "luck": 56
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "anchor"
+    ]
+  },
+  {
+    "id": "power_diplomatic_lens",
+    "name": {
+      "en": "Diplomatic Lens",
+      "fr": "Diplomate Lentille",
+      "es": "Diplomático Lente"
+    },
+    "idealProfile": {
+      "chaos": 75,
+      "discipline": 64,
+      "creativity": 71,
+      "luck": 87,
+      "social": 70,
+      "emotionalControl": 77
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "lens"
+    ]
+  },
+  {
+    "id": "power_diplomatic_boost",
+    "name": {
+      "en": "Diplomatic Boost",
+      "fr": "Diplomate Boost",
+      "es": "Diplomático Impulso"
+    },
+    "idealProfile": {
+      "communication": 88,
+      "humor": 34,
+      "discipline": 61,
+      "emotionalControl": 36,
+      "risk": 40,
+      "professionalism": 67
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "boost"
+    ]
+  },
+  {
+    "id": "power_diplomatic_field",
+    "name": {
+      "en": "Diplomatic Field",
+      "fr": "Diplomate Champ",
+      "es": "Diplomático Campo"
+    },
+    "idealProfile": {
+      "luck": 56,
+      "discipline": 57,
+      "social": 53,
+      "emotionalControl": 27,
+      "creativity": 62,
+      "chaos": 74
+    },
+    "tags": [
+      "expanded_v2",
+      "diplomatic",
+      "field"
+    ]
+  },
+  {
+    "id": "power_curious_burst",
+    "name": {
+      "en": "Curious Burst",
+      "fr": "Curieux Rafale",
+      "es": "Curioso Ráfaga"
+    },
+    "idealProfile": {
+      "intelligence": 48,
+      "discipline": 66,
+      "financialSense": 67,
+      "social": 54,
+      "energy": 66,
+      "risk": 73
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "burst"
+    ]
+  },
+  {
+    "id": "power_curious_shield",
+    "name": {
+      "en": "Curious Shield",
+      "fr": "Curieux Bouclier",
+      "es": "Curioso Escudo"
+    },
+    "idealProfile": {
+      "energy": 46,
+      "discipline": 72,
+      "empathy": 47,
+      "intelligence": 75,
+      "humor": 52,
+      "risk": 90
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "shield"
+    ]
+  },
+  {
+    "id": "power_curious_radar",
+    "name": {
+      "en": "Curious Radar",
+      "fr": "Curieux Radar",
+      "es": "Curioso Radar"
+    },
+    "idealProfile": {
+      "communication": 41,
+      "creativity": 54,
+      "humor": 29,
+      "luck": 84,
+      "risk": 47,
+      "professionalism": 59
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "radar"
+    ]
+  },
+  {
+    "id": "power_curious_override",
+    "name": {
+      "en": "Curious Override",
+      "fr": "Curieux Forçage",
+      "es": "Curioso Anulación"
+    },
+    "idealProfile": {
+      "social": 57,
+      "creativity": 46,
+      "chaos": 39,
+      "humor": 79,
+      "professionalism": 69,
+      "luck": 91
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "override"
+    ]
+  },
+  {
+    "id": "power_curious_echo",
+    "name": {
+      "en": "Curious Echo",
+      "fr": "Curieux Écho",
+      "es": "Curioso Eco"
+    },
+    "idealProfile": {
+      "social": 89,
+      "risk": 63,
+      "emotionalControl": 93,
+      "chaos": 69,
+      "discipline": 89,
+      "communication": 30
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "echo"
+    ]
+  },
+  {
+    "id": "power_curious_pulse",
+    "name": {
+      "en": "Curious Pulse",
+      "fr": "Curieux Impulsion",
+      "es": "Curioso Pulso"
+    },
+    "idealProfile": {
+      "humor": 70,
+      "discipline": 73,
+      "emotionalControl": 58,
+      "risk": 76,
+      "professionalism": 79,
+      "communication": 76
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "pulse"
+    ]
+  },
+  {
+    "id": "power_curious_anchor",
+    "name": {
+      "en": "Curious Anchor",
+      "fr": "Curieux Ancre",
+      "es": "Curioso Ancla"
+    },
+    "idealProfile": {
+      "financialSense": 67,
+      "social": 84,
+      "intelligence": 43,
+      "energy": 68,
+      "risk": 73,
+      "discipline": 31
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "anchor"
+    ]
+  },
+  {
+    "id": "power_curious_lens",
+    "name": {
+      "en": "Curious Lens",
+      "fr": "Curieux Lentille",
+      "es": "Curioso Lente"
+    },
+    "idealProfile": {
+      "luck": 42,
+      "creativity": 74,
+      "discipline": 80,
+      "chaos": 78,
+      "social": 54,
+      "emotionalControl": 86
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "lens"
+    ]
+  },
+  {
+    "id": "power_curious_boost",
+    "name": {
+      "en": "Curious Boost",
+      "fr": "Curieux Boost",
+      "es": "Curioso Impulso"
+    },
+    "idealProfile": {
+      "social": 93,
+      "creativity": 49,
+      "chaos": 46,
+      "humor": 31,
+      "professionalism": 34,
+      "luck": 43
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "boost"
+    ]
+  },
+  {
+    "id": "power_curious_field",
+    "name": {
+      "en": "Curious Field",
+      "fr": "Curieux Champ",
+      "es": "Curioso Campo"
+    },
+    "idealProfile": {
+      "humor": 93,
+      "social": 65,
+      "luck": 40,
+      "professionalism": 71,
+      "creativity": 81,
+      "chaos": 34
+    },
+    "tags": [
+      "expanded_v2",
+      "curious",
+      "field"
+    ]
+  },
+  {
+    "id": "power_stoic_burst",
+    "name": {
+      "en": "Stoic Burst",
+      "fr": "Stoïque Rafale",
+      "es": "Estoico Ráfaga"
+    },
+    "idealProfile": {
+      "emotionalControl": 31,
+      "humor": 94,
+      "risk": 30,
+      "professionalism": 79,
+      "discipline": 37,
+      "communication": 49
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "burst"
+    ]
+  },
+  {
+    "id": "power_stoic_shield",
+    "name": {
+      "en": "Stoic Shield",
+      "fr": "Stoïque Bouclier",
+      "es": "Estoico Escudo"
+    },
+    "idealProfile": {
+      "luck": 71,
+      "creativity": 44,
+      "discipline": 84,
+      "chaos": 92,
+      "social": 83,
+      "emotionalControl": 56
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "shield"
+    ]
+  },
+  {
+    "id": "power_stoic_radar",
+    "name": {
+      "en": "Stoic Radar",
+      "fr": "Stoïque Radar",
+      "es": "Estoico Radar"
+    },
+    "idealProfile": {
+      "professionalism": 34,
+      "creativity": 43,
+      "risk": 28,
+      "communication": 68,
+      "humor": 49,
+      "luck": 34
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "radar"
+    ]
+  },
+  {
+    "id": "power_stoic_override",
+    "name": {
+      "en": "Stoic Override",
+      "fr": "Stoïque Forçage",
+      "es": "Estoico Anulación"
+    },
+    "idealProfile": {
+      "financialSense": 63,
+      "creativity": 91,
+      "empathy": 91,
+      "humor": 69,
+      "ambition": 49,
+      "social": 26
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "override"
+    ]
+  },
+  {
+    "id": "power_stoic_echo",
+    "name": {
+      "en": "Stoic Echo",
+      "fr": "Stoïque Écho",
+      "es": "Estoico Eco"
+    },
+    "idealProfile": {
+      "luck": 37,
+      "discipline": 65,
+      "social": 82,
+      "emotionalControl": 65,
+      "creativity": 43,
+      "chaos": 55
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "echo"
+    ]
+  },
+  {
+    "id": "power_stoic_pulse",
+    "name": {
+      "en": "Stoic Pulse",
+      "fr": "Stoïque Impulsion",
+      "es": "Estoico Pulso"
+    },
+    "idealProfile": {
+      "emotionalControl": 47,
+      "risk": 88,
+      "social": 78,
+      "chaos": 76,
+      "discipline": 94,
+      "communication": 84
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "pulse"
+    ]
+  },
+  {
+    "id": "power_stoic_anchor",
+    "name": {
+      "en": "Stoic Anchor",
+      "fr": "Stoïque Ancre",
+      "es": "Estoico Ancla"
+    },
+    "idealProfile": {
+      "social": 73,
+      "humor": 75,
+      "professionalism": 58,
+      "creativity": 79,
+      "chaos": 81,
+      "luck": 76
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "anchor"
+    ]
+  },
+  {
+    "id": "power_stoic_lens",
+    "name": {
+      "en": "Stoic Lens",
+      "fr": "Stoïque Lentille",
+      "es": "Estoico Lente"
+    },
+    "idealProfile": {
+      "discipline": 86,
+      "creativity": 80,
+      "luck": 52,
+      "social": 92,
+      "emotionalControl": 86,
+      "chaos": 70
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "lens"
+    ]
+  },
+  {
+    "id": "power_stoic_boost",
+    "name": {
+      "en": "Stoic Boost",
+      "fr": "Stoïque Boost",
+      "es": "Estoico Impulso"
+    },
+    "idealProfile": {
+      "risk": 63,
+      "discipline": 93,
+      "communication": 39,
+      "social": 91,
+      "chaos": 75,
+      "emotionalControl": 32
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "boost"
+    ]
+  },
+  {
+    "id": "power_stoic_field",
+    "name": {
+      "en": "Stoic Field",
+      "fr": "Stoïque Champ",
+      "es": "Estoico Campo"
+    },
+    "idealProfile": {
+      "professionalism": 93,
+      "humor": 60,
+      "social": 89,
+      "luck": 85,
+      "creativity": 34,
+      "chaos": 72
+    },
+    "tags": [
+      "expanded_v2",
+      "stoic",
+      "field"
+    ]
+  },
+  {
+    "id": "power_social_burst",
+    "name": {
+      "en": "Social Burst",
+      "fr": "Social Rafale",
+      "es": "Social Ráfaga"
+    },
+    "idealProfile": {
+      "communication": 68,
+      "creativity": 60,
+      "humor": 73,
+      "luck": 69,
+      "risk": 74,
+      "professionalism": 86
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "burst"
+    ]
+  },
+  {
+    "id": "power_social_shield",
+    "name": {
+      "en": "Social Shield",
+      "fr": "Social Bouclier",
+      "es": "Social Escudo"
+    },
+    "idealProfile": {
+      "financialSense": 54,
+      "humor": 84,
+      "empathy": 25,
+      "creativity": 60,
+      "ambition": 25,
+      "social": 37
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "shield"
+    ]
+  },
+  {
+    "id": "power_social_radar",
+    "name": {
+      "en": "Social Radar",
+      "fr": "Social Radar",
+      "es": "Social Radar"
+    },
+    "idealProfile": {
+      "professionalism": 57,
+      "creativity": 48,
+      "risk": 53,
+      "communication": 75,
+      "humor": 54,
+      "luck": 59
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "radar"
+    ]
+  },
+  {
+    "id": "power_social_override",
+    "name": {
+      "en": "Social Override",
+      "fr": "Social Forçage",
+      "es": "Social Anulación"
+    },
+    "idealProfile": {
+      "creativity": 87,
+      "discipline": 94,
+      "chaos": 67,
+      "luck": 29,
+      "social": 42,
+      "emotionalControl": 28
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "override"
+    ]
+  },
+  {
+    "id": "power_social_echo",
+    "name": {
+      "en": "Social Echo",
+      "fr": "Social Écho",
+      "es": "Social Eco"
+    },
+    "idealProfile": {
+      "social": 27,
+      "humor": 85,
+      "professionalism": 56,
+      "creativity": 33,
+      "chaos": 91,
+      "luck": 74
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "echo"
+    ]
+  },
+  {
+    "id": "power_social_pulse",
+    "name": {
+      "en": "Social Pulse",
+      "fr": "Social Impulsion",
+      "es": "Social Pulso"
+    },
+    "idealProfile": {
+      "intelligence": 27,
+      "discipline": 63,
+      "financialSense": 36,
+      "social": 33,
+      "energy": 79,
+      "risk": 42
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "pulse"
+    ]
+  },
+  {
+    "id": "power_social_anchor",
+    "name": {
+      "en": "Social Anchor",
+      "fr": "Social Ancre",
+      "es": "Social Ancla"
+    },
+    "idealProfile": {
+      "communication": 62,
+      "risk": 40,
+      "creativity": 26,
+      "professionalism": 92,
+      "humor": 74,
+      "luck": 52
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "anchor"
+    ]
+  },
+  {
+    "id": "power_social_lens",
+    "name": {
+      "en": "Social Lens",
+      "fr": "Social Lentille",
+      "es": "Social Lente"
+    },
+    "idealProfile": {
+      "emotionalControl": 92,
+      "discipline": 87,
+      "humor": 87,
+      "communication": 50,
+      "risk": 33,
+      "professionalism": 28
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "lens"
+    ]
+  },
+  {
+    "id": "power_social_boost",
+    "name": {
+      "en": "Social Boost",
+      "fr": "Social Boost",
+      "es": "Social Impulso"
+    },
+    "idealProfile": {
+      "humor": 62,
+      "social": 57,
+      "luck": 84,
+      "professionalism": 63,
+      "creativity": 38,
+      "chaos": 74
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "boost"
+    ]
+  },
+  {
+    "id": "power_social_field",
+    "name": {
+      "en": "Social Field",
+      "fr": "Social Champ",
+      "es": "Social Campo"
+    },
+    "idealProfile": {
+      "professionalism": 40,
+      "creativity": 54,
+      "risk": 26,
+      "communication": 46,
+      "humor": 60,
+      "luck": 32
+    },
+    "tags": [
+      "expanded_v2",
+      "social",
+      "field"
+    ]
+  },
+  {
+    "id": "power_improvised_burst",
+    "name": {
+      "en": "Improvised Burst",
+      "fr": "Improvisé Rafale",
+      "es": "Improvisado Ráfaga"
+    },
+    "idealProfile": {
+      "discipline": 72,
+      "social": 75,
+      "emotionalControl": 78,
+      "creativity": 58,
+      "luck": 84,
+      "chaos": 70
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "burst"
+    ]
+  },
+  {
+    "id": "power_improvised_shield",
+    "name": {
+      "en": "Improvised Shield",
+      "fr": "Improvisé Bouclier",
+      "es": "Improvisado Escudo"
+    },
+    "idealProfile": {
+      "communication": 54,
+      "humor": 46,
+      "discipline": 50,
+      "emotionalControl": 27,
+      "risk": 52,
+      "professionalism": 56
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "shield"
+    ]
+  },
+  {
+    "id": "power_improvised_radar",
+    "name": {
+      "en": "Improvised Radar",
+      "fr": "Improvisé Radar",
+      "es": "Improvisado Radar"
+    },
+    "idealProfile": {
+      "professionalism": 45,
+      "humor": 37,
+      "social": 32,
+      "luck": 30,
+      "creativity": 57,
+      "chaos": 49
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "radar"
+    ]
+  },
+  {
+    "id": "power_improvised_override",
+    "name": {
+      "en": "Improvised Override",
+      "fr": "Improvisé Forçage",
+      "es": "Improvisado Anulación"
+    },
+    "idealProfile": {
+      "discipline": 50,
+      "humor": 75,
+      "communication": 54,
+      "emotionalControl": 81,
+      "risk": 88,
+      "professionalism": 62
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "override"
+    ]
+  },
+  {
+    "id": "power_improvised_echo",
+    "name": {
+      "en": "Improvised Echo",
+      "fr": "Improvisé Écho",
+      "es": "Improvisado Eco"
+    },
+    "idealProfile": {
+      "creativity": 70,
+      "humor": 46,
+      "luck": 82,
+      "risk": 94,
+      "communication": 82,
+      "professionalism": 35
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "echo"
+    ]
+  },
+  {
+    "id": "power_improvised_pulse",
+    "name": {
+      "en": "Improvised Pulse",
+      "fr": "Improvisé Impulsion",
+      "es": "Improvisado Pulso"
+    },
+    "idealProfile": {
+      "luck": 94,
+      "creativity": 29,
+      "discipline": 92,
+      "chaos": 34,
+      "social": 35,
+      "emotionalControl": 41
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "pulse"
+    ]
+  },
+  {
+    "id": "power_improvised_anchor",
+    "name": {
+      "en": "Improvised Anchor",
+      "fr": "Improvisé Ancre",
+      "es": "Improvisado Ancla"
+    },
+    "idealProfile": {
+      "social": 39,
+      "creativity": 30,
+      "chaos": 70,
+      "humor": 94,
+      "professionalism": 51,
+      "luck": 35
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "anchor"
+    ]
+  },
+  {
+    "id": "power_improvised_lens",
+    "name": {
+      "en": "Improvised Lens",
+      "fr": "Improvisé Lentille",
+      "es": "Improvisado Lente"
+    },
+    "idealProfile": {
+      "communication": 79,
+      "humor": 25,
+      "discipline": 41,
+      "emotionalControl": 79,
+      "risk": 31,
+      "professionalism": 47
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "lens"
+    ]
+  },
+  {
+    "id": "power_improvised_boost",
+    "name": {
+      "en": "Improvised Boost",
+      "fr": "Improvisé Boost",
+      "es": "Improvisado Impulso"
+    },
+    "idealProfile": {
+      "luck": 26,
+      "creativity": 32,
+      "discipline": 54,
+      "chaos": 33,
+      "social": 38,
+      "emotionalControl": 44
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "boost"
+    ]
+  },
+  {
+    "id": "power_improvised_field",
+    "name": {
+      "en": "Improvised Field",
+      "fr": "Improvisé Champ",
+      "es": "Improvisado Campo"
+    },
+    "idealProfile": {
+      "empathy": 24,
+      "risk": 61,
+      "energy": 52,
+      "discipline": 30,
+      "intelligence": 35,
+      "humor": 58
+    },
+    "tags": [
+      "expanded_v2",
+      "improvised",
+      "field"
+    ]
+  },
+  {
+    "id": "power_strategic_burst",
+    "name": {
+      "en": "Strategic Burst",
+      "fr": "Stratégique Rafale",
+      "es": "Estratégico Ráfaga"
+    },
+    "idealProfile": {
+      "energy": 26,
+      "discipline": 69,
+      "empathy": 58,
+      "intelligence": 51,
+      "humor": 32,
+      "risk": 87
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "burst"
+    ]
+  },
+  {
+    "id": "power_strategic_shield",
+    "name": {
+      "en": "Strategic Shield",
+      "fr": "Stratégique Bouclier",
+      "es": "Estratégico Escudo"
+    },
+    "idealProfile": {
+      "empathy": 93,
+      "humor": 36,
+      "financialSense": 37,
+      "ambition": 59,
+      "social": 28,
+      "creativity": 54
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "shield"
+    ]
+  },
+  {
+    "id": "power_strategic_radar",
+    "name": {
+      "en": "Strategic Radar",
+      "fr": "Stratégique Radar",
+      "es": "Estratégico Radar"
+    },
+    "idealProfile": {
+      "empathy": 67,
+      "risk": 24,
+      "energy": 28,
+      "discipline": 73,
+      "intelligence": 38,
+      "humor": 34
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "radar"
+    ]
+  },
+  {
+    "id": "power_strategic_override",
+    "name": {
+      "en": "Strategic Override",
+      "fr": "Stratégique Forçage",
+      "es": "Estratégico Anulación"
+    },
+    "idealProfile": {
+      "risk": 81,
+      "discipline": 82,
+      "communication": 94,
+      "social": 57,
+      "chaos": 93,
+      "emotionalControl": 69
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "override"
+    ]
+  },
+  {
+    "id": "power_strategic_echo",
+    "name": {
+      "en": "Strategic Echo",
+      "fr": "Stratégique Écho",
+      "es": "Estratégico Eco"
+    },
+    "idealProfile": {
+      "financialSense": 41,
+      "creativity": 79,
+      "empathy": 42,
+      "humor": 47,
+      "ambition": 49,
+      "social": 48
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "echo"
+    ]
+  },
+  {
+    "id": "power_strategic_pulse",
+    "name": {
+      "en": "Strategic Pulse",
+      "fr": "Stratégique Impulsion",
+      "es": "Estratégico Pulso"
+    },
+    "idealProfile": {
+      "financialSense": 72,
+      "social": 24,
+      "intelligence": 25,
+      "energy": 35,
+      "risk": 78,
+      "discipline": 42
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "pulse"
+    ]
+  },
+  {
+    "id": "power_strategic_anchor",
+    "name": {
+      "en": "Strategic Anchor",
+      "fr": "Stratégique Ancre",
+      "es": "Estratégico Ancla"
+    },
+    "idealProfile": {
+      "social": 74,
+      "creativity": 29,
+      "chaos": 81,
+      "humor": 36,
+      "professionalism": 86,
+      "luck": 48
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "anchor"
+    ]
+  },
+  {
+    "id": "power_strategic_lens",
+    "name": {
+      "en": "Strategic Lens",
+      "fr": "Stratégique Lentille",
+      "es": "Estratégico Lente"
+    },
+    "idealProfile": {
+      "emotionalControl": 49,
+      "humor": 55,
+      "risk": 77,
+      "professionalism": 58,
+      "discipline": 55,
+      "communication": 67
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "lens"
+    ]
+  },
+  {
+    "id": "power_strategic_boost",
+    "name": {
+      "en": "Strategic Boost",
+      "fr": "Stratégique Boost",
+      "es": "Estratégico Impulso"
+    },
+    "idealProfile": {
+      "professionalism": 67,
+      "creativity": 44,
+      "risk": 53,
+      "communication": 38,
+      "humor": 50,
+      "luck": 59
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "boost"
+    ]
+  },
+  {
+    "id": "power_strategic_field",
+    "name": {
+      "en": "Strategic Field",
+      "fr": "Stratégique Champ",
+      "es": "Estratégico Campo"
+    },
+    "idealProfile": {
+      "discipline": 65,
+      "humor": 91,
+      "communication": 27,
+      "emotionalControl": 26,
+      "risk": 85,
+      "professionalism": 77
+    },
+    "tags": [
+      "expanded_v2",
+      "strategic",
+      "field"
+    ]
+  },
+  {
+    "id": "power_patient_burst",
+    "name": {
+      "en": "Patient Burst",
+      "fr": "Patient Rafale",
+      "es": "Paciente Ráfaga"
+    },
+    "idealProfile": {
+      "creativity": 89,
+      "humor": 71,
+      "luck": 25,
+      "risk": 30,
+      "communication": 30,
+      "professionalism": 42
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "burst"
+    ]
+  },
+  {
+    "id": "power_patient_shield",
+    "name": {
+      "en": "Patient Shield",
+      "fr": "Patient Bouclier",
+      "es": "Paciente Escudo"
+    },
+    "idealProfile": {
+      "intelligence": 37,
+      "discipline": 45,
+      "financialSense": 69,
+      "social": 43,
+      "energy": 54,
+      "risk": 75
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "shield"
+    ]
+  },
+  {
+    "id": "power_patient_radar",
+    "name": {
+      "en": "Patient Radar",
+      "fr": "Patient Radar",
+      "es": "Paciente Radar"
+    },
+    "idealProfile": {
+      "ambition": 86,
+      "creativity": 78,
+      "energy": 36,
+      "financialSense": 79,
+      "discipline": 92,
+      "social": 25
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "radar"
+    ]
+  },
+  {
+    "id": "power_patient_override",
+    "name": {
+      "en": "Patient Override",
+      "fr": "Patient Forçage",
+      "es": "Paciente Anulación"
+    },
+    "idealProfile": {
+      "humor": 83,
+      "risk": 67,
+      "professionalism": 64,
+      "discipline": 91,
+      "emotionalControl": 24,
+      "communication": 32
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "override"
+    ]
+  },
+  {
+    "id": "power_patient_echo",
+    "name": {
+      "en": "Patient Echo",
+      "fr": "Patient Écho",
+      "es": "Paciente Eco"
+    },
+    "idealProfile": {
+      "discipline": 55,
+      "social": 59,
+      "emotionalControl": 33,
+      "creativity": 70,
+      "luck": 67,
+      "chaos": 82
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "echo"
+    ]
+  },
+  {
+    "id": "power_patient_pulse",
+    "name": {
+      "en": "Patient Pulse",
+      "fr": "Patient Impulsion",
+      "es": "Paciente Pulso"
+    },
+    "idealProfile": {
+      "intelligence": 37,
+      "risk": 32,
+      "ambition": 54,
+      "empathy": 64,
+      "creativity": 43,
+      "humor": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "pulse"
+    ]
+  },
+  {
+    "id": "power_patient_anchor",
+    "name": {
+      "en": "Patient Anchor",
+      "fr": "Patient Ancre",
+      "es": "Paciente Ancla"
+    },
+    "idealProfile": {
+      "financialSense": 83,
+      "creativity": 51,
+      "empathy": 70,
+      "humor": 89,
+      "ambition": 34,
+      "social": 76
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "anchor"
+    ]
+  },
+  {
+    "id": "power_patient_lens",
+    "name": {
+      "en": "Patient Lens",
+      "fr": "Patient Lentille",
+      "es": "Paciente Lente"
+    },
+    "idealProfile": {
+      "ambition": 82,
+      "risk": 82,
+      "intelligence": 29,
+      "humor": 88,
+      "empathy": 94,
+      "creativity": 41
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "lens"
+    ]
+  },
+  {
+    "id": "power_patient_boost",
+    "name": {
+      "en": "Patient Boost",
+      "fr": "Patient Boost",
+      "es": "Paciente Impulso"
+    },
+    "idealProfile": {
+      "communication": 66,
+      "humor": 84,
+      "discipline": 78,
+      "emotionalControl": 45,
+      "risk": 90,
+      "professionalism": 84
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "boost"
+    ]
+  },
+  {
+    "id": "power_patient_field",
+    "name": {
+      "en": "Patient Field",
+      "fr": "Patient Champ",
+      "es": "Paciente Campo"
+    },
+    "idealProfile": {
+      "intelligence": 68,
+      "discipline": 64,
+      "financialSense": 69,
+      "social": 74,
+      "energy": 59,
+      "risk": 75
+    },
+    "tags": [
+      "expanded_v2",
+      "patient",
+      "field"
+    ]
+  },
+  {
+    "id": "power_restless_burst",
+    "name": {
+      "en": "Restless Burst",
+      "fr": "Agité Rafale",
+      "es": "Inquieto Ráfaga"
+    },
+    "idealProfile": {
+      "humor": 35,
+      "risk": 65,
+      "professionalism": 44,
+      "discipline": 80,
+      "emotionalControl": 47,
+      "communication": 92
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "burst"
+    ]
+  },
+  {
+    "id": "power_restless_shield",
+    "name": {
+      "en": "Restless Shield",
+      "fr": "Agité Bouclier",
+      "es": "Inquieto Escudo"
+    },
+    "idealProfile": {
+      "social": 54,
+      "humor": 75,
+      "professionalism": 45,
+      "creativity": 60,
+      "chaos": 81,
+      "luck": 63
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "shield"
+    ]
+  },
+  {
+    "id": "power_restless_radar",
+    "name": {
+      "en": "Restless Radar",
+      "fr": "Agité Radar",
+      "es": "Inquieto Radar"
+    },
+    "idealProfile": {
+      "creativity": 90,
+      "discipline": 78,
+      "chaos": 56,
+      "luck": 84,
+      "social": 79,
+      "emotionalControl": 31
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "radar"
+    ]
+  },
+  {
+    "id": "power_restless_override",
+    "name": {
+      "en": "Restless Override",
+      "fr": "Agité Forçage",
+      "es": "Inquieto Anulación"
+    },
+    "idealProfile": {
+      "chaos": 46,
+      "risk": 46,
+      "discipline": 88,
+      "communication": 43,
+      "social": 52,
+      "emotionalControl": 64
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "override"
+    ]
+  },
+  {
+    "id": "power_restless_echo",
+    "name": {
+      "en": "Restless Echo",
+      "fr": "Agité Écho",
+      "es": "Inquieto Eco"
+    },
+    "idealProfile": {
+      "empathy": 45,
+      "risk": 28,
+      "energy": 31,
+      "discipline": 51,
+      "intelligence": 63,
+      "humor": 37
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "echo"
+    ]
+  },
+  {
+    "id": "power_restless_pulse",
+    "name": {
+      "en": "Restless Pulse",
+      "fr": "Agité Impulsion",
+      "es": "Inquieto Pulso"
+    },
+    "idealProfile": {
+      "creativity": 79,
+      "discipline": 47,
+      "chaos": 24,
+      "luck": 53,
+      "social": 49,
+      "emotionalControl": 91
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "pulse"
+    ]
+  },
+  {
+    "id": "power_restless_anchor",
+    "name": {
+      "en": "Restless Anchor",
+      "fr": "Agité Ancre",
+      "es": "Inquieto Ancla"
+    },
+    "idealProfile": {
+      "discipline": 31,
+      "humor": 32,
+      "communication": 83,
+      "emotionalControl": 38,
+      "risk": 42,
+      "professionalism": 43
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "anchor"
+    ]
+  },
+  {
+    "id": "power_restless_lens",
+    "name": {
+      "en": "Restless Lens",
+      "fr": "Agité Lentille",
+      "es": "Inquieto Lente"
+    },
+    "idealProfile": {
+      "discipline": 42,
+      "social": 72,
+      "emotionalControl": 71,
+      "creativity": 92,
+      "luck": 54,
+      "chaos": 33
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "lens"
+    ]
+  },
+  {
+    "id": "power_restless_boost",
+    "name": {
+      "en": "Restless Boost",
+      "fr": "Agité Boost",
+      "es": "Inquieto Impulso"
+    },
+    "idealProfile": {
+      "intelligence": 51,
+      "social": 24,
+      "financialSense": 54,
+      "discipline": 57,
+      "energy": 36,
+      "risk": 66
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "boost"
+    ]
+  },
+  {
+    "id": "power_restless_field",
+    "name": {
+      "en": "Restless Field",
+      "fr": "Agité Champ",
+      "es": "Inquieto Campo"
+    },
+    "idealProfile": {
+      "humor": 81,
+      "social": 84,
+      "luck": 78,
+      "professionalism": 90,
+      "creativity": 33,
+      "chaos": 93
+    },
+    "tags": [
+      "expanded_v2",
+      "restless",
+      "field"
+    ]
+  },
+  {
+    "id": "power_precise_burst",
+    "name": {
+      "en": "Precise Burst",
+      "fr": "Précis Rafale",
+      "es": "Preciso Ráfaga"
+    },
+    "idealProfile": {
+      "financialSense": 77,
+      "creativity": 53,
+      "empathy": 90,
+      "humor": 83,
+      "ambition": 92,
+      "social": 25
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "burst"
+    ]
+  },
+  {
+    "id": "power_precise_shield",
+    "name": {
+      "en": "Precise Shield",
+      "fr": "Précis Bouclier",
+      "es": "Preciso Escudo"
+    },
+    "idealProfile": {
+      "creativity": 61,
+      "discipline": 73,
+      "chaos": 47,
+      "luck": 79,
+      "social": 79,
+      "emotionalControl": 73
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "shield"
+    ]
+  },
+  {
+    "id": "power_precise_radar",
+    "name": {
+      "en": "Precise Radar",
+      "fr": "Précis Radar",
+      "es": "Preciso Radar"
+    },
+    "idealProfile": {
+      "energy": 73,
+      "social": 93,
+      "ambition": 81,
+      "creativity": 79,
+      "financialSense": 40,
+      "discipline": 87
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "radar"
+    ]
+  },
+  {
+    "id": "power_precise_override",
+    "name": {
+      "en": "Precise Override",
+      "fr": "Précis Forçage",
+      "es": "Preciso Anulación"
+    },
+    "idealProfile": {
+      "emotionalControl": 58,
+      "risk": 73,
+      "social": 31,
+      "chaos": 41,
+      "discipline": 79,
+      "communication": 37
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "override"
+    ]
+  },
+  {
+    "id": "power_precise_echo",
+    "name": {
+      "en": "Precise Echo",
+      "fr": "Précis Écho",
+      "es": "Preciso Eco"
+    },
+    "idealProfile": {
+      "humor": 41,
+      "risk": 90,
+      "professionalism": 61,
+      "discipline": 40,
+      "emotionalControl": 53,
+      "communication": 52
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "echo"
+    ]
+  },
+  {
+    "id": "power_precise_pulse",
+    "name": {
+      "en": "Precise Pulse",
+      "fr": "Précis Impulsion",
+      "es": "Preciso Pulso"
+    },
+    "idealProfile": {
+      "financialSense": 66,
+      "social": 71,
+      "intelligence": 93,
+      "energy": 79,
+      "risk": 72,
+      "discipline": 89
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "pulse"
+    ]
+  },
+  {
+    "id": "power_precise_anchor",
+    "name": {
+      "en": "Precise Anchor",
+      "fr": "Précis Ancre",
+      "es": "Preciso Ancla"
+    },
+    "idealProfile": {
+      "ambition": 40,
+      "humor": 70,
+      "intelligence": 44,
+      "risk": 46,
+      "empathy": 39,
+      "creativity": 50
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "anchor"
+    ]
+  },
+  {
+    "id": "power_precise_lens",
+    "name": {
+      "en": "Precise Lens",
+      "fr": "Précis Lentille",
+      "es": "Preciso Lente"
+    },
+    "idealProfile": {
+      "professionalism": 38,
+      "creativity": 63,
+      "risk": 75,
+      "communication": 30,
+      "humor": 69,
+      "luck": 81
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "lens"
+    ]
+  },
+  {
+    "id": "power_precise_boost",
+    "name": {
+      "en": "Precise Boost",
+      "fr": "Précis Boost",
+      "es": "Preciso Impulso"
+    },
+    "idealProfile": {
+      "communication": 93,
+      "humor": 83,
+      "discipline": 25,
+      "emotionalControl": 35,
+      "risk": 89,
+      "professionalism": 31
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "boost"
+    ]
+  },
+  {
+    "id": "power_precise_field",
+    "name": {
+      "en": "Precise Field",
+      "fr": "Précis Champ",
+      "es": "Preciso Campo"
+    },
+    "idealProfile": {
+      "risk": 59,
+      "creativity": 70,
+      "professionalism": 27,
+      "communication": 76,
+      "humor": 38,
+      "luck": 71
+    },
+    "tags": [
+      "expanded_v2",
+      "precise",
+      "field"
+    ]
+  }
 ]
