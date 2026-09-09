@@ -1,4 +1,5 @@
-import type { FinalForm, LocaleCode, LocalizedText } from "@final-form/shared-types";
+import { useState } from "react";
+import type { FinalForm, LocaleCode, LocalizedText, StatKey } from "@final-form/shared-types";
 import { STAT_KEYS } from "@final-form/shared-types";
 import { contentPack } from "../../data/index.js";
 import { StatBar } from "./StatBar.js";
@@ -11,42 +12,70 @@ function localizedLabel(entry: { name?: LocalizedText; text?: LocalizedText }, l
   if (!label) throw new Error(`FinalFormCard: libellé manquant pour ${context}`);
   return label[locale];
 }
-const extraLabels: Record<LocaleCode, { ability: string; aura: string; rarityScore: string; synergies: string; derived: string; formId: string }> = {
-  en: { ability: "Special ability", aura: "Aura", rarityScore: "Rarity score", synergies: "Activated synergies", derived: "Derived stats", formId: "Form ID" },
-  fr: { ability: "Capacité spéciale", aura: "Aura", rarityScore: "Score de rareté", synergies: "Synergies activées", derived: "Statistiques dérivées", formId: "ID de forme" },
-  es: { ability: "Habilidad especial", aura: "Aura", rarityScore: "Puntuación de rareza", synergies: "Sinergias activadas", derived: "Estadísticas derivadas", formId: "ID de forma" },
+const labels: Record<LocaleCode, Record<string, string>> = {
+  en: { ability: "Special ability", aura: "Aura", synergies: "Activated synergies", derived: "Derived stats", formId: "Form ID", details: "See full analysis", hideDetails: "Hide full analysis", share: "Share my form", copied: "Result copied", profile: "Your suspiciously accurate summary", normal: "Uncommon specimen", rare: "Rare form detected", epic: "Statistically concerning", legendary: "This should not have happened" },
+  fr: { ability: "Capacité spéciale", aura: "Aura", synergies: "Synergies activées", derived: "Statistiques dérivées", formId: "ID de forme", details: "Voir l'analyse complète", hideDetails: "Masquer l'analyse", share: "Partager ma forme", copied: "Résultat copié", profile: "Ton résumé étrangement précis", normal: "Spécimen peu commun", rare: "Forme rare détectée", epic: "Statistiquement inquiétant", legendary: "Ceci n'aurait pas dû arriver" },
+  es: { ability: "Habilidad especial", aura: "Aura", synergies: "Sinergias activadas", derived: "Estadísticas derivadas", formId: "ID de forma", details: "Ver análisis completo", hideDetails: "Ocultar análisis", share: "Compartir mi forma", copied: "Resultado copiado", profile: "Tu resumen sospechosamente preciso", normal: "Espécimen poco común", rare: "Forma rara detectada", epic: "Estadísticamente preocupante", legendary: "Esto no debería haber ocurrido" },
 };
+const verdicts: Record<LocaleCode, Record<string, string>> = {
+  en: { chaos: "You can turn a minor inconvenience into a three-act story, then somehow solve it at the last minute.", discipline: "You have a plan, a backup plan, and a folder containing the plan nobody was supposed to know about.", humor: "Your primary defense mechanism is making the situation funny before anyone can ask if you're okay.", intelligence: "You solve problems suspiciously fast, then make everyone nervous by saying you were 'just guessing'.", empathy: "You notice everyone's mood immediately. This is useful until the group chat becomes your unpaid second job.", luck: "Your strategy contains several gaps. Luck keeps filing the paperwork for you.", default: "You look functional from a distance. Up close, the system is mostly confidence, timing, and one very specific coping mechanism." },
+  fr: { chaos: "Tu peux transformer un petit contretemps en histoire en trois actes, puis régler le problème au dernier moment comme si tout était prévu.", discipline: "Tu as un plan, un plan B et probablement un dossier contenant le plan que personne n'était censé connaître.", humor: "Ton principal mécanisme de défense consiste à rendre la situation drôle avant que quelqu'un demande si ça va.", intelligence: "Tu règles les problèmes beaucoup trop vite, puis tu inquiètes tout le monde en disant que tu as « juste essayé un truc ».", empathy: "Tu détectes immédiatement l'humeur de tout le monde. Pratique, jusqu'à ce que le groupe devienne ton deuxième travail non payé.", luck: "Ta stratégie comporte quelques trous. Heureusement, ta chance remplit les formulaires à ta place.", default: "De loin, tu sembles parfaitement fonctionnel. De près, le système repose surtout sur la confiance, le timing et un mécanisme de survie très spécifique." },
+  es: { chaos: "Puedes convertir un pequeño problema en una historia de tres actos y aun así resolverlo en el último minuto.", discipline: "Tienes un plan, un plan B y probablemente una carpeta con el plan que nadie debía conocer.", humor: "Tu principal mecanismo de defensa es hacer divertida la situación antes de que alguien pregunte si estás bien.", intelligence: "Resuelves problemas sospechosamente rápido y luego inquietas a todos diciendo que solo estabas probando algo.", empathy: "Detectas el estado de ánimo de todos al instante. Útil hasta que el chat grupal se convierte en tu segundo trabajo no remunerado.", luck: "Tu estrategia tiene varios agujeros. La suerte sigue haciendo el papeleo por ti.", default: "De lejos pareces perfectamente funcional. De cerca, el sistema funciona con confianza, timing y un mecanismo de supervivencia muy específico." }
+};
+function getVerdict(result: FinalForm, locale: LocaleCode): string {
+  const candidates: StatKey[] = ["chaos", "discipline", "humor", "intelligence", "empathy", "luck"];
+  const strongest = candidates.reduce((best, key) => result.coreStats[key] > result.coreStats[best] ? key : best, candidates[0]);
+  return verdicts[locale][strongest] ?? verdicts[locale].default;
+}
+function rarityTier(oneInX: number): "normal" | "rare" | "epic" | "legendary" { if (oneInX >= 1_000_000) return "legendary"; if (oneInX >= 100_000) return "epic"; if (oneInX >= 1_000) return "rare"; return "normal"; }
+function humanizeTag(tag: string): string { return tag.replace(/[_-]+/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase()); }
 
 export function FinalFormCard({ result, locale, onTryAgain }: FinalFormCardProps) {
-  const t = useTranslation(locale); const statLabel = useStatLabel(locale); const labels = extraLabels[locale];
+  const t = useTranslation(locale); const statLabel = useStatLabel(locale); const copy = labels[locale];
+  const [showDetails, setShowDetails] = useState(false); const [shared, setShared] = useState(false);
   const career = resolveCareer(contentPack, result.careerId); const classProfile = resolveClass(contentPack, result.classId);
   const power = resolvePower(contentPack, result.powerId); const weakness = resolveWeakness(contentPack, result.weaknessId);
   const animal = resolveAnimal(contentPack, result.animalId); const ability = resolveAbility(contentPack, result.abilityId);
   const workStyle = resolveWorkStyle(contentPack, result.workStyleId); const alignment = resolveAlignment(contentPack, result.alignmentId);
+  const className = localizedLabel(classProfile, locale, "class"); const tier = rarityTier(result.rarity.oneInX);
   const lifeExpectancyUnit: Record<LocaleCode, string> = { en: "yrs", fr: "ans", es: "años" };
   const worthDisplay = result.worth < 0 ? `-$${Math.abs(result.worth).toLocaleString()}` : `$${result.worth.toLocaleString()}`;
-  return <div className="ff-card">
-    <div className="ff-eyebrow" style={{ textAlign: "center", marginBottom: 6 }}>{t("yourFinalForm")}</div>
-    <h1 className="ff-display" style={{ fontSize: 30, textAlign: "center", marginTop: 0, marginBottom: 20 }}>{localizedLabel(classProfile, locale, "class")}</h1>
-    <div style={{ display: "flex", justifyContent: "center", marginBottom: 24 }}><div className="ff-halftone"><div className="ff-burst">
-      <div className="ff-mono" style={{ fontSize: 11, opacity: 0.85 }}>{t("rarity")}</div><div className="ff-display" style={{ fontSize: 20 }}>1 / {result.rarity.oneInX.toLocaleString()}</div>
-      <div className="ff-mono" style={{ fontSize: 10, opacity: 0.75 }}>{labels.rarityScore}: {result.rarity.score.toFixed(2)}</div>
-    </div></div></div>
-    <div className="ff-info-grid" style={{ marginBottom: 24 }}>
-      <InfoCell label={t("career")} value={localizedLabel(career, locale, "career")} /><InfoCell label={t("worth")} value={worthDisplay} mono />
-      <InfoCell label={t("animal")} value={localizedLabel(animal, locale, "animal")} /><InfoCell label={t("threatLevel")} value={`${result.threatLevel} / 10`} mono />
-      <InfoCell label={t("lifeExpectancy")} value={`${result.lifeExpectancyYears} ${lifeExpectancyUnit[locale]}`} mono /><InfoCell label={t("alignment")} value={localizedLabel(alignment, locale, "alignment")} />
-      <InfoCell label={t("power")} value={localizedLabel(power, locale, "power")} span2 /><InfoCell label={t("weakness")} value={localizedLabel(weakness, locale, "weakness")} span2 />
-      <InfoCell label={labels.ability} value={localizedLabel(ability, locale, "ability")} span2 /><InfoCell label={t("workStyle")} value={localizedLabel(workStyle, locale, "workStyle")} span2 />
-      <InfoCell label={labels.aura} value={`${Math.round(result.auraPercent)}%`} mono />
+  const shareText = `${className} — 1 / ${result.rarity.oneInX.toLocaleString()}\n${localizedLabel(career, locale, "career")} · ${localizedLabel(power, locale, "power")}\n${getVerdict(result, locale)}`;
+  async function shareResult() { try { if (navigator.share) await navigator.share({ title: className, text: shareText }); else await navigator.clipboard.writeText(shareText); setShared(true); setTimeout(() => setShared(false), 1800); } catch { /* partage annulé : aucun état à corriger */ } }
+
+  return <div className={`ff-card ff-result-card ff-result-card--${tier}`}>
+    <header className="ff-result-hero">
+      <div className="ff-eyebrow">{t("yourFinalForm")}</div>
+      <div className="ff-rarity-kicker">{copy[tier]}</div>
+      <h1 className="ff-display ff-result-title">{className}</h1>
+      <div className="ff-halftone"><div className="ff-burst"><div className="ff-mono ff-rarity-label">{t("rarity")}</div><div className="ff-display ff-rarity-value">1 / {result.rarity.oneInX.toLocaleString()}</div></div></div>
+    </header>
+
+    <section className="ff-verdict"><div className="ff-eyebrow">{copy.profile}</div><p>{getVerdict(result, locale)}</p></section>
+
+    <div className="ff-info-grid ff-result-summary">
+      <InfoCell label={t("career")} value={localizedLabel(career, locale, "career")} span2 />
+      <InfoCell label={t("power")} value={localizedLabel(power, locale, "power")} span2 />
+      <InfoCell label={t("weakness")} value={localizedLabel(weakness, locale, "weakness")} span2 />
+      <InfoCell label={t("animal")} value={localizedLabel(animal, locale, "animal")} /><InfoCell label={t("workStyle")} value={localizedLabel(workStyle, locale, "workStyle")} />
+      <InfoCell label={copy.ability} value={localizedLabel(ability, locale, "ability")} span2 />
     </div>
-    <div style={{ marginBottom: 24 }}>{STAT_KEYS.map((key) => <StatBar key={key} label={statLabel(key)} value={result.coreStats[key]} />)}</div>
-    {Object.keys(result.derivedStats).length > 0 && <section style={{ marginBottom: 24 }}><div className="ff-eyebrow" style={{ marginBottom: 10 }}>{labels.derived}</div><div className="ff-info-grid">{Object.entries(result.derivedStats).map(([key, value]) => <InfoCell key={key} label={key} value={Number.isFinite(value) ? value.toFixed(1) : String(value)} mono />)}</div></section>}
-    {result.matchedRuleTags.length > 0 && <section style={{ marginBottom: 24 }}><div className="ff-eyebrow" style={{ marginBottom: 10 }}>{labels.synergies}</div><div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>{result.matchedRuleTags.map((tag) => <span key={tag} className="ff-info-cell ff-mono">{tag}</span>)}</div></section>}
-    {result.formId && <div className="ff-mono" style={{ fontSize: 10, opacity: 0.65, marginBottom: 16 }}>{labels.formId}: {result.formId}</div>}
-    <button onClick={onTryAgain} className="ff-btn ff-btn--primary" style={{ width: "100%" }}>{t("tryAgain")}</button>
+
+    {result.matchedRuleTags.length > 0 && <section className="ff-synergy-section"><div className="ff-eyebrow">{copy.synergies}</div><div className="ff-badges">{result.matchedRuleTags.map((tag) => <span key={tag} className="ff-badge">{humanizeTag(tag)}</span>)}</div></section>}
+
+    <button onClick={() => setShowDetails((value) => !value)} className="ff-btn ff-btn--block ff-details-toggle" aria-expanded={showDetails}>{showDetails ? copy.hideDetails : copy.details}</button>
+    {showDetails && <div className="ff-details-panel">
+      <div className="ff-info-grid">
+        <InfoCell label={t("worth")} value={worthDisplay} mono /><InfoCell label={t("threatLevel")} value={`${result.threatLevel} / 10`} mono />
+        <InfoCell label={t("lifeExpectancy")} value={`${result.lifeExpectancyYears} ${lifeExpectancyUnit[locale]}`} mono /><InfoCell label={t("alignment")} value={localizedLabel(alignment, locale, "alignment")} />
+        <InfoCell label={copy.aura} value={`${Math.round(result.auraPercent)}%`} mono />
+      </div>
+      <div className="ff-stats-panel">{STAT_KEYS.map((key) => <StatBar key={key} label={statLabel(key)} value={result.coreStats[key]} />)}</div>
+      {Object.keys(result.derivedStats).length > 0 && <section><div className="ff-eyebrow">{copy.derived}</div><div className="ff-info-grid">{Object.entries(result.derivedStats).map(([key, value]) => <InfoCell key={key} label={key} value={Number.isFinite(value) ? value.toFixed(1) : String(value)} mono />)}</div></section>}
+      {result.formId && <div className="ff-mono ff-form-id">{copy.formId}: {result.formId}</div>}
+    </div>}
+
+    <div className="ff-result-actions"><button onClick={shareResult} className="ff-btn ff-btn--share">{shared ? copy.copied : copy.share}</button><button onClick={onTryAgain} className="ff-btn ff-btn--primary">{t("tryAgain")}</button></div>
   </div>;
 }
-function InfoCell({ label, value, mono = false, span2 = false }: { label: string; value: string; mono?: boolean; span2?: boolean }) {
-  return <div className="ff-info-cell" style={span2 ? { gridColumn: "span 2" } : undefined}><div className="ff-info-label">{label}</div><div className={`ff-info-value${mono ? " ff-mono" : ""}`}>{value}</div></div>;
-}
+function InfoCell({ label, value, mono = false, span2 = false }: { label: string; value: string; mono?: boolean; span2?: boolean }) { return <div className="ff-info-cell" style={span2 ? { gridColumn: "span 2" } : undefined}><div className="ff-info-label">{label}</div><div className={`ff-info-value${mono ? " ff-mono" : ""}`}>{value}</div></div>; }
