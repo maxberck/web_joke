@@ -27,10 +27,15 @@ jobs:
       - name: Valider le contenu
         run: npm run content:validate
 
+      - name: Vérifier les baselines de matching
+        run: |
+          BASELINE_OUTPUT=/tmp/matchBaselines.json BASELINE_SAMPLES=50000 npm run sim:build-baselines
+          node --input-type=module -e "import fs from 'node:fs'; const committed=JSON.parse(fs.readFileSync('src/data/matchBaselines.json','utf8')); const generated=JSON.parse(fs.readFileSync('/tmp/matchBaselines.json','utf8')); if (JSON.stringify(committed)!==JSON.stringify(generated)) { console.error('Les baselines versionnées ne correspondent plus aux 50 000 simulations.'); process.exit(1); } console.log('Baselines versionnées conformes aux 50 000 simulations.');"
+
       - name: Vérifier la calibration d'apparition
         run: |
-          APPEARANCE_OUTPUT=/tmp/appearanceCalibration.json APPEARANCE_SAMPLES=50000 npm run sim:build-appearance
-          node --input-type=module -e "import fs from 'node:fs'; const committed=JSON.parse(fs.readFileSync('src/data/appearanceCalibration.json','utf8')); const generated=JSON.parse(fs.readFileSync('/tmp/appearanceCalibration.json','utf8')); if (JSON.stringify(committed)!==JSON.stringify(generated)) { console.error('La calibration versionnée ne correspond plus aux 50 000 simulations.'); process.exit(1); } console.log('Calibration versionnée conforme aux 50 000 simulations.');"
+          APPEARANCE_OUTPUT=/tmp/appearanceCalibration.json APPEARANCE_SAMPLES=200000 npm run sim:build-appearance
+          node --input-type=module -e "import fs from 'node:fs'; const committed=JSON.parse(fs.readFileSync('src/data/appearanceCalibration.json','utf8')); const generated=JSON.parse(fs.readFileSync('/tmp/appearanceCalibration.json','utf8')); if (JSON.stringify(committed)!==JSON.stringify(generated)) { console.error('La calibration versionnée ne correspond plus aux 200 000 simulations.'); process.exit(1); } console.log('Calibration versionnée conforme aux 200 000 simulations.');"
 
       - name: Valider la rareté hybride
         run: npm run rarity:validate
