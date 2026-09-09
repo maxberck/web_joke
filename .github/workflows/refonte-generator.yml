@@ -1,0 +1,49 @@
+name: Générer la refonte du contenu
+
+on:
+  push:
+    branches: [feat/refonte-contenu-massive]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    if: ${{ !contains(github.event.head_commit.message, '[refonte-generated]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer la branche
+        uses: actions/checkout@v4
+        with:
+          ref: feat/refonte-contenu-massive
+          fetch-depth: 0
+
+      - name: Installer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Installer les dépendances
+        run: npm ci
+
+      - name: Générer le manifest historique
+        run: node content-pipeline/scripts/buildLegacyManifest.mjs
+
+      - name: Canonicaliser les données historiques
+        run: node content-pipeline/scripts/canonicalizeData.mjs
+
+      - name: Vérifier la migration générée
+        run: node content-pipeline/scripts/validateCanonicalMigration.mjs
+
+      - name: Committer les fichiers générés
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content-pipeline/fixtures/legacy-content-manifest.json src/data/questions src/data/careers.json src/data/classes.json src/data/powers.json src/data/weaknesses.json src/data/abilities.json src/data/workStyles.json src/data/animals.json src/data/synergyRules.json
+          if git diff --cached --quiet; then
+            echo "Aucun fichier généré à committer."
+            exit 0
+          fi
+          git commit -m "data: canonicaliser le contenu historique [refonte-generated]"
+          git push origin HEAD:feat/refonte-contenu-massive
