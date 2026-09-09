@@ -3,7 +3,7 @@ import { resolve } from "node:path";
 
 const root = resolve(import.meta.dirname, "..");
 const dataDir = resolve(root, "src/data");
-const OUTPUT = resolve(dataDir, "appearanceCalibration.json");
+const OUTPUT = resolve(process.env.APPEARANCE_OUTPUT ?? resolve(dataDir, "appearanceCalibration.json"));
 const SAMPLES = Math.max(2_000, Number(process.env.APPEARANCE_SAMPLES ?? 50_000));
 const QUESTIONS_PER_GAME = 20;
 const ANSWERS_SHOWN = 3;
@@ -158,4 +158,6 @@ const calibration = Object.fromEntries(Object.entries(groups).map(([name, entrie
 const text = `${JSON.stringify(calibration, null, 2)}\n`;
 await writeFile(OUTPUT, text, "utf8");
 console.log(`Appearance calibration OK: ${SAMPLES} simulations, ${questions.length} questions`);
-if (process.argv.includes("--print")) console.log(`APPEARANCE_CALIBRATION_JSON=${JSON.stringify(calibration)}`);
+if (process.env.PRINT_APPEARANCE_JSON === "1" || process.argv.includes("--print")) {
+  console.log(`APPEARANCE_CALIBRATION_JSON=${JSON.stringify(calibration)}`);
+}
