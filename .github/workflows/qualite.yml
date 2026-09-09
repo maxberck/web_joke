@@ -24,8 +24,10 @@ jobs:
       - name: Installer les dépendances
         run: npm ci
 
-      - name: Calibrer les fréquences d'apparition
-        run: PRINT_APPEARANCE_JSON=1 APPEARANCE_SAMPLES=50000 npm run sim:build-appearance
+      - name: Vérifier la calibration d'apparition
+        run: |
+          APPEARANCE_OUTPUT=/tmp/appearanceCalibration.json APPEARANCE_SAMPLES=50000 npm run sim:build-appearance
+          node --input-type=module -e "import fs from 'node:fs'; const committed=JSON.parse(fs.readFileSync('src/data/appearanceCalibration.json','utf8')); const generated=JSON.parse(fs.readFileSync('/tmp/appearanceCalibration.json','utf8')); if (JSON.stringify(committed)!==JSON.stringify(generated)) { console.error('La calibration versionnée ne correspond plus aux 50 000 simulations.'); process.exit(1); } console.log('Calibration versionnée conforme aux 50 000 simulations.');"
 
       - name: Valider le contenu
         run: npm run content:validate
