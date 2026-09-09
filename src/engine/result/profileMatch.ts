@@ -6,7 +6,6 @@ type MatchBaseline = { mean: number; std: number };
 export function profileDistance(stats: Stats, ideal: IdealProfile): number {
   let sumSquares = 0;
   let count = 0;
-
   for (const [key, idealValue] of Object.entries(ideal)) {
     if (idealValue === undefined) continue;
     const actual = stats[key as keyof Stats];
@@ -15,7 +14,6 @@ export function profileDistance(stats: Stats, ideal: IdealProfile): number {
     sumSquares += diff * diff;
     count += 1;
   }
-
   if (count === 0) return Number.POSITIVE_INFINITY;
   return Math.sqrt(sumSquares / count);
 }
@@ -33,20 +31,17 @@ export function findBestMatchNormalized<T extends { id: string; idealProfile: Id
   baselines: Record<string, MatchBaseline> | undefined,
 ): T {
   if (entries.length === 0) throw new Error("findBestMatchNormalized: la liste d'entrées ne peut pas être vide");
-  if (!baselines) return findBestMatch(stats, entries);
+  const baselineSet = baselines;
+  if (!baselineSet) return findBestMatch(stats, entries);
 
   function zScore(entry: T): number {
     const distance = profileDistance(stats, entry.idealProfile);
     if (!Number.isFinite(distance)) return Number.POSITIVE_INFINITY;
-
-    const baseline = baselines[entry.id];
-    if (!baseline) {
-      throw new Error(`Baseline manquante pour ${entry.id}`);
-    }
+    const baseline = baselineSet[entry.id];
+    if (!baseline) throw new Error(`Baseline manquante pour ${entry.id}`);
     if (!Number.isFinite(baseline.mean) || !Number.isFinite(baseline.std) || baseline.std <= 0) {
       throw new Error(`Baseline invalide pour ${entry.id}`);
     }
-
     return (distance - baseline.mean) / baseline.std;
   }
 
