@@ -51,7 +51,7 @@ seen(data.questions, "questions");
 for (const question of data.questions) {
   localized(question.text, `question ${question.id}`);
   seen(question.answers, `answers for ${question.id}`);
-  if (question.answers.length < 3) throw new Error(`question ${question.id}: fewer than 3 answers`);
+  if (question.answers.length !== 10) throw new Error(`question ${question.id}: exactly 10 answers required, got ${question.answers.length}`);
   for (const answer of question.answers) {
     localized(answer.text, `answer ${answer.id}`);
     if (answer.selectionWeight !== undefined && (!Number.isFinite(answer.selectionWeight) || answer.selectionWeight < 0)) {
