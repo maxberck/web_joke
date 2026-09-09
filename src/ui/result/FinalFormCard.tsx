@@ -12,19 +12,22 @@ function localizedLabel(entry: { name?: LocalizedText; text?: LocalizedText }, l
   if (!label) throw new Error(`FinalFormCard: libellé manquant pour ${context}`);
   return label[locale];
 }
+function localizedDescription(entry: { description?: LocalizedText }, locale: LocaleCode): string {
+  return entry.description?.[locale] ?? "";
+}
 
 type RarityTier = "normal" | "rare" | "epic" | "legendary";
 type VerdictKey = "chaos" | "discipline" | "humor" | "intelligence" | "empathy" | "luck";
 type CopyLabels = {
-  ability: string; aura: string; synergies: string; derived: string; formId: string;
+  ability: string; aura: string; fortune: string; synergies: string; derived: string; formId: string;
   details: string; hideDetails: string; share: string; copied: string; profile: string;
   normal: string; rare: string; epic: string; legendary: string;
 };
 
 const labels: Record<LocaleCode, CopyLabels> = {
-  en: { ability: "Special ability", aura: "Aura", synergies: "Activated synergies", derived: "Derived stats", formId: "Form ID", details: "See full analysis", hideDetails: "Hide full analysis", share: "Share my form", copied: "Result copied", profile: "Your suspiciously accurate summary", normal: "Uncommon specimen", rare: "Rare form detected", epic: "Statistically concerning", legendary: "This should not have happened" },
-  fr: { ability: "Capacité spéciale", aura: "Aura", synergies: "Synergies activées", derived: "Statistiques dérivées", formId: "ID de forme", details: "Voir l'analyse complète", hideDetails: "Masquer l'analyse", share: "Partager ma forme", copied: "Résultat copié", profile: "Ton résumé étrangement précis", normal: "Spécimen peu commun", rare: "Forme rare détectée", epic: "Statistiquement inquiétant", legendary: "Ceci n'aurait pas dû arriver" },
-  es: { ability: "Habilidad especial", aura: "Aura", synergies: "Sinergias activadas", derived: "Estadísticas derivadas", formId: "ID de forma", details: "Ver análisis completo", hideDetails: "Ocultar análisis", share: "Compartir mi forma", copied: "Resultado copiado", profile: "Tu resumen sospechosamente preciso", normal: "Espécimen poco común", rare: "Forma rara detectada", epic: "Estadísticamente preocupante", legendary: "Esto no debería haber ocurrido" },
+  en: { ability: "Special ability", aura: "Aura", fortune: "Fortune", synergies: "Activated synergies", derived: "Derived stats", formId: "Form ID", details: "See full analysis", hideDetails: "Hide full analysis", share: "Share my form", copied: "Result copied", profile: "Your suspiciously accurate summary", normal: "Uncommon specimen", rare: "Rare form detected", epic: "Statistically concerning", legendary: "This should not have happened" },
+  fr: { ability: "Capacité spéciale", aura: "Aura", fortune: "Fortune", synergies: "Synergies activées", derived: "Statistiques dérivées", formId: "ID de forme", details: "Voir l'analyse complète", hideDetails: "Masquer l'analyse", share: "Partager ma forme", copied: "Résultat copié", profile: "Ton résumé étrangement précis", normal: "Spécimen peu commun", rare: "Forme rare détectée", epic: "Statistiquement inquiétant", legendary: "Ceci n'aurait pas dû arriver" },
+  es: { ability: "Habilidad especial", aura: "Aura", fortune: "Fortuna", synergies: "Sinergias activadas", derived: "Estadísticas derivadas", formId: "ID de forma", details: "Ver análisis completo", hideDetails: "Ocultar análisis", share: "Compartir mi forma", copied: "Resultado copiado", profile: "Tu resumen sospechosamente preciso", normal: "Espécimen poco común", rare: "Forma rara detectada", epic: "Estadísticamente preocupante", legendary: "Esto no debería haber ocurrido" },
 };
 
 const verdicts: Record<LocaleCode, Record<VerdictKey | "default", string>> = {
@@ -49,6 +52,7 @@ export function FinalFormCard({ result, locale, onTryAgain }: FinalFormCardProps
   const animal = resolveAnimal(contentPack, result.animalId); const ability = resolveAbility(contentPack, result.abilityId);
   const workStyle = resolveWorkStyle(contentPack, result.workStyleId); const alignment = resolveAlignment(contentPack, result.alignmentId);
   const className = localizedLabel(classProfile, locale, "class"); const tier = rarityTier(result.rarity.oneInX);
+  const animalName = localizedLabel(animal, locale, "animal"); const animalDescription = localizedDescription(animal, locale);
   const lifeExpectancyUnit: Record<LocaleCode, string> = { en: "yrs", fr: "ans", es: "años" };
   const worthDisplay = result.worth < 0 ? `-$${Math.abs(result.worth).toLocaleString()}` : `$${result.worth.toLocaleString()}`;
   const shareText = `${className} — 1 / ${result.rarity.oneInX.toLocaleString()}\n${localizedLabel(career, locale, "career")} · ${localizedLabel(power, locale, "power")}\n${getVerdict(result, locale)}`;
@@ -61,21 +65,36 @@ export function FinalFormCard({ result, locale, onTryAgain }: FinalFormCardProps
       <h1 className="ff-display ff-result-title">{className}</h1>
       <div className="ff-halftone"><div className="ff-burst"><div className="ff-mono ff-rarity-label">{t("rarity")}</div><div className="ff-display ff-rarity-value">1 / {result.rarity.oneInX.toLocaleString()}</div></div></div>
     </header>
+
+    <div className="ff-vitals" aria-label="Key result metrics">
+      <VitalCard label={copy.fortune} value={worthDisplay} />
+      <VitalCard label={copy.aura} value={`${Math.round(result.auraPercent)}%`} />
+      <VitalCard label={t("lifeExpectancy")} value={`${result.lifeExpectancyYears} ${lifeExpectancyUnit[locale]}`} />
+    </div>
+
     <section className="ff-verdict"><div className="ff-eyebrow">{copy.profile}</div><p>{getVerdict(result, locale)}</p></section>
+
+    <section className="ff-animal-card">
+      <div className="ff-eyebrow">{t("animal")}</div>
+      <div className="ff-display ff-animal-name">{animalName}</div>
+      {animalDescription && <p>{animalDescription}</p>}
+    </section>
+
     <div className="ff-info-grid ff-result-summary">
       <InfoCell label={t("career")} value={localizedLabel(career, locale, "career")} span2 />
       <InfoCell label={t("power")} value={localizedLabel(power, locale, "power")} span2 />
       <InfoCell label={t("weakness")} value={localizedLabel(weakness, locale, "weakness")} span2 />
-      <InfoCell label={t("animal")} value={localizedLabel(animal, locale, "animal")} /><InfoCell label={t("workStyle")} value={localizedLabel(workStyle, locale, "workStyle")} />
+      <InfoCell label={t("workStyle")} value={localizedLabel(workStyle, locale, "workStyle")} span2 />
       <InfoCell label={copy.ability} value={localizedLabel(ability, locale, "ability")} span2 />
     </div>
+
     {result.matchedRuleTags.length > 0 && <section className="ff-synergy-section"><div className="ff-eyebrow">{copy.synergies}</div><div className="ff-badges">{result.matchedRuleTags.map((tag) => <span key={tag} className="ff-badge">{humanizeTag(tag)}</span>)}</div></section>}
+
     <button onClick={() => setShowDetails((value) => !value)} className="ff-btn ff-btn--block ff-details-toggle" aria-expanded={showDetails}>{showDetails ? copy.hideDetails : copy.details}</button>
     {showDetails && <div className="ff-details-panel">
       <div className="ff-info-grid">
-        <InfoCell label={t("worth")} value={worthDisplay} mono /><InfoCell label={t("threatLevel")} value={`${result.threatLevel} / 10`} mono />
-        <InfoCell label={t("lifeExpectancy")} value={`${result.lifeExpectancyYears} ${lifeExpectancyUnit[locale]}`} mono /><InfoCell label={t("alignment")} value={localizedLabel(alignment, locale, "alignment")} />
-        <InfoCell label={copy.aura} value={`${Math.round(result.auraPercent)}%`} mono />
+        <InfoCell label={t("threatLevel")} value={`${result.threatLevel} / 10`} mono />
+        <InfoCell label={t("alignment")} value={localizedLabel(alignment, locale, "alignment")} />
       </div>
       <div className="ff-stats-panel">{STAT_KEYS.map((key) => <StatBar key={key} label={statLabel(key)} value={result.coreStats[key]} />)}</div>
       {Object.keys(result.derivedStats).length > 0 && <section><div className="ff-eyebrow">{copy.derived}</div><div className="ff-info-grid">{Object.entries(result.derivedStats).map(([key, value]) => <InfoCell key={key} label={key} value={Number.isFinite(value) ? value.toFixed(1) : String(value)} mono />)}</div></section>}
@@ -84,4 +103,5 @@ export function FinalFormCard({ result, locale, onTryAgain }: FinalFormCardProps
     <div className="ff-result-actions"><button onClick={shareResult} className="ff-btn ff-btn--share">{shared ? copy.copied : copy.share}</button><button onClick={onTryAgain} className="ff-btn ff-btn--primary">{t("tryAgain")}</button></div>
   </div>;
 }
+function VitalCard({ label, value }: { label: string; value: string }) { return <div className="ff-vital-card"><div className="ff-vital-label">{label}</div><div className="ff-display ff-vital-value">{value}</div></div>; }
 function InfoCell({ label, value, mono = false, span2 = false }: { label: string; value: string; mono?: boolean; span2?: boolean }) { return <div className="ff-info-cell" style={span2 ? { gridColumn: "span 2" } : undefined}><div className="ff-info-label">{label}</div><div className={`ff-info-value${mono ? " ff-mono" : ""}`}>{value}</div></div>; }
