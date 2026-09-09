@@ -18,7 +18,8 @@
     "rarity:validate": "node content-pipeline/scripts/validateHybridRarity.mjs",
     "sim:run": "npm run run -w simulation",
     "sim:build-rarity": "npm run build-rarity -w simulation",
-    "sim:build-baselines": "npm run build-baselines -w simulation"
+    "sim:build-baselines": "npm run build-baselines -w simulation",
+    "sim:build-appearance": "npm run build-appearance -w simulation"
   },
   "dependencies": {
     "@final-form/shared-types": "*",
