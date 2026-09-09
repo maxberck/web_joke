@@ -1,4 +1,4 @@
-import { readFile, writeFile, access } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 const root = resolve(import.meta.dirname, "..");
@@ -14,11 +14,6 @@ const STAT_KEYS = [
 ];
 
 const load = async (name) => JSON.parse(await readFile(resolve(dataDir, `${name}.json`), "utf8"));
-const maybeLoad = async (name, fallback) => {
-  const path = resolve(dataDir, `${name}.json`);
-  try { await access(path); return JSON.parse(await readFile(path, "utf8")); }
-  catch { return fallback; }
-};
 
 function mulberry32(seed) {
   let a = seed >>> 0;
@@ -111,14 +106,14 @@ function repairNormalization(group) {
   return rounded;
 }
 
-const [questionsBase, questionsExpansion, questionsExtra, questionsMore, resultsExtra, careersBase, careersExpansion, classesBase, classesExpansion, powersBase, powersExpansion, weaknessesBase, weaknessesExpansion, abilitiesBase, abilitiesExpansion, workStylesBase, workStylesExpansion, animalsBase, animalsExpansion, alignments, baselinesBase, baselinesExtra, baselinesExpansion] = await Promise.all([
-  load("questions"), load("questions.expansion"), load("questions.extra"), maybeLoad("questions.more", []), load("results.extra"),
+const [questionsBase, questionsExpansion, questionsExtra, questionsMoreWork, questionsMoreSocial, questionsMoreLife, resultsExtra, careersBase, careersExpansion, classesBase, classesExpansion, powersBase, powersExpansion, weaknessesBase, weaknessesExpansion, abilitiesBase, abilitiesExpansion, workStylesBase, workStylesExpansion, animalsBase, animalsExpansion, alignments, baselinesBase, baselinesExtra, baselinesExpansion] = await Promise.all([
+  load("questions"), load("questions.expansion"), load("questions.extra"), load("questions.more.work"), load("questions.more.social"), load("questions.more.life"), load("results.extra"),
   load("careers"), load("careers.expansion"), load("classes"), load("classes.expansion"), load("powers"), load("powers.expansion"),
   load("weaknesses"), load("weaknesses.expansion"), load("abilities"), load("abilities.expansion"), load("workStyles"), load("workStyles.expansion"),
   load("animals"), load("animals.expansion"), load("alignments"), load("matchBaselines"), load("matchBaselines.extra"), load("matchBaselines.expansion"),
 ]);
 
-const questions = [...questionsBase, ...questionsExpansion, ...questionsExtra, ...questionsMore];
+const questions = [...questionsBase, ...questionsExpansion, ...questionsExtra, ...questionsMoreWork, ...questionsMoreSocial, ...questionsMoreLife];
 const groups = {
   careers: [...careersBase, ...(resultsExtra.careers ?? []), ...careersExpansion],
   classes: [...classesBase, ...(resultsExtra.classes ?? []), ...classesExpansion],
