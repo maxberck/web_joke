@@ -1,0 +1,92 @@
+[
+  {
+    "id":"q_extra_supermarket_bag",
+    "category":"general",
+    "selectionWeight":1,
+    "text":{"en":"The cashier gives you a bag that is far too small for everything you bought. You...","fr":"Le caissier te donne un sac beaucoup trop petit pour tout ce que tu as acheté. Tu...","es":"El cajero te da una bolsa demasiado pequeña para todo lo que compraste. Tú..."},
+    "answers":[
+      {"id":"a_q_extra_supermarket_bag_01","text":{"en":"Try to fit everything with the precision of an engineer.","fr":"Essaies de tout faire rentrer avec la précision d'un ingénieur.","es":"Intentas meterlo todo con precisión de ingeniero."},"effects":{"intelligence":5,"discipline":4},"selectionWeight":1},
+      {"id":"a_q_extra_supermarket_bag_02","text":{"en":"Ask for a second bag before the laws of physics intervene.","fr":"Demandes un deuxième sac avant que les lois de la physique interviennent.","es":"Pides otra bolsa antes de que intervengan las leyes de la física."},"effects":{"communication":5,"discipline":3,"professionalism":3},"selectionWeight":1},
+      {"id":"a_q_extra_supermarket_bag_03","text":{"en":"Attempt it anyway. Confidence is apparently structural.","fr":"Tentes quand même. Apparemment, la confiance est structurelle.","es":"Lo intentas igualmente. Al parecer la confianza es estructural."},"effects":{"risk":6,"chaos":4,"humor":4},"selectionWeight":1},
+      {"id":"a_q_extra_supermarket_bag_04","text":{"en":"Fold the bag into a geometry problem and solve it.","fr":"Transformes le sac en problème de géométrie et le résous.","es":"Conviertes la bolsa en un problema de geometría y lo resuelves."},"effects":{"creativity":6,"intelligence":5,"discipline":3},"selectionWeight":1},
+      {"id":"a_q_extra_supermarket_bag_05","text":{"en":"Put the heaviest item on top and call it a strategy.","fr":"Mets l'article le plus lourd au-dessus et appelles ça une stratégie.","es":"Pones el artículo más pesado arriba y lo llamas estrategia."},"effects":{"chaos":6,"humor":5,"risk":4},"selectionWeight":1},
+      {"id":"a_q_extra_supermarket_bag_06","text":{"en":"Recruit a stranger for a two-person bagging operation.","fr":"Recrutes un inconnu pour une opération d'ensachage à deux.","es":"Reclutas a un desconocido para una operación de embolsado a dos."},"effects":{"social":6,"communication":5,"empathy":3},"selectionWeight":1},
+      {"id":"a_q_extra_supermarket_bag_07","text":{"en":"Make three bags, then accidentally forget one at the checkout.","fr":"Fais trois sacs, puis oublies accidentellement l'un d'eux à la caisse.","es":"Haces tres bolsas y luego olvidas accidentalmente una en la caja."},"effects":{"discipline":-3,"chaos":6,"humor":5},"selectionWeight":1},
+      {"id":"a_q_extra_supermarket_bag_08","text":{"en":"Slow down and organize everything by weight.","fr":"Ralentis et organises tout selon le poids.","es":"Vas más despacio y organizas todo por peso."},"effects":{"discipline":6,"professionalism":4,"emotionalControl":4},"selectionWeight":1},
+      {"id":"a_q_extra_supermarket_bag_09","text":{"en":"Declare the bag your opponent and negotiate a surrender.","fr":"Déclares que le sac est ton adversaire et négocies sa reddition.","es":"Declaras que la bolsa es tu oponente y negocias su rendición."},"effects":{"humor":7,"chaos":6,"communication":3},"selectionWeight":1},
+      {"id":"a_q_extra_supermarket_bag_10","text":{"en":"Carry everything by hand like a heroic pack mule.","fr":"Portes tout à la main comme une courageuse mule de bât.","es":"Llevas todo a mano como una heroica mula de carga."},"effects":{"energy":5,"ambition":4,"risk":3},"selectionWeight":1}
+    ]
+  },
+  {
+    "id":"q_extra_wrong_bus",
+    "category":"general",
+    "selectionWeight":1,
+    "text":{"en":"You realize you are on the wrong bus, but it is already moving. You...","fr":"Tu réalises que tu es dans le mauvais bus, mais il roule déjà. Tu...","es":"Te das cuenta de que estás en el autobús equivocado, pero ya está en marcha. Tú..."},
+    "answers":[
+      {"id":"a_q_extra_wrong_bus_01","text":{"en":"Check the route and calmly plan the next stop.","fr":"Vérifies l'itinéraire et planifies calmement le prochain arrêt.","es":"Compruebas la ruta y planeas tranquilamente la próxima parada."},"effects":{"intelligence":5,"emotionalControl":5,"discipline":4},"selectionWeight":1},
+      {"id":"a_q_extra_wrong_bus_02","text":{"en":"Stay seated. Maybe the bus is wrong, not you.","fr":"Restes assis. C'est peut-être le bus qui se trompe, pas toi.","es":"Te quedas sentado. Quizá el equivocado sea el autobús, no tú."},"effects":{"humor":6,"emotionalControl":4,"chaos":3},"selectionWeight":1},
+      {"id":"a_q_extra_wrong_bus_03","text":{"en":"Ask another passenger for tactical advice.","fr":"Demandes un conseil tactique à un autre passager.","es":"Pides consejo táctico a otro pasajero."},"effects":{"social":5,"communication":5,"empathy":3},"selectionWeight":1},
+      {"id":"a_q_extra_wrong_bus_04","text":{"en":"Get off at the next stop and improvise.","fr":"Descends au prochain arrêt et improvises.","es":"Bajas en la próxima parada e improvisas."},"effects":{"creativity":6,"risk":5,"energy":3},"selectionWeight":1},
+      {"id":"a_q_extra_wrong_bus_05","text":{"en":"Pretend this was your destination all along.","fr":"Fais comme si c'était ta destination depuis le début.","es":"Finges que este era tu destino desde el principio."},"effects":{"humor":6,"professionalism":3,"emotionalControl":3},"selectionWeight":1},
+      {"id":"a_q_extra_wrong_bus_06","text":{"en":"Search for the furthest possible stop and turn it into an adventure.","fr":"Cherches l'arrêt le plus éloigné possible et transformes ça en aventure.","es":"Buscas la parada más lejana posible y lo conviertes en una aventura."},"effects":{"chaos":6,"risk":6,"creativity":5},"selectionWeight":1},
+      {"id":"a_q_extra_wrong_bus_07","text":{"en":"Message the person waiting for you with the truth.","fr":"Préviens honnêtement la personne qui t'attend.","es":"Avisas con sinceridad a la persona que te espera."},"effects":{"communication":6,"empathy":5,"professionalism":3},"selectionWeight":1},
+      {"id":"a_q_extra_wrong_bus_08","text":{"en":"Study the map until you can explain the whole network.","fr":"Étudies la carte jusqu'à pouvoir expliquer tout le réseau.","es":"Estudias el mapa hasta poder explicar toda la red."},"effects":{"intelligence":6,"discipline":5,"creativity":3},"selectionWeight":1},
+      {"id":"a_q_extra_wrong_bus_09","text":{"en":"Decide the bus has chosen your destiny.","fr":"Décides que le bus a choisi ton destin.","es":"Decides que el autobús ha elegido tu destino."},"effects":{"luck":5,"chaos":5,"humor":5},"selectionWeight":1},
+      {"id":"a_q_extra_wrong_bus_10","text":{"en":"Use the unexpected detour as time to rethink your life.","fr":"Utilises ce détour imprévu pour repenser ta vie.","es":"Usas el desvío inesperado para replantearte la vida."},"effects":{"emotionalControl":5,"ambition":3,"creativity":4},"selectionWeight":1}
+    ]
+  },
+  {
+    "id":"q_extra_laptop_update",
+    "category":"general",
+    "selectionWeight":1,
+    "text":{"en":"Your laptop announces a 47-minute update exactly when you need it. You...","fr":"Ton ordinateur annonce une mise à jour de 47 minutes exactement quand tu en as besoin. Tu...","es":"Tu portátil anuncia una actualización de 47 minutos justo cuando lo necesitas. Tú..."},
+    "answers":[
+      {"id":"a_q_extra_laptop_update_01","text":{"en":"Wait patiently and use the time to plan.","fr":"Attends patiemment et profites-en pour planifier.","es":"Esperas pacientemente y aprovechas para planificar."},"effects":{"discipline":5,"emotionalControl":6},"selectionWeight":1},
+      {"id":"a_q_extra_laptop_update_02","text":{"en":"Restart it once. For science.","fr":"Le redémarres une fois. Pour la science.","es":"Lo reinicias una vez. Por la ciencia."},"effects":{"risk":5,"chaos":5,"humor":4},"selectionWeight":1},
+      {"id":"a_q_extra_laptop_update_03","text":{"en":"Read every word of the update notes like a lawyer.","fr":"Lis chaque mot des notes de mise à jour comme un avocat.","es":"Lees cada palabra de las notas de actualización como un abogado."},"effects":{"intelligence":5,"discipline":5,"professionalism":3},"selectionWeight":1},
+      {"id":"a_q_extra_laptop_update_04","text":{"en":"Ask the computer politely to reconsider.","fr":"Demandes poliment à l'ordinateur de reconsidérer sa décision.","es":"Pides educadamente al ordenador que reconsidere su decisión."},"effects":{"humor":6,"communication":4,"emotionalControl":4},"selectionWeight":1},
+      {"id":"a_q_extra_laptop_update_05","text":{"en":"Find another device and immediately create a second problem.","fr":"Trouves un autre appareil et crées immédiatement un deuxième problème.","es":"Buscas otro dispositivo y creas inmediatamente un segundo problema."},"effects":{"chaos":7,"risk":5,"energy":-2},"selectionWeight":1},
+      {"id":"a_q_extra_laptop_update_06","text":{"en":"Use your phone and pretend the workflow was always mobile.","fr":"Utilises ton téléphone et prétends que le workflow a toujours été mobile.","es":"Usas el teléfono y finges que el flujo siempre fue móvil."},"effects":{"creativity":5,"professionalism":4,"humor":3},"selectionWeight":1},
+      {"id":"a_q_extra_laptop_update_07","text":{"en":"Check the percentage every 12 seconds.","fr":"Vérifies le pourcentage toutes les 12 secondes.","es":"Compruebas el porcentaje cada 12 segundos."},"effects":{"emotionalControl":-3,"discipline":2,"chaos":4},"selectionWeight":1},
+      {"id":"a_q_extra_laptop_update_08","text":{"en":"Turn the delay into a snack break with strict boundaries.","fr":"Transformes le délai en pause snack avec des limites strictes.","es":"Conviertes la espera en pausa de snack con límites estrictos."},"effects":{"energy":5,"discipline":4,"humor":3},"selectionWeight":1},
+      {"id":"a_q_extra_laptop_update_09","text":{"en":"Start predicting what the update will break next.","fr":"Commences à prédire ce que la mise à jour va casser ensuite.","es":"Empiezas a predecir qué romperá después la actualización."},"effects":{"intelligence":5,"creativity":5,"chaos":3},"selectionWeight":1},
+      {"id":"a_q_extra_laptop_update_10","text":{"en":"Accept defeat and stare into the middle distance.","fr":"Acceptes la défaite et regardes dans le vide.","es":"Aceptas la derrota y miras al vacío."},"effects":{"emotionalControl":3,"humor":5,"energy":-3},"selectionWeight":1}
+    ]
+  },
+  {
+    "id":"q_extra_friend_secret",
+    "category":"social",
+    "selectionWeight":1,
+    "text":{"en":"A friend says 'I have something important to tell you' and then disappears for an hour. You...","fr":"Un ami dit « j'ai quelque chose d'important à te dire » puis disparaît pendant une heure. Tu...","es":"Un amigo dice « tengo algo importante que contarte » y desaparece durante una hora. Tú..."},
+    "answers":[
+      {"id":"a_q_extra_friend_secret_01","text":{"en":"Wait. Their suspense is now their problem.","fr":"Attends. Leur suspense est maintenant leur problème.","es":"Esperas. Su suspense ahora es su problema."},"effects":{"emotionalControl":6,"discipline":4},"selectionWeight":1},
+      {"id":"a_q_extra_friend_secret_02","text":{"en":"Send one calm 'everything okay?' message.","fr":"Envoies un seul « tout va bien ? » calmement.","es":"Envías un solo « ¿todo bien? » con calma."},"effects":{"empathy":6,"communication":5,"emotionalControl":4},"selectionWeight":1},
+      {"id":"a_q_extra_friend_secret_03","text":{"en":"Invent twelve possible explanations before lunch.","fr":"Inventes douze explications possibles avant midi.","es":"Inventas doce explicaciones posibles antes del almuerzo."},"effects":{"creativity":6,"intelligence":4,"chaos":5},"selectionWeight":1},
+      {"id":"a_q_extra_friend_secret_04","text":{"en":"Assume you are being recruited for a secret mission.","fr":"Supposes qu'on te recrute pour une mission secrète.","es":"Supones que te están reclutando para una misión secreta."},"effects":{"humor":6,"risk":4,"chaos":5},"selectionWeight":1},
+      {"id":"a_q_extra_friend_secret_05","text":{"en":"Call them. Mystery has exceeded acceptable limits.","fr":"Les appelles. Le mystère a dépassé les limites acceptables.","es":"Los llamas. El misterio ha superado los límites aceptables."},"effects":{"communication":6,"social":5,"ambition":2},"selectionWeight":1},
+      {"id":"a_q_extra_friend_secret_06","text":{"en":"Tell another friend you have been selected for the sequel.","fr":"Dis à un autre ami que tu as été sélectionné pour la suite.","es":"Le dices a otro amigo que has sido seleccionado para la secuela."},"effects":{"humor":7,"social":5,"chaos":4},"selectionWeight":1},
+      {"id":"a_q_extra_friend_secret_07","text":{"en":"Write a formal incident report.","fr":"Rédiges un rapport d'incident officiel.","es":"Redactas un informe de incidente oficial."},"effects":{"professionalism":6,"discipline":5,"humor":3},"selectionWeight":1},
+      {"id":"a_q_extra_friend_secret_08","text":{"en":"Ignore it completely until they remember how suspense works.","fr":"Ignorres complètement jusqu'à ce qu'ils se souviennent comment fonctionne le suspense.","es":"Lo ignoras por completo hasta que recuerden cómo funciona el suspense."},"effects":{"emotionalControl":5,"discipline":4,"risk":2},"selectionWeight":1},
+      {"id":"a_q_extra_friend_secret_09","text":{"en":"Prepare snacks. Important information requires snacks.","fr":"Prépares des snacks. Les informations importantes nécessitent des snacks.","es":"Preparas snacks. La información importante requiere snacks."},"effects":{"energy":4,"humor":5,"discipline":3},"selectionWeight":1},
+      {"id":"a_q_extra_friend_secret_10","text":{"en":"Decide the secret is probably about you and immediately improve your life.","fr":"Décides que le secret te concerne sûrement et améliores immédiatement ta vie.","es":"Decides que el secreto probablemente es sobre ti y mejoras tu vida inmediatamente."},"effects":{"ambition":6,"creativity":4,"emotionalControl":3},"selectionWeight":1}
+    ]
+  },
+  {
+    "id":"q_extra_cafe_spill",
+    "category":"general",
+    "selectionWeight":1,
+    "text":{"en":"You spill coffee five seconds before an important meeting. You...","fr":"Tu renverses ton café cinq secondes avant une réunion importante. Tu...","es":"Derramas el café cinco segundos antes de una reunión importante. Tú..."},
+    "answers":[
+      {"id":"a_q_extra_cafe_spill_01","text":{"en":"Clean it up immediately and arrive two minutes late.","fr":"Nettoies immédiatement et arrives avec deux minutes de retard.","es":"Lo limpias inmediatamente y llegas dos minutos tarde."},"effects":{"discipline":5,"professionalism":5,"emotionalControl":4},"selectionWeight":1},
+      {"id":"a_q_extra_cafe_spill_02","text":{"en":"Walk into the meeting wearing the stain like a badge.","fr":"Entres en réunion avec la tache comme un insigne.","es":"Entras en la reunión llevando la mancha como una insignia."},"effects":{"humor":7,"emotionalControl":5,"risk":3},"selectionWeight":1},
+      {"id":"a_q_extra_cafe_spill_03","text":{"en":"Blame gravity in front of everyone.","fr":"Accuses la gravité devant tout le monde.","es":"Culpas a la gravedad delante de todos."},"effects":{"humor":6,"communication":4,"chaos":5},"selectionWeight":1},
+      {"id":"a_q_extra_cafe_spill_04","text":{"en":"Find a replacement shirt with alarming efficiency.","fr":"Trouves une chemise de remplacement avec une efficacité alarmante.","es":"Encuentras una camisa de repuesto con una eficacia alarmante."},"effects":{"discipline":6,"intelligence":4,"professionalism":5},"selectionWeight":1},
+      {"id":"a_q_extra_cafe_spill_05","text":{"en":"Decide the meeting can become a standing meeting.","fr":"Décides que la réunion peut devenir une réunion debout.","es":"Decides que la reunión puede convertirse en una reunión de pie."},"effects":{"creativity":5,"energy":4,"chaos":4},"selectionWeight":1},
+      {"id":"a_q_extra_cafe_spill_06","text":{"en":"Ask the nearest person for emergency cleaning supplies.","fr":"Demandes du matériel de nettoyage d'urgence à la personne la plus proche.","es":"Pides material de limpieza de emergencia a la persona más cercana."},"effects":{"social":5,"communication":5,"empathy":3},"selectionWeight":1},
+      {"id":"a_q_extra_cafe_spill_07","text":{"en":"Turn the spill into an abstract art installation.","fr":"Transformes la tache en installation d'art abstrait.","es":"Conviertes el derrame en una instalación de arte abstracto."},"effects":{"creativity":8,"humor":6,"chaos":5},"selectionWeight":1},
+      {"id":"a_q_extra_cafe_spill_08","text":{"en":"Take one breath and continue as if nothing happened.","fr":"Prends une respiration et continues comme si de rien n'était.","es":"Respiras una vez y continúas como si nada hubiera pasado."},"effects":{"emotionalControl":7,"professionalism":4,"discipline":3},"selectionWeight":1},
+      {"id":"a_q_extra_cafe_spill_09","text":{"en":"Cancel the meeting. The coffee has spoken.","fr":"Annules la réunion. Le café a parlé.","es":"Cancelas la reunión. El café ha hablado."},"effects":{"chaos":7,"risk":6,"humor":6},"selectionWeight":1},
+      {"id":"a_q_extra_cafe_spill_10","text":{"en":"Bring everyone coffee later as diplomatic compensation.","fr":"Offres un café à tout le monde plus tard en compensation diplomatique.","es":"Invitas a todos a un café después como compensación diplomática."},"effects":{"empathy":6,"social":5,"financialSense":3},"selectionWeight":1}
+    ]
+  }
+]
