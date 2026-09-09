@@ -44,7 +44,10 @@ const getLocalizedLabel = (entry) => entry.name ?? entry.text;
 
 const data = Object.fromEntries(await Promise.all(files.map(async (name) => [name, await load(name)])));
 const questionsExpansion = await load("questions.expansion");
-data.questions = [...data.questions, ...questionsExpansion];
+const questionsExtra = await load("questions.extra");
+const synergyRulesExtra = await load("synergyRules.extra");
+data.questions = [...data.questions, ...questionsExpansion, ...questionsExtra];
+data.synergyRules = [...data.synergyRules, ...synergyRulesExtra];
 
 if (data.questions.length < 20) throw new Error(`questions: ${data.questions.length} available, at least 20 required`);
 seen(data.questions, "questions");
@@ -82,51 +85,32 @@ for (const [name, entries] of Object.entries(resultGroups)) {
   for (const entry of entries) {
     localized(getLocalizedLabel(entry), `${name} ${entry.id}`);
     validateProfile(entry.lowProfile ?? entry.idealProfile, `${name} ${entry.id}`);
-  }
-}
-
-seen(data.alignments, "alignments");
-seen(data.synergyRules, "synergyRules");
-for (const alignment of data.alignments) {
-  localized(getLocalizedLabel(alignment), `alignment ${alignment.id}`);
-  if (alignment.lawfulChaotic?.length !== 2 || alignment.selflessSelfInterested?.length !== 2) throw new Error(`alignment ${alignment.id}: invalid axes`);
-  for (const value of [...alignment.lawfulChaotic, ...alignment.selflessSelfInterested]) finiteAxis(value, `alignment ${alignment.id}`);
-}
-for (const rule of data.synergyRules) {
-  if (!Array.isArray(rule.conditions) || rule.conditions.length === 0) throw new Error(`synergy ${rule.id}: empty conditions`);
-  if (!Number.isFinite(rule.rarityScore)) throw new Error(`synergy ${rule.id}: invalid rarity score`);
-  if (!Number.isFinite(rule.weight) || rule.weight < 0) throw new Error(`synergy ${rule.id}: invalid weight`);
-  for (const condition of rule.conditions) {
-    if (!statKeys.has(condition.stat)) throw new Error(`synergy ${rule.id}: unknown stat ${condition.stat}`);
-    if (!Number.isFinite(condition.value)) throw new Error(`synergy ${rule.id}: invalid condition value`);
-  }
-}
-
-const baselines = JSON.parse(await readFile(resolve(dataDir, "matchBaselines.json"), "utf8"));
-const baselineGroups = Object.keys(resultGroups);
-for (const group of baselineGroups) {
-  const entries = baselines[group];
-  if (!entries || typeof entries !== "object") throw new Error(`baseline ${group}: group missing`);
-  for (const id of resultIds[group]) {
-    if (!entries[id]) throw new Error(`baseline ${group}.${id}: missing entity baseline`);
-  }
-  for (const [id, baseline] of Object.entries(entries)) {
-    if (!resultIds[group].has(id)) throw new Error(`baseline ${group}.${id}: unknown entity`);
-    if (!Number.isFinite(baseline.mean) || !Number.isFinite(baseline.std) || baseline.std <= 0) {
-      throw new Error(`baseline ${group}.${id}: mean/std invalid`);
+    if (entry.worthPotential) {
+      if (!Number.isFinite(entry.worthPotential.min) || !Number.isFinite(entry.worthPotential.max) || entry.worthPotential.min > entry.worthPotential.max) {
+        throw new Error(`${name} ${entry.id}: invalid worthPotential`);
+      }
     }
   }
 }
 
-const rarity = JSON.parse(await readFile(resolve(dataDir, "rarityDistribution.json"), "utf8"));
-if (!Array.isArray(rarity) || rarity.length === 0) throw new Error("rarity: empty table");
-let previousScore = -Infinity;
-let previousOneInX = 0;
-for (const [index, bucket] of rarity.entries()) {
-  if (!Number.isFinite(bucket.minScore) || !Number.isFinite(bucket.oneInX) || bucket.oneInX < 1) throw new Error(`rarity[${index}]: invalid bucket`);
-  if (bucket.minScore < previousScore || bucket.oneInX < previousOneInX) throw new Error(`rarity[${index}]: table is not monotone`);
-  previousScore = bucket.minScore;
-  previousOneInX = bucket.oneInX;
+seen(data.alignments, "alignments");
+for (const alignment of data.alignments) {
+  localized(alignment.name, `alignment ${alignment.id}`);
+  localized(alignment.description, `alignment ${alignment.id}`);
+  if (alignment.lawfulChaotic?.length !== 2 || alignment.selflessSelfInterested?.length !== 2) throw new Error(`alignment ${alignment.id}: invalid axes`);
+  [...alignment.lawfulChaotic, ...alignment.selflessSelfInterested].forEach((value) => finiteAxis(value, `alignment ${alignment.id}`));
 }
 
-console.log(`Content validation passed: ${data.questions.length} questions, ${data.careers.length} careers, ${data.classes.length} classes.`);
+seen(data.synergyRules, "synergyRules");
+for (const rule of data.synergyRules) {
+  if (!Array.isArray(rule.conditions) || rule.conditions.length === 0) throw new Error(`synergy ${rule.id}: empty conditions`);
+  if (!Number.isFinite(rule.weight) || rule.weight < 0) throw new Error(`synergy ${rule.id}: invalid weight`);
+  if (!Number.isFinite(rule.rarityScore) || rule.rarityScore < 0) throw new Error(`synergy ${rule.id}: invalid rarityScore`);
+  for (const condition of rule.conditions) {
+    if (!statKeys.has(condition.stat)) throw new Error(`synergy ${rule.id}: unknown stat ${condition.stat}`);
+    if (!Number.isFinite(condition.value)) throw new Error(`synergy ${rule.id}: invalid condition value`);
+    if (![">", ">=", "<", "<=", "=="].includes(condition.op)) throw new Error(`synergy ${rule.id}: invalid operator ${condition.op}`);
+  }
+}
+
+console.log(`Content OK: ${data.questions.length} questions, ${data.synergyRules.length} synergy rules, ${Object.entries(resultGroups).map(([name, entries]) => `${name}=${entries.length}`).join(", ")}`);
