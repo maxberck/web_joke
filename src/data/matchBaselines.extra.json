@@ -1,0 +1,9 @@
+{
+  "careers": { "career_meme_architect": { "mean": 28, "std": 12 } },
+  "classes": { "class_confident_wrong": { "mean": 26, "std": 11 } },
+  "powers": { "power_telepathic_group_chat": { "mean": 30, "std": 12 } },
+  "weaknesses": { "weakness_open_fridge_again": { "mean": 25, "std": 10 } },
+  "abilities": { "ability_find_the_charger": { "mean": 28, "std": 11 } },
+  "workStyles": { "workstyle_tabs_everywhere": { "mean": 27, "std": 11 } },
+  "animals": { "animal_duck": { "mean": 29, "std": 12 } }
+}
