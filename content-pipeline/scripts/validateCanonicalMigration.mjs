@@ -43,9 +43,9 @@ for (const [id, legacy] of Object.entries(manifest.questions)) {
   );
 }
 
-function snapshotComparable(entry) {
+function snapshotLegacyFields(entry, legacy) {
   const comparable = {};
-  for (const key of ["id", "name", "text", "description", "idealProfile", "lowProfile", "worthPotential", "tags", "lawfulChaotic", "selflessSelfInterested", "conditions", "weight", "rarityScore"]) {
+  for (const key of Object.keys(legacy)) {
     if (Object.hasOwn(entry, key)) comparable[key] = entry[key];
   }
   return comparable;
@@ -58,7 +58,11 @@ for (const group of RESULT_GROUPS) {
   for (const [id, legacy] of Object.entries(legacyEntries)) {
     const current = byId.get(id);
     assert.ok(current, `${group}: entrée historique manquante: ${id}`);
-    assert.deepEqual(snapshotComparable(current), legacy, `${group}: entrée historique modifiée: ${id}`);
+    assert.deepEqual(
+      snapshotLegacyFields(current, legacy),
+      legacy,
+      `${group}: champ historique modifié: ${id}`,
+    );
   }
 }
 
