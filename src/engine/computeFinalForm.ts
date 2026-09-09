@@ -1,4 +1,4 @@
-import type { ContentPack, FinalForm, Stats, StatEffects, MatchBaselines } from "@final-form/shared-types";
+import type { AppearanceCalibration, ContentPack, FinalForm, Stats, StatEffects, MatchBaselines } from "@final-form/shared-types";
 import { createNeutralStats } from "@final-form/shared-types";
 import { applyAnswerEffects } from "./scoring/index.ts";
 import { computeDerivedStats } from "./derivedStats/index.ts";
@@ -16,15 +16,17 @@ import {
   computeThreatLevel,
   computeLifeExpectancy,
   computeWorth,
-  computeRarity,
+  computeHybridRarity,
   type RarityBucket,
 } from "./result/index.ts";
 
 export interface ComputeFinalFormOptions {
   chosenAnswerEffects: StatEffects[];
   content: ContentPack;
-  rarityTable: RarityBucket[];
   matchBaselines: MatchBaselines;
+  appearanceCalibration: AppearanceCalibration;
+  /** @deprecated conservé temporairement pour compatibilité avec les anciens appels. */
+  rarityTable?: RarityBucket[];
   rng?: () => number;
 }
 
@@ -37,9 +39,17 @@ function assertPercent(name: string, value: number): void {
   if (value < 0 || value > 100) throw new Error(`FinalForm: ${name} doit rester dans 0..100`);
 }
 
+function calibratedProbability(group: Record<string, number>, id: string, label: string): number {
+  const probability = group[id] ?? Number.NaN;
+  if (!Number.isFinite(probability) || probability <= 0 || probability > 1) {
+    throw new Error(`FinalForm: calibration d'apparition invalide pour ${label}.${id}`);
+  }
+  return probability;
+}
+
 /** Fait tourner toute la chaîne réponses -> stats -> résultats du quiz. */
 export function computeFinalForm(options: ComputeFinalFormOptions): FinalForm {
-  const { chosenAnswerEffects, content, rarityTable, matchBaselines, rng = Math.random } = options;
+  const { chosenAnswerEffects, content, matchBaselines, appearanceCalibration, rng = Math.random } = options;
 
   const coreStats = chosenAnswerEffects.reduce<Stats>(
     (stats, effects) => applyAnswerEffects(stats, effects),
@@ -68,7 +78,22 @@ export function computeFinalForm(options: ComputeFinalFormOptions): FinalForm {
   const threatLevel = computeThreatLevel(coreStats);
   const lifeExpectancyYears = computeLifeExpectancy(coreStats);
   const worth = computeWorth(coreStats, derivedStats, career, { rng });
-  const rarity = computeRarity(totalRarityScore, { table: rarityTable });
+
+  const probabilities = [
+    calibratedProbability(appearanceCalibration.careers, career.id, "careers"),
+    calibratedProbability(appearanceCalibration.classes, classProfile.id, "classes"),
+    calibratedProbability(appearanceCalibration.powers, power.id, "powers"),
+    calibratedProbability(appearanceCalibration.weaknesses, weakness.id, "weaknesses"),
+    calibratedProbability(appearanceCalibration.abilities, ability.id, "abilities"),
+    calibratedProbability(appearanceCalibration.workStyles, workStyle.id, "workStyles"),
+    calibratedProbability(appearanceCalibration.animals, animal.id, "animals"),
+    calibratedProbability(appearanceCalibration.alignments, alignment.id, "alignments"),
+  ];
+  const rarity = computeHybridRarity({
+    probabilities,
+    synergyScore: synergyOutcome.totalRarityScore,
+    extremityScore,
+  });
 
   assertPercent("auraPercent", auraPercent);
   assertFiniteResult("threatLevel", threatLevel);
@@ -76,7 +101,7 @@ export function computeFinalForm(options: ComputeFinalFormOptions): FinalForm {
   assertFiniteResult("lifeExpectancyYears", lifeExpectancyYears);
   assertFiniteResult("worth", worth);
   assertFiniteResult("rarity.score", rarity.score);
-  if (!Number.isFinite(rarity.oneInX) || rarity.oneInX < 1) throw new Error("FinalForm: rareté invalide");
+  if (!Number.isFinite(rarity.oneInX) || rarity.oneInX < 25 || rarity.oneInX > 1_000_000_000) throw new Error("FinalForm: rareté invalide");
 
   return {
     coreStats,
@@ -94,6 +119,6 @@ export function computeFinalForm(options: ComputeFinalFormOptions): FinalForm {
     threatLevel,
     lifeExpectancyYears,
     worth,
-    rarity: { score: rarity.score, oneInX: rarity.oneInX },
+    rarity,
   };
 }

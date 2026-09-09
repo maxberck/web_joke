@@ -11,4 +11,5 @@ export { computeThreatLevel } from "./computeThreatLevel.ts";
 export { computeLifeExpectancy } from "./computeLifeExpectancy.ts";
 export { computeWorth } from "./computeWorth.ts";
 export { computeRarity, FALLBACK_RARITY_TABLE, type RarityBucket } from "./computeRarity.ts";
+export { computeHybridRarity, type HybridRarityInput, type HybridRarityResult } from "./computeHybridRarity.ts";
 export { profileDistance, findBestMatch } from "./profileMatch.ts";

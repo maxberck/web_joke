@@ -4,8 +4,7 @@ import { selectQuestions, selectAnswers } from "../engine/selection/index.js";
 import { computeFinalForm } from "../engine/computeFinalForm.js";
 import { createFormId } from "../engine/game/formId.js";
 import { createSeed, mulberry32 } from "../engine/game/random.js";
-import { contentPack, matchBaselines } from "../data/index.js";
-import rarityDistributionRaw from "../data/rarityDistribution.json" with { type: "json" };
+import { appearanceCalibration, contentPack, matchBaselines } from "../data/index.js";
 
 export interface QuizRound {
   question: Question;
@@ -56,7 +55,7 @@ export function useQuizEngine() {
         chosenAnswerEffects: nextEffects,
         content: contentPack,
         matchBaselines,
-        rarityTable: rarityDistributionRaw,
+        appearanceCalibration,
         rng,
       });
       finalForm.runSeed = resultSeed;
