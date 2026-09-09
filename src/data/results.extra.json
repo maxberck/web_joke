@@ -1,0 +1,26 @@
+{
+  "careers": [
+    { "id": "career_meme_architect", "name": { "en": "Meme Architect", "fr": "Architecte de Mèmes", "es": "Arquitecto de Memes" }, "idealProfile": { "creativity": 88, "humor": 90, "communication": 62, "chaos": 58, "discipline": 25 }, "worthPotential": { "min": -5000, "max": 25000 }, "tags": ["humorous_plausible"] }
+  ],
+  "classes": [
+    { "id": "class_confident_wrong", "name": { "en": "Confidently Wrong", "fr": "Faux avec une Confiance Absolue", "es": "Equivocado con Confianza Absoluta" }, "idealProfile": { "confidence": 50, "chaos": 72, "communication": 70, "humor": 82, "intelligence": 48 } }
+  ],
+  "animals": [
+    { "id": "animal_duck", "name": { "en": "Suspicious Duck", "fr": "Canard Suspect", "es": "Pato Sospechoso" }, "idealProfile": { "chaos": 70, "social": 62, "humor": 78, "emotionalControl": 42, "luck": 55 } }
+  ],
+  "powers": [
+    { "id": "power_telepathic_group_chat", "name": { "en": "Telepathically Know When Someone Is Typing", "fr": "Savoir Télépathiquement Quand Quelqu'un Écrit", "es": "Saber Telepáticamente Cuándo Alguien Está Escribiendo" }, "idealProfile": { "empathy": 82, "social": 72, "humor": 76, "emotionalControl": 45 } }
+  ],
+  "weaknesses": [
+    { "id": "weakness_open_fridge_again", "name": { "en": "Opens the Fridge Again Without Knowing Why", "fr": "Rouvre le Frigo Sans Savoir Pourquoi", "es": "Abre la Nevera Otra Vez Sin Saber Por Qué" }, "lowProfile": { "discipline": 22, "energy": 35, "chaos": 78, "humor": 72 } }
+  ],
+  "abilities": [
+    { "id": "ability_find_the_charger", "name": { "en": "Can Find the Charger Everyone Else Missed", "fr": "Retrouve le Chargeur que Tout le Monde Avait Raté", "es": "Encuentra el Cargador que Todos Pasaron por Alto" }, "idealProfile": { "luck": 82, "intelligence": 55, "creativity": 62, "discipline": 38, "humor": 65 } }
+  ],
+  "workStyles": [
+    { "id": "workstyle_tabs_everywhere", "name": { "en": "47 Tabs and a Dream", "fr": "47 Onglets et un Rêve", "es": "47 Pestañas y un Sueño" }, "idealProfile": { "chaos": 82, "creativity": 72, "energy": 62, "discipline": 28, "humor": 75 } }
+  ],
+  "alignments": [
+    { "id": "alignment_chaotic_helpful", "name": { "en": "Chaotic Helpful", "fr": "Chaotiquement Serviable", "es": "Caóticamente Servicial" }, "lawfulChaotic": [72, 28], "selflessSelfInterested": [72, 28] }
+  ]
+}
