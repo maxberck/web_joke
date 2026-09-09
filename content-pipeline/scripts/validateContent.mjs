@@ -46,6 +46,8 @@ const data = Object.fromEntries(await Promise.all(files.map(async (name) => [nam
 const questionsExpansion = await load("questions.expansion");
 const questionsExtra = await load("questions.extra");
 const synergyRulesExtra = await load("synergyRules.extra");
+const resultsExtra = await load("results.extra");
+const rarityDistribution = await load("rarityDistribution");
 data.questions = [...data.questions, ...questionsExpansion, ...questionsExtra];
 data.synergyRules = [...data.synergyRules, ...synergyRulesExtra];
 
@@ -71,13 +73,13 @@ for (const question of data.questions) {
 }
 
 const resultGroups = {
-  careers: data.careers,
-  classes: data.classes,
-  powers: data.powers,
-  weaknesses: data.weaknesses,
-  abilities: data.abilities,
-  workStyles: data.workStyles,
-  animals: data.animals,
+  careers: [...data.careers, ...(resultsExtra.careers ?? [])],
+  classes: [...data.classes, ...(resultsExtra.classes ?? [])],
+  powers: [...data.powers, ...(resultsExtra.powers ?? [])],
+  weaknesses: [...data.weaknesses, ...(resultsExtra.weaknesses ?? [])],
+  abilities: [...data.abilities, ...(resultsExtra.abilities ?? [])],
+  workStyles: [...data.workStyles, ...(resultsExtra.workStyles ?? [])],
+  animals: [...data.animals, ...(resultsExtra.animals ?? [])],
 };
 const resultIds = {};
 for (const [name, entries] of Object.entries(resultGroups)) {
@@ -85,12 +87,22 @@ for (const [name, entries] of Object.entries(resultGroups)) {
   for (const entry of entries) {
     localized(getLocalizedLabel(entry), `${name} ${entry.id}`);
     validateProfile(entry.lowProfile ?? entry.idealProfile, `${name} ${entry.id}`);
+    if (name === "animals") localized(entry.description, `animals ${entry.id} description`);
     if (entry.worthPotential) {
       if (!Number.isFinite(entry.worthPotential.min) || !Number.isFinite(entry.worthPotential.max) || entry.worthPotential.min > entry.worthPotential.max) {
         throw new Error(`${name} ${entry.id}: invalid worthPotential`);
       }
     }
   }
+}
+
+if (!Array.isArray(rarityDistribution) || rarityDistribution.length === 0) throw new Error("rarityDistribution: empty table");
+let previousOneInX = 0;
+for (const [index, bucket] of rarityDistribution.entries()) {
+  if (!Number.isFinite(bucket.minScore)) throw new Error(`rarityDistribution[${index}]: invalid minScore`);
+  if (!Number.isInteger(bucket.oneInX) || bucket.oneInX < 25) throw new Error(`rarityDistribution[${index}]: oneInX must be an integer >= 25`);
+  if (bucket.oneInX <= previousOneInX) throw new Error(`rarityDistribution[${index}]: oneInX must increase strictly`);
+  previousOneInX = bucket.oneInX;
 }
 
 seen(data.alignments, "alignments");
