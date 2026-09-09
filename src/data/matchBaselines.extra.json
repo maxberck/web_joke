@@ -1,9 +1,44 @@
 {
-  "careers": { "career_meme_architect": { "mean": 28, "std": 12 } },
-  "classes": { "class_confident_wrong": { "mean": 26, "std": 11 } },
-  "powers": { "power_telepathic_group_chat": { "mean": 30, "std": 12 } },
-  "weaknesses": { "weakness_open_fridge_again": { "mean": 25, "std": 10 } },
-  "abilities": { "ability_find_the_charger": { "mean": 28, "std": 11 } },
-  "workStyles": { "workstyle_tabs_everywhere": { "mean": 27, "std": 11 } },
-  "animals": { "animal_duck": { "mean": 29, "std": 12 } }
+  "careers": {
+    "career_meme_architect": { "mean": 28, "std": 12 },
+    "career_emergency_spreadsheet": { "mean": 29, "std": 12 },
+    "career_meeting_escape_consultant": { "mean": 29, "std": 12 },
+    "career_queue_logistics": { "mean": 28, "std": 12 }
+  },
+  "classes": {
+    "class_confident_wrong": { "mean": 26, "std": 11 },
+    "class_backup_backup_plan": { "mean": 29, "std": 12 },
+    "class_accidental_solution": { "mean": 29, "std": 12 },
+    "class_unsupervised_plan": { "mean": 30, "std": 12 }
+  },
+  "powers": {
+    "power_group_chat_timing": { "mean": 29, "std": 12 },
+    "power_email_meeting_detector": { "mean": 28, "std": 12 },
+    "power_correct_checkout_line": { "mean": 30, "std": 12 },
+    "power_wifi_fix": { "mean": 29, "std": 12 }
+  },
+  "weaknesses": {
+    "weakness_open_fridge_again": { "mean": 25, "std": 10 },
+    "weakness_voice_note": { "mean": 27, "std": 11 },
+    "weakness_calendar_invite": { "mean": 27, "std": 11 },
+    "weakness_low_battery": { "mean": 27, "std": 11 }
+  },
+  "abilities": {
+    "ability_find_the_charger": { "mean": 28, "std": 11 },
+    "ability_split_bill": { "mean": 29, "std": 12 },
+    "ability_find_file": { "mean": 28, "std": 11 },
+    "ability_leave_party": { "mean": 28, "std": 11 }
+  },
+  "workStyles": {
+    "workstyle_tabs_everywhere": { "mean": 27, "std": 11 },
+    "workstyle_calendar_tetris": { "mean": 28, "std": 11 },
+    "workstyle_last_minute_clean": { "mean": 29, "std": 12 },
+    "workstyle_one_clean_notebook": { "mean": 28, "std": 11 }
+  },
+  "animals": {
+    "animal_duck": { "mean": 29, "std": 12 },
+    "animal_office_raccoon": { "mean": 29, "std": 12 },
+    "animal_pigeon_manager": { "mean": 28, "std": 11 },
+    "animal_capable_capibara": { "mean": 29, "std": 12 }
+  }
 }
