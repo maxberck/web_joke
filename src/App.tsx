@@ -9,13 +9,15 @@ import { ProgressBar } from "./ui/quiz/ProgressBar.js";
 import { AnalyzingScreen } from "./ui/result/AnalyzingScreen.js";
 import { FinalFormCard } from "./ui/result/FinalFormCard.js";
 
-// Langue détectée automatiquement depuis le navigateur (section 23) : aucune action
-// requise de l'utilisateur. Le sélecteur manuel n'apparaît qu'à la toute fin (écran
-// de résultat), pour ne pas distraire pendant le quiz alors que l'auto-détection
-// suffit dans l'immense majorité des cas.
+const errorLabels: Record<LocaleCode, { title: string; retry: string }> = {
+  en: { title: "The final form could not be generated", retry: "Restart the quiz" },
+  fr: { title: "La forme finale n'a pas pu être générée", retry: "Recommencer le quiz" },
+  es: { title: "No se pudo generar la forma final", retry: "Reiniciar el quiz" },
+};
+
 export function App() {
   const [locale, setLocale] = useState<LocaleCode>(() => detectLocale());
-  const { phase, currentRound, roundIndex, totalRounds, result, start, chooseAnswer, finishCalculating, reset } =
+  const { phase, currentRound, roundIndex, totalRounds, result, error, start, chooseAnswer, finishCalculating, reset } =
     useQuizEngine();
 
   return (
@@ -40,6 +42,17 @@ export function App() {
             <div style={{ marginTop: 24 }}>
               <LanguageSelector locale={locale} onChange={setLocale} />
             </div>
+          </div>
+        )}
+
+        {phase === "error" && (
+          <div className="ff-card">
+            <div className="ff-eyebrow" style={{ marginBottom: 10 }}>FINAL FORM ERROR</div>
+            <h1 className="ff-display" style={{ fontSize: 24, marginTop: 0 }}>{errorLabels[locale].title}</h1>
+            {error && <p className="ff-mono" style={{ overflowWrap: "anywhere" }}>{error}</p>}
+            <button className="ff-btn ff-btn--primary" style={{ width: "100%", marginTop: 12 }} onClick={reset}>
+              {errorLabels[locale].retry}
+            </button>
           </div>
         )}
       </div>
