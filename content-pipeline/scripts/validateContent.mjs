@@ -10,15 +10,7 @@ const statKeys = new Set([
   "communication", "ambition", "discipline", "professionalism", "financialSense",
   "risk", "luck", "energy", "humor", "chaos",
 ]);
-const minimumResultCounts = {
-  careers: 50,
-  classes: 30,
-  powers: 30,
-  weaknesses: 30,
-  abilities: 30,
-  workStyles: 30,
-  animals: 30,
-};
+const minimumResultCounts = { careers: 50, classes: 30, powers: 30, weaknesses: 30, abilities: 30, workStyles: 30, animals: 30 };
 const minimumSynergyRules = 45;
 
 const load = async (name) => JSON.parse(await readFile(resolve(dataDir, `${name}.json`), "utf8"));
@@ -30,16 +22,10 @@ const seen = (entries, label) => {
   }
   return ids;
 };
-const finiteRange = (value, label) => {
-  if (!Number.isFinite(value) || value < 0 || value > 100) throw new Error(`${label}: expected finite value in 0..100`);
-};
-const finiteAxis = (value, label) => {
-  if (!Number.isFinite(value) || value < -100 || value > 100) throw new Error(`${label}: expected finite value in -100..100`);
-};
+const finiteRange = (value, label) => { if (!Number.isFinite(value) || value < 0 || value > 100) throw new Error(`${label}: expected finite value in 0..100`); };
+const finiteAxis = (value, label) => { if (!Number.isFinite(value) || value < -100 || value > 100) throw new Error(`${label}: expected finite value in -100..100`); };
 const localized = (value, label) => {
-  for (const locale of locales) {
-    if (typeof value?.[locale] !== "string" || value[locale].trim() === "") throw new Error(`${label}: missing ${locale}`);
-  }
+  for (const locale of locales) if (typeof value?.[locale] !== "string" || value[locale].trim() === "") throw new Error(`${label}: missing ${locale}`);
 };
 const validateProfile = (profile, label) => {
   if (!profile || Object.keys(profile).length === 0) throw new Error(`${label}: empty profile`);
@@ -54,12 +40,21 @@ const data = Object.fromEntries(await Promise.all(files.map(async (name) => [nam
 const questionsExpansion = await load("questions.expansion");
 const questionsExtra = await load("questions.extra");
 const synergyRulesExtra = await load("synergyRules.extra");
+const synergyRulesExpansion = await load("synergyRules.expansion");
 const resultsExtra = await load("results.extra");
+const careersExpansion = await load("careers.expansion");
+const classesExpansion = await load("classes.expansion");
+const powersExpansion = await load("powers.expansion");
+const weaknessesExpansion = await load("weaknesses.expansion");
+const abilitiesExpansion = await load("abilities.expansion");
+const workStylesExpansion = await load("workStyles.expansion");
+const animalsExpansion = await load("animals.expansion");
 const matchBaselines = await load("matchBaselines");
 const matchBaselinesExtra = await load("matchBaselines.extra");
+const matchBaselinesExpansion = await load("matchBaselines.expansion");
 const rarityDistribution = await load("rarityDistribution");
 data.questions = [...data.questions, ...questionsExpansion, ...questionsExtra];
-data.synergyRules = [...data.synergyRules, ...synergyRulesExtra];
+data.synergyRules = [...data.synergyRules, ...synergyRulesExtra, ...synergyRulesExpansion];
 
 if (data.questions.length < 20) throw new Error(`questions: ${data.questions.length} available, at least 20 required`);
 seen(data.questions, "questions");
@@ -79,13 +74,13 @@ for (const question of data.questions) {
 }
 
 const resultGroups = {
-  careers: [...data.careers, ...(resultsExtra.careers ?? [])],
-  classes: [...data.classes, ...(resultsExtra.classes ?? [])],
-  powers: [...data.powers, ...(resultsExtra.powers ?? [])],
-  weaknesses: [...data.weaknesses, ...(resultsExtra.weaknesses ?? [])],
-  abilities: [...data.abilities, ...(resultsExtra.abilities ?? [])],
-  workStyles: [...data.workStyles, ...(resultsExtra.workStyles ?? [])],
-  animals: [...data.animals, ...(resultsExtra.animals ?? [])],
+  careers: [...data.careers, ...(resultsExtra.careers ?? []), ...careersExpansion],
+  classes: [...data.classes, ...(resultsExtra.classes ?? []), ...classesExpansion],
+  powers: [...data.powers, ...(resultsExtra.powers ?? []), ...powersExpansion],
+  weaknesses: [...data.weaknesses, ...(resultsExtra.weaknesses ?? []), ...weaknessesExpansion],
+  abilities: [...data.abilities, ...(resultsExtra.abilities ?? []), ...abilitiesExpansion],
+  workStyles: [...data.workStyles, ...(resultsExtra.workStyles ?? []), ...workStylesExpansion],
+  animals: [...data.animals, ...(resultsExtra.animals ?? []), ...animalsExpansion],
 };
 const resultIds = {};
 for (const [name, entries] of Object.entries(resultGroups)) {
@@ -97,8 +92,7 @@ for (const [name, entries] of Object.entries(resultGroups)) {
     if (name === "animals") localized(entry.description, `animals ${entry.id} description`);
     if (entry.worthPotential && (!Number.isFinite(entry.worthPotential.min) || !Number.isFinite(entry.worthPotential.max) || entry.worthPotential.min > entry.worthPotential.max)) throw new Error(`${name} ${entry.id}: invalid worthPotential`);
   }
-
-  const mergedBaselines = { ...(matchBaselines[name] ?? {}), ...(matchBaselinesExtra[name] ?? {}) };
+  const mergedBaselines = { ...(matchBaselines[name] ?? {}), ...(matchBaselinesExtra[name] ?? {}), ...(matchBaselinesExpansion[name] ?? {}) };
   for (const id of resultIds[name]) {
     const baseline = mergedBaselines[id];
     if (!baseline || !Number.isFinite(baseline.mean) || !Number.isFinite(baseline.std) || baseline.std <= 0) throw new Error(`${name} ${id}: missing or invalid baseline`);
