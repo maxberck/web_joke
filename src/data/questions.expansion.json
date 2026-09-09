@@ -54,5 +54,117 @@
       { "id": "a_exp_public_silence_05", "text": { "en": "Decide the chat is hostile territory and retreat.", "fr": "Décides que ce groupe est un territoire hostile et te retires.", "es": "Decides que el grupo es territorio hostil y te retiras." }, "effects": { "risk": -3, "social": -3, "emotionalControl": 4 }, "selectionWeight": 1 },
       { "id": "a_exp_public_silence_06", "text": { "en": "Send an even worse joke to establish dominance.", "fr": "Envoies une blague encore pire pour établir ta domination.", "es": "Envías un chiste aún peor para establecer tu dominio." }, "effects": { "chaos": 7, "humor": 7, "risk": 5 }, "selectionWeight": 1 }
     ]
+  },
+  {
+    "id": "q_expansion_group_admin",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": { "en": "You wake up and somehow you are admin of a group chat with 147 people. You...", "fr": "Tu te réveilles et, pour une raison inconnue, tu es admin d'un groupe de 147 personnes. Tu...", "es": "Te despiertas y, por alguna razón, eres administrador de un grupo con 147 personas. Tú..." },
+    "answers": [
+      { "id": "a_exp_group_admin_01", "text": { "en": "Create a constitution before touching anything.", "fr": "Crées une constitution avant de toucher à quoi que ce soit.", "es": "Creas una constitución antes de tocar nada." }, "effects": { "intelligence": 4, "discipline": 5, "professionalism": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_group_admin_02", "text": { "en": "Pin: 'Congratulations. We are all responsible now.'", "fr": "Épingles : « Félicitations. Nous sommes tous responsables maintenant. »", "es": "Fijas: « Felicidades. Ahora todos somos responsables. »" }, "effects": { "humor": 6, "chaos": 5, "communication": 2 }, "selectionWeight": 1 },
+      { "id": "a_exp_group_admin_03", "text": { "en": "Transfer admin to the quietest person. Power should scare someone else.", "fr": "Donnes les droits d'admin à la personne la plus silencieuse. Le pouvoir doit faire peur à quelqu'un d'autre.", "es": "Das el control al más silencioso. El poder debería asustar a otra persona." }, "effects": { "empathy": 4, "social": 5, "risk": -2 }, "selectionWeight": 1 },
+      { "id": "a_exp_group_admin_04", "text": { "en": "Remove exactly one person named 'Kevin' and see what happens.", "fr": "Retires exactement une personne appelée « Kevin » et regardes ce qui se passe.", "es": "Eliminas exactamente a una persona llamada « Kevin » y ves qué pasa." }, "effects": { "chaos": 7, "risk": 6, "humor": 5 }, "selectionWeight": 1 },
+      { "id": "a_exp_group_admin_05", "text": { "en": "Ask everyone why you were chosen before making a single decision.", "fr": "Demandes pourquoi tu as été choisi avant de prendre la moindre décision.", "es": "Preguntas por qué te eligieron antes de tomar una sola decisión." }, "effects": { "communication": 5, "intelligence": 4, "emotionalControl": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_group_admin_06", "text": { "en": "Do nothing. Perhaps the admin badge will expire if ignored.", "fr": "Ne fais rien. Peut-être que le badge d'admin disparaîtra si tu l'ignores.", "es": "No haces nada. Quizá el poder de administrador desaparezca si lo ignoras." }, "effects": { "emotionalControl": 4, "discipline": -2, "luck": 4 }, "selectionWeight": 1 }
+    ]
+  },
+  {
+    "id": "q_expansion_elevator_freeze",
+    "category": "general",
+    "selectionWeight": 1,
+    "text": { "en": "The elevator stops between floors and everyone looks at you first. You...", "fr": "L'ascenseur s'arrête entre deux étages et tout le monde te regarde en premier. Tu...", "es": "El ascensor se detiene entre dos pisos y todos te miran primero. Tú..." },
+    "answers": [
+      { "id": "a_exp_elevator_freeze_01", "text": { "en": "Press the emergency button like you have done this professionally for years.", "fr": "Appuies sur le bouton d'urgence comme si tu faisais ça professionnellement depuis des années.", "es": "Pulsas el botón de emergencia como si llevaras años haciéndolo profesionalmente." }, "effects": { "professionalism": 5, "emotionalControl": 5, "communication": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_elevator_freeze_02", "text": { "en": "Announce that this is now a networking event.", "fr": "Annonces que ceci est désormais un événement de networking.", "es": "Anuncias que esto ahora es un evento de networking." }, "effects": { "social": 6, "humor": 6, "chaos": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_elevator_freeze_03", "text": { "en": "Calculate the exact probability of everyone surviving, aloud.", "fr": "Calcules à voix haute la probabilité exacte que tout le monde survive.", "es": "Calculas en voz alta la probabilidad exacta de que todos sobrevivan." }, "effects": { "intelligence": 6, "emotionalControl": -2, "social": -3 }, "selectionWeight": 1 },
+      { "id": "a_exp_elevator_freeze_04", "text": { "en": "Start a podcast episode called 'Trapped With Strangers'.", "fr": "Lances un épisode de podcast intitulé « Coincé avec des inconnus ».", "es": "Empiezas un podcast llamado « Atrapado con desconocidos »." }, "effects": { "creativity": 7, "humor": 5, "chaos": 5 }, "selectionWeight": 1 },
+      { "id": "a_exp_elevator_freeze_05", "text": { "en": "Tell everyone to breathe and wait for assistance.", "fr": "Dis à tout le monde de respirer et d'attendre l'aide.", "es": "Dices a todos que respiren y esperen ayuda." }, "effects": { "empathy": 5, "emotionalControl": 6, "communication": 4 }, "selectionWeight": 1 },
+      { "id": "a_exp_elevator_freeze_06", "text": { "en": "Ask the elevator politely to reconsider its career choices.", "fr": "Demandes poliment à l'ascenseur de reconsidérer ses choix de carrière.", "es": "Pides amablemente al ascensor que reconsidere sus decisiones profesionales." }, "effects": { "humor": 7, "chaos": 6, "emotionalControl": 2 }, "selectionWeight": 1 }
+    ]
+  },
+  {
+    "id": "q_expansion_mystery_qr",
+    "category": "general",
+    "selectionWeight": 1,
+    "text": { "en": "A friend sends you a QR code with the message 'Trust me.' You...", "fr": "Un ami t'envoie un QR code avec le message « Fais-moi confiance ». Tu...", "es": "Un amigo te envía un código QR con el mensaje « Confía en mí ». Tú..." },
+    "answers": [
+      { "id": "a_exp_mystery_qr_01", "text": { "en": "Scan it immediately. Trust is apparently a button now.", "fr": "Le scannes immédiatement. Apparemment, la confiance est devenue un bouton.", "es": "Lo escaneas inmediatamente. Al parecer, ahora la confianza es un botón." }, "effects": { "risk": 7, "luck": 4, "chaos": 4 }, "selectionWeight": 1 },
+      { "id": "a_exp_mystery_qr_02", "text": { "en": "Ask what it does before turning your phone into a mystery box.", "fr": "Demandes ce qu'il fait avant de transformer ton téléphone en boîte mystère.", "es": "Preguntas qué hace antes de convertir tu teléfono en una caja misteriosa." }, "effects": { "intelligence": 5, "communication": 4, "risk": -2 }, "selectionWeight": 1 },
+      { "id": "a_exp_mystery_qr_03", "text": { "en": "Scan it with an old phone you no longer care about.", "fr": "Le scannes avec un vieux téléphone auquel tu ne tiens plus.", "es": "Lo escaneas con un teléfono viejo que ya no te importa." }, "effects": { "risk": 5, "discipline": 3, "creativity": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_mystery_qr_04", "text": { "en": "Print it and frame it without ever discovering what it does.", "fr": "L'imprimes et l'encadres sans jamais découvrir ce qu'il fait.", "es": "Lo imprimes y lo enmarcas sin descubrir nunca qué hace." }, "effects": { "creativity": 7, "humor": 6, "chaos": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_mystery_qr_05", "text": { "en": "Send the same QR code back with 'You first.'", "fr": "Lui renvoies exactement le même QR code avec « Toi d'abord. »", "es": "Devuelves el mismo código QR con « Tú primero. »" }, "effects": { "social": 5, "communication": 5, "humor": 4 }, "selectionWeight": 1 },
+      { "id": "a_exp_mystery_qr_06", "text": { "en": "Screenshot it. You may need evidence when the documentary comes out.", "fr": "Fais une capture d'écran. Tu auras peut-être besoin de preuves quand le documentaire sortira.", "es": "Haces una captura. Quizá necesites pruebas cuando salga el documental." }, "effects": { "emotionalControl": 4, "humor": 5, "intelligence": 3 }, "selectionWeight": 1 }
+    ]
+  },
+  {
+    "id": "q_expansion_supermarket_announcement",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": { "en": "The supermarket loudspeaker suddenly announces your name and asks you to come to checkout 4. You...", "fr": "Le haut-parleur du supermarché annonce soudain ton nom et te demande de venir à la caisse 4. Tu...", "es": "El altavoz del supermercado anuncia de repente tu nombre y te pide que vayas a la caja 4. Tú..." },
+    "answers": [
+      { "id": "a_exp_supermarket_announcement_01", "text": { "en": "Walk there confidently. You have apparently been promoted.", "fr": "T'y rends avec assurance. Apparemment, tu viens d'être promu.", "es": "Vas con confianza. Al parecer, acabas de ser ascendido." }, "effects": { "social": 5, "ambition": 5, "humor": 4 }, "selectionWeight": 1 },
+      { "id": "a_exp_supermarket_announcement_02", "text": { "en": "Hide behind a display until the situation explains itself.", "fr": "Te caches derrière un présentoir jusqu'à ce que la situation s'explique toute seule.", "es": "Te escondes detrás de un expositor hasta que la situación se explique sola." }, "effects": { "emotionalControl": 3, "risk": -3, "social": -4 }, "selectionWeight": 1 },
+      { "id": "a_exp_supermarket_announcement_03", "text": { "en": "Go to checkout 4 and ask what your new responsibilities are.", "fr": "Vas à la caisse 4 et demandes quelles sont tes nouvelles responsabilités.", "es": "Vas a la caja 4 y preguntas cuáles son tus nuevas responsabilidades." }, "effects": { "communication": 6, "humor": 5, "ambition": 4 }, "selectionWeight": 1 },
+      { "id": "a_exp_supermarket_announcement_04", "text": { "en": "Assume they are calling another person with your exact name and stay put.", "fr": "Pars du principe qu'ils appellent une autre personne qui porte exactement ton nom et restes sur place.", "es": "Asumes que llaman a otra persona con tu mismo nombre y te quedas quieto." }, "effects": { "intelligence": 4, "emotionalControl": 5, "discipline": 2 }, "selectionWeight": 1 },
+      { "id": "a_exp_supermarket_announcement_05", "text": { "en": "Go there like a celebrity and wave at absolutely nobody.", "fr": "T'y rends comme une célébrité et salues absolument personne.", "es": "Vas como una celebridad y saludas absolutamente a nadie." }, "effects": { "humor": 7, "social": 4, "chaos": 5 }, "selectionWeight": 1 },
+      { "id": "a_exp_supermarket_announcement_06", "text": { "en": "Ask whether there is a reward for obeying mysterious announcements.", "fr": "Demandes s'il y a une récompense pour avoir obéi aux annonces mystérieuses.", "es": "Preguntas si hay una recompensa por obedecer anuncios misteriosos." }, "effects": { "financialSense": 5, "communication": 4, "humor": 5, "risk": 2 }, "selectionWeight": 1 }
+    ]
+  },
+  {
+    "id": "q_expansion_autocorrect_disaster",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": { "en": "Autocorrect changes your serious message to your boss into something deeply embarrassing. You...", "fr": "L'autocorrect transforme ton message sérieux à ton patron en quelque chose de profondément gênant. Tu...", "es": "El autocorrector convierte tu mensaje serio a tu jefe en algo profundamente vergonzoso. Tú..." },
+    "answers": [
+      { "id": "a_exp_autocorrect_disaster_01", "text": { "en": "Delete it immediately and pretend technology never existed.", "fr": "Le supprimes immédiatement et fais comme si la technologie n'avait jamais existé.", "es": "Lo borras inmediatamente y finges que la tecnología nunca existió." }, "effects": { "emotionalControl": 4, "risk": -3, "discipline": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_autocorrect_disaster_02", "text": { "en": "Send a correction before your brain invents a worse solution.", "fr": "Envoies une correction avant que ton cerveau n'invente une solution pire.", "es": "Envías una corrección antes de que tu cerebro invente una solución peor." }, "effects": { "communication": 6, "professionalism": 5, "emotionalControl": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_autocorrect_disaster_03", "text": { "en": "Blame the keyboard with the confidence of a courtroom lawyer.", "fr": "Accuses le clavier avec l'assurance d'un avocat au tribunal.", "es": "Culpas al teclado con la seguridad de un abogado en un tribunal." }, "effects": { "humor": 6, "communication": 4, "risk": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_autocorrect_disaster_04", "text": { "en": "Own the mistake and turn it into a joke.", "fr": "Assumes l'erreur et la transformes en blague.", "es": "Asumes el error y lo conviertes en una broma." }, "effects": { "humor": 7, "emotionalControl": 5, "social": 4 }, "selectionWeight": 1 },
+      { "id": "a_exp_autocorrect_disaster_05", "text": { "en": "Throw your phone onto the bed and reconsider your entire career.", "fr": "Jettes ton téléphone sur le lit et reconsidères toute ta carrière.", "es": "Tiras el teléfono a la cama y reconsideras toda tu carrera." }, "effects": { "chaos": 5, "emotionalControl": -4, "energy": -2 }, "selectionWeight": 1 },
+      { "id": "a_exp_autocorrect_disaster_06", "text": { "en": "Send another message that somehow makes the first one look intentional.", "fr": "Envoies un autre message qui rend miraculeusement le premier presque intentionnel.", "es": "Envías otro mensaje que milagrosamente hace parecer intencional el primero." }, "effects": { "creativity": 6, "risk": 6, "chaos": 5 }, "selectionWeight": 1 }
+    ]
+  },
+  {
+    "id": "q_expansion_fake_employee",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": { "en": "A stranger in a store asks you where the batteries are. You...", "fr": "Un inconnu dans un magasin te demande où sont les piles. Tu...", "es": "Un desconocido en una tienda te pregunta dónde están las pilas. Tú..." },
+    "answers": [
+      { "id": "a_exp_fake_employee_01", "text": { "en": "Help confidently, even though you have absolutely no idea.", "fr": "Aides avec assurance, alors que tu n'en as absolument aucune idée.", "es": "Ayudas con confianza aunque no tengas ni idea." }, "effects": { "social": 5, "communication": 5, "risk": 5 }, "selectionWeight": 1 },
+      { "id": "a_exp_fake_employee_02", "text": { "en": "Admit you do not work there and point toward the nearest employee.", "fr": "Avoues que tu ne travailles pas là et indiques l'employé le plus proche.", "es": "Admites que no trabajas allí y señalas al empleado más cercano." }, "effects": { "honesty": 1, "empathy": 4, "communication": 4 }, "selectionWeight": 1 },
+      { "id": "a_exp_fake_employee_03", "text": { "en": "Escort them to the aisle like you have been promoted during lunch.", "fr": "Les accompagnes jusqu'au rayon comme si tu avais été promu pendant ta pause déjeuner.", "es": "Los acompañas hasta el pasillo como si te hubieran ascendido durante la comida." }, "effects": { "humor": 6, "social": 6, "chaos": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_fake_employee_04", "text": { "en": "Invent a complicated store map using only your imagination.", "fr": "Inventes un plan compliqué du magasin uniquement avec ton imagination.", "es": "Inventas un mapa complicado de la tienda usando solo tu imaginación." }, "effects": { "creativity": 7, "chaos": 5, "risk": 5 }, "selectionWeight": 1 },
+      { "id": "a_exp_fake_employee_05", "text": { "en": "Find a real employee because accidentally becoming responsible sounds exhausting.", "fr": "Cherches un vrai employé parce que devenir responsable par accident semble épuisant.", "es": "Buscas a un empleado real porque ser responsable por accidente parece agotador." }, "effects": { "professionalism": 5, "empathy": 4, "energy": 2 }, "selectionWeight": 1 },
+      { "id": "a_exp_fake_employee_06", "text": { "en": "Answer 'aisle 7' with maximum authority and walk away immediately.", "fr": "Réponds « rayon 7 » avec un maximum d'autorité et pars immédiatement.", "es": "Respondes « pasillo 7 » con máxima autoridad y te vas inmediatamente." }, "effects": { "humor": 6, "risk": 6, "chaos": 4 }, "selectionWeight": 1 }
+    ]
+  },
+  {
+    "id": "q_expansion_smart_device_wrong_person",
+    "category": "general",
+    "selectionWeight": 1,
+    "text": { "en": "Your smart speaker suddenly answers a question nobody asked. You...", "fr": "Ton enceinte connectée répond soudain à une question que personne n'a posée. Tu...", "es": "Tu altavoz inteligente responde de repente a una pregunta que nadie hizo. Tú..." },
+    "answers": [
+      { "id": "a_exp_smart_device_wrong_person_01", "text": { "en": "Unplug it. The investigation can wait.", "fr": "La débranches. L'enquête peut attendre.", "es": "La desenchufas. La investigación puede esperar." }, "effects": { "emotionalControl": 5, "risk": -3, "discipline": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_smart_device_wrong_person_02", "text": { "en": "Ask who it was talking to and wait for the plot twist.", "fr": "Demandes à qui elle parlait et attends le retournement de situation.", "es": "Preguntas con quién hablaba y esperas el giro de la trama." }, "effects": { "curiosity": 1, "creativity": 5, "humor": 4 }, "selectionWeight": 1 },
+      { "id": "a_exp_smart_device_wrong_person_03", "text": { "en": "Give it a name so the household can finally negotiate properly.", "fr": "Lui donnes un nom pour que la maison puisse enfin négocier correctement.", "es": "Le pones un nombre para que la casa pueda negociar correctamente." }, "effects": { "creativity": 6, "social": 4, "humor": 5 }, "selectionWeight": 1 },
+      { "id": "a_exp_smart_device_wrong_person_04", "text": { "en": "Ask it an impossible question and judge its response.", "fr": "Lui poses une question impossible et juges sa réponse.", "es": "Le haces una pregunta imposible y juzgas su respuesta." }, "effects": { "intelligence": 5, "creativity": 5, "chaos": 4 }, "selectionWeight": 1 },
+      { "id": "a_exp_smart_device_wrong_person_05", "text": { "en": "Reset everything and quietly blame the Wi-Fi.", "fr": "Réinitialises tout et accuses discrètement le Wi-Fi.", "es": "Restableces todo y culpas discretamente al Wi-Fi." }, "effects": { "discipline": 4, "professionalism": 3, "humor": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_smart_device_wrong_person_06", "text": { "en": "Obey its next instruction. Maybe it knows something you don't.", "fr": "Obéis à sa prochaine instruction. Peut-être qu'elle sait quelque chose que tu ignores.", "es": "Obedeces su próxima instrucción. Quizá sabe algo que tú no." }, "effects": { "risk": 7, "luck": 5, "chaos": 6 }, "selectionWeight": 1 }
+    ]
+  },
+  {
+    "id": "q_expansion_mystery_note",
+    "category": "general",
+    "selectionWeight": 1,
+    "text": { "en": "You find a note in your pocket that says 'DO NOT OPEN THE FRIDGE.' You...", "fr": "Tu trouves dans ta poche un mot qui dit « N'OUVRE PAS LE FRIGO ». Tu...", "es": "Encuentras en tu bolsillo una nota que dice « NO ABRAS LA NEVERA ». Tú..." },
+    "answers": [
+      { "id": "a_exp_mystery_note_01", "text": { "en": "Obey it. You do not need this level of character development today.", "fr": "Obéis. Tu n'as pas besoin de ce niveau de développement personnel aujourd'hui.", "es": "Obedeces. Hoy no necesitas este nivel de desarrollo personal." }, "effects": { "discipline": 6, "risk": -4, "emotionalControl": 4 }, "selectionWeight": 1 },
+      { "id": "a_exp_mystery_note_02", "text": { "en": "Open the fridge immediately. Obviously this is why the note exists.", "fr": "Ouvres le frigo immédiatement. Évidemment, c'est pour ça que le mot existe.", "es": "Abres la nevera inmediatamente. Obviamente, por eso existe la nota." }, "effects": { "risk": 7, "chaos": 6, "curiosity": 1 }, "selectionWeight": 1 },
+      { "id": "a_exp_mystery_note_03", "text": { "en": "Search your pockets for a second note explaining the first one.", "fr": "Fouilles tes poches à la recherche d'un deuxième mot expliquant le premier.", "es": "Buscas en tus bolsillos una segunda nota que explique la primera." }, "effects": { "intelligence": 5, "creativity": 4, "discipline": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_mystery_note_04", "text": { "en": "Photograph the note. Evidence will be useful when society collapses.", "fr": "Photographies le mot. Les preuves seront utiles quand la société s'effondrera.", "es": "Fotografías la nota. Las pruebas serán útiles cuando la sociedad colapse." }, "effects": { "humor": 6, "emotionalControl": 4, "intelligence": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_mystery_note_05", "text": { "en": "Put a second note next to it: 'Too late. I have questions.'", "fr": "Ajoutes un deuxième mot à côté : « Trop tard. J'ai des questions. »", "es": "Pones otra nota al lado: « Demasiado tarde. Tengo preguntas. »" }, "effects": { "creativity": 6, "humor": 7, "chaos": 5 }, "selectionWeight": 1 },
+      { "id": "a_exp_mystery_note_06", "text": { "en": "Eat somewhere else. The fridge has become a hostile entity.", "fr": "Manges ailleurs. Le frigo est devenu une entité hostile.", "es": "Comes en otro sitio. La nevera se ha convertido en una entidad hostil." }, "effects": { "empathy": 3, "emotionalControl": 5, "risk": -2, "humor": 4 }, "selectionWeight": 1 }
+    ]
   }
 ]
