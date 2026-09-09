@@ -1,6 +1,7 @@
 import { STAT_KEYS, type ContentPack, type MatchBaselines, type StatKey } from "@final-form/shared-types";
 import questionsRaw from "./questions.json" with { type: "json" };
 import questionsExpansionRaw from "./questions.expansion.json" with { type: "json" };
+import questionsExtraRaw from "./questions.extra.json" with { type: "json" };
 import careersRaw from "./careers.json" with { type: "json" };
 import animalsRaw from "./animals.json" with { type: "json" };
 import classesRaw from "./classes.json" with { type: "json" };
@@ -14,7 +15,7 @@ import matchBaselinesRaw from "./matchBaselines.json" with { type: "json" };
 import rarityDistributionRaw from "./rarityDistribution.json" with { type: "json" };
 
 export interface RarityBucket { minScore: number; oneInX: number; }
-const questions = [...questionsRaw, ...questionsExpansionRaw];
+const questions = [...questionsRaw, ...questionsExpansionRaw, ...questionsExtraRaw];
 
 export const contentPack: ContentPack = {
   questions: questions as unknown as ContentPack["questions"],
