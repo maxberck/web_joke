@@ -43,6 +43,9 @@ const validateProfile = (profile, label) => {
 const getLocalizedLabel = (entry) => entry.name ?? entry.text;
 
 const data = Object.fromEntries(await Promise.all(files.map(async (name) => [name, await load(name)])));
+const questionsExpansion = await load("questions.expansion");
+data.questions = [...data.questions, ...questionsExpansion];
+
 if (data.questions.length < 20) throw new Error(`questions: ${data.questions.length} available, at least 20 required`);
 seen(data.questions, "questions");
 for (const question of data.questions) {
