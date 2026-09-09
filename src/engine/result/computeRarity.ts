@@ -4,11 +4,11 @@ export interface RarityBucket {
 }
 
 export const FALLBACK_RARITY_TABLE: RarityBucket[] = [
-  { minScore: 0, oneInX: 2 },
-  { minScore: 5, oneInX: 10 },
-  { minScore: 10, oneInX: 50 },
-  { minScore: 15, oneInX: 500 },
-  { minScore: 20, oneInX: 5000 },
+  { minScore: 0, oneInX: 25 },
+  { minScore: 5, oneInX: 100 },
+  { minScore: 10, oneInX: 500 },
+  { minScore: 15, oneInX: 2000 },
+  { minScore: 20, oneInX: 10000 },
   { minScore: 25, oneInX: 100000 },
   { minScore: 30, oneInX: 1000000 },
 ];
