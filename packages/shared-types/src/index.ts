@@ -16,7 +16,16 @@ export type LocalizedText = Record<Locale, string>;
 
 export interface Answer { id: string; text: LocalizedText; effects: StatEffects; selectionWeight?: number; }
 export interface Question { id: string; category: string; selectionWeight?: number; text: LocalizedText; answers: Answer[]; }
-export interface ProfileEntity { id: string; name: LocalizedText; description?: LocalizedText; idealProfile: IdealProfile; worthPotential?: { min: number; max: number }; tags?: string[]; }
+
+export interface ProfileEntity {
+  id: string;
+  name?: LocalizedText;
+  text?: LocalizedText;
+  description?: LocalizedText;
+  idealProfile: IdealProfile;
+  worthPotential?: { min: number; max: number };
+  tags?: string[];
+}
 export type Career = ProfileEntity & { worthPotential: { min: number; max: number } };
 export type Animal = ProfileEntity;
 export type AnimalProfile = Animal;
@@ -30,6 +39,7 @@ export type WorkStyle = ProfileEntity;
 export type WorkStyleEntry = WorkStyle;
 export interface WeaknessEntry extends Omit<ProfileEntity, "idealProfile"> { lowProfile: IdealProfile; }
 export interface Alignment extends Omit<ProfileEntity, "idealProfile"> { lawfulChaotic: [number, number]; selflessSelfInterested: [number, number]; }
+export type AlignmentEntry = Alignment;
 export interface StatCondition { stat: StatKey; op: ">" | ">=" | "<" | "<=" | "=="; value: number; }
 export type SynergyCondition = StatCondition;
 export interface SynergyRule { id: string; conditions: SynergyCondition[]; weight: number; rarityScore: number; tags: string[]; }
