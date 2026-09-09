@@ -14,7 +14,6 @@ import matchBaselinesRaw from "./matchBaselines.json" with { type: "json" };
 import rarityDistributionRaw from "./rarityDistribution.json" with { type: "json" };
 
 export interface RarityBucket { minScore: number; oneInX: number; }
-
 const questions = [...questionsRaw, ...questionsExpansionRaw];
 
 export const contentPack: ContentPack = {
@@ -29,32 +28,28 @@ export const contentPack: ContentPack = {
   alignments: alignmentsRaw as unknown as ContentPack["alignments"],
   synergyRules: synergyRulesRaw as unknown as ContentPack["synergyRules"],
 };
-
 export const matchBaselines: MatchBaselines = matchBaselinesRaw as unknown as MatchBaselines;
 export const rarityDistribution: RarityBucket[] = rarityDistributionRaw as unknown as RarityBucket[];
 
 function assertKnownStatKey(key: string, context: string): asserts key is StatKey {
   if (!STAT_KEYS.includes(key as StatKey)) throw new Error(`${context}: statistique inconnue « ${key} »`);
 }
-
 function assertFiniteRange(value: number, context: string): void {
   if (!Number.isFinite(value) || value < 0 || value > 100) throw new Error(`${context}: valeur attendue dans 0..100`);
 }
-
 function assertFiniteAxis(value: number, context: string): void {
   if (!Number.isFinite(value) || value < -100 || value > 100) throw new Error(`${context}: valeur attendue dans -100..100`);
 }
-
 function validateProfile(profile: Partial<Record<string, number>>, context: string): void {
   for (const [key, value] of Object.entries(profile)) {
     assertKnownStatKey(key, context);
+    if (value === undefined) continue;
     assertFiniteRange(value, `${context}.${key}`);
   }
 }
 
 export function assertContentPackIsValid(pack: ContentPack): void {
   if (pack.questions.length < 20) throw new Error("ContentPack: au moins 20 questions sont requises");
-
   const validateIds = (name: string, entries: Array<{ id: string }>) => {
     const ids = new Set<string>();
     for (const entry of entries) {
@@ -62,7 +57,6 @@ export function assertContentPackIsValid(pack: ContentPack): void {
       ids.add(entry.id);
     }
   };
-
   validateIds("question", pack.questions);
   validateIds("career", pack.careers);
   validateIds("animal", pack.animals);
@@ -100,7 +94,6 @@ export function assertContentPackIsValid(pack: ContentPack): void {
     if (alignment.lawfulChaotic.length !== 2 || alignment.selflessSelfInterested.length !== 2) throw new Error(`Alignment ${alignment.id}: axes invalides`);
     for (const value of [...alignment.lawfulChaotic, ...alignment.selflessSelfInterested]) assertFiniteAxis(value, `Alignment ${alignment.id}`);
   }
-
   for (const rule of pack.synergyRules) {
     if (rule.conditions.length === 0 || !Number.isFinite(rule.rarityScore)) throw new Error(`Synergy ${rule.id}: règle invalide`);
     for (const condition of rule.conditions) {
@@ -117,7 +110,6 @@ export function assertMatchBaselinesAreValid(baselines: MatchBaselines): void {
     }
   }
 }
-
 export function assertRarityDistributionIsValid(table: RarityBucket[]): void {
   if (table.length === 0) throw new Error("Rarity: table vide");
   let previousScore = -Infinity;
@@ -129,7 +121,6 @@ export function assertRarityDistributionIsValid(table: RarityBucket[]): void {
     previousOneInX = bucket.oneInX;
   }
 }
-
 assertContentPackIsValid(contentPack);
 assertMatchBaselinesAreValid(matchBaselines);
 assertRarityDistributionIsValid(rarityDistribution);
