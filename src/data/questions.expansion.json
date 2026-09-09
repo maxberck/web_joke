@@ -1,0 +1,58 @@
+[
+  {
+    "id": "q_expansion_late_train",
+    "category": "general",
+    "selectionWeight": 1,
+    "text": { "en": "Your train is delayed by 40 minutes and nobody knows why. You...", "fr": "Ton train a 40 minutes de retard et personne ne sait pourquoi. Tu...", "es": "Tu tren lleva 40 minutos de retraso y nadie sabe por qué. Tú..." },
+    "answers": [
+      { "id": "a_exp_late_train_01", "text": { "en": "Check the timetable again as if it might apologize.", "fr": "Vérifies l'horaire encore une fois, comme s'il allait s'excuser.", "es": "Miras el horario otra vez, como si fuera a disculparse." }, "effects": { "discipline": 3, "emotionalControl": 4, "humor": 2 }, "selectionWeight": 1 },
+      { "id": "a_exp_late_train_02", "text": { "en": "Find another route before the delay becomes your personality.", "fr": "Cherches un autre itinéraire avant que le retard ne devienne ta personnalité.", "es": "Buscas otra ruta antes de que el retraso se convierta en tu personalidad." }, "effects": { "intelligence": 4, "discipline": 4, "risk": 2 }, "selectionWeight": 1 },
+      { "id": "a_exp_late_train_03", "text": { "en": "Accept your new life at the station.", "fr": "Acceptes ta nouvelle vie sur le quai.", "es": "Aceptas tu nueva vida en el andén." }, "effects": { "chaos": 5, "emotionalControl": 3, "energy": -2 }, "selectionWeight": 1 },
+      { "id": "a_exp_late_train_04", "text": { "en": "Ask a stranger if they know more than the official announcement.", "fr": "Demandes à un inconnu s'il en sait plus que l'annonce officielle.", "es": "Preguntas a un desconocido si sabe más que el anuncio oficial." }, "effects": { "social": 5, "communication": 4, "empathy": 2 }, "selectionWeight": 1 },
+      { "id": "a_exp_late_train_05", "text": { "en": "Turn the delay into an excuse to finally start that book.", "fr": "Transformes le retard en excuse pour enfin commencer ce livre.", "es": "Conviertes el retraso en una excusa para empezar por fin ese libro." }, "effects": { "intelligence": 5, "discipline": 3, "creativity": 2 }, "selectionWeight": 1 },
+      { "id": "a_exp_late_train_06", "text": { "en": "Bet yourself €5 that the train arrives the moment you give up.", "fr": "Paries 5 € avec toi-même que le train arrivera dès que tu abandonneras.", "es": "Apuestas 5 € contigo mismo a que llegará en cuanto te rindas." }, "effects": { "risk": 6, "luck": 4, "humor": 3 }, "selectionWeight": 1 }
+    ]
+  },
+  {
+    "id": "q_expansion_group_project",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": { "en": "A group project is due tomorrow and one person has vanished completely. You...", "fr": "Un travail de groupe est à rendre demain et une personne a complètement disparu. Tu...", "es": "Un trabajo en grupo vence mañana y una persona ha desaparecido por completo. Tú..." },
+    "answers": [
+      { "id": "a_exp_group_project_01", "text": { "en": "Rebuild the missing part yourself and never mention it.", "fr": "Refais la partie manquante toi-même sans jamais en parler.", "es": "Reconstruyes la parte que falta tú solo y nunca lo mencionas." }, "effects": { "discipline": 6, "professionalism": 5, "empathy": 2 }, "selectionWeight": 1 },
+      { "id": "a_exp_group_project_02", "text": { "en": "Call them with the calm tone of someone who has already prepared evidence.", "fr": "Les appelles avec le calme de quelqu'un qui a déjà préparé les preuves.", "es": "Los llamas con la calma de alguien que ya ha preparado las pruebas." }, "effects": { "communication": 6, "professionalism": 4, "risk": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_group_project_03", "text": { "en": "Tell the group you are all learning a valuable lesson about teamwork.", "fr": "Dis au groupe que vous apprenez tous une précieuse leçon sur le travail d'équipe.", "es": "Dices al grupo que todos están aprendiendo una valiosa lección sobre el trabajo en equipo." }, "effects": { "humor": 5, "social": 4, "emotionalControl": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_group_project_04", "text": { "en": "Ask for an extension before anyone panics.", "fr": "Demandes un délai supplémentaire avant que tout le monde panique.", "es": "Pides una prórroga antes de que todos entren en pánico." }, "effects": { "professionalism": 6, "communication": 5, "risk": 2 }, "selectionWeight": 1 },
+      { "id": "a_exp_group_project_05", "text": { "en": "Assume they have a perfectly reasonable explanation and wait.", "fr": "Pars du principe qu'ils ont une explication parfaitement raisonnable et attends.", "es": "Asumes que tienen una explicación perfectamente razonable y esperas." }, "effects": { "empathy": 6, "emotionalControl": 5, "discipline": -2 }, "selectionWeight": 1 },
+      { "id": "a_exp_group_project_06", "text": { "en": "Replace their name with 'mysterious contributor' in the final document.", "fr": "Remplaces leur nom par « contributeur mystérieux » dans le document final.", "es": "Sustituyes su nombre por « colaborador misterioso » en el documento final." }, "effects": { "humor": 6, "chaos": 4, "professionalism": -4 }, "selectionWeight": 1 }
+    ]
+  },
+  {
+    "id": "q_expansion_wrong_delivery",
+    "category": "general",
+    "selectionWeight": 1,
+    "text": { "en": "Your food delivery arrives with someone else's order. You...", "fr": "Ta commande arrive avec le repas de quelqu'un d'autre. Tu...", "es": "Tu pedido llega con la comida de otra persona. Tú..." },
+    "answers": [
+      { "id": "a_exp_wrong_delivery_01", "text": { "en": "Contact support and sort it out properly.", "fr": "Contactes le support et règles le problème correctement.", "es": "Contactas con soporte y solucionas el problema correctamente." }, "effects": { "professionalism": 5, "communication": 4, "discipline": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_wrong_delivery_02", "text": { "en": "Inspect the mystery meal like a detective.", "fr": "Inspectes le repas mystère comme un détective.", "es": "Inspeccionas la comida misteriosa como un detective." }, "effects": { "intelligence": 4, "creativity": 4, "humor": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_wrong_delivery_03", "text": { "en": "Eat it, because destiny apparently ordered it for you.", "fr": "Le manges, puisque le destin l'a apparemment commandé pour toi.", "es": "Te la comes, porque aparentemente el destino la pidió para ti." }, "effects": { "chaos": 7, "risk": 4, "humor": 5 }, "selectionWeight": 1 },
+      { "id": "a_exp_wrong_delivery_04", "text": { "en": "Find the rightful owner before touching anything.", "fr": "Cherches le propriétaire légitime avant de toucher à quoi que ce soit.", "es": "Buscas al propietario legítimo antes de tocar nada." }, "effects": { "empathy": 6, "discipline": 4, "communication": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_wrong_delivery_05", "text": { "en": "Take a photo because support deserves the full cinematic experience.", "fr": "Prends une photo parce que le support mérite l'expérience cinématographique complète.", "es": "Haces una foto porque soporte merece la experiencia cinematográfica completa." }, "effects": { "creativity": 5, "humor": 5, "communication": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_wrong_delivery_06", "text": { "en": "Use it as a reason to finally learn how to cook.", "fr": "T'en sers comme prétexte pour enfin apprendre à cuisiner.", "es": "Lo usas como excusa para aprender a cocinar de una vez." }, "effects": { "ambition": 5, "creativity": 5, "discipline": 4 }, "selectionWeight": 1 }
+    ]
+  },
+  {
+    "id": "q_expansion_public_silence",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": { "en": "You make a joke in a group chat and nobody reacts for three minutes. You...", "fr": "Tu fais une blague dans un groupe et personne ne réagit pendant trois minutes. Tu...", "es": "Haces una broma en un grupo y nadie reacciona durante tres minutos. Tú..." },
+    "answers": [
+      { "id": "a_exp_public_silence_01", "text": { "en": "Delete nothing. Stand by the art.", "fr": "Ne supprimes rien. Assumes ton art.", "es": "No borras nada. Defiendes tu arte." }, "effects": { "emotionalControl": 6, "humor": 3, "risk": 2 }, "selectionWeight": 1 },
+      { "id": "a_exp_public_silence_02", "text": { "en": "Send a second message explaining why it was funny.", "fr": "Envoies un deuxième message pour expliquer pourquoi c'était drôle.", "es": "Envías un segundo mensaje explicando por qué era gracioso." }, "effects": { "communication": 3, "humor": 4, "emotionalControl": -4 }, "selectionWeight": 1 },
+      { "id": "a_exp_public_silence_03", "text": { "en": "Pretend you never said anything and move on.", "fr": "Fais comme si tu n'avais jamais rien dit et passes à autre chose.", "es": "Actúas como si nunca hubieras dicho nada y sigues adelante." }, "effects": { "emotionalControl": 5, "discipline": 3, "social": -2 }, "selectionWeight": 1 },
+      { "id": "a_exp_public_silence_04", "text": { "en": "Ask if everyone is okay, just in case.", "fr": "Demandes si tout le monde va bien, au cas où.", "es": "Preguntas si todos están bien, por si acaso." }, "effects": { "empathy": 6, "social": 4, "communication": 3 }, "selectionWeight": 1 },
+      { "id": "a_exp_public_silence_05", "text": { "en": "Decide the chat is hostile territory and retreat.", "fr": "Décides que ce groupe est un territoire hostile et te retires.", "es": "Decides que el grupo es territorio hostil y te retiras." }, "effects": { "risk": -3, "social": -3, "emotionalControl": 4 }, "selectionWeight": 1 },
+      { "id": "a_exp_public_silence_06", "text": { "en": "Send an even worse joke to establish dominance.", "fr": "Envoies une blague encore pire pour établir ta domination.", "es": "Envías un chiste aún peor para establecer tu dominio." }, "effects": { "chaos": 7, "humor": 7, "risk": 5 }, "selectionWeight": 1 }
+    ]
+  }
+]
