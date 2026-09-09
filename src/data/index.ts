@@ -11,11 +11,13 @@ import abilitiesRaw from "./abilities.json" with { type: "json" };
 import workStylesRaw from "./workStyles.json" with { type: "json" };
 import alignmentsRaw from "./alignments.json" with { type: "json" };
 import synergyRulesRaw from "./synergyRules.json" with { type: "json" };
+import synergyRulesExtraRaw from "./synergyRules.extra.json" with { type: "json" };
 import matchBaselinesRaw from "./matchBaselines.json" with { type: "json" };
 import rarityDistributionRaw from "./rarityDistribution.json" with { type: "json" };
 
 export interface RarityBucket { minScore: number; oneInX: number; }
 const questions = [...questionsRaw, ...questionsExpansionRaw, ...questionsExtraRaw];
+const synergyRules = [...synergyRulesRaw, ...synergyRulesExtraRaw];
 
 export const contentPack: ContentPack = {
   questions: questions as unknown as ContentPack["questions"],
@@ -27,7 +29,7 @@ export const contentPack: ContentPack = {
   abilities: abilitiesRaw as unknown as ContentPack["abilities"],
   workStyles: workStylesRaw as unknown as ContentPack["workStyles"],
   alignments: alignmentsRaw as unknown as ContentPack["alignments"],
-  synergyRules: synergyRulesRaw as unknown as ContentPack["synergyRules"],
+  synergyRules: synergyRules as unknown as ContentPack["synergyRules"],
 };
 export const matchBaselines: MatchBaselines = matchBaselinesRaw as unknown as MatchBaselines;
 export const rarityDistribution: RarityBucket[] = rarityDistributionRaw as unknown as RarityBucket[];
