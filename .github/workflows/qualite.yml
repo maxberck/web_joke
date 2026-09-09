@@ -25,7 +25,7 @@ jobs:
         run: npm ci
 
       - name: Calibrer les fréquences d'apparition
-        run: APPEARANCE_SAMPLES=50000 npm run sim:build-appearance -- --print
+        run: PRINT_APPEARANCE_JSON=1 APPEARANCE_SAMPLES=50000 npm run sim:build-appearance
 
       - name: Valider le contenu
         run: npm run content:validate
