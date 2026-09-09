@@ -6,7 +6,7 @@
 
 **Architecture:** `src/data/index.ts` ne chargera plus aucune source `extra`, `expansion` ou `more`. Les questions seront réparties dans cinq fichiers canoniques, les autres groupes auront un seul JSON chacun, et les simulations de baselines/calibration partageront les vrais sélecteurs du jeu pour rester synchronisées avec le runtime.
 
-**Tech Stack:** TypeScript, React, Vite, Node.js 24 en CI, JSON, scripts ESM `.mjs`, GitHub Actions.
+**Tech Stack:** TypeScript, React, Vite, Node.js 24 pour les scripts de simulation/parité et en CI, JSON, scripts ESM `.mjs`, GitHub Actions.
 
 **Spec:** `docs/superpowers/specs/2026-09-09-refonte-contenu-massive-design.md`
 
@@ -25,6 +25,7 @@
 - `appearanceCalibration.json` est généré avec 200 000 parties déterministes et versionné.
 - `matchBaselines.json` devient la seule source de baselines.
 - Aucun fichier `extra`, `expansion` ou `more` ne reste dans le runtime final.
+- Les scripts de simulation qui importent directement les sélecteurs TypeScript sont exécutés avec Node 24, comme la CI.
 - TDD : chaque changement de comportement ou de validation commence par un test/validateur qui échoue.
 
 ---
@@ -39,11 +40,11 @@
 
 **Interfaces:**
 - Consumes: toutes les sources actuelles `questions*.json`, `results.extra.json`, `*.expansion.json`, `synergyRules*.json`.
-- Produces: un snapshot immuable des IDs, catégories et textes historiques ; commande `npm run content:validate-migration`.
+- Produces: un snapshot immuable des IDs, catégories et contenus historiques ; commande `npm run content:validate-migration`.
 
 - [ ] **Step 1: Écrire le validateur RED avant la nouvelle structure**
 
-Créer `validateCanonicalMigration.mjs` pour exiger les cinq fichiers canoniques et comparer leurs entrées au manifest :
+Créer `validateCanonicalMigration.mjs` avec les imports `node:assert/strict`, `node:fs/promises` (`access`, `readFile`) et `node:path` (`resolve`). Il exige les cinq fichiers canoniques puis compare les entrées au manifest :
 
 ```js
 const REQUIRED_QUESTION_FILES = ["work", "social", "life", "personality", "general"];
@@ -56,10 +57,15 @@ for (const [id, legacy] of Object.entries(manifest.questions)) {
   assert.ok(current, `question historique manquante: ${id}`);
   assert.equal(current.category, legacy.category, `category modifiée: ${id}`);
   assert.deepEqual(current.text, legacy.text, `texte question modifié: ${id}`);
+  assert.deepEqual(
+    current.answers.map(({ id, text, effects }) => ({ id, text, effects })),
+    legacy.answers,
+    `réponses historiques modifiées: ${id}`,
+  );
 }
 ```
 
-Le manifest doit aussi stocker pour chaque question les IDs et textes de ses 10 réponses, et pour chaque résultat historique son `name/text`, `description`, `idealProfile/lowProfile` et `worthPotential` quand présent.
+Pour chaque résultat historique, comparer `name`, `text`, `description`, `idealProfile`, `lowProfile` et `worthPotential` uniquement quand la propriété existe dans le snapshot.
 
 - [ ] **Step 2: Lancer le validateur et vérifier le RED**
 
@@ -73,7 +79,7 @@ Expected: FAIL car `src/data/questions/work.json` et les quatre autres fichiers 
 
 - [ ] **Step 3: Générer une fois le manifest depuis les sources historiques**
 
-`buildLegacyManifest.mjs` doit fusionner exactement les mêmes sources que le runtime actuel, trier les clés/IDs de manière déterministe et écrire :
+`buildLegacyManifest.mjs` fusionne exactement les mêmes sources que le runtime actuel, trie les IDs et écrit :
 
 ```json
 {
@@ -96,11 +102,9 @@ Run:
 node content-pipeline/scripts/buildLegacyManifest.mjs
 ```
 
-Expected: fichier `content-pipeline/fixtures/legacy-content-manifest.json` créé avec 100 questions et 239 résultats/alignements couverts selon les catalogues actuels.
+Expected: snapshot couvrant 100 questions, 1 000 réponses, 50 métiers, 30 entrées dans chacun des six autres grands groupes, 9 alignements et 45 synergies.
 
 - [ ] **Step 4: Ajouter les scripts npm**
-
-Dans `package.json` :
 
 ```json
 "content:legacy-manifest": "node content-pipeline/scripts/buildLegacyManifest.mjs",
@@ -128,30 +132,38 @@ git commit -m "test: verrouiller la migration canonique du contenu"
 
 **Interfaces:**
 - Consumes: les 100 questions historiques fusionnées.
-- Produces: cinq tableaux JSON de 20 questions historiques chacun, sans aucune modification de contenu.
+- Produces: cinq tableaux JSON de 20 questions historiques chacun, sans modification de contenu.
 
 - [ ] **Step 1: Répartir les 100 questions historiques par thème**
 
 Règle exacte : chaque fichier contient 20 questions historiques. Le classement thématique peut déplacer une question entre fichiers mais ne modifie jamais `id`, `category`, `selectionWeight`, `text`, réponses ou effets.
 
-Chaque fichier est un tableau de cette forme :
+Exemple de forme valide d’une question historique après déplacement :
 
 ```json
-[
-  {
-    "id": "question_id_existant",
-    "category": "categorie_historique_inchangee",
-    "text": { "en": "...", "fr": "...", "es": "..." },
-    "answers": [
-      {
-        "id": "answer_id_existant",
-        "text": { "en": "...", "fr": "...", "es": "..." },
-        "effects": { "humor": 4, "chaos": 2 }
-      }
-    ]
-  }
-]
+{
+  "id": "q_commute_delay",
+  "category": "daily_life",
+  "text": {
+    "en": "Your train is delayed again. What do you do?",
+    "fr": "Ton train est encore en retard. Tu fais quoi ?",
+    "es": "Tu tren vuelve a retrasarse. ¿Qué haces?"
+  },
+  "answers": [
+    {
+      "id": "q_commute_delay_a1",
+      "text": {
+        "en": "Open the delay app every thirty seconds.",
+        "fr": "Rafraîchir l’application des retards toutes les trente secondes.",
+        "es": "Actualizar la aplicación de retrasos cada treinta segundos."
+      },
+      "effects": { "discipline": 2, "emotionalControl": -1 }
+    }
+  ]
+}
 ```
+
+Cet exemple illustre uniquement la structure ; lors de la migration, les objets historiques sont copiés byte-for-byte au niveau des valeurs JSON.
 
 - [ ] **Step 2: Exécuter le validateur de migration**
 
@@ -161,11 +173,9 @@ Run:
 npm run content:validate-migration
 ```
 
-Expected: les comparaisons historiques des questions passent ; les groupes de résultats peuvent encore utiliser temporairement les anciennes sources pendant cette étape.
+Expected: les comparaisons historiques des questions passent.
 
 - [ ] **Step 3: Vérifier les volumes intermédiaires**
-
-Run:
 
 ```bash
 node --input-type=module -e "import fs from 'node:fs'; for (const n of ['work','social','life','personality','general']) { const q=JSON.parse(fs.readFileSync('src/data/questions/'+n+'.json')); console.log(n,q.length); if(q.length!==20) process.exit(1); }"
@@ -198,11 +208,11 @@ git commit -m "refactor: canonicaliser les questions historiques"
 
 **Interfaces:**
 - Consumes: base + `results.extra.json` + fichiers `*.expansion.json`, et base + extra + expansion pour les synergies.
-- Produces: un seul fichier canonique par groupe avec exactement les volumes historiques actuels avant expansion : careers=50, autres grands groupes=30, alignments=9, synergies=45.
+- Produces: un seul fichier canonique par groupe avec les volumes historiques : careers=50, autres grands groupes=30, alignments=9, synergies=45.
 
 - [ ] **Step 1: Fusionner chaque groupe sans modifier les objets**
 
-Ordre canonique à conserver pour limiter le diff : base, puis `results.extra`, puis expansion. Exemple conceptuel pour `careers.json` :
+Ordre canonique : base, puis `results.extra`, puis expansion :
 
 ```js
 const canonicalCareers = [
@@ -212,21 +222,14 @@ const canonicalCareers = [
 ];
 ```
 
-Écrire le résultat directement dans `careers.json`. Répéter pour classes, powers, weaknesses, abilities, workStyles, animals et synergyRules.
+Écrire le tableau obtenu dans `careers.json`. Répéter pour classes, powers, weaknesses, abilities, workStyles, animals et synergyRules.
 
 - [ ] **Step 2: Vérifier l’absence de perte historique**
 
-Run:
-
-```bash
-npm run content:validate-migration
-```
-
+Run: `npm run content:validate-migration`
 Expected: PASS pour IDs, textes, profils, descriptions et synergies historiques.
 
-- [ ] **Step 3: Vérifier les volumes canoniques historiques**
-
-Run:
+- [ ] **Step 3: Vérifier les volumes historiques canoniques**
 
 ```bash
 node --input-type=module -e "import fs from 'node:fs'; const expected={careers:50,classes:30,powers:30,weaknesses:30,abilities:30,workStyles:30,animals:30,alignments:9,synergyRules:45}; for(const [n,c] of Object.entries(expected)){const a=JSON.parse(fs.readFileSync('src/data/'+n+'.json')); if(a.length!==c) throw new Error(n+': '+a.length+' != '+c);} console.log('historical canonical volumes OK');"
@@ -253,11 +256,9 @@ git commit -m "refactor: fusionner les catalogues de résultats"
 
 **Interfaces:**
 - Consumes: cinq fichiers de questions + fichiers canoniques de résultats.
-- Produces: `contentPack`, `matchBaselines`, `appearanceCalibration` sans aucune référence à `extra/expansion/more`.
+- Produces: `contentPack`, `matchBaselines`, `appearanceCalibration` sans référence à `extra/expansion/more`.
 
-- [ ] **Step 1: Faire échouer le validateur actuel sur l’absence de références legacy**
-
-Ajouter temporairement dans `validateContent.mjs` :
+- [ ] **Step 1: Ajouter le RED contre les références legacy**
 
 ```js
 const forbiddenNames = ["extra", "expansion", "more"];
@@ -267,17 +268,10 @@ for (const token of forbiddenNames) {
 }
 ```
 
-Run:
-
-```bash
-npm run content:validate
-```
-
+Run: `npm run content:validate`
 Expected: FAIL tant que `src/data/index.ts` importe les anciennes sources.
 
 - [ ] **Step 2: Simplifier `src/data/index.ts`**
-
-Imports de questions :
 
 ```ts
 import questionsWork from "./questions/work.json" with { type: "json" };
@@ -295,13 +289,11 @@ const questions = [
 ];
 ```
 
-Les autres groupes sont importés une seule fois et utilisés directement dans `contentPack`. Garder les assertions de profils, alignements, couverture des baselines et couverture de calibration.
+Importer `careers.json`, `classes.json`, `powers.json`, `weaknesses.json`, `abilities.json`, `workStyles.json`, `animals.json`, `alignments.json`, `synergyRules.json`, `matchBaselines.json`, `appearanceCalibration.json` une seule fois chacun et les utiliser directement dans `contentPack`.
 
-- [ ] **Step 3: Remplacer les deux validateurs par un seul validateur canonique**
+- [ ] **Step 3: Remplacer les validateurs fragmentés**
 
-`validateContent.mjs` doit charger uniquement les nouvelles sources et, à ce stade intermédiaire, accepter 100 questions / volumes historiques. Le passage aux volumes finaux sera activé à Task 8.
-
-Dans `package.json` :
+`validateContent.mjs` charge uniquement les nouvelles sources. À cette étape intermédiaire il valide 100 questions et les volumes historiques ; les assertions de volumes finaux seront activées au fil des Tasks 5-8.
 
 ```json
 "content:validate": "node content-pipeline/scripts/validateContent.mjs",
@@ -310,8 +302,6 @@ Dans `package.json` :
 
 - [ ] **Step 4: Vérifier runtime et types**
 
-Run:
-
 ```bash
 npm run content:validate-migration
 npm run content:validate
@@ -319,7 +309,7 @@ npm run typecheck
 npm run build
 ```
 
-Expected: PASS sur les quatre commandes.
+Expected: PASS.
 
 - [ ] **Step 5: Commit**
 
@@ -342,11 +332,9 @@ git commit -m "refactor: charger uniquement les données canoniques"
 
 **Interfaces:**
 - Consumes: 20 questions historiques par fichier.
-- Produces: 30 questions par fichier, exactement 10 réponses par question, soit 150 / 1 500.
+- Produces: 30 questions par fichier, 10 réponses par question, 150 / 1 500.
 
 - [ ] **Step 1: Passer le validateur en RED sur les volumes finaux**
-
-Ajouter :
 
 ```js
 const QUESTION_FILES = {
@@ -363,49 +351,46 @@ assert.equal(allQuestions.length, 150);
 assert.equal(answerCount, 1500);
 ```
 
-Run:
-
-```bash
-npm run content:validate
-```
-
+Run: `npm run content:validate`
 Expected: FAIL avec 20 questions dans chaque fichier.
 
 - [ ] **Step 2: Ajouter exactement 10 nouvelles questions dans chaque fichier**
 
-Pour chacune des 50 nouvelles questions :
+Exemple concret de structure d’une nouvelle question :
 
 ```json
 {
-  "id": "q_descriptive_unique",
-  "category": "existing-compatible-category",
+  "id": "q_work_surprise_deadline",
+  "category": "work",
   "text": {
-    "en": "English prompt",
-    "fr": "Question française",
-    "es": "Pregunta española"
+    "en": "A deadline suddenly moves to this afternoon. Your first reaction?",
+    "fr": "Une deadline passe soudainement à cet après-midi. Ta première réaction ?",
+    "es": "Una fecha límite pasa de repente a esta tarde. ¿Tu primera reacción?"
   },
   "answers": [
     {
-      "id": "q_descriptive_unique_a1",
-      "text": { "en": "...", "fr": "...", "es": "..." },
-      "effects": { "discipline": 4, "chaos": -2 }
+      "id": "q_work_surprise_deadline_a1",
+      "text": {
+        "en": "Make a tiny plan and start with the ugliest task.",
+        "fr": "Faire un mini-plan et commencer par la tâche la plus pénible.",
+        "es": "Hacer un mini plan y empezar por la tarea más desagradable."
+      },
+      "effects": { "discipline": 5, "emotionalControl": 2, "chaos": -2 }
     }
   ]
 }
 ```
 
-Exigences d’écriture : 10 réponses distinctes ; pas de traduction manquante ; effets utilisant uniquement les 15 `STAT_KEYS` ; mélange d’effets positifs/négatifs ; pas de question quasi dupliquée.
+Chaque question finale contient exactement 10 réponses distinctes, toutes traduites, avec uniquement les 15 `STAT_KEYS`. Les 50 nouvelles questions sont réparties exactement 10/10/10/10/10 entre les cinq fichiers.
 
-- [ ] **Step 3: Vérifier les volumes et la migration historique**
-
-Run:
+- [ ] **Step 3: Vérifier volumes et historique**
 
 ```bash
 npm run content:validate-migration
 npm run content:validate
 ```
 
-Expected: PASS ; le manifest confirme que les 100 anciennes questions sont intactes et le validateur confirme 150/1500.
+Expected: PASS, avec 150 questions et 1 500 réponses.
 
 - [ ] **Step 4: Commit**
 
@@ -440,36 +425,50 @@ Expected: FAIL avec 50/30/30.
 
 - [ ] **Step 2: Ajouter 50 métiers**
 
-Chaque nouveau métier doit avoir :
+Exemple concret :
 
 ```json
 {
-  "id": "career_unique_id",
-  "name": { "en": "...", "fr": "...", "es": "..." },
-  "idealProfile": { "intelligence": 70, "discipline": 55, "creativity": 65 },
-  "worthPotential": { "min": 25000, "max": 180000 }
+  "id": "career_robot_ethicist",
+  "name": {
+    "en": "Robot Ethicist",
+    "fr": "Éthicien des robots",
+    "es": "Especialista en ética robótica"
+  },
+  "idealProfile": { "intelligence": 78, "empathy": 72, "creativity": 61, "discipline": 58 },
+  "worthPotential": { "min": 42000, "max": 165000 }
 }
 ```
 
-Répartir les nouveaux métiers entre sérieux, absurdes et hybrides ; éviter de concentrer tous les profils autour de 50-60.
+Répartir les 50 nouveaux métiers entre sérieux, absurdes et hybrides ; couvrir des profils très différents et des fourchettes de valeur plausiblement variées.
 
 - [ ] **Step 3: Ajouter 45 classes et 45 pouvoirs**
 
-Forme requise :
+Exemple de classe :
 
 ```json
 {
-  "id": "class_or_power_unique_id",
-  "name": { "en": "...", "fr": "...", "es": "..." },
-  "idealProfile": { "humor": 80, "chaos": 70, "energy": 60 }
+  "id": "class_pattern_hunter",
+  "name": { "en": "Pattern Hunter", "fr": "Chasseur de schémas", "es": "Cazador de patrones" },
+  "idealProfile": { "intelligence": 82, "creativity": 68, "communication": 45 }
 }
 ```
 
-Les 45 nouvelles entrées par groupe doivent couvrir des profils bas, moyens et élevés sur des combinaisons différentes de stats.
+Exemple de pouvoir :
+
+```json
+{
+  "id": "power_detects_hidden_assumptions",
+  "name": {
+    "en": "Detect Hidden Assumptions",
+    "fr": "Détecter les hypothèses cachées",
+    "es": "Detectar suposiciones ocultas"
+  },
+  "idealProfile": { "intelligence": 76, "empathy": 57, "risk": 38 }
+}
+```
 
 - [ ] **Step 4: Vérifier contenu et historique**
-
-Run:
 
 ```bash
 npm run content:validate-migration
@@ -512,36 +511,66 @@ Expected: FAIL avec 30 entrées par groupe.
 
 - [ ] **Step 2: Ajouter 45 faiblesses**
 
-Utiliser uniquement `lowProfile` :
+Exemple :
 
 ```json
 {
-  "id": "weakness_unique_id",
-  "text": { "en": "...", "fr": "...", "es": "..." },
-  "lowProfile": { "emotionalControl": 25, "discipline": 30, "social": 40 }
+  "id": "weakness_too_many_options",
+  "text": {
+    "en": "Too many equally good options",
+    "fr": "Trop d’options également bonnes",
+    "es": "Demasiadas opciones igual de buenas"
+  },
+  "lowProfile": { "emotionalControl": 32, "discipline": 39, "risk": 44 }
 }
 ```
 
 - [ ] **Step 3: Ajouter 45 capacités et 45 styles de travail**
 
-Chaque entrée utilise `idealProfile`, trois langues et un profil distinct.
-
-- [ ] **Step 4: Ajouter 45 animaux avec descriptions**
-
-Forme :
+Exemple de capacité :
 
 ```json
 {
-  "id": "animal_unique_id",
-  "name": { "en": "...", "fr": "...", "es": "..." },
-  "description": { "en": "...", "fr": "...", "es": "..." },
-  "idealProfile": { "energy": 65, "social": 35, "luck": 55 }
+  "id": "ability_spots_missing_step",
+  "text": {
+    "en": "Spots the missing step",
+    "fr": "Repère l’étape manquante",
+    "es": "Detecta el paso que falta"
+  },
+  "idealProfile": { "intelligence": 72, "discipline": 66, "communication": 54 }
+}
+```
+
+Exemple de style :
+
+```json
+{
+  "id": "workstyle_two_pass_builder",
+  "text": {
+    "en": "Build rough, polish second",
+    "fr": "Construire brut, polir ensuite",
+    "es": "Construir primero, pulir después"
+  },
+  "idealProfile": { "creativity": 70, "discipline": 58, "risk": 52 }
+}
+```
+
+- [ ] **Step 4: Ajouter 45 animaux avec descriptions**
+
+```json
+{
+  "id": "animal_lynx",
+  "name": { "en": "Lynx", "fr": "Lynx", "es": "Lince" },
+  "description": {
+    "en": "Quiet, observant, and already noticed the detail everyone else missed.",
+    "fr": "Calme, observateur, et a déjà repéré le détail que tout le monde a raté.",
+    "es": "Tranquilo, observador y ya vio el detalle que todos los demás pasaron por alto."
+  },
+  "idealProfile": { "intelligence": 72, "social": 34, "emotionalControl": 67, "energy": 48 }
 }
 ```
 
 - [ ] **Step 5: Vérifier contenu et historique**
-
-Run:
 
 ```bash
 npm run content:validate-migration
@@ -570,7 +599,7 @@ git commit -m "feat: enrichir les profils secondaires"
 **Interfaces:**
 - Produces: 90-110 synergies ; commande `npm run synergy:validate`.
 
-- [ ] **Step 1: Ajouter le test RED de volume et de structure**
+- [ ] **Step 1: Ajouter le test RED de volume et structure**
 
 ```js
 assert.ok(synergyRules.length >= 90 && synergyRules.length <= 110, `synergies=${synergyRules.length}`);
@@ -585,26 +614,26 @@ Expected: FAIL avec 45 synergies.
 
 - [ ] **Step 2: Ajouter environ 55 nouvelles synergies**
 
-Forme :
+Exemple :
 
 ```json
 {
-  "id": "synergy_unique_id",
+  "id": "synergy_controlled_improviser",
   "conditions": [
-    { "stat": "chaos", "op": ">=", "value": 70 },
-    { "stat": "discipline", "op": "<=", "value": 35 }
+    { "stat": "chaos", "op": ">=", "value": 62 },
+    { "stat": "emotionalControl", "op": ">=", "value": 64 }
   ],
   "weight": 1,
   "rarityScore": 6,
-  "tags": ["improvised", "volatile"]
+  "tags": ["improvised", "controlled"]
 }
 ```
 
-Éviter les conditions logiquement identiques avec seulement un ID différent.
+Éviter les doublons logiques et répartir les règles sur différentes combinaisons de stats.
 
 - [ ] **Step 3: Créer `validateSynergyCoverage.mjs`**
 
-Le script reçoit un rapport de fréquence de simulation et échoue seulement pour les règles extrêmes selon ces seuils : fréquence > 0.95 ou fréquence < 0.000005 sur 200 000 runs. Il doit afficher les règles entre 0.000005 et 0.00005 comme avertissement, sans faire échouer.
+Lire le rapport indiqué par `SYNERGY_REPORT` (défaut `simulation/synergyFrequency.json`). Pour chaque règle : FAIL si `frequency > 0.95` ou `frequency < 0.000005`; warning si `0.000005 <= frequency < 0.00005`.
 
 - [ ] **Step 4: Ajouter la commande npm**
 
@@ -635,7 +664,7 @@ git commit -m "feat: étendre et contrôler les synergies"
 
 - [ ] **Step 1: Écrire le test de parité RED**
 
-`validateSamplingParity.mjs` doit importer les vrais sélecteurs :
+Sous Node 24 :
 
 ```js
 import { selectQuestions, selectAnswers } from "../src/engine/selection/index.ts";
@@ -643,19 +672,20 @@ import { loadCanonicalContent } from "./lib/loadCanonicalContent.mjs";
 import { simulateStats, mulberry32 } from "./lib/simulateStats.mjs";
 ```
 
-Avec une seed fixe, le script vérifie que `simulateStats` sélectionne 20 IDs de questions identiques à un appel direct de `selectQuestions`, puis 3 IDs de réponses identiques à `selectAnswers` pour chaque question.
+Avec la seed `0x51A7E123`, vérifier 20 IDs de questions et les 3 IDs de réponses de chaque tour contre des appels directs aux sélecteurs runtime.
 
 Run:
 
 ```bash
+node --version
 node simulation/validateSamplingParity.mjs
 ```
 
-Expected: FAIL car les modules `simulation/lib/*` n’existent pas.
+Expected: Node `v24.x` puis FAIL car les modules `simulation/lib/*` n’existent pas.
 
 - [ ] **Step 2: Implémenter `loadCanonicalContent()`**
 
-Retour attendu :
+Retour exact :
 
 ```js
 {
@@ -673,7 +703,7 @@ Retour attendu :
 }
 ```
 
-Le loader lit uniquement les cinq fichiers de questions et les JSON canoniques.
+Le loader lit uniquement les cinq fichiers de questions et les fichiers canoniques.
 
 - [ ] **Step 3: Implémenter `simulateStats()` avec les vrais sélecteurs**
 
@@ -686,20 +716,20 @@ export function simulateStats({ questions, rng }) {
     const shown = selectAnswers(question.answers, { count: 3, rng });
     const chosen = weightedPick(shown, (answer) => answer.selectionWeight ?? 1, rng);
     applyEffects(stats, chosen.effects);
-    trace.push({ questionId: question.id, answerIds: shown.map((a) => a.id), chosenAnswerId: chosen.id });
+    trace.push({ questionId: question.id, answerIds: shown.map((answer) => answer.id), chosenAnswerId: chosen.id });
   }
   return { stats, trace };
 }
 ```
 
+`weightedPick` utilise le même RNG et choisit une réponse parmi les trois affichées selon `selectionWeight ?? 1`. `applyEffects` clamp chaque stat dans `0..100`.
+
 - [ ] **Step 4: Vérifier la parité**
 
 Run: `node simulation/validateSamplingParity.mjs`
-Expected: PASS avec une seed fixe et 20 tours.
+Expected: PASS.
 
-- [ ] **Step 5: Ajouter script npm workspace**
-
-Dans `simulation/package.json` :
+- [ ] **Step 5: Ajouter le script workspace**
 
 ```json
 "validate-sampling": "node validateSamplingParity.mjs"
@@ -724,28 +754,21 @@ git commit -m "refactor: partager le sampling des simulations"
 
 **Interfaces:**
 - Consumes: `loadCanonicalContent`, `simulateStats`.
-- Produces: un unique `matchBaselines.json` couvrant 100+75+75+75+75+75+75 = 550 entrées non-alignement.
+- Produces: un unique `matchBaselines.json` couvrant 550 entrées non-alignement.
 
-- [ ] **Step 1: Écrire un contrôle RED de couverture**
+- [ ] **Step 1: Vérifier le RED de couverture**
 
-Avant génération, lancer :
-
-```bash
-npm run content:validate
-```
-
+Run: `npm run content:validate`
 Expected: FAIL sur les baselines manquantes des nouvelles entrées.
 
 - [ ] **Step 2: Implémenter le générateur déterministe**
-
-Constantes :
 
 ```js
 const SAMPLES = Math.max(10_000, Number(process.env.BASELINE_SAMPLES ?? 100_000));
 const rng = mulberry32(0xBA5E11E5);
 ```
 
-Pour chaque run, simuler les stats puis calculer la distance brute vers toutes les entrées de chaque groupe. Pour chaque ID, accumuler `count`, `sum`, `sumSquares`, puis écrire :
+Pour chaque run, simuler les stats puis calculer la distance brute vers toutes les entrées de chaque groupe. Pour chaque ID accumuler `count`, `sum`, `sumSquares`, puis :
 
 ```js
 const mean = sum / count;
@@ -753,21 +776,17 @@ const variance = Math.max(0, sumSquares / count - mean * mean);
 const std = Math.sqrt(variance);
 ```
 
-Rejeter toute baseline avec `std <= 0` ou non finie.
+Rejeter toute baseline avec `std <= 0` ou valeur non finie.
 
 - [ ] **Step 3: Générer le fichier**
-
-Run:
 
 ```bash
 BASELINE_SAMPLES=100000 npm run sim:build-baselines
 ```
 
-Expected: `matchBaselines.json` écrit avec couverture complète et message `Match baselines OK`.
+Expected: message `Match baselines OK: 100000 simulations, 550 entries`.
 
 - [ ] **Step 4: Vérifier contenu et types**
-
-Run:
 
 ```bash
 npm run content:validate
@@ -790,38 +809,46 @@ git commit -m "feat: régénérer les baselines canoniques"
 **Files:**
 - Modify: `simulation/buildAppearanceCalibration.mjs`
 - Modify: `src/data/appearanceCalibration.json`
-- Modify: `.github/workflows/qualite.yml`
+- Create: `content-pipeline/scripts/compareCalibration.mjs`
 - Modify: `content-pipeline/scripts/validateSynergyCoverage.mjs`
+- Modify: `.github/workflows/qualite.yml`
 
 **Interfaces:**
 - Consumes: sampling partagé + baselines canoniques.
-- Produces: calibration normalisée pour 559 composants incluant les 9 alignements ; rapport de fréquence des synergies.
+- Produces: calibration normalisée pour 559 composants incluant 9 alignements ; rapport de fréquence des synergies.
 
-- [ ] **Step 1: Refactorer le simulateur pour utiliser les modules partagés**
+- [ ] **Step 1: Refactorer le simulateur vers les modules partagés**
 
-Supprimer toute logique locale dupliquée de sélection des questions/réponses. Utiliser :
+Supprimer la sélection locale dupliquée et utiliser :
 
 ```js
 const { stats } = simulateStats({ questions: content.questions, rng });
 ```
 
-Puis matcher les 8 composants avec les baselines finales.
+Puis matcher les huit composants avec les baselines finales.
 
 - [ ] **Step 2: Fixer la cible par défaut à 200 000**
 
 ```js
 const SAMPLES = Math.max(2_000, Number(process.env.APPEARANCE_SAMPLES ?? 200_000));
+const rng = mulberry32(0xF1A1F04D);
 ```
 
-Conserver une seed fixe dédiée, par exemple `0xF1A1F04D`.
+- [ ] **Step 3: Émettre un rapport de fréquence de synergies**
 
-- [ ] **Step 3: Émettre aussi un rapport de fréquence de synergies**
+Écrire dans `SYNERGY_OUTPUT ?? simulation/synergyFrequency.json` :
 
-Écrire `simulation/synergyFrequency.json` ou un fichier temporaire configuré par `SYNERGY_OUTPUT`. Chaque règle contient `matches`, `samples`, `frequency`.
+```json
+{
+  "synergy_controlled_improviser": {
+    "matches": 1842,
+    "samples": 200000,
+    "frequency": 0.00921
+  }
+}
+```
 
 - [ ] **Step 4: Générer la calibration versionnée**
-
-Run:
 
 ```bash
 APPEARANCE_SAMPLES=200000 npm run sim:build-appearance
@@ -831,17 +858,14 @@ Expected: `Appearance calibration OK: 200000 simulations, 150 questions`.
 
 - [ ] **Step 5: Valider les synergies**
 
-Run:
+Run: `npm run synergy:validate`
+Expected: PASS.
 
-```bash
-npm run synergy:validate
-```
+- [ ] **Step 6: Créer `compareCalibration.mjs`**
 
-Expected: PASS ; aucune règle >95 % ni <0.0005 % d’occurrence.
+Le script reçoit deux chemins en arguments, parse les JSON, compare leurs structures avec `assert.deepEqual` et affiche `Calibration versionnée conforme` en cas de succès.
 
-- [ ] **Step 6: Mettre la CI à 200 000 simulations avec sortie temporaire**
-
-Étape GitHub Actions :
+- [ ] **Step 7: Mettre la CI à 200 000 simulations**
 
 ```yaml
 - name: Vérifier la calibration d'apparition
@@ -851,9 +875,9 @@ Expected: PASS ; aucune règle >95 % ni <0.0005 % d’occurrence.
     SYNERGY_REPORT=/tmp/synergyFrequency.json npm run synergy:validate
 ```
 
-Créer `compareCalibration.mjs` plutôt que conserver un `node -e` massif dans le YAML.
+Ajouter aussi `npm run validate-sampling -w simulation` avant les simulations.
 
-- [ ] **Step 7: Commit**
+- [ ] **Step 8: Commit**
 
 ```bash
 git add simulation src/data/appearanceCalibration.json .github/workflows/qualite.yml content-pipeline/scripts
@@ -862,7 +886,7 @@ git commit -m "feat: recalibrer les apparitions sur 200000 parties"
 
 ---
 
-### Task 12: Supprimer le legacy, documenter et effectuer la vérification finale
+### Task 12: Supprimer le legacy, documenter et vérifier l’ensemble
 
 **Files:**
 - Delete: `src/data/questions.json`
@@ -884,26 +908,24 @@ git commit -m "feat: recalibrer les apparitions sur 200000 parties"
 - Delete: `src/data/matchBaselines.extra.json`
 - Delete: `src/data/matchBaselines.expansion.json`
 - Delete if unreferenced: `src/data/rarityDistribution.json`
+- Delete if unreferenced: `src/engine/result/computeRarity.ts`
 - Modify: `src/data/CONTENT_GUIDE.md`
 - Modify: `package.json`
-- Test: all project validation scripts
 
 **Interfaces:**
-- Produces: structure finale conforme au spec, sans aucune dépendance legacy.
+- Produces: structure finale conforme au spec, sans dépendance legacy.
 
 - [ ] **Step 1: Rechercher toutes les références legacy**
-
-Run:
 
 ```bash
 grep -R -nE 'questions\.(extra|expansion)|questions\.more|results\.extra|\.expansion\.json|synergyRules\.extra|matchBaselines\.(extra|expansion)|rarityDistribution' src simulation content-pipeline package.json .github || true
 ```
 
-Expected avant nettoyage: quelques références restantes identifiées précisément.
+Expected avant nettoyage: uniquement les références à supprimer ou au manifest historique.
 
 - [ ] **Step 2: Supprimer les références et fichiers devenus inutiles**
 
-`rarityDistribution.json` est supprimé seulement si la recherche confirme qu’aucun calcul/runtime n’en dépend. Si `computeRarity.ts` est alors sans appel, le supprimer également et retirer ses exports.
+Conserver `legacy-content-manifest.json` et son validateur : ils prouvent que la migration n’a rien perdu. Supprimer `rarityDistribution.json` et `computeRarity.ts` seulement si la recherche et le graphe d’imports confirment qu’ils n’ont plus de consommateur.
 
 - [ ] **Step 3: Mettre à jour `CONTENT_GUIDE.md`**
 
@@ -926,56 +948,44 @@ alignments.json             9
 synergyRules.json       90-110
 ```
 
-Expliquer qu’après toute modification de profils/questions il faut régénérer les baselines puis la calibration.
+Documenter aussi l’ordre de régénération : `sim:build-baselines` puis `sim:build-appearance`.
 
-- [ ] **Step 4: Exécuter la migration historique**
+- [ ] **Step 4: Vérifier la migration historique**
 
-Run:
+Run: `npm run content:validate-migration`
+Expected: PASS.
 
-```bash
-npm run content:validate-migration
-```
-
-Expected: PASS — les 100 anciennes questions, leurs réponses, catégories et toutes les entrées historiques sont toujours présentes.
-
-- [ ] **Step 5: Exécuter toutes les validations fonctionnelles**
-
-Run:
+- [ ] **Step 5: Exécuter toutes les validations**
 
 ```bash
 npm run content:validate
 npm run rarity:validate
-npm run synergy:validate
+SYNERGY_REPORT=simulation/synergyFrequency.json npm run synergy:validate
+npm run validate-sampling -w simulation
 npm run typecheck
 npm run build
 ```
 
 Expected: toutes les commandes PASS.
 
-- [ ] **Step 6: Vérifier les volumes finaux explicitement**
+- [ ] **Step 6: Vérifier les volumes finaux**
 
-Run:
-
-```bash
-node content-pipeline/scripts/validateContent.mjs
-```
-
-Expected log contenant :
+Run: `node content-pipeline/scripts/validateContent.mjs`
+Expected log :
 
 ```text
 Content OK: questions=150, answers=1500, careers=100, classes=75, powers=75, weaknesses=75, abilities=75, workStyles=75, animals=75, alignments=9
 ```
 
-- [ ] **Step 7: Vérifier la reproductibilité finale de la calibration**
-
-Run:
+- [ ] **Step 7: Vérifier la reproductibilité finale**
 
 ```bash
 APPEARANCE_OUTPUT=/tmp/appearanceCalibration.json SYNERGY_OUTPUT=/tmp/synergyFrequency.json APPEARANCE_SAMPLES=200000 npm run sim:build-appearance
 node content-pipeline/scripts/compareCalibration.mjs src/data/appearanceCalibration.json /tmp/appearanceCalibration.json
+SYNERGY_REPORT=/tmp/synergyFrequency.json npm run synergy:validate
 ```
 
-Expected: comparaison identique.
+Expected: calibration identique et synergies valides.
 
 - [ ] **Step 8: Commit final de nettoyage**
 
@@ -986,4 +996,4 @@ git commit -m "refactor: finaliser la structure canonique du contenu"
 
 - [ ] **Step 9: Vérification GitHub Actions**
 
-Pousser la branche / mettre à jour la PR, attendre `Qualité du quiz`, puis confirmer que les étapes contenu, calibration 200k, synergies, typecheck et build sont toutes vertes avant toute fusion vers `main`.
+Pousser la branche / mettre à jour la PR, puis ne considérer la refonte terminée que lorsque `Qualité du quiz` confirme : migration, contenu, sampling, baselines, calibration 200k, synergies, rareté, typecheck et build verts.
