@@ -33,11 +33,13 @@ export function findBestMatchNormalized<T extends { id: string; idealProfile: Id
   if (entries.length === 0) throw new Error("findBestMatchNormalized: la liste d'entrées ne peut pas être vide");
   if (!baselines) return findBestMatch(stats, entries);
 
+  const baselineSet = baselines;
+
   function score(entry: T): number {
     const distance = profileDistance(stats, entry.idealProfile);
     if (!Number.isFinite(distance)) return Number.POSITIVE_INFINITY;
 
-    const baseline = baselines[entry.id];
+    const baseline = baselineSet[entry.id];
     if (!baseline || !Number.isFinite(baseline.mean) || !Number.isFinite(baseline.std) || baseline.std <= 0) {
       return distance;
     }
