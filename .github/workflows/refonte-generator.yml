@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   generate:
-    if: ${{ !contains(github.event.head_commit.message, '[refonte-generated]') }}
+    if: ${{ contains(github.event.head_commit.message, '[run-refonte-generator]') }}
     runs-on: ubuntu-latest
     steps:
       - name: Récupérer la branche
@@ -45,5 +45,5 @@ jobs:
             echo "Aucun fichier généré à committer."
             exit 0
           fi
-          git commit -m "data: canonicaliser le contenu historique [refonte-generated]"
+          git commit -m "data: générer la refonte du contenu [refonte-generated]"
           git push origin HEAD:feat/refonte-contenu-massive
