@@ -32,18 +32,18 @@ export function findBestMatchNormalized<T extends { id: string; idealProfile: Id
 ): T {
   if (entries.length === 0) throw new Error("findBestMatchNormalized: la liste d'entrées ne peut pas être vide");
   if (!baselines) return findBestMatch(stats, entries);
-  const baselineSet = baselines as Record<string, MatchBaseline>;
 
-  function zScore(entry: T): number {
+  function score(entry: T): number {
     const distance = profileDistance(stats, entry.idealProfile);
     if (!Number.isFinite(distance)) return Number.POSITIVE_INFINITY;
-    const baseline = baselineSet[entry.id];
-    if (!baseline) throw new Error(`Baseline manquante pour ${entry.id}`);
-    if (!Number.isFinite(baseline.mean) || !Number.isFinite(baseline.std) || baseline.std <= 0) {
-      throw new Error(`Baseline invalide pour ${entry.id}`);
+
+    const baseline = baselines[entry.id];
+    if (!baseline || !Number.isFinite(baseline.mean) || !Number.isFinite(baseline.std) || baseline.std <= 0) {
+      return distance;
     }
+
     return (distance - baseline.mean) / baseline.std;
   }
 
-  return entries.reduce((best, entry) => (zScore(entry) < zScore(best) ? entry : best));
+  return entries.reduce((best, entry) => (score(entry) < score(best) ? entry : best));
 }
