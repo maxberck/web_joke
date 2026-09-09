@@ -1,0 +1,146 @@
+[
+  {
+    "id": "q_late_train_decision",
+    "category": "general",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Your train is delayed by 40 minutes and nobody knows why. You...",
+      "fr": "Ton train a 40 minutes de retard et personne ne sait pourquoi. Tu...",
+      "es": "Tu tren lleva 40 minutos de retraso y nadie sabe por qué. Tú..."
+    },
+    "answers": [
+      { "id": "a_late_train_01", "text": { "en": "Check the timetable again as if it might apologize.", "fr": "Vérifies l'horaire encore une fois, comme s'il allait s'excuser.", "es": "Miras el horario otra vez, como si fuera a disculparse." }, "effects": { "discipline": 3, "emotionalControl": 4, "humor": 2 }, "selectionWeight": 1 },
+      { "id": "a_late_train_02", "text": { "en": "Find another route before the delay becomes your personality.", "fr": "Cherches un autre itinéraire avant que le retard ne devienne ta personnalité.", "es": "Buscas otra ruta antes de que el retraso se convierta en tu personalidad." }, "effects": { "intelligence": 4, "discipline": 4, "risk": 2 }, "selectionWeight": 1 },
+      { "id": "a_late_train_03", "text": { "en": "Accept your new life at the station.", "fr": "Acceptes ta nouvelle vie sur le quai.", "es": "Aceptas tu nueva vida en el andén." }, "effects": { "chaos": 5, "emotionalControl": 3, "energy": -2 }, "selectionWeight": 1 },
+      { "id": "a_late_train_04", "text": { "en": "Ask a stranger if they know more than the official announcement.", "fr": "Demandes à un inconnu s'il en sait plus que l'annonce officielle.", "es": "Preguntas a un desconocido si sabe más que el anuncio oficial." }, "effects": { "social": 5, "communication": 4, "empathy": 2 }, "selectionWeight": 1 },
+      { "id": "a_late_train_05", "text": { "en": "Turn the delay into an excuse to finally start that book.", "fr": "Transformes le retard en excuse pour enfin commencer ce livre.", "es": "Conviertes el retraso en una excusa para empezar por fin ese libro." }, "effects": { "intelligence": 5, "discipline": 3, "creativity": 2 }, "selectionWeight": 1 },
+      { "id": "a_late_train_06", "text": { "en": "Bet yourself €5 that the train arrives the moment you give up.", "fr": "Paries 5 € avec toi-même que le train arrivera dès que tu abandonneras.", "es": "Apuestas 5 € contigo mismo a que llegará en cuanto te rindas." }, "effects": { "risk": 6, "luck": 4, "humor": 3 }, "selectionWeight": 1 }
+    ]
+  },
+  {
+    "id": "q_group_project_missing",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": {
+      "en": "A group project is due tomorrow and one person has vanished completely. You...",
+      "fr": "Un travail de groupe est à rendre demain et une personne a complètement disparu. Tu...",
+      "es": "Un trabajo en grupo vence mañana y una persona ha desaparecido por completo. Tú..."
+    },
+    "answers": [
+      { "id": "a_group_project_01", "text": { "en": "Rebuild the missing part yourself and never mention it.", "fr": "Refais la partie manquante toi-même sans jamais en parler.", "es": "Reconstruyes la parte que falta tú solo y nunca lo mencionas." }, "effects": { "discipline": 6, "professionalism": 5, "empathy": 2 }, "selectionWeight": 1 },
+      { "id": "a_group_project_02", "text": { "en": "Call them with the calm tone of someone who has already prepared evidence.", "fr": "Les appelles avec le calme de quelqu'un qui a déjà préparé les preuves.", "es": "Los llamas con la calma de alguien que ya ha preparado las pruebas." }, "effects": { "communication": 6, "professionalism": 4, "risk": 3 }, "selectionWeight": 1 },
+      { "id": "a_group_project_03", "text": { "en": "Tell the group you are all learning a valuable lesson about teamwork.", "fr": "Dis au groupe que vous apprenez tous une précieuse leçon sur le travail d'équipe.", "es": "Dices al grupo que todos están aprendiendo una valiosa lección sobre el trabajo en equipo." }, "effects": { "humor": 5, "social": 4, "emotionalControl": 3 }, "selectionWeight": 1 },
+      { "id": "a_group_project_04", "text": { "en": "Ask the teacher for an extension before anyone panics.", "fr": "Demandes un délai supplémentaire avant que tout le monde panique.", "es": "Pides una prórroga antes de que todos entren en pánico." }, "effects": { "professionalism": 6, "communication": 5, "risk": 2 }, "selectionWeight": 1 },
+      { "id": "a_group_project_05", "text": { "en": "Assume they have a perfectly reasonable explanation and wait.", "fr": "Pars du principe qu'ils ont une explication parfaitement raisonnable et attends.", "es": "Asumes que tienen una explicación perfectamente razonable y esperas." }, "effects": { "empathy": 6, "emotionalControl": 5, "discipline": -2 }, "selectionWeight": 1 },
+      { "id": "a_group_project_06", "text": { "en": "Replace their name with 'mysterious contributor' in the final document.", "fr": "Remplaces leur nom par « contributeur mystérieux » dans le document final.", "es": "Sustituyes su nombre por « colaborador misterioso » en el documento final." }, "effects": { "humor": 6, "chaos": 4, "professionalism": -4 }, "selectionWeight": 1 }
+    ]
+  },
+  {
+    "id": "q_wrong_food_delivery",
+    "category": "general",
+    "selectionWeight": 1,
+    "text": {
+      "en": "Your food delivery arrives with someone else's order. You...",
+      "fr": "Ta commande arrive avec le repas de quelqu'un d'autre. Tu...",
+      "es": "Tu pedido llega con la comida de otra persona. Tú..."
+    },
+    "answers": [
+      { "id": "a_wrong_food_01", "text": { "en": "Contact support and sort it out properly.", "fr": "Contactes le support et règles le problème correctement.", "es": "Contactas con soporte y solucionas el problema correctamente." }, "effects": { "professionalism": 5, "communication": 4, "discipline": 3 }, "selectionWeight": 1 },
+      { "id": "a_wrong_food_02", "text": { "en": "Inspect the mystery meal like a detective.", "fr": "Inspectes le repas mystère comme un détective.", "es": "Inspeccionas la comida misteriosa como un detective." }, "effects": { "intelligence": 4, "creativity": 4, "humor": 3 }, "selectionWeight": 1 },
+      { "id": "a_wrong_food_03", "text": { "en": "Eat it, because destiny apparently ordered it for you.", "fr": "Le manges, puisque le destin l'a apparemment commandé pour toi.", "es": "Te la comes, porque aparentemente el destino la pidió para ti." }, "effects": { "chaos": 7, "risk": 4, "humor": 5 }, "selectionWeight": 1 },
+      { "id": "a_wrong_food_04", "text": { "en": "Try to find the rightful owner before touching anything.", "fr": "Cherches le propriétaire légitime avant de toucher à quoi que ce soit.", "es": "Buscas al propietario legítimo antes de tocar nada." }, "effects": { "empathy": 6, "discipline": 4, "communication": 3 }, "selectionWeight": 1 },
+      { "id": "a_wrong_food_05", "text": { "en": "Take a photo because customer support deserves the full cinematic experience.", "fr": "Prends une photo parce que le support mérite l'expérience cinématographique complète.", "es": "Haces una foto porque soporte merece la experiencia cinematográfica completa." }, "effects": { "creativity": 5, "humor": 5, "communication": 3 }, "selectionWeight": 1 },
+      { "id": "a_wrong_food_06", "text": { "en": "Use it as a reason to finally learn how to cook.", "fr": "T'en sers comme prétexte pour enfin apprendre à cuisiner.", "es": "Lo usas como excusa para aprender a cocinar de una vez." }, "effects": { "ambition": 5, "creativity": 5, "discipline": 4 }, "selectionWeight": 1 }
+    ]
+  },
+  {
+    "id": "q_public_silence",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": {
+      "en": "You make a joke in a group chat and nobody reacts for three minutes. You...",
+      "fr": "Tu fais une blague dans un groupe et personne ne réagit pendant trois minutes. Tu...",
+      "es": "Haces una broma en un grupo y nadie reacciona durante tres minutos. Tú..."
+    },
+    "answers": [
+      { "id": "a_public_silence_01", "text": { "en": "Delete nothing. Stand by the art.", "fr": "Ne supprimes rien. Assumes ton art.", "es": "No borras nada. Defiendes tu arte." }, "effects": { "emotionalControl": 6, "confidence": 2, "humor": 3 }, "selectionWeight": 1 },
+      { "id": "a_public_silence_02", "text": { "en": "Send a second message explaining why it was funny.", "fr": "Envoies un deuxième message pour expliquer pourquoi c'était drôle.", "es": "Envías un segundo mensaje explicando por qué era gracioso." }, "effects": { "communication": 3, "humor": 4, "emotionalControl": -4 }, "selectionWeight": 1 },
+      { "id": "a_public_silence_03", "text": { "en": "Pretend you never said anything and move on.", "fr": "Fais comme si tu n'avais jamais rien dit et passes à autre chose.", "es": "Actúas como si nunca hubieras dicho nada y sigues adelante." }, "effects": { "emotionalControl": 5, "discipline": 3, "social": -2 }, "selectionWeight": 1 },
+      { "id": "a_public_silence_04", "text": { "en": "Ask if everyone is okay, just in case.", "fr": "Demandes si tout le monde va bien, au cas où.", "es": "Preguntas si todos están bien, por si acaso." }, "effects": { "empathy": 6, "social": 4, "communication": 3 }, "selectionWeight": 1 },
+      { "id": "a_public_silence_05", "text": { "en": "Decide the chat is hostile territory and retreat.", "fr": "Décides que ce groupe est un territoire hostile et te retires.", "es": "Decides que el grupo es territorio hostil y te retiras." }, "effects": { "risk": -3, "social": -3, "emotionalControl": 4 }, "selectionWeight": 1 },
+      { "id": "a_public_silence_06", "text": { "en": "Send an even worse joke to establish dominance.", "fr": "Envoies une blague encore pire pour établir ta domination.", "es": "Envías un chiste aún peor para establecer tu dominio." }, "effects": { "chaos": 7, "humor": 7, "risk": 5 }, "selectionWeight": 1 }
+    ]
+  },
+  {
+    "id": "q_last_cookie",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": {
+      "en": "There is one cookie left in the office kitchen and you know exactly who bought it. You...",
+      "fr": "Il reste un seul biscuit dans la cuisine et tu sais exactement qui l'a acheté. Tu...",
+      "es": "Queda una sola galleta en la cocina y sabes exactamente quién la compró. Tú..."
+    },
+    "answers": [
+      { "id": "a_last_cookie_01", "text": { "en": "Leave it alone. Justice matters.", "fr": "Le laisses tranquille. La justice compte.", "es": "La dejas. La justicia importa." }, "effects": { "empathy": 5, "discipline": 5, "professionalism": 3 }, "selectionWeight": 1 },
+      { "id": "a_last_cookie_02", "text": { "en": "Ask if they still want it before taking it.", "fr": "Demandes s'ils le veulent toujours avant de le prendre.", "es": "Preguntas si todavía la quieren antes de cogerla." }, "effects": { "communication": 5, "empathy": 5, "social": 3 }, "selectionWeight": 1 },
+      { "id": "a_last_cookie_03", "text": { "en": "Take it and leave an apology note of unnecessary length.", "fr": "Le prends et laisses un mot d'excuse ridiculement long.", "es": "La coges y dejas una disculpa absurdamente larga." }, "effects": { "humor": 5, "creativity": 4, "empathy": -2 }, "selectionWeight": 1 },
+      { "id": "a_last_cookie_04", "text": { "en": "Buy a replacement box and become the office cookie supplier.", "fr": "Achètes une boîte de remplacement et deviens le fournisseur officiel de biscuits.", "es": "Compras una caja de reemplazo y te conviertes en el proveedor oficial de galletas." }, "effects": { "generosity": 3, "ambition": 4, "financialSense": 2 }, "selectionWeight": 1 },
+      { "id": "a_last_cookie_05", "text": { "en": "Hide it behind something until you forget about it.", "fr": "Le caches derrière quelque chose jusqu'à l'oublier.", "es": "La escondes detrás de algo hasta olvidarte de ella." }, "effects": { "chaos": 5, "discipline": -4, "humor": 2 }, "selectionWeight": 1 },
+      { "id": "a_last_cookie_06", "text": { "en": "Eat it while making direct eye contact with the security camera.", "fr": "Le manges en regardant directement la caméra de sécurité.", "es": "Te la comes mirando directamente a la cámara de seguridad." }, "effects": { "risk": 6, "chaos": 6, "humor": 5 }, "selectionWeight": 1 }
+    ]
+  },
+  {
+    "id": "q_deadline_tonight",
+    "category": "work",
+    "selectionWeight": 1,
+    "text": {
+      "en": "It is 22:47 and the thing you promised to finish tonight is still untouched. You...",
+      "fr": "Il est 22h47 et le truc que tu avais promis de finir ce soir n'est toujours pas commencé. Tu...",
+      "es": "Son las 22:47 y lo que prometiste terminar esta noche sigue sin tocar. Tú..."
+    },
+    "answers": [
+      { "id": "a_deadline_tonight_01", "text": { "en": "Start immediately and cancel everything else.", "fr": "Commences immédiatement et annules tout le reste.", "es": "Empiezas inmediatamente y cancelas todo lo demás." }, "effects": { "discipline": 7, "ambition": 5, "energy": -4 }, "selectionWeight": 1 },
+      { "id": "a_deadline_tonight_02", "text": { "en": "Make a tiny plan, then follow it without improvising.", "fr": "Fais un petit plan, puis suis-le sans improviser.", "es": "Haces un pequeño plan y lo sigues sin improvisar." }, "effects": { "discipline": 6, "professionalism": 5, "intelligence": 3 }, "selectionWeight": 1 },
+      { "id": "a_deadline_tonight_03", "text": { "en": "Decide that tomorrow-you is significantly more qualified.", "fr": "Décides que ton toi de demain sera nettement plus qualifié.", "es": "Decides que tu yo de mañana estará mucho más cualificado." }, "effects": { "humor": 5, "chaos": 5, "discipline": -5 }, "selectionWeight": 1 },
+      { "id": "a_deadline_tonight_04", "text": { "en": "Ask for help before wasting two hours pretending you do not need it.", "fr": "Demandes de l'aide avant de perdre deux heures à faire semblant de ne pas en avoir besoin.", "es": "Pides ayuda antes de perder dos horas fingiendo que no la necesitas." }, "effects": { "communication": 6, "empathy": 4, "professionalism": 4 }, "selectionWeight": 1 },
+      { "id": "a_deadline_tonight_05", "text": { "en": "Put on one extremely specific playlist and enter the zone.", "fr": "Lances une playlist extrêmement précise et entres dans ta zone.", "es": "Pones una lista de reproducción extremadamente específica y entras en modo concentración." }, "effects": { "energy": 4, "discipline": 4, "creativity": 3 }, "selectionWeight": 1 },
+      { "id": "a_deadline_tonight_06", "text": { "en": "Send a message saying the deadline has inspired a new approach.", "fr": "Envoies un message disant que le délai t'a inspiré une nouvelle approche.", "es": "Envías un mensaje diciendo que el plazo te ha inspirado un nuevo enfoque." }, "effects": { "communication": 4, "creativity": 5, "chaos": 4, "professionalism": -2 }, "selectionWeight": 1 }
+    ]
+  },
+  {
+    "id": "q_unplanned_guest",
+    "category": "social",
+    "selectionWeight": 1,
+    "text": {
+      "en": "A friend says they are five minutes away, but your place looks like a documentary about chaos. You...",
+      "fr": "Un ami dit qu'il arrive dans cinq minutes, mais chez toi ressemble à un documentaire sur le chaos. Tu...",
+      "es": "Un amigo dice que llega en cinco minutos, pero tu casa parece un documental sobre el caos. Tú..."
+    },
+    "answers": [
+      { "id": "a_unplanned_guest_01", "text": { "en": "Clean exactly the visible surfaces and declare victory.", "fr": "Nettoies uniquement les surfaces visibles et déclares la victoire.", "es": "Limpias solo las superficies visibles y declaras la victoria." }, "effects": { "discipline": 5, "chaos": 2, "professionalism": 3 }, "selectionWeight": 1 },
+      { "id": "a_unplanned_guest_02", "text": { "en": "Tell them the truth and let them enter the ecosystem.", "fr": "Leur dis la vérité et les laisses entrer dans l'écosystème.", "es": "Les dices la verdad y los dejas entrar en el ecosistema." }, "effects": { "honesty": 3, "empathy": 4, "social": 5 }, "selectionWeight": 1 },
+      { "id": "a_unplanned_guest_03", "text": { "en": "Move everything into one room and close the door.", "fr": "Déplaces tout dans une pièce et fermes la porte.", "es": "Metes todo en una habitación y cierras la puerta." }, "effects": { "creativity": 3, "chaos": 6, "discipline": 2 }, "selectionWeight": 1 },
+      { "id": "a_unplanned_guest_04", "text": { "en": "Suggest meeting somewhere else with suspicious urgency.", "fr": "Proposes de vous retrouver ailleurs avec une urgence suspecte.", "es": "Propones quedar en otro sitio con una urgencia sospechosa." }, "effects": { "communication": 4, "risk": 3, "humor": 4 }, "selectionWeight": 1 },
+      { "id": "a_unplanned_guest_05", "text": { "en": "Start cleaning so intensely that they help without being asked.", "fr": "Commences à nettoyer si intensément qu'ils finissent par aider sans qu'on leur demande.", "es": "Empiezas a limpiar con tanta intensidad que terminan ayudando sin que se lo pidas." }, "effects": { "ambition": 4, "social": 4, "discipline": 5 }, "selectionWeight": 1 },
+      { "id": "a_unplanned_guest_06", "text": { "en": "Turn the mess into a deliberate interior-design concept.", "fr": "Transformes le bazar en concept assumé de décoration intérieure.", "es": "Conviertes el desorden en un concepto deliberado de diseño interior." }, "effects": { "creativity": 7, "humor": 6, "chaos": 5 }, "selectionWeight": 1 }
+    ]
+  },
+  {
+    "id": "q_free_charger",
+    "category": "general",
+    "selectionWeight": 1,
+    "text": {
+      "en": "You find a phone charger in a meeting room with no owner in sight. You...",
+      "fr": "Tu trouves un chargeur de téléphone dans une salle de réunion sans propriétaire visible. Tu...",
+      "es": "Encuentras un cargador de teléfono en una sala de reuniones sin dueño a la vista. Tú..."
+    },
+    "answers": [
+      { "id": "a_free_charger_01", "text": { "en": "Leave it exactly where you found it.", "fr": "Le laisses exactement là où tu l'as trouvé.", "es": "Lo dejas exactamente donde lo encontraste." }, "effects": { "discipline": 4, "empathy": 3, "professionalism": 3 }, "selectionWeight": 1 },
+      { "id": "a_free_charger_02", "text": { "en": "Label it 'probably someone's' and put it somewhere safe.", "fr": "L'étiquettes « probablement à quelqu'un » et le mets en sécurité.", "es": "Lo etiquetas como « probablemente de alguien » y lo guardas en un lugar seguro." }, "effects": { "discipline": 5, "creativity": 3, "humor": 3 }, "selectionWeight": 1 },
+      { "id": "a_free_charger_03", "text": { "en": "Ask around until you find the owner.", "fr": "Demandes autour de toi jusqu'à retrouver le propriétaire.", "es": "Preguntas por ahí hasta encontrar al dueño." }, "effects": { "social": 5, "communication": 5, "empathy": 4 }, "selectionWeight": 1 },
+      { "id": "a_free_charger_04", "text": { "en": "Borrow it for five minutes and return it before anyone notices.", "fr": "L'empruntes cinq minutes et le rends avant que personne ne remarque.", "es": "Lo tomas prestado cinco minutos y lo devuelves antes de que nadie lo note." }, "effects": { "risk": 4, "discipline": -2, "chaos": 2 }, "selectionWeight": 1 },
+      { "id": "a_free_charger_05", "text": { "en": "Create a tiny lost-and-found operation around it.", "fr": "Crées une mini-opération objets trouvés autour de ce chargeur.", "es": "Creas una pequeña operación de objetos perdidos alrededor del cargador." }, "effects": { "ambition": 4, "organization": 3, "creativity": 4 }, "selectionWeight": 1 },
+      { "id": "a_free_charger_06", "text": { "en": "Assume it has chosen you and take it home.", "fr": "Considères qu'il t'a choisi et le ramènes chez toi.", "es": "Asumes que te ha elegido y te lo llevas a casa." }, "effects": { "chaos": 6, "risk": 5, "humor": 5 }, "selectionWeight": 1 }
+    ]
+  }
+]
