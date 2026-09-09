@@ -121,9 +121,9 @@ La répartition cible est :
 | `decisions.json` | 20 |
 | **Total** | **150** |
 
-Les 100 questions existantes sont reclassées dans ces huit fichiers sans perte d’ID. Cinquante nouvelles questions sont ajoutées pour atteindre la cible.
+Les 100 questions existantes sont rangées dans ces huit fichiers selon leur thème, sans perte d’ID. Cinquante nouvelles questions sont ajoutées pour atteindre la cible.
 
-La catégorie interne `question.category` doit correspondre à l’un des huit thèmes ci-dessus, afin que l’équilibrage de `selectQuestions` ait un sens stable.
+**Le fichier thématique et `question.category` sont deux notions distinctes.** Pendant la canonicalisation, le champ `question.category` de chaque question existante est conservé à l’identique afin de ne pas changer silencieusement l’équilibrage de `selectQuestions`. Le classement dans `questions/work.json`, `questions/social.json`, etc. sert uniquement à l’organisation du contenu. Les nouvelles questions reçoivent une catégorie choisie explicitement pour rester compatible avec l’équilibrage existant.
 
 ## 6. Migration des données existantes
 
@@ -136,13 +136,14 @@ Avant suppression des anciens fichiers, un validateur de migration doit comparer
 
 - l’ensemble des IDs questions avant/après ;
 - l’ensemble des IDs réponses avant/après ;
+- la valeur `question.category` de chaque question existante avant/après ;
 - l’ensemble des IDs de chaque groupe de résultats avant/après ;
 - l’ensemble des IDs de synergies avant/après ;
 - les traductions EN / FR / ES existantes ;
 - les profils (`idealProfile` / `lowProfile`) existants ;
 - les descriptions animales existantes.
 
-Aucun ID existant ne peut disparaître silencieusement.
+Aucun ID existant et aucune catégorie de question existante ne peuvent disparaître ou changer silencieusement.
 
 Les nouvelles entrées utilisent des IDs explicites, stables et descriptifs, sans suffixes artificiels du type `_2`, `_new` ou `_extra`.
 
@@ -221,6 +222,8 @@ Pipeline recommandé :
 
 Aucune entrée de résultat ne doit être acceptée sans baseline valide (`mean` fini, `std > 0`).
 
+Le générateur de baselines et le générateur de calibration doivent partager la même logique de sampling du jeu (questions, réponses affichées, seed) afin d’éviter deux modèles de simulation divergents.
+
 ## 11. Calibration d’apparition et rareté
 
 Après génération des baselines, `appearanceCalibration.json` est recalculé sur le corpus final.
@@ -231,7 +234,7 @@ La simulation doit reproduire le gameplay réel :
 
 - 20 questions parmi 150 ;
 - sélection pondérée si `selectionWeight` existe ;
-- 3 réponses affichées selon la logique actuelle ;
+- 3 réponses affichées selon la logique actuelle de `selectAnswers` ;
 - une réponse choisie par la simulation selon les pondérations définies par le simulateur ;
 - matching avec les baselines finales ;
 - calcul des 8 composants : métier, classe, pouvoir, faiblesse, capacité, style de travail, animal, alignement.
@@ -309,6 +312,7 @@ La CI finale doit au minimum valider :
 La refonte est terminée uniquement si :
 
 - les anciens IDs sont tous préservés ;
+- les catégories des questions existantes sont préservées ;
 - les fichiers `extra`, `expansion` et `more` visés ont disparu ;
 - les questions sont rangées dans les huit thèmes convenus ;
 - les volumes cibles sont atteints ;
