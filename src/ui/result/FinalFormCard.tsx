@@ -21,13 +21,14 @@ type VerdictKey = "chaos" | "discipline" | "humor" | "intelligence" | "empathy" 
 type CopyLabels = {
   ability: string; aura: string; fortune: string; synergies: string; derived: string; formId: string;
   details: string; hideDetails: string; share: string; copied: string; profile: string;
+  rarityBreakdown: string; appearance: string; synergyScore: string; extremityScore: string; behaviorMultiplier: string;
   normal: string; rare: string; epic: string; legendary: string;
 };
 
 const labels: Record<LocaleCode, CopyLabels> = {
-  en: { ability: "Special ability", aura: "Aura", fortune: "Fortune", synergies: "Activated synergies", derived: "Derived stats", formId: "Form ID", details: "See full analysis", hideDetails: "Hide full analysis", share: "Share my form", copied: "Result copied", profile: "Your suspiciously accurate summary", normal: "Uncommon specimen", rare: "Rare form detected", epic: "Statistically concerning", legendary: "This should not have happened" },
-  fr: { ability: "Capacité spéciale", aura: "Aura", fortune: "Fortune", synergies: "Synergies activées", derived: "Statistiques dérivées", formId: "ID de forme", details: "Voir l'analyse complète", hideDetails: "Masquer l'analyse", share: "Partager ma forme", copied: "Résultat copié", profile: "Ton résumé étrangement précis", normal: "Spécimen peu commun", rare: "Forme rare détectée", epic: "Statistiquement inquiétant", legendary: "Ceci n'aurait pas dû arriver" },
-  es: { ability: "Habilidad especial", aura: "Aura", fortune: "Fortuna", synergies: "Sinergias activadas", derived: "Estadísticas derivadas", formId: "ID de forma", details: "Ver análisis completo", hideDetails: "Ocultar análisis", share: "Compartir mi forma", copied: "Resultado copiado", profile: "Tu resumen sospechosamente preciso", normal: "Espécimen poco común", rare: "Forma rara detectada", epic: "Estadísticamente preocupante", legendary: "Esto no debería haber ocurrido" },
+  en: { ability: "Special ability", aura: "Aura", fortune: "Fortune", synergies: "Activated synergies", derived: "Derived stats", formId: "Form ID", details: "See full analysis", hideDetails: "Hide full analysis", share: "Share my form", copied: "Result copied", profile: "Your suspiciously accurate summary", rarityBreakdown: "Why this form is rare", appearance: "Estimated occurrence", synergyScore: "Synergy rarity", extremityScore: "Stat extremity", behaviorMultiplier: "Behavior multiplier", normal: "Uncommon specimen", rare: "Rare form detected", epic: "Statistically concerning", legendary: "This should not have happened" },
+  fr: { ability: "Capacité spéciale", aura: "Aura", fortune: "Fortune", synergies: "Synergies activées", derived: "Statistiques dérivées", formId: "ID de forme", details: "Voir l'analyse complète", hideDetails: "Masquer l'analyse", share: "Partager ma forme", copied: "Résultat copié", profile: "Ton résumé étrangement précis", rarityBreakdown: "Pourquoi cette forme est rare", appearance: "Occurrence estimée", synergyScore: "Rareté des synergies", extremityScore: "Extrémité des stats", behaviorMultiplier: "Multiplicateur comportemental", normal: "Spécimen peu commun", rare: "Forme rare détectée", epic: "Statistiquement inquiétant", legendary: "Ceci n'aurait pas dû arriver" },
+  es: { ability: "Habilidad especial", aura: "Aura", fortune: "Fortuna", synergies: "Sinergias activadas", derived: "Estadísticas derivadas", formId: "ID de forma", details: "Ver análisis completo", hideDetails: "Ocultar análisis", share: "Compartir mi forma", copied: "Resultado copiado", profile: "Tu resumen sospechosamente preciso", rarityBreakdown: "Por qué esta forma es rara", appearance: "Aparición estimada", synergyScore: "Rareza de sinergias", extremityScore: "Extremidad de estadísticas", behaviorMultiplier: "Multiplicador conductual", normal: "Espécimen poco común", rare: "Forma rara detectada", epic: "Estadísticamente preocupante", legendary: "Esto no debería haber ocurrido" },
 };
 
 const verdicts: Record<LocaleCode, Record<VerdictKey | "default", string>> = {
@@ -55,6 +56,7 @@ export function FinalFormCard({ result, locale, onTryAgain }: FinalFormCardProps
   const animalName = localizedLabel(animal, locale, "animal"); const animalDescription = localizedDescription(animal, locale);
   const lifeExpectancyUnit: Record<LocaleCode, string> = { en: "yrs", fr: "ans", es: "años" };
   const worthDisplay = result.worth < 0 ? `-$${Math.abs(result.worth).toLocaleString()}` : `$${result.worth.toLocaleString()}`;
+  const appearanceOneInX = Math.max(25, Math.round(result.rarity.appearanceOneInX));
   const shareText = `${className} — 1 / ${result.rarity.oneInX.toLocaleString()}\n${localizedLabel(career, locale, "career")} · ${localizedLabel(power, locale, "power")}\n${getVerdict(result, locale)}`;
   async function shareResult() { try { if (navigator.share) await navigator.share({ title: className, text: shareText }); else await navigator.clipboard.writeText(shareText); setShared(true); setTimeout(() => setShared(false), 1800); } catch { /* partage annulé */ } }
 
@@ -96,6 +98,15 @@ export function FinalFormCard({ result, locale, onTryAgain }: FinalFormCardProps
         <InfoCell label={t("threatLevel")} value={`${result.threatLevel} / 10`} mono />
         <InfoCell label={t("alignment")} value={localizedLabel(alignment, locale, "alignment")} />
       </div>
+      <section className="ff-rarity-breakdown">
+        <div className="ff-eyebrow">{copy.rarityBreakdown}</div>
+        <div className="ff-info-grid">
+          <InfoCell label={copy.appearance} value={`1 / ${appearanceOneInX.toLocaleString()}`} mono />
+          <InfoCell label={copy.behaviorMultiplier} value={`×${result.rarity.behavioralMultiplier.toFixed(3)}`} mono />
+          <InfoCell label={copy.synergyScore} value={result.rarity.synergyScore.toFixed(1)} mono />
+          <InfoCell label={copy.extremityScore} value={result.rarity.extremityScore.toFixed(1)} mono />
+        </div>
+      </section>
       <div className="ff-stats-panel">{STAT_KEYS.map((key) => <StatBar key={key} label={statLabel(key)} value={result.coreStats[key]} />)}</div>
       {Object.keys(result.derivedStats).length > 0 && <section><div className="ff-eyebrow">{copy.derived}</div><div className="ff-info-grid">{Object.entries(result.derivedStats).map(([key, value]) => <InfoCell key={key} label={key} value={Number.isFinite(value) ? value.toFixed(1) : String(value)} mono />)}</div></section>}
       {result.formId && <div className="ff-mono ff-form-id">{copy.formId}: {result.formId}</div>}
