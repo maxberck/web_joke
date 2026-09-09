@@ -1,0 +1,7 @@
+[
+  {"id":"syn_cable_tamer","conditions":[{"stat":"intelligence","op":">","value":70},{"stat":"creativity","op":">","value":65},{"stat":"discipline","op":">","value":55}],"weight":4,"rarityScore":17,"tags":["cable_tamer"]},
+  {"id":"syn_socially_armed","conditions":[{"stat":"social","op":">","value":82},{"stat":"communication","op":">","value":78},{"stat":"humor","op":">","value":70}],"weight":4,"rarityScore":19,"tags":["socially_armed"]},
+  {"id":"syn_professional_chaos","conditions":[{"stat":"professionalism","op":">","value":75},{"stat":"chaos","op":">","value":75},{"stat":"emotionalControl","op":">","value":65}],"weight":5,"rarityScore":23,"tags":["professional_chaos"]},
+  {"id":"syn_lucky_mess","conditions":[{"stat":"luck","op":">","value":85},{"stat":"chaos","op":">","value":75},{"stat":"discipline","op":"<","value":35}],"weight":5,"rarityScore":24,"tags":["lucky_mess"]},
+  {"id":"syn_unreasonably_balanced","conditions":[{"stat":"intelligence","op":">","value":70},{"stat":"creativity","op":">","value":70},{"stat":"empathy","op":">","value":70},{"stat":"emotionalControl","op":">","value":70},{"stat":"discipline","op":">","value":70}],"weight":8,"rarityScore":38,"tags":["unreasonably_balanced","ultra_rare"]}
+]
