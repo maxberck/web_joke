@@ -96,7 +96,7 @@ export function assertAppearanceCalibrationCoversContent(pack: ContentPack, cali
   for (const [groupName, entries] of Object.entries(groups) as Array<[keyof AppearanceCalibration, Array<{ id: string }>]>) {
     let sum = 0;
     for (const entry of entries) {
-      const probability = calibration[groupName][entry.id];
+      const probability = calibration[groupName][entry.id] ?? Number.NaN;
       if (!Number.isFinite(probability) || probability <= 0 || probability > 1) throw new Error(`Calibration d'apparition manquante/invalide pour ${groupName}.${entry.id}`);
       sum += probability;
     }
