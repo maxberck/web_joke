@@ -201,604 +201,604 @@
       "std": 6.0694652243
     },
     "career_data_analyst": {
-      "mean": 30.2636724332,
-      "std": 5.225567356
+      "mean": 15.1152988938,
+      "std": 5.5195935253
     },
     "career_data_coordinator": {
-      "mean": 19.1850731751,
-      "std": 3.9407504275
+      "mean": 14.7695537977,
+      "std": 4.7873986272
     },
     "career_data_specialist": {
-      "mean": 27.5548931383,
-      "std": 5.202048392
+      "mean": 17.9510781011,
+      "std": 4.2430572714
     },
     "career_data_consultant": {
-      "mean": 21.8282003378,
-      "std": 3.4825900342
+      "mean": 13.0741746694,
+      "std": 4.507579363
     },
     "career_data_designer": {
-      "mean": 24.0443829512,
-      "std": 4.5405122869
+      "mean": 16.8074568924,
+      "std": 4.1883162261
     },
     "career_data_manager": {
-      "mean": 29.8381025243,
-      "std": 4.2828710481
+      "mean": 19.143792465,
+      "std": 3.5988328741
     },
     "career_data_researcher": {
-      "mean": 17.7406408265,
-      "std": 4.1469759744
+      "mean": 15.3864632359,
+      "std": 4.7687277225
     },
     "career_data_strategist": {
-      "mean": 17.4530374814,
-      "std": 3.6055317694
+      "mean": 18.3499341448,
+      "std": 4.3493301646
     },
     "career_data_technician": {
-      "mean": 21.8844010246,
-      "std": 3.790879642
+      "mean": 16.6497041001,
+      "std": 4.9861882614
     },
     "career_data_advisor": {
-      "mean": 25.5791982854,
-      "std": 3.4075399352
+      "mean": 13.4176910725,
+      "std": 4.6141739546
     },
     "career_data_producer": {
-      "mean": 18.6072559892,
-      "std": 3.6471401426
+      "mean": 16.0151301384,
+      "std": 4.1303107207
     },
     "career_data_facilitator": {
-      "mean": 14.7198155777,
-      "std": 5.1134355077
+      "mean": 16.0138856612,
+      "std": 4.3485586151
     },
     "career_security_analyst": {
-      "mean": 20.5186624687,
-      "std": 3.7003131166
+      "mean": 14.2332589413,
+      "std": 4.8850756299
     },
     "career_security_coordinator": {
-      "mean": 18.8226264698,
-      "std": 3.5836749453
+      "mean": 14.9116920574,
+      "std": 4.3050439392
     },
     "career_security_specialist": {
-      "mean": 21.6829522883,
-      "std": 4.6493698564
+      "mean": 17.5676736882,
+      "std": 4.5408947561
     },
     "career_security_consultant": {
-      "mean": 20.4846940511,
-      "std": 4.0226586937
+      "mean": 14.9200886826,
+      "std": 4.3286183749
     },
     "career_security_designer": {
-      "mean": 20.2967841466,
-      "std": 2.7516425351
+      "mean": 16.7347237631,
+      "std": 4.3594453669
     },
     "career_security_manager": {
-      "mean": 15.6957658193,
-      "std": 4.2699842325
+      "mean": 18.696180364,
+      "std": 3.6984226094
     },
     "career_security_researcher": {
-      "mean": 26.6452398304,
-      "std": 3.6102591384
+      "mean": 15.4644315753,
+      "std": 4.8872957813
     },
     "career_security_strategist": {
-      "mean": 32.8495200869,
-      "std": 4.2373006418
+      "mean": 18.6416550342,
+      "std": 4.6766656481
     },
     "career_security_technician": {
-      "mean": 22.1541905227,
-      "std": 3.8913278302
+      "mean": 16.7925564361,
+      "std": 5.1300015925
     },
     "career_security_advisor": {
-      "mean": 16.7155433196,
-      "std": 4.6717047065
+      "mean": 15.1631775203,
+      "std": 4.4127667988
     },
     "career_security_producer": {
-      "mean": 26.1133912174,
-      "std": 2.8931791841
+      "mean": 14.8085919836,
+      "std": 3.9341288909
     },
     "career_security_facilitator": {
-      "mean": 21.3151129513,
-      "std": 4.2299952567
+      "mean": 16.8059875608,
+      "std": 4.3721232951
     },
     "career_automation_analyst": {
-      "mean": 26.2390064621,
-      "std": 3.5512213694
+      "mean": 13.9014575928,
+      "std": 4.4362756673
     },
     "career_automation_coordinator": {
-      "mean": 16.9729303595,
-      "std": 3.9546957334
+      "mean": 14.6504903144,
+      "std": 3.7853292522
     },
     "career_automation_specialist": {
-      "mean": 15.4212897853,
-      "std": 3.7588510687
+      "mean": 18.1047133948,
+      "std": 4.0177099064
     },
     "career_automation_consultant": {
-      "mean": 21.2190089987,
-      "std": 3.3539261241
+      "mean": 14.2003290873,
+      "std": 3.5185198327
     },
     "career_automation_designer": {
-      "mean": 29.2285713068,
-      "std": 4.1044560375
+      "mean": 14.1431215216,
+      "std": 3.9083093051
     },
     "career_automation_manager": {
-      "mean": 19.8038123546,
-      "std": 5.0299982992
+      "mean": 18.1064376036,
+      "std": 2.9894643848
     },
     "career_automation_researcher": {
-      "mean": 26.3879639904,
-      "std": 3.2813431867
+      "mean": 16.2083807011,
+      "std": 5.3260499793
     },
     "career_automation_strategist": {
-      "mean": 22.9316421355,
-      "std": 3.9240173678
+      "mean": 18.3185208016,
+      "std": 4.0519673792
     },
     "career_automation_technician": {
-      "mean": 29.04307107,
-      "std": 3.3940000227
+      "mean": 16.7658138699,
+      "std": 4.6540418219
     },
     "career_automation_advisor": {
-      "mean": 21.7893944401,
-      "std": 4.2367011459
+      "mean": 14.4843299679,
+      "std": 3.727155669
     },
     "career_automation_producer": {
-      "mean": 22.2983263209,
-      "std": 4.5599864715
+      "mean": 14.5500671535,
+      "std": 3.4520854318
     },
     "career_automation_facilitator": {
-      "mean": 22.1655717244,
-      "std": 3.4857749204
+      "mean": 16.1470902398,
+      "std": 3.7924460165
     },
     "career_research_analyst": {
-      "mean": 28.1506215596,
-      "std": 3.4375178748
+      "mean": 14.2319295024,
+      "std": 4.6460679761
     },
     "career_research_coordinator": {
-      "mean": 18.6632380073,
-      "std": 4.70037237
+      "mean": 15.6888722143,
+      "std": 4.0742538758
     },
     "career_research_specialist": {
-      "mean": 32.8480528927,
-      "std": 3.1722133953
+      "mean": 18.2456537819,
+      "std": 4.2686599853
     },
     "career_research_consultant": {
-      "mean": 21.9885793879,
-      "std": 3.9635202998
+      "mean": 14.3948698761,
+      "std": 3.8950791072
     },
     "career_research_designer": {
-      "mean": 15.3585300279,
-      "std": 3.5956244772
+      "mean": 14.9073730038,
+      "std": 4.154695431
     },
     "career_research_manager": {
-      "mean": 22.5877469712,
-      "std": 4.6339569229
+      "mean": 18.88346797,
+      "std": 3.2404532747
     },
     "career_research_researcher": {
-      "mean": 31.3810502153,
-      "std": 3.3532214438
+      "mean": 17.1445400524,
+      "std": 5.5781490114
     },
     "career_research_strategist": {
-      "mean": 24.6561812544,
-      "std": 4.2469321418
+      "mean": 18.6101603038,
+      "std": 4.336262154
     },
     "career_research_technician": {
-      "mean": 11.5209896995,
-      "std": 3.6994544207
+      "mean": 16.9237745613,
+      "std": 5.0041157658
     },
     "career_research_advisor": {
-      "mean": 19.8772054484,
-      "std": 3.8005552527
+      "mean": 14.5917773727,
+      "std": 4.0892699968
     },
     "career_research_producer": {
-      "mean": 27.570027051,
-      "std": 3.7229564962
+      "mean": 15.6099958579,
+      "std": 3.595003382
     },
     "career_research_facilitator": {
-      "mean": 19.2594378025,
-      "std": 3.8437376165
+      "mean": 17.0120326204,
+      "std": 4.0009793954
     },
     "career_operations_analyst": {
-      "mean": 29.5201445874,
-      "std": 3.3604915622
+      "mean": 17.3384728584,
+      "std": 4.8855377329
     },
     "career_operations_coordinator": {
-      "mean": 19.5269807541,
-      "std": 4.7318748182
+      "mean": 15.9392876926,
+      "std": 4.859884037
     },
     "career_operations_specialist": {
-      "mean": 25.4760143958,
-      "std": 6.0315045531
+      "mean": 16.9390092925,
+      "std": 4.6876800435
     },
     "career_operations_consultant": {
-      "mean": 24.797217725,
-      "std": 4.2015457195
+      "mean": 15.7786152428,
+      "std": 4.5718697511
     },
     "career_operations_designer": {
-      "mean": 28.1626892483,
-      "std": 3.8346756883
+      "mean": 17.9985142626,
+      "std": 4.3089808934
     },
     "career_operations_manager": {
-      "mean": 18.5583954436,
-      "std": 4.3785608623
+      "mean": 20.0882009035,
+      "std": 4.4908818133
     },
     "career_operations_researcher": {
-      "mean": 12.8361420676,
-      "std": 2.6665883611
+      "mean": 17.8495555306,
+      "std": 4.3904399961
     },
     "career_operations_strategist": {
-      "mean": 13.4588800198,
-      "std": 4.1076001038
+      "mean": 19.5367863468,
+      "std": 4.4235418585
     },
     "career_operations_technician": {
-      "mean": 24.4108186207,
-      "std": 3.4042469943
+      "mean": 16.3814721963,
+      "std": 5.3669440729
     },
     "career_operations_advisor": {
-      "mean": 26.1580276335,
-      "std": 4.7819358343
+      "mean": 15.9897473197,
+      "std": 4.5582716738
     },
     "career_operations_producer": {
-      "mean": 16.1420689872,
-      "std": 3.9439048519
+      "mean": 16.8853289631,
+      "std": 4.2485274869
     },
     "career_operations_facilitator": {
-      "mean": 22.1922833371,
-      "std": 4.0358592998
+      "mean": 17.4330915626,
+      "std": 4.6822053104
     },
     "career_product_analyst": {
-      "mean": 18.1322947782,
-      "std": 2.5533427911
+      "mean": 14.5835812396,
+      "std": 3.6427793733
     },
     "career_product_coordinator": {
-      "mean": 27.1427056416,
-      "std": 3.7302096169
+      "mean": 14.0544806001,
+      "std": 3.564844325
     },
     "career_product_specialist": {
-      "mean": 28.9679571303,
-      "std": 4.1354060298
+      "mean": 16.8464503039,
+      "std": 3.1417212093
     },
     "career_product_consultant": {
-      "mean": 22.249712123,
-      "std": 5.6425420198
+      "mean": 13.1075115014,
+      "std": 2.8389949348
     },
     "career_product_designer": {
-      "mean": 27.7307505547,
-      "std": 3.1889486783
+      "mean": 13.773067697,
+      "std": 3.7609235852
     },
     "career_product_manager": {
-      "mean": 24.5796373772,
-      "std": 4.7110893719
+      "mean": 16.0697235054,
+      "std": 3.0722048208
     },
     "career_product_researcher": {
-      "mean": 18.3751638463,
-      "std": 3.2764269597
+      "mean": 16.4411381757,
+      "std": 3.687506676
     },
     "career_product_strategist": {
-      "mean": 28.8453079226,
-      "std": 3.6843720657
+      "mean": 16.0440151492,
+      "std": 3.3757198578
     },
     "career_product_technician": {
-      "mean": 23.9470196963,
-      "std": 5.0678069877
+      "mean": 16.5699664996,
+      "std": 3.9749402767
     },
     "career_product_advisor": {
-      "mean": 18.709015717,
-      "std": 4.2749558559
+      "mean": 13.0403964077,
+      "std": 2.8377197766
     },
     "career_product_producer": {
-      "mean": 25.0350827486,
-      "std": 3.9672326759
+      "mean": 14.3905812968,
+      "std": 3.2492306688
     },
     "career_product_facilitator": {
-      "mean": 24.6199092659,
-      "std": 3.5734000252
+      "mean": 14.0004379966,
+      "std": 3.1814380246
     },
     "career_community_analyst": {
-      "mean": 29.4383165208,
-      "std": 4.0712332802
+      "mean": 15.29153561,
+      "std": 4.2980128768
     },
     "career_community_coordinator": {
-      "mean": 24.1395675177,
-      "std": 3.565383578
+      "mean": 14.6501917728,
+      "std": 5.2049141223
     },
     "career_community_specialist": {
-      "mean": 24.820146157,
-      "std": 4.4677453012
+      "mean": 17.2475237888,
+      "std": 3.5798309767
     },
     "career_community_consultant": {
-      "mean": 20.4583571352,
-      "std": 4.18668803
+      "mean": 13.4416069698,
+      "std": 4.3997292041
     },
     "career_community_designer": {
-      "mean": 19.376326296,
-      "std": 2.8217652759
+      "mean": 15.6848436746,
+      "std": 4.0402944079
     },
     "career_community_manager": {
-      "mean": 23.0969579575,
-      "std": 3.4075557869
+      "mean": 18.5582908112,
+      "std": 3.1375191102
     },
     "career_community_researcher": {
-      "mean": 28.5186120551,
-      "std": 3.9259877465
+      "mean": 16.6558464842,
+      "std": 3.8860246905
     },
     "career_community_strategist": {
-      "mean": 24.0671231839,
-      "std": 3.5918785686
+      "mean": 18.2313983054,
+      "std": 3.3556662276
     },
     "career_community_technician": {
-      "mean": 22.283253377,
-      "std": 4.7945582629
+      "mean": 16.974623091,
+      "std": 4.3410917502
     },
     "career_community_advisor": {
-      "mean": 22.7694540591,
-      "std": 3.3397123402
+      "mean": 13.4677027212,
+      "std": 4.6495417423
     },
     "career_community_producer": {
-      "mean": 30.5065452368,
-      "std": 4.0265056457
+      "mean": 15.0881113912,
+      "std": 3.9859310889
     },
     "career_community_facilitator": {
-      "mean": 32.47057153,
-      "std": 3.1809408218
+      "mean": 14.9803488542,
+      "std": 6.0393417032
     },
     "career_experience_analyst": {
-      "mean": 26.6937605393,
-      "std": 4.4447075196
+      "mean": 14.0769669064,
+      "std": 3.9966069004
     },
     "career_experience_coordinator": {
-      "mean": 25.6704198349,
-      "std": 3.3712587414
+      "mean": 13.1345742391,
+      "std": 4.0447313331
     },
     "career_experience_specialist": {
-      "mean": 13.8330585192,
-      "std": 4.5909216944
+      "mean": 15.987129921,
+      "std": 3.2908079386
     },
     "career_experience_consultant": {
-      "mean": 28.6429375653,
-      "std": 6.7006930707
+      "mean": 11.8919345566,
+      "std": 3.1960970732
     },
     "career_experience_designer": {
-      "mean": 18.7077141013,
-      "std": 4.7289829531
+      "mean": 12.5672683112,
+      "std": 4.3686566044
     },
     "career_experience_manager": {
-      "mean": 23.350307567,
-      "std": 2.8389052805
+      "mean": 17.3078073732,
+      "std": 2.8502413811
     },
     "career_experience_researcher": {
-      "mean": 25.8021421622,
-      "std": 4.1435857869
+      "mean": 15.8378239434,
+      "std": 4.1537343123
     },
     "career_experience_strategist": {
-      "mean": 29.0695235863,
-      "std": 5.6391008562
+      "mean": 17.0227665951,
+      "std": 3.1615298165
     },
     "career_experience_technician": {
-      "mean": 31.5555630287,
-      "std": 4.254480612
+      "mean": 15.6779512445,
+      "std": 4.1605558251
     },
     "career_experience_advisor": {
-      "mean": 16.6856422743,
-      "std": 2.3209097123
+      "mean": 11.9604266391,
+      "std": 3.5254247418
     },
     "career_experience_producer": {
-      "mean": 29.14669933,
-      "std": 4.5108289887
+      "mean": 13.7737721175,
+      "std": 3.4715762492
     },
     "career_experience_facilitator": {
-      "mean": 23.5255541312,
-      "std": 2.6877573343
+      "mean": 13.3846031686,
+      "std": 4.4010621467
     },
     "career_systems_analyst": {
-      "mean": 26.5335047687,
-      "std": 6.3882862612
+      "mean": 15.6867835714,
+      "std": 4.795855626
     },
     "career_systems_coordinator": {
-      "mean": 21.8880697007,
-      "std": 3.9089753276
+      "mean": 16.5266365097,
+      "std": 4.2692333827
     },
     "career_systems_specialist": {
-      "mean": 32.0178767384,
-      "std": 4.7523821218
+      "mean": 18.3263359925,
+      "std": 5.3519905104
     },
     "career_systems_consultant": {
-      "mean": 14.9833965378,
-      "std": 3.3584869893
+      "mean": 15.8473068188,
+      "std": 4.2181197932
     },
     "career_systems_designer": {
-      "mean": 24.9364826003,
-      "std": 4.0300279807
+      "mean": 17.0811007832,
+      "std": 3.9587088845
     },
     "career_systems_manager": {
-      "mean": 25.1344375272,
-      "std": 3.5598076062
+      "mean": 19.8524799388,
+      "std": 3.842058339
     },
     "career_systems_researcher": {
-      "mean": 30.692696492,
-      "std": 5.8439705722
+      "mean": 17.1321456368,
+      "std": 4.8780985926
     },
     "career_systems_strategist": {
-      "mean": 17.0908620314,
-      "std": 5.0120875583
+      "mean": 19.7092219335,
+      "std": 4.6511885337
     },
     "career_systems_technician": {
-      "mean": 23.3669670761,
-      "std": 4.7143288313
+      "mean": 17.8459519456,
+      "std": 6.2485490974
     },
     "career_systems_advisor": {
-      "mean": 28.1081798243,
-      "std": 3.4626926372
+      "mean": 16.0706831453,
+      "std": 4.3267756174
     },
     "career_systems_producer": {
-      "mean": 30.6971879516,
-      "std": 5.7042336788
+      "mean": 16.4334161737,
+      "std": 3.7887550542
     },
     "career_systems_facilitator": {
-      "mean": 24.9102903193,
-      "std": 3.1000155175
+      "mean": 17.8469016916,
+      "std": 4.112427508
     },
     "career_content_analyst": {
-      "mean": 19.9394140661,
-      "std": 3.8500865837
+      "mean": 15.721029066,
+      "std": 4.1329850116
     },
     "career_content_coordinator": {
-      "mean": 27.936725338,
-      "std": 5.0796004493
+      "mean": 15.3624210305,
+      "std": 3.9713181792
     },
     "career_content_specialist": {
-      "mean": 21.0194041039,
-      "std": 4.0281039107
+      "mean": 17.7246380772,
+      "std": 3.4773253657
     },
     "career_content_consultant": {
-      "mean": 34.1768316236,
-      "std": 4.2565091537
+      "mean": 14.3137019907,
+      "std": 3.3540326955
     },
     "career_content_designer": {
-      "mean": 25.2748823626,
-      "std": 3.4652592334
+      "mean": 14.0161618106,
+      "std": 4.0142306984
     },
     "career_content_manager": {
-      "mean": 17.0106120618,
-      "std": 3.9252389246
+      "mean": 18.9375589099,
+      "std": 3.2173576945
     },
     "career_content_researcher": {
-      "mean": 24.7507018982,
-      "std": 3.1847169753
+      "mean": 17.1335236029,
+      "std": 4.201884452
     },
     "career_content_strategist": {
-      "mean": 26.3690379497,
-      "std": 3.128893991
+      "mean": 18.6790470292,
+      "std": 3.2710704795
     },
     "career_content_technician": {
-      "mean": 19.8369565419,
-      "std": 3.9692272745
+      "mean": 17.4860150155,
+      "std": 4.1454198273
     },
     "career_content_advisor": {
-      "mean": 24.1854001692,
-      "std": 4.6231578661
+      "mean": 14.4949483238,
+      "std": 3.5512309259
     },
     "career_content_producer": {
-      "mean": 21.07339213,
-      "std": 3.6418608985
+      "mean": 15.5997021881,
+      "std": 3.6491625946
     },
     "career_content_facilitator": {
-      "mean": 29.7806419805,
-      "std": 4.4178199636
+      "mean": 16.0473465895,
+      "std": 4.1210803723
     },
     "career_logistics_analyst": {
-      "mean": 24.2244614639,
-      "std": 3.4648588407
+      "mean": 15.9538704995,
+      "std": 4.6318911998
     },
     "career_logistics_coordinator": {
-      "mean": 26.5117207445,
-      "std": 3.2278738876
+      "mean": 15.8350672334,
+      "std": 4.471371346
     },
     "career_logistics_specialist": {
-      "mean": 27.5818701682,
-      "std": 3.9653988479
+      "mean": 17.1745259326,
+      "std": 5.0525027453
     },
     "career_logistics_consultant": {
-      "mean": 17.9696674605,
-      "std": 3.2150015072
+      "mean": 16.3681146049,
+      "std": 4.3956775301
     },
     "career_logistics_designer": {
-      "mean": 26.1742147729,
-      "std": 4.1240782029
+      "mean": 17.2265460343,
+      "std": 4.2218777492
     },
     "career_logistics_manager": {
-      "mean": 17.1313332431,
-      "std": 4.571404742
+      "mean": 19.6561182332,
+      "std": 4.2825576473
     },
     "career_logistics_researcher": {
-      "mean": 16.5390174092,
-      "std": 3.2217976044
+      "mean": 17.8845962292,
+      "std": 4.6817528469
     },
     "career_logistics_strategist": {
-      "mean": 24.8648394378,
-      "std": 3.7526323734
+      "mean": 19.9131086551,
+      "std": 4.7743799274
     },
     "career_logistics_technician": {
-      "mean": 23.5264719388,
-      "std": 3.0245558537
+      "mean": 16.82561439,
+      "std": 5.7134197641
     },
     "career_logistics_advisor": {
-      "mean": 34.0227058432,
-      "std": 3.4853690059
+      "mean": 16.5315484575,
+      "std": 4.4080648358
     },
     "career_logistics_producer": {
-      "mean": 19.6032600421,
-      "std": 3.8380623219
+      "mean": 15.6927004937,
+      "std": 3.9921712405
     },
     "career_logistics_facilitator": {
-      "mean": 27.41990781,
-      "std": 3.3816256978
+      "mean": 17.9485233304,
+      "std": 4.5185429353
     },
     "career_sustainability_analyst": {
-      "mean": 27.2766501174,
-      "std": 3.4148047833
+      "mean": 13.3790534045,
+      "std": 4.0018363285
     },
     "career_sustainability_coordinator": {
-      "mean": 21.1581705673,
-      "std": 3.2127477716
+      "mean": 13.912741056,
+      "std": 3.8513715708
     },
     "career_sustainability_specialist": {
-      "mean": 18.8717507581,
-      "std": 3.0231016069
+      "mean": 15.3018949701,
+      "std": 4.1889533684
     },
     "career_sustainability_consultant": {
-      "mean": 20.1102928849,
-      "std": 3.2435371767
+      "mean": 13.4908686953,
+      "std": 3.1776535127
     },
     "career_sustainability_designer": {
-      "mean": 26.7244831459,
-      "std": 4.0384832863
+      "mean": 14.7494230178,
+      "std": 3.3770739766
     },
     "career_sustainability_manager": {
-      "mean": 24.5497497615,
-      "std": 3.3254884323
+      "mean": 16.9130616685,
+      "std": 2.8243663
     },
     "career_sustainability_researcher": {
-      "mean": 32.6785015474,
-      "std": 4.5743618809
+      "mean": 14.5651008329,
+      "std": 4.1656329324
     },
     "career_sustainability_strategist": {
-      "mean": 24.5974995941,
-      "std": 3.2275543456
+      "mean": 17.6588371391,
+      "std": 3.4385762888
     },
     "career_sustainability_technician": {
-      "mean": 30.1076125044,
-      "std": 4.7349385021
+      "mean": 16.1678929999,
+      "std": 5.5483471361
     },
     "career_sustainability_advisor": {
-      "mean": 17.2405035182,
-      "std": 3.2914786607
+      "mean": 14.2338210375,
+      "std": 3.5969304514
     },
     "career_sustainability_producer": {
-      "mean": 30.1071772953,
-      "std": 3.1551057001
+      "mean": 13.7083308087,
+      "std": 3.3334741296
     },
     "career_sustainability_facilitator": {
-      "mean": 20.3550009838,
-      "std": 4.0769618935
+      "mean": 14.9482472728,
+      "std": 3.6770634305
     },
     "career_quality_analyst": {
-      "mean": 23.8554575235,
-      "std": 3.8494743813
+      "mean": 18.6477548326,
+      "std": 5.0112712662
     },
     "career_quality_coordinator": {
-      "mean": 21.7378039938,
-      "std": 3.9567580408
+      "mean": 18.1583828497,
+      "std": 4.4370738423
     },
     "career_quality_specialist": {
-      "mean": 28.4254193283,
-      "std": 3.550631307
+      "mean": 19.9975221969,
+      "std": 5.7631373967
     },
     "career_quality_consultant": {
-      "mean": 24.3588785076,
-      "std": 3.2996451101
+      "mean": 19.587109399,
+      "std": 4.7934168805
     },
     "career_quality_designer": {
-      "mean": 18.3280880671,
-      "std": 3.9796764278
+      "mean": 19.2517914342,
+      "std": 4.2528609867
     },
     "career_quality_manager": {
-      "mean": 24.9446060854,
-      "std": 5.1802059719
+      "mean": 20.8360715883,
+      "std": 4.4304397939
     }
   },
   "classes": {
@@ -923,484 +923,484 @@
       "std": 4.67168065
     },
     "class_chaotic_tactician": {
-      "mean": 25.6427245339,
-      "std": 3.5921333229
+      "mean": 16.1692329174,
+      "std": 3.9735906764
     },
     "class_chaotic_explorer": {
-      "mean": 26.3050739842,
-      "std": 4.6489148578
+      "mean": 20.0232655994,
+      "std": 6.1875771297
     },
     "class_chaotic_fixer": {
-      "mean": 20.3656024847,
-      "std": 4.8895281403
+      "mean": 19.5157813558,
+      "std": 4.5217321246
     },
     "class_chaotic_analyst": {
-      "mean": 16.180044542,
-      "std": 3.2579628531
+      "mean": 16.033733555,
+      "std": 3.605184455
     },
     "class_chaotic_catalyst": {
-      "mean": 30.3047529113,
-      "std": 3.2968258951
+      "mean": 17.6522438028,
+      "std": 2.8406915928
     },
     "class_chaotic_guardian": {
-      "mean": 29.7461773261,
-      "std": 4.3833823868
+      "mean": 16.2838654147,
+      "std": 3.8770066405
     },
     "class_chaotic_broker": {
-      "mean": 22.34544752,
-      "std": 3.2428148985
+      "mean": 16.11993163,
+      "std": 3.0632701879
     },
     "class_chaotic_builder": {
-      "mean": 23.2729573893,
-      "std": 3.7593790738
+      "mean": 15.8128101276,
+      "std": 3.6202717947
     },
     "class_chaotic_scout": {
-      "mean": 25.7326759897,
-      "std": 4.898907675
+      "mean": 19.0751396714,
+      "std": 5.3301153691
     },
     "class_chaotic_operator": {
-      "mean": 28.924886627,
-      "std": 4.5225037624
+      "mean": 17.5217502723,
+      "std": 3.1788704587
     },
     "class_methodical_tactician": {
-      "mean": 28.6784700017,
-      "std": 4.8064791373
+      "mean": 28.2512175857,
+      "std": 5.9425127897
     },
     "class_methodical_explorer": {
-      "mean": 23.9477118462,
-      "std": 3.4884027861
+      "mean": 19.2323524159,
+      "std": 4.3436498342
     },
     "class_methodical_fixer": {
-      "mean": 19.1518232315,
-      "std": 3.7612976809
+      "mean": 28.2627003136,
+      "std": 5.6871962321
     },
     "class_methodical_analyst": {
-      "mean": 25.726789001,
-      "std": 4.6929149822
+      "mean": 28.012632223,
+      "std": 5.3983015175
     },
     "class_methodical_catalyst": {
-      "mean": 18.5629614722,
-      "std": 4.0267250607
+      "mean": 21.6494111827,
+      "std": 3.7572825432
     },
     "class_methodical_guardian": {
-      "mean": 20.3165322872,
-      "std": 3.3275425101
+      "mean": 29.6288130371,
+      "std": 5.8544514699
     },
     "class_methodical_broker": {
-      "mean": 31.2045059931,
-      "std": 4.3088040559
+      "mean": 20.3200063953,
+      "std": 4.4131730944
     },
     "class_methodical_builder": {
-      "mean": 28.4509099907,
-      "std": 4.0798979602
+      "mean": 29.2921437902,
+      "std": 6.0332316525
     },
     "class_methodical_scout": {
-      "mean": 17.1396621004,
-      "std": 3.2938695206
+      "mean": 18.6362349219,
+      "std": 4.5317117373
     },
     "class_methodical_operator": {
-      "mean": 32.0913237516,
-      "std": 4.2538848758
+      "mean": 32.0866455994,
+      "std": 6.5727744656
     },
     "class_relentless_tactician": {
-      "mean": 30.2953558419,
-      "std": 4.2898183038
+      "mean": 23.3255888624,
+      "std": 3.8741688425
     },
     "class_relentless_explorer": {
-      "mean": 21.5356264725,
-      "std": 3.807848794
+      "mean": 22.0166582839,
+      "std": 3.7715156118
     },
     "class_relentless_fixer": {
-      "mean": 27.5387521083,
-      "std": 5.1230214702
+      "mean": 20.7429267033,
+      "std": 3.2012125486
     },
     "class_relentless_analyst": {
-      "mean": 28.997774317,
-      "std": 3.5474354108
+      "mean": 22.9268783542,
+      "std": 3.5122489851
     },
     "class_relentless_catalyst": {
-      "mean": 21.0732884943,
-      "std": 3.6934101725
+      "mean": 21.6395044305,
+      "std": 3.5760457215
     },
     "class_relentless_guardian": {
-      "mean": 25.2650283421,
-      "std": 3.9777845014
+      "mean": 22.8288792913,
+      "std": 3.124243637
     },
     "class_relentless_broker": {
-      "mean": 26.0484275536,
-      "std": 4.4802331024
+      "mean": 22.3667497582,
+      "std": 2.7232086325
     },
     "class_relentless_builder": {
-      "mean": 29.1592006635,
-      "std": 5.409682061
+      "mean": 23.0529066908,
+      "std": 3.5610943689
     },
     "class_relentless_scout": {
-      "mean": 17.9493502211,
-      "std": 3.5083144063
+      "mean": 21.2507655598,
+      "std": 3.6248822218
     },
     "class_relentless_operator": {
-      "mean": 10.8499719974,
-      "std": 2.8802999244
+      "mean": 23.9385634629,
+      "std": 3.4306855484
     },
     "class_diplomatic_tactician": {
-      "mean": 16.1367584469,
-      "std": 3.7023573786
+      "mean": 18.558361253,
+      "std": 4.9558340304
     },
     "class_diplomatic_explorer": {
-      "mean": 29.7314647419,
-      "std": 4.38773339
+      "mean": 16.8884160246,
+      "std": 3.4299252928
     },
     "class_diplomatic_fixer": {
-      "mean": 31.1660650869,
-      "std": 3.4056933211
+      "mean": 16.454004689,
+      "std": 3.6588464976
     },
     "class_diplomatic_analyst": {
-      "mean": 14.2755563777,
-      "std": 4.0718628136
+      "mean": 17.4181949244,
+      "std": 4.6107788471
     },
     "class_diplomatic_catalyst": {
-      "mean": 22.2620431093,
-      "std": 3.5024215335
+      "mean": 19.5655132387,
+      "std": 2.8700484966
     },
     "class_diplomatic_guardian": {
-      "mean": 18.8270978016,
-      "std": 5.3209696833
+      "mean": 17.9666974415,
+      "std": 5.0410334302
     },
     "class_diplomatic_broker": {
-      "mean": 15.4648089365,
-      "std": 3.9947704847
+      "mean": 17.3775267994,
+      "std": 4.1150375863
     },
     "class_diplomatic_builder": {
-      "mean": 22.6106358001,
-      "std": 4.7350032083
+      "mean": 18.8707626603,
+      "std": 4.3737020879
     },
     "class_diplomatic_scout": {
-      "mean": 20.4334720272,
-      "std": 3.7514776085
+      "mean": 16.2555316812,
+      "std": 3.4402998555
     },
     "class_diplomatic_operator": {
-      "mean": 30.1527835982,
-      "std": 3.1703913449
+      "mean": 19.7264780742,
+      "std": 4.3415078936
     },
     "class_curious_tactician": {
-      "mean": 31.5115370557,
-      "std": 3.2231639299
+      "mean": 17.9961052018,
+      "std": 5.9975267875
     },
     "class_curious_explorer": {
-      "mean": 30.8225301979,
-      "std": 4.6091313933
+      "mean": 14.683061893,
+      "std": 3.9762895326
     },
     "class_curious_fixer": {
-      "mean": 24.7060371383,
-      "std": 3.6677475725
+      "mean": 14.7811078218,
+      "std": 4.6824082008
     },
     "class_curious_analyst": {
-      "mean": 28.7203594575,
-      "std": 3.7420082796
+      "mean": 16.7946239493,
+      "std": 5.1621308006
     },
     "class_curious_catalyst": {
-      "mean": 19.0500744105,
-      "std": 3.8311606102
+      "mean": 18.9816773536,
+      "std": 2.7233058666
     },
     "class_curious_guardian": {
-      "mean": 24.7034721682,
-      "std": 3.877261856
+      "mean": 17.1203421865,
+      "std": 4.3957191392
     },
     "class_curious_broker": {
-      "mean": 23.9124908192,
-      "std": 3.3789499585
+      "mean": 17.4894222083,
+      "std": 3.377152768
     },
     "class_curious_builder": {
-      "mean": 27.9115582999,
-      "std": 3.1709714503
+      "mean": 18.1838377327,
+      "std": 5.6661384832
     },
     "class_curious_scout": {
-      "mean": 17.616138372,
-      "std": 3.4724523789
+      "mean": 15.723334967,
+      "std": 3.8315365738
     },
     "class_curious_operator": {
-      "mean": 18.8405461897,
-      "std": 3.7646349016
+      "mean": 18.4562847346,
+      "std": 4.3545792521
     },
     "class_stoic_tactician": {
-      "mean": 29.2130822924,
-      "std": 4.6097732749
+      "mean": 23.8298145538,
+      "std": 5.3735562089
     },
     "class_stoic_explorer": {
-      "mean": 25.7621626091,
-      "std": 3.4242134426
+      "mean": 21.6450882526,
+      "std": 4.1446308081
     },
     "class_stoic_fixer": {
-      "mean": 24.9253056521,
-      "std": 4.4393360784
+      "mean": 20.2447241344,
+      "std": 4.6451330145
     },
     "class_stoic_analyst": {
-      "mean": 27.2460629437,
-      "std": 2.9452267715
+      "mean": 23.4929550753,
+      "std": 4.99014968
     },
     "class_stoic_catalyst": {
-      "mean": 25.1113214862,
-      "std": 4.4229537512
+      "mean": 22.1255696829,
+      "std": 3.8423037629
     },
     "class_stoic_guardian": {
-      "mean": 20.4705785872,
-      "std": 4.3929836829
+      "mean": 23.1278651621,
+      "std": 4.5504656953
     },
     "class_stoic_broker": {
-      "mean": 23.1435940654,
-      "std": 4.2342056009
+      "mean": 19.7758420808,
+      "std": 4.0478806796
     },
     "class_stoic_builder": {
-      "mean": 21.5892467287,
-      "std": 3.283945141
+      "mean": 23.5282345509,
+      "std": 4.9581213091
     },
     "class_stoic_scout": {
-      "mean": 23.8830694636,
-      "std": 3.6861275523
+      "mean": 21.1472316616,
+      "std": 4.1925401667
     },
     "class_stoic_operator": {
-      "mean": 19.420757086,
-      "std": 2.7089606013
+      "mean": 24.5229537207,
+      "std": 5.1842599096
     },
     "class_social_tactician": {
-      "mean": 22.828943988,
-      "std": 4.003255724
+      "mean": 18.2910610559,
+      "std": 4.7933515189
     },
     "class_social_explorer": {
-      "mean": 22.6214985993,
-      "std": 4.7464745992
+      "mean": 16.5048430142,
+      "std": 3.6248048789
     },
     "class_social_fixer": {
-      "mean": 20.4683124548,
-      "std": 4.3177619879
+      "mean": 15.8372339982,
+      "std": 3.3449313823
     },
     "class_social_analyst": {
-      "mean": 21.3085363369,
-      "std": 3.2754835541
+      "mean": 17.8023816222,
+      "std": 4.2965298299
     },
     "class_social_catalyst": {
-      "mean": 29.8286450764,
-      "std": 3.3484060244
+      "mean": 19.2773717074,
+      "std": 3.0681336437
     },
     "class_social_guardian": {
-      "mean": 20.7275726802,
-      "std": 4.6708943597
+      "mean": 17.835838037,
+      "std": 4.634535739
     },
     "class_social_broker": {
-      "mean": 29.0962877767,
-      "std": 3.9202029216
+      "mean": 16.8055351327,
+      "std": 4.2553500331
     },
     "class_social_builder": {
-      "mean": 17.4592062999,
-      "std": 3.179524919
+      "mean": 18.6228723082,
+      "std": 4.121850352
     },
     "class_social_scout": {
-      "mean": 22.728405171,
-      "std": 4.649125909
+      "mean": 15.8772644492,
+      "std": 3.5435175948
     },
     "class_social_operator": {
-      "mean": 20.015846787,
-      "std": 4.0356322181
+      "mean": 18.8922170957,
+      "std": 3.8174633647
     },
     "class_improvised_tactician": {
-      "mean": 27.7110147447,
-      "std": 4.1538257651
+      "mean": 17.2965868134,
+      "std": 4.0438517042
     },
     "class_improvised_explorer": {
-      "mean": 30.4008117118,
-      "std": 3.3057435767
+      "mean": 19.1788062676,
+      "std": 5.6464688213
     },
     "class_improvised_fixer": {
-      "mean": 22.6578106891,
-      "std": 4.7944629288
+      "mean": 18.4009090326,
+      "std": 4.2607280411
     },
     "class_improvised_analyst": {
-      "mean": 22.1220506134,
-      "std": 3.3803027464
+      "mean": 16.9876708104,
+      "std": 3.6649429879
     },
     "class_improvised_catalyst": {
-      "mean": 19.5949640119,
-      "std": 3.6053227371
+      "mean": 18.6719146691,
+      "std": 3.0776532063
     },
     "class_improvised_guardian": {
-      "mean": 26.2404667266,
-      "std": 2.9757619707
+      "mean": 17.217761177,
+      "std": 3.7875612276
     },
     "class_improvised_broker": {
-      "mean": 31.1098422719,
-      "std": 5.3118101579
+      "mean": 17.2584498603,
+      "std": 3.1341402469
     },
     "class_improvised_builder": {
-      "mean": 25.5329706662,
-      "std": 3.8682354665
+      "mean": 15.4492208348,
+      "std": 3.7951342001
     },
     "class_improvised_scout": {
-      "mean": 14.5924997145,
-      "std": 4.8165103637
+      "mean": 19.196538928,
+      "std": 4.8132057769
     },
     "class_improvised_operator": {
-      "mean": 27.35560972,
-      "std": 4.1910627349
+      "mean": 18.3628788143,
+      "std": 3.3451106086
     },
     "class_strategic_tactician": {
-      "mean": 15.4424703334,
-      "std": 3.4631137245
+      "mean": 19.8348037757,
+      "std": 5.3496952419
     },
     "class_strategic_explorer": {
-      "mean": 20.0741019961,
-      "std": 3.8883448559
+      "mean": 18.1487444954,
+      "std": 3.6169365363
     },
     "class_strategic_fixer": {
-      "mean": 22.8050814931,
-      "std": 4.6349748031
+      "mean": 17.1461979657,
+      "std": 3.9050300026
     },
     "class_strategic_analyst": {
-      "mean": 18.0075990146,
-      "std": 3.6584870821
+      "mean": 18.8849780001,
+      "std": 4.4899032213
     },
     "class_strategic_catalyst": {
-      "mean": 25.585843384,
-      "std": 3.7021887665
+      "mean": 19.749956939,
+      "std": 3.1911735944
     },
     "class_strategic_guardian": {
-      "mean": 24.4656993271,
-      "std": 4.2765986993
+      "mean": 19.5479322323,
+      "std": 3.7774675962
     },
     "class_strategic_broker": {
-      "mean": 25.8097125588,
-      "std": 3.8705332488
+      "mean": 19.3971176902,
+      "std": 3.1367284412
     },
     "class_strategic_builder": {
-      "mean": 26.174604436,
-      "std": 4.6578481389
+      "mean": 19.6652279661,
+      "std": 4.2507642892
     },
     "class_strategic_scout": {
-      "mean": 25.4382315869,
-      "std": 3.3848619468
+      "mean": 17.4940557418,
+      "std": 3.7569122565
     },
     "class_strategic_operator": {
-      "mean": 31.5461401188,
-      "std": 3.8995598387
+      "mean": 20.8253313054,
+      "std": 3.9752091795
     },
     "class_patient_tactician": {
-      "mean": 21.1423091818,
-      "std": 4.0425803387
+      "mean": 18.0906714896,
+      "std": 5.6804285978
     },
     "class_patient_explorer": {
-      "mean": 21.5366545828,
-      "std": 3.5912007345
+      "mean": 16.6861053817,
+      "std": 3.8849028977
     },
     "class_patient_fixer": {
-      "mean": 29.4784442599,
-      "std": 3.9978057334
+      "mean": 14.8570064967,
+      "std": 4.6054335255
     },
     "class_patient_analyst": {
-      "mean": 23.2926861808,
-      "std": 4.3335813304
+      "mean": 17.7573397888,
+      "std": 4.8478770226
     },
     "class_patient_catalyst": {
-      "mean": 23.3636280723,
-      "std": 4.2986652926
+      "mean": 19.4266403593,
+      "std": 3.1918225225
     },
     "class_patient_guardian": {
-      "mean": 32.0344142331,
-      "std": 3.350197717
+      "mean": 16.624619046,
+      "std": 5.9367882654
     },
     "class_patient_broker": {
-      "mean": 26.174675824,
-      "std": 4.6934264854
+      "mean": 17.9697000029,
+      "std": 3.7731350985
     },
     "class_patient_builder": {
-      "mean": 18.4796135131,
-      "std": 3.4644803946
+      "mean": 17.8903343799,
+      "std": 4.827133702
     },
     "class_patient_scout": {
-      "mean": 17.4558526628,
-      "std": 4.5340634257
+      "mean": 16.013516311,
+      "std": 4.0225450513
     },
     "class_patient_operator": {
-      "mean": 27.8100968811,
-      "std": 4.6279954046
+      "mean": 18.7748314518,
+      "std": 4.915297952
     },
     "class_restless_tactician": {
-      "mean": 27.4509443879,
-      "std": 4.0406178005
+      "mean": 18.920301885,
+      "std": 3.4562315575
     },
     "class_restless_explorer": {
-      "mean": 32.2045566526,
-      "std": 3.9836261715
+      "mean": 18.948140107,
+      "std": 5.4999984077
     },
     "class_restless_fixer": {
-      "mean": 17.8151108822,
-      "std": 4.2377947395
+      "mean": 19.2757709217,
+      "std": 4.0476814815
     },
     "class_restless_analyst": {
-      "mean": 33.9255742383,
-      "std": 4.3668981287
+      "mean": 18.5836825514,
+      "std": 3.3845925646
     },
     "class_restless_catalyst": {
-      "mean": 16.8447346158,
-      "std": 3.7774615449
+      "mean": 21.4897757241,
+      "std": 4.5688330378
     },
     "class_restless_guardian": {
-      "mean": 20.2589095181,
-      "std": 3.7357219479
+      "mean": 18.7356501449,
+      "std": 3.8373326217
     },
     "class_restless_broker": {
-      "mean": 28.7527822127,
-      "std": 4.1636916749
+      "mean": 20.9007741858,
+      "std": 4.2740260217
     },
     "class_restless_builder": {
-      "mean": 14.1907974421,
-      "std": 3.5637528849
+      "mean": 17.8697809017,
+      "std": 3.4087989856
     },
     "class_restless_scout": {
-      "mean": 21.4741176311,
-      "std": 3.5523431656
+      "mean": 18.2844829779,
+      "std": 5.0534062007
     },
     "class_restless_operator": {
-      "mean": 28.8272378407,
-      "std": 3.6972239777
+      "mean": 19.9933770563,
+      "std": 3.4525900256
     },
     "class_precise_tactician": {
-      "mean": 27.3634489417,
-      "std": 3.5354196381
+      "mean": 20.6625994843,
+      "std": 6.3675464311
     },
     "class_precise_explorer": {
-      "mean": 21.6653576184,
-      "std": 4.7396532153
+      "mean": 19.4567526809,
+      "std": 4.2579535514
     },
     "class_precise_fixer": {
-      "mean": 28.7559453743,
-      "std": 3.751008615
+      "mean": 19.3320293338,
+      "std": 5.2485717902
     },
     "class_precise_analyst": {
-      "mean": 11.2446506632,
-      "std": 3.5869901212
+      "mean": 19.6272438016,
+      "std": 5.4334989419
     },
     "class_precise_catalyst": {
-      "mean": 29.9129341483,
-      "std": 5.8119916814
+      "mean": 21.8478721936,
+      "std": 3.6646114773
     },
     "class_precise_guardian": {
-      "mean": 12.7801909856,
-      "std": 3.756386345
+      "mean": 19.4401167752,
+      "std": 4.7626408396
     },
     "class_precise_broker": {
-      "mean": 23.181476807,
-      "std": 2.9129343249
+      "mean": 20.5434716305,
+      "std": 4.2765932741
     },
     "class_precise_builder": {
-      "mean": 24.584422123,
-      "std": 4.2671253648
+      "mean": 19.0573319528,
+      "std": 5.7824829304
     },
     "class_precise_scout": {
-      "mean": 31.3999185371,
-      "std": 4.3574819791
+      "mean": 19.8969785943,
+      "std": 4.7644641691
     },
     "class_precise_operator": {
-      "mean": 25.0870654581,
-      "std": 3.9242247688
+      "mean": 19.3213074982,
+      "std": 5.570658988
     }
   },
   "powers": {
@@ -1525,484 +1525,484 @@
       "std": 4.1305021271
     },
     "power_chaotic_burst": {
-      "mean": 29.7922968287,
-      "std": 3.6466719534
+      "mean": 21.8999616014,
+      "std": 5.7012368708
     },
     "power_chaotic_shield": {
-      "mean": 19.5100369574,
-      "std": 3.35125816
+      "mean": 17.2882477237,
+      "std": 3.7976655957
     },
     "power_chaotic_radar": {
-      "mean": 29.3175441384,
-      "std": 3.644580318
+      "mean": 13.8868095004,
+      "std": 3.0936443288
     },
     "power_chaotic_override": {
-      "mean": 24.5280521844,
-      "std": 3.8820436252
+      "mean": 20.7783044472,
+      "std": 5.0757414205
     },
     "power_chaotic_echo": {
-      "mean": 22.5800963953,
-      "std": 3.404117621
+      "mean": 13.8304631226,
+      "std": 3.0896612242
     },
     "power_chaotic_pulse": {
-      "mean": 26.0735525873,
-      "std": 4.0982307741
+      "mean": 19.5168411695,
+      "std": 5.2493990862
     },
     "power_chaotic_anchor": {
-      "mean": 21.6302222109,
-      "std": 3.4505222466
+      "mean": 17.2438476394,
+      "std": 3.7012122235
     },
     "power_chaotic_lens": {
-      "mean": 21.2038129404,
-      "std": 4.3084610696
+      "mean": 17.1938971704,
+      "std": 4.1004282816
     },
     "power_chaotic_boost": {
-      "mean": 19.0842666851,
-      "std": 5.2139382198
+      "mean": 18.8505215253,
+      "std": 2.9040376878
     },
     "power_chaotic_field": {
-      "mean": 22.201172701,
-      "std": 5.5738371611
+      "mean": 12.7820813654,
+      "std": 3.2406721478
     },
     "power_methodical_burst": {
-      "mean": 24.7922275616,
-      "std": 3.9189559668
+      "mean": 20.1876228582,
+      "std": 4.378430084
     },
     "power_methodical_shield": {
-      "mean": 16.548253095,
-      "std": 4.9998619483
+      "mean": 29.2176807596,
+      "std": 5.7425770373
     },
     "power_methodical_radar": {
-      "mean": 27.5977600749,
-      "std": 4.019421042
+      "mean": 18.4594089031,
+      "std": 4.9806900074
     },
     "power_methodical_override": {
-      "mean": 17.9121888546,
-      "std": 3.1362547361
+      "mean": 29.7950036044,
+      "std": 4.9898640811
     },
     "power_methodical_echo": {
-      "mean": 18.7843357541,
-      "std": 3.3623925427
+      "mean": 18.4997312362,
+      "std": 4.6616088984
     },
     "power_methodical_pulse": {
-      "mean": 23.1389969401,
-      "std": 4.0592643756
+      "mean": 18.6560703447,
+      "std": 4.2122752315
     },
     "power_methodical_anchor": {
-      "mean": 28.861575901,
-      "std": 3.4561370314
+      "mean": 29.7175498374,
+      "std": 5.9584893773
     },
     "power_methodical_lens": {
-      "mean": 31.0201543158,
-      "std": 4.2843151404
+      "mean": 27.6448952869,
+      "std": 5.190821506
     },
     "power_methodical_boost": {
-      "mean": 24.363039992,
-      "std": 4.2432698493
+      "mean": 22.6611761966,
+      "std": 3.6591838874
     },
     "power_methodical_field": {
-      "mean": 27.0291855045,
-      "std": 3.6184712655
+      "mean": 27.7762328128,
+      "std": 5.6056802202
     },
     "power_relentless_burst": {
-      "mean": 25.0712940638,
-      "std": 4.4109138095
+      "mean": 22.2235178486,
+      "std": 3.5363611851
     },
     "power_relentless_shield": {
-      "mean": 30.91395983,
-      "std": 3.6584743126
+      "mean": 23.2466024465,
+      "std": 3.3236255346
     },
     "power_relentless_radar": {
-      "mean": 19.7095647602,
-      "std": 3.2771100524
+      "mean": 20.7781547186,
+      "std": 3.0222408615
     },
     "power_relentless_override": {
-      "mean": 28.0705623422,
-      "std": 5.093621154
+      "mean": 20.3391110223,
+      "std": 3.8115176534
     },
     "power_relentless_echo": {
-      "mean": 31.2045040612,
-      "std": 3.4949949395
+      "mean": 20.7554008461,
+      "std": 2.9142052748
     },
     "power_relentless_pulse": {
-      "mean": 14.1386445733,
-      "std": 3.4808097184
+      "mean": 20.961315281,
+      "std": 3.2867573214
     },
     "power_relentless_anchor": {
-      "mean": 26.6469895101,
-      "std": 3.1795167425
+      "mean": 23.9685441657,
+      "std": 3.5569760437
     },
     "power_relentless_lens": {
-      "mean": 19.3006065119,
-      "std": 4.2865201435
+      "mean": 22.569173867,
+      "std": 3.318554348
     },
     "power_relentless_boost": {
-      "mean": 15.8733866541,
-      "std": 3.417342944
+      "mean": 22.2697283444,
+      "std": 3.5848360445
     },
     "power_relentless_field": {
-      "mean": 16.6404297023,
-      "std": 3.7814775759
+      "mean": 20.0898769281,
+      "std": 2.954986466
     },
     "power_diplomatic_burst": {
-      "mean": 23.8054995977,
-      "std": 4.0745894152
+      "mean": 18.0099677175,
+      "std": 3.2533274474
     },
     "power_diplomatic_shield": {
-      "mean": 29.7602870239,
-      "std": 3.145578843
+      "mean": 17.8717685722,
+      "std": 4.6942574601
     },
     "power_diplomatic_radar": {
-      "mean": 20.2212839166,
-      "std": 4.1404597288
+      "mean": 15.1881201143,
+      "std": 4.1240595769
     },
     "power_diplomatic_override": {
-      "mean": 20.9044905658,
-      "std": 2.9253861595
+      "mean": 19.1313756561,
+      "std": 3.5116602208
     },
     "power_diplomatic_echo": {
-      "mean": 28.5058764766,
-      "std": 3.6802911527
+      "mean": 14.8122697713,
+      "std": 4.2857390521
     },
     "power_diplomatic_pulse": {
-      "mean": 31.9259470016,
-      "std": 3.5449562361
+      "mean": 16.2257433072,
+      "std": 3.2786868502
     },
     "power_diplomatic_anchor": {
-      "mean": 26.9427962136,
-      "std": 4.0335623863
+      "mean": 18.8216515853,
+      "std": 5.0705844438
     },
     "power_diplomatic_lens": {
-      "mean": 16.4182852381,
-      "std": 3.1706103262
+      "mean": 17.6725868915,
+      "std": 3.6274801946
     },
     "power_diplomatic_boost": {
-      "mean": 27.1090945217,
-      "std": 4.0384210049
+      "mean": 20.6873437682,
+      "std": 2.6804199579
     },
     "power_diplomatic_field": {
-      "mean": 19.4360653681,
-      "std": 3.7460391981
+      "mean": 15.1780131751,
+      "std": 4.5372558951
     },
     "power_curious_burst": {
-      "mean": 15.3990852307,
-      "std": 3.4530972656
+      "mean": 17.5167009189,
+      "std": 3.4910319275
     },
     "power_curious_shield": {
-      "mean": 19.4221219616,
-      "std": 4.0247743427
+      "mean": 17.6111944859,
+      "std": 4.2297658067
     },
     "power_curious_radar": {
-      "mean": 27.1690797464,
-      "std": 3.8817730998
+      "mean": 15.2186710947,
+      "std": 3.9877259324
     },
     "power_curious_override": {
-      "mean": 24.400049834,
-      "std": 3.6093353172
+      "mean": 17.4257301396,
+      "std": 3.4207696653
     },
     "power_curious_echo": {
-      "mean": 25.9592852277,
-      "std": 4.627244371
+      "mean": 15.3904061274,
+      "std": 3.4658831341
     },
     "power_curious_pulse": {
-      "mean": 14.9637055889,
-      "std": 3.6783118929
+      "mean": 15.1317139614,
+      "std": 3.2321052875
     },
     "power_curious_anchor": {
-      "mean": 20.8354889559,
-      "std": 5.20299721
+      "mean": 18.5088027272,
+      "std": 4.7117065136
     },
     "power_curious_lens": {
-      "mean": 17.3804658066,
-      "std": 4.2746494998
+      "mean": 16.1799055739,
+      "std": 5.2591639657
     },
     "power_curious_boost": {
-      "mean": 27.1807765132,
-      "std": 3.7911002982
+      "mean": 20.1152020194,
+      "std": 2.6839289086
     },
     "power_curious_field": {
-      "mean": 23.5688577274,
-      "std": 3.5758372578
+      "mean": 14.442070212,
+      "std": 3.6550510244
     },
     "power_stoic_burst": {
-      "mean": 30.7747835887,
-      "std": 3.5656591356
+      "mean": 22.527188606,
+      "std": 4.0216510095
     },
     "power_stoic_shield": {
-      "mean": 19.0228424707,
-      "std": 3.5417355916
+      "mean": 22.9808964057,
+      "std": 4.9617945737
     },
     "power_stoic_radar": {
-      "mean": 27.5816129599,
-      "std": 4.4487245212
+      "mean": 21.1017847255,
+      "std": 4.148357273
     },
     "power_stoic_override": {
-      "mean": 24.3963482566,
-      "std": 3.0566596818
+      "mean": 22.3152942292,
+      "std": 4.390173512
     },
     "power_stoic_echo": {
-      "mean": 18.6276389803,
-      "std": 3.8068498815
+      "mean": 19.0039886375,
+      "std": 4.3299607233
     },
     "power_stoic_pulse": {
-      "mean": 20.3473421185,
-      "std": 3.7302719355
+      "mean": 19.274865343,
+      "std": 4.2272584507
     },
     "power_stoic_anchor": {
-      "mean": 12.8751101444,
-      "std": 2.7437806221
+      "mean": 23.4936954358,
+      "std": 5.2697400098
     },
     "power_stoic_lens": {
-      "mean": 19.4038186683,
-      "std": 4.3767858549
+      "mean": 23.2848675136,
+      "std": 4.6731407933
     },
     "power_stoic_boost": {
-      "mean": 25.6606661096,
-      "std": 4.1353929452
+      "mean": 24.697038593,
+      "std": 3.7298732869
     },
     "power_stoic_field": {
-      "mean": 25.7861754208,
-      "std": 3.3057541499
+      "mean": 15.2666742457,
+      "std": 4.9691037899
     },
     "power_social_burst": {
-      "mean": 15.8886361443,
-      "std": 2.8260994569
+      "mean": 17.6758568311,
+      "std": 3.3276466091
     },
     "power_social_shield": {
-      "mean": 26.7105220471,
-      "std": 4.3016146546
+      "mean": 18.990700653,
+      "std": 4.2367866018
     },
     "power_social_radar": {
-      "mean": 15.8502915921,
-      "std": 4.4036741984
+      "mean": 16.2134028135,
+      "std": 4.181951005
     },
     "power_social_override": {
-      "mean": 28.4118317261,
-      "std": 3.8933222279
+      "mean": 18.2133870429,
+      "std": 3.3957256112
     },
     "power_social_echo": {
-      "mean": 25.8094049672,
-      "std": 3.4233699635
+      "mean": 14.3598991167,
+      "std": 4.9560398193
     },
     "power_social_pulse": {
-      "mean": 28.5644347824,
-      "std": 3.0030804564
+      "mean": 14.9236787569,
+      "std": 3.4928974163
     },
     "power_social_anchor": {
-      "mean": 27.1803877585,
-      "std": 4.2512340913
+      "mean": 20.076443775,
+      "std": 4.4791442651
     },
     "power_social_lens": {
-      "mean": 28.4664188017,
-      "std": 5.639396298
+      "mean": 17.3611459388,
+      "std": 3.5546619661
     },
     "power_social_boost": {
-      "mean": 18.904282289,
-      "std": 3.4564670505
+      "mean": 20.3914114081,
+      "std": 2.811984018
     },
     "power_social_field": {
-      "mean": 26.8354198836,
-      "std": 4.4168529148
+      "mean": 14.1827313137,
+      "std": 4.4494176565
     },
     "power_improvised_burst": {
-      "mean": 16.452940467,
-      "std": 3.6900429069
+      "mean": 20.6580720464,
+      "std": 5.200809872
     },
     "power_improvised_shield": {
-      "mean": 24.0769292247,
-      "std": 3.4698572173
+      "mean": 18.133565487,
+      "std": 3.7077903654
     },
     "power_improvised_radar": {
-      "mean": 27.6945397088,
-      "std": 3.8229469853
+      "mean": 15.159296331,
+      "std": 3.3242976322
     },
     "power_improvised_override": {
-      "mean": 15.9991969933,
-      "std": 4.4434579893
+      "mean": 20.920235382,
+      "std": 4.6812902313
     },
     "power_improvised_echo": {
-      "mean": 21.7189522757,
-      "std": 3.8411294404
+      "mean": 15.1267253111,
+      "std": 3.2328013697
     },
     "power_improvised_pulse": {
-      "mean": 35.1823016668,
-      "std": 4.1245124265
+      "mean": 18.1671185041,
+      "std": 4.9518910789
     },
     "power_improvised_anchor": {
-      "mean": 24.9906818824,
-      "std": 3.1208576361
+      "mean": 18.1538645447,
+      "std": 3.6635031632
     },
     "power_improvised_lens": {
-      "mean": 30.2248075583,
-      "std": 3.8559138213
+      "mean": 16.8063408701,
+      "std": 4.0398829882
     },
     "power_improvised_boost": {
-      "mean": 31.651763463,
-      "std": 2.9342534004
+      "mean": 19.8109957433,
+      "std": 3.1210817023
     },
     "power_improvised_field": {
-      "mean": 29.525889996,
-      "std": 3.8726997405
+      "mean": 14.1771404832,
+      "std": 3.366504773
     },
     "power_strategic_burst": {
-      "mean": 26.5565529426,
-      "std": 3.3523632176
+      "mean": 19.2173734149,
+      "std": 3.3334380196
     },
     "power_strategic_shield": {
-      "mean": 26.756885378,
-      "std": 3.7507325775
+      "mean": 20.0815819124,
+      "std": 3.905556029
     },
     "power_strategic_radar": {
-      "mean": 33.0964282832,
-      "std": 4.8858944826
+      "mean": 17.061685082,
+      "std": 3.6907210898
     },
     "power_strategic_override": {
-      "mean": 19.6196866156,
-      "std": 3.2000474643
+      "mean": 18.477606554,
+      "std": 3.8983945458
     },
     "power_strategic_echo": {
-      "mean": 19.7910384241,
-      "std": 4.5811695844
+      "mean": 17.5041086624,
+      "std": 3.359362529
     },
     "power_strategic_pulse": {
-      "mean": 31.898182734,
-      "std": 3.4859209593
+      "mean": 17.6065995517,
+      "std": 3.0835626948
     },
     "power_strategic_anchor": {
-      "mean": 25.7161944712,
-      "std": 3.7371774449
+      "mean": 20.8062353453,
+      "std": 4.2562949565
     },
     "power_strategic_lens": {
-      "mean": 14.1382860509,
-      "std": 4.3606281132
+      "mean": 18.7713635638,
+      "std": 4.1367710784
     },
     "power_strategic_boost": {
-      "mean": 21.4564689041,
-      "std": 3.6693685427
+      "mean": 21.0501536638,
+      "std": 3.1718522556
     },
     "power_strategic_field": {
-      "mean": 27.9654155959,
-      "std": 3.8716379668
+      "mean": 16.7017719513,
+      "std": 3.4330443759
     },
     "power_patient_burst": {
-      "mean": 30.3714301362,
-      "std": 3.929038239
+      "mean": 17.7968386408,
+      "std": 3.8407305374
     },
     "power_patient_shield": {
-      "mean": 21.9555769037,
-      "std": 3.8634185416
+      "mean": 17.5163207459,
+      "std": 5.838254379
     },
     "power_patient_radar": {
-      "mean": 31.4665101211,
-      "std": 4.2514233852
+      "mean": 16.3651328001,
+      "std": 4.7850868786
     },
     "power_patient_override": {
-      "mean": 27.3555437118,
-      "std": 3.9460703954
+      "mean": 17.7629015968,
+      "std": 3.9799310124
     },
     "power_patient_echo": {
-      "mean": 17.4896898952,
-      "std": 4.1488625796
+      "mean": 16.6767604696,
+      "std": 4.4390850678
     },
     "power_patient_pulse": {
-      "mean": 25.960174945,
-      "std": 4.082623767
+      "mean": 16.0364899191,
+      "std": 3.6593885294
     },
     "power_patient_anchor": {
-      "mean": 19.9097124607,
-      "std": 3.0990933726
+      "mean": 18.5402763124,
+      "std": 6.2633107002
     },
     "power_patient_lens": {
-      "mean": 27.1686922297,
-      "std": 3.6628853644
+      "mean": 17.421998619,
+      "std": 4.3933768468
     },
     "power_patient_boost": {
-      "mean": 20.0925525353,
-      "std": 3.5833712178
+      "mean": 20.535903618,
+      "std": 3.156438804
     },
     "power_patient_field": {
-      "mean": 12.7237368845,
-      "std": 3.4691766115
+      "mean": 14.1692345145,
+      "std": 5.0914141723
     },
     "power_restless_burst": {
-      "mean": 23.5361207824,
-      "std": 4.0025227688
+      "mean": 19.6857390417,
+      "std": 4.5151631623
     },
     "power_restless_shield": {
-      "mean": 12.3212565931,
-      "std": 3.048635099
+      "mean": 19.6855866359,
+      "std": 3.8418447135
     },
     "power_restless_radar": {
-      "mean": 24.4485590068,
-      "std": 3.651241226
+      "mean": 19.292214082,
+      "std": 4.0122847791
     },
     "power_restless_override": {
-      "mean": 24.5523431978,
-      "std": 6.078266488
+      "mean": 21.1081933192,
+      "std": 4.8615962534
     },
     "power_restless_echo": {
-      "mean": 30.7077918718,
-      "std": 4.1305707872
+      "mean": 19.1520763487,
+      "std": 4.4608887229
     },
     "power_restless_pulse": {
-      "mean": 28.2076255628,
-      "std": 3.5610607183
+      "mean": 17.9533105769,
+      "std": 5.1168911782
     },
     "power_restless_anchor": {
-      "mean": 29.7865371215,
-      "std": 3.7051202825
+      "mean": 19.7958368243,
+      "std": 3.7548784834
     },
     "power_restless_lens": {
-      "mean": 24.3498307071,
-      "std": 3.3878347859
+      "mean": 18.9359653015,
+      "std": 3.5553776311
     },
     "power_restless_boost": {
-      "mean": 25.0650631943,
-      "std": 3.2764880184
+      "mean": 22.1076300281,
+      "std": 4.5744799201
     },
     "power_restless_field": {
-      "mean": 24.6590287972,
-      "std": 2.9523378498
+      "mean": 18.4312484235,
+      "std": 4.4773297344
     },
     "power_precise_burst": {
-      "mean": 29.8565419956,
-      "std": 2.5652582846
+      "mean": 20.4064150634,
+      "std": 4.2700949554
     },
     "power_precise_shield": {
-      "mean": 18.4787368055,
-      "std": 4.3682703755
+      "mean": 19.8557562712,
+      "std": 4.7835358155
     },
     "power_precise_radar": {
-      "mean": 21.3119050828,
-      "std": 3.3245423356
+      "mean": 19.1919176196,
+      "std": 5.179412909
     },
     "power_precise_override": {
-      "mean": 27.3719614364,
-      "std": 4.2994279223
+      "mean": 20.9238530705,
+      "std": 4.0739578647
     },
     "power_precise_echo": {
-      "mean": 21.1682962819,
-      "std": 5.3758598556
+      "mean": 18.7471121528,
+      "std": 4.5234012938
     },
     "power_precise_pulse": {
-      "mean": 19.8846981273,
-      "std": 4.2900435569
+      "mean": 18.8957293528,
+      "std": 4.0851383769
     },
     "power_precise_anchor": {
-      "mean": 22.5599128593,
-      "std": 3.7351776103
+      "mean": 20.8452782743,
+      "std": 5.1283351749
     },
     "power_precise_lens": {
-      "mean": 21.6735338176,
-      "std": 3.1556027195
+      "mean": 19.2685797703,
+      "std": 4.9141411901
     },
     "power_precise_boost": {
-      "mean": 27.745493533,
-      "std": 5.9360647972
+      "mean": 22.848948228,
+      "std": 3.5761457197
     },
     "power_precise_field": {
-      "mean": 22.1160295078,
-      "std": 3.2575229052
+      "mean": 17.967365476,
+      "std": 4.7058468441
     }
   },
   "weaknesses": {
@@ -2127,484 +2127,484 @@
       "std": 3.9521985517
     },
     "weakness_notification_spiral": {
-      "mean": 32.1776122306,
-      "std": 3.2442114305
+      "mean": 30.7774971524,
+      "std": 5.6126802006
     },
     "weakness_notification_panic": {
-      "mean": 31.9405640832,
-      "std": 3.2409334122
+      "mean": 29.3289982776,
+      "std": 5.4782944454
     },
     "weakness_notification_freeze": {
-      "mean": 30.8681112552,
-      "std": 4.1319544454
+      "mean": 34.4680763229,
+      "std": 4.6995387644
     },
     "weakness_notification_overthink": {
-      "mean": 34.9082904577,
-      "std": 3.1620758988
+      "mean": 34.4314671736,
+      "std": 4.3729505227
     },
     "weakness_notification_avoidance": {
-      "mean": 28.0061265001,
-      "std": 3.0884643103
+      "mean": 33.1492061771,
+      "std": 4.3546120179
     },
     "weakness_notification_rage": {
-      "mean": 34.6859667448,
-      "std": 3.1001856358
+      "mean": 33.0854458314,
+      "std": 4.7499421194
     },
     "weakness_notification_shutdown": {
-      "mean": 28.546220887,
-      "std": 3.3845703427
+      "mean": 37.5116263849,
+      "std": 4.0150339924
     },
     "weakness_notification_distraction": {
-      "mean": 33.4776333065,
-      "std": 3.3083089628
+      "mean": 30.1705833982,
+      "std": 5.2384945749
     },
     "weakness_notification_impulse": {
-      "mean": 40.1278409355,
-      "std": 3.6634671909
+      "mean": 28.7489679889,
+      "std": 5.0371590776
     },
     "weakness_notification_procrastination": {
-      "mean": 32.0381891981,
-      "std": 4.0573517109
+      "mean": 32.7749698648,
+      "std": 5.4039439637
     },
     "weakness_deadline_spiral": {
-      "mean": 37.7296808501,
-      "std": 3.7093130021
+      "mean": 28.9798582739,
+      "std": 5.5363981452
     },
     "weakness_deadline_panic": {
-      "mean": 33.4218002647,
-      "std": 3.4343631725
+      "mean": 27.0005689435,
+      "std": 5.2031343179
     },
     "weakness_deadline_freeze": {
-      "mean": 34.5843028734,
-      "std": 3.8401034834
+      "mean": 32.4553633467,
+      "std": 4.4367578294
     },
     "weakness_deadline_overthink": {
-      "mean": 36.8564179724,
-      "std": 4.8330326134
+      "mean": 32.6702897227,
+      "std": 4.4573047278
     },
     "weakness_deadline_avoidance": {
-      "mean": 30.8640251591,
-      "std": 4.1183432324
+      "mean": 31.5869046428,
+      "std": 4.2411964216
     },
     "weakness_deadline_rage": {
-      "mean": 35.3476869398,
-      "std": 3.644217521
+      "mean": 31.2566523588,
+      "std": 4.6040338099
     },
     "weakness_deadline_shutdown": {
-      "mean": 32.5433622131,
-      "std": 3.4521277304
+      "mean": 35.825174002,
+      "std": 3.8764127395
     },
     "weakness_deadline_distraction": {
-      "mean": 32.487549843,
-      "std": 3.7493246323
+      "mean": 28.4141666195,
+      "std": 5.1603138779
     },
     "weakness_deadline_impulse": {
-      "mean": 44.9010143915,
-      "std": 3.5257282857
+      "mean": 26.9287923088,
+      "std": 4.960247251
     },
     "weakness_deadline_procrastination": {
-      "mean": 28.7366855237,
-      "std": 4.075789303
+      "mean": 30.8898982693,
+      "std": 5.269552629
     },
     "weakness_ambiguity_spiral": {
-      "mean": 32.0925350346,
-      "std": 3.1523454314
+      "mean": 30.4767923506,
+      "std": 5.7718284814
     },
     "weakness_ambiguity_panic": {
-      "mean": 36.5747265056,
-      "std": 3.3320340698
+      "mean": 26.7351000965,
+      "std": 3.6206506083
     },
     "weakness_ambiguity_freeze": {
-      "mean": 29.572074627,
-      "std": 3.3990188172
+      "mean": 33.5456920809,
+      "std": 3.7408739375
     },
     "weakness_ambiguity_overthink": {
-      "mean": 27.5124971283,
-      "std": 3.4399963805
+      "mean": 35.0988658094,
+      "std": 4.5367867368
     },
     "weakness_ambiguity_avoidance": {
-      "mean": 31.7895177785,
-      "std": 4.4202487953
+      "mean": 32.0173533358,
+      "std": 5.6187601276
     },
     "weakness_ambiguity_rage": {
-      "mean": 39.1727758572,
-      "std": 3.6580529848
+      "mean": 31.5154169955,
+      "std": 4.7730761152
     },
     "weakness_ambiguity_shutdown": {
-      "mean": 41.4830199635,
-      "std": 3.2072919065
+      "mean": 36.7176481095,
+      "std": 3.3510579387
     },
     "weakness_ambiguity_distraction": {
-      "mean": 43.3370178292,
-      "std": 3.3239342665
+      "mean": 30.8799272834,
+      "std": 5.8277535101
     },
     "weakness_ambiguity_impulse": {
-      "mean": 26.7891235183,
-      "std": 3.4804843229
+      "mean": 28.866072698,
+      "std": 5.2950291462
     },
     "weakness_ambiguity_procrastination": {
-      "mean": 41.9777055734,
-      "std": 3.1393887074
+      "mean": 32.6643170744,
+      "std": 4.3971339222
     },
     "weakness_silence_spiral": {
-      "mean": 36.7948564656,
-      "std": 3.7533706197
+      "mean": 32.9361809009,
+      "std": 5.2188339372
     },
     "weakness_silence_panic": {
-      "mean": 26.7717406401,
-      "std": 4.232850076
+      "mean": 29.367866279,
+      "std": 3.8577820338
     },
     "weakness_silence_freeze": {
-      "mean": 33.2326246483,
-      "std": 3.2706175239
+      "mean": 36.2224058908,
+      "std": 4.0735870538
     },
     "weakness_silence_overthink": {
-      "mean": 28.5241570455,
-      "std": 4.8157690469
+      "mean": 35.2697433139,
+      "std": 3.8688869942
     },
     "weakness_silence_avoidance": {
-      "mean": 27.6172271464,
-      "std": 3.5741457833
+      "mean": 34.2387510804,
+      "std": 5.0571276879
     },
     "weakness_silence_rage": {
-      "mean": 30.2404177057,
-      "std": 4.1116452892
+      "mean": 33.6940273242,
+      "std": 5.4585392438
     },
     "weakness_silence_shutdown": {
-      "mean": 40.3464060257,
-      "std": 3.6872791427
+      "mean": 38.0948944388,
+      "std": 4.0369416268
     },
     "weakness_silence_distraction": {
-      "mean": 40.4887636489,
-      "std": 3.6216540673
+      "mean": 32.2919169023,
+      "std": 4.9110694125
     },
     "weakness_silence_impulse": {
-      "mean": 37.3916871813,
-      "std": 2.9602786585
+      "mean": 30.9205555552,
+      "std": 4.7813276561
     },
     "weakness_silence_procrastination": {
-      "mean": 33.6926622874,
-      "std": 3.6252063836
+      "mean": 34.4779505913,
+      "std": 3.9009848788
     },
     "weakness_comparison_spiral": {
-      "mean": 34.8971273586,
-      "std": 3.3603316484
+      "mean": 29.7565815531,
+      "std": 5.5102165362
     },
     "weakness_comparison_panic": {
-      "mean": 33.9288741274,
-      "std": 3.3917872058
+      "mean": 25.8532208787,
+      "std": 3.7354269096
     },
     "weakness_comparison_freeze": {
-      "mean": 32.5268468675,
-      "std": 3.0899529967
+      "mean": 32.5479890526,
+      "std": 3.8229711786
     },
     "weakness_comparison_overthink": {
-      "mean": 18.7215613168,
-      "std": 3.3631629746
+      "mean": 32.3029852402,
+      "std": 4.1022696854
     },
     "weakness_comparison_avoidance": {
-      "mean": 37.442039872,
-      "std": 4.7151143738
+      "mean": 34.1676087087,
+      "std": 5.4659252765
     },
     "weakness_comparison_rage": {
-      "mean": 27.8116347699,
-      "std": 2.719919991
+      "mean": 29.1200295851,
+      "std": 4.6903498763
     },
     "weakness_comparison_shutdown": {
-      "mean": 37.233616464,
-      "std": 3.5394375748
+      "mean": 36.0423827798,
+      "std": 3.8759132542
     },
     "weakness_comparison_distraction": {
-      "mean": 41.4307188009,
-      "std": 2.9348048733
+      "mean": 30.0106405179,
+      "std": 5.2415267217
     },
     "weakness_comparison_impulse": {
-      "mean": 35.4746273837,
-      "std": 3.9038457942
+      "mean": 28.5441702763,
+      "std": 5.0396269609
     },
     "weakness_comparison_procrastination": {
-      "mean": 26.1583681771,
-      "std": 3.7690123787
+      "mean": 34.4701320177,
+      "std": 4.7087776205
     },
     "weakness_queue_spiral": {
-      "mean": 31.372403358,
-      "std": 3.5981334343
+      "mean": 31.5129329326,
+      "std": 5.3918315986
     },
     "weakness_queue_panic": {
-      "mean": 28.9686602461,
-      "std": 3.4644716117
+      "mean": 29.1673366171,
+      "std": 5.2633738859
     },
     "weakness_queue_freeze": {
-      "mean": 32.5527809429,
-      "std": 4.8763804419
+      "mean": 34.4448303751,
+      "std": 4.5191138987
     },
     "weakness_queue_overthink": {
-      "mean": 26.369397676,
-      "std": 4.1541500778
+      "mean": 34.6532076671,
+      "std": 4.4159350517
     },
     "weakness_queue_avoidance": {
-      "mean": 40.1219682663,
-      "std": 4.5833142054
+      "mean": 33.8634375501,
+      "std": 4.2069543958
     },
     "weakness_queue_rage": {
-      "mean": 25.777721179,
-      "std": 3.1877302508
+      "mean": 33.3735110209,
+      "std": 4.551273903
     },
     "weakness_queue_shutdown": {
-      "mean": 34.588034929,
-      "std": 3.4380512528
+      "mean": 37.7206487054,
+      "std": 3.9086091191
     },
     "weakness_queue_distraction": {
-      "mean": 32.3367729959,
-      "std": 2.9977256181
+      "mean": 30.952871038,
+      "std": 5.0422271372
     },
     "weakness_queue_impulse": {
-      "mean": 33.972059345,
-      "std": 4.3225965032
+      "mean": 29.5785754945,
+      "std": 4.8561667717
     },
     "weakness_queue_procrastination": {
-      "mean": 25.1058846686,
-      "std": 3.1340657841
+      "mean": 33.2722839698,
+      "std": 5.2648152325
     },
     "weakness_choice_spiral": {
-      "mean": 29.3690102943,
-      "std": 3.4876555159
+      "mean": 30.1713367098,
+      "std": 6.9365792106
     },
     "weakness_choice_panic": {
-      "mean": 37.5253609151,
-      "std": 3.3382467738
+      "mean": 28.3608912248,
+      "std": 5.3928064065
     },
     "weakness_choice_freeze": {
-      "mean": 31.2222336902,
-      "std": 4.4698896404
+      "mean": 34.7890834582,
+      "std": 4.3343327213
     },
     "weakness_choice_overthink": {
-      "mean": 41.9474321119,
-      "std": 3.0387254818
+      "mean": 36.7161689995,
+      "std": 4.694934398
     },
     "weakness_choice_avoidance": {
-      "mean": 13.6070935027,
-      "std": 3.5374816477
+      "mean": 32.2656256781,
+      "std": 5.3679489194
     },
     "weakness_choice_rage": {
-      "mean": 22.3365610827,
-      "std": 3.6437630275
+      "mean": 33.0033246827,
+      "std": 5.6861364639
     },
     "weakness_choice_shutdown": {
-      "mean": 41.7860598137,
-      "std": 4.5849898488
+      "mean": 37.5550096589,
+      "std": 3.5740480583
     },
     "weakness_choice_distraction": {
-      "mean": 36.5696304684,
-      "std": 3.8914698255
+      "mean": 29.3881148235,
+      "std": 6.9481484671
     },
     "weakness_choice_impulse": {
-      "mean": 35.7411784909,
-      "std": 3.6210362354
+      "mean": 27.6815369288,
+      "std": 6.1369051857
     },
     "weakness_choice_procrastination": {
-      "mean": 22.5636364957,
-      "std": 3.9032565154
+      "mean": 31.7778909211,
+      "std": 5.009297816
     },
     "weakness_interruption_spiral": {
-      "mean": 37.6974849071,
-      "std": 3.6094974279
+      "mean": 28.4465963445,
+      "std": 6.8878397493
     },
     "weakness_interruption_panic": {
-      "mean": 24.8499149441,
-      "std": 3.2200984358
+      "mean": 27.1397692478,
+      "std": 5.3609339833
     },
     "weakness_interruption_freeze": {
-      "mean": 37.0087708728,
-      "std": 3.9478658983
+      "mean": 33.7952511638,
+      "std": 4.3395786405
     },
     "weakness_interruption_overthink": {
-      "mean": 32.0579072956,
-      "std": 3.0826562936
+      "mean": 33.5671458611,
+      "std": 4.349992499
     },
     "weakness_interruption_avoidance": {
-      "mean": 39.2972927075,
-      "std": 3.2005092083
+      "mean": 30.9994213881,
+      "std": 5.3199381201
     },
     "weakness_interruption_rage": {
-      "mean": 39.4232437411,
-      "std": 3.2023339822
+      "mean": 31.9486308115,
+      "std": 5.7202057015
     },
     "weakness_interruption_shutdown": {
-      "mean": 40.5216201192,
-      "std": 3.6376548653
+      "mean": 36.787000698,
+      "std": 3.6202158741
     },
     "weakness_interruption_distraction": {
-      "mean": 30.2212978471,
-      "std": 2.7959702733
+      "mean": 27.7578545146,
+      "std": 6.3119563327
     },
     "weakness_interruption_impulse": {
-      "mean": 32.5098662302,
-      "std": 4.1050730028
+      "mean": 26.2006325857,
+      "std": 6.0692945316
     },
     "weakness_interruption_procrastination": {
-      "mean": 37.9149398601,
-      "std": 4.0526080584
+      "mean": 30.5097120805,
+      "std": 4.9259797769
     },
     "weakness_fatigue_spiral": {
-      "mean": 35.3417528569,
-      "std": 3.3020980702
+      "mean": 33.6232252933,
+      "std": 4.9985248697
     },
     "weakness_fatigue_panic": {
-      "mean": 42.0624960889,
-      "std": 3.2079904568
+      "mean": 29.4964827321,
+      "std": 5.1831666417
     },
     "weakness_fatigue_freeze": {
-      "mean": 25.3368815511,
-      "std": 3.9127854445
+      "mean": 35.4121030374,
+      "std": 4.3957671083
     },
     "weakness_fatigue_overthink": {
-      "mean": 32.7129033537,
-      "std": 3.6932904264
+      "mean": 36.4780152307,
+      "std": 4.4048891964
     },
     "weakness_fatigue_avoidance": {
-      "mean": 21.7479558904,
-      "std": 4.399223938
+      "mean": 34.5681396344,
+      "std": 3.8478064165
     },
     "weakness_fatigue_rage": {
-      "mean": 32.6415713518,
-      "std": 3.8133593701
+      "mean": 35.1573099255,
+      "std": 4.3095534338
     },
     "weakness_fatigue_shutdown": {
-      "mean": 42.1848466847,
-      "std": 3.8584630173
+      "mean": 37.5724064137,
+      "std": 3.7750412293
     },
     "weakness_fatigue_distraction": {
-      "mean": 23.0350832025,
-      "std": 2.9594968922
+      "mean": 31.748219697,
+      "std": 4.6568068532
     },
     "weakness_fatigue_impulse": {
-      "mean": 33.7490862829,
-      "std": 3.3538676784
+      "mean": 30.3945001818,
+      "std": 4.4698844169
     },
     "weakness_fatigue_procrastination": {
-      "mean": 27.7047289236,
-      "std": 2.5961359628
+      "mean": 32.5188303231,
+      "std": 5.0293632222
     },
     "weakness_conflict_spiral": {
-      "mean": 38.5312589748,
-      "std": 3.1872676625
+      "mean": 33.4108917508,
+      "std": 5.6450623037
     },
     "weakness_conflict_panic": {
-      "mean": 44.2939236665,
-      "std": 4.1058802824
+      "mean": 29.9178252856,
+      "std": 4.4276357323
     },
     "weakness_conflict_freeze": {
-      "mean": 39.1133672529,
-      "std": 2.9484722833
+      "mean": 36.4940249729,
+      "std": 4.6404430048
     },
     "weakness_conflict_overthink": {
-      "mean": 33.0613951886,
-      "std": 3.719813819
+      "mean": 35.6976594797,
+      "std": 4.2809302343
     },
     "weakness_conflict_avoidance": {
-      "mean": 42.6750485884,
-      "std": 3.2804620576
+      "mean": 34.9746351381,
+      "std": 5.4476153458
     },
     "weakness_conflict_rage": {
-      "mean": 33.2757127454,
-      "std": 4.1473161543
+      "mean": 33.0166602061,
+      "std": 5.4766498732
     },
     "weakness_conflict_shutdown": {
-      "mean": 33.891022949,
-      "std": 3.2126707691
+      "mean": 39.1761627538,
+      "std": 4.5676886813
     },
     "weakness_conflict_distraction": {
-      "mean": 32.1577877845,
-      "std": 3.1011618475
+      "mean": 33.0774858416,
+      "std": 5.2542265903
     },
     "weakness_conflict_impulse": {
-      "mean": 41.4605867302,
-      "std": 3.285004513
+      "mean": 31.7397425234,
+      "std": 5.1352761578
     },
     "weakness_conflict_procrastination": {
-      "mean": 28.9866710612,
-      "std": 4.4854629034
+      "mean": 35.2232719521,
+      "std": 4.2553894836
     },
     "weakness_waiting_spiral": {
-      "mean": 28.9664851346,
-      "std": 3.8329312908
+      "mean": 30.7922228209,
+      "std": 5.4277098068
     },
     "weakness_waiting_panic": {
-      "mean": 30.2649732515,
-      "std": 3.4327026407
+      "mean": 28.5434644535,
+      "std": 5.2206117452
     },
     "weakness_waiting_freeze": {
-      "mean": 31.1287702964,
-      "std": 3.3125528672
+      "mean": 33.8354958309,
+      "std": 4.4805660218
     },
     "weakness_waiting_overthink": {
-      "mean": 30.0472729434,
-      "std": 3.4741227185
+      "mean": 34.0260064826,
+      "std": 4.4339335634
     },
     "weakness_waiting_avoidance": {
-      "mean": 37.3558754063,
-      "std": 3.3918867846
+      "mean": 33.3196675083,
+      "std": 4.2211383701
     },
     "weakness_waiting_rage": {
-      "mean": 21.3207875797,
-      "std": 4.8331480749
+      "mean": 32.7237083441,
+      "std": 4.5549801544
     },
     "weakness_waiting_shutdown": {
-      "mean": 31.8923271966,
-      "std": 3.6937328882
+      "mean": 37.2585590701,
+      "std": 3.8938870068
     },
     "weakness_waiting_distraction": {
-      "mean": 39.2960546617,
-      "std": 2.9295383074
+      "mean": 30.3475900786,
+      "std": 5.0710393828
     },
     "weakness_waiting_impulse": {
-      "mean": 39.5746263467,
-      "std": 3.5617677521
+      "mean": 28.9518720729,
+      "std": 4.8837456396
     },
     "weakness_waiting_procrastination": {
-      "mean": 30.529709637,
-      "std": 4.3428611321
+      "mean": 32.7683604671,
+      "std": 5.2606997917
     },
     "weakness_uncertainty_spiral": {
-      "mean": 41.2569665634,
-      "std": 4.1267077254
+      "mean": 34.3687182749,
+      "std": 4.3550086267
     },
     "weakness_uncertainty_panic": {
-      "mean": 30.4417850867,
-      "std": 3.6556167834
+      "mean": 30.759041886,
+      "std": 4.5806167984
     },
     "weakness_uncertainty_freeze": {
-      "mean": 35.7766299689,
-      "std": 3.2147573367
+      "mean": 36.581125559,
+      "std": 4.3088533089
     },
     "weakness_uncertainty_overthink": {
-      "mean": 48.8274733157,
-      "std": 3.5083191043
+      "mean": 36.6524886356,
+      "std": 5.5908493827
     },
     "weakness_uncertainty_avoidance": {
-      "mean": 35.7230716411,
-      "std": 4.7351528513
+      "mean": 36.0001429376,
+      "std": 3.6052533627
     },
     "weakness_uncertainty_rage": {
-      "mean": 30.3345938963,
-      "std": 4.0476651478
+      "mean": 35.2231852178,
+      "std": 3.9695096814
     },
     "weakness_uncertainty_shutdown": {
-      "mean": 43.86388068,
-      "std": 3.5068430752
+      "mean": 39.345561577,
+      "std": 3.6349925527
     },
     "weakness_uncertainty_distraction": {
-      "mean": 40.6977775359,
-      "std": 3.4660982341
+      "mean": 35.2074803614,
+      "std": 4.3902563251
     },
     "weakness_uncertainty_impulse": {
-      "mean": 35.5079414543,
-      "std": 3.5306808137
+      "mean": 31.319662442,
+      "std": 5.0735782757
     },
     "weakness_uncertainty_procrastination": {
-      "mean": 37.1137340459,
-      "std": 3.709681276
+      "mean": 36.0056075001,
+      "std": 3.99736937
     }
   },
   "abilities": {
@@ -2729,484 +2729,484 @@
       "std": 8.305325227
     },
     "ability_reading_instinct": {
-      "mean": 19.7832395127,
-      "std": 3.0022171337
+      "mean": 15.8655048587,
+      "std": 4.0290828871
     },
     "ability_reading_precision": {
-      "mean": 29.3312432592,
-      "std": 4.2867978186
+      "mean": 16.6172955339,
+      "std": 5.0302991103
     },
     "ability_reading_speed": {
-      "mean": 23.541782705,
-      "std": 4.1660281329
+      "mean": 15.7402148358,
+      "std": 3.5368829389
     },
     "ability_reading_patience": {
-      "mean": 29.1259257382,
-      "std": 3.9353343644
+      "mean": 17.4318661647,
+      "std": 4.49073424
     },
     "ability_reading_improvisation": {
-      "mean": 24.7624119315,
-      "std": 3.6498171647
+      "mean": 16.2733905153,
+      "std": 3.9538809376
     },
     "ability_reading_clarity": {
-      "mean": 21.1958902836,
-      "std": 4.3727579114
+      "mean": 14.0966371211,
+      "std": 3.8474760399
     },
     "ability_reading_endurance": {
-      "mean": 28.5569511325,
-      "std": 4.3676632213
+      "mean": 17.3658156747,
+      "std": 3.6742833249
     },
     "ability_reading_timing": {
-      "mean": 17.487048745,
-      "std": 3.3969181411
+      "mean": 15.8925182581,
+      "std": 3.2792448442
     },
     "ability_reading_intuition": {
-      "mean": 32.6610941357,
-      "std": 3.1863317248
+      "mean": 13.3851066481,
+      "std": 3.5185803984
     },
     "ability_reading_discipline": {
-      "mean": 25.6313050817,
-      "std": 4.1860231497
+      "mean": 17.3320112893,
+      "std": 4.886033224
     },
     "ability_planning_instinct": {
-      "mean": 10.4767189349,
-      "std": 3.4743182102
+      "mean": 17.6271162664,
+      "std": 5.8974631946
     },
     "ability_planning_precision": {
-      "mean": 23.1909360356,
-      "std": 3.4482844712
+      "mean": 17.8705415213,
+      "std": 6.1639314351
     },
     "ability_planning_speed": {
-      "mean": 31.2563419217,
-      "std": 4.0555554084
+      "mean": 19.2870590011,
+      "std": 4.5280912193
     },
     "ability_planning_patience": {
-      "mean": 32.8333555427,
-      "std": 3.7294061828
+      "mean": 15.3091664975,
+      "std": 5.8931291477
     },
     "ability_planning_improvisation": {
-      "mean": 14.3384964856,
-      "std": 4.1479824655
+      "mean": 17.3300248838,
+      "std": 4.7340638844
     },
     "ability_planning_clarity": {
-      "mean": 14.4832563117,
-      "std": 3.6364126018
+      "mean": 18.4483446774,
+      "std": 4.9033085427
     },
     "ability_planning_endurance": {
-      "mean": 19.9374457758,
-      "std": 5.852329673
+      "mean": 18.7850709669,
+      "std": 4.4391208328
     },
     "ability_planning_timing": {
-      "mean": 26.0901893454,
-      "std": 3.9388323044
+      "mean": 17.8292143685,
+      "std": 4.6976388752
     },
     "ability_planning_intuition": {
-      "mean": 23.1657083934,
-      "std": 3.2259129918
+      "mean": 15.6529841586,
+      "std": 4.9211018004
     },
     "ability_planning_discipline": {
-      "mean": 15.4949467003,
-      "std": 4.227174796
+      "mean": 19.2989821777,
+      "std": 6.4032540091
     },
     "ability_explaining_instinct": {
-      "mean": 26.0238601154,
-      "std": 3.767973995
+      "mean": 16.0182204568,
+      "std": 3.6335657504
     },
     "ability_explaining_precision": {
-      "mean": 25.3101998813,
-      "std": 3.2055465427
+      "mean": 19.1519654847,
+      "std": 4.9854618717
     },
     "ability_explaining_speed": {
-      "mean": 19.2924066852,
-      "std": 4.0100533195
+      "mean": 16.7682149996,
+      "std": 3.1180143883
     },
     "ability_explaining_patience": {
-      "mean": 33.2682483286,
-      "std": 4.4939496153
+      "mean": 18.5351718357,
+      "std": 4.4735579823
     },
     "ability_explaining_improvisation": {
-      "mean": 13.6209489388,
-      "std": 3.5283475839
+      "mean": 16.4725435737,
+      "std": 3.3091018238
     },
     "ability_explaining_clarity": {
-      "mean": 27.8435101824,
-      "std": 3.3576004412
+      "mean": 15.8566272558,
+      "std": 3.6577044812
     },
     "ability_explaining_endurance": {
-      "mean": 24.8802311689,
-      "std": 3.6026402794
+      "mean": 17.9164647844,
+      "std": 3.2099127134
     },
     "ability_explaining_timing": {
-      "mean": 22.150876045,
-      "std": 3.2884444811
+      "mean": 16.0357472142,
+      "std": 2.8317535114
     },
     "ability_explaining_intuition": {
-      "mean": 31.4319611233,
-      "std": 3.9923301393
+      "mean": 14.6890878399,
+      "std": 3.8198499227
     },
     "ability_explaining_discipline": {
-      "mean": 23.2244370449,
-      "std": 3.6858369401
+      "mean": 19.8410709237,
+      "std": 4.9020167213
     },
     "ability_repairing_instinct": {
-      "mean": 17.9901453973,
-      "std": 4.8380052966
+      "mean": 15.4753846417,
+      "std": 4.0649456977
     },
     "ability_repairing_precision": {
-      "mean": 25.7362170272,
-      "std": 3.544617487
+      "mean": 16.8022961777,
+      "std": 4.9861782115
     },
     "ability_repairing_speed": {
-      "mean": 16.9958732334,
-      "std": 4.4132753939
+      "mean": 15.9289093295,
+      "std": 3.4383914221
     },
     "ability_repairing_patience": {
-      "mean": 21.6378109679,
-      "std": 3.5879065181
+      "mean": 17.0653100431,
+      "std": 4.3579698408
     },
     "ability_repairing_improvisation": {
-      "mean": 25.7399180772,
-      "std": 4.2986832148
+      "mean": 14.4106269702,
+      "std": 4.4466835199
     },
     "ability_repairing_clarity": {
-      "mean": 25.4902145407,
-      "std": 3.9636211559
+      "mean": 16.8563062936,
+      "std": 3.4994156848
     },
     "ability_repairing_endurance": {
-      "mean": 20.8954571666,
-      "std": 5.3562788513
+      "mean": 17.0157983948,
+      "std": 3.5375942375
     },
     "ability_repairing_timing": {
-      "mean": 11.9935280533,
-      "std": 3.3715611866
+      "mean": 15.526095402,
+      "std": 3.2139547135
     },
     "ability_repairing_intuition": {
-      "mean": 22.8686624978,
-      "std": 3.9802310104
+      "mean": 13.4410616064,
+      "std": 4.2289748039
     },
     "ability_repairing_discipline": {
-      "mean": 28.4548754496,
-      "std": 5.2591966891
+      "mean": 17.0606517881,
+      "std": 4.7943876111
     },
     "ability_negotiating_instinct": {
-      "mean": 25.760373137,
-      "std": 3.8082168849
+      "mean": 17.2053341473,
+      "std": 4.0935897305
     },
     "ability_negotiating_precision": {
-      "mean": 20.0289491133,
-      "std": 3.8895253462
+      "mean": 18.6556827231,
+      "std": 4.6066320455
     },
     "ability_negotiating_speed": {
-      "mean": 29.2032120318,
-      "std": 3.2976375922
+      "mean": 17.0723468006,
+      "std": 3.082150989
     },
     "ability_negotiating_patience": {
-      "mean": 28.6675107594,
-      "std": 4.6259557781
+      "mean": 16.8625965411,
+      "std": 4.2981128293
     },
     "ability_negotiating_improvisation": {
-      "mean": 27.8803064257,
-      "std": 3.8456248227
+      "mean": 16.9534471906,
+      "std": 3.3520573318
     },
     "ability_negotiating_clarity": {
-      "mean": 26.7389452445,
-      "std": 3.4029620249
+      "mean": 15.871675616,
+      "std": 3.3753685934
     },
     "ability_negotiating_endurance": {
-      "mean": 15.7322313312,
-      "std": 5.1467488775
+      "mean": 19.3553035281,
+      "std": 3.4603036478
     },
     "ability_negotiating_timing": {
-      "mean": 15.9206187479,
-      "std": 2.5376318394
+      "mean": 18.1929631801,
+      "std": 3.4438395329
     },
     "ability_negotiating_intuition": {
-      "mean": 16.7155745551,
-      "std": 3.0402829847
+      "mean": 14.3248752555,
+      "std": 3.5935946139
     },
     "ability_negotiating_discipline": {
-      "mean": 20.2568688843,
-      "std": 2.9341153697
+      "mean": 21.4121053387,
+      "std": 5.3000834864
     },
     "ability_learning_instinct": {
-      "mean": 26.1450069971,
-      "std": 3.1174031591
+      "mean": 16.4154336192,
+      "std": 4.0015662468
     },
     "ability_learning_precision": {
-      "mean": 20.2507634297,
-      "std": 3.0441633522
+      "mean": 16.7916521094,
+      "std": 4.9931893051
     },
     "ability_learning_speed": {
-      "mean": 16.2769634343,
-      "std": 5.0129879338
+      "mean": 15.8447471646,
+      "std": 3.3422105396
     },
     "ability_learning_patience": {
-      "mean": 26.9338688368,
-      "std": 3.5690282731
+      "mean": 18.0473457893,
+      "std": 4.4008465051
     },
     "ability_learning_improvisation": {
-      "mean": 26.5650424117,
-      "std": 4.6831946005
+      "mean": 15.6812213409,
+      "std": 4.3139741838
     },
     "ability_learning_clarity": {
-      "mean": 32.6356865515,
-      "std": 3.3056996199
+      "mean": 16.9448076518,
+      "std": 3.4537170766
     },
     "ability_learning_endurance": {
-      "mean": 27.3498800135,
-      "std": 4.2822933787
+      "mean": 17.992018607,
+      "std": 3.5208900073
     },
     "ability_learning_timing": {
-      "mean": 24.0294474824,
-      "std": 4.1472867065
+      "mean": 16.4580043016,
+      "std": 3.1608413031
     },
     "ability_learning_intuition": {
-      "mean": 22.1406999036,
-      "std": 3.7484264847
+      "mean": 13.5990361832,
+      "std": 4.1343766022
     },
     "ability_learning_discipline": {
-      "mean": 26.7637185124,
-      "std": 3.3072140428
+      "mean": 17.9382638506,
+      "std": 4.850578731
     },
     "ability_organizing_instinct": {
-      "mean": 27.9118897063,
-      "std": 3.4099716066
+      "mean": 19.1456656407,
+      "std": 5.364141793
     },
     "ability_organizing_precision": {
-      "mean": 20.5431557139,
-      "std": 4.3771748858
+      "mean": 20.3968317015,
+      "std": 7.308101204
     },
     "ability_organizing_speed": {
-      "mean": 24.4323105108,
-      "std": 3.4909921853
+      "mean": 20.5783441029,
+      "std": 4.3148021948
     },
     "ability_organizing_patience": {
-      "mean": 36.143552072,
-      "std": 3.6466866634
+      "mean": 19.4129054643,
+      "std": 5.1846401449
     },
     "ability_organizing_improvisation": {
-      "mean": 15.7057615578,
-      "std": 5.861004512
+      "mean": 19.6324089921,
+      "std": 4.7336779747
     },
     "ability_organizing_clarity": {
-      "mean": 27.7351428018,
-      "std": 3.9634766429
+      "mean": 21.3734297222,
+      "std": 5.7064763128
     },
     "ability_organizing_endurance": {
-      "mean": 22.539505955,
-      "std": 4.0822127949
+      "mean": 19.6753902913,
+      "std": 4.1539943291
     },
     "ability_organizing_timing": {
-      "mean": 16.7398510165,
-      "std": 3.8180127395
+      "mean": 19.2514524571,
+      "std": 4.4821800826
     },
     "ability_organizing_intuition": {
-      "mean": 27.5486674962,
-      "std": 3.820152595
+      "mean": 18.8055285581,
+      "std": 5.031445483
     },
     "ability_organizing_discipline": {
-      "mean": 24.6325867831,
-      "std": 3.0477355043
+      "mean": 19.9149875096,
+      "std": 6.4770307621
     },
     "ability_adapting_instinct": {
-      "mean": 24.8974532782,
-      "std": 5.2362308573
+      "mean": 17.3635393187,
+      "std": 4.291351457
     },
     "ability_adapting_precision": {
-      "mean": 24.6151655545,
-      "std": 3.3101930541
+      "mean": 19.0742419725,
+      "std": 5.4383839366
     },
     "ability_adapting_speed": {
-      "mean": 28.3820863438,
-      "std": 3.9235164636
+      "mean": 17.32321388,
+      "std": 3.2140206701
     },
     "ability_adapting_patience": {
-      "mean": 27.0468512149,
-      "std": 4.4242343246
+      "mean": 17.3650390458,
+      "std": 5.1317972425
     },
     "ability_adapting_improvisation": {
-      "mean": 22.1161813324,
-      "std": 3.7281738072
+      "mean": 16.2396289215,
+      "std": 4.5093926967
     },
     "ability_adapting_clarity": {
-      "mean": 22.1201663779,
-      "std": 3.7951740514
+      "mean": 17.8715809639,
+      "std": 3.5686020394
     },
     "ability_adapting_endurance": {
-      "mean": 26.3722797047,
-      "std": 3.9430761901
+      "mean": 19.5713033976,
+      "std": 4.2219127562
     },
     "ability_adapting_timing": {
-      "mean": 26.9182531627,
-      "std": 3.5296510693
+      "mean": 17.5457183194,
+      "std": 3.6933931088
     },
     "ability_adapting_intuition": {
-      "mean": 21.8215468129,
-      "std": 3.879993302
+      "mean": 14.8438817373,
+      "std": 4.1522648
     },
     "ability_adapting_discipline": {
-      "mean": 25.5360045001,
-      "std": 3.2647099166
+      "mean": 21.5550967947,
+      "std": 6.1160387648
     },
     "ability_observing_instinct": {
-      "mean": 19.2037319639,
-      "std": 3.1720065142
+      "mean": 16.0524938469,
+      "std": 4.081877668
     },
     "ability_observing_precision": {
-      "mean": 35.0408950501,
-      "std": 3.4728582011
+      "mean": 17.8687012591,
+      "std": 5.4614550544
     },
     "ability_observing_speed": {
-      "mean": 22.2376953605,
-      "std": 3.7685047945
+      "mean": 16.130661358,
+      "std": 3.416098528
     },
     "ability_observing_patience": {
-      "mean": 27.8355470043,
-      "std": 3.9662378863
+      "mean": 16.1258509848,
+      "std": 5.376645796
     },
     "ability_observing_improvisation": {
-      "mean": 22.9641261132,
-      "std": 3.6582170323
+      "mean": 15.8847725528,
+      "std": 3.4944008945
     },
     "ability_observing_clarity": {
-      "mean": 26.5551880706,
-      "std": 3.8767374428
+      "mean": 16.2453460562,
+      "std": 3.4172251189
     },
     "ability_observing_endurance": {
-      "mean": 14.800948612,
-      "std": 3.3550002757
+      "mean": 18.2700545203,
+      "std": 3.7907608506
     },
     "ability_observing_timing": {
-      "mean": 30.7044300483,
-      "std": 3.9053286773
+      "mean": 16.0948169977,
+      "std": 3.1232268267
     },
     "ability_observing_intuition": {
-      "mean": 28.2241675053,
-      "std": 4.1106336047
+      "mean": 12.2068034391,
+      "std": 3.5525962053
     },
     "ability_observing_discipline": {
-      "mean": 12.4997617889,
-      "std": 3.6407575065
+      "mean": 20.3333401214,
+      "std": 5.8555702972
     },
     "ability_prioritizing_instinct": {
-      "mean": 24.2878568634,
-      "std": 2.892801811
+      "mean": 18.3129424466,
+      "std": 5.4841750167
     },
     "ability_prioritizing_precision": {
-      "mean": 23.992339135,
-      "std": 4.2268557461
+      "mean": 19.8065804124,
+      "std": 7.4104407673
     },
     "ability_prioritizing_speed": {
-      "mean": 30.438216201,
-      "std": 4.1542509755
+      "mean": 19.3210678604,
+      "std": 4.2691906415
     },
     "ability_prioritizing_patience": {
-      "mean": 25.2078519762,
-      "std": 3.7447699637
+      "mean": 18.76320664,
+      "std": 5.3395779408
     },
     "ability_prioritizing_improvisation": {
-      "mean": 17.7235509947,
-      "std": 3.5296817805
+      "mean": 18.8240766955,
+      "std": 4.8582747174
     },
     "ability_prioritizing_clarity": {
-      "mean": 14.6599957611,
-      "std": 2.9838360575
+      "mean": 20.7601869228,
+      "std": 5.6448090253
     },
     "ability_prioritizing_endurance": {
-      "mean": 30.2284648553,
-      "std": 4.4205918713
+      "mean": 19.0428399602,
+      "std": 4.2159841379
     },
     "ability_prioritizing_timing": {
-      "mean": 27.5373483176,
-      "std": 3.811858816
+      "mean": 18.4440853191,
+      "std": 4.5424204349
     },
     "ability_prioritizing_intuition": {
-      "mean": 29.3511815477,
-      "std": 3.3991540743
+      "mean": 17.2776219245,
+      "std": 5.0883215931
     },
     "ability_prioritizing_discipline": {
-      "mean": 20.5815098266,
-      "std": 3.5196600109
+      "mean": 19.620120641,
+      "std": 6.693358726
     },
     "ability_debugging_instinct": {
-      "mean": 23.2358697636,
-      "std": 3.4145741063
+      "mean": 17.6828961884,
+      "std": 3.9820098432
     },
     "ability_debugging_precision": {
-      "mean": 18.3310032989,
-      "std": 4.0905278458
+      "mean": 18.6284490061,
+      "std": 5.2982585466
     },
     "ability_debugging_speed": {
-      "mean": 28.1293243236,
-      "std": 3.3805719086
+      "mean": 17.1119365649,
+      "std": 3.5749296496
     },
     "ability_debugging_patience": {
-      "mean": 14.7052627244,
-      "std": 3.5000421246
+      "mean": 16.9283314866,
+      "std": 4.6057300268
     },
     "ability_debugging_improvisation": {
-      "mean": 18.743160637,
-      "std": 4.1996995133
+      "mean": 16.1395008378,
+      "std": 3.867958726
     },
     "ability_debugging_clarity": {
-      "mean": 22.5502889765,
-      "std": 4.3312973897
+      "mean": 17.0869147241,
+      "std": 3.0981803065
     },
     "ability_debugging_endurance": {
-      "mean": 23.8137065382,
-      "std": 3.268143853
+      "mean": 19.6836615777,
+      "std": 3.8620153928
     },
     "ability_debugging_timing": {
-      "mean": 20.9868647024,
-      "std": 3.5147968123
+      "mean": 17.6874952818,
+      "std": 3.1854554862
     },
     "ability_debugging_intuition": {
-      "mean": 21.6745310906,
-      "std": 3.7646773217
+      "mean": 13.2960769578,
+      "std": 3.6381599103
     },
     "ability_debugging_discipline": {
-      "mean": 33.6183071334,
-      "std": 3.4761106832
+      "mean": 21.6431981909,
+      "std": 5.7185078536
     },
     "ability_teaching_instinct": {
-      "mean": 32.1336642568,
-      "std": 4.8038551979
+      "mean": 17.1902540172,
+      "std": 4.0040837682
     },
     "ability_teaching_precision": {
-      "mean": 23.3427651653,
-      "std": 4.4319910243
+      "mean": 20.3725774873,
+      "std": 5.1161308156
     },
     "ability_teaching_speed": {
-      "mean": 22.129109416,
-      "std": 3.8656780074
+      "mean": 18.080652061,
+      "std": 3.5141378813
     },
     "ability_teaching_patience": {
-      "mean": 11.6609087754,
-      "std": 3.6706466095
+      "mean": 18.9078570753,
+      "std": 4.5876530843
     },
     "ability_teaching_improvisation": {
-      "mean": 31.4263096053,
-      "std": 3.7736124945
+      "mean": 17.6337985288,
+      "std": 3.618746944
     },
     "ability_teaching_clarity": {
-      "mean": 18.7626381838,
-      "std": 2.9467431257
+      "mean": 17.5451480126,
+      "std": 4.3513596976
     },
     "ability_teaching_endurance": {
-      "mean": 25.4051271486,
-      "std": 4.8194395835
+      "mean": 19.0058119949,
+      "std": 3.440013626
     },
     "ability_teaching_timing": {
-      "mean": 26.473072347,
-      "std": 3.1064965013
+      "mean": 17.2361796403,
+      "std": 3.1351971881
     },
     "ability_teaching_intuition": {
-      "mean": 25.6882679451,
-      "std": 3.8375000516
+      "mean": 15.685956953,
+      "std": 4.2278610987
     },
     "ability_teaching_discipline": {
-      "mean": 24.4388383967,
-      "std": 4.2533153134
+      "mean": 20.8497219086,
+      "std": 4.9737604489
     }
   },
   "workStyles": {
@@ -3331,484 +3331,484 @@
       "std": 5.8540410905
     },
     "workstyle_sprint_planner": {
-      "mean": 22.8139430916,
-      "std": 3.7500489704
+      "mean": 18.9752581083,
+      "std": 3.9959634285
     },
     "workstyle_sprint_improviser": {
-      "mean": 19.7915338278,
-      "std": 4.3447207901
+      "mean": 19.74940121,
+      "std": 3.7335564606
     },
     "workstyle_sprint_collaborator": {
-      "mean": 29.3243307574,
-      "std": 4.2869028017
+      "mean": 19.4973590595,
+      "std": 3.6708309284
     },
     "workstyle_sprint_soloist": {
-      "mean": 12.8963281566,
-      "std": 3.6536420293
+      "mean": 25.3571172295,
+      "std": 3.9704309348
     },
     "workstyle_sprint_optimizer": {
-      "mean": 32.2395433277,
-      "std": 3.2990452186
+      "mean": 21.3904093757,
+      "std": 3.6510100985
     },
     "workstyle_sprint_finisher": {
-      "mean": 14.2137049941,
-      "std": 3.5496634124
+      "mean": 21.7548290788,
+      "std": 4.9491101978
     },
     "workstyle_sprint_explorer": {
-      "mean": 20.3047139418,
-      "std": 4.6562955671
+      "mean": 18.2992158551,
+      "std": 4.0511636711
     },
     "workstyle_sprint_coordinator": {
-      "mean": 30.5631379364,
-      "std": 3.9375770233
+      "mean": 19.7817456616,
+      "std": 3.6481593413
     },
     "workstyle_sprint_maker": {
-      "mean": 17.642795598,
-      "std": 4.9116901524
+      "mean": 20.616064308,
+      "std": 3.5969009504
     },
     "workstyle_sprint_reviewer": {
-      "mean": 21.1084825528,
-      "std": 3.3375067016
+      "mean": 21.9898165128,
+      "std": 4.0456576394
     },
     "workstyle_steady_planner": {
-      "mean": 28.8370743098,
-      "std": 3.4284625203
+      "mean": 15.0104648611,
+      "std": 6.1790889015
     },
     "workstyle_steady_improviser": {
-      "mean": 18.1927353665,
-      "std": 3.646052187
+      "mean": 17.1296033669,
+      "std": 4.7493534815
     },
     "workstyle_steady_collaborator": {
-      "mean": 20.2643754401,
-      "std": 4.8000240996
+      "mean": 16.7980820193,
+      "std": 4.597751676
     },
     "workstyle_steady_soloist": {
-      "mean": 17.1599664812,
-      "std": 4.1608232795
+      "mean": 21.9700186376,
+      "std": 4.7681527938
     },
     "workstyle_steady_optimizer": {
-      "mean": 22.4975597425,
-      "std": 3.7825016811
+      "mean": 17.6123300717,
+      "std": 4.8326598727
     },
     "workstyle_steady_finisher": {
-      "mean": 27.656319551,
-      "std": 3.4343197617
+      "mean": 20.0700938458,
+      "std": 5.7426455595
     },
     "workstyle_steady_explorer": {
-      "mean": 30.7983469613,
-      "std": 3.0580469449
+      "mean": 17.4130827589,
+      "std": 4.6729250831
     },
     "workstyle_steady_coordinator": {
-      "mean": 21.1097400046,
-      "std": 3.442070637
+      "mean": 15.6647925155,
+      "std": 4.6808212363
     },
     "workstyle_steady_maker": {
-      "mean": 28.2917523089,
-      "std": 3.0646508159
+      "mean": 16.0647241711,
+      "std": 4.307403546
     },
     "workstyle_steady_reviewer": {
-      "mean": 16.6268085257,
-      "std": 3.0325910124
+      "mean": 18.5409915378,
+      "std": 5.1788312189
     },
     "workstyle_deep_focus_planner": {
-      "mean": 15.2177249733,
-      "std": 4.5167148797
+      "mean": 25.5712707851,
+      "std": 5.7844204927
     },
     "workstyle_deep_focus_improviser": {
-      "mean": 15.0789295523,
-      "std": 4.1099919168
+      "mean": 24.3608331113,
+      "std": 4.8650293033
     },
     "workstyle_deep_focus_collaborator": {
-      "mean": 21.4914663102,
-      "std": 4.0349439284
+      "mean": 18.9931920724,
+      "std": 5.0995983079
     },
     "workstyle_deep_focus_soloist": {
-      "mean": 21.9455833993,
-      "std": 3.6406513973
+      "mean": 27.1276736048,
+      "std": 6.2087286506
     },
     "workstyle_deep_focus_optimizer": {
-      "mean": 30.3854699404,
-      "std": 4.1068540072
+      "mean": 26.7891415112,
+      "std": 5.4519911129
     },
     "workstyle_deep_focus_finisher": {
-      "mean": 23.4941937653,
-      "std": 3.7870238076
+      "mean": 26.444140016,
+      "std": 5.0695761969
     },
     "workstyle_deep_focus_explorer": {
-      "mean": 30.0184442779,
-      "std": 4.3797735635
+      "mean": 23.8756251573,
+      "std": 4.5380641998
     },
     "workstyle_deep_focus_coordinator": {
-      "mean": 20.6400793922,
-      "std": 4.6511449503
+      "mean": 19.8021147846,
+      "std": 5.3504995147
     },
     "workstyle_deep_focus_maker": {
-      "mean": 27.5291237396,
-      "std": 3.9428550735
+      "mean": 25.9350867575,
+      "std": 5.2091515508
     },
     "workstyle_deep_focus_reviewer": {
-      "mean": 24.6167351465,
-      "std": 5.1839123638
+      "mean": 28.0383076592,
+      "std": 5.7923323117
     },
     "workstyle_social_planner": {
-      "mean": 28.9966422442,
-      "std": 3.6936966885
+      "mean": 17.401170046,
+      "std": 4.585587679
     },
     "workstyle_social_improviser": {
-      "mean": 29.0407597019,
-      "std": 3.6123795393
+      "mean": 17.137646587,
+      "std": 3.7077377818
     },
     "workstyle_social_collaborator": {
-      "mean": 23.4324802898,
-      "std": 3.7433831582
+      "mean": 15.997204715,
+      "std": 5.8484386498
     },
     "workstyle_social_soloist": {
-      "mean": 20.8999696662,
-      "std": 4.0744800836
+      "mean": 14.3120768003,
+      "std": 3.8082302531
     },
     "workstyle_social_optimizer": {
-      "mean": 30.6985503675,
-      "std": 3.6722688719
+      "mean": 18.6311450093,
+      "std": 3.928210234
     },
     "workstyle_social_finisher": {
-      "mean": 27.3652794968,
-      "std": 3.6495750521
+      "mean": 20.7218202173,
+      "std": 4.0244196536
     },
     "workstyle_social_explorer": {
-      "mean": 32.0599365917,
-      "std": 4.671084714
+      "mean": 16.3829489779,
+      "std": 3.544860522
     },
     "workstyle_social_coordinator": {
-      "mean": 15.2169929156,
-      "std": 3.3991837166
+      "mean": 16.3384716533,
+      "std": 5.2101827255
     },
     "workstyle_social_maker": {
-      "mean": 29.821274173,
-      "std": 4.4852476744
+      "mean": 17.0904919784,
+      "std": 3.5427861827
     },
     "workstyle_social_reviewer": {
-      "mean": 27.9383722481,
-      "std": 3.46682604
+      "mean": 19.67443487,
+      "std": 4.2222362812
     },
     "workstyle_night_owl_planner": {
-      "mean": 18.3631752132,
-      "std": 3.4847576803
+      "mean": 16.4245458072,
+      "std": 5.3911438205
     },
     "workstyle_night_owl_improviser": {
-      "mean": 34.3392732042,
-      "std": 3.3776464896
+      "mean": 15.1768939202,
+      "std": 4.8011999475
     },
     "workstyle_night_owl_collaborator": {
-      "mean": 31.3480662816,
-      "std": 3.4923817669
+      "mean": 15.881722202,
+      "std": 4.1897688757
     },
     "workstyle_night_owl_soloist": {
-      "mean": 26.8688008121,
-      "std": 4.3323107291
+      "mean": 21.2755158462,
+      "std": 4.1401407556
     },
     "workstyle_night_owl_optimizer": {
-      "mean": 24.6378960839,
-      "std": 6.006164602
+      "mean": 17.7683697704,
+      "std": 4.6730331729
     },
     "workstyle_night_owl_finisher": {
-      "mean": 32.6005975335,
-      "std": 4.1752405669
+      "mean": 20.0370611708,
+      "std": 5.5869447497
     },
     "workstyle_night_owl_explorer": {
-      "mean": 18.7867886751,
-      "std": 3.1743804559
+      "mean": 14.6253162146,
+      "std": 4.4934358373
     },
     "workstyle_night_owl_coordinator": {
-      "mean": 31.4471077373,
-      "std": 3.8872104343
+      "mean": 16.1712129832,
+      "std": 4.5643481445
     },
     "workstyle_night_owl_maker": {
-      "mean": 32.8011410833,
-      "std": 3.5446739815
+      "mean": 14.9743412648,
+      "std": 4.469869314
     },
     "workstyle_night_owl_reviewer": {
-      "mean": 15.2318665136,
-      "std": 4.0086143713
+      "mean": 18.8244804142,
+      "std": 5.0548399711
     },
     "workstyle_early_bird_planner": {
-      "mean": 20.7094046,
-      "std": 4.3957730964
+      "mean": 16.1688621939,
+      "std": 5.1329543494
     },
     "workstyle_early_bird_improviser": {
-      "mean": 23.1950512119,
-      "std": 3.4992860146
+      "mean": 17.088416563,
+      "std": 4.1899112205
     },
     "workstyle_early_bird_collaborator": {
-      "mean": 27.9301014632,
-      "std": 4.9798325529
+      "mean": 16.772375819,
+      "std": 3.9486650975
     },
     "workstyle_early_bird_soloist": {
-      "mean": 24.7143237015,
-      "std": 5.6073494015
+      "mean": 22.0907770664,
+      "std": 4.4292645666
     },
     "workstyle_early_bird_optimizer": {
-      "mean": 26.9913970502,
-      "std": 3.9563980181
+      "mean": 17.8113774133,
+      "std": 4.1118636458
     },
     "workstyle_early_bird_finisher": {
-      "mean": 25.8789214512,
-      "std": 3.5496893557
+      "mean": 19.7996161424,
+      "std": 5.1647590085
     },
     "workstyle_early_bird_explorer": {
-      "mean": 13.6114130271,
-      "std": 3.2051201858
+      "mean": 16.6969987785,
+      "std": 4.3698979154
     },
     "workstyle_early_bird_coordinator": {
-      "mean": 33.7156191318,
-      "std": 4.5037680403
+      "mean": 15.9082317787,
+      "std": 3.8506869097
     },
     "workstyle_early_bird_maker": {
-      "mean": 21.2490102747,
-      "std": 3.1497030041
+      "mean": 16.2709862326,
+      "std": 3.8584855861
     },
     "workstyle_early_bird_reviewer": {
-      "mean": 21.3693355106,
-      "std": 4.032026765
+      "mean": 18.7192284486,
+      "std": 4.4702306752
     },
     "workstyle_batch_planner": {
-      "mean": 18.8359580378,
-      "std": 3.126044593
+      "mean": 16.1698129758,
+      "std": 5.9310735392
     },
     "workstyle_batch_improviser": {
-      "mean": 13.5086992566,
-      "std": 3.5573619992
+      "mean": 17.0324204847,
+      "std": 4.5315003879
     },
     "workstyle_batch_collaborator": {
-      "mean": 20.6059899505,
-      "std": 3.276138707
+      "mean": 16.6876472234,
+      "std": 4.4153690085
     },
     "workstyle_batch_soloist": {
-      "mean": 27.4995384325,
-      "std": 3.4714683732
+      "mean": 24.1428796425,
+      "std": 5.1467885686
     },
     "workstyle_batch_optimizer": {
-      "mean": 20.9056909739,
-      "std": 4.3142274209
+      "mean": 17.9066948468,
+      "std": 5.101339497
     },
     "workstyle_batch_finisher": {
-      "mean": 24.8507950912,
-      "std": 3.8245657711
+      "mean": 18.6090708676,
+      "std": 5.1000506314
     },
     "workstyle_batch_explorer": {
-      "mean": 17.9476121341,
-      "std": 3.2818331286
+      "mean": 16.3680744087,
+      "std": 4.0304822068
     },
     "workstyle_batch_coordinator": {
-      "mean": 27.9272301343,
-      "std": 3.9266890663
+      "mean": 15.7792336274,
+      "std": 4.4941764686
     },
     "workstyle_batch_maker": {
-      "mean": 30.9001019427,
-      "std": 3.6945189036
+      "mean": 17.5574323736,
+      "std": 4.5597838158
     },
     "workstyle_batch_reviewer": {
-      "mean": 20.9151709334,
-      "std": 3.5390904897
+      "mean": 18.729620124,
+      "std": 6.5805463308
     },
     "workstyle_reactive_planner": {
-      "mean": 25.5519634775,
-      "std": 5.3463952758
+      "mean": 17.4241673575,
+      "std": 4.9476353846
     },
     "workstyle_reactive_improviser": {
-      "mean": 20.7913637513,
-      "std": 3.1683350037
+      "mean": 16.7017733904,
+      "std": 3.5563596013
     },
     "workstyle_reactive_collaborator": {
-      "mean": 17.5482810478,
-      "std": 3.2245948999
+      "mean": 15.7679694846,
+      "std": 3.6789643018
     },
     "workstyle_reactive_soloist": {
-      "mean": 20.5393211795,
-      "std": 3.3733789421
+      "mean": 21.1470936325,
+      "std": 3.8689982638
     },
     "workstyle_reactive_optimizer": {
-      "mean": 25.5869664006,
-      "std": 3.7831746477
+      "mean": 17.7445168766,
+      "std": 3.8813271976
     },
     "workstyle_reactive_finisher": {
-      "mean": 16.2646631208,
-      "std": 3.6830236989
+      "mean": 20.039836901,
+      "std": 5.1885436282
     },
     "workstyle_reactive_explorer": {
-      "mean": 22.0643997253,
-      "std": 3.2461574353
+      "mean": 15.0293334496,
+      "std": 3.7715588371
     },
     "workstyle_reactive_coordinator": {
-      "mean": 29.9812611629,
-      "std": 3.4168497794
+      "mean": 16.1472089222,
+      "std": 3.7402438452
     },
     "workstyle_reactive_maker": {
-      "mean": 17.8397408717,
-      "std": 3.7736952221
+      "mean": 16.1289976016,
+      "std": 3.4458476995
     },
     "workstyle_reactive_reviewer": {
-      "mean": 25.0493022702,
-      "std": 3.596586684
+      "mean": 18.7967457728,
+      "std": 4.356052688
     },
     "workstyle_ritual_planner": {
-      "mean": 34.9376741223,
-      "std": 3.5402420246
+      "mean": 30.2462609376,
+      "std": 6.9322795165
     },
     "workstyle_ritual_improviser": {
-      "mean": 25.4154415964,
-      "std": 4.0925690945
+      "mean": 22.984344547,
+      "std": 6.1668739037
     },
     "workstyle_ritual_collaborator": {
-      "mean": 22.3212174889,
-      "std": 3.9601704274
+      "mean": 27.5717166789,
+      "std": 5.6675329181
     },
     "workstyle_ritual_soloist": {
-      "mean": 15.1426825284,
-      "std": 4.1097338735
+      "mean": 32.0388457433,
+      "std": 5.3709819808
     },
     "workstyle_ritual_optimizer": {
-      "mean": 30.4192648643,
-      "std": 3.4217585801
+      "mean": 29.2038215129,
+      "std": 5.9500979021
     },
     "workstyle_ritual_finisher": {
-      "mean": 24.1470539151,
-      "std": 3.5578594531
+      "mean": 30.256455719,
+      "std": 5.9143830891
     },
     "workstyle_ritual_explorer": {
-      "mean": 25.4670352676,
-      "std": 5.6107356629
+      "mean": 27.433428299,
+      "std": 5.0904906538
     },
     "workstyle_ritual_coordinator": {
-      "mean": 24.6192741985,
-      "std": 3.4515515266
+      "mean": 28.0544276683,
+      "std": 5.9129505499
     },
     "workstyle_ritual_maker": {
-      "mean": 20.2117835799,
-      "std": 3.5934330643
+      "mean": 28.1943038408,
+      "std": 5.406329895
     },
     "workstyle_ritual_reviewer": {
-      "mean": 21.0724992038,
-      "std": 4.5525967653
+      "mean": 29.803771881,
+      "std": 6.2802806997
     },
     "workstyle_async_planner": {
-      "mean": 19.3525581262,
-      "std": 3.6274555784
+      "mean": 17.5497976373,
+      "std": 4.8043595713
     },
     "workstyle_async_improviser": {
-      "mean": 34.1116388847,
-      "std": 4.4054030385
+      "mean": 18.5898555046,
+      "std": 4.2102362146
     },
     "workstyle_async_collaborator": {
-      "mean": 27.2356103194,
-      "std": 3.6107649966
+      "mean": 14.1328515428,
+      "std": 4.7209911321
     },
     "workstyle_async_soloist": {
-      "mean": 29.7530522689,
-      "std": 5.671880701
+      "mean": 20.1039324053,
+      "std": 4.8543070403
     },
     "workstyle_async_optimizer": {
-      "mean": 21.2909702908,
-      "std": 3.1743583197
+      "mean": 19.9061667368,
+      "std": 4.4803055529
     },
     "workstyle_async_finisher": {
-      "mean": 24.1358631526,
-      "std": 3.938502238
+      "mean": 21.0666663823,
+      "std": 4.5486661271
     },
     "workstyle_async_explorer": {
-      "mean": 21.6410058875,
-      "std": 4.2189229486
+      "mean": 17.9097397506,
+      "std": 4.0088454781
     },
     "workstyle_async_coordinator": {
-      "mean": 18.3914454108,
-      "std": 3.3611990471
+      "mean": 15.4720702798,
+      "std": 5.5812669939
     },
     "workstyle_async_maker": {
-      "mean": 21.8488820805,
-      "std": 3.5593920593
+      "mean": 18.7319836057,
+      "std": 4.2569611455
     },
     "workstyle_async_reviewer": {
-      "mean": 16.4914986844,
-      "std": 4.627114775
+      "mean": 20.6680233043,
+      "std": 4.7959683792
     },
     "workstyle_deadline_planner": {
-      "mean": 17.8170790446,
-      "std": 3.8723805321
+      "mean": 14.6368385196,
+      "std": 3.5297680023
     },
     "workstyle_deadline_improviser": {
-      "mean": 21.1797649852,
-      "std": 3.5987944979
+      "mean": 19.2570060901,
+      "std": 4.2466844064
     },
     "workstyle_deadline_collaborator": {
-      "mean": 24.3962120998,
-      "std": 4.8497273309
+      "mean": 17.7143146269,
+      "std": 4.3290215175
     },
     "workstyle_deadline_soloist": {
-      "mean": 28.7999524148,
-      "std": 3.6167643326
+      "mean": 22.7698573497,
+      "std": 4.0681042606
     },
     "workstyle_deadline_optimizer": {
-      "mean": 30.1268095004,
-      "std": 3.0321690797
+      "mean": 18.0123518908,
+      "std": 3.14687581
     },
     "workstyle_deadline_finisher": {
-      "mean": 22.5931230707,
-      "std": 4.2260966916
+      "mean": 17.90846051,
+      "std": 3.9373191592
     },
     "workstyle_deadline_explorer": {
-      "mean": 32.0920275496,
-      "std": 3.4754550429
+      "mean": 16.7419716994,
+      "std": 4.8341712439
     },
     "workstyle_deadline_coordinator": {
-      "mean": 17.1025439462,
-      "std": 4.5517173207
+      "mean": 16.0140755498,
+      "std": 3.4123411735
     },
     "workstyle_deadline_maker": {
-      "mean": 22.1927995482,
-      "std": 3.6008366916
+      "mean": 17.4903863825,
+      "std": 3.8359285955
     },
     "workstyle_deadline_reviewer": {
-      "mean": 26.0121890732,
-      "std": 3.5332213282
+      "mean": 18.5995891409,
+      "std": 3.3230738463
     },
     "workstyle_flow_planner": {
-      "mean": 20.9697516947,
-      "std": 3.1619557019
+      "mean": 17.5531843823,
+      "std": 4.6257252447
     },
     "workstyle_flow_improviser": {
-      "mean": 15.651012193,
-      "std": 3.8582803596
+      "mean": 15.0412744546,
+      "std": 3.6430161653
     },
     "workstyle_flow_collaborator": {
-      "mean": 12.389111672,
-      "std": 3.479915513
+      "mean": 16.0158186994,
+      "std": 3.3703715998
     },
     "workstyle_flow_soloist": {
-      "mean": 31.2245275404,
-      "std": 2.9689279568
+      "mean": 21.259313724,
+      "std": 3.9890487567
     },
     "workstyle_flow_optimizer": {
-      "mean": 25.7314632074,
-      "std": 6.2612898994
+      "mean": 17.942480906,
+      "std": 3.701644536
     },
     "workstyle_flow_finisher": {
-      "mean": 19.8527176736,
-      "std": 3.0548782253
+      "mean": 20.7863871755,
+      "std": 4.6927139472
     },
     "workstyle_flow_explorer": {
-      "mean": 27.9283876544,
-      "std": 4.1461805347
+      "mean": 14.7745652445,
+      "std": 4.2234318788
     },
     "workstyle_flow_coordinator": {
-      "mean": 30.1171693438,
-      "std": 4.8502145023
+      "mean": 16.4008399501,
+      "std": 3.3817809311
     },
     "workstyle_flow_maker": {
-      "mean": 23.6446720771,
-      "std": 3.3995831657
+      "mean": 14.9145320173,
+      "std": 3.7008429721
     },
     "workstyle_flow_reviewer": {
-      "mean": 27.5687924202,
-      "std": 5.036816239
+      "mean": 19.0099787809,
+      "std": 4.0762441963
     }
   },
   "animals": {
@@ -3933,484 +3933,484 @@
       "std": 3.7543465894
     },
     "animal_arctic_fox": {
-      "mean": 23.3024174893,
-      "std": 3.9092474749
+      "mean": 14.9784735196,
+      "std": 4.5051175741
     },
     "animal_arctic_wolf": {
-      "mean": 28.8580069188,
-      "std": 3.7234450905
+      "mean": 14.3473581491,
+      "std": 4.6429316323
     },
     "animal_arctic_owl": {
-      "mean": 19.1980845244,
-      "std": 4.3838248818
+      "mean": 22.5832326086,
+      "std": 4.7055997433
     },
     "animal_arctic_otter": {
-      "mean": 27.8249279686,
-      "std": 3.7055233829
+      "mean": 14.7738614798,
+      "std": 3.9524995856
     },
     "animal_arctic_falcon": {
-      "mean": 30.1279325798,
-      "std": 3.9662742968
+      "mean": 14.8511450407,
+      "std": 4.3533388312
     },
     "animal_arctic_lynx": {
-      "mean": 23.5384252274,
-      "std": 3.4403354218
+      "mean": 22.2953294151,
+      "std": 4.6325964935
     },
     "animal_arctic_bear": {
-      "mean": 19.5238289341,
-      "std": 4.9282099948
+      "mean": 14.2358145376,
+      "std": 5.8921710304
     },
     "animal_arctic_rabbit": {
-      "mean": 28.3078610165,
-      "std": 6.8198893934
+      "mean": 16.8129126952,
+      "std": 6.1709725088
     },
     "animal_arctic_raven": {
-      "mean": 26.2145076334,
-      "std": 3.1520352481
+      "mean": 15.8441075378,
+      "std": 4.13913594
     },
     "animal_arctic_gecko": {
-      "mean": 16.3012187703,
-      "std": 3.0958703573
+      "mean": 13.7793671395,
+      "std": 4.1723126961
     },
     "animal_arctic_dolphin": {
-      "mean": 28.4765227742,
-      "std": 3.1113444075
+      "mean": 16.2998807942,
+      "std": 4.1022915662
     },
     "animal_arctic_turtle": {
-      "mean": 25.8736540244,
-      "std": 4.1329748072
+      "mean": 28.9765186796,
+      "std": 8.1949612697
     },
     "animal_arctic_badger": {
-      "mean": 22.3972500429,
-      "std": 3.819937676
+      "mean": 17.7498998655,
+      "std": 4.6294525338
     },
     "animal_arctic_heron": {
-      "mean": 14.3199858882,
-      "std": 4.107707085
+      "mean": 14.8816021814,
+      "std": 5.3097072909
     },
     "animal_desert_fox": {
-      "mean": 14.9496652943,
-      "std": 3.6508338212
+      "mean": 14.7375478103,
+      "std": 3.7692249255
     },
     "animal_desert_wolf": {
-      "mean": 26.6370271173,
-      "std": 4.2381583679
+      "mean": 14.8989346823,
+      "std": 4.4319162145
     },
     "animal_desert_owl": {
-      "mean": 22.7712272989,
-      "std": 2.9927157071
+      "mean": 22.5383041433,
+      "std": 4.3477067913
     },
     "animal_desert_otter": {
-      "mean": 25.6639312686,
-      "std": 4.1776235481
+      "mean": 15.041180368,
+      "std": 3.5999740467
     },
     "animal_desert_falcon": {
-      "mean": 16.4606883285,
-      "std": 4.4609337309
+      "mean": 14.9203428646,
+      "std": 4.006336082
     },
     "animal_desert_lynx": {
-      "mean": 16.5372776188,
-      "std": 3.7997555568
+      "mean": 22.2330773383,
+      "std": 4.3087794176
     },
     "animal_desert_bear": {
-      "mean": 25.4448319705,
-      "std": 4.0523202396
+      "mean": 14.3453215729,
+      "std": 4.9803134743
     },
     "animal_desert_rabbit": {
-      "mean": 24.6445980658,
-      "std": 3.3864813853
+      "mean": 16.1123019129,
+      "std": 4.7233893623
     },
     "animal_desert_raven": {
-      "mean": 24.2263370271,
-      "std": 3.0114372398
+      "mean": 15.6398170572,
+      "std": 3.6175436994
     },
     "animal_desert_gecko": {
-      "mean": 20.0864537384,
-      "std": 4.9223987596
+      "mean": 13.7776696572,
+      "std": 3.547902876
     },
     "animal_desert_dolphin": {
-      "mean": 27.5943607446,
-      "std": 4.5201764455
+      "mean": 16.1016219445,
+      "std": 3.574211907
     },
     "animal_desert_turtle": {
-      "mean": 34.361530767,
-      "std": 2.9900596454
+      "mean": 22.0239631995,
+      "std": 7.4101106595
     },
     "animal_desert_badger": {
-      "mean": 21.8372061531,
-      "std": 4.017818325
+      "mean": 18.2726255256,
+      "std": 4.5164052521
     },
     "animal_desert_heron": {
-      "mean": 28.5039742187,
-      "std": 4.3855357417
+      "mean": 15.0635895006,
+      "std": 4.8098469163
     },
     "animal_forest_fox": {
-      "mean": 13.7737439315,
-      "std": 3.7486892965
+      "mean": 12.0658037076,
+      "std": 4.0970295203
     },
     "animal_forest_wolf": {
-      "mean": 22.474176045,
-      "std": 4.0556780481
+      "mean": 12.5328058858,
+      "std": 3.1692717295
     },
     "animal_forest_owl": {
-      "mean": 22.1653579636,
-      "std": 4.1768472572
+      "mean": 20.543729581,
+      "std": 4.3309198678
     },
     "animal_forest_otter": {
-      "mean": 24.963791959,
-      "std": 4.8272035757
+      "mean": 12.7938971052,
+      "std": 2.759893149
     },
     "animal_forest_falcon": {
-      "mean": 24.680928707,
-      "std": 4.0536092755
+      "mean": 13.4936146485,
+      "std": 3.6778629281
     },
     "animal_forest_lynx": {
-      "mean": 27.7267281149,
-      "std": 3.679896472
+      "mean": 21.144622232,
+      "std": 4.3312966497
     },
     "animal_forest_bear": {
-      "mean": 31.0336592435,
-      "std": 4.4684916124
+      "mean": 12.5925933165,
+      "std": 3.3063222617
     },
     "animal_forest_rabbit": {
-      "mean": 26.5550697502,
-      "std": 3.5087410701
+      "mean": 16.7566879427,
+      "std": 3.1691464452
     },
     "animal_forest_raven": {
-      "mean": 20.1805502761,
-      "std": 3.2731168458
+      "mean": 12.0578985912,
+      "std": 3.9348655077
     },
     "animal_forest_gecko": {
-      "mean": 24.827260295,
-      "std": 3.3491928744
+      "mean": 12.2184958727,
+      "std": 3.1647342082
     },
     "animal_forest_dolphin": {
-      "mean": 26.0707185661,
-      "std": 4.1442796054
+      "mean": 13.5420732671,
+      "std": 3.7532341559
     },
     "animal_forest_turtle": {
-      "mean": 25.2526777968,
-      "std": 3.5674286856
+      "mean": 25.4051148152,
+      "std": 6.6142717836
     },
     "animal_forest_badger": {
-      "mean": 23.1373236846,
-      "std": 3.3538867079
+      "mean": 15.8168641164,
+      "std": 4.1613614989
     },
     "animal_forest_heron": {
-      "mean": 24.1736227547,
-      "std": 4.4339064319
+      "mean": 14.7440808673,
+      "std": 4.4080530144
     },
     "animal_mountain_fox": {
-      "mean": 22.3928339357,
-      "std": 4.2243770739
+      "mean": 15.8567667125,
+      "std": 3.8768138238
     },
     "animal_mountain_wolf": {
-      "mean": 25.8457512031,
-      "std": 5.8065300667
+      "mean": 14.8333765541,
+      "std": 4.3452456781
     },
     "animal_mountain_owl": {
-      "mean": 23.422536517,
-      "std": 5.1506763093
+      "mean": 22.3848940098,
+      "std": 4.0865274789
     },
     "animal_mountain_otter": {
-      "mean": 22.4097593657,
-      "std": 3.809400019
+      "mean": 15.2870279727,
+      "std": 3.7684728687
     },
     "animal_mountain_falcon": {
-      "mean": 21.7773033427,
-      "std": 3.8716438094
+      "mean": 15.6991517618,
+      "std": 4.4158293625
     },
     "animal_mountain_lynx": {
-      "mean": 30.1534780433,
-      "std": 3.7935500383
+      "mean": 22.2294126986,
+      "std": 4.0893305575
     },
     "animal_mountain_bear": {
-      "mean": 22.2572604555,
-      "std": 3.4207480197
+      "mean": 14.8489161636,
+      "std": 4.6928332346
     },
     "animal_mountain_rabbit": {
-      "mean": 19.2891363756,
-      "std": 5.6712977249
+      "mean": 16.9213371714,
+      "std": 4.3299703616
     },
     "animal_mountain_raven": {
-      "mean": 21.0712123015,
-      "std": 3.3799751694
+      "mean": 16.4523049858,
+      "std": 3.6900999065
     },
     "animal_mountain_gecko": {
-      "mean": 25.1258617921,
-      "std": 3.7050572473
+      "mean": 15.2324097431,
+      "std": 3.4078918341
     },
     "animal_mountain_dolphin": {
-      "mean": 15.1530472982,
-      "std": 3.839026037
+      "mean": 16.9306904101,
+      "std": 3.4631804609
     },
     "animal_mountain_turtle": {
-      "mean": 29.6482369658,
-      "std": 3.8073838114
+      "mean": 22.8320029601,
+      "std": 6.0405882022
     },
     "animal_mountain_badger": {
-      "mean": 17.7186614619,
-      "std": 3.6946054368
+      "mean": 19.2302359429,
+      "std": 4.11324514
     },
     "animal_mountain_heron": {
-      "mean": 25.4310025457,
-      "std": 4.0819308569
+      "mean": 17.3261834848,
+      "std": 4.1407334919
     },
     "animal_river_fox": {
-      "mean": 29.8829310792,
-      "std": 4.1672705032
+      "mean": 13.2659151888,
+      "std": 3.7798002861
     },
     "animal_river_wolf": {
-      "mean": 23.5796615724,
-      "std": 3.2034216289
+      "mean": 13.010760874,
+      "std": 3.6847807911
     },
     "animal_river_owl": {
-      "mean": 24.2534657374,
-      "std": 4.0760904136
+      "mean": 21.4280514226,
+      "std": 4.2748413104
     },
     "animal_river_otter": {
-      "mean": 30.5885110355,
-      "std": 4.5799871866
+      "mean": 13.048039934,
+      "std": 3.0631594604
     },
     "animal_river_falcon": {
-      "mean": 30.1876418185,
-      "std": 4.348403704
+      "mean": 13.2123529256,
+      "std": 3.5618610541
     },
     "animal_river_lynx": {
-      "mean": 24.2062984599,
-      "std": 3.6678006404
+      "mean": 21.0840172825,
+      "std": 4.254112273
     },
     "animal_river_bear": {
-      "mean": 25.6149137753,
-      "std": 3.7422042011
+      "mean": 13.1725717069,
+      "std": 4.2939247345
     },
     "animal_river_rabbit": {
-      "mean": 26.561731528,
-      "std": 3.2817868462
+      "mean": 16.6402754121,
+      "std": 4.6297418079
     },
     "animal_river_raven": {
-      "mean": 15.2471439115,
-      "std": 3.9686844012
+      "mean": 13.90171641,
+      "std": 3.6461125678
     },
     "animal_river_gecko": {
-      "mean": 29.6016422023,
-      "std": 4.5877320754
+      "mean": 12.4443748203,
+      "std": 3.3686451774
     },
     "animal_river_dolphin": {
-      "mean": 19.8093980085,
-      "std": 4.9684810428
+      "mean": 14.5552370567,
+      "std": 3.1311548811
     },
     "animal_river_turtle": {
-      "mean": 28.2761067394,
-      "std": 3.864602739
+      "mean": 26.5142271638,
+      "std": 7.0988662408
     },
     "animal_river_badger": {
-      "mean": 27.5293568237,
-      "std": 4.1230655511
+      "mean": 16.4120343069,
+      "std": 4.1041060631
     },
     "animal_river_heron": {
-      "mean": 26.8215659548,
-      "std": 5.8292823801
+      "mean": 13.4045512939,
+      "std": 4.2097872404
     },
     "animal_coastal_fox": {
-      "mean": 23.2952205702,
-      "std": 2.6505304977
+      "mean": 13.2686315697,
+      "std": 3.325289401
     },
     "animal_coastal_wolf": {
-      "mean": 28.5176461077,
-      "std": 4.5884151739
+      "mean": 13.4931050807,
+      "std": 4.2630781462
     },
     "animal_coastal_owl": {
-      "mean": 26.9211435196,
-      "std": 3.7775668889
+      "mean": 17.4748679546,
+      "std": 4.5350474055
     },
     "animal_coastal_otter": {
-      "mean": 20.6335626839,
-      "std": 4.1859786951
+      "mean": 12.7371851169,
+      "std": 3.4759696919
     },
     "animal_coastal_falcon": {
-      "mean": 23.7618006816,
-      "std": 4.7072283105
+      "mean": 13.3391225979,
+      "std": 3.6349476361
     },
     "animal_coastal_lynx": {
-      "mean": 20.3637065233,
-      "std": 4.1553206813
+      "mean": 16.066633414,
+      "std": 4.5747246629
     },
     "animal_coastal_bear": {
-      "mean": 20.3437855542,
-      "std": 4.8937840838
+      "mean": 13.2515016834,
+      "std": 4.2681410631
     },
     "animal_coastal_rabbit": {
-      "mean": 20.5866793494,
-      "std": 3.9759896085
+      "mean": 16.8723592201,
+      "std": 4.5300838125
     },
     "animal_coastal_raven": {
-      "mean": 24.1545728876,
-      "std": 3.9250743455
+      "mean": 14.1302036628,
+      "std": 3.3119351515
     },
     "animal_coastal_gecko": {
-      "mean": 25.1739907971,
-      "std": 3.7301149239
+      "mean": 12.1841346278,
+      "std": 3.0495388784
     },
     "animal_coastal_dolphin": {
-      "mean": 31.2364408891,
-      "std": 3.0901915657
+      "mean": 14.0565934753,
+      "std": 3.3024663316
     },
     "animal_coastal_turtle": {
-      "mean": 24.5216219565,
-      "std": 4.0468798625
+      "mean": 26.6233542099,
+      "std": 6.9698087932
     },
     "animal_coastal_badger": {
-      "mean": 21.8896172848,
-      "std": 3.2259605998
+      "mean": 16.5314323294,
+      "std": 4.0285897206
     },
     "animal_coastal_heron": {
-      "mean": 28.958337351,
-      "std": 3.9823039227
+      "mean": 13.5631668115,
+      "std": 4.1746724474
     },
     "animal_storm_fox": {
-      "mean": 25.703508777,
-      "std": 4.0828768307
+      "mean": 13.3816330365,
+      "std": 3.525306409
     },
     "animal_storm_wolf": {
-      "mean": 23.9588942699,
-      "std": 3.5627468844
+      "mean": 13.673590909,
+      "std": 3.6556789135
     },
     "animal_storm_owl": {
-      "mean": 24.2469604227,
-      "std": 3.5389292531
+      "mean": 21.9816661845,
+      "std": 4.2263828212
     },
     "animal_storm_otter": {
-      "mean": 23.4140871735,
-      "std": 4.9165847054
+      "mean": 13.9122969144,
+      "std": 3.3112502016
     },
     "animal_storm_falcon": {
-      "mean": 29.637160081,
-      "std": 3.8179508899
+      "mean": 14.2580338274,
+      "std": 3.6945142275
     },
     "animal_storm_lynx": {
-      "mean": 25.0923268612,
-      "std": 4.0391099711
+      "mean": 21.6233471706,
+      "std": 4.2289971788
     },
     "animal_storm_bear": {
-      "mean": 27.7250270534,
-      "std": 3.3441692869
+      "mean": 13.1570907951,
+      "std": 3.9940026051
     },
     "animal_storm_rabbit": {
-      "mean": 29.2210045135,
-      "std": 3.3495624427
+      "mean": 16.4474126988,
+      "std": 3.6155622681
     },
     "animal_storm_raven": {
-      "mean": 16.7627323655,
-      "std": 3.4242795312
+      "mean": 14.5144737739,
+      "std": 3.339089856
     },
     "animal_storm_gecko": {
-      "mean": 23.7915647282,
-      "std": 3.6474179612
+      "mean": 12.9108101828,
+      "std": 3.3913166211
     },
     "animal_storm_dolphin": {
-      "mean": 24.9231331049,
-      "std": 4.9825772686
+      "mean": 15.0126028163,
+      "std": 3.2845009787
     },
     "animal_storm_turtle": {
-      "mean": 30.3378366805,
-      "std": 3.6341086315
+      "mean": 20.151588215,
+      "std": 7.1780528287
     },
     "animal_storm_badger": {
-      "mean": 24.127573656,
-      "std": 6.2427464156
+      "mean": 17.224192197,
+      "std": 4.2080255655
     },
     "animal_storm_heron": {
-      "mean": 27.7444540572,
-      "std": 3.9198157784
+      "mean": 14.0883325891,
+      "std": 4.3981237884
     },
     "animal_midnight_fox": {
-      "mean": 22.3569464352,
-      "std": 3.8391604236
+      "mean": 21.5626205875,
+      "std": 4.6223352755
     },
     "animal_midnight_wolf": {
-      "mean": 21.1471488873,
-      "std": 3.2581324823
+      "mean": 14.9044798407,
+      "std": 3.9973707205
     },
     "animal_midnight_owl": {
-      "mean": 31.2357732891,
-      "std": 4.1928475243
+      "mean": 22.7322007262,
+      "std": 4.8394669275
     },
     "animal_midnight_otter": {
-      "mean": 17.7620437946,
-      "std": 2.5619296577
+      "mean": 13.8694433411,
+      "std": 3.4743404278
     },
     "animal_midnight_falcon": {
-      "mean": 25.149041748,
-      "std": 3.4242443189
+      "mean": 21.1213807308,
+      "std": 4.3505369814
     },
     "animal_midnight_lynx": {
-      "mean": 29.4121315973,
-      "std": 4.1147233487
+      "mean": 22.9404257528,
+      "std": 4.8329355758
     },
     "animal_midnight_bear": {
-      "mean": 27.2636409822,
-      "std": 5.3582261113
+      "mean": 19.5445384814,
+      "std": 3.7184802743
     },
     "animal_midnight_rabbit": {
-      "mean": 22.4428645906,
-      "std": 3.8398149652
+      "mean": 22.4855574355,
+      "std": 3.3971596199
     },
     "animal_midnight_raven": {
-      "mean": 26.803479093,
-      "std": 3.8281986855
+      "mean": 21.5782327197,
+      "std": 4.9192761352
     },
     "animal_midnight_gecko": {
-      "mean": 27.8402078891,
-      "std": 3.5337550412
+      "mean": 19.9201287903,
+      "std": 4.0728138893
     },
     "animal_midnight_dolphin": {
-      "mean": 18.5248378006,
-      "std": 3.7905581553
+      "mean": 13.7943996623,
+      "std": 3.6750106064
     },
     "animal_midnight_turtle": {
-      "mean": 30.4061864574,
-      "std": 3.5009544108
+      "mean": 29.6666512546,
+      "std": 5.9471976599
     },
     "animal_midnight_badger": {
-      "mean": 25.4248171633,
-      "std": 4.3487675128
+      "mean": 21.7962951197,
+      "std": 4.3269557104
     },
     "animal_midnight_heron": {
-      "mean": 21.9515428498,
-      "std": 3.1146577949
+      "mean": 22.0133978833,
+      "std": 4.6113717731
     },
     "animal_golden_fox": {
-      "mean": 31.1481796314,
-      "std": 4.3091676282
+      "mean": 16.4296582373,
+      "std": 2.8409763942
     },
     "animal_golden_wolf": {
-      "mean": 23.974276449,
-      "std": 4.0804753089
+      "mean": 17.4300008011,
+      "std": 3.0113485476
     },
     "animal_golden_owl": {
-      "mean": 30.2577999026,
-      "std": 3.6963389619
+      "mean": 19.8038214912,
+      "std": 3.6529613116
     },
     "animal_golden_otter": {
-      "mean": 31.9614235032,
-      "std": 4.2435355911
+      "mean": 17.1634733852,
+      "std": 2.7199884846
     },
     "animal_golden_falcon": {
-      "mean": 25.2548507141,
-      "std": 3.5145097445
+      "mean": 17.0397484945,
+      "std": 2.8436744853
     },
     "animal_golden_lynx": {
-      "mean": 27.1594562269,
-      "std": 3.9243399605
+      "mean": 18.9794475592,
+      "std": 3.6774494349
     },
     "animal_golden_bear": {
-      "mean": 21.1214553723,
-      "std": 3.74604542
+      "mean": 16.566947036,
+      "std": 2.8213104352
     },
     "animal_golden_rabbit": {
-      "mean": 28.3996586201,
-      "std": 3.2960517177
+      "mean": 19.8947785952,
+      "std": 2.8189036845
     }
   }
 }
