@@ -10,6 +10,16 @@ const statKeys = new Set([
   "communication", "ambition", "discipline", "professionalism", "financialSense",
   "risk", "luck", "energy", "humor", "chaos",
 ]);
+const minimumResultCounts = {
+  careers: 50,
+  classes: 30,
+  powers: 30,
+  weaknesses: 30,
+  abilities: 30,
+  workStyles: 30,
+  animals: 30,
+};
+const minimumSynergyRules = 45;
 
 const load = async (name) => JSON.parse(await readFile(resolve(dataDir, `${name}.json`), "utf8"));
 const seen = (entries, label) => {
@@ -28,9 +38,7 @@ const finiteAxis = (value, label) => {
 };
 const localized = (value, label) => {
   for (const locale of locales) {
-    if (typeof value?.[locale] !== "string" || value[locale].trim() === "") {
-      throw new Error(`${label}: missing ${locale}`);
-    }
+    if (typeof value?.[locale] !== "string" || value[locale].trim() === "") throw new Error(`${label}: missing ${locale}`);
   }
 };
 const validateProfile = (profile, label) => {
@@ -47,6 +55,8 @@ const questionsExpansion = await load("questions.expansion");
 const questionsExtra = await load("questions.extra");
 const synergyRulesExtra = await load("synergyRules.extra");
 const resultsExtra = await load("results.extra");
+const matchBaselines = await load("matchBaselines");
+const matchBaselinesExtra = await load("matchBaselines.extra");
 const rarityDistribution = await load("rarityDistribution");
 data.questions = [...data.questions, ...questionsExpansion, ...questionsExtra];
 data.synergyRules = [...data.synergyRules, ...synergyRulesExtra];
@@ -59,17 +69,13 @@ for (const question of data.questions) {
   if (question.answers.length !== 10) throw new Error(`question ${question.id}: exactly 10 answers required, got ${question.answers.length}`);
   for (const answer of question.answers) {
     localized(answer.text, `answer ${answer.id}`);
-    if (answer.selectionWeight !== undefined && (!Number.isFinite(answer.selectionWeight) || answer.selectionWeight < 0)) {
-      throw new Error(`answer ${answer.id}: invalid selectionWeight`);
-    }
+    if (answer.selectionWeight !== undefined && (!Number.isFinite(answer.selectionWeight) || answer.selectionWeight < 0)) throw new Error(`answer ${answer.id}: invalid selectionWeight`);
     for (const [stat, value] of Object.entries(answer.effects ?? {})) {
       if (!statKeys.has(stat)) throw new Error(`answer ${answer.id}: unknown stat ${stat}`);
       if (!Number.isFinite(value)) throw new Error(`answer ${answer.id}: invalid effect ${stat}`);
     }
   }
-  if (question.selectionWeight !== undefined && (!Number.isFinite(question.selectionWeight) || question.selectionWeight < 0)) {
-    throw new Error(`question ${question.id}: invalid selectionWeight`);
-  }
+  if (question.selectionWeight !== undefined && (!Number.isFinite(question.selectionWeight) || question.selectionWeight < 0)) throw new Error(`question ${question.id}: invalid selectionWeight`);
 }
 
 const resultGroups = {
@@ -83,16 +89,19 @@ const resultGroups = {
 };
 const resultIds = {};
 for (const [name, entries] of Object.entries(resultGroups)) {
+  if (entries.length < minimumResultCounts[name]) throw new Error(`${name}: ${entries.length} available, at least ${minimumResultCounts[name]} required`);
   resultIds[name] = seen(entries, name);
   for (const entry of entries) {
     localized(getLocalizedLabel(entry), `${name} ${entry.id}`);
     validateProfile(entry.lowProfile ?? entry.idealProfile, `${name} ${entry.id}`);
     if (name === "animals") localized(entry.description, `animals ${entry.id} description`);
-    if (entry.worthPotential) {
-      if (!Number.isFinite(entry.worthPotential.min) || !Number.isFinite(entry.worthPotential.max) || entry.worthPotential.min > entry.worthPotential.max) {
-        throw new Error(`${name} ${entry.id}: invalid worthPotential`);
-      }
-    }
+    if (entry.worthPotential && (!Number.isFinite(entry.worthPotential.min) || !Number.isFinite(entry.worthPotential.max) || entry.worthPotential.min > entry.worthPotential.max)) throw new Error(`${name} ${entry.id}: invalid worthPotential`);
+  }
+
+  const mergedBaselines = { ...(matchBaselines[name] ?? {}), ...(matchBaselinesExtra[name] ?? {}) };
+  for (const id of resultIds[name]) {
+    const baseline = mergedBaselines[id];
+    if (!baseline || !Number.isFinite(baseline.mean) || !Number.isFinite(baseline.std) || baseline.std <= 0) throw new Error(`${name} ${id}: missing or invalid baseline`);
   }
 }
 
@@ -113,6 +122,7 @@ for (const alignment of data.alignments) {
   [...alignment.lawfulChaotic, ...alignment.selflessSelfInterested].forEach((value) => finiteAxis(value, `alignment ${alignment.id}`));
 }
 
+if (data.synergyRules.length < minimumSynergyRules) throw new Error(`synergyRules: ${data.synergyRules.length} available, at least ${minimumSynergyRules} required`);
 seen(data.synergyRules, "synergyRules");
 for (const rule of data.synergyRules) {
   if (!Array.isArray(rule.conditions) || rule.conditions.length === 0) throw new Error(`synergy ${rule.id}: empty conditions`);
@@ -125,4 +135,5 @@ for (const rule of data.synergyRules) {
   }
 }
 
-console.log(`Content OK: ${data.questions.length} questions, ${data.synergyRules.length} synergy rules, ${Object.entries(resultGroups).map(([name, entries]) => `${name}=${entries.length}`).join(", ")}`);
+const answerCount = data.questions.reduce((total, question) => total + question.answers.length, 0);
+console.log(`Content OK: questions=${data.questions.length}, answers=${answerCount}, synergies=${data.synergyRules.length}, alignments=${data.alignments.length}, ${Object.entries(resultGroups).map(([name, entries]) => `${name}=${entries.length}`).join(", ")}`);
