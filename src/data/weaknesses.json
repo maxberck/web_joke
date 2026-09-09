@@ -1,15 +1,397 @@
 [
-  { "id": "weakness_phone_calls", "text": { "en": "Phone calls from unknown numbers.", "fr": "Les appels de numéros inconnus.", "es": "Las llamadas de números desconocidos." }, "lowProfile": { "social": 25, "communication": 30 } },
-  { "id": "weakness_finishing_projects", "text": { "en": "The last 10% of literally anything.", "fr": "Les 10 derniers pourcents de littéralement n'importe quoi.", "es": "El último 10% de literalmente cualquier cosa." }, "lowProfile": { "discipline": 20, "energy": 35 } },
-  { "id": "weakness_instructions", "text": { "en": "IKEA instructions after step 3.", "fr": "La notice IKEA après l'étape 3.", "es": "Las instrucciones de IKEA después del paso 3." }, "lowProfile": { "discipline": 30, "intelligence": 40 } },
-  { "id": "weakness_group_projects", "text": { "en": "Group projects where nobody claims a role until the deadline.", "fr": "Les projets de groupe où personne ne prend de rôle avant la deadline.", "es": "Los proyectos en grupo donde nadie asume un rol hasta el último momento." }, "lowProfile": { "social": 30, "emotionalControl": 30 } },
-  { "id": "weakness_people_who_are_late", "text": { "en": "People who text \"omw\" while still clearly at home.", "fr": "Les gens qui textent « j'arrive » alors qu'ils sont clairement chez eux.", "es": "La gente que escribe \"ya voy\" mientras claramente sigue en casa." }, "lowProfile": { "emotionalControl": 25, "discipline": 35 } },
-  { "id": "weakness_free_shipping", "text": { "en": "Free shipping over a threshold you didn't need to hit.", "fr": "La livraison gratuite à partir d'un seuil que tu n'avais pas besoin d'atteindre.", "es": "El envío gratis a partir de un umbral que no necesitabas alcanzar." }, "lowProfile": { "financialSense": 25, "discipline": 30 } },
-  { "id": "weakness_open_ended_questions", "text": { "en": "\"So, what's the plan?\" with no context whatsoever.", "fr": "« Alors, c'est quoi le plan ? » sans aucun contexte.", "es": "\"Entonces, ¿cuál es el plan?\" sin ningún contexto." }, "lowProfile": { "discipline": 25, "ambition": 30 } },
-  { "id": "weakness_notifications", "text": { "en": "The little red badge with a number you'll never actually clear.", "fr": "La petite pastille rouge avec un chiffre que tu n'effaceras jamais vraiment.", "es": "La pequeña insignia roja con un número que nunca borrarás realmente." }, "lowProfile": { "discipline": 25, "emotionalControl": 30 } },
-  { "id": "weakness_small_talk", "text": { "en": "Elevator small talk with someone whose name you've forgotten twice.", "fr": "Les banalités d'ascenseur avec quelqu'un dont tu as oublié le prénom deux fois.", "es": "La cháchara del ascensor con alguien cuyo nombre olvidaste dos veces." }, "lowProfile": { "social": 25, "energy": 30 } },
-  { "id": "weakness_asking_for_help", "text": { "en": "Admitting you're lost before circling the same block four times.", "fr": "Admettre que tu es perdu avant d'avoir tourné en rond quatre fois dans le même pâté de maisons.", "es": "Admitir que estás perdido antes de dar cuatro vueltas a la misma manzana." }, "lowProfile": { "empathy": 30, "social": 30 } },
-  { "id": "weakness_progress_bar", "text": { "en": "A loading bar stuck at 99% for four straight minutes.", "fr": "Une barre de chargement bloquée à 99% pendant quatre minutes d'affilée.", "es": "Una barra de carga atascada en 99% durante cuatro minutos seguidos." }, "lowProfile": { "emotionalControl": 20, "discipline": 30 } },
-  { "id": "weakness_left_on_read", "text": { "en": "Being left on read for exactly long enough to start overanalyzing.", "fr": "Être laissé sur « vu » juste assez longtemps pour commencer à surrananalyser.", "es": "Que te dejen en \"visto\" justo el tiempo suficiente para empezar a sobreanalizar." }, "lowProfile": { "emotionalControl": 15, "empathy": 30 } },
-  { "id": "weakness_loading_screen", "text": { "en": "A loading screen that reaches 99% and then remembers it has unfinished business.", "fr": "Un écran de chargement qui atteint 99 % puis se souvient soudain qu'il lui reste des choses à faire.", "es": "Una pantalla de carga que llega al 99 % y de repente recuerda que aún tiene asuntos pendientes." }, "lowProfile": { "emotionalControl": 25, "discipline": 30, "energy": 40 } }
+  {
+    "id": "weakness_phone_calls",
+    "text": {
+      "en": "Phone calls from unknown numbers.",
+      "fr": "Les appels de numéros inconnus.",
+      "es": "Las llamadas de números desconocidos."
+    },
+    "lowProfile": {
+      "social": 25,
+      "communication": 30
+    }
+  },
+  {
+    "id": "weakness_finishing_projects",
+    "text": {
+      "en": "The last 10% of literally anything.",
+      "fr": "Les 10 derniers pourcents de littéralement n'importe quoi.",
+      "es": "El último 10% de literalmente cualquier cosa."
+    },
+    "lowProfile": {
+      "discipline": 20,
+      "energy": 35
+    }
+  },
+  {
+    "id": "weakness_instructions",
+    "text": {
+      "en": "IKEA instructions after step 3.",
+      "fr": "La notice IKEA après l'étape 3.",
+      "es": "Las instrucciones de IKEA después del paso 3."
+    },
+    "lowProfile": {
+      "discipline": 30,
+      "intelligence": 40
+    }
+  },
+  {
+    "id": "weakness_group_projects",
+    "text": {
+      "en": "Group projects where nobody claims a role until the deadline.",
+      "fr": "Les projets de groupe où personne ne prend de rôle avant la deadline.",
+      "es": "Los proyectos en grupo donde nadie asume un rol hasta el último momento."
+    },
+    "lowProfile": {
+      "social": 30,
+      "emotionalControl": 30
+    }
+  },
+  {
+    "id": "weakness_people_who_are_late",
+    "text": {
+      "en": "People who text \"omw\" while still clearly at home.",
+      "fr": "Les gens qui textent « j'arrive » alors qu'ils sont clairement chez eux.",
+      "es": "La gente que escribe \"ya voy\" mientras claramente sigue en casa."
+    },
+    "lowProfile": {
+      "emotionalControl": 25,
+      "discipline": 35
+    }
+  },
+  {
+    "id": "weakness_free_shipping",
+    "text": {
+      "en": "Free shipping over a threshold you didn't need to hit.",
+      "fr": "La livraison gratuite à partir d'un seuil que tu n'avais pas besoin d'atteindre.",
+      "es": "El envío gratis a partir de un umbral que no necesitabas alcanzar."
+    },
+    "lowProfile": {
+      "financialSense": 25,
+      "discipline": 30
+    }
+  },
+  {
+    "id": "weakness_open_ended_questions",
+    "text": {
+      "en": "\"So, what's the plan?\" with no context whatsoever.",
+      "fr": "« Alors, c'est quoi le plan ? » sans aucun contexte.",
+      "es": "\"Entonces, ¿cuál es el plan?\" sin ningún contexto."
+    },
+    "lowProfile": {
+      "discipline": 25,
+      "ambition": 30
+    }
+  },
+  {
+    "id": "weakness_notifications",
+    "text": {
+      "en": "The little red badge with a number you'll never actually clear.",
+      "fr": "La petite pastille rouge avec un chiffre que tu n'effaceras jamais vraiment.",
+      "es": "La pequeña insignia roja con un número que nunca borrarás realmente."
+    },
+    "lowProfile": {
+      "discipline": 25,
+      "emotionalControl": 30
+    }
+  },
+  {
+    "id": "weakness_small_talk",
+    "text": {
+      "en": "Elevator small talk with someone whose name you've forgotten twice.",
+      "fr": "Les banalités d'ascenseur avec quelqu'un dont tu as oublié le prénom deux fois.",
+      "es": "La cháchara del ascensor con alguien cuyo nombre olvidaste dos veces."
+    },
+    "lowProfile": {
+      "social": 25,
+      "energy": 30
+    }
+  },
+  {
+    "id": "weakness_asking_for_help",
+    "text": {
+      "en": "Admitting you're lost before circling the same block four times.",
+      "fr": "Admettre que tu es perdu avant d'avoir tourné en rond quatre fois dans le même pâté de maisons.",
+      "es": "Admitir que estás perdido antes de dar cuatro vueltas a la misma manzana."
+    },
+    "lowProfile": {
+      "empathy": 30,
+      "social": 30
+    }
+  },
+  {
+    "id": "weakness_progress_bar",
+    "text": {
+      "en": "A loading bar stuck at 99% for four straight minutes.",
+      "fr": "Une barre de chargement bloquée à 99% pendant quatre minutes d'affilée.",
+      "es": "Una barra de carga atascada en 99% durante cuatro minutos seguidos."
+    },
+    "lowProfile": {
+      "emotionalControl": 20,
+      "discipline": 30
+    }
+  },
+  {
+    "id": "weakness_left_on_read",
+    "text": {
+      "en": "Being left on read for exactly long enough to start overanalyzing.",
+      "fr": "Être laissé sur « vu » juste assez longtemps pour commencer à surrananalyser.",
+      "es": "Que te dejen en \"visto\" justo el tiempo suficiente para empezar a sobreanalizar."
+    },
+    "lowProfile": {
+      "emotionalControl": 15,
+      "empathy": 30
+    }
+  },
+  {
+    "id": "weakness_loading_screen",
+    "text": {
+      "en": "A loading screen that reaches 99% and then remembers it has unfinished business.",
+      "fr": "Un écran de chargement qui atteint 99 % puis se souvient soudain qu'il lui reste des choses à faire.",
+      "es": "Una pantalla de carga que llega al 99 % y de repente recuerda que aún tiene asuntos pendientes."
+    },
+    "lowProfile": {
+      "emotionalControl": 25,
+      "discipline": 30,
+      "energy": 40
+    }
+  },
+  {
+    "id": "weakness_open_fridge_again",
+    "name": {
+      "en": "Opens the Fridge Again Without Knowing Why",
+      "fr": "Rouvre le Frigo Sans Savoir Pourquoi",
+      "es": "Abre la Nevera Otra Vez Sin Saber Por Qué"
+    },
+    "lowProfile": {
+      "discipline": 22,
+      "energy": 35,
+      "chaos": 78,
+      "humor": 72
+    }
+  },
+  {
+    "id": "weakness_voice_note",
+    "name": {
+      "en": "A Seven-Minute Voice Note With No Summary",
+      "fr": "Un Vocal de Sept Minutes Sans Résumé",
+      "es": "Un Audio de Siete Minutos Sin Resumen"
+    },
+    "lowProfile": {
+      "emotionalControl": 24,
+      "communication": 35,
+      "discipline": 42,
+      "social": 48
+    }
+  },
+  {
+    "id": "weakness_calendar_invite",
+    "name": {
+      "en": "A Calendar Invite With No Description",
+      "fr": "Une Invitation Calendrier Sans Description",
+      "es": "Una Invitación de Calendario Sin Descripción"
+    },
+    "lowProfile": {
+      "emotionalControl": 28,
+      "professionalism": 42,
+      "communication": 32,
+      "risk": 38
+    }
+  },
+  {
+    "id": "weakness_low_battery",
+    "name": {
+      "en": "Battery at 12% and No Charger in Sight",
+      "fr": "12 % de Batterie et Aucun Chargeur en Vue",
+      "es": "12 % de Batería y Ningún Cargador a la Vista"
+    },
+    "lowProfile": {
+      "emotionalControl": 25,
+      "discipline": 35,
+      "energy": 38,
+      "financialSense": 48
+    }
+  },
+  {
+    "id": "weakness_reply_all",
+    "name": {
+      "en": "The Reply-All Button",
+      "fr": "Le Bouton Répondre à Tous",
+      "es": "El Botón Responder a Todos"
+    },
+    "lowProfile": {
+      "professionalism": 32,
+      "emotionalControl": 30,
+      "communication": 40,
+      "risk": 58
+    }
+  },
+  {
+    "id": "weakness_update_restart",
+    "name": {
+      "en": "An Update Requiring a Restart Right Now",
+      "fr": "Une Mise à Jour qui Exige un Redémarrage Maintenant",
+      "es": "Una Actualización que Exige Reiniciar Ahora"
+    },
+    "lowProfile": {
+      "emotionalControl": 24,
+      "discipline": 42,
+      "energy": 34,
+      "chaos": 70
+    }
+  },
+  {
+    "id": "weakness_unknown_call",
+    "name": {
+      "en": "A Phone Call From an Unknown Number",
+      "fr": "Un Appel d'un Numéro Inconnu",
+      "es": "Una Llamada de un Número Desconocido"
+    },
+    "lowProfile": {
+      "social": 30,
+      "emotionalControl": 32,
+      "communication": 38,
+      "risk": 28
+    }
+  },
+  {
+    "id": "weakness_two_factor",
+    "name": {
+      "en": "Two-Factor Authentication With a Dead Phone",
+      "fr": "Double Authentification avec Téléphone Éteint",
+      "es": "Doble Autenticación con el Móvil Apagado"
+    },
+    "lowProfile": {
+      "discipline": 35,
+      "emotionalControl": 22,
+      "luck": 30,
+      "chaos": 76
+    }
+  },
+  {
+    "id": "weakness_smalltalk_elevator",
+    "name": {
+      "en": "Unexpected Elevator Small Talk",
+      "fr": "Small Talk Imprévu dans l'Ascenseur",
+      "es": "Charla Inesperada en el Ascensor"
+    },
+    "lowProfile": {
+      "social": 28,
+      "communication": 34,
+      "emotionalControl": 38,
+      "energy": 40
+    }
+  },
+  {
+    "id": "weakness_unnamed_file",
+    "name": {
+      "en": "A File Named document(7).pdf",
+      "fr": "Un Fichier Nommé document(7).pdf",
+      "es": "Un Archivo Llamado documento(7).pdf"
+    },
+    "lowProfile": {
+      "discipline": 28,
+      "professionalism": 34,
+      "intelligence": 46,
+      "chaos": 72
+    }
+  },
+  {
+    "id": "weakness_buffering",
+    "name": {
+      "en": "Buffering at 99%",
+      "fr": "Chargement Bloqué à 99 %",
+      "es": "Carga Bloqueada al 99 %"
+    },
+    "lowProfile": {
+      "emotionalControl": 20,
+      "energy": 38,
+      "discipline": 44,
+      "chaos": 66
+    }
+  },
+  {
+    "id": "weakness_empty_coffee",
+    "name": {
+      "en": "The Coffee Machine Is Empty",
+      "fr": "La Machine à Café est Vide",
+      "es": "La Cafetera Está Vacía"
+    },
+    "lowProfile": {
+      "energy": 24,
+      "emotionalControl": 36,
+      "discipline": 40,
+      "humor": 42
+    }
+  },
+  {
+    "id": "weakness_shared_doc_cursor",
+    "name": {
+      "en": "Someone Watching Your Cursor in a Shared Doc",
+      "fr": "Quelqu'un Regarde Ton Curseur dans un Document Partagé",
+      "es": "Alguien Mirando tu Cursor en un Documento Compartido"
+    },
+    "lowProfile": {
+      "emotionalControl": 30,
+      "professionalism": 42,
+      "communication": 38,
+      "social": 40
+    }
+  },
+  {
+    "id": "weakness_typing_indicator",
+    "name": {
+      "en": "The Typing Indicator That Lasts Three Minutes",
+      "fr": "Le « Écrit… » qui Dure Trois Minutes",
+      "es": "El « Escribiendo… » que Dura Tres Minutos"
+    },
+    "lowProfile": {
+      "emotionalControl": 26,
+      "social": 42,
+      "empathy": 48,
+      "chaos": 58
+    }
+  },
+  {
+    "id": "weakness_missing_attachment",
+    "name": {
+      "en": "The Email Sent Without the Attachment",
+      "fr": "L'E-mail Envoyé Sans la Pièce Jointe",
+      "es": "El Correo Enviado Sin el Adjunto"
+    },
+    "lowProfile": {
+      "professionalism": 26,
+      "discipline": 32,
+      "emotionalControl": 34,
+      "communication": 40
+    }
+  },
+  {
+    "id": "weakness_one_percent",
+    "name": {
+      "en": "1% Battery During Navigation",
+      "fr": "1 % de Batterie en Plein Itinéraire",
+      "es": "1 % de Batería en Plena Navegación"
+    },
+    "lowProfile": {
+      "emotionalControl": 20,
+      "discipline": 30,
+      "luck": 26,
+      "energy": 34
+    }
+  },
+  {
+    "id": "weakness_monday_0830",
+    "name": {
+      "en": "Monday at 08:30 With No Context",
+      "fr": "Lundi 8 h 30 Sans Contexte",
+      "es": "Lunes a las 08:30 Sin Contexto"
+    },
+    "lowProfile": {
+      "energy": 24,
+      "emotionalControl": 30,
+      "professionalism": 42,
+      "humor": 38
+    }
+  }
 ]

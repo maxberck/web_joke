@@ -1,13 +1,593 @@
 [
-  { "id": "animal_raccoon", "name": { "en": "Raccoon", "fr": "Raton laveur", "es": "Mapache" }, "description": { "en": "Ingenious under pressure, slightly chaotic, and somehow always finds the useful thing nobody else noticed.", "fr": "Ingénieux sous pression, légèrement chaotique, et toujours capable de trouver le truc utile que personne n'avait vu.", "es": "Ingenioso bajo presión, un poco caótico y siempre capaz de encontrar lo útil que nadie había visto." }, "idealProfile": { "intelligence": 82, "creativity": 80, "chaos": 78, "discipline": 30 } },
-  { "id": "animal_cat", "name": { "en": "Cat", "fr": "Chat", "es": "Gato" }, "description": { "en": "Independent, selective with attention, and mysteriously present exactly when something interesting happens.", "fr": "Indépendant, très sélectif avec son attention, et mystérieusement présent dès qu'il se passe quelque chose d'intéressant.", "es": "Independiente, muy selectivo con su atención y misteriosamente presente cuando pasa algo interesante." }, "idealProfile": { "social": 45, "emotionalControl": 78, "ambition": 55, "empathy": 40 } },
-  { "id": "animal_golden_retriever", "name": { "en": "Golden Retriever", "fr": "Golden Retriever", "es": "Golden Retriever" }, "description": { "en": "Friendly, energetic, and genuinely convinced the group project can still be saved with enough enthusiasm.", "fr": "Sociable, énergique, et sincèrement convaincu qu'on peut encore sauver le projet de groupe avec assez d'enthousiasme.", "es": "Sociable, enérgico y sinceramente convencido de que el trabajo en grupo aún puede salvarse con suficiente entusiasmo." }, "idealProfile": { "social": 85, "empathy": 82, "energy": 80, "risk": 25 } },
-  { "id": "animal_crow", "name": { "en": "Crow", "fr": "Corneille", "es": "Cuervo" }, "description": { "en": "Observant, clever, and remembers both the shortcut and the person who said it would never work.", "fr": "Observateur, malin, et se souvient à la fois du raccourci et de la personne qui disait que ça ne marcherait jamais.", "es": "Observador, listo y recuerda tanto el atajo como a quien dijo que nunca funcionaría." }, "idealProfile": { "intelligence": 85, "creativity": 78, "risk": 55, "social": 40 } },
-  { "id": "animal_owl", "name": { "en": "Owl", "fr": "Hibou", "es": "Búho" }, "description": { "en": "Quietly analyzes everything, says little, then drops the one sentence that makes everyone reconsider the whole plan.", "fr": "Analyse tout en silence, parle peu, puis lâche la phrase qui oblige tout le monde à revoir le plan entier.", "es": "Analiza todo en silencio, habla poco y luego suelta la frase que obliga a replantear todo el plan." }, "idealProfile": { "intelligence": 82, "emotionalControl": 72, "social": 30, "discipline": 60 } },
-  { "id": "animal_fox", "name": { "en": "Fox", "fr": "Renard", "es": "Zorro" }, "description": { "en": "Quick-thinking, adaptable, and very comfortable turning a questionable plan into something that somehow works.", "fr": "Rapide, adaptable, et très à l'aise pour transformer un plan douteux en quelque chose qui fonctionne quand même.", "es": "Rápido, adaptable y muy cómodo convirtiendo un plan dudoso en algo que, de algún modo, funciona." }, "idealProfile": { "intelligence": 75, "creativity": 65, "risk": 65, "chaos": 55, "communication": 55 } },
-  { "id": "animal_turtle", "name": { "en": "Turtle", "fr": "Tortue", "es": "Tortuga" }, "description": { "en": "Not in a rush, rarely panics, and usually arrives with more battery, patience, and preparation than everyone else.", "fr": "Jamais pressé, panique rarement, et arrive généralement avec plus de batterie, de patience et de préparation que les autres.", "es": "Nunca tiene prisa, rara vez entra en pánico y suele llegar con más batería, paciencia y preparación que los demás." }, "idealProfile": { "discipline": 72, "emotionalControl": 80, "risk": 20, "energy": 25 } },
-  { "id": "animal_octopus", "name": { "en": "Octopus", "fr": "Pieuvre", "es": "Pulpo" }, "description": { "en": "Can handle eight problems at once, including several that were never officially their responsibility.", "fr": "Peut gérer huit problèmes en même temps, dont plusieurs qui n'étaient officiellement pas de sa responsabilité.", "es": "Puede manejar ocho problemas a la vez, incluidos varios que oficialmente nunca fueron su responsabilidad." }, "idealProfile": { "intelligence": 88, "creativity": 75, "social": 20, "chaos": 50 } },
-  { "id": "animal_meerkat", "name": { "en": "Meerkat", "fr": "Suricate", "es": "Suricata" }, "description": { "en": "Alert, social, and somehow aware of every tiny change in the room before anyone else notices.", "fr": "Vigilant, sociable, et au courant de chaque micro-changement dans la pièce avant tout le monde.", "es": "Alerta, sociable y consciente de cada pequeño cambio en la sala antes que los demás." }, "idealProfile": { "social": 78, "energy": 72, "emotionalControl": 45, "communication": 60 } },
-  { "id": "animal_pigeon", "name": { "en": "Pigeon", "fr": "Pigeon", "es": "Paloma" }, "description": { "en": "Survives chaos, adapts instantly, and appears exactly where the snacks, opportunities, or confusion are concentrated.", "fr": "Survit au chaos, s'adapte instantanément, et apparaît pile là où se concentrent les snacks, les opportunités ou la confusion.", "es": "Sobrevive al caos, se adapta al instante y aparece justo donde se concentran los snacks, las oportunidades o la confusión." }, "idealProfile": { "social": 60, "luck": 80, "chaos": 55, "energy": 65 } },
-  { "id": "animal_goat", "name": { "en": "Confident Goat", "fr": "Chèvre Beaucoup Trop Sûre d'Elle", "es": "Cabra Demasiado Segura de Sí Misma" }, "description": { "en": "Climbs first, checks the route later, and treats confidence as a perfectly acceptable substitute for a map.", "fr": "Monte d'abord, vérifie le chemin ensuite, et considère la confiance comme un remplacement parfaitement valable pour une carte.", "es": "Sube primero, revisa la ruta después y considera la confianza un sustituto perfectamente válido de un mapa." }, "idealProfile": { "intelligence": 50, "chaos": 78, "risk": 72, "ambition": 65, "humor": 70 } }
+  {
+    "id": "animal_raccoon",
+    "name": {
+      "en": "Raccoon",
+      "fr": "Raton laveur",
+      "es": "Mapache"
+    },
+    "description": {
+      "en": "Ingenious under pressure, slightly chaotic, and somehow always finds the useful thing nobody else noticed.",
+      "fr": "Ingénieux sous pression, légèrement chaotique, et toujours capable de trouver le truc utile que personne n'avait vu.",
+      "es": "Ingenioso bajo presión, un poco caótico y siempre capaz de encontrar lo útil que nadie había visto."
+    },
+    "idealProfile": {
+      "intelligence": 82,
+      "creativity": 80,
+      "chaos": 78,
+      "discipline": 30
+    }
+  },
+  {
+    "id": "animal_cat",
+    "name": {
+      "en": "Cat",
+      "fr": "Chat",
+      "es": "Gato"
+    },
+    "description": {
+      "en": "Independent, selective with attention, and mysteriously present exactly when something interesting happens.",
+      "fr": "Indépendant, très sélectif avec son attention, et mystérieusement présent dès qu'il se passe quelque chose d'intéressant.",
+      "es": "Independiente, muy selectivo con su atención y misteriosamente presente cuando pasa algo interesante."
+    },
+    "idealProfile": {
+      "social": 45,
+      "emotionalControl": 78,
+      "ambition": 55,
+      "empathy": 40
+    }
+  },
+  {
+    "id": "animal_golden_retriever",
+    "name": {
+      "en": "Golden Retriever",
+      "fr": "Golden Retriever",
+      "es": "Golden Retriever"
+    },
+    "description": {
+      "en": "Friendly, energetic, and genuinely convinced the group project can still be saved with enough enthusiasm.",
+      "fr": "Sociable, énergique, et sincèrement convaincu qu'on peut encore sauver le projet de groupe avec assez d'enthousiasme.",
+      "es": "Sociable, enérgico y sinceramente convencido de que el trabajo en grupo aún puede salvarse con suficiente entusiasmo."
+    },
+    "idealProfile": {
+      "social": 85,
+      "empathy": 82,
+      "energy": 80,
+      "risk": 25
+    }
+  },
+  {
+    "id": "animal_crow",
+    "name": {
+      "en": "Crow",
+      "fr": "Corneille",
+      "es": "Cuervo"
+    },
+    "description": {
+      "en": "Observant, clever, and remembers both the shortcut and the person who said it would never work.",
+      "fr": "Observateur, malin, et se souvient à la fois du raccourci et de la personne qui disait que ça ne marcherait jamais.",
+      "es": "Observador, listo y recuerda tanto el atajo como a quien dijo que nunca funcionaría."
+    },
+    "idealProfile": {
+      "intelligence": 85,
+      "creativity": 78,
+      "risk": 55,
+      "social": 40
+    }
+  },
+  {
+    "id": "animal_owl",
+    "name": {
+      "en": "Owl",
+      "fr": "Hibou",
+      "es": "Búho"
+    },
+    "description": {
+      "en": "Quietly analyzes everything, says little, then drops the one sentence that makes everyone reconsider the whole plan.",
+      "fr": "Analyse tout en silence, parle peu, puis lâche la phrase qui oblige tout le monde à revoir le plan entier.",
+      "es": "Analiza todo en silencio, habla poco y luego suelta la frase que obliga a replantear todo el plan."
+    },
+    "idealProfile": {
+      "intelligence": 82,
+      "emotionalControl": 72,
+      "social": 30,
+      "discipline": 60
+    }
+  },
+  {
+    "id": "animal_fox",
+    "name": {
+      "en": "Fox",
+      "fr": "Renard",
+      "es": "Zorro"
+    },
+    "description": {
+      "en": "Quick-thinking, adaptable, and very comfortable turning a questionable plan into something that somehow works.",
+      "fr": "Rapide, adaptable, et très à l'aise pour transformer un plan douteux en quelque chose qui fonctionne quand même.",
+      "es": "Rápido, adaptable y muy cómodo convirtiendo un plan dudoso en algo que, de algún modo, funciona."
+    },
+    "idealProfile": {
+      "intelligence": 75,
+      "creativity": 65,
+      "risk": 65,
+      "chaos": 55,
+      "communication": 55
+    }
+  },
+  {
+    "id": "animal_turtle",
+    "name": {
+      "en": "Turtle",
+      "fr": "Tortue",
+      "es": "Tortuga"
+    },
+    "description": {
+      "en": "Not in a rush, rarely panics, and usually arrives with more battery, patience, and preparation than everyone else.",
+      "fr": "Jamais pressé, panique rarement, et arrive généralement avec plus de batterie, de patience et de préparation que les autres.",
+      "es": "Nunca tiene prisa, rara vez entra en pánico y suele llegar con más batería, paciencia y preparación que los demás."
+    },
+    "idealProfile": {
+      "discipline": 72,
+      "emotionalControl": 80,
+      "risk": 20,
+      "energy": 25
+    }
+  },
+  {
+    "id": "animal_octopus",
+    "name": {
+      "en": "Octopus",
+      "fr": "Pieuvre",
+      "es": "Pulpo"
+    },
+    "description": {
+      "en": "Can handle eight problems at once, including several that were never officially their responsibility.",
+      "fr": "Peut gérer huit problèmes en même temps, dont plusieurs qui n'étaient officiellement pas de sa responsabilité.",
+      "es": "Puede manejar ocho problemas a la vez, incluidos varios que oficialmente nunca fueron su responsabilidad."
+    },
+    "idealProfile": {
+      "intelligence": 88,
+      "creativity": 75,
+      "social": 20,
+      "chaos": 50
+    }
+  },
+  {
+    "id": "animal_meerkat",
+    "name": {
+      "en": "Meerkat",
+      "fr": "Suricate",
+      "es": "Suricata"
+    },
+    "description": {
+      "en": "Alert, social, and somehow aware of every tiny change in the room before anyone else notices.",
+      "fr": "Vigilant, sociable, et au courant de chaque micro-changement dans la pièce avant tout le monde.",
+      "es": "Alerta, sociable y consciente de cada pequeño cambio en la sala antes que los demás."
+    },
+    "idealProfile": {
+      "social": 78,
+      "energy": 72,
+      "emotionalControl": 45,
+      "communication": 60
+    }
+  },
+  {
+    "id": "animal_pigeon",
+    "name": {
+      "en": "Pigeon",
+      "fr": "Pigeon",
+      "es": "Paloma"
+    },
+    "description": {
+      "en": "Survives chaos, adapts instantly, and appears exactly where the snacks, opportunities, or confusion are concentrated.",
+      "fr": "Survit au chaos, s'adapte instantanément, et apparaît pile là où se concentrent les snacks, les opportunités ou la confusion.",
+      "es": "Sobrevive al caos, se adapta al instante y aparece justo donde se concentran los snacks, las oportunidades o la confusión."
+    },
+    "idealProfile": {
+      "social": 60,
+      "luck": 80,
+      "chaos": 55,
+      "energy": 65
+    }
+  },
+  {
+    "id": "animal_goat",
+    "name": {
+      "en": "Confident Goat",
+      "fr": "Chèvre Beaucoup Trop Sûre d'Elle",
+      "es": "Cabra Demasiado Segura de Sí Misma"
+    },
+    "description": {
+      "en": "Climbs first, checks the route later, and treats confidence as a perfectly acceptable substitute for a map.",
+      "fr": "Monte d'abord, vérifie le chemin ensuite, et considère la confiance comme un remplacement parfaitement valable pour une carte.",
+      "es": "Sube primero, revisa la ruta después y considera la confianza un sustituto perfectamente válido de un mapa."
+    },
+    "idealProfile": {
+      "intelligence": 50,
+      "chaos": 78,
+      "risk": 72,
+      "ambition": 65,
+      "humor": 70
+    }
+  },
+  {
+    "id": "animal_duck",
+    "name": {
+      "en": "Suspicious Duck",
+      "fr": "Canard Suspect",
+      "es": "Pato Sospechoso"
+    },
+    "description": {
+      "en": "Looks harmless, knows more than it should, and leaves the scene before anyone can ask follow-up questions.",
+      "fr": "A l'air inoffensif, en sait beaucoup trop, et quitte les lieux avant que quelqu'un puisse poser une deuxième question.",
+      "es": "Parece inofensivo, sabe demasiado y abandona la escena antes de que alguien pueda hacer una segunda pregunta."
+    },
+    "idealProfile": {
+      "chaos": 70,
+      "social": 62,
+      "humor": 78,
+      "emotionalControl": 42,
+      "luck": 55
+    }
+  },
+  {
+    "id": "animal_office_raccoon",
+    "name": {
+      "en": "Office Raccoon",
+      "fr": "Raton Laveur de Bureau",
+      "es": "Mapache de Oficina"
+    },
+    "description": {
+      "en": "Thrives between abandoned coffee cups, forgotten files, and one spreadsheet that somehow keeps the whole operation alive.",
+      "fr": "Prospère entre les cafés abandonnés, les fichiers oubliés et le tableur qui maintient mystérieusement toute l'opération en vie.",
+      "es": "Prospera entre cafés abandonados, archivos olvidados y una hoja de cálculo que misteriosamente mantiene toda la operación con vida."
+    },
+    "idealProfile": {
+      "creativity": 76,
+      "chaos": 82,
+      "energy": 62,
+      "financialSense": 48,
+      "humor": 80
+    }
+  },
+  {
+    "id": "animal_pigeon_manager",
+    "name": {
+      "en": "Middle-Management Pigeon",
+      "fr": "Pigeon Cadre Intermédiaire",
+      "es": "Paloma de Mando Intermedio"
+    },
+    "description": {
+      "en": "Walks into meetings with authority, contributes three vague sentences, and somehow leaves with fewer tasks than it arrived with.",
+      "fr": "Entre en réunion avec autorité, prononce trois phrases vagues, et repart mystérieusement avec moins de tâches qu'en arrivant.",
+      "es": "Entra a las reuniones con autoridad, aporta tres frases vagas y misteriosamente sale con menos tareas de las que tenía al entrar."
+    },
+    "idealProfile": {
+      "social": 72,
+      "professionalism": 58,
+      "communication": 68,
+      "ambition": 64,
+      "chaos": 55
+    }
+  },
+  {
+    "id": "animal_capable_capibara",
+    "name": {
+      "en": "Suspiciously Capable Capybara",
+      "fr": "Capybara Étrangement Compétent",
+      "es": "Capibara Sospechosamente Competente"
+    },
+    "description": {
+      "en": "Calm enough to lower everyone's heart rate and competent enough to quietly solve the problem while the rest are still discussing it.",
+      "fr": "Assez calme pour faire baisser le rythme cardiaque du groupe et assez compétent pour régler le problème pendant que les autres en parlent encore.",
+      "es": "Lo bastante tranquilo para bajar el pulso del grupo y lo bastante competente para resolver el problema mientras los demás aún lo discuten."
+    },
+    "idealProfile": {
+      "emotionalControl": 90,
+      "empathy": 78,
+      "social": 70,
+      "discipline": 65,
+      "humor": 58
+    }
+  },
+  {
+    "id": "animal_red_panda",
+    "name": {
+      "en": "Overqualified Red Panda",
+      "fr": "Panda Roux Surqualifié",
+      "es": "Panda Rojo Sobrecualificado"
+    },
+    "description": {
+      "en": "Looks permanently tired, remains unexpectedly competent, and would prefer everyone to lower the volume.",
+      "fr": "A l'air constamment fatigué, reste étonnamment compétent et aimerait que tout le monde baisse d'un ton.",
+      "es": "Parece permanentemente cansado, sigue siendo sorprendentemente competente y preferiría que todos bajaran el volumen."
+    },
+    "idealProfile": {
+      "intelligence": 76,
+      "emotionalControl": 72,
+      "social": 38,
+      "discipline": 66,
+      "humor": 64
+    }
+  },
+  {
+    "id": "animal_border_collie",
+    "name": {
+      "en": "Spreadsheet Border Collie",
+      "fr": "Border Collie du Tableur",
+      "es": "Border Collie de la Hoja de Cálculo"
+    },
+    "description": {
+      "en": "Needs a task, a second task, and preferably a dashboard showing progress on both.",
+      "fr": "A besoin d'une tâche, d'une deuxième tâche et idéalement d'un dashboard montrant l'avancement des deux.",
+      "es": "Necesita una tarea, una segunda tarea y, si puede ser, un dashboard con el progreso de ambas."
+    },
+    "idealProfile": {
+      "energy": 90,
+      "discipline": 86,
+      "intelligence": 76,
+      "professionalism": 72,
+      "social": 66
+    }
+  },
+  {
+    "id": "animal_hedgehog",
+    "name": {
+      "en": "Meeting-Averse Hedgehog",
+      "fr": "Hérisson Allergique aux Réunions",
+      "es": "Erizo Alérgico a las Reuniones"
+    },
+    "description": {
+      "en": "Friendly in controlled doses, highly effective alone, and visibly defensive when a calendar invite appears.",
+      "fr": "Sympa à dose contrôlée, très efficace seul et visiblement défensif dès qu'une invitation calendrier apparaît.",
+      "es": "Amable en dosis controladas, muy eficaz a solas y visiblemente defensivo cuando aparece una invitación de calendario."
+    },
+    "idealProfile": {
+      "social": 32,
+      "discipline": 76,
+      "emotionalControl": 74,
+      "intelligence": 72,
+      "communication": 48
+    }
+  },
+  {
+    "id": "animal_otter",
+    "name": {
+      "en": "Deadline Otter",
+      "fr": "Loutre de Deadline",
+      "es": "Nutria de Fecha Límite"
+    },
+    "description": {
+      "en": "Playful until the deadline gets close, then suddenly reveals an alarming amount of competence.",
+      "fr": "Joue jusqu'à ce que la deadline approche, puis révèle soudainement une quantité inquiétante de compétence.",
+      "es": "Juguetona hasta que se acerca la fecha límite y entonces revela una cantidad alarmante de competencia."
+    },
+    "idealProfile": {
+      "humor": 80,
+      "energy": 82,
+      "creativity": 76,
+      "discipline": 52,
+      "chaos": 64
+    }
+  },
+  {
+    "id": "animal_bear",
+    "name": {
+      "en": "Do-Not-Disturb Bear",
+      "fr": "Ours en Ne Pas Déranger",
+      "es": "Oso en No Molestar"
+    },
+    "description": {
+      "en": "Perfectly reasonable when rested, increasingly dangerous after the third unnecessary notification.",
+      "fr": "Parfaitement raisonnable quand il est reposé, de plus en plus dangereux après la troisième notification inutile.",
+      "es": "Perfectamente razonable descansado, cada vez más peligroso después de la tercera notificación innecesaria."
+    },
+    "idealProfile": {
+      "emotionalControl": 76,
+      "social": 28,
+      "energy": 58,
+      "discipline": 68,
+      "risk": 56
+    }
+  },
+  {
+    "id": "animal_squirrel",
+    "name": {
+      "en": "Tab-Hoarding Squirrel",
+      "fr": "Écureuil Collectionneur d'Onglets",
+      "es": "Ardilla Coleccionista de Pestañas"
+    },
+    "description": {
+      "en": "Stores information everywhere, remembers where almost none of it is, and still finds exactly what matters under pressure.",
+      "fr": "Stocke des informations partout, ne sait presque jamais où elles sont et retrouve pourtant l'essentiel sous pression.",
+      "es": "Guarda información por todas partes, casi nunca recuerda dónde está y aun así encuentra lo importante bajo presión."
+    },
+    "idealProfile": {
+      "chaos": 82,
+      "creativity": 78,
+      "energy": 74,
+      "intelligence": 68,
+      "discipline": 34
+    }
+  },
+  {
+    "id": "animal_penguin",
+    "name": {
+      "en": "Corporate Penguin",
+      "fr": "Pingouin Corporate",
+      "es": "Pingüino Corporativo"
+    },
+    "description": {
+      "en": "Looks formal, travels in groups, and has mastered the art of appearing calm while everything underneath is moving fast.",
+      "fr": "A l'air formel, se déplace en groupe et maîtrise l'art de paraître calme pendant que tout s'agite dessous.",
+      "es": "Parece formal, se mueve en grupo y domina el arte de parecer tranquilo mientras todo se mueve rápidamente por debajo."
+    },
+    "idealProfile": {
+      "professionalism": 84,
+      "social": 76,
+      "emotionalControl": 80,
+      "communication": 68,
+      "discipline": 72
+    }
+  },
+  {
+    "id": "animal_ferret",
+    "name": {
+      "en": "Cable Ferret",
+      "fr": "Furet des Câbles",
+      "es": "Hurón de los Cables"
+    },
+    "description": {
+      "en": "Will enter any impossible space if there is a charger, adapter, or suspicious loose cable at the other end.",
+      "fr": "Entre dans n'importe quel espace impossible s'il y a un chargeur, un adaptateur ou un câble suspect de l'autre côté.",
+      "es": "Entrará en cualquier espacio imposible si al otro lado hay un cargador, un adaptador o un cable sospechoso."
+    },
+    "idealProfile": {
+      "creativity": 78,
+      "risk": 72,
+      "energy": 80,
+      "chaos": 70,
+      "intelligence": 64
+    }
+  },
+  {
+    "id": "animal_elephant",
+    "name": {
+      "en": "Receipt Elephant",
+      "fr": "Éléphant des Tickets",
+      "es": "Elefante de los Recibos"
+    },
+    "description": {
+      "en": "Remembers what everyone ordered, who still owes money, and the one detail you hoped had been forgotten.",
+      "fr": "Se souvient de ce que chacun a commandé, de qui doit encore de l'argent et du détail que tu espérais oublié.",
+      "es": "Recuerda lo que pidió cada uno, quién aún debe dinero y ese detalle que esperabas que se hubiera olvidado."
+    },
+    "idealProfile": {
+      "intelligence": 78,
+      "financialSense": 82,
+      "empathy": 72,
+      "discipline": 74,
+      "communication": 68
+    }
+  },
+  {
+    "id": "animal_gecko",
+    "name": {
+      "en": "Wi-Fi Gecko",
+      "fr": "Gecko du Wi-Fi",
+      "es": "Gecko del Wi-Fi"
+    },
+    "description": {
+      "en": "Somehow always ends up next to the router and becomes technical support by geographic accident.",
+      "fr": "Se retrouve mystérieusement toujours à côté du routeur et devient support technique par accident géographique.",
+      "es": "Misteriosamente siempre termina junto al router y se convierte en soporte técnico por accidente geográfico."
+    },
+    "idealProfile": {
+      "luck": 78,
+      "intelligence": 66,
+      "emotionalControl": 72,
+      "social": 58,
+      "humor": 70
+    }
+  },
+  {
+    "id": "animal_beaver",
+    "name": {
+      "en": "Process Beaver",
+      "fr": "Castor des Process",
+      "es": "Castor de Procesos"
+    },
+    "description": {
+      "en": "Cannot see a messy workflow without quietly building a system, labels, and a backup system for the system.",
+      "fr": "Ne peut pas voir un workflow désordonné sans construire discrètement un système, des labels et un système de secours.",
+      "es": "No puede ver un flujo desordenado sin construir en silencio un sistema, etiquetas y un sistema de respaldo."
+    },
+    "idealProfile": {
+      "discipline": 90,
+      "professionalism": 80,
+      "intelligence": 74,
+      "energy": 72,
+      "creativity": 62
+    }
+  },
+  {
+    "id": "animal_shiba",
+    "name": {
+      "en": "Selective Shiba",
+      "fr": "Shiba Sélectif",
+      "es": "Shiba Selectivo"
+    },
+    "description": {
+      "en": "Understands the request perfectly, evaluates whether it deserves a response, and proceeds according to its own internal policy.",
+      "fr": "Comprend parfaitement la demande, évalue si elle mérite une réponse et agit selon sa propre politique interne.",
+      "es": "Entiende perfectamente la petición, evalúa si merece respuesta y actúa según su propia política interna."
+    },
+    "idealProfile": {
+      "emotionalControl": 82,
+      "social": 42,
+      "discipline": 62,
+      "humor": 74,
+      "risk": 46
+    }
+  },
+  {
+    "id": "animal_ant",
+    "name": {
+      "en": "Checklist Ant",
+      "fr": "Fourmi à Checklist",
+      "es": "Hormiga de Checklist"
+    },
+    "description": {
+      "en": "Small task, big task, impossible task: everything becomes a line item and eventually gets moved to done.",
+      "fr": "Petite tâche, grosse tâche, tâche impossible : tout devient une ligne de checklist et finit par passer en terminé.",
+      "es": "Tarea pequeña, grande o imposible: todo se convierte en una línea de checklist y acaba en completado."
+    },
+    "idealProfile": {
+      "discipline": 92,
+      "energy": 82,
+      "professionalism": 76,
+      "social": 66,
+      "emotionalControl": 74
+    }
+  },
+  {
+    "id": "animal_alpaca",
+    "name": {
+      "en": "Boundary-Setting Alpaca",
+      "fr": "Alpaga Poseur de Limites",
+      "es": "Alpaca que Pone Límites"
+    },
+    "description": {
+      "en": "Pleasant, calm, and fully capable of making it extremely clear when one more request is not happening today.",
+      "fr": "Sympa, calme et parfaitement capable de faire comprendre qu'une demande de plus n'arrivera pas aujourd'hui.",
+      "es": "Agradable, tranquila y perfectamente capaz de dejar claro que una petición más no va a ocurrir hoy."
+    },
+    "idealProfile": {
+      "empathy": 76,
+      "emotionalControl": 88,
+      "communication": 72,
+      "social": 64,
+      "discipline": 70
+    }
+  },
+  {
+    "id": "animal_dolphin",
+    "name": {
+      "en": "Group-Project Dolphin",
+      "fr": "Dauphin de Projet de Groupe",
+      "es": "Delfín de Proyecto Grupal"
+    },
+    "description": {
+      "en": "Social, quick, and mysteriously able to coordinate people who were absolutely not planning to cooperate.",
+      "fr": "Social, rapide et mystérieusement capable de coordonner des gens qui n'avaient absolument pas prévu de coopérer.",
+      "es": "Social, rápido y misteriosamente capaz de coordinar a personas que no pensaban colaborar en absoluto."
+    },
+    "idealProfile": {
+      "social": 88,
+      "communication": 86,
+      "intelligence": 76,
+      "empathy": 78,
+      "energy": 80
+    }
+  }
 ]

@@ -1,16 +1,439 @@
 [
-  { "id": "class_strategist", "name": { "en": "The Strategist", "fr": "Le Stratège", "es": "El Estratega" }, "idealProfile": { "intelligence": 85, "discipline": 75, "ambition": 70, "chaos": 30 } },
-  { "id": "class_improviser", "name": { "en": "Held Together By Duct Tape and Vibes", "fr": "Tenu par du scotch et de la bonne volonté", "es": "Sostenido por cinta adhesiva y buena onda" }, "idealProfile": { "creativity": 85, "chaos": 75, "humor": 65, "discipline": 35 } },
-  { "id": "class_people_person", "name": { "en": "The People Person", "fr": "Le Relationnel", "es": "El Sociable" }, "idealProfile": { "social": 85, "communication": 80, "empathy": 75 } },
-  { "id": "class_highly_functional_disaster", "name": { "en": "Highly Functional Disaster", "fr": "Désastre Hautement Fonctionnel", "es": "Desastre Altamente Funcional" }, "idealProfile": { "intelligence": 78, "chaos": 80, "discipline": 25, "ambition": 70 } },
-  { "id": "class_opportunist", "name": { "en": "Somehow Always Lands on Their Feet", "fr": "Retombe toujours sur ses pattes, mystérieusement", "es": "De algún modo siempre cae de pie" }, "idealProfile": { "intelligence": 70, "risk": 75, "ambition": 78, "luck": 65, "empathy": 30 } },
-  { "id": "class_accidental_genius", "name": { "en": "Accidental Genius", "fr": "Génie Accidentel", "es": "Genio Accidental" }, "idealProfile": { "intelligence": 88, "luck": 70, "chaos": 60, "discipline": 40 } },
-  { "id": "class_suspiciously_competent", "name": { "en": "Suspiciously Competent for Someone Who Looks This Tired", "fr": "Suspicieusement compétent pour quelqu'un qui a l'air si fatigué", "es": "Sospechosamente competente para alguien con tanta cara de cansancio" }, "idealProfile": { "intelligence": 80, "professionalism": 78, "discipline": 72, "chaos": 45 } },
-  { "id": "class_professional_menace", "name": { "en": "Professional Menace", "fr": "Menace Professionnelle", "es": "Amenaza Profesional" }, "idealProfile": { "chaos": 82, "intelligence": 68, "risk": 72, "emotionalControl": 35 } },
-  { "id": "class_last_minute_legend", "name": { "en": "Last-Minute Legend", "fr": "Légende de la Dernière Minute", "es": "Leyenda de Último Momento" }, "idealProfile": { "creativity": 78, "chaos": 65, "energy": 70, "discipline": 30, "intelligence": 65 } },
-  { "id": "class_quiet_architect", "name": { "en": "Has a Plan for Everything, Tells No One", "fr": "A un plan pour tout, ne le dit à personne", "es": "Tiene un plan para todo, no se lo dice a nadie" }, "idealProfile": { "intelligence": 80, "discipline": 78, "social": 30, "creativity": 60 } },
-  { "id": "class_wildcard", "name": { "en": "The Wildcard", "fr": "L'Électron Libre", "es": "El Comodín" }, "idealProfile": { "chaos": 75, "luck": 70, "risk": 65, "creativity": 60 } },
-  { "id": "class_diplomat", "name": { "en": "Could End a War With a Well-Timed Compliment", "fr": "Pourrait mettre fin à une guerre avec un compliment bien placé", "es": "Podría terminar una guerra con un cumplido bien colocado" }, "idealProfile": { "communication": 82, "empathy": 75, "emotionalControl": 78, "ambition": 55 } },
-  { "id": "class_human_group_chat", "name": { "en": "One-Person Group Chat, Somehow", "fr": "Un groupe de discussion à lui tout seul, mystérieusement", "es": "Un chat grupal de una sola persona, misteriosamente" }, "idealProfile": { "humor": 78, "social": 60, "chaos": 55, "energy": 60 } },
-  { "id": "class_meeting_ghost", "name": { "en": "The Meeting Ghost", "fr": "Le Fantôme des Réunions", "es": "El Fantasma de las Reuniones" }, "idealProfile": { "social": 25, "discipline": 70, "emotionalControl": 80, "chaos": 35 } }
+  {
+    "id": "class_strategist",
+    "name": {
+      "en": "The Strategist",
+      "fr": "Le Stratège",
+      "es": "El Estratega"
+    },
+    "idealProfile": {
+      "intelligence": 85,
+      "discipline": 75,
+      "ambition": 70,
+      "chaos": 30
+    }
+  },
+  {
+    "id": "class_improviser",
+    "name": {
+      "en": "Held Together By Duct Tape and Vibes",
+      "fr": "Tenu par du scotch et de la bonne volonté",
+      "es": "Sostenido por cinta adhesiva y buena onda"
+    },
+    "idealProfile": {
+      "creativity": 85,
+      "chaos": 75,
+      "humor": 65,
+      "discipline": 35
+    }
+  },
+  {
+    "id": "class_people_person",
+    "name": {
+      "en": "The People Person",
+      "fr": "Le Relationnel",
+      "es": "El Sociable"
+    },
+    "idealProfile": {
+      "social": 85,
+      "communication": 80,
+      "empathy": 75
+    }
+  },
+  {
+    "id": "class_highly_functional_disaster",
+    "name": {
+      "en": "Highly Functional Disaster",
+      "fr": "Désastre Hautement Fonctionnel",
+      "es": "Desastre Altamente Funcional"
+    },
+    "idealProfile": {
+      "intelligence": 78,
+      "chaos": 80,
+      "discipline": 25,
+      "ambition": 70
+    }
+  },
+  {
+    "id": "class_opportunist",
+    "name": {
+      "en": "Somehow Always Lands on Their Feet",
+      "fr": "Retombe toujours sur ses pattes, mystérieusement",
+      "es": "De algún modo siempre cae de pie"
+    },
+    "idealProfile": {
+      "intelligence": 70,
+      "risk": 75,
+      "ambition": 78,
+      "luck": 65,
+      "empathy": 30
+    }
+  },
+  {
+    "id": "class_accidental_genius",
+    "name": {
+      "en": "Accidental Genius",
+      "fr": "Génie Accidentel",
+      "es": "Genio Accidental"
+    },
+    "idealProfile": {
+      "intelligence": 88,
+      "luck": 70,
+      "chaos": 60,
+      "discipline": 40
+    }
+  },
+  {
+    "id": "class_suspiciously_competent",
+    "name": {
+      "en": "Suspiciously Competent for Someone Who Looks This Tired",
+      "fr": "Suspicieusement compétent pour quelqu'un qui a l'air si fatigué",
+      "es": "Sospechosamente competente para alguien con tanta cara de cansancio"
+    },
+    "idealProfile": {
+      "intelligence": 80,
+      "professionalism": 78,
+      "discipline": 72,
+      "chaos": 45
+    }
+  },
+  {
+    "id": "class_professional_menace",
+    "name": {
+      "en": "Professional Menace",
+      "fr": "Menace Professionnelle",
+      "es": "Amenaza Profesional"
+    },
+    "idealProfile": {
+      "chaos": 82,
+      "intelligence": 68,
+      "risk": 72,
+      "emotionalControl": 35
+    }
+  },
+  {
+    "id": "class_last_minute_legend",
+    "name": {
+      "en": "Last-Minute Legend",
+      "fr": "Légende de la Dernière Minute",
+      "es": "Leyenda de Último Momento"
+    },
+    "idealProfile": {
+      "creativity": 78,
+      "chaos": 65,
+      "energy": 70,
+      "discipline": 30,
+      "intelligence": 65
+    }
+  },
+  {
+    "id": "class_quiet_architect",
+    "name": {
+      "en": "Has a Plan for Everything, Tells No One",
+      "fr": "A un plan pour tout, ne le dit à personne",
+      "es": "Tiene un plan para todo, no se lo dice a nadie"
+    },
+    "idealProfile": {
+      "intelligence": 80,
+      "discipline": 78,
+      "social": 30,
+      "creativity": 60
+    }
+  },
+  {
+    "id": "class_wildcard",
+    "name": {
+      "en": "The Wildcard",
+      "fr": "L'Électron Libre",
+      "es": "El Comodín"
+    },
+    "idealProfile": {
+      "chaos": 75,
+      "luck": 70,
+      "risk": 65,
+      "creativity": 60
+    }
+  },
+  {
+    "id": "class_diplomat",
+    "name": {
+      "en": "Could End a War With a Well-Timed Compliment",
+      "fr": "Pourrait mettre fin à une guerre avec un compliment bien placé",
+      "es": "Podría terminar una guerra con un cumplido bien colocado"
+    },
+    "idealProfile": {
+      "communication": 82,
+      "empathy": 75,
+      "emotionalControl": 78,
+      "ambition": 55
+    }
+  },
+  {
+    "id": "class_human_group_chat",
+    "name": {
+      "en": "One-Person Group Chat, Somehow",
+      "fr": "Un groupe de discussion à lui tout seul, mystérieusement",
+      "es": "Un chat grupal de una sola persona, misteriosamente"
+    },
+    "idealProfile": {
+      "humor": 78,
+      "social": 60,
+      "chaos": 55,
+      "energy": 60
+    }
+  },
+  {
+    "id": "class_meeting_ghost",
+    "name": {
+      "en": "The Meeting Ghost",
+      "fr": "Le Fantôme des Réunions",
+      "es": "El Fantasma de las Reuniones"
+    },
+    "idealProfile": {
+      "social": 25,
+      "discipline": 70,
+      "emotionalControl": 80,
+      "chaos": 35
+    }
+  },
+  {
+    "id": "class_confident_wrong",
+    "name": {
+      "en": "Confidently Wrong",
+      "fr": "Faux avec une Confiance Absolue",
+      "es": "Equivocado con Confianza Absoluta"
+    },
+    "idealProfile": {
+      "intelligence": 48,
+      "chaos": 72,
+      "communication": 70,
+      "humor": 82,
+      "risk": 50
+    }
+  },
+  {
+    "id": "class_backup_backup_plan",
+    "name": {
+      "en": "Has a Backup Plan for the Backup Plan",
+      "fr": "A un Plan B pour son Plan B",
+      "es": "Tiene un Plan B para su Plan B"
+    },
+    "idealProfile": {
+      "discipline": 88,
+      "intelligence": 78,
+      "risk": 25,
+      "professionalism": 74,
+      "emotionalControl": 76
+    }
+  },
+  {
+    "id": "class_accidental_solution",
+    "name": {
+      "en": "Solved It by Accident and Refuses to Explain",
+      "fr": "A Résolu le Problème par Accident et Refuse d'Expliquer",
+      "es": "Lo Resolvió por Accidente y se Niega a Explicarlo"
+    },
+    "idealProfile": {
+      "creativity": 88,
+      "luck": 82,
+      "chaos": 72,
+      "intelligence": 68,
+      "humor": 74
+    }
+  },
+  {
+    "id": "class_unsupervised_plan",
+    "name": {
+      "en": "Should Not Be Left Unsupervised With a Plan",
+      "fr": "Ne Devrait Pas Être Laissé Seul avec un Plan",
+      "es": "No Debería Quedarse Solo con un Plan"
+    },
+    "idealProfile": {
+      "chaos": 90,
+      "risk": 78,
+      "creativity": 82,
+      "energy": 72,
+      "discipline": 24
+    }
+  },
+  {
+    "id": "class_polite_panic",
+    "name": {
+      "en": "Polite Panic",
+      "fr": "Panique Polie",
+      "es": "Pánico Educado"
+    },
+    "idealProfile": {
+      "emotionalControl": 38,
+      "professionalism": 78,
+      "communication": 72,
+      "empathy": 68,
+      "chaos": 62
+    }
+  },
+  {
+    "id": "class_low_battery_hero",
+    "name": {
+      "en": "Low-Battery Hero",
+      "fr": "Héros à Batterie Faible",
+      "es": "Héroe con Batería Baja"
+    },
+    "idealProfile": {
+      "energy": 38,
+      "discipline": 42,
+      "luck": 72,
+      "humor": 74,
+      "chaos": 66
+    }
+  },
+  {
+    "id": "class_calendar_wizard",
+    "name": {
+      "en": "Calendar Wizard",
+      "fr": "Sorcier du Calendrier",
+      "es": "Mago del Calendario"
+    },
+    "idealProfile": {
+      "discipline": 86,
+      "communication": 76,
+      "professionalism": 78,
+      "intelligence": 68,
+      "chaos": 32
+    }
+  },
+  {
+    "id": "class_five_minute_expert",
+    "name": {
+      "en": "Five-Minute Expert",
+      "fr": "Expert en Cinq Minutes",
+      "es": "Experto en Cinco Minutos"
+    },
+    "idealProfile": {
+      "intelligence": 66,
+      "creativity": 78,
+      "communication": 76,
+      "risk": 70,
+      "humor": 72
+    }
+  },
+  {
+    "id": "class_silent_fixer",
+    "name": {
+      "en": "Silent Fixer",
+      "fr": "Réparateur Silencieux",
+      "es": "Arreglador Silencioso"
+    },
+    "idealProfile": {
+      "intelligence": 82,
+      "discipline": 74,
+      "communication": 38,
+      "emotionalControl": 82,
+      "professionalism": 70
+    }
+  },
+  {
+    "id": "class_group_chat_medic",
+    "name": {
+      "en": "Group Chat Medic",
+      "fr": "Médecin du Groupe de Discussion",
+      "es": "Médico del Chat Grupal"
+    },
+    "idealProfile": {
+      "empathy": 86,
+      "social": 76,
+      "communication": 82,
+      "humor": 70,
+      "emotionalControl": 68
+    }
+  },
+  {
+    "id": "class_chaos_accountant",
+    "name": {
+      "en": "Chaos Accountant",
+      "fr": "Comptable du Chaos",
+      "es": "Contable del Caos"
+    },
+    "idealProfile": {
+      "financialSense": 84,
+      "chaos": 76,
+      "discipline": 62,
+      "intelligence": 74,
+      "humor": 64
+    }
+  },
+  {
+    "id": "class_last_tab_alive",
+    "name": {
+      "en": "Last Tab Alive",
+      "fr": "Dernier Onglet Encore Vivant",
+      "es": "Última Pestaña Viva"
+    },
+    "idealProfile": {
+      "energy": 72,
+      "chaos": 82,
+      "creativity": 74,
+      "discipline": 30,
+      "luck": 64
+    }
+  },
+  {
+    "id": "class_social_battery_guardian",
+    "name": {
+      "en": "Social Battery Guardian",
+      "fr": "Gardien de Batterie Sociale",
+      "es": "Guardián de Batería Social"
+    },
+    "idealProfile": {
+      "social": 38,
+      "empathy": 74,
+      "emotionalControl": 82,
+      "communication": 58,
+      "discipline": 70
+    }
+  },
+  {
+    "id": "class_overprepared_minimalist",
+    "name": {
+      "en": "Overprepared Minimalist",
+      "fr": "Minimaliste Surpréparé",
+      "es": "Minimalista Sobrepreparado"
+    },
+    "idealProfile": {
+      "discipline": 90,
+      "professionalism": 82,
+      "risk": 22,
+      "creativity": 52,
+      "emotionalControl": 84
+    }
+  },
+  {
+    "id": "class_conflict_buffer",
+    "name": {
+      "en": "Human Conflict Buffer",
+      "fr": "Tampon Humain à Conflits",
+      "es": "Amortiguador Humano de Conflictos"
+    },
+    "idealProfile": {
+      "empathy": 88,
+      "communication": 84,
+      "emotionalControl": 82,
+      "social": 72,
+      "humor": 58
+    }
+  },
+  {
+    "id": "class_deadline_sprinter",
+    "name": {
+      "en": "Deadline Sprinter",
+      "fr": "Sprinteur de Deadline",
+      "es": "Velocista de Fecha Límite"
+    },
+    "idealProfile": {
+      "energy": 88,
+      "chaos": 72,
+      "discipline": 46,
+      "creativity": 78,
+      "emotionalControl": 66
+    }
+  }
 ]

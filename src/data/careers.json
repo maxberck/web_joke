@@ -1,37 +1,1097 @@
 [
-  { "id": "career_software_developer", "name": { "en": "Software Developer", "fr": "Développeur Logiciel", "es": "Desarrollador de Software" }, "idealProfile": { "intelligence": 82, "discipline": 55, "creativity": 70, "professionalism": 60, "chaos": 45 }, "worthPotential": { "min": 35000, "max": 180000 }, "tags": ["very_real"] },
-  { "id": "career_architect", "name": { "en": "Architect", "fr": "Architecte", "es": "Arquitecto" }, "idealProfile": { "creativity": 82, "intelligence": 78, "discipline": 65, "professionalism": 68 }, "worthPotential": { "min": 30000, "max": 140000 }, "tags": ["very_real"] },
-  { "id": "career_lawyer", "name": { "en": "Lawyer", "fr": "Avocat", "es": "Abogado" }, "idealProfile": { "intelligence": 85, "communication": 82, "ambition": 78, "discipline": 70, "risk": 45 }, "worthPotential": { "min": 40000, "max": 260000 }, "tags": ["very_real"] },
-  { "id": "career_journalist", "name": { "en": "Journalist", "fr": "Journaliste", "es": "Periodista" }, "idealProfile": { "communication": 80, "intelligence": 72, "risk": 55, "creativity": 60, "ambition": 60 }, "worthPotential": { "min": 20000, "max": 85000 }, "tags": ["very_real"] },
-  { "id": "career_engineer", "name": { "en": "Engineer", "fr": "Ingénieur", "es": "Ingeniero" }, "idealProfile": { "intelligence": 84, "discipline": 72, "professionalism": 68, "creativity": 55, "chaos": 30 }, "worthPotential": { "min": 38000, "max": 130000 }, "tags": ["very_real"] },
-  { "id": "career_teacher", "name": { "en": "Teacher", "fr": "Enseignant", "es": "Profesor" }, "idealProfile": { "communication": 78, "empathy": 75, "discipline": 65, "professionalism": 70, "emotionalControl": 68 }, "worthPotential": { "min": 22000, "max": 55000 }, "tags": ["very_real"] },
-  { "id": "career_doctor", "name": { "en": "Doctor", "fr": "Médecin", "es": "Médico" }, "idealProfile": { "intelligence": 88, "discipline": 80, "emotionalControl": 75, "empathy": 65, "professionalism": 82 }, "worthPotential": { "min": 45000, "max": 220000 }, "tags": ["very_real"] },
-  { "id": "career_accountant", "name": { "en": "Accountant", "fr": "Comptable", "es": "Contador" }, "idealProfile": { "financialSense": 88, "discipline": 82, "professionalism": 80, "risk": 25 }, "worthPotential": { "min": 30000, "max": 95000 }, "tags": ["very_real"] },
-  { "id": "career_designer", "name": { "en": "Designer", "fr": "Designer", "es": "Diseñador" }, "idealProfile": { "creativity": 80, "intelligence": 62, "professionalism": 55, "communication": 55 }, "worthPotential": { "min": 28000, "max": 100000 }, "tags": ["very_real"] },
-  { "id": "career_mechanic", "name": { "en": "Mechanic", "fr": "Mécanicien", "es": "Mecánico" }, "idealProfile": { "intelligence": 65, "discipline": 62, "professionalism": 55, "creativity": 45 }, "worthPotential": { "min": 22000, "max": 65000 }, "tags": ["very_real"] },
-  { "id": "career_professional_overthinker", "name": { "en": "Professional Overthinker", "fr": "Surrananalyseur Professionnel", "es": "Sobreanalizador Profesional" }, "idealProfile": { "intelligence": 78, "emotionalControl": 25, "empathy": 65, "creativity": 55, "discipline": 40 }, "worthPotential": { "min": -5000, "max": 35000 }, "tags": ["real_but_particular"] },
-  { "id": "career_internet_detective", "name": { "en": "Internet Detective", "fr": "Détective d'Internet", "es": "Detective de Internet" }, "idealProfile": { "intelligence": 72, "chaos": 55, "risk": 40, "social": 25, "creativity": 55 }, "worthPotential": { "min": -3000, "max": 20000 }, "tags": ["real_but_particular"] },
-  { "id": "career_meeting_survivor", "name": { "en": "Meeting Survivor", "fr": "Survivant de Réunions", "es": "Superviviente de Reuniones" }, "idealProfile": { "emotionalControl": 62, "discipline": 50, "professionalism": 55, "energy": 30, "humor": 50 }, "worthPotential": { "min": 15000, "max": 40000 }, "tags": ["real_but_particular"] },
-  { "id": "career_family_it_support", "name": { "en": "Family IT Support", "fr": "Support Informatique Familial", "es": "Soporte Informático Familiar" }, "idealProfile": { "intelligence": 62, "empathy": 60, "discipline": 40, "communication": 50, "emotionalControl": 35 }, "worthPotential": { "min": -2000, "max": 10000 }, "tags": ["real_but_particular"] },
-  { "id": "career_human_gps", "name": { "en": "Human GPS", "fr": "GPS Humain", "es": "GPS Humano" }, "idealProfile": { "intelligence": 65, "discipline": 55, "communication": 48, "social": 55, "luck": 35 }, "worthPotential": { "min": 10000, "max": 35000 }, "tags": ["real_but_particular"] },
-  { "id": "career_spreadsheet_therapist", "name": { "en": "Spreadsheet Therapist", "fr": "Thérapeute de Tableurs", "es": "Terapeuta de Hojas de Cálculo" }, "idealProfile": { "discipline": 78, "intelligence": 65, "empathy": 45, "professionalism": 60, "chaos": 20 }, "worthPotential": { "min": 12000, "max": 40000 }, "tags": ["real_but_particular"] },
-  { "id": "career_last_minute_problem_solver", "name": { "en": "Last Minute Problem Solver", "fr": "Résolveur de Problèmes de Dernière Minute", "es": "Solucionador de Problemas de Último Minuto" }, "idealProfile": { "creativity": 75, "chaos": 65, "intelligence": 65, "discipline": 30, "energy": 60 }, "worthPotential": { "min": 5000, "max": 55000 }, "tags": ["real_but_particular"] },
-  { "id": "career_group_chat_manager", "name": { "en": "Group Chat Manager", "fr": "Gestionnaire de Groupe WhatsApp", "es": "Gestor del Chat Grupal" }, "idealProfile": { "social": 62, "empathy": 68, "emotionalControl": 55, "communication": 55 }, "worthPotential": { "min": -2000, "max": 15000 }, "tags": ["real_but_particular"] },
-  { "id": "career_backseat_driver", "name": { "en": "Professional Backseat Driver", "fr": "Copilote Professionnel Non-Sollicité", "es": "Copiloto Profesional No Solicitado" }, "idealProfile": { "intelligence": 55, "communication": 58, "ambition": 40, "emotionalControl": 30, "chaos": 35 }, "worthPotential": { "min": -3000, "max": 15000 }, "tags": ["real_but_particular"] },
-  { "id": "career_workplace_firefighter", "name": { "en": "Workplace Firefighter", "fr": "Pompier de Bureau", "es": "Bombero de Oficina" }, "idealProfile": { "emotionalControl": 75, "discipline": 62, "professionalism": 68, "energy": 55, "chaos": 40 }, "worthPotential": { "min": 25000, "max": 60000 }, "tags": ["real_but_particular"] },
-  { "id": "career_serial_plan_b_creator", "name": { "en": "Serial Plan B Creator", "fr": "Créateur en Série de Plans B", "es": "Creador en Serie de Planes B" }, "idealProfile": { "intelligence": 68, "discipline": 58, "risk": 28, "creativity": 55, "ambition": 42 }, "worthPotential": { "min": 8000, "max": 30000 }, "tags": ["real_but_particular"] },
-  { "id": "career_unofficial_tech_support", "name": { "en": "Unofficial Tech Support", "fr": "Support Technique Non-Officiel", "es": "Soporte Técnico No Oficial" }, "idealProfile": { "intelligence": 65, "empathy": 52, "discipline": 38, "communication": 48, "emotionalControl": 32 }, "worthPotential": { "min": -1000, "max": 12000 }, "tags": ["real_but_particular"] },
-  { "id": "career_chief_snack_officer", "name": { "en": "Chief Snack Officer", "fr": "Directeur en Chef des Snacks", "es": "Director Jefe de Snacks" }, "idealProfile": { "humor": 68, "social": 58, "energy": 52, "discipline": 20, "chaos": 42 }, "worthPotential": { "min": -2000, "max": 8000 }, "tags": ["humorous_plausible"] },
-  { "id": "career_senior_queue_strategist", "name": { "en": "Senior Queue Strategist", "fr": "Stratège Senior de la File d'Attente", "es": "Estratega Senior de Colas" }, "idealProfile": { "intelligence": 58, "discipline": 68, "chaos": 28, "risk": 20, "ambition": 32 }, "worthPotential": { "min": -1000, "max": 5000 }, "tags": ["humorous_plausible"] },
-  { "id": "career_professional_door_opener", "name": { "en": "Professional Door Opener", "fr": "Ouvreur de Porte Professionnel", "es": "Abridor de Puertas Profesional" }, "idealProfile": { "social": 52, "empathy": 48, "discipline": 38, "professionalism": 42, "chaos": 22 }, "worthPotential": { "min": -1000, "max": 4000 }, "tags": ["humorous_plausible"] },
-  { "id": "career_freelance_button_presser", "name": { "en": "Freelance Button Presser", "fr": "Presseur de Boutons Freelance", "es": "Pulsador de Botones Freelance" }, "idealProfile": { "chaos": 52, "discipline": 18, "humor": 55, "energy": 38, "ambition": 12 }, "worthPotential": { "min": -3000, "max": 3000 }, "tags": ["humorous_plausible"] },
-  { "id": "career_certified_problem_creator", "name": { "en": "Certified Problem Creator", "fr": "Créateur de Problèmes Certifié", "es": "Creador de Problemas Certificado" }, "idealProfile": { "chaos": 80, "humor": 58, "risk": 55, "discipline": 12, "empathy": 15 }, "worthPotential": { "min": -8000, "max": 5000 }, "tags": ["humorous_plausible"] },
-  { "id": "career_chief_excuse_architect", "name": { "en": "Chief Excuse Architect", "fr": "Architecte en Chef des Excuses", "es": "Arquitecto Jefe de Excusas" }, "idealProfile": { "creativity": 78, "communication": 62, "chaos": 52, "discipline": 22 }, "worthPotential": { "min": -3000, "max": 10000 }, "tags": ["humorous_plausible"] },
-  { "id": "career_professional_tab_opener", "name": { "en": "Professional Tab Opener", "fr": "Ouvreur d'Onglets Professionnel", "es": "Abridor de Pestañas Profesional" }, "idealProfile": { "chaos": 58, "intelligence": 38, "discipline": 15, "energy": 35, "humor": 42 }, "worthPotential": { "min": -2000, "max": 3000 }, "tags": ["humorous_plausible"] },
-  { "id": "career_executive_nap_consultant", "name": { "en": "Executive Nap Consultant", "fr": "Consultant Exécutif en Sieste", "es": "Consultor Ejecutivo de Siestas" }, "idealProfile": { "discipline": 18, "emotionalControl": 62, "humor": 52, "professionalism": 28, "chaos": 28 }, "worthPotential": { "min": -1000, "max": 6000 }, "tags": ["humorous_plausible"] },
-  { "id": "career_wifi_whisperer", "name": { "en": "Wi-Fi Whisperer", "fr": "Chuchoteur de Wi-Fi", "es": "Susurrador de Wi-Fi" }, "idealProfile": { "intelligence": 52, "discipline": 28, "chaos": 45, "luck": 42, "professionalism": 18 }, "worthPotential": { "min": -1000, "max": 5000 }, "tags": ["humorous_plausible"] },
-  { "id": "career_fridge_inspector", "name": { "en": "Fridge Inspector", "fr": "Inspecteur de Frigo", "es": "Inspector de Nevera" }, "idealProfile": { "discipline": 22, "humor": 58, "chaos": 48, "energy": 28, "financialSense": 18 }, "worthPotential": { "min": -2000, "max": 3000 }, "tags": ["humorous_plausible"] },
-  { "id": "career_remote_control_manager", "name": { "en": "Remote Control Manager", "fr": "Directeur de la Télécommande", "es": "Director del Control Remoto" }, "idealProfile": { "discipline": 32, "chaos": 38, "ambition": 18, "professionalism": 12, "humor": 52 }, "worthPotential": { "min": -1000, "max": 3000 }, "tags": ["humorous_plausible"] },
-  { "id": "career_professional_sock_finder", "name": { "en": "Professional Sock Finder", "fr": "Chercheur de Chaussettes Professionnel", "es": "Buscador Profesional de Calcetines" }, "idealProfile": { "luck": 58, "discipline": 25, "chaos": 52, "intelligence": 28, "humor": 48 }, "worthPotential": { "min": -3000, "max": 2000 }, "tags": ["humorous_plausible"] },
-  { "id": "career_professional_meeting_escape_artist", "name": { "en": "Professional Meeting Escape Artist", "fr": "Évadé Professionnel de Réunions", "es": "Escapista Profesional de Reuniones" }, "idealProfile": { "social": 70, "communication": 65, "emotionalControl": 70, "discipline": 45, "humor": 60 }, "worthPotential": { "min": 5000, "max": 30000 }, "tags": ["humorous_plausible", "office"] }
+  {
+    "id": "career_software_developer",
+    "name": {
+      "en": "Software Developer",
+      "fr": "Développeur Logiciel",
+      "es": "Desarrollador de Software"
+    },
+    "idealProfile": {
+      "intelligence": 82,
+      "discipline": 55,
+      "creativity": 70,
+      "professionalism": 60,
+      "chaos": 45
+    },
+    "worthPotential": {
+      "min": 35000,
+      "max": 180000
+    },
+    "tags": [
+      "very_real"
+    ]
+  },
+  {
+    "id": "career_architect",
+    "name": {
+      "en": "Architect",
+      "fr": "Architecte",
+      "es": "Arquitecto"
+    },
+    "idealProfile": {
+      "creativity": 82,
+      "intelligence": 78,
+      "discipline": 65,
+      "professionalism": 68
+    },
+    "worthPotential": {
+      "min": 30000,
+      "max": 140000
+    },
+    "tags": [
+      "very_real"
+    ]
+  },
+  {
+    "id": "career_lawyer",
+    "name": {
+      "en": "Lawyer",
+      "fr": "Avocat",
+      "es": "Abogado"
+    },
+    "idealProfile": {
+      "intelligence": 85,
+      "communication": 82,
+      "ambition": 78,
+      "discipline": 70,
+      "risk": 45
+    },
+    "worthPotential": {
+      "min": 40000,
+      "max": 260000
+    },
+    "tags": [
+      "very_real"
+    ]
+  },
+  {
+    "id": "career_journalist",
+    "name": {
+      "en": "Journalist",
+      "fr": "Journaliste",
+      "es": "Periodista"
+    },
+    "idealProfile": {
+      "communication": 80,
+      "intelligence": 72,
+      "risk": 55,
+      "creativity": 60,
+      "ambition": 60
+    },
+    "worthPotential": {
+      "min": 20000,
+      "max": 85000
+    },
+    "tags": [
+      "very_real"
+    ]
+  },
+  {
+    "id": "career_engineer",
+    "name": {
+      "en": "Engineer",
+      "fr": "Ingénieur",
+      "es": "Ingeniero"
+    },
+    "idealProfile": {
+      "intelligence": 84,
+      "discipline": 72,
+      "professionalism": 68,
+      "creativity": 55,
+      "chaos": 30
+    },
+    "worthPotential": {
+      "min": 38000,
+      "max": 130000
+    },
+    "tags": [
+      "very_real"
+    ]
+  },
+  {
+    "id": "career_teacher",
+    "name": {
+      "en": "Teacher",
+      "fr": "Enseignant",
+      "es": "Profesor"
+    },
+    "idealProfile": {
+      "communication": 78,
+      "empathy": 75,
+      "discipline": 65,
+      "professionalism": 70,
+      "emotionalControl": 68
+    },
+    "worthPotential": {
+      "min": 22000,
+      "max": 55000
+    },
+    "tags": [
+      "very_real"
+    ]
+  },
+  {
+    "id": "career_doctor",
+    "name": {
+      "en": "Doctor",
+      "fr": "Médecin",
+      "es": "Médico"
+    },
+    "idealProfile": {
+      "intelligence": 88,
+      "discipline": 80,
+      "emotionalControl": 75,
+      "empathy": 65,
+      "professionalism": 82
+    },
+    "worthPotential": {
+      "min": 45000,
+      "max": 220000
+    },
+    "tags": [
+      "very_real"
+    ]
+  },
+  {
+    "id": "career_accountant",
+    "name": {
+      "en": "Accountant",
+      "fr": "Comptable",
+      "es": "Contador"
+    },
+    "idealProfile": {
+      "financialSense": 88,
+      "discipline": 82,
+      "professionalism": 80,
+      "risk": 25
+    },
+    "worthPotential": {
+      "min": 30000,
+      "max": 95000
+    },
+    "tags": [
+      "very_real"
+    ]
+  },
+  {
+    "id": "career_designer",
+    "name": {
+      "en": "Designer",
+      "fr": "Designer",
+      "es": "Diseñador"
+    },
+    "idealProfile": {
+      "creativity": 80,
+      "intelligence": 62,
+      "professionalism": 55,
+      "communication": 55
+    },
+    "worthPotential": {
+      "min": 28000,
+      "max": 100000
+    },
+    "tags": [
+      "very_real"
+    ]
+  },
+  {
+    "id": "career_mechanic",
+    "name": {
+      "en": "Mechanic",
+      "fr": "Mécanicien",
+      "es": "Mecánico"
+    },
+    "idealProfile": {
+      "intelligence": 65,
+      "discipline": 62,
+      "professionalism": 55,
+      "creativity": 45
+    },
+    "worthPotential": {
+      "min": 22000,
+      "max": 65000
+    },
+    "tags": [
+      "very_real"
+    ]
+  },
+  {
+    "id": "career_professional_overthinker",
+    "name": {
+      "en": "Professional Overthinker",
+      "fr": "Surrananalyseur Professionnel",
+      "es": "Sobreanalizador Profesional"
+    },
+    "idealProfile": {
+      "intelligence": 78,
+      "emotionalControl": 25,
+      "empathy": 65,
+      "creativity": 55,
+      "discipline": 40
+    },
+    "worthPotential": {
+      "min": -5000,
+      "max": 35000
+    },
+    "tags": [
+      "real_but_particular"
+    ]
+  },
+  {
+    "id": "career_internet_detective",
+    "name": {
+      "en": "Internet Detective",
+      "fr": "Détective d'Internet",
+      "es": "Detective de Internet"
+    },
+    "idealProfile": {
+      "intelligence": 72,
+      "chaos": 55,
+      "risk": 40,
+      "social": 25,
+      "creativity": 55
+    },
+    "worthPotential": {
+      "min": -3000,
+      "max": 20000
+    },
+    "tags": [
+      "real_but_particular"
+    ]
+  },
+  {
+    "id": "career_meeting_survivor",
+    "name": {
+      "en": "Meeting Survivor",
+      "fr": "Survivant de Réunions",
+      "es": "Superviviente de Reuniones"
+    },
+    "idealProfile": {
+      "emotionalControl": 62,
+      "discipline": 50,
+      "professionalism": 55,
+      "energy": 30,
+      "humor": 50
+    },
+    "worthPotential": {
+      "min": 15000,
+      "max": 40000
+    },
+    "tags": [
+      "real_but_particular"
+    ]
+  },
+  {
+    "id": "career_family_it_support",
+    "name": {
+      "en": "Family IT Support",
+      "fr": "Support Informatique Familial",
+      "es": "Soporte Informático Familiar"
+    },
+    "idealProfile": {
+      "intelligence": 62,
+      "empathy": 60,
+      "discipline": 40,
+      "communication": 50,
+      "emotionalControl": 35
+    },
+    "worthPotential": {
+      "min": -2000,
+      "max": 10000
+    },
+    "tags": [
+      "real_but_particular"
+    ]
+  },
+  {
+    "id": "career_human_gps",
+    "name": {
+      "en": "Human GPS",
+      "fr": "GPS Humain",
+      "es": "GPS Humano"
+    },
+    "idealProfile": {
+      "intelligence": 65,
+      "discipline": 55,
+      "communication": 48,
+      "social": 55,
+      "luck": 35
+    },
+    "worthPotential": {
+      "min": 10000,
+      "max": 35000
+    },
+    "tags": [
+      "real_but_particular"
+    ]
+  },
+  {
+    "id": "career_spreadsheet_therapist",
+    "name": {
+      "en": "Spreadsheet Therapist",
+      "fr": "Thérapeute de Tableurs",
+      "es": "Terapeuta de Hojas de Cálculo"
+    },
+    "idealProfile": {
+      "discipline": 78,
+      "intelligence": 65,
+      "empathy": 45,
+      "professionalism": 60,
+      "chaos": 20
+    },
+    "worthPotential": {
+      "min": 12000,
+      "max": 40000
+    },
+    "tags": [
+      "real_but_particular"
+    ]
+  },
+  {
+    "id": "career_last_minute_problem_solver",
+    "name": {
+      "en": "Last Minute Problem Solver",
+      "fr": "Résolveur de Problèmes de Dernière Minute",
+      "es": "Solucionador de Problemas de Último Minuto"
+    },
+    "idealProfile": {
+      "creativity": 75,
+      "chaos": 65,
+      "intelligence": 65,
+      "discipline": 30,
+      "energy": 60
+    },
+    "worthPotential": {
+      "min": 5000,
+      "max": 55000
+    },
+    "tags": [
+      "real_but_particular"
+    ]
+  },
+  {
+    "id": "career_group_chat_manager",
+    "name": {
+      "en": "Group Chat Manager",
+      "fr": "Gestionnaire de Groupe WhatsApp",
+      "es": "Gestor del Chat Grupal"
+    },
+    "idealProfile": {
+      "social": 62,
+      "empathy": 68,
+      "emotionalControl": 55,
+      "communication": 55
+    },
+    "worthPotential": {
+      "min": -2000,
+      "max": 15000
+    },
+    "tags": [
+      "real_but_particular"
+    ]
+  },
+  {
+    "id": "career_backseat_driver",
+    "name": {
+      "en": "Professional Backseat Driver",
+      "fr": "Copilote Professionnel Non-Sollicité",
+      "es": "Copiloto Profesional No Solicitado"
+    },
+    "idealProfile": {
+      "intelligence": 55,
+      "communication": 58,
+      "ambition": 40,
+      "emotionalControl": 30,
+      "chaos": 35
+    },
+    "worthPotential": {
+      "min": -3000,
+      "max": 15000
+    },
+    "tags": [
+      "real_but_particular"
+    ]
+  },
+  {
+    "id": "career_workplace_firefighter",
+    "name": {
+      "en": "Workplace Firefighter",
+      "fr": "Pompier de Bureau",
+      "es": "Bombero de Oficina"
+    },
+    "idealProfile": {
+      "emotionalControl": 75,
+      "discipline": 62,
+      "professionalism": 68,
+      "energy": 55,
+      "chaos": 40
+    },
+    "worthPotential": {
+      "min": 25000,
+      "max": 60000
+    },
+    "tags": [
+      "real_but_particular"
+    ]
+  },
+  {
+    "id": "career_serial_plan_b_creator",
+    "name": {
+      "en": "Serial Plan B Creator",
+      "fr": "Créateur en Série de Plans B",
+      "es": "Creador en Serie de Planes B"
+    },
+    "idealProfile": {
+      "intelligence": 68,
+      "discipline": 58,
+      "risk": 28,
+      "creativity": 55,
+      "ambition": 42
+    },
+    "worthPotential": {
+      "min": 8000,
+      "max": 30000
+    },
+    "tags": [
+      "real_but_particular"
+    ]
+  },
+  {
+    "id": "career_unofficial_tech_support",
+    "name": {
+      "en": "Unofficial Tech Support",
+      "fr": "Support Technique Non-Officiel",
+      "es": "Soporte Técnico No Oficial"
+    },
+    "idealProfile": {
+      "intelligence": 65,
+      "empathy": 52,
+      "discipline": 38,
+      "communication": 48,
+      "emotionalControl": 32
+    },
+    "worthPotential": {
+      "min": -1000,
+      "max": 12000
+    },
+    "tags": [
+      "real_but_particular"
+    ]
+  },
+  {
+    "id": "career_chief_snack_officer",
+    "name": {
+      "en": "Chief Snack Officer",
+      "fr": "Directeur en Chef des Snacks",
+      "es": "Director Jefe de Snacks"
+    },
+    "idealProfile": {
+      "humor": 68,
+      "social": 58,
+      "energy": 52,
+      "discipline": 20,
+      "chaos": 42
+    },
+    "worthPotential": {
+      "min": -2000,
+      "max": 8000
+    },
+    "tags": [
+      "humorous_plausible"
+    ]
+  },
+  {
+    "id": "career_senior_queue_strategist",
+    "name": {
+      "en": "Senior Queue Strategist",
+      "fr": "Stratège Senior de la File d'Attente",
+      "es": "Estratega Senior de Colas"
+    },
+    "idealProfile": {
+      "intelligence": 58,
+      "discipline": 68,
+      "chaos": 28,
+      "risk": 20,
+      "ambition": 32
+    },
+    "worthPotential": {
+      "min": -1000,
+      "max": 5000
+    },
+    "tags": [
+      "humorous_plausible"
+    ]
+  },
+  {
+    "id": "career_professional_door_opener",
+    "name": {
+      "en": "Professional Door Opener",
+      "fr": "Ouvreur de Porte Professionnel",
+      "es": "Abridor de Puertas Profesional"
+    },
+    "idealProfile": {
+      "social": 52,
+      "empathy": 48,
+      "discipline": 38,
+      "professionalism": 42,
+      "chaos": 22
+    },
+    "worthPotential": {
+      "min": -1000,
+      "max": 4000
+    },
+    "tags": [
+      "humorous_plausible"
+    ]
+  },
+  {
+    "id": "career_freelance_button_presser",
+    "name": {
+      "en": "Freelance Button Presser",
+      "fr": "Presseur de Boutons Freelance",
+      "es": "Pulsador de Botones Freelance"
+    },
+    "idealProfile": {
+      "chaos": 52,
+      "discipline": 18,
+      "humor": 55,
+      "energy": 38,
+      "ambition": 12
+    },
+    "worthPotential": {
+      "min": -3000,
+      "max": 3000
+    },
+    "tags": [
+      "humorous_plausible"
+    ]
+  },
+  {
+    "id": "career_certified_problem_creator",
+    "name": {
+      "en": "Certified Problem Creator",
+      "fr": "Créateur de Problèmes Certifié",
+      "es": "Creador de Problemas Certificado"
+    },
+    "idealProfile": {
+      "chaos": 80,
+      "humor": 58,
+      "risk": 55,
+      "discipline": 12,
+      "empathy": 15
+    },
+    "worthPotential": {
+      "min": -8000,
+      "max": 5000
+    },
+    "tags": [
+      "humorous_plausible"
+    ]
+  },
+  {
+    "id": "career_chief_excuse_architect",
+    "name": {
+      "en": "Chief Excuse Architect",
+      "fr": "Architecte en Chef des Excuses",
+      "es": "Arquitecto Jefe de Excusas"
+    },
+    "idealProfile": {
+      "creativity": 78,
+      "communication": 62,
+      "chaos": 52,
+      "discipline": 22
+    },
+    "worthPotential": {
+      "min": -3000,
+      "max": 10000
+    },
+    "tags": [
+      "humorous_plausible"
+    ]
+  },
+  {
+    "id": "career_professional_tab_opener",
+    "name": {
+      "en": "Professional Tab Opener",
+      "fr": "Ouvreur d'Onglets Professionnel",
+      "es": "Abridor de Pestañas Profesional"
+    },
+    "idealProfile": {
+      "chaos": 58,
+      "intelligence": 38,
+      "discipline": 15,
+      "energy": 35,
+      "humor": 42
+    },
+    "worthPotential": {
+      "min": -2000,
+      "max": 3000
+    },
+    "tags": [
+      "humorous_plausible"
+    ]
+  },
+  {
+    "id": "career_executive_nap_consultant",
+    "name": {
+      "en": "Executive Nap Consultant",
+      "fr": "Consultant Exécutif en Sieste",
+      "es": "Consultor Ejecutivo de Siestas"
+    },
+    "idealProfile": {
+      "discipline": 18,
+      "emotionalControl": 62,
+      "humor": 52,
+      "professionalism": 28,
+      "chaos": 28
+    },
+    "worthPotential": {
+      "min": -1000,
+      "max": 6000
+    },
+    "tags": [
+      "humorous_plausible"
+    ]
+  },
+  {
+    "id": "career_wifi_whisperer",
+    "name": {
+      "en": "Wi-Fi Whisperer",
+      "fr": "Chuchoteur de Wi-Fi",
+      "es": "Susurrador de Wi-Fi"
+    },
+    "idealProfile": {
+      "intelligence": 52,
+      "discipline": 28,
+      "chaos": 45,
+      "luck": 42,
+      "professionalism": 18
+    },
+    "worthPotential": {
+      "min": -1000,
+      "max": 5000
+    },
+    "tags": [
+      "humorous_plausible"
+    ]
+  },
+  {
+    "id": "career_fridge_inspector",
+    "name": {
+      "en": "Fridge Inspector",
+      "fr": "Inspecteur de Frigo",
+      "es": "Inspector de Nevera"
+    },
+    "idealProfile": {
+      "discipline": 22,
+      "humor": 58,
+      "chaos": 48,
+      "energy": 28,
+      "financialSense": 18
+    },
+    "worthPotential": {
+      "min": -2000,
+      "max": 3000
+    },
+    "tags": [
+      "humorous_plausible"
+    ]
+  },
+  {
+    "id": "career_remote_control_manager",
+    "name": {
+      "en": "Remote Control Manager",
+      "fr": "Directeur de la Télécommande",
+      "es": "Director del Control Remoto"
+    },
+    "idealProfile": {
+      "discipline": 32,
+      "chaos": 38,
+      "ambition": 18,
+      "professionalism": 12,
+      "humor": 52
+    },
+    "worthPotential": {
+      "min": -1000,
+      "max": 3000
+    },
+    "tags": [
+      "humorous_plausible"
+    ]
+  },
+  {
+    "id": "career_professional_sock_finder",
+    "name": {
+      "en": "Professional Sock Finder",
+      "fr": "Chercheur de Chaussettes Professionnel",
+      "es": "Buscador Profesional de Calcetines"
+    },
+    "idealProfile": {
+      "luck": 58,
+      "discipline": 25,
+      "chaos": 52,
+      "intelligence": 28,
+      "humor": 48
+    },
+    "worthPotential": {
+      "min": -3000,
+      "max": 2000
+    },
+    "tags": [
+      "humorous_plausible"
+    ]
+  },
+  {
+    "id": "career_professional_meeting_escape_artist",
+    "name": {
+      "en": "Professional Meeting Escape Artist",
+      "fr": "Évadé Professionnel de Réunions",
+      "es": "Escapista Profesional de Reuniones"
+    },
+    "idealProfile": {
+      "social": 70,
+      "communication": 65,
+      "emotionalControl": 70,
+      "discipline": 45,
+      "humor": 60
+    },
+    "worthPotential": {
+      "min": 5000,
+      "max": 30000
+    },
+    "tags": [
+      "humorous_plausible",
+      "office"
+    ]
+  },
+  {
+    "id": "career_meme_architect",
+    "name": {
+      "en": "Meme Architect",
+      "fr": "Architecte de Mèmes",
+      "es": "Arquitecto de Memes"
+    },
+    "idealProfile": {
+      "creativity": 88,
+      "humor": 90,
+      "communication": 62,
+      "chaos": 58,
+      "discipline": 25
+    },
+    "worthPotential": {
+      "min": -5000,
+      "max": 25000
+    },
+    "tags": [
+      "humorous_plausible"
+    ]
+  },
+  {
+    "id": "career_emergency_spreadsheet",
+    "name": {
+      "en": "Emergency Spreadsheet Specialist",
+      "fr": "Spécialiste du Tableur d'Urgence",
+      "es": "Especialista en Hojas de Cálculo de Emergencia"
+    },
+    "idealProfile": {
+      "intelligence": 78,
+      "discipline": 72,
+      "creativity": 64,
+      "professionalism": 70,
+      "chaos": 48
+    },
+    "worthPotential": {
+      "min": 28000,
+      "max": 92000
+    },
+    "tags": [
+      "office_survivor"
+    ]
+  },
+  {
+    "id": "career_meeting_escape_consultant",
+    "name": {
+      "en": "Meeting Escape Consultant",
+      "fr": "Consultant en Évasion de Réunion",
+      "es": "Consultor de Escape de Reuniones"
+    },
+    "idealProfile": {
+      "communication": 82,
+      "social": 76,
+      "creativity": 74,
+      "humor": 70,
+      "professionalism": 45
+    },
+    "worthPotential": {
+      "min": 18000,
+      "max": 68000
+    },
+    "tags": [
+      "corporate_chaos"
+    ]
+  },
+  {
+    "id": "career_queue_logistics",
+    "name": {
+      "en": "Queue Logistics Strategist",
+      "fr": "Stratège en Logistique de File d'Attente",
+      "es": "Estratega de Logística de Colas"
+    },
+    "idealProfile": {
+      "intelligence": 70,
+      "discipline": 66,
+      "risk": 35,
+      "luck": 62,
+      "emotionalControl": 78
+    },
+    "worthPotential": {
+      "min": 22000,
+      "max": 74000
+    },
+    "tags": [
+      "hyper_specific"
+    ]
+  },
+  {
+    "id": "career_notification_triage",
+    "name": {
+      "en": "Notification Triage Coordinator",
+      "fr": "Coordinateur de Triage de Notifications",
+      "es": "Coordinador de Triaje de Notificaciones"
+    },
+    "idealProfile": {
+      "discipline": 76,
+      "communication": 70,
+      "professionalism": 72,
+      "emotionalControl": 68,
+      "chaos": 42
+    },
+    "worthPotential": {
+      "min": 26000,
+      "max": 78000
+    },
+    "tags": [
+      "office_survivor"
+    ]
+  },
+  {
+    "id": "career_deadline_interpreter",
+    "name": {
+      "en": "Deadline Interpreter",
+      "fr": "Interprète de Deadlines",
+      "es": "Intérprete de Fechas Límite"
+    },
+    "idealProfile": {
+      "intelligence": 74,
+      "communication": 76,
+      "discipline": 58,
+      "humor": 64,
+      "chaos": 60
+    },
+    "worthPotential": {
+      "min": 24000,
+      "max": 82000
+    },
+    "tags": [
+      "corporate_chaos"
+    ]
+  },
+  {
+    "id": "career_password_recovery",
+    "name": {
+      "en": "Password Recovery Diplomat",
+      "fr": "Diplomate de Récupération de Mots de Passe",
+      "es": "Diplomático de Recuperación de Contraseñas"
+    },
+    "idealProfile": {
+      "empathy": 72,
+      "communication": 80,
+      "emotionalControl": 84,
+      "intelligence": 62,
+      "professionalism": 68
+    },
+    "worthPotential": {
+      "min": 30000,
+      "max": 85000
+    },
+    "tags": [
+      "tech_support"
+    ]
+  },
+  {
+    "id": "career_slide_deck_rescue",
+    "name": {
+      "en": "Last-Minute Slide Deck Rescuer",
+      "fr": "Sauveteur de Présentations de Dernière Minute",
+      "es": "Rescatador de Presentaciones de Última Hora"
+    },
+    "idealProfile": {
+      "creativity": 78,
+      "professionalism": 68,
+      "energy": 80,
+      "chaos": 70,
+      "discipline": 44
+    },
+    "worthPotential": {
+      "min": 28000,
+      "max": 95000
+    },
+    "tags": [
+      "deadline_survivor"
+    ]
+  },
+  {
+    "id": "career_excel_whisperer",
+    "name": {
+      "en": "Excel Whisperer",
+      "fr": "Chuchoteur d'Excel",
+      "es": "Susurrador de Excel"
+    },
+    "idealProfile": {
+      "intelligence": 80,
+      "financialSense": 78,
+      "discipline": 74,
+      "creativity": 58,
+      "professionalism": 70
+    },
+    "worthPotential": {
+      "min": 34000,
+      "max": 110000
+    },
+    "tags": [
+      "spreadsheet_magic"
+    ]
+  },
+  {
+    "id": "career_office_snack_economist",
+    "name": {
+      "en": "Office Snack Economist",
+      "fr": "Économiste des Snacks de Bureau",
+      "es": "Economista de Snacks de Oficina"
+    },
+    "idealProfile": {
+      "financialSense": 72,
+      "social": 68,
+      "communication": 62,
+      "humor": 78,
+      "luck": 58
+    },
+    "worthPotential": {
+      "min": 18000,
+      "max": 62000
+    },
+    "tags": [
+      "hyper_specific"
+    ]
+  },
+  {
+    "id": "career_calendar_negotiator",
+    "name": {
+      "en": "Calendar Negotiator",
+      "fr": "Négociateur de Calendrier",
+      "es": "Negociador de Calendario"
+    },
+    "idealProfile": {
+      "communication": 84,
+      "discipline": 76,
+      "empathy": 70,
+      "professionalism": 72,
+      "emotionalControl": 78
+    },
+    "worthPotential": {
+      "min": 32000,
+      "max": 98000
+    },
+    "tags": [
+      "corporate_chaos"
+    ]
+  },
+  {
+    "id": "career_bug_reproducer",
+    "name": {
+      "en": "Professional Bug Reproducer",
+      "fr": "Reproducteur Professionnel de Bugs",
+      "es": "Reproductor Profesional de Bugs"
+    },
+    "idealProfile": {
+      "intelligence": 78,
+      "discipline": 70,
+      "creativity": 62,
+      "emotionalControl": 82,
+      "chaos": 48
+    },
+    "worthPotential": {
+      "min": 36000,
+      "max": 105000
+    },
+    "tags": [
+      "tech_support"
+    ]
+  },
+  {
+    "id": "career_meeting_minutes_archaeologist",
+    "name": {
+      "en": "Meeting Minutes Archaeologist",
+      "fr": "Archéologue de Comptes Rendus de Réunion",
+      "es": "Arqueólogo de Actas de Reunión"
+    },
+    "idealProfile": {
+      "discipline": 82,
+      "intelligence": 68,
+      "professionalism": 76,
+      "communication": 66,
+      "energy": 42
+    },
+    "worthPotential": {
+      "min": 27000,
+      "max": 76000
+    },
+    "tags": [
+      "office_survivor"
+    ]
+  },
+  {
+    "id": "career_queue_psychologist",
+    "name": {
+      "en": "Queue Psychologist",
+      "fr": "Psychologue de File d'Attente",
+      "es": "Psicólogo de Colas"
+    },
+    "idealProfile": {
+      "empathy": 78,
+      "emotionalControl": 80,
+      "social": 66,
+      "intelligence": 64,
+      "humor": 62
+    },
+    "worthPotential": {
+      "min": 21000,
+      "max": 68000
+    },
+    "tags": [
+      "hyper_specific"
+    ]
+  },
+  {
+    "id": "career_tab_closer",
+    "name": {
+      "en": "Corporate Tab-Closing Specialist",
+      "fr": "Spécialiste Corporate de Fermeture d'Onglets",
+      "es": "Especialista Corporativo en Cerrar Pestañas"
+    },
+    "idealProfile": {
+      "discipline": 88,
+      "professionalism": 72,
+      "emotionalControl": 76,
+      "intelligence": 60,
+      "chaos": 24
+    },
+    "worthPotential": {
+      "min": 30000,
+      "max": 88000
+    },
+    "tags": [
+      "office_survivor"
+    ]
+  }
 ]

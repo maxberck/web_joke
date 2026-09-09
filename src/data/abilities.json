@@ -1,15 +1,412 @@
 [
-  { "id": "ability_useless_info", "text": { "en": "Remembers a coworker's ex's dog's name from a story told once in 2019.", "fr": "Se souvient du prénom du chien de l'ex d'un collègue, mentionné une fois en 2019.", "es": "Recuerda el nombre del perro del ex de un compañero, mencionado una vez en 2019." }, "idealProfile": { "intelligence": 75, "chaos": 50 } },
-  { "id": "ability_save_3_euros", "text": { "en": "Can spend 45 minutes comparing prices to save €1.20.", "fr": "Peut passer 45 minutes à comparer les prix pour économiser 1,20€.", "es": "Puede pasar 45 minutos comparando precios para ahorrar 1,20€." }, "idealProfile": { "financialSense": 40, "intelligence": 60, "chaos": 45 } },
-  { "id": "ability_quick_question_radar", "text": { "en": "Can detect a \"quick question\" incoming from three rooms away.", "fr": "Peut détecter une « petite question rapide » arriver depuis trois pièces plus loin.", "es": "Puede detectar una \"pregunta rápida\" llegando desde tres habitaciones de distancia." }, "idealProfile": { "empathy": 60, "communication": 55, "emotionalControl": 45 } },
-  { "id": "ability_printer_sense", "text": { "en": "Knows the office printer is about to jam before it even starts printing.", "fr": "Sait que l'imprimante du bureau va bourrer avant même qu'elle commence à imprimer.", "es": "Sabe que la impresora de la oficina se va a atascar antes de que empiece a imprimir." }, "idealProfile": { "intelligence": 55, "chaos": 40, "discipline": 50 } },
-  { "id": "ability_parking_spot_radar", "text": { "en": "Finds the exact parking spot someone is leaving, every single time.", "fr": "Trouve à chaque fois la place exacte que quelqu'un est en train de libérer.", "es": "Encuentra siempre el lugar exacto que alguien está dejando libre." }, "idealProfile": { "luck": 70, "intelligence": 40, "discipline": 30 } },
-  { "id": "ability_typo_spotter", "text": { "en": "Spots the one typo on a 40-slide deck from across a dark auditorium.", "fr": "Repère l'unique faute de frappe sur un diaporama de 40 slides depuis le fond d'une salle sombre.", "es": "Detecta la única errata en una presentación de 40 diapositivas desde el fondo de un auditorio oscuro." }, "idealProfile": { "intelligence": 68, "discipline": 60, "professionalism": 50 } },
-  { "id": "ability_predicts_awkward_silence", "text": { "en": "Feels an awkward silence coming three full seconds before it lands.", "fr": "Sent un silence gênant arriver trois bonnes secondes avant qu'il ne tombe.", "es": "Siente venir un silencio incómodo tres segundos completos antes de que llegue." }, "idealProfile": { "empathy": 68, "social": 55, "emotionalControl": 40 } },
-  { "id": "ability_reheats_perfectly", "text": { "en": "Reheats leftover pizza to a scientifically perfect crispness, every time.", "fr": "Réchauffe la pizza de la veille à une croustillance scientifiquement parfaite, à chaque fois.", "es": "Recalienta la pizza sobrante hasta un crujido científicamente perfecto, siempre." }, "idealProfile": { "discipline": 50, "intelligence": 35, "chaos": 20 } },
-  { "id": "ability_group_photo_timing", "text": { "en": "Blinks in exactly one out of every ten group photos, with perfect consistency.", "fr": "Cligne des yeux dans exactement une photo de groupe sur dix, avec une régularité parfaite.", "es": "Parpadea en exactamente una de cada diez fotos grupales, con una regularidad perfecta." }, "idealProfile": { "luck": 30, "chaos": 45, "social": 50 } },
-  { "id": "ability_reads_the_room_wrong", "text": { "en": "Can confidently misread a room's entire mood in under two seconds.", "fr": "Peut se tromper avec assurance sur l'ambiance d'une pièce en moins de deux secondes.", "es": "Puede malinterpretar con confianza el ambiente de una sala en menos de dos segundos." }, "idealProfile": { "social": 45, "emotionalControl": 35, "chaos": 40 } },
-  { "id": "ability_finds_the_one_flaw", "text": { "en": "Instantly spots the one flaw in an otherwise perfect plan, always mid-execution.", "fr": "Repère instantanément l'unique faille d'un plan par ailleurs parfait, toujours en pleine exécution.", "es": "Detecta al instante la única falla de un plan por lo demás perfecto, siempre a mitad de ejecución." }, "idealProfile": { "intelligence": 70, "chaos": 45, "emotionalControl": 30 } },
-  { "id": "ability_remembers_wifi_password", "text": { "en": "Is the only person in any household who remembers the wifi password.", "fr": "Est la seule personne du foyer à se souvenir du mot de passe wifi.", "es": "Es la única persona en cualquier hogar que recuerda la contraseña del wifi." }, "idealProfile": { "discipline": 55, "intelligence": 45, "professionalism": 35 } },
-  { "id": "ability_finds_missing_charger", "text": { "en": "Finds the missing charger by looking in the one place everyone else dismissed.", "fr": "Trouve le chargeur disparu en regardant exactement à l'endroit que tout le monde avait écarté.", "es": "Encuentra el cargador perdido mirando justo donde todos los demás descartaron buscar." }, "idealProfile": { "luck": 70, "intelligence": 55, "discipline": 45 } }
+  {
+    "id": "ability_useless_info",
+    "text": {
+      "en": "Remembers a coworker's ex's dog's name from a story told once in 2019.",
+      "fr": "Se souvient du prénom du chien de l'ex d'un collègue, mentionné une fois en 2019.",
+      "es": "Recuerda el nombre del perro del ex de un compañero, mencionado una vez en 2019."
+    },
+    "idealProfile": {
+      "intelligence": 75,
+      "chaos": 50
+    }
+  },
+  {
+    "id": "ability_save_3_euros",
+    "text": {
+      "en": "Can spend 45 minutes comparing prices to save €1.20.",
+      "fr": "Peut passer 45 minutes à comparer les prix pour économiser 1,20€.",
+      "es": "Puede pasar 45 minutos comparando precios para ahorrar 1,20€."
+    },
+    "idealProfile": {
+      "financialSense": 40,
+      "intelligence": 60,
+      "chaos": 45
+    }
+  },
+  {
+    "id": "ability_quick_question_radar",
+    "text": {
+      "en": "Can detect a \"quick question\" incoming from three rooms away.",
+      "fr": "Peut détecter une « petite question rapide » arriver depuis trois pièces plus loin.",
+      "es": "Puede detectar una \"pregunta rápida\" llegando desde tres habitaciones de distancia."
+    },
+    "idealProfile": {
+      "empathy": 60,
+      "communication": 55,
+      "emotionalControl": 45
+    }
+  },
+  {
+    "id": "ability_printer_sense",
+    "text": {
+      "en": "Knows the office printer is about to jam before it even starts printing.",
+      "fr": "Sait que l'imprimante du bureau va bourrer avant même qu'elle commence à imprimer.",
+      "es": "Sabe que la impresora de la oficina se va a atascar antes de que empiece a imprimir."
+    },
+    "idealProfile": {
+      "intelligence": 55,
+      "chaos": 40,
+      "discipline": 50
+    }
+  },
+  {
+    "id": "ability_parking_spot_radar",
+    "text": {
+      "en": "Finds the exact parking spot someone is leaving, every single time.",
+      "fr": "Trouve à chaque fois la place exacte que quelqu'un est en train de libérer.",
+      "es": "Encuentra siempre el lugar exacto que alguien está dejando libre."
+    },
+    "idealProfile": {
+      "luck": 70,
+      "intelligence": 40,
+      "discipline": 30
+    }
+  },
+  {
+    "id": "ability_typo_spotter",
+    "text": {
+      "en": "Spots the one typo on a 40-slide deck from across a dark auditorium.",
+      "fr": "Repère l'unique faute de frappe sur un diaporama de 40 slides depuis le fond d'une salle sombre.",
+      "es": "Detecta la única errata en una presentación de 40 diapositivas desde el fondo de un auditorio oscuro."
+    },
+    "idealProfile": {
+      "intelligence": 68,
+      "discipline": 60,
+      "professionalism": 50
+    }
+  },
+  {
+    "id": "ability_predicts_awkward_silence",
+    "text": {
+      "en": "Feels an awkward silence coming three full seconds before it lands.",
+      "fr": "Sent un silence gênant arriver trois bonnes secondes avant qu'il ne tombe.",
+      "es": "Siente venir un silencio incómodo tres segundos completos antes de que llegue."
+    },
+    "idealProfile": {
+      "empathy": 68,
+      "social": 55,
+      "emotionalControl": 40
+    }
+  },
+  {
+    "id": "ability_reheats_perfectly",
+    "text": {
+      "en": "Reheats leftover pizza to a scientifically perfect crispness, every time.",
+      "fr": "Réchauffe la pizza de la veille à une croustillance scientifiquement parfaite, à chaque fois.",
+      "es": "Recalienta la pizza sobrante hasta un crujido científicamente perfecto, siempre."
+    },
+    "idealProfile": {
+      "discipline": 50,
+      "intelligence": 35,
+      "chaos": 20
+    }
+  },
+  {
+    "id": "ability_group_photo_timing",
+    "text": {
+      "en": "Blinks in exactly one out of every ten group photos, with perfect consistency.",
+      "fr": "Cligne des yeux dans exactement une photo de groupe sur dix, avec une régularité parfaite.",
+      "es": "Parpadea en exactamente una de cada diez fotos grupales, con una regularidad perfecta."
+    },
+    "idealProfile": {
+      "luck": 30,
+      "chaos": 45,
+      "social": 50
+    }
+  },
+  {
+    "id": "ability_reads_the_room_wrong",
+    "text": {
+      "en": "Can confidently misread a room's entire mood in under two seconds.",
+      "fr": "Peut se tromper avec assurance sur l'ambiance d'une pièce en moins de deux secondes.",
+      "es": "Puede malinterpretar con confianza el ambiente de una sala en menos de dos segundos."
+    },
+    "idealProfile": {
+      "social": 45,
+      "emotionalControl": 35,
+      "chaos": 40
+    }
+  },
+  {
+    "id": "ability_finds_the_one_flaw",
+    "text": {
+      "en": "Instantly spots the one flaw in an otherwise perfect plan, always mid-execution.",
+      "fr": "Repère instantanément l'unique faille d'un plan par ailleurs parfait, toujours en pleine exécution.",
+      "es": "Detecta al instante la única falla de un plan por lo demás perfecto, siempre a mitad de ejecución."
+    },
+    "idealProfile": {
+      "intelligence": 70,
+      "chaos": 45,
+      "emotionalControl": 30
+    }
+  },
+  {
+    "id": "ability_remembers_wifi_password",
+    "text": {
+      "en": "Is the only person in any household who remembers the wifi password.",
+      "fr": "Est la seule personne du foyer à se souvenir du mot de passe wifi.",
+      "es": "Es la única persona en cualquier hogar que recuerda la contraseña del wifi."
+    },
+    "idealProfile": {
+      "discipline": 55,
+      "intelligence": 45,
+      "professionalism": 35
+    }
+  },
+  {
+    "id": "ability_finds_missing_charger",
+    "text": {
+      "en": "Finds the missing charger by looking in the one place everyone else dismissed.",
+      "fr": "Trouve le chargeur disparu en regardant exactement à l'endroit que tout le monde avait écarté.",
+      "es": "Encuentra el cargador perdido mirando justo donde todos los demás descartaron buscar."
+    },
+    "idealProfile": {
+      "luck": 70,
+      "intelligence": 55,
+      "discipline": 45
+    }
+  },
+  {
+    "id": "ability_find_the_charger",
+    "name": {
+      "en": "Can Find the Charger Everyone Else Missed",
+      "fr": "Retrouve le Chargeur que Tout le Monde Avait Raté",
+      "es": "Encuentra el Cargador que Todos Pasaron por Alto"
+    },
+    "idealProfile": {
+      "luck": 82,
+      "intelligence": 55,
+      "creativity": 62,
+      "discipline": 38,
+      "humor": 65
+    }
+  },
+  {
+    "id": "ability_split_bill",
+    "name": {
+      "en": "Can Split a Restaurant Bill Without Starting a Civil War",
+      "fr": "Partage l'Addition Sans Déclencher de Guerre Civile",
+      "es": "Divide la Cuenta Sin Empezar una Guerra Civil"
+    },
+    "idealProfile": {
+      "financialSense": 86,
+      "communication": 82,
+      "empathy": 74,
+      "emotionalControl": 72,
+      "social": 68
+    }
+  },
+  {
+    "id": "ability_find_file",
+    "name": {
+      "en": "Finds the File Named final_FINAL_v7",
+      "fr": "Retrouve le Fichier final_FINAL_v7",
+      "es": "Encuentra el Archivo final_FINAL_v7"
+    },
+    "idealProfile": {
+      "discipline": 74,
+      "intelligence": 72,
+      "professionalism": 66,
+      "emotionalControl": 70,
+      "creativity": 52
+    }
+  },
+  {
+    "id": "ability_leave_party",
+    "name": {
+      "en": "Can Leave a Party Without a 40-Minute Goodbye",
+      "fr": "Quitte une Soirée Sans un Au Revoir de 40 Minutes",
+      "es": "Se Va de una Fiesta Sin una Despedida de 40 Minutos"
+    },
+    "idealProfile": {
+      "communication": 76,
+      "social": 72,
+      "discipline": 68,
+      "emotionalControl": 78,
+      "risk": 55
+    }
+  },
+  {
+    "id": "ability_name_everyone",
+    "name": {
+      "en": "Remembers Everyone's Name After One Introduction",
+      "fr": "Retient le Nom de Tout le Monde Après une Présentation",
+      "es": "Recuerda el Nombre de Todos Tras una Presentación"
+    },
+    "idealProfile": {
+      "social": 82,
+      "empathy": 80,
+      "communication": 76,
+      "intelligence": 68
+    }
+  },
+  {
+    "id": "ability_pack_cable",
+    "name": {
+      "en": "Can Coil a Cable Without Creating a Knot",
+      "fr": "Enroule un Câble Sans Créer de Nœud",
+      "es": "Enrolla un Cable Sin Crear un Nudo"
+    },
+    "idealProfile": {
+      "discipline": 78,
+      "intelligence": 62,
+      "emotionalControl": 72,
+      "creativity": 58
+    }
+  },
+  {
+    "id": "ability_order_group",
+    "name": {
+      "en": "Can Order for a Group Without Losing Track",
+      "fr": "Commande pour un Groupe Sans Rien Oublier",
+      "es": "Pide para un Grupo Sin Perderse"
+    },
+    "idealProfile": {
+      "communication": 82,
+      "social": 78,
+      "discipline": 72,
+      "empathy": 68
+    }
+  },
+  {
+    "id": "ability_find_settings",
+    "name": {
+      "en": "Finds the Setting Hidden Three Menus Deep",
+      "fr": "Trouve le Réglage Caché Trois Menus Plus Loin",
+      "es": "Encuentra el Ajuste Escondido Tres Menús Adentro"
+    },
+    "idealProfile": {
+      "intelligence": 84,
+      "discipline": 68,
+      "creativity": 66,
+      "emotionalControl": 76
+    }
+  },
+  {
+    "id": "ability_parallel_parking",
+    "name": {
+      "en": "Parallel Parks With Only One Correction",
+      "fr": "Fait un Créneau avec Une Seule Correction",
+      "es": "Aparca en Paralelo con una Sola Corrección"
+    },
+    "idealProfile": {
+      "emotionalControl": 82,
+      "risk": 58,
+      "discipline": 72,
+      "intelligence": 66
+    }
+  },
+  {
+    "id": "ability_know_when_leave",
+    "name": {
+      "en": "Knows Exactly When to Leave the Group Chat",
+      "fr": "Sait Exactement Quand Quitter le Groupe",
+      "es": "Sabe Exactamente Cuándo Salir del Chat"
+    },
+    "idealProfile": {
+      "social": 70,
+      "empathy": 72,
+      "emotionalControl": 84,
+      "communication": 76
+    }
+  },
+  {
+    "id": "ability_receipt_photo",
+    "name": {
+      "en": "Takes a Readable Photo of a Receipt",
+      "fr": "Prend une Photo Lisible d'un Ticket",
+      "es": "Hace una Foto Legible de un Recibo"
+    },
+    "idealProfile": {
+      "discipline": 74,
+      "financialSense": 72,
+      "professionalism": 64,
+      "intelligence": 58
+    }
+  },
+  {
+    "id": "ability_estimate_time",
+    "name": {
+      "en": "Says 'Five Minutes' and Actually Means Five Minutes",
+      "fr": "Dit « Cinq Minutes » et Parle Vraiment de Cinq Minutes",
+      "es": "Dice « Cinco Minutos » y Realmente Son Cinco"
+    },
+    "idealProfile": {
+      "discipline": 88,
+      "professionalism": 78,
+      "communication": 76,
+      "emotionalControl": 72
+    }
+  },
+  {
+    "id": "ability_choose_menu",
+    "name": {
+      "en": "Chooses From the Menu Before the Server Returns",
+      "fr": "Choisit Avant le Retour du Serveur",
+      "es": "Elige Antes de que Vuelva el Camarero"
+    },
+    "idealProfile": {
+      "discipline": 70,
+      "emotionalControl": 78,
+      "social": 64,
+      "risk": 56
+    }
+  },
+  {
+    "id": "ability_move_file",
+    "name": {
+      "en": "Moves a File Without Losing It Forever",
+      "fr": "Déplace un Fichier Sans le Perdre à Jamais",
+      "es": "Mueve un Archivo Sin Perderlo Para Siempre"
+    },
+    "idealProfile": {
+      "discipline": 82,
+      "intelligence": 72,
+      "professionalism": 72,
+      "emotionalControl": 70
+    }
+  },
+  {
+    "id": "ability_fix_printer",
+    "name": {
+      "en": "Makes the Printer Work Without Violence",
+      "fr": "Fait Fonctionner l'Imprimante Sans Violence",
+      "es": "Hace Funcionar la Impresora Sin Violencia"
+    },
+    "idealProfile": {
+      "emotionalControl": 86,
+      "intelligence": 74,
+      "creativity": 64,
+      "humor": 66
+    }
+  },
+  {
+    "id": "ability_read_room",
+    "name": {
+      "en": "Can Read the Room Before Making the Joke",
+      "fr": "Lit la Pièce Avant de Faire la Blague",
+      "es": "Lee el Ambiente Antes de Hacer la Broma"
+    },
+    "idealProfile": {
+      "empathy": 88,
+      "humor": 82,
+      "social": 78,
+      "communication": 76
+    }
+  },
+  {
+    "id": "ability_backup_before_update",
+    "name": {
+      "en": "Backs Up Before Clicking Update",
+      "fr": "Fait une Sauvegarde Avant de Cliquer sur Mettre à Jour",
+      "es": "Hace Copia de Seguridad Antes de Actualizar"
+    },
+    "idealProfile": {
+      "discipline": 92,
+      "professionalism": 82,
+      "risk": 22,
+      "intelligence": 68
+    }
+  }
 ]
