@@ -34,10 +34,10 @@ jobs:
         run: npm run content:validate
 
       - name: Régénérer les baselines
-        run: BASELINE_OUTPUT=src/data/matchBaselines.json BASELINE_SAMPLES=50000 npm run sim:build-baselines
+        run: BASELINE_OUTPUT=../src/data/matchBaselines.json BASELINE_SAMPLES=50000 npm run sim:build-baselines
 
       - name: Régénérer la calibration
-        run: APPEARANCE_OUTPUT=src/data/appearanceCalibration.json APPEARANCE_SAMPLES=200000 npm run sim:build-appearance
+        run: APPEARANCE_OUTPUT=../src/data/appearanceCalibration.json APPEARANCE_SAMPLES=200000 npm run sim:build-appearance
 
       - name: Vérification complète avant commit
         run: |
@@ -58,4 +58,4 @@ jobs:
           git commit -m "fix: enrichir les résultats et recalibrer"
           git push origin HEAD:fix/qualite-editoriale-resultats
 
-# Déclencheur ponctuel de génération éditoriale — tentative 2.
+# Déclencheur ponctuel de génération éditoriale — tentative 3.
