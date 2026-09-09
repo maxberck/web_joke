@@ -24,7 +24,7 @@ const resultLists = {
   careers: [...careersRaw, ...resultsExtraRaw.careers], animals: [...animalsRaw, ...resultsExtraRaw.animals],
   classes: [...classesRaw, ...resultsExtraRaw.classes], powers: [...powersRaw, ...resultsExtraRaw.powers],
   weaknesses: [...weaknessesRaw, ...resultsExtraRaw.weaknesses], abilities: [...abilitiesRaw, ...resultsExtraRaw.abilities],
-  workStyles: [...workStylesRaw, ...resultsExtraRaw.workStyles], alignments: [...alignmentsRaw, ...resultsExtraRaw.alignments],
+  workStyles: [...workStylesRaw, ...resultsExtraRaw.workStyles], alignments: [...alignmentsRaw],
 };
 export const contentPack: ContentPack = {
   questions: questions as unknown as ContentPack["questions"], careers: resultLists.careers as unknown as ContentPack["careers"], animals: resultLists.animals as unknown as ContentPack["animals"],
@@ -42,13 +42,26 @@ function assertKnownStatKey(key: string, context: string): asserts key is StatKe
 function assertFiniteRange(value: number, context: string): void { if (!Number.isFinite(value) || value < 0 || value > 100) throw new Error(`${context}: valeur attendue dans 0..100`); }
 function assertFiniteAxis(value: number, context: string): void { if (!Number.isFinite(value) || value < -100 || value > 100) throw new Error(`${context}: valeur attendue dans -100..100`); }
 function validateProfile(profile: Partial<Record<string, number>>, context: string): void { for (const [key, value] of Object.entries(profile)) { assertKnownStatKey(key, context); if (typeof value === "number") assertFiniteRange(value, `${context}.${key}`); } }
+function validateAlignmentGrid(pack: ContentPack): void {
+  if (pack.alignments.length !== 9) throw new Error(`ContentPack: exactement 9 alignements requis, reçu ${pack.alignments.length}`);
+  for (const alignment of pack.alignments) {
+    if (alignment.lawfulChaotic.length !== 2 || alignment.selflessSelfInterested.length !== 2) throw new Error(`Alignment ${alignment.id}: axes invalides`);
+    for (const value of [...alignment.lawfulChaotic, ...alignment.selflessSelfInterested]) assertFiniteAxis(value, `Alignment ${alignment.id}`);
+    if (alignment.lawfulChaotic[0] > alignment.lawfulChaotic[1] || alignment.selflessSelfInterested[0] > alignment.selflessSelfInterested[1]) throw new Error(`Alignment ${alignment.id}: plage inversée`);
+  }
+  const probes = [-67, 0, 67];
+  for (const lawfulChaotic of probes) for (const selflessSelfInterested of probes) {
+    const matches = pack.alignments.filter((alignment) => lawfulChaotic >= alignment.lawfulChaotic[0] && lawfulChaotic <= alignment.lawfulChaotic[1] && selflessSelfInterested >= alignment.selflessSelfInterested[0] && selflessSelfInterested <= alignment.selflessSelfInterested[1]);
+    if (matches.length !== 1) throw new Error(`Alignments: cellule ${lawfulChaotic}/${selflessSelfInterested} couverte ${matches.length} fois`);
+  }
+}
 export function assertContentPackIsValid(pack: ContentPack): void {
   if (pack.questions.length < 20) throw new Error("ContentPack: au moins 20 questions sont requises");
   const validateIds = (name: string, entries: Array<{ id: string }>) => { const ids = new Set<string>(); for (const entry of entries) { if (!entry.id || ids.has(entry.id)) throw new Error(`ContentPack: ID ${name} dupliqué ou vide: ${entry.id}`); ids.add(entry.id); } };
   validateIds("question", pack.questions); validateIds("career", pack.careers); validateIds("animal", pack.animals); validateIds("class", pack.classes); validateIds("power", pack.powers); validateIds("weakness", pack.weaknesses); validateIds("ability", pack.abilities); validateIds("workStyle", pack.workStyles); validateIds("alignment", pack.alignments); validateIds("synergy", pack.synergyRules);
   for (const question of pack.questions) { if (question.answers.length !== 10) throw new Error(`Question ${question.id}: exactement 10 réponses requises`); validateIds(`answer:${question.id}`, question.answers); for (const answer of question.answers) for (const [key, value] of Object.entries(answer.effects)) { assertKnownStatKey(key, `Réponse ${answer.id}`); if (typeof value !== "number" || !Number.isFinite(value)) throw new Error(`Réponse ${answer.id}: effet ${key} non fini`); } }
   for (const list of [pack.careers, pack.animals, pack.classes, pack.powers, pack.weaknesses, pack.abilities, pack.workStyles]) { if (list.length === 0) throw new Error("ContentPack: une table de résultats est vide"); for (const entry of list) validateProfile("lowProfile" in entry ? entry.lowProfile : entry.idealProfile, `Entry ${entry.id}`); }
-  for (const alignment of pack.alignments) { if (alignment.lawfulChaotic.length !== 2 || alignment.selflessSelfInterested.length !== 2) throw new Error(`Alignment ${alignment.id}: axes invalides`); for (const value of [...alignment.lawfulChaotic, ...alignment.selflessSelfInterested]) assertFiniteAxis(value, `Alignment ${alignment.id}`); }
+  validateAlignmentGrid(pack);
   for (const rule of pack.synergyRules) { if (rule.conditions.length === 0 || !Number.isFinite(rule.rarityScore)) throw new Error(`Synergy ${rule.id}: règle invalide`); for (const condition of rule.conditions) { assertKnownStatKey(condition.stat, `Synergy ${rule.id}`); if (!Number.isFinite(condition.value)) throw new Error(`Synergy ${rule.id}: condition non finie`); } }
 }
 export function assertMatchBaselinesAreValid(baselines: MatchBaselines): void { for (const [group, entries] of Object.entries(baselines) as Array<[keyof MatchBaselines, MatchBaselines[keyof MatchBaselines]]>) for (const [id, baseline] of Object.entries(entries)) if (!Number.isFinite(baseline.mean) || !Number.isFinite(baseline.std) || baseline.std <= 0) throw new Error(`Baseline ${group}.${id}: mean/std invalides`); }
