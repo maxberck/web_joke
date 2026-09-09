@@ -9,5 +9,5 @@
   { "id": "animal_octopus", "name": { "en": "Octopus", "fr": "Pieuvre", "es": "Pulpo" }, "idealProfile": { "intelligence": 88, "creativity": 75, "social": 20, "chaos": 50 } },
   { "id": "animal_meerkat", "name": { "en": "Meerkat", "fr": "Suricate", "es": "Suricata" }, "idealProfile": { "social": 78, "energy": 72, "emotionalControl": 45, "communication": 60 } },
   { "id": "animal_pigeon", "name": { "en": "Pigeon", "fr": "Pigeon", "es": "Paloma" }, "idealProfile": { "social": 60, "luck": 80, "chaos": 55, "energy": 65 } },
-  { "id": "animal_goat", "name": { "en": "Confident Goat", "fr": "Chèvre Beaucoup Trop Sûre d'Elle", "es": "Cabra Demasiado Segura de Sí Misma" }, "idealProfile": { "confidence": 50, "chaos": 78, "risk": 72, "ambition": 65, "humor": 70 } }
+  { "id": "animal_goat", "name": { "en": "Confident Goat", "fr": "Chèvre Beaucoup Trop Sûre d'Elle", "es": "Cabra Demasiado Segura de Sí Misma" }, "idealProfile": { "intelligence": 50, "chaos": 78, "risk": 72, "ambition": 65, "humor": 70 } }
 ]
