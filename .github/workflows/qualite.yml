@@ -27,6 +27,9 @@ jobs:
       - name: Valider le contenu
         run: npm run content:validate
 
+      - name: Valider la rareté hybride
+        run: npm run rarity:validate
+
       - name: Vérifier les types
         run: npm run typecheck
 
