@@ -62,6 +62,21 @@ for (const group of RESULT_GROUPS) {
   }
 }
 
+const runtimeIndex = await readFile(resolve(dataDir, "index.ts"), "utf8");
+for (const forbidden of [
+  "./questions.json",
+  "questions.expansion.json",
+  "questions.extra.json",
+  "questions.more.",
+  ".expansion.json",
+  "results.extra.json",
+  "synergyRules.extra.json",
+  "matchBaselines.extra.json",
+  "rarityDistribution.json",
+]) {
+  assert.equal(runtimeIndex.includes(forbidden), false, `src/data/index.ts référence encore ${forbidden}`);
+}
+
 console.log(
   `Migration canonique OK: ${Object.keys(manifest.questions).length} questions historiques préservées`,
 );
