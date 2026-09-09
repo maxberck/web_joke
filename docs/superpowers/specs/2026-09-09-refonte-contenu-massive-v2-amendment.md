@@ -22,3 +22,5 @@ Cet amendement remplace uniquement les volumes de catalogues du spec `2026-09-09
 Chaque question garde exactement 10 réponses. Une partie garde 20 questions et 3 réponses affichées par question.
 
 Les baselines et `appearanceCalibration.json` doivent être régénérés pour ces volumes. La calibration finale reste basée sur **200 000 simulations déterministes**.
+
+La simulation des baselines et celle de l’apparition partagent désormais le même helper de partie et utilisent directement `selectQuestions` et `selectAnswers`. Les baselines finales utilisent 50 000 parties déterministes ; l’apparition finale utilise 200 000 parties déterministes.
