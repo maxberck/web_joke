@@ -47,3 +47,37 @@ jobs:
           fi
           git commit -m "data: générer la refonte du contenu [refonte-generated]"
           git push origin HEAD:feat/refonte-contenu-massive
+
+  merge-baselines:
+    if: ${{ contains(github.event.head_commit.message, '[run-baseline-merge]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer la branche
+        uses: actions/checkout@v4
+        with:
+          ref: feat/refonte-contenu-massive
+          fetch-depth: 0
+
+      - name: Installer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Installer les dépendances
+        run: npm ci
+
+      - name: Fusionner les baselines
+        run: node content-pipeline/scripts/mergeLegacyBaselines.mjs
+
+      - name: Committer les baselines fusionnées
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/matchBaselines.json
+          if git diff --cached --quiet; then
+            echo "Aucune baseline à committer."
+            exit 0
+          fi
+          git commit -m "data: fusionner les baselines historiques [refonte-generated]"
+          git push origin HEAD:feat/refonte-contenu-massive
