@@ -24,6 +24,9 @@ jobs:
       - name: Installer les dépendances
         run: npm ci
 
+      - name: Calibrer les fréquences d'apparition
+        run: APPEARANCE_SAMPLES=50000 npm run sim:build-appearance -- --print
+
       - name: Valider le contenu
         run: npm run content:validate
 
