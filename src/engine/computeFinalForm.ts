@@ -40,7 +40,7 @@ function assertPercent(name: string, value: number): void {
 }
 
 function calibratedProbability(group: Record<string, number>, id: string, label: string): number {
-  const probability = group[id];
+  const probability = group[id] ?? Number.NaN;
   if (!Number.isFinite(probability) || probability <= 0 || probability > 1) {
     throw new Error(`FinalForm: calibration d'apparition invalide pour ${label}.${id}`);
   }
