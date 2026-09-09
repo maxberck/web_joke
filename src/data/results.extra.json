@@ -3,7 +3,7 @@
     { "id": "career_meme_architect", "name": { "en": "Meme Architect", "fr": "Architecte de Mèmes", "es": "Arquitecto de Memes" }, "idealProfile": { "creativity": 88, "humor": 90, "communication": 62, "chaos": 58, "discipline": 25 }, "worthPotential": { "min": -5000, "max": 25000 }, "tags": ["humorous_plausible"] }
   ],
   "classes": [
-    { "id": "class_confident_wrong", "name": { "en": "Confidently Wrong", "fr": "Faux avec une Confiance Absolue", "es": "Equivocado con Confianza Absoluta" }, "idealProfile": { "confidence": 50, "chaos": 72, "communication": 70, "humor": 82, "intelligence": 48 } }
+    { "id": "class_confident_wrong", "name": { "en": "Confidently Wrong", "fr": "Faux avec une Confiance Absolue", "es": "Equivocado con Confianza Absoluta" }, "idealProfile": { "intelligence": 48, "chaos": 72, "communication": 70, "humor": 82, "risk": 50 } }
   ],
   "animals": [
     { "id": "animal_duck", "name": { "en": "Suspicious Duck", "fr": "Canard Suspect", "es": "Pato Sospechoso" }, "idealProfile": { "chaos": 70, "social": 62, "humor": 78, "emotionalControl": 42, "luck": 55 } }
@@ -21,6 +21,6 @@
     { "id": "workstyle_tabs_everywhere", "name": { "en": "47 Tabs and a Dream", "fr": "47 Onglets et un Rêve", "es": "47 Pestañas y un Sueño" }, "idealProfile": { "chaos": 82, "creativity": 72, "energy": 62, "discipline": 28, "humor": 75 } }
   ],
   "alignments": [
-    { "id": "alignment_chaotic_helpful", "name": { "en": "Chaotic Helpful", "fr": "Chaotiquement Serviable", "es": "Caóticamente Servicial" }, "lawfulChaotic": [72, 28], "selflessSelfInterested": [72, 28] }
+    { "id": "alignment_chaotic_helpful", "name": { "en": "Chaotic Helpful", "fr": "Chaotically Helpful", "es": "Caóticamente Servicial" }, "lawfulChaotic": [72, 28], "selflessSelfInterested": [72, 28] }
   ]
 }
