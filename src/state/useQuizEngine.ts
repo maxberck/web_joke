@@ -15,7 +15,7 @@ export interface QuizRound {
 const QUESTIONS_PER_GAME = 20;
 const ANSWERS_SHOWN = 3;
 
-export type QuizPhase = "landing" | "playing" | "calculating" | "result";
+export type QuizPhase = "landing" | "playing" | "calculating" | "result" | "error";
 
 export function useQuizEngine() {
   const [phase, setPhase] = useState<QuizPhase>("landing");
@@ -24,11 +24,13 @@ export function useQuizEngine() {
   const [roundIndex, setRoundIndex] = useState(0);
   const [chosenEffects, setChosenEffects] = useState<Answer["effects"][]>([]);
   const [result, setResult] = useState<FinalForm | null>(null);
+  const [error, setError] = useState<string | null>(null);
   const answerLocked = useRef(false);
 
   const currentRound = rounds[roundIndex];
 
   function start() {
+    setError(null);
     setPhase("playing");
   }
 
@@ -47,23 +49,35 @@ export function useQuizEngine() {
       return;
     }
 
-    setPhase("calculating");
-    const resultSeed = seed >>> 0;
-    const rng = mulberry32(resultSeed);
-    const finalForm = computeFinalForm({
-      chosenAnswerEffects: nextEffects,
-      content: contentPack,
-      matchBaselines,
-      rarityTable: rarityDistributionRaw,
-      rng,
-    });
-    finalForm.runSeed = resultSeed;
-    finalForm.formId = createFormId(resultSeed, nextEffects);
-    setResult(finalForm);
+    try {
+      const resultSeed = seed >>> 0;
+      const rng = mulberry32(resultSeed);
+      const finalForm = computeFinalForm({
+        chosenAnswerEffects: nextEffects,
+        content: contentPack,
+        matchBaselines,
+        rarityTable: rarityDistributionRaw,
+        rng,
+      });
+      finalForm.runSeed = resultSeed;
+      finalForm.formId = createFormId(resultSeed, nextEffects);
+      setResult(finalForm);
+      setError(null);
+      setPhase("calculating");
+    } catch (cause) {
+      console.error("Impossible de calculer la forme finale", cause);
+      setError(cause instanceof Error ? cause.message : "Erreur inconnue pendant le calcul du résultat");
+      setPhase("error");
+      answerLocked.current = false;
+    }
   }
 
   function finishCalculating() {
-    setPhase("result");
+    if (result) setPhase("result");
+    else {
+      setError("Le résultat final n'a pas pu être généré.");
+      setPhase("error");
+    }
   }
 
   function reset() {
@@ -74,6 +88,7 @@ export function useQuizEngine() {
     setRoundIndex(0);
     setChosenEffects([]);
     setResult(null);
+    setError(null);
     answerLocked.current = false;
   }
 
@@ -83,6 +98,7 @@ export function useQuizEngine() {
     roundIndex,
     totalRounds: rounds.length,
     result,
+    error,
     start,
     chooseAnswer,
     finishCalculating,
