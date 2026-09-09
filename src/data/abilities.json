@@ -563,7 +563,7 @@
     "id": "ability_reading_instinct",
     "name": {
       "en": "Reading With Instinct",
-      "fr": "Reading avec instinct",
+      "fr": "Lecture avec instinct",
       "es": "Lectura con instinto"
     },
     "idealProfile": {
@@ -581,7 +581,7 @@
     ],
     "description": {
       "en": "Reading With Instinct turns an ordinary reading task into something suspiciously efficient. The trick is a mix of instinct and sharp pattern recognition and timing that somehow works, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Reading avec instinct transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange instinct et une lecture rapide des problèmes et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Lecture avec instinct transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange instinct et une lecture rapide des problèmes et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Lectura con instinto convierte una tarea normal de lectura en algo sospechosamente eficiente. El truco mezcla instinto con una lectura rápida de los problemas y un timing que suele salir bien, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -589,7 +589,7 @@
     "id": "ability_reading_precision",
     "name": {
       "en": "Reading With Precision",
-      "fr": "Reading avec précision",
+      "fr": "Lecture avec précision",
       "es": "Lectura con precisión"
     },
     "idealProfile": {
@@ -605,7 +605,7 @@
     ],
     "description": {
       "en": "Reading With Precision turns an ordinary reading task into something suspiciously efficient. The trick is a mix of precision and sharp pattern recognition and consistent follow-through, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Reading avec précision transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange précision et une lecture rapide des problèmes et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Lecture avec précision transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange précision et une lecture rapide des problèmes et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Lectura con precisión convierte una tarea normal de lectura en algo sospechosamente eficiente. El truco mezcla precisión con una lectura rápida de los problemas y una constancia real, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -613,7 +613,7 @@
     "id": "ability_reading_speed",
     "name": {
       "en": "Reading With Speed",
-      "fr": "Reading avec vitesse",
+      "fr": "Lecture avec vitesse",
       "es": "Lectura con velocidad"
     },
     "idealProfile": {
@@ -630,7 +630,7 @@
     ],
     "description": {
       "en": "Reading With Speed turns an ordinary reading task into something suspiciously efficient. The trick is a mix of speed and sustained energy and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Reading avec vitesse transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange vitesse et une énergie qui tient dans la durée et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Lecture avec vitesse transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange vitesse et une énergie qui tient dans la durée et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Lectura con velocidad convierte una tarea normal de lectura en algo sospechosamente eficiente. El truco mezcla velocidad con energía que aguanta y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -638,7 +638,7 @@
     "id": "ability_reading_patience",
     "name": {
       "en": "Reading With Patience",
-      "fr": "Reading avec patience",
+      "fr": "Lecture avec patience",
       "es": "Lectura con paciencia"
     },
     "idealProfile": {
@@ -655,7 +655,7 @@
     ],
     "description": {
       "en": "Reading With Patience turns an ordinary reading task into something suspiciously efficient. The trick is a mix of patience and calm under pressure and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Reading avec patience transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange patience et du calme sous pression et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Lecture avec patience transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange patience et du calme sous pression et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Lectura con paciencia convierte una tarea normal de lectura en algo sospechosamente eficiente. El truco mezcla paciencia con calma bajo presión y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -663,7 +663,7 @@
     "id": "ability_reading_improvisation",
     "name": {
       "en": "Reading With Improvisation",
-      "fr": "Reading avec improvisation",
+      "fr": "Lecture avec improvisation",
       "es": "Lectura con improvisación"
     },
     "idealProfile": {
@@ -681,7 +681,7 @@
     ],
     "description": {
       "en": "Reading With Improvisation turns an ordinary reading task into something suspiciously efficient. The trick is a mix of improvisation and creative problem solving and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Reading avec improvisation transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie créativité pratique et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Lecture avec improvisation transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie créativité pratique et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Lectura con improvisación convierte una tarea normal de lectura en algo sospechosamente eficiente. El truco mezcla improvisación con una creatividad práctica y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -689,7 +689,7 @@
     "id": "ability_reading_clarity",
     "name": {
       "en": "Reading With Clarity",
-      "fr": "Reading avec clarté",
+      "fr": "Lecture avec clarté",
       "es": "Lectura con claridad"
     },
     "idealProfile": {
@@ -705,7 +705,7 @@
     ],
     "description": {
       "en": "Reading With Clarity turns an ordinary reading task into something suspiciously efficient. The trick is a mix of clarity and sharp pattern recognition and clear communication, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Reading avec clarté transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange clarté et une lecture rapide des problèmes et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Lecture avec clarté transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange clarté et une lecture rapide des problèmes et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Lectura con claridad convierte una tarea normal de lectura en algo sospechosamente eficiente. El truco mezcla claridad con una lectura rápida de los problemas y comunicación clara, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -713,7 +713,7 @@
     "id": "ability_reading_endurance",
     "name": {
       "en": "Reading With Endurance",
-      "fr": "Reading avec endurance",
+      "fr": "Lecture avec endurance",
       "es": "Lectura con resistencia"
     },
     "idealProfile": {
@@ -730,7 +730,7 @@
     ],
     "description": {
       "en": "Reading With Endurance turns an ordinary reading task into something suspiciously efficient. The trick is a mix of endurance and sustained energy and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Reading avec endurance transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange endurance et une énergie qui tient dans la durée et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Lecture avec endurance transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange endurance et une énergie qui tient dans la durée et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Lectura con resistencia convierte una tarea normal de lectura en algo sospechosamente eficiente. El truco mezcla resistencia con energía que aguanta y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -738,7 +738,7 @@
     "id": "ability_reading_timing",
     "name": {
       "en": "Reading With Timing",
-      "fr": "Reading avec timing",
+      "fr": "Lecture avec timing",
       "es": "Lectura con timing"
     },
     "idealProfile": {
@@ -756,7 +756,7 @@
     ],
     "description": {
       "en": "Reading With Timing turns an ordinary reading task into something suspiciously efficient. The trick is a mix of timing and sharp pattern recognition and timing that somehow works, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Reading avec timing transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange timing et une lecture rapide des problèmes et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Lecture avec timing transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange timing et une lecture rapide des problèmes et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Lectura con timing convierte una tarea normal de lectura en algo sospechosamente eficiente. El truco mezcla timing con una lectura rápida de los problemas y un timing que suele salir bien, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -764,7 +764,7 @@
     "id": "ability_reading_intuition",
     "name": {
       "en": "Reading With Intuition",
-      "fr": "Reading avec intuition",
+      "fr": "Lecture avec intuition",
       "es": "Lectura con intuición"
     },
     "idealProfile": {
@@ -781,7 +781,7 @@
     ],
     "description": {
       "en": "Reading With Intuition turns an ordinary reading task into something suspiciously efficient. The trick is a mix of intuition and a strong read on people and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Reading avec intuition transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange intuition et une bonne lecture des autres et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Lecture avec intuition transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange intuition et une bonne lecture des autres et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Lectura con intuición convierte una tarea normal de lectura en algo sospechosamente eficiente. El truco mezcla intuición con una buena lectura de los demás y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -789,7 +789,7 @@
     "id": "ability_reading_discipline",
     "name": {
       "en": "Reading With Discipline",
-      "fr": "Reading avec discipline",
+      "fr": "Lecture avec discipline",
       "es": "Lectura con disciplina"
     },
     "idealProfile": {
@@ -806,7 +806,7 @@
     ],
     "description": {
       "en": "Reading With Discipline turns an ordinary reading task into something suspiciously efficient. The trick is a mix of discipline and sharp pattern recognition and consistent follow-through, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Reading avec discipline transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange discipline et une lecture rapide des problèmes et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Lecture avec discipline transforme une tâche ordinaire de lecture en quelque chose d'étrangement efficace. Le secret mélange discipline et une lecture rapide des problèmes et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Lectura con disciplina convierte una tarea normal de lectura en algo sospechosamente eficiente. El truco mezcla disciplina con una lectura rápida de los problemas y una constancia real, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -814,7 +814,7 @@
     "id": "ability_planning_instinct",
     "name": {
       "en": "Planning With Instinct",
-      "fr": "Planning avec instinct",
+      "fr": "Planification avec instinct",
       "es": "Planificación con instinto"
     },
     "idealProfile": {
@@ -831,7 +831,7 @@
     ],
     "description": {
       "en": "Planning With Instinct turns an ordinary planning task into something suspiciously efficient. The trick is a mix of instinct and consistent follow-through and timing that somehow works, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Planning avec instinct transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange instinct et une vraie constance et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Planification avec instinct transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange instinct et une vraie constance et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Planificación con instinto convierte una tarea normal de planificación en algo sospechosamente eficiente. El truco mezcla instinto con una constancia real y un timing que suele salir bien, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -839,7 +839,7 @@
     "id": "ability_planning_precision",
     "name": {
       "en": "Planning With Precision",
-      "fr": "Planning avec précision",
+      "fr": "Planification avec précision",
       "es": "Planificación con precisión"
     },
     "idealProfile": {
@@ -855,7 +855,7 @@
     ],
     "description": {
       "en": "Planning With Precision turns an ordinary planning task into something suspiciously efficient. The trick is a mix of precision and consistent follow-through and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Planning avec précision transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange précision et une vraie constance et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Planification avec précision transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange précision et une vraie constance et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Planificación con precisión convierte una tarea normal de planificación en algo sospechosamente eficiente. El truco mezcla precisión con una constancia real y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -863,7 +863,7 @@
     "id": "ability_planning_speed",
     "name": {
       "en": "Planning With Speed",
-      "fr": "Planning avec vitesse",
+      "fr": "Planification avec vitesse",
       "es": "Planificación con velocidad"
     },
     "idealProfile": {
@@ -879,7 +879,7 @@
     ],
     "description": {
       "en": "Planning With Speed turns an ordinary planning task into something suspiciously efficient. The trick is a mix of speed and sustained energy and consistent follow-through, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Planning avec vitesse transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange vitesse et une énergie qui tient dans la durée et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Planification avec vitesse transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange vitesse et une énergie qui tient dans la durée et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Planificación con velocidad convierte una tarea normal de planificación en algo sospechosamente eficiente. El truco mezcla velocidad con energía que aguanta y una constancia real, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -887,7 +887,7 @@
     "id": "ability_planning_patience",
     "name": {
       "en": "Planning With Patience",
-      "fr": "Planning avec patience",
+      "fr": "Planification avec patience",
       "es": "Planificación con paciencia"
     },
     "idealProfile": {
@@ -903,7 +903,7 @@
     ],
     "description": {
       "en": "Planning With Patience turns an ordinary planning task into something suspiciously efficient. The trick is a mix of patience and consistent follow-through and calm under pressure, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Planning avec patience transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange patience et une vraie constance et du calme sous pression, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Planification avec patience transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange patience et une vraie constance et du calme sous pression, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Planificación con paciencia convierte una tarea normal de planificación en algo sospechosamente eficiente. El truco mezcla paciencia con una constancia real y calma bajo presión, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -911,7 +911,7 @@
     "id": "ability_planning_improvisation",
     "name": {
       "en": "Planning With Improvisation",
-      "fr": "Planning avec improvisation",
+      "fr": "Planification avec improvisation",
       "es": "Planificación con improvisación"
     },
     "idealProfile": {
@@ -929,7 +929,7 @@
     ],
     "description": {
       "en": "Planning With Improvisation turns an ordinary planning task into something suspiciously efficient. The trick is a mix of improvisation and creative problem solving and consistent follow-through, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Planning avec improvisation transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie créativité pratique et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Planification avec improvisation transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie créativité pratique et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Planificación con improvisación convierte una tarea normal de planificación en algo sospechosamente eficiente. El truco mezcla improvisación con una creatividad práctica y una constancia real, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -937,7 +937,7 @@
     "id": "ability_planning_clarity",
     "name": {
       "en": "Planning With Clarity",
-      "fr": "Planning avec clarté",
+      "fr": "Planification avec clarté",
       "es": "Planificación con claridad"
     },
     "idealProfile": {
@@ -954,7 +954,7 @@
     ],
     "description": {
       "en": "Planning With Clarity turns an ordinary planning task into something suspiciously efficient. The trick is a mix of clarity and clear communication and consistent follow-through, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Planning avec clarté transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Planification avec clarté transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Planificación con claridad convierte una tarea normal de planificación en algo sospechosamente eficiente. El truco mezcla claridad con comunicación clara y una constancia real, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -962,7 +962,7 @@
     "id": "ability_planning_endurance",
     "name": {
       "en": "Planning With Endurance",
-      "fr": "Planning avec endurance",
+      "fr": "Planification avec endurance",
       "es": "Planificación con resistencia"
     },
     "idealProfile": {
@@ -978,7 +978,7 @@
     ],
     "description": {
       "en": "Planning With Endurance turns an ordinary planning task into something suspiciously efficient. The trick is a mix of endurance and sustained energy and consistent follow-through, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Planning avec endurance transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange endurance et une énergie qui tient dans la durée et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Planification avec endurance transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange endurance et une énergie qui tient dans la durée et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Planificación con resistencia convierte una tarea normal de planificación en algo sospechosamente eficiente. El truco mezcla resistencia con energía que aguanta y una constancia real, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -986,7 +986,7 @@
     "id": "ability_planning_timing",
     "name": {
       "en": "Planning With Timing",
-      "fr": "Planning avec timing",
+      "fr": "Planification avec timing",
       "es": "Planificación con timing"
     },
     "idealProfile": {
@@ -1003,7 +1003,7 @@
     ],
     "description": {
       "en": "Planning With Timing turns an ordinary planning task into something suspiciously efficient. The trick is a mix of timing and consistent follow-through and timing that somehow works, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Planning avec timing transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange timing et une vraie constance et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Planification avec timing transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange timing et une vraie constance et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Planificación con timing convierte una tarea normal de planificación en algo sospechosamente eficiente. El truco mezcla timing con una constancia real y un timing que suele salir bien, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1011,7 +1011,7 @@
     "id": "ability_planning_intuition",
     "name": {
       "en": "Planning With Intuition",
-      "fr": "Planning avec intuition",
+      "fr": "Planification avec intuition",
       "es": "Planificación con intuición"
     },
     "idealProfile": {
@@ -1028,7 +1028,7 @@
     ],
     "description": {
       "en": "Planning With Intuition turns an ordinary planning task into something suspiciously efficient. The trick is a mix of intuition and consistent follow-through and a strong read on people, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Planning avec intuition transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange intuition et une vraie constance et une bonne lecture des autres, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Planification avec intuition transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange intuition et une vraie constance et une bonne lecture des autres, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Planificación con intuición convierte una tarea normal de planificación en algo sospechosamente eficiente. El truco mezcla intuición con una constancia real y una buena lectura de los demás, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1036,7 +1036,7 @@
     "id": "ability_planning_discipline",
     "name": {
       "en": "Planning With Discipline",
-      "fr": "Planning avec discipline",
+      "fr": "Planification avec discipline",
       "es": "Planificación con disciplina"
     },
     "idealProfile": {
@@ -1052,7 +1052,7 @@
     ],
     "description": {
       "en": "Planning With Discipline turns an ordinary planning task into something suspiciously efficient. The trick is a mix of discipline and consistent follow-through and reliable execution, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Planning avec discipline transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une exécution fiable, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Planification avec discipline transforme une tâche ordinaire de planification en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une exécution fiable, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Planificación con disciplina convierte una tarea normal de planificación en algo sospechosamente eficiente. El truco mezcla disciplina con una constancia real y una ejecución fiable, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1060,7 +1060,7 @@
     "id": "ability_explaining_instinct",
     "name": {
       "en": "Explaining With Instinct",
-      "fr": "Explaining avec instinct",
+      "fr": "Explication avec instinct",
       "es": "Explicación con instinto"
     },
     "idealProfile": {
@@ -1078,7 +1078,7 @@
     ],
     "description": {
       "en": "Explaining With Instinct turns an ordinary explaining task into something suspiciously efficient. The trick is a mix of instinct and clear communication and timing that somehow works, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Explaining avec instinct transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange instinct et une communication claire et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Explication avec instinct transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange instinct et une communication claire et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Explicación con instinto convierte una tarea normal de explicación en algo sospechosamente eficiente. El truco mezcla instinto con comunicación clara y un timing que suele salir bien, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1086,7 +1086,7 @@
     "id": "ability_explaining_precision",
     "name": {
       "en": "Explaining With Precision",
-      "fr": "Explaining avec précision",
+      "fr": "Explication avec précision",
       "es": "Explicación con precisión"
     },
     "idealProfile": {
@@ -1103,7 +1103,7 @@
     ],
     "description": {
       "en": "Explaining With Precision turns an ordinary explaining task into something suspiciously efficient. The trick is a mix of precision and clear communication and consistent follow-through, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Explaining avec précision transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange précision et une communication claire et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Explication avec précision transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange précision et une communication claire et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Explicación con precisión convierte una tarea normal de explicación en algo sospechosamente eficiente. El truco mezcla precisión con comunicación clara y una constancia real, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1111,7 +1111,7 @@
     "id": "ability_explaining_speed",
     "name": {
       "en": "Explaining With Speed",
-      "fr": "Explaining avec vitesse",
+      "fr": "Explication avec vitesse",
       "es": "Explicación con velocidad"
     },
     "idealProfile": {
@@ -1128,7 +1128,7 @@
     ],
     "description": {
       "en": "Explaining With Speed turns an ordinary explaining task into something suspiciously efficient. The trick is a mix of speed and clear communication and sustained energy, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Explaining avec vitesse transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange vitesse et une communication claire et une énergie qui tient dans la durée, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Explication avec vitesse transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange vitesse et une communication claire et une énergie qui tient dans la durée, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Explicación con velocidad convierte una tarea normal de explicación en algo sospechosamente eficiente. El truco mezcla velocidad con comunicación clara y energía que aguanta, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1136,7 +1136,7 @@
     "id": "ability_explaining_patience",
     "name": {
       "en": "Explaining With Patience",
-      "fr": "Explaining avec patience",
+      "fr": "Explication avec patience",
       "es": "Explicación con paciencia"
     },
     "idealProfile": {
@@ -1153,7 +1153,7 @@
     ],
     "description": {
       "en": "Explaining With Patience turns an ordinary explaining task into something suspiciously efficient. The trick is a mix of patience and calm under pressure and clear communication, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Explaining avec patience transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange patience et du calme sous pression et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Explication avec patience transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange patience et du calme sous pression et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Explicación con paciencia convierte una tarea normal de explicación en algo sospechosamente eficiente. El truco mezcla paciencia con calma bajo presión y comunicación clara, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1161,7 +1161,7 @@
     "id": "ability_explaining_improvisation",
     "name": {
       "en": "Explaining With Improvisation",
-      "fr": "Explaining avec improvisation",
+      "fr": "Explication avec improvisation",
       "es": "Explicación con improvisación"
     },
     "idealProfile": {
@@ -1179,7 +1179,7 @@
     ],
     "description": {
       "en": "Explaining With Improvisation turns an ordinary explaining task into something suspiciously efficient. The trick is a mix of improvisation and creative problem solving and clear communication, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Explaining avec improvisation transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie créativité pratique et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Explication avec improvisation transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie créativité pratique et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Explicación con improvisación convierte una tarea normal de explicación en algo sospechosamente eficiente. El truco mezcla improvisación con una creatividad práctica y comunicación clara, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1187,7 +1187,7 @@
     "id": "ability_explaining_clarity",
     "name": {
       "en": "Explaining With Clarity",
-      "fr": "Explaining avec clarté",
+      "fr": "Explication avec clarté",
       "es": "Explicación con claridad"
     },
     "idealProfile": {
@@ -1203,7 +1203,7 @@
     ],
     "description": {
       "en": "Explaining With Clarity turns an ordinary explaining task into something suspiciously efficient. The trick is a mix of clarity and clear communication and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Explaining avec clarté transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Explication avec clarté transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Explicación con claridad convierte una tarea normal de explicación en algo sospechosamente eficiente. El truco mezcla claridad con comunicación clara y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1211,7 +1211,7 @@
     "id": "ability_explaining_endurance",
     "name": {
       "en": "Explaining With Endurance",
-      "fr": "Explaining avec endurance",
+      "fr": "Explication avec endurance",
       "es": "Explicación con resistencia"
     },
     "idealProfile": {
@@ -1229,7 +1229,7 @@
     ],
     "description": {
       "en": "Explaining With Endurance turns an ordinary explaining task into something suspiciously efficient. The trick is a mix of endurance and clear communication and sustained energy, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Explaining avec endurance transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange endurance et une communication claire et une énergie qui tient dans la durée, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Explication avec endurance transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange endurance et une communication claire et une énergie qui tient dans la durée, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Explicación con resistencia convierte una tarea normal de explicación en algo sospechosamente eficiente. El truco mezcla resistencia con comunicación clara y energía que aguanta, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1237,7 +1237,7 @@
     "id": "ability_explaining_timing",
     "name": {
       "en": "Explaining With Timing",
-      "fr": "Explaining avec timing",
+      "fr": "Explication avec timing",
       "es": "Explicación con timing"
     },
     "idealProfile": {
@@ -1255,7 +1255,7 @@
     ],
     "description": {
       "en": "Explaining With Timing turns an ordinary explaining task into something suspiciously efficient. The trick is a mix of timing and clear communication and timing that somehow works, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Explaining avec timing transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange timing et une communication claire et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Explication avec timing transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange timing et une communication claire et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Explicación con timing convierte una tarea normal de explicación en algo sospechosamente eficiente. El truco mezcla timing con comunicación clara y un timing que suele salir bien, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1263,7 +1263,7 @@
     "id": "ability_explaining_intuition",
     "name": {
       "en": "Explaining With Intuition",
-      "fr": "Explaining avec intuition",
+      "fr": "Explication avec intuition",
       "es": "Explicación con intuición"
     },
     "idealProfile": {
@@ -1279,7 +1279,7 @@
     ],
     "description": {
       "en": "Explaining With Intuition turns an ordinary explaining task into something suspiciously efficient. The trick is a mix of intuition and clear communication and a strong read on people, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Explaining avec intuition transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange intuition et une communication claire et une bonne lecture des autres, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Explication avec intuition transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange intuition et une communication claire et une bonne lecture des autres, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Explicación con intuición convierte una tarea normal de explicación en algo sospechosamente eficiente. El truco mezcla intuición con comunicación clara y una buena lectura de los demás, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1287,7 +1287,7 @@
     "id": "ability_explaining_discipline",
     "name": {
       "en": "Explaining With Discipline",
-      "fr": "Explaining avec discipline",
+      "fr": "Explication avec discipline",
       "es": "Explicación con disciplina"
     },
     "idealProfile": {
@@ -1305,7 +1305,7 @@
     ],
     "description": {
       "en": "Explaining With Discipline turns an ordinary explaining task into something suspiciously efficient. The trick is a mix of discipline and consistent follow-through and clear communication, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Explaining avec discipline transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Explication avec discipline transforme une tâche ordinaire de explication en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Explicación con disciplina convierte una tarea normal de explicación en algo sospechosamente eficiente. El truco mezcla disciplina con una constancia real y comunicación clara, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1313,7 +1313,7 @@
     "id": "ability_repairing_instinct",
     "name": {
       "en": "Repairing With Instinct",
-      "fr": "Repairing avec instinct",
+      "fr": "Réparation avec instinct",
       "es": "Reparación con instinto"
     },
     "idealProfile": {
@@ -1331,7 +1331,7 @@
     ],
     "description": {
       "en": "Repairing With Instinct turns an ordinary repairing task into something suspiciously efficient. The trick is a mix of instinct and creative problem solving and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Repairing avec instinct transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange instinct et une vraie créativité pratique et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Réparation avec instinct transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange instinct et une vraie créativité pratique et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Reparación con instinto convierte una tarea normal de reparación en algo sospechosamente eficiente. El truco mezcla instinto con una creatividad práctica y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1339,7 +1339,7 @@
     "id": "ability_repairing_precision",
     "name": {
       "en": "Repairing With Precision",
-      "fr": "Repairing avec précision",
+      "fr": "Réparation avec précision",
       "es": "Reparación con precisión"
     },
     "idealProfile": {
@@ -1355,7 +1355,7 @@
     ],
     "description": {
       "en": "Repairing With Precision turns an ordinary repairing task into something suspiciously efficient. The trick is a mix of precision and creative problem solving and consistent follow-through, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Repairing avec précision transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange précision et une vraie créativité pratique et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Réparation avec précision transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange précision et une vraie créativité pratique et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Reparación con precisión convierte una tarea normal de reparación en algo sospechosamente eficiente. El truco mezcla precisión con una creatividad práctica y una constancia real, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1363,7 +1363,7 @@
     "id": "ability_repairing_speed",
     "name": {
       "en": "Repairing With Speed",
-      "fr": "Repairing avec vitesse",
+      "fr": "Réparation avec vitesse",
       "es": "Reparación con velocidad"
     },
     "idealProfile": {
@@ -1380,7 +1380,7 @@
     ],
     "description": {
       "en": "Repairing With Speed turns an ordinary repairing task into something suspiciously efficient. The trick is a mix of speed and sustained energy and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Repairing avec vitesse transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange vitesse et une énergie qui tient dans la durée et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Réparation avec vitesse transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange vitesse et une énergie qui tient dans la durée et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Reparación con velocidad convierte una tarea normal de reparación en algo sospechosamente eficiente. El truco mezcla velocidad con energía que aguanta y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1388,7 +1388,7 @@
     "id": "ability_repairing_patience",
     "name": {
       "en": "Repairing With Patience",
-      "fr": "Repairing avec patience",
+      "fr": "Réparation avec patience",
       "es": "Reparación con paciencia"
     },
     "idealProfile": {
@@ -1405,7 +1405,7 @@
     ],
     "description": {
       "en": "Repairing With Patience turns an ordinary repairing task into something suspiciously efficient. The trick is a mix of patience and calm under pressure and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Repairing avec patience transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange patience et du calme sous pression et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Réparation avec patience transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange patience et du calme sous pression et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Reparación con paciencia convierte una tarea normal de reparación en algo sospechosamente eficiente. El truco mezcla paciencia con calma bajo presión y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1413,7 +1413,7 @@
     "id": "ability_repairing_improvisation",
     "name": {
       "en": "Repairing With Improvisation",
-      "fr": "Repairing avec improvisation",
+      "fr": "Réparation avec improvisation",
       "es": "Reparación con improvisación"
     },
     "idealProfile": {
@@ -1430,7 +1430,7 @@
     ],
     "description": {
       "en": "Repairing With Improvisation turns an ordinary repairing task into something suspiciously efficient. The trick is a mix of improvisation and creative problem solving and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Repairing avec improvisation transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie créativité pratique et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Réparation avec improvisation transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie créativité pratique et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Reparación con improvisación convierte una tarea normal de reparación en algo sospechosamente eficiente. El truco mezcla improvisación con una creatividad práctica y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1438,7 +1438,7 @@
     "id": "ability_repairing_clarity",
     "name": {
       "en": "Repairing With Clarity",
-      "fr": "Repairing avec clarté",
+      "fr": "Réparation avec clarté",
       "es": "Reparación con claridad"
     },
     "idealProfile": {
@@ -1455,7 +1455,7 @@
     ],
     "description": {
       "en": "Repairing With Clarity turns an ordinary repairing task into something suspiciously efficient. The trick is a mix of clarity and clear communication and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Repairing avec clarté transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Réparation avec clarté transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Reparación con claridad convierte una tarea normal de reparación en algo sospechosamente eficiente. El truco mezcla claridad con comunicación clara y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1463,7 +1463,7 @@
     "id": "ability_repairing_endurance",
     "name": {
       "en": "Repairing With Endurance",
-      "fr": "Repairing avec endurance",
+      "fr": "Réparation avec endurance",
       "es": "Reparación con resistencia"
     },
     "idealProfile": {
@@ -1480,7 +1480,7 @@
     ],
     "description": {
       "en": "Repairing With Endurance turns an ordinary repairing task into something suspiciously efficient. The trick is a mix of endurance and sustained energy and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Repairing avec endurance transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange endurance et une énergie qui tient dans la durée et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Réparation avec endurance transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange endurance et une énergie qui tient dans la durée et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Reparación con resistencia convierte una tarea normal de reparación en algo sospechosamente eficiente. El truco mezcla resistencia con energía que aguanta y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1488,7 +1488,7 @@
     "id": "ability_repairing_timing",
     "name": {
       "en": "Repairing With Timing",
-      "fr": "Repairing avec timing",
+      "fr": "Réparation avec timing",
       "es": "Reparación con timing"
     },
     "idealProfile": {
@@ -1506,7 +1506,7 @@
     ],
     "description": {
       "en": "Repairing With Timing turns an ordinary repairing task into something suspiciously efficient. The trick is a mix of timing and timing that somehow works and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Repairing avec timing transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange timing et un timing qui tombe souvent juste et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Réparation avec timing transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange timing et un timing qui tombe souvent juste et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Reparación con timing convierte una tarea normal de reparación en algo sospechosamente eficiente. El truco mezcla timing con un timing que suele salir bien y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1514,7 +1514,7 @@
     "id": "ability_repairing_intuition",
     "name": {
       "en": "Repairing With Intuition",
-      "fr": "Repairing avec intuition",
+      "fr": "Réparation avec intuition",
       "es": "Reparación con intuición"
     },
     "idealProfile": {
@@ -1530,7 +1530,7 @@
     ],
     "description": {
       "en": "Repairing With Intuition turns an ordinary repairing task into something suspiciously efficient. The trick is a mix of intuition and a strong read on people and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Repairing avec intuition transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange intuition et une bonne lecture des autres et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Réparation avec intuition transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange intuition et une bonne lecture des autres et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Reparación con intuición convierte una tarea normal de reparación en algo sospechosamente eficiente. El truco mezcla intuición con una buena lectura de los demás y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1538,7 +1538,7 @@
     "id": "ability_repairing_discipline",
     "name": {
       "en": "Repairing With Discipline",
-      "fr": "Repairing avec discipline",
+      "fr": "Réparation avec discipline",
       "es": "Reparación con disciplina"
     },
     "idealProfile": {
@@ -1555,7 +1555,7 @@
     ],
     "description": {
       "en": "Repairing With Discipline turns an ordinary repairing task into something suspiciously efficient. The trick is a mix of discipline and consistent follow-through and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Repairing avec discipline transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Réparation avec discipline transforme une tâche ordinaire de réparation en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Reparación con disciplina convierte una tarea normal de reparación en algo sospechosamente eficiente. El truco mezcla disciplina con una constancia real y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1563,7 +1563,7 @@
     "id": "ability_negotiating_instinct",
     "name": {
       "en": "Negotiating With Instinct",
-      "fr": "Negotiating avec instinct",
+      "fr": "Négociation avec instinct",
       "es": "Negociación con instinto"
     },
     "idealProfile": {
@@ -1580,7 +1580,7 @@
     ],
     "description": {
       "en": "Negotiating With Instinct turns an ordinary negotiating task into something suspiciously efficient. The trick is a mix of instinct and clear communication and social instinct, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Negotiating avec instinct transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange instinct et une communication claire et un bon instinct social, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Négociation avec instinct transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange instinct et une communication claire et un bon instinct social, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Negociación con instinto convierte una tarea normal de negociación en algo sospechosamente eficiente. El truco mezcla instinto con comunicación clara y buen instinto social, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1588,7 +1588,7 @@
     "id": "ability_negotiating_precision",
     "name": {
       "en": "Negotiating With Precision",
-      "fr": "Negotiating avec précision",
+      "fr": "Négociation avec précision",
       "es": "Negociación con precisión"
     },
     "idealProfile": {
@@ -1606,7 +1606,7 @@
     ],
     "description": {
       "en": "Negotiating With Precision turns an ordinary negotiating task into something suspiciously efficient. The trick is a mix of precision and clear communication and consistent follow-through, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Negotiating avec précision transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange précision et une communication claire et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Négociation avec précision transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange précision et une communication claire et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Negociación con precisión convierte una tarea normal de negociación en algo sospechosamente eficiente. El truco mezcla precisión con comunicación clara y una constancia real, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1614,7 +1614,7 @@
     "id": "ability_negotiating_speed",
     "name": {
       "en": "Negotiating With Speed",
-      "fr": "Negotiating avec vitesse",
+      "fr": "Négociation avec vitesse",
       "es": "Negociación con velocidad"
     },
     "idealProfile": {
@@ -1631,7 +1631,7 @@
     ],
     "description": {
       "en": "Negotiating With Speed turns an ordinary negotiating task into something suspiciously efficient. The trick is a mix of speed and clear communication and sustained energy, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Negotiating avec vitesse transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange vitesse et une communication claire et une énergie qui tient dans la durée, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Négociation avec vitesse transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange vitesse et une communication claire et une énergie qui tient dans la durée, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Negociación con velocidad convierte una tarea normal de negociación en algo sospechosamente eficiente. El truco mezcla velocidad con comunicación clara y energía que aguanta, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1639,7 +1639,7 @@
     "id": "ability_negotiating_patience",
     "name": {
       "en": "Negotiating With Patience",
-      "fr": "Negotiating avec patience",
+      "fr": "Négociation avec patience",
       "es": "Negociación con paciencia"
     },
     "idealProfile": {
@@ -1656,7 +1656,7 @@
     ],
     "description": {
       "en": "Negotiating With Patience turns an ordinary negotiating task into something suspiciously efficient. The trick is a mix of patience and clear communication and calm under pressure, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Negotiating avec patience transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange patience et une communication claire et du calme sous pression, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Négociation avec patience transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange patience et une communication claire et du calme sous pression, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Negociación con paciencia convierte una tarea normal de negociación en algo sospechosamente eficiente. El truco mezcla paciencia con comunicación clara y calma bajo presión, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1664,7 +1664,7 @@
     "id": "ability_negotiating_improvisation",
     "name": {
       "en": "Negotiating With Improvisation",
-      "fr": "Negotiating avec improvisation",
+      "fr": "Négociation avec improvisation",
       "es": "Negociación con improvisación"
     },
     "idealProfile": {
@@ -1682,7 +1682,7 @@
     ],
     "description": {
       "en": "Negotiating With Improvisation turns an ordinary negotiating task into something suspiciously efficient. The trick is a mix of improvisation and creative problem solving and clear communication, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Negotiating avec improvisation transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie créativité pratique et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Négociation avec improvisation transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie créativité pratique et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Negociación con improvisación convierte una tarea normal de negociación en algo sospechosamente eficiente. El truco mezcla improvisación con una creatividad práctica y comunicación clara, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1690,7 +1690,7 @@
     "id": "ability_negotiating_clarity",
     "name": {
       "en": "Negotiating With Clarity",
-      "fr": "Negotiating avec clarté",
+      "fr": "Négociation avec clarté",
       "es": "Negociación con claridad"
     },
     "idealProfile": {
@@ -1707,7 +1707,7 @@
     ],
     "description": {
       "en": "Negotiating With Clarity turns an ordinary negotiating task into something suspiciously efficient. The trick is a mix of clarity and clear communication and social instinct, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Negotiating avec clarté transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et un bon instinct social, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Négociation avec clarté transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et un bon instinct social, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Negociación con claridad convierte una tarea normal de negociación en algo sospechosamente eficiente. El truco mezcla claridad con comunicación clara y buen instinto social, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1715,7 +1715,7 @@
     "id": "ability_negotiating_endurance",
     "name": {
       "en": "Negotiating With Endurance",
-      "fr": "Negotiating avec endurance",
+      "fr": "Négociation avec endurance",
       "es": "Negociación con resistencia"
     },
     "idealProfile": {
@@ -1732,7 +1732,7 @@
     ],
     "description": {
       "en": "Negotiating With Endurance turns an ordinary negotiating task into something suspiciously efficient. The trick is a mix of endurance and clear communication and sustained energy, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Negotiating avec endurance transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange endurance et une communication claire et une énergie qui tient dans la durée, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Négociation avec endurance transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange endurance et une communication claire et une énergie qui tient dans la durée, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Negociación con resistencia convierte una tarea normal de negociación en algo sospechosamente eficiente. El truco mezcla resistencia con comunicación clara y energía que aguanta, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1740,7 +1740,7 @@
     "id": "ability_negotiating_timing",
     "name": {
       "en": "Negotiating With Timing",
-      "fr": "Negotiating avec timing",
+      "fr": "Négociation avec timing",
       "es": "Negociación con timing"
     },
     "idealProfile": {
@@ -1756,7 +1756,7 @@
     ],
     "description": {
       "en": "Negotiating With Timing turns an ordinary negotiating task into something suspiciously efficient. The trick is a mix of timing and clear communication and timing that somehow works, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Negotiating avec timing transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange timing et une communication claire et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Négociation avec timing transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange timing et une communication claire et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Negociación con timing convierte una tarea normal de negociación en algo sospechosamente eficiente. El truco mezcla timing con comunicación clara y un timing que suele salir bien, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1764,7 +1764,7 @@
     "id": "ability_negotiating_intuition",
     "name": {
       "en": "Negotiating With Intuition",
-      "fr": "Negotiating avec intuition",
+      "fr": "Négociation avec intuition",
       "es": "Negociación con intuición"
     },
     "idealProfile": {
@@ -1782,7 +1782,7 @@
     ],
     "description": {
       "en": "Negotiating With Intuition turns an ordinary negotiating task into something suspiciously efficient. The trick is a mix of intuition and clear communication and a strong read on people, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Negotiating avec intuition transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange intuition et une communication claire et une bonne lecture des autres, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Négociation avec intuition transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange intuition et une communication claire et une bonne lecture des autres, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Negociación con intuición convierte una tarea normal de negociación en algo sospechosamente eficiente. El truco mezcla intuición con comunicación clara y una buena lectura de los demás, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1790,7 +1790,7 @@
     "id": "ability_negotiating_discipline",
     "name": {
       "en": "Negotiating With Discipline",
-      "fr": "Negotiating avec discipline",
+      "fr": "Négociation avec discipline",
       "es": "Negociación con disciplina"
     },
     "idealProfile": {
@@ -1807,7 +1807,7 @@
     ],
     "description": {
       "en": "Negotiating With Discipline turns an ordinary negotiating task into something suspiciously efficient. The trick is a mix of discipline and consistent follow-through and clear communication, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Negotiating avec discipline transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Négociation avec discipline transforme une tâche ordinaire de négociation en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Negociación con disciplina convierte una tarea normal de negociación en algo sospechosamente eficiente. El truco mezcla disciplina con una constancia real y comunicación clara, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1815,7 +1815,7 @@
     "id": "ability_learning_instinct",
     "name": {
       "en": "Learning With Instinct",
-      "fr": "Learning avec instinct",
+      "fr": "Apprentissage avec instinct",
       "es": "Aprendizaje con instinto"
     },
     "idealProfile": {
@@ -1833,7 +1833,7 @@
     ],
     "description": {
       "en": "Learning With Instinct turns an ordinary learning task into something suspiciously efficient. The trick is a mix of instinct and sharp pattern recognition and timing that somehow works, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Learning avec instinct transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange instinct et une lecture rapide des problèmes et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Apprentissage avec instinct transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange instinct et une lecture rapide des problèmes et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Aprendizaje con instinto convierte una tarea normal de aprendizaje en algo sospechosamente eficiente. El truco mezcla instinto con una lectura rápida de los problemas y un timing que suele salir bien, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1841,7 +1841,7 @@
     "id": "ability_learning_precision",
     "name": {
       "en": "Learning With Precision",
-      "fr": "Learning avec précision",
+      "fr": "Apprentissage avec précision",
       "es": "Aprendizaje con precisión"
     },
     "idealProfile": {
@@ -1857,7 +1857,7 @@
     ],
     "description": {
       "en": "Learning With Precision turns an ordinary learning task into something suspiciously efficient. The trick is a mix of precision and sharp pattern recognition and consistent follow-through, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Learning avec précision transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange précision et une lecture rapide des problèmes et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Apprentissage avec précision transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange précision et une lecture rapide des problèmes et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Aprendizaje con precisión convierte una tarea normal de aprendizaje en algo sospechosamente eficiente. El truco mezcla precisión con una lectura rápida de los problemas y una constancia real, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1865,7 +1865,7 @@
     "id": "ability_learning_speed",
     "name": {
       "en": "Learning With Speed",
-      "fr": "Learning avec vitesse",
+      "fr": "Apprentissage avec vitesse",
       "es": "Aprendizaje con velocidad"
     },
     "idealProfile": {
@@ -1882,7 +1882,7 @@
     ],
     "description": {
       "en": "Learning With Speed turns an ordinary learning task into something suspiciously efficient. The trick is a mix of speed and sustained energy and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Learning avec vitesse transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange vitesse et une énergie qui tient dans la durée et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Apprentissage avec vitesse transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange vitesse et une énergie qui tient dans la durée et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Aprendizaje con velocidad convierte una tarea normal de aprendizaje en algo sospechosamente eficiente. El truco mezcla velocidad con energía que aguanta y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1890,7 +1890,7 @@
     "id": "ability_learning_patience",
     "name": {
       "en": "Learning With Patience",
-      "fr": "Learning avec patience",
+      "fr": "Apprentissage avec patience",
       "es": "Aprendizaje con paciencia"
     },
     "idealProfile": {
@@ -1907,7 +1907,7 @@
     ],
     "description": {
       "en": "Learning With Patience turns an ordinary learning task into something suspiciously efficient. The trick is a mix of patience and calm under pressure and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Learning avec patience transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange patience et du calme sous pression et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Apprentissage avec patience transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange patience et du calme sous pression et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Aprendizaje con paciencia convierte una tarea normal de aprendizaje en algo sospechosamente eficiente. El truco mezcla paciencia con calma bajo presión y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1915,7 +1915,7 @@
     "id": "ability_learning_improvisation",
     "name": {
       "en": "Learning With Improvisation",
-      "fr": "Learning avec improvisation",
+      "fr": "Apprentissage avec improvisation",
       "es": "Aprendizaje con improvisación"
     },
     "idealProfile": {
@@ -1932,7 +1932,7 @@
     ],
     "description": {
       "en": "Learning With Improvisation turns an ordinary learning task into something suspiciously efficient. The trick is a mix of improvisation and sharp pattern recognition and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Learning avec improvisation transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange improvisation et une lecture rapide des problèmes et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Apprentissage avec improvisation transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange improvisation et une lecture rapide des problèmes et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Aprendizaje con improvisación convierte una tarea normal de aprendizaje en algo sospechosamente eficiente. El truco mezcla improvisación con una lectura rápida de los problemas y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1940,7 +1940,7 @@
     "id": "ability_learning_clarity",
     "name": {
       "en": "Learning With Clarity",
-      "fr": "Learning avec clarté",
+      "fr": "Apprentissage avec clarté",
       "es": "Aprendizaje con claridad"
     },
     "idealProfile": {
@@ -1957,7 +1957,7 @@
     ],
     "description": {
       "en": "Learning With Clarity turns an ordinary learning task into something suspiciously efficient. The trick is a mix of clarity and clear communication and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Learning avec clarté transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Apprentissage avec clarté transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Aprendizaje con claridad convierte una tarea normal de aprendizaje en algo sospechosamente eficiente. El truco mezcla claridad con comunicación clara y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1965,7 +1965,7 @@
     "id": "ability_learning_endurance",
     "name": {
       "en": "Learning With Endurance",
-      "fr": "Learning avec endurance",
+      "fr": "Apprentissage avec endurance",
       "es": "Aprendizaje con resistencia"
     },
     "idealProfile": {
@@ -1982,7 +1982,7 @@
     ],
     "description": {
       "en": "Learning With Endurance turns an ordinary learning task into something suspiciously efficient. The trick is a mix of endurance and sustained energy and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Learning avec endurance transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange endurance et une énergie qui tient dans la durée et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Apprentissage avec endurance transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange endurance et une énergie qui tient dans la durée et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Aprendizaje con resistencia convierte una tarea normal de aprendizaje en algo sospechosamente eficiente. El truco mezcla resistencia con energía que aguanta y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -1990,7 +1990,7 @@
     "id": "ability_learning_timing",
     "name": {
       "en": "Learning With Timing",
-      "fr": "Learning avec timing",
+      "fr": "Apprentissage avec timing",
       "es": "Aprendizaje con timing"
     },
     "idealProfile": {
@@ -2008,7 +2008,7 @@
     ],
     "description": {
       "en": "Learning With Timing turns an ordinary learning task into something suspiciously efficient. The trick is a mix of timing and sharp pattern recognition and timing that somehow works, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Learning avec timing transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange timing et une lecture rapide des problèmes et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Apprentissage avec timing transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange timing et une lecture rapide des problèmes et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Aprendizaje con timing convierte una tarea normal de aprendizaje en algo sospechosamente eficiente. El truco mezcla timing con una lectura rápida de los problemas y un timing que suele salir bien, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2016,7 +2016,7 @@
     "id": "ability_learning_intuition",
     "name": {
       "en": "Learning With Intuition",
-      "fr": "Learning avec intuition",
+      "fr": "Apprentissage avec intuition",
       "es": "Aprendizaje con intuición"
     },
     "idealProfile": {
@@ -2032,7 +2032,7 @@
     ],
     "description": {
       "en": "Learning With Intuition turns an ordinary learning task into something suspiciously efficient. The trick is a mix of intuition and a strong read on people and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Learning avec intuition transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange intuition et une bonne lecture des autres et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Apprentissage avec intuition transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange intuition et une bonne lecture des autres et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Aprendizaje con intuición convierte una tarea normal de aprendizaje en algo sospechosamente eficiente. El truco mezcla intuición con una buena lectura de los demás y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2040,7 +2040,7 @@
     "id": "ability_learning_discipline",
     "name": {
       "en": "Learning With Discipline",
-      "fr": "Learning avec discipline",
+      "fr": "Apprentissage avec discipline",
       "es": "Aprendizaje con disciplina"
     },
     "idealProfile": {
@@ -2057,7 +2057,7 @@
     ],
     "description": {
       "en": "Learning With Discipline turns an ordinary learning task into something suspiciously efficient. The trick is a mix of discipline and sharp pattern recognition and consistent follow-through, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Learning avec discipline transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange discipline et une lecture rapide des problèmes et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Apprentissage avec discipline transforme une tâche ordinaire de apprentissage en quelque chose d'étrangement efficace. Le secret mélange discipline et une lecture rapide des problèmes et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Aprendizaje con disciplina convierte una tarea normal de aprendizaje en algo sospechosamente eficiente. El truco mezcla disciplina con una lectura rápida de los problemas y una constancia real, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2065,7 +2065,7 @@
     "id": "ability_organizing_instinct",
     "name": {
       "en": "Organizing With Instinct",
-      "fr": "Organizing avec instinct",
+      "fr": "Organisation avec instinct",
       "es": "Organización con instinto"
     },
     "idealProfile": {
@@ -2083,7 +2083,7 @@
     ],
     "description": {
       "en": "Organizing With Instinct turns an ordinary organizing task into something suspiciously efficient. The trick is a mix of instinct and consistent follow-through and reliable execution, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Organizing avec instinct transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange instinct et une vraie constance et une exécution fiable, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Organisation avec instinct transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange instinct et une vraie constance et une exécution fiable, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Organización con instinto convierte una tarea normal de organización en algo sospechosamente eficiente. El truco mezcla instinto con una constancia real y una ejecución fiable, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2091,7 +2091,7 @@
     "id": "ability_organizing_precision",
     "name": {
       "en": "Organizing With Precision",
-      "fr": "Organizing avec précision",
+      "fr": "Organisation avec précision",
       "es": "Organización con precisión"
     },
     "idealProfile": {
@@ -2106,7 +2106,7 @@
     ],
     "description": {
       "en": "Organizing With Precision turns an ordinary organizing task into something suspiciously efficient. The trick is a mix of precision and consistent follow-through and reliable execution, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Organizing avec précision transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange précision et une vraie constance et une exécution fiable, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Organisation avec précision transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange précision et une vraie constance et une exécution fiable, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Organización con precisión convierte una tarea normal de organización en algo sospechosamente eficiente. El truco mezcla precisión con una constancia real y una ejecución fiable, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2114,7 +2114,7 @@
     "id": "ability_organizing_speed",
     "name": {
       "en": "Organizing With Speed",
-      "fr": "Organizing avec vitesse",
+      "fr": "Organisation avec vitesse",
       "es": "Organización con velocidad"
     },
     "idealProfile": {
@@ -2131,7 +2131,7 @@
     ],
     "description": {
       "en": "Organizing With Speed turns an ordinary organizing task into something suspiciously efficient. The trick is a mix of speed and consistent follow-through and sustained energy, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Organizing avec vitesse transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange vitesse et une vraie constance et une énergie qui tient dans la durée, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Organisation avec vitesse transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange vitesse et une vraie constance et une énergie qui tient dans la durée, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Organización con velocidad convierte una tarea normal de organización en algo sospechosamente eficiente. El truco mezcla velocidad con una constancia real y energía que aguanta, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2139,7 +2139,7 @@
     "id": "ability_organizing_patience",
     "name": {
       "en": "Organizing With Patience",
-      "fr": "Organizing avec patience",
+      "fr": "Organisation avec patience",
       "es": "Organización con paciencia"
     },
     "idealProfile": {
@@ -2156,7 +2156,7 @@
     ],
     "description": {
       "en": "Organizing With Patience turns an ordinary organizing task into something suspiciously efficient. The trick is a mix of patience and calm under pressure and consistent follow-through, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Organizing avec patience transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange patience et du calme sous pression et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Organisation avec patience transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange patience et du calme sous pression et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Organización con paciencia convierte una tarea normal de organización en algo sospechosamente eficiente. El truco mezcla paciencia con calma bajo presión y una constancia real, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2164,7 +2164,7 @@
     "id": "ability_organizing_improvisation",
     "name": {
       "en": "Organizing With Improvisation",
-      "fr": "Organizing avec improvisation",
+      "fr": "Organisation avec improvisation",
       "es": "Organización con improvisación"
     },
     "idealProfile": {
@@ -2182,7 +2182,7 @@
     ],
     "description": {
       "en": "Organizing With Improvisation turns an ordinary organizing task into something suspiciously efficient. The trick is a mix of improvisation and consistent follow-through and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Organizing avec improvisation transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie constance et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Organisation avec improvisation transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie constance et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Organización con improvisación convierte una tarea normal de organización en algo sospechosamente eficiente. El truco mezcla improvisación con una constancia real y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2190,7 +2190,7 @@
     "id": "ability_organizing_clarity",
     "name": {
       "en": "Organizing With Clarity",
-      "fr": "Organizing avec clarté",
+      "fr": "Organisation avec clarté",
       "es": "Organización con claridad"
     },
     "idealProfile": {
@@ -2206,7 +2206,7 @@
     ],
     "description": {
       "en": "Organizing With Clarity turns an ordinary organizing task into something suspiciously efficient. The trick is a mix of clarity and consistent follow-through and clear communication, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Organizing avec clarté transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange clarté et une vraie constance et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Organisation avec clarté transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange clarté et une vraie constance et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Organización con claridad convierte una tarea normal de organización en algo sospechosamente eficiente. El truco mezcla claridad con una constancia real y comunicación clara, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2214,7 +2214,7 @@
     "id": "ability_organizing_endurance",
     "name": {
       "en": "Organizing With Endurance",
-      "fr": "Organizing avec endurance",
+      "fr": "Organisation avec endurance",
       "es": "Organización con resistencia"
     },
     "idealProfile": {
@@ -2231,7 +2231,7 @@
     ],
     "description": {
       "en": "Organizing With Endurance turns an ordinary organizing task into something suspiciously efficient. The trick is a mix of endurance and sustained energy and consistent follow-through, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Organizing avec endurance transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange endurance et une énergie qui tient dans la durée et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Organisation avec endurance transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange endurance et une énergie qui tient dans la durée et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Organización con resistencia convierte una tarea normal de organización en algo sospechosamente eficiente. El truco mezcla resistencia con energía que aguanta y una constancia real, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2239,7 +2239,7 @@
     "id": "ability_organizing_timing",
     "name": {
       "en": "Organizing With Timing",
-      "fr": "Organizing avec timing",
+      "fr": "Organisation avec timing",
       "es": "Organización con timing"
     },
     "idealProfile": {
@@ -2257,7 +2257,7 @@
     ],
     "description": {
       "en": "Organizing With Timing turns an ordinary organizing task into something suspiciously efficient. The trick is a mix of timing and consistent follow-through and timing that somehow works, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Organizing avec timing transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange timing et une vraie constance et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Organisation avec timing transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange timing et une vraie constance et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Organización con timing convierte una tarea normal de organización en algo sospechosamente eficiente. El truco mezcla timing con una constancia real y un timing que suele salir bien, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2265,7 +2265,7 @@
     "id": "ability_organizing_intuition",
     "name": {
       "en": "Organizing With Intuition",
-      "fr": "Organizing avec intuition",
+      "fr": "Organisation avec intuition",
       "es": "Organización con intuición"
     },
     "idealProfile": {
@@ -2282,7 +2282,7 @@
     ],
     "description": {
       "en": "Organizing With Intuition turns an ordinary organizing task into something suspiciously efficient. The trick is a mix of intuition and consistent follow-through and a strong read on people, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Organizing avec intuition transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange intuition et une vraie constance et une bonne lecture des autres, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Organisation avec intuition transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange intuition et une vraie constance et une bonne lecture des autres, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Organización con intuición convierte una tarea normal de organización en algo sospechosamente eficiente. El truco mezcla intuición con una constancia real y una buena lectura de los demás, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2290,7 +2290,7 @@
     "id": "ability_organizing_discipline",
     "name": {
       "en": "Organizing With Discipline",
-      "fr": "Organizing avec discipline",
+      "fr": "Organisation avec discipline",
       "es": "Organización con disciplina"
     },
     "idealProfile": {
@@ -2306,7 +2306,7 @@
     ],
     "description": {
       "en": "Organizing With Discipline turns an ordinary organizing task into something suspiciously efficient. The trick is a mix of discipline and consistent follow-through and reliable execution, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Organizing avec discipline transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une exécution fiable, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Organisation avec discipline transforme une tâche ordinaire de organisation en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une exécution fiable, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Organización con disciplina convierte una tarea normal de organización en algo sospechosamente eficiente. El truco mezcla disciplina con una constancia real y una ejecución fiable, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2314,7 +2314,7 @@
     "id": "ability_adapting_instinct",
     "name": {
       "en": "Adapting With Instinct",
-      "fr": "Adapting avec instinct",
+      "fr": "Adaptation avec instinct",
       "es": "Adaptación con instinto"
     },
     "idealProfile": {
@@ -2330,7 +2330,7 @@
     ],
     "description": {
       "en": "Adapting With Instinct turns an ordinary adapting task into something suspiciously efficient. The trick is a mix of instinct and creative problem solving and timing that somehow works, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Adapting avec instinct transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange instinct et une vraie créativité pratique et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Adaptation avec instinct transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange instinct et une vraie créativité pratique et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Adaptación con instinto convierte una tarea normal de adaptación en algo sospechosamente eficiente. El truco mezcla instinto con una creatividad práctica y un timing que suele salir bien, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2338,7 +2338,7 @@
     "id": "ability_adapting_precision",
     "name": {
       "en": "Adapting With Precision",
-      "fr": "Adapting avec précision",
+      "fr": "Adaptation avec précision",
       "es": "Adaptación con precisión"
     },
     "idealProfile": {
@@ -2356,7 +2356,7 @@
     ],
     "description": {
       "en": "Adapting With Precision turns an ordinary adapting task into something suspiciously efficient. The trick is a mix of precision and consistent follow-through and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Adapting avec précision transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange précision et une vraie constance et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Adaptation avec précision transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange précision et une vraie constance et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Adaptación con precisión convierte una tarea normal de adaptación en algo sospechosamente eficiente. El truco mezcla precisión con una constancia real y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2364,7 +2364,7 @@
     "id": "ability_adapting_speed",
     "name": {
       "en": "Adapting With Speed",
-      "fr": "Adapting avec vitesse",
+      "fr": "Adaptation avec vitesse",
       "es": "Adaptación con velocidad"
     },
     "idealProfile": {
@@ -2381,7 +2381,7 @@
     ],
     "description": {
       "en": "Adapting With Speed turns an ordinary adapting task into something suspiciously efficient. The trick is a mix of speed and sustained energy and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Adapting avec vitesse transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange vitesse et une énergie qui tient dans la durée et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Adaptation avec vitesse transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange vitesse et une énergie qui tient dans la durée et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Adaptación con velocidad convierte una tarea normal de adaptación en algo sospechosamente eficiente. El truco mezcla velocidad con energía que aguanta y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2389,7 +2389,7 @@
     "id": "ability_adapting_patience",
     "name": {
       "en": "Adapting With Patience",
-      "fr": "Adapting avec patience",
+      "fr": "Adaptation avec patience",
       "es": "Adaptación con paciencia"
     },
     "idealProfile": {
@@ -2406,7 +2406,7 @@
     ],
     "description": {
       "en": "Adapting With Patience turns an ordinary adapting task into something suspiciously efficient. The trick is a mix of patience and calm under pressure and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Adapting avec patience transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange patience et du calme sous pression et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Adaptation avec patience transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange patience et du calme sous pression et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Adaptación con paciencia convierte una tarea normal de adaptación en algo sospechosamente eficiente. El truco mezcla paciencia con calma bajo presión y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2414,7 +2414,7 @@
     "id": "ability_adapting_improvisation",
     "name": {
       "en": "Adapting With Improvisation",
-      "fr": "Adapting avec improvisation",
+      "fr": "Adaptation avec improvisation",
       "es": "Adaptación con improvisación"
     },
     "idealProfile": {
@@ -2430,7 +2430,7 @@
     ],
     "description": {
       "en": "Adapting With Improvisation turns an ordinary adapting task into something suspiciously efficient. The trick is a mix of improvisation and creative problem solving and calm under pressure, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Adapting avec improvisation transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie créativité pratique et du calme sous pression, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Adaptation avec improvisation transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie créativité pratique et du calme sous pression, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Adaptación con improvisación convierte una tarea normal de adaptación en algo sospechosamente eficiente. El truco mezcla improvisación con una creatividad práctica y calma bajo presión, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2438,7 +2438,7 @@
     "id": "ability_adapting_clarity",
     "name": {
       "en": "Adapting With Clarity",
-      "fr": "Adapting avec clarté",
+      "fr": "Adaptation avec clarté",
       "es": "Adaptación con claridad"
     },
     "idealProfile": {
@@ -2456,7 +2456,7 @@
     ],
     "description": {
       "en": "Adapting With Clarity turns an ordinary adapting task into something suspiciously efficient. The trick is a mix of clarity and clear communication and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Adapting avec clarté transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Adaptation avec clarté transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Adaptación con claridad convierte una tarea normal de adaptación en algo sospechosamente eficiente. El truco mezcla claridad con comunicación clara y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2464,7 +2464,7 @@
     "id": "ability_adapting_endurance",
     "name": {
       "en": "Adapting With Endurance",
-      "fr": "Adapting avec endurance",
+      "fr": "Adaptation avec endurance",
       "es": "Adaptación con resistencia"
     },
     "idealProfile": {
@@ -2481,7 +2481,7 @@
     ],
     "description": {
       "en": "Adapting With Endurance turns an ordinary adapting task into something suspiciously efficient. The trick is a mix of endurance and sustained energy and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Adapting avec endurance transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange endurance et une énergie qui tient dans la durée et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Adaptation avec endurance transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange endurance et une énergie qui tient dans la durée et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Adaptación con resistencia convierte una tarea normal de adaptación en algo sospechosamente eficiente. El truco mezcla resistencia con energía que aguanta y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2489,7 +2489,7 @@
     "id": "ability_adapting_timing",
     "name": {
       "en": "Adapting With Timing",
-      "fr": "Adapting avec timing",
+      "fr": "Adaptation avec timing",
       "es": "Adaptación con timing"
     },
     "idealProfile": {
@@ -2506,7 +2506,7 @@
     ],
     "description": {
       "en": "Adapting With Timing turns an ordinary adapting task into something suspiciously efficient. The trick is a mix of timing and creative problem solving and timing that somehow works, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Adapting avec timing transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange timing et une vraie créativité pratique et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Adaptation avec timing transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange timing et une vraie créativité pratique et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Adaptación con timing convierte una tarea normal de adaptación en algo sospechosamente eficiente. El truco mezcla timing con una creatividad práctica y un timing que suele salir bien, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2514,7 +2514,7 @@
     "id": "ability_adapting_intuition",
     "name": {
       "en": "Adapting With Intuition",
-      "fr": "Adapting avec intuition",
+      "fr": "Adaptation avec intuition",
       "es": "Adaptación con intuición"
     },
     "idealProfile": {
@@ -2531,7 +2531,7 @@
     ],
     "description": {
       "en": "Adapting With Intuition turns an ordinary adapting task into something suspiciously efficient. The trick is a mix of intuition and a strong read on people and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Adapting avec intuition transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange intuition et une bonne lecture des autres et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Adaptation avec intuition transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange intuition et une bonne lecture des autres et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Adaptación con intuición convierte una tarea normal de adaptación en algo sospechosamente eficiente. El truco mezcla intuición con una buena lectura de los demás y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2539,7 +2539,7 @@
     "id": "ability_adapting_discipline",
     "name": {
       "en": "Adapting With Discipline",
-      "fr": "Adapting avec discipline",
+      "fr": "Adaptation avec discipline",
       "es": "Adaptación con disciplina"
     },
     "idealProfile": {
@@ -2556,7 +2556,7 @@
     ],
     "description": {
       "en": "Adapting With Discipline turns an ordinary adapting task into something suspiciously efficient. The trick is a mix of discipline and consistent follow-through and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Adapting avec discipline transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Adaptation avec discipline transforme une tâche ordinaire de adaptation en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Adaptación con disciplina convierte una tarea normal de adaptación en algo sospechosamente eficiente. El truco mezcla disciplina con una constancia real y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2564,7 +2564,7 @@
     "id": "ability_observing_instinct",
     "name": {
       "en": "Observing With Instinct",
-      "fr": "Observing avec instinct",
+      "fr": "Observation avec instinct",
       "es": "Observación con instinto"
     },
     "idealProfile": {
@@ -2581,7 +2581,7 @@
     ],
     "description": {
       "en": "Observing With Instinct turns an ordinary observing task into something suspiciously efficient. The trick is a mix of instinct and sharp pattern recognition and timing that somehow works, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Observing avec instinct transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange instinct et une lecture rapide des problèmes et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Observation avec instinct transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange instinct et une lecture rapide des problèmes et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Observación con instinto convierte una tarea normal de observación en algo sospechosamente eficiente. El truco mezcla instinto con una lectura rápida de los problemas y un timing que suele salir bien, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2589,7 +2589,7 @@
     "id": "ability_observing_precision",
     "name": {
       "en": "Observing With Precision",
-      "fr": "Observing avec précision",
+      "fr": "Observation avec précision",
       "es": "Observación con precisión"
     },
     "idealProfile": {
@@ -2606,7 +2606,7 @@
     ],
     "description": {
       "en": "Observing With Precision turns an ordinary observing task into something suspiciously efficient. The trick is a mix of precision and consistent follow-through and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Observing avec précision transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange précision et une vraie constance et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Observation avec précision transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange précision et une vraie constance et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Observación con precisión convierte una tarea normal de observación en algo sospechosamente eficiente. El truco mezcla precisión con una constancia real y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2614,7 +2614,7 @@
     "id": "ability_observing_speed",
     "name": {
       "en": "Observing With Speed",
-      "fr": "Observing avec vitesse",
+      "fr": "Observation avec vitesse",
       "es": "Observación con velocidad"
     },
     "idealProfile": {
@@ -2630,7 +2630,7 @@
     ],
     "description": {
       "en": "Observing With Speed turns an ordinary observing task into something suspiciously efficient. The trick is a mix of speed and sustained energy and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Observing avec vitesse transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange vitesse et une énergie qui tient dans la durée et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Observation avec vitesse transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange vitesse et une énergie qui tient dans la durée et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Observación con velocidad convierte una tarea normal de observación en algo sospechosamente eficiente. El truco mezcla velocidad con energía que aguanta y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2638,7 +2638,7 @@
     "id": "ability_observing_patience",
     "name": {
       "en": "Observing With Patience",
-      "fr": "Observing avec patience",
+      "fr": "Observation avec patience",
       "es": "Observación con paciencia"
     },
     "idealProfile": {
@@ -2654,7 +2654,7 @@
     ],
     "description": {
       "en": "Observing With Patience turns an ordinary observing task into something suspiciously efficient. The trick is a mix of patience and sharp pattern recognition and calm under pressure, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Observing avec patience transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange patience et une lecture rapide des problèmes et du calme sous pression, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Observation avec patience transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange patience et une lecture rapide des problèmes et du calme sous pression, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Observación con paciencia convierte una tarea normal de observación en algo sospechosamente eficiente. El truco mezcla paciencia con una lectura rápida de los problemas y calma bajo presión, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2662,7 +2662,7 @@
     "id": "ability_observing_improvisation",
     "name": {
       "en": "Observing With Improvisation",
-      "fr": "Observing avec improvisation",
+      "fr": "Observation avec improvisation",
       "es": "Observación con improvisación"
     },
     "idealProfile": {
@@ -2680,7 +2680,7 @@
     ],
     "description": {
       "en": "Observing With Improvisation turns an ordinary observing task into something suspiciously efficient. The trick is a mix of improvisation and creative problem solving and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Observing avec improvisation transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie créativité pratique et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Observation avec improvisation transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie créativité pratique et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Observación con improvisación convierte una tarea normal de observación en algo sospechosamente eficiente. El truco mezcla improvisación con una creatividad práctica y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2688,7 +2688,7 @@
     "id": "ability_observing_clarity",
     "name": {
       "en": "Observing With Clarity",
-      "fr": "Observing avec clarté",
+      "fr": "Observation avec clarté",
       "es": "Observación con claridad"
     },
     "idealProfile": {
@@ -2705,7 +2705,7 @@
     ],
     "description": {
       "en": "Observing With Clarity turns an ordinary observing task into something suspiciously efficient. The trick is a mix of clarity and clear communication and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Observing avec clarté transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Observation avec clarté transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Observación con claridad convierte una tarea normal de observación en algo sospechosamente eficiente. El truco mezcla claridad con comunicación clara y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2713,7 +2713,7 @@
     "id": "ability_observing_endurance",
     "name": {
       "en": "Observing With Endurance",
-      "fr": "Observing avec endurance",
+      "fr": "Observation avec endurance",
       "es": "Observación con resistencia"
     },
     "idealProfile": {
@@ -2730,7 +2730,7 @@
     ],
     "description": {
       "en": "Observing With Endurance turns an ordinary observing task into something suspiciously efficient. The trick is a mix of endurance and sustained energy and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Observing avec endurance transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange endurance et une énergie qui tient dans la durée et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Observation avec endurance transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange endurance et une énergie qui tient dans la durée et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Observación con resistencia convierte una tarea normal de observación en algo sospechosamente eficiente. El truco mezcla resistencia con energía que aguanta y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2738,7 +2738,7 @@
     "id": "ability_observing_timing",
     "name": {
       "en": "Observing With Timing",
-      "fr": "Observing avec timing",
+      "fr": "Observation avec timing",
       "es": "Observación con timing"
     },
     "idealProfile": {
@@ -2755,7 +2755,7 @@
     ],
     "description": {
       "en": "Observing With Timing turns an ordinary observing task into something suspiciously efficient. The trick is a mix of timing and sharp pattern recognition and timing that somehow works, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Observing avec timing transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange timing et une lecture rapide des problèmes et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Observation avec timing transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange timing et une lecture rapide des problèmes et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Observación con timing convierte una tarea normal de observación en algo sospechosamente eficiente. El truco mezcla timing con una lectura rápida de los problemas y un timing que suele salir bien, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2763,7 +2763,7 @@
     "id": "ability_observing_intuition",
     "name": {
       "en": "Observing With Intuition",
-      "fr": "Observing avec intuition",
+      "fr": "Observation avec intuition",
       "es": "Observación con intuición"
     },
     "idealProfile": {
@@ -2779,7 +2779,7 @@
     ],
     "description": {
       "en": "Observing With Intuition turns an ordinary observing task into something suspiciously efficient. The trick is a mix of intuition and a strong read on people and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Observing avec intuition transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange intuition et une bonne lecture des autres et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Observation avec intuition transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange intuition et une bonne lecture des autres et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Observación con intuición convierte una tarea normal de observación en algo sospechosamente eficiente. El truco mezcla intuición con una buena lectura de los demás y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2787,7 +2787,7 @@
     "id": "ability_observing_discipline",
     "name": {
       "en": "Observing With Discipline",
-      "fr": "Observing avec discipline",
+      "fr": "Observation avec discipline",
       "es": "Observación con disciplina"
     },
     "idealProfile": {
@@ -2804,7 +2804,7 @@
     ],
     "description": {
       "en": "Observing With Discipline turns an ordinary observing task into something suspiciously efficient. The trick is a mix of discipline and consistent follow-through and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Observing avec discipline transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Observation avec discipline transforme une tâche ordinaire de observation en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Observación con disciplina convierte una tarea normal de observación en algo sospechosamente eficiente. El truco mezcla disciplina con una constancia real y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2812,7 +2812,7 @@
     "id": "ability_prioritizing_instinct",
     "name": {
       "en": "Prioritizing With Instinct",
-      "fr": "Prioritizing avec instinct",
+      "fr": "Priorisation avec instinct",
       "es": "Priorización con instinto"
     },
     "idealProfile": {
@@ -2830,7 +2830,7 @@
     ],
     "description": {
       "en": "Prioritizing With Instinct turns an ordinary prioritizing task into something suspiciously efficient. The trick is a mix of instinct and consistent follow-through and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Prioritizing avec instinct transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange instinct et une vraie constance et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Priorisation avec instinct transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange instinct et une vraie constance et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Priorización con instinto convierte una tarea normal de priorización en algo sospechosamente eficiente. El truco mezcla instinto con una constancia real y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2838,7 +2838,7 @@
     "id": "ability_prioritizing_precision",
     "name": {
       "en": "Prioritizing With Precision",
-      "fr": "Prioritizing avec précision",
+      "fr": "Priorisation avec précision",
       "es": "Priorización con precisión"
     },
     "idealProfile": {
@@ -2853,7 +2853,7 @@
     ],
     "description": {
       "en": "Prioritizing With Precision turns an ordinary prioritizing task into something suspiciously efficient. The trick is a mix of precision and consistent follow-through and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Prioritizing avec précision transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange précision et une vraie constance et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Priorisation avec précision transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange précision et une vraie constance et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Priorización con precisión convierte una tarea normal de priorización en algo sospechosamente eficiente. El truco mezcla precisión con una constancia real y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2861,7 +2861,7 @@
     "id": "ability_prioritizing_speed",
     "name": {
       "en": "Prioritizing With Speed",
-      "fr": "Prioritizing avec vitesse",
+      "fr": "Priorisation avec vitesse",
       "es": "Priorización con velocidad"
     },
     "idealProfile": {
@@ -2878,7 +2878,7 @@
     ],
     "description": {
       "en": "Prioritizing With Speed turns an ordinary prioritizing task into something suspiciously efficient. The trick is a mix of speed and consistent follow-through and sustained energy, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Prioritizing avec vitesse transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange vitesse et une vraie constance et une énergie qui tient dans la durée, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Priorisation avec vitesse transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange vitesse et une vraie constance et une énergie qui tient dans la durée, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Priorización con velocidad convierte una tarea normal de priorización en algo sospechosamente eficiente. El truco mezcla velocidad con una constancia real y energía que aguanta, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2886,7 +2886,7 @@
     "id": "ability_prioritizing_patience",
     "name": {
       "en": "Prioritizing With Patience",
-      "fr": "Prioritizing avec patience",
+      "fr": "Priorisation avec patience",
       "es": "Priorización con paciencia"
     },
     "idealProfile": {
@@ -2903,7 +2903,7 @@
     ],
     "description": {
       "en": "Prioritizing With Patience turns an ordinary prioritizing task into something suspiciously efficient. The trick is a mix of patience and calm under pressure and consistent follow-through, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Prioritizing avec patience transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange patience et du calme sous pression et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Priorisation avec patience transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange patience et du calme sous pression et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Priorización con paciencia convierte una tarea normal de priorización en algo sospechosamente eficiente. El truco mezcla paciencia con calma bajo presión y una constancia real, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2911,7 +2911,7 @@
     "id": "ability_prioritizing_improvisation",
     "name": {
       "en": "Prioritizing With Improvisation",
-      "fr": "Prioritizing avec improvisation",
+      "fr": "Priorisation avec improvisation",
       "es": "Priorización con improvisación"
     },
     "idealProfile": {
@@ -2929,7 +2929,7 @@
     ],
     "description": {
       "en": "Prioritizing With Improvisation turns an ordinary prioritizing task into something suspiciously efficient. The trick is a mix of improvisation and creative problem solving and consistent follow-through, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Prioritizing avec improvisation transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie créativité pratique et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Priorisation avec improvisation transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie créativité pratique et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Priorización con improvisación convierte una tarea normal de priorización en algo sospechosamente eficiente. El truco mezcla improvisación con una creatividad práctica y una constancia real, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2937,7 +2937,7 @@
     "id": "ability_prioritizing_clarity",
     "name": {
       "en": "Prioritizing With Clarity",
-      "fr": "Prioritizing avec clarté",
+      "fr": "Priorisation avec clarté",
       "es": "Priorización con claridad"
     },
     "idealProfile": {
@@ -2953,7 +2953,7 @@
     ],
     "description": {
       "en": "Prioritizing With Clarity turns an ordinary prioritizing task into something suspiciously efficient. The trick is a mix of clarity and clear communication and consistent follow-through, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Prioritizing avec clarté transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Priorisation avec clarté transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Priorización con claridad convierte una tarea normal de priorización en algo sospechosamente eficiente. El truco mezcla claridad con comunicación clara y una constancia real, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2961,7 +2961,7 @@
     "id": "ability_prioritizing_endurance",
     "name": {
       "en": "Prioritizing With Endurance",
-      "fr": "Prioritizing avec endurance",
+      "fr": "Priorisation avec endurance",
       "es": "Priorización con resistencia"
     },
     "idealProfile": {
@@ -2978,7 +2978,7 @@
     ],
     "description": {
       "en": "Prioritizing With Endurance turns an ordinary prioritizing task into something suspiciously efficient. The trick is a mix of endurance and sustained energy and consistent follow-through, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Prioritizing avec endurance transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange endurance et une énergie qui tient dans la durée et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Priorisation avec endurance transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange endurance et une énergie qui tient dans la durée et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Priorización con resistencia convierte una tarea normal de priorización en algo sospechosamente eficiente. El truco mezcla resistencia con energía que aguanta y una constancia real, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -2986,7 +2986,7 @@
     "id": "ability_prioritizing_timing",
     "name": {
       "en": "Prioritizing With Timing",
-      "fr": "Prioritizing avec timing",
+      "fr": "Priorisation avec timing",
       "es": "Priorización con timing"
     },
     "idealProfile": {
@@ -3004,7 +3004,7 @@
     ],
     "description": {
       "en": "Prioritizing With Timing turns an ordinary prioritizing task into something suspiciously efficient. The trick is a mix of timing and consistent follow-through and timing that somehow works, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Prioritizing avec timing transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange timing et une vraie constance et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Priorisation avec timing transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange timing et une vraie constance et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Priorización con timing convierte una tarea normal de priorización en algo sospechosamente eficiente. El truco mezcla timing con una constancia real y un timing que suele salir bien, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3012,7 +3012,7 @@
     "id": "ability_prioritizing_intuition",
     "name": {
       "en": "Prioritizing With Intuition",
-      "fr": "Prioritizing avec intuition",
+      "fr": "Priorisation avec intuition",
       "es": "Priorización con intuición"
     },
     "idealProfile": {
@@ -3029,7 +3029,7 @@
     ],
     "description": {
       "en": "Prioritizing With Intuition turns an ordinary prioritizing task into something suspiciously efficient. The trick is a mix of intuition and consistent follow-through and a strong read on people, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Prioritizing avec intuition transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange intuition et une vraie constance et une bonne lecture des autres, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Priorisation avec intuition transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange intuition et une vraie constance et une bonne lecture des autres, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Priorización con intuición convierte una tarea normal de priorización en algo sospechosamente eficiente. El truco mezcla intuición con una constancia real y una buena lectura de los demás, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3037,7 +3037,7 @@
     "id": "ability_prioritizing_discipline",
     "name": {
       "en": "Prioritizing With Discipline",
-      "fr": "Prioritizing avec discipline",
+      "fr": "Priorisation avec discipline",
       "es": "Priorización con disciplina"
     },
     "idealProfile": {
@@ -3053,7 +3053,7 @@
     ],
     "description": {
       "en": "Prioritizing With Discipline turns an ordinary prioritizing task into something suspiciously efficient. The trick is a mix of discipline and consistent follow-through and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Prioritizing avec discipline transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Priorisation avec discipline transforme une tâche ordinaire de priorisation en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Priorización con disciplina convierte una tarea normal de priorización en algo sospechosamente eficiente. El truco mezcla disciplina con una constancia real y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3061,7 +3061,7 @@
     "id": "ability_debugging_instinct",
     "name": {
       "en": "Debugging With Instinct",
-      "fr": "Debugging avec instinct",
+      "fr": "Débogage avec instinct",
       "es": "Depuración con instinto"
     },
     "idealProfile": {
@@ -3078,7 +3078,7 @@
     ],
     "description": {
       "en": "Debugging With Instinct turns an ordinary debugging task into something suspiciously efficient. The trick is a mix of instinct and sharp pattern recognition and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Debugging avec instinct transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange instinct et une lecture rapide des problèmes et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Débogage avec instinct transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange instinct et une lecture rapide des problèmes et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Depuración con instinto convierte una tarea normal de depuración en algo sospechosamente eficiente. El truco mezcla instinto con una lectura rápida de los problemas y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3086,7 +3086,7 @@
     "id": "ability_debugging_precision",
     "name": {
       "en": "Debugging With Precision",
-      "fr": "Debugging avec précision",
+      "fr": "Débogage avec précision",
       "es": "Depuración con precisión"
     },
     "idealProfile": {
@@ -3103,7 +3103,7 @@
     ],
     "description": {
       "en": "Debugging With Precision turns an ordinary debugging task into something suspiciously efficient. The trick is a mix of precision and consistent follow-through and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Debugging avec précision transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange précision et une vraie constance et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Débogage avec précision transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange précision et une vraie constance et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Depuración con precisión convierte una tarea normal de depuración en algo sospechosamente eficiente. El truco mezcla precisión con una constancia real y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3111,7 +3111,7 @@
     "id": "ability_debugging_speed",
     "name": {
       "en": "Debugging With Speed",
-      "fr": "Debugging avec vitesse",
+      "fr": "Débogage avec vitesse",
       "es": "Depuración con velocidad"
     },
     "idealProfile": {
@@ -3127,7 +3127,7 @@
     ],
     "description": {
       "en": "Debugging With Speed turns an ordinary debugging task into something suspiciously efficient. The trick is a mix of speed and sustained energy and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Debugging avec vitesse transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange vitesse et une énergie qui tient dans la durée et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Débogage avec vitesse transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange vitesse et une énergie qui tient dans la durée et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Depuración con velocidad convierte una tarea normal de depuración en algo sospechosamente eficiente. El truco mezcla velocidad con energía que aguanta y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3135,7 +3135,7 @@
     "id": "ability_debugging_patience",
     "name": {
       "en": "Debugging With Patience",
-      "fr": "Debugging avec patience",
+      "fr": "Débogage avec patience",
       "es": "Depuración con paciencia"
     },
     "idealProfile": {
@@ -3152,7 +3152,7 @@
     ],
     "description": {
       "en": "Debugging With Patience turns an ordinary debugging task into something suspiciously efficient. The trick is a mix of patience and sharp pattern recognition and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Debugging avec patience transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange patience et une lecture rapide des problèmes et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Débogage avec patience transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange patience et une lecture rapide des problèmes et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Depuración con paciencia convierte una tarea normal de depuración en algo sospechosamente eficiente. El truco mezcla paciencia con una lectura rápida de los problemas y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3160,7 +3160,7 @@
     "id": "ability_debugging_improvisation",
     "name": {
       "en": "Debugging With Improvisation",
-      "fr": "Debugging avec improvisation",
+      "fr": "Débogage avec improvisation",
       "es": "Depuración con improvisación"
     },
     "idealProfile": {
@@ -3177,7 +3177,7 @@
     ],
     "description": {
       "en": "Debugging With Improvisation turns an ordinary debugging task into something suspiciously efficient. The trick is a mix of improvisation and sharp pattern recognition and creative problem solving, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Debugging avec improvisation transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange improvisation et une lecture rapide des problèmes et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Débogage avec improvisation transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange improvisation et une lecture rapide des problèmes et une vraie créativité pratique, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Depuración con improvisación convierte una tarea normal de depuración en algo sospechosamente eficiente. El truco mezcla improvisación con una lectura rápida de los problemas y una creatividad práctica, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3185,7 +3185,7 @@
     "id": "ability_debugging_clarity",
     "name": {
       "en": "Debugging With Clarity",
-      "fr": "Debugging avec clarté",
+      "fr": "Débogage avec clarté",
       "es": "Depuración con claridad"
     },
     "idealProfile": {
@@ -3202,7 +3202,7 @@
     ],
     "description": {
       "en": "Debugging With Clarity turns an ordinary debugging task into something suspiciously efficient. The trick is a mix of clarity and clear communication and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Debugging avec clarté transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Débogage avec clarté transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Depuración con claridad convierte una tarea normal de depuración en algo sospechosamente eficiente. El truco mezcla claridad con comunicación clara y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3210,7 +3210,7 @@
     "id": "ability_debugging_endurance",
     "name": {
       "en": "Debugging With Endurance",
-      "fr": "Debugging avec endurance",
+      "fr": "Débogage avec endurance",
       "es": "Depuración con resistencia"
     },
     "idealProfile": {
@@ -3227,7 +3227,7 @@
     ],
     "description": {
       "en": "Debugging With Endurance turns an ordinary debugging task into something suspiciously efficient. The trick is a mix of endurance and sharp pattern recognition and sustained energy, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Debugging avec endurance transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange endurance et une lecture rapide des problèmes et une énergie qui tient dans la durée, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Débogage avec endurance transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange endurance et une lecture rapide des problèmes et une énergie qui tient dans la durée, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Depuración con resistencia convierte una tarea normal de depuración en algo sospechosamente eficiente. El truco mezcla resistencia con una lectura rápida de los problemas y energía que aguanta, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3235,7 +3235,7 @@
     "id": "ability_debugging_timing",
     "name": {
       "en": "Debugging With Timing",
-      "fr": "Debugging avec timing",
+      "fr": "Débogage avec timing",
       "es": "Depuración con timing"
     },
     "idealProfile": {
@@ -3252,7 +3252,7 @@
     ],
     "description": {
       "en": "Debugging With Timing turns an ordinary debugging task into something suspiciously efficient. The trick is a mix of timing and sharp pattern recognition and timing that somehow works, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Debugging avec timing transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange timing et une lecture rapide des problèmes et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Débogage avec timing transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange timing et une lecture rapide des problèmes et un timing qui tombe souvent juste, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Depuración con timing convierte una tarea normal de depuración en algo sospechosamente eficiente. El truco mezcla timing con una lectura rápida de los problemas y un timing que suele salir bien, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3260,7 +3260,7 @@
     "id": "ability_debugging_intuition",
     "name": {
       "en": "Debugging With Intuition",
-      "fr": "Debugging avec intuition",
+      "fr": "Débogage avec intuition",
       "es": "Depuración con intuición"
     },
     "idealProfile": {
@@ -3276,7 +3276,7 @@
     ],
     "description": {
       "en": "Debugging With Intuition turns an ordinary debugging task into something suspiciously efficient. The trick is a mix of intuition and a strong read on people and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Debugging avec intuition transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange intuition et une bonne lecture des autres et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Débogage avec intuition transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange intuition et une bonne lecture des autres et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Depuración con intuición convierte una tarea normal de depuración en algo sospechosamente eficiente. El truco mezcla intuición con una buena lectura de los demás y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3284,7 +3284,7 @@
     "id": "ability_debugging_discipline",
     "name": {
       "en": "Debugging With Discipline",
-      "fr": "Debugging avec discipline",
+      "fr": "Débogage avec discipline",
       "es": "Depuración con disciplina"
     },
     "idealProfile": {
@@ -3301,7 +3301,7 @@
     ],
     "description": {
       "en": "Debugging With Discipline turns an ordinary debugging task into something suspiciously efficient. The trick is a mix of discipline and consistent follow-through and sharp pattern recognition, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Debugging avec discipline transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Débogage avec discipline transforme une tâche ordinaire de débogage en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une lecture rapide des problèmes, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Depuración con disciplina convierte una tarea normal de depuración en algo sospechosamente eficiente. El truco mezcla disciplina con una constancia real y una lectura rápida de los problemas, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3309,7 +3309,7 @@
     "id": "ability_teaching_instinct",
     "name": {
       "en": "Teaching With Instinct",
-      "fr": "Teaching avec instinct",
+      "fr": "Enseignement avec instinct",
       "es": "Enseñanza con instinto"
     },
     "idealProfile": {
@@ -3327,7 +3327,7 @@
     ],
     "description": {
       "en": "Teaching With Instinct turns an ordinary teaching task into something suspiciously efficient. The trick is a mix of instinct and clear communication and a strong read on people, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Teaching avec instinct transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange instinct et une communication claire et une bonne lecture des autres, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Enseignement avec instinct transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange instinct et une communication claire et une bonne lecture des autres, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Enseñanza con instinto convierte una tarea normal de enseñanza en algo sospechosamente eficiente. El truco mezcla instinto con comunicación clara y una buena lectura de los demás, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3335,7 +3335,7 @@
     "id": "ability_teaching_precision",
     "name": {
       "en": "Teaching With Precision",
-      "fr": "Teaching avec précision",
+      "fr": "Enseignement avec précision",
       "es": "Enseñanza con precisión"
     },
     "idealProfile": {
@@ -3352,7 +3352,7 @@
     ],
     "description": {
       "en": "Teaching With Precision turns an ordinary teaching task into something suspiciously efficient. The trick is a mix of precision and clear communication and consistent follow-through, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Teaching avec précision transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange précision et une communication claire et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Enseignement avec précision transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange précision et une communication claire et une vraie constance, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Enseñanza con precisión convierte una tarea normal de enseñanza en algo sospechosamente eficiente. El truco mezcla precisión con comunicación clara y una constancia real, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3360,7 +3360,7 @@
     "id": "ability_teaching_speed",
     "name": {
       "en": "Teaching With Speed",
-      "fr": "Teaching avec vitesse",
+      "fr": "Enseignement avec vitesse",
       "es": "Enseñanza con velocidad"
     },
     "idealProfile": {
@@ -3377,7 +3377,7 @@
     ],
     "description": {
       "en": "Teaching With Speed turns an ordinary teaching task into something suspiciously efficient. The trick is a mix of speed and clear communication and sustained energy, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Teaching avec vitesse transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange vitesse et une communication claire et une énergie qui tient dans la durée, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Enseignement avec vitesse transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange vitesse et une communication claire et une énergie qui tient dans la durée, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Enseñanza con velocidad convierte una tarea normal de enseñanza en algo sospechosamente eficiente. El truco mezcla velocidad con comunicación clara y energía que aguanta, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3385,7 +3385,7 @@
     "id": "ability_teaching_patience",
     "name": {
       "en": "Teaching With Patience",
-      "fr": "Teaching avec patience",
+      "fr": "Enseignement avec patience",
       "es": "Enseñanza con paciencia"
     },
     "idealProfile": {
@@ -3402,7 +3402,7 @@
     ],
     "description": {
       "en": "Teaching With Patience turns an ordinary teaching task into something suspiciously efficient. The trick is a mix of patience and calm under pressure and clear communication, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Teaching avec patience transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange patience et du calme sous pression et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Enseignement avec patience transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange patience et du calme sous pression et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Enseñanza con paciencia convierte una tarea normal de enseñanza en algo sospechosamente eficiente. El truco mezcla paciencia con calma bajo presión y comunicación clara, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3410,7 +3410,7 @@
     "id": "ability_teaching_improvisation",
     "name": {
       "en": "Teaching With Improvisation",
-      "fr": "Teaching avec improvisation",
+      "fr": "Enseignement avec improvisation",
       "es": "Enseñanza con improvisación"
     },
     "idealProfile": {
@@ -3428,7 +3428,7 @@
     ],
     "description": {
       "en": "Teaching With Improvisation turns an ordinary teaching task into something suspiciously efficient. The trick is a mix of improvisation and creative problem solving and clear communication, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Teaching avec improvisation transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie créativité pratique et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Enseignement avec improvisation transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange improvisation et une vraie créativité pratique et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Enseñanza con improvisación convierte una tarea normal de enseñanza en algo sospechosamente eficiente. El truco mezcla improvisación con una creatividad práctica y comunicación clara, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3436,7 +3436,7 @@
     "id": "ability_teaching_clarity",
     "name": {
       "en": "Teaching With Clarity",
-      "fr": "Teaching avec clarté",
+      "fr": "Enseignement avec clarté",
       "es": "Enseñanza con claridad"
     },
     "idealProfile": {
@@ -3452,7 +3452,7 @@
     ],
     "description": {
       "en": "Teaching With Clarity turns an ordinary teaching task into something suspiciously efficient. The trick is a mix of clarity and clear communication and a strong read on people, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Teaching avec clarté transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et une bonne lecture des autres, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Enseignement avec clarté transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange clarté et une communication claire et une bonne lecture des autres, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Enseñanza con claridad convierte una tarea normal de enseñanza en algo sospechosamente eficiente. El truco mezcla claridad con comunicación clara y una buena lectura de los demás, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3460,7 +3460,7 @@
     "id": "ability_teaching_endurance",
     "name": {
       "en": "Teaching With Endurance",
-      "fr": "Teaching avec endurance",
+      "fr": "Enseignement avec endurance",
       "es": "Enseñanza con resistencia"
     },
     "idealProfile": {
@@ -3478,7 +3478,7 @@
     ],
     "description": {
       "en": "Teaching With Endurance turns an ordinary teaching task into something suspiciously efficient. The trick is a mix of endurance and clear communication and sustained energy, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Teaching avec endurance transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange endurance et une communication claire et une énergie qui tient dans la durée, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Enseignement avec endurance transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange endurance et une communication claire et une énergie qui tient dans la durée, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Enseñanza con resistencia convierte una tarea normal de enseñanza en algo sospechosamente eficiente. El truco mezcla resistencia con comunicación clara y energía que aguanta, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3486,7 +3486,7 @@
     "id": "ability_teaching_timing",
     "name": {
       "en": "Teaching With Timing",
-      "fr": "Teaching avec timing",
+      "fr": "Enseignement avec timing",
       "es": "Enseñanza con timing"
     },
     "idealProfile": {
@@ -3504,7 +3504,7 @@
     ],
     "description": {
       "en": "Teaching With Timing turns an ordinary teaching task into something suspiciously efficient. The trick is a mix of timing and clear communication and a strong read on people, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Teaching avec timing transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange timing et une communication claire et une bonne lecture des autres, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Enseignement avec timing transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange timing et une communication claire et une bonne lecture des autres, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Enseñanza con timing convierte una tarea normal de enseñanza en algo sospechosamente eficiente. El truco mezcla timing con comunicación clara y una buena lectura de los demás, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3512,7 +3512,7 @@
     "id": "ability_teaching_intuition",
     "name": {
       "en": "Teaching With Intuition",
-      "fr": "Teaching avec intuition",
+      "fr": "Enseignement avec intuition",
       "es": "Enseñanza con intuición"
     },
     "idealProfile": {
@@ -3528,7 +3528,7 @@
     ],
     "description": {
       "en": "Teaching With Intuition turns an ordinary teaching task into something suspiciously efficient. The trick is a mix of intuition and clear communication and a strong read on people, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Teaching avec intuition transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange intuition et une communication claire et une bonne lecture des autres, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Enseignement avec intuition transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange intuition et une communication claire et une bonne lecture des autres, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Enseñanza con intuición convierte una tarea normal de enseñanza en algo sospechosamente eficiente. El truco mezcla intuición con comunicación clara y una buena lectura de los demás, haciendo que el resultado sea repetible y no simple suerte."
     }
   },
@@ -3536,7 +3536,7 @@
     "id": "ability_teaching_discipline",
     "name": {
       "en": "Teaching With Discipline",
-      "fr": "Teaching avec discipline",
+      "fr": "Enseignement avec discipline",
       "es": "Enseñanza con disciplina"
     },
     "idealProfile": {
@@ -3554,7 +3554,7 @@
     ],
     "description": {
       "en": "Teaching With Discipline turns an ordinary teaching task into something suspiciously efficient. The trick is a mix of discipline and consistent follow-through and clear communication, so the result feels repeatable rather than accidentally lucky.",
-      "fr": "Teaching avec discipline transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
+      "fr": "Enseignement avec discipline transforme une tâche ordinaire de enseignement en quelque chose d'étrangement efficace. Le secret mélange discipline et une vraie constance et une communication claire, ce qui rend le résultat reproductible plutôt que simplement chanceux.",
       "es": "Enseñanza con disciplina convierte una tarea normal de enseñanza en algo sospechosamente eficiente. El truco mezcla disciplina con una constancia real y comunicación clara, haciendo que el resultado sea repetible y no simple suerte."
     }
   }
