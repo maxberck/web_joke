@@ -1,26 +1,45 @@
 {
   "careers": [
-    { "id": "career_meme_architect", "name": { "en": "Meme Architect", "fr": "Architecte de Mèmes", "es": "Arquitecto de Memes" }, "idealProfile": { "creativity": 88, "humor": 90, "communication": 62, "chaos": 58, "discipline": 25 }, "worthPotential": { "min": -5000, "max": 25000 }, "tags": ["humorous_plausible"] }
+    { "id": "career_meme_architect", "name": { "en": "Meme Architect", "fr": "Architecte de Mèmes", "es": "Arquitecto de Memes" }, "idealProfile": { "creativity": 88, "humor": 90, "communication": 62, "chaos": 58, "discipline": 25 }, "worthPotential": { "min": -5000, "max": 25000 }, "tags": ["humorous_plausible"] },
+    { "id": "career_emergency_spreadsheet", "name": { "en": "Emergency Spreadsheet Specialist", "fr": "Spécialiste du Tableur d'Urgence", "es": "Especialista en Hojas de Cálculo de Emergencia" }, "idealProfile": { "intelligence": 78, "discipline": 72, "creativity": 64, "professionalism": 70, "chaos": 48 }, "worthPotential": { "min": 28000, "max": 92000 }, "tags": ["office_survivor"] },
+    { "id": "career_meeting_escape_consultant", "name": { "en": "Meeting Escape Consultant", "fr": "Consultant en Évasion de Réunion", "es": "Consultor de Escape de Reuniones" }, "idealProfile": { "communication": 82, "social": 76, "creativity": 74, "humor": 70, "professionalism": 45 }, "worthPotential": { "min": 18000, "max": 68000 }, "tags": ["corporate_chaos"] },
+    { "id": "career_queue_logistics", "name": { "en": "Queue Logistics Strategist", "fr": "Stratège en Logistique de File d'Attente", "es": "Estratega de Logística de Colas" }, "idealProfile": { "intelligence": 70, "discipline": 66, "risk": 35, "luck": 62, "emotionalControl": 78 }, "worthPotential": { "min": 22000, "max": 74000 }, "tags": ["hyper_specific"] }
   ],
   "classes": [
-    { "id": "class_confident_wrong", "name": { "en": "Confidently Wrong", "fr": "Faux avec une Confiance Absolue", "es": "Equivocado con Confianza Absoluta" }, "idealProfile": { "intelligence": 48, "chaos": 72, "communication": 70, "humor": 82, "risk": 50 } }
+    { "id": "class_confident_wrong", "name": { "en": "Confidently Wrong", "fr": "Faux avec une Confiance Absolue", "es": "Equivocado con Confianza Absoluta" }, "idealProfile": { "intelligence": 48, "chaos": 72, "communication": 70, "humor": 82, "risk": 50 } },
+    { "id": "class_backup_backup_plan", "name": { "en": "Has a Backup Plan for the Backup Plan", "fr": "A un Plan B pour son Plan B", "es": "Tiene un Plan B para su Plan B" }, "idealProfile": { "discipline": 88, "intelligence": 78, "risk": 25, "professionalism": 74, "emotionalControl": 76 } },
+    { "id": "class_accidental_solution", "name": { "en": "Solved It by Accident and Refuses to Explain", "fr": "A Résolu le Problème par Accident et Refuse d'Expliquer", "es": "Lo Resolvió por Accidente y se Niega a Explicarlo" }, "idealProfile": { "creativity": 88, "luck": 82, "chaos": 72, "intelligence": 68, "humor": 74 } },
+    { "id": "class_unsupervised_plan", "name": { "en": "Should Not Be Left Unsupervised With a Plan", "fr": "Ne Devrait Pas Être Laissé Seul avec un Plan", "es": "No Debería Quedarse Solo con un Plan" }, "idealProfile": { "chaos": 90, "risk": 78, "creativity": 82, "energy": 72, "discipline": 24 } }
   ],
   "animals": [
-    { "id": "animal_duck", "name": { "en": "Suspicious Duck", "fr": "Canard Suspect", "es": "Pato Sospechoso" }, "idealProfile": { "chaos": 70, "social": 62, "humor": 78, "emotionalControl": 42, "luck": 55 } }
+    { "id": "animal_duck", "name": { "en": "Suspicious Duck", "fr": "Canard Suspect", "es": "Pato Sospechoso" }, "idealProfile": { "chaos": 70, "social": 62, "humor": 78, "emotionalControl": 42, "luck": 55 } },
+    { "id": "animal_office_raccoon", "name": { "en": "Office Raccoon", "fr": "Raton Laveur de Bureau", "es": "Mapache de Oficina" }, "idealProfile": { "creativity": 76, "chaos": 82, "energy": 62, "financialSense": 48, "humor": 80 } },
+    { "id": "animal_pigeon_manager", "name": { "en": "Middle-Management Pigeon", "fr": "Pigeon Cadre Intermédiaire", "es": "Paloma de Mando Intermedio" }, "idealProfile": { "social": 72, "professionalism": 58, "communication": 68, "ambition": 64, "chaos": 55 } },
+    { "id": "animal_capable_capibara", "name": { "en": "Suspiciously Capable Capybara", "fr": "Capybara Étrangement Compétent", "es": "Capibara Sospechosamente Competente" }, "idealProfile": { "emotionalControl": 90, "empathy": 78, "social": 70, "discipline": 65, "humor": 58 } }
   ],
   "powers": [
-    { "id": "power_telepathic_group_chat", "name": { "en": "Telepathically Know When Someone Is Typing", "fr": "Savoir Télépathiquement Quand Quelqu'un Écrit", "es": "Saber Telepáticamente Cuándo Alguien Está Escribiendo" }, "idealProfile": { "empathy": 82, "social": 72, "humor": 76, "emotionalControl": 45 } }
+    { "id": "power_group_chat_timing", "name": { "en": "Checks the Group Chat Exactly When Trouble Starts", "fr": "Regarde le Groupe Exactement Quand les Problèmes Commencent", "es": "Mira el Chat Justo Cuando Empiezan los Problemas" }, "idealProfile": { "empathy": 78, "social": 72, "luck": 76, "humor": 70, "emotionalControl": 48 } },
+    { "id": "power_email_meeting_detector", "name": { "en": "Can Detect a Meeting That Should Have Been an Email", "fr": "Détecte une Réunion qui Aurait Dû Être un E-mail", "es": "Detecta una Reunión que Debería Haber Sido un Correo" }, "idealProfile": { "intelligence": 80, "professionalism": 68, "communication": 72, "humor": 72, "discipline": 60 } },
+    { "id": "power_correct_checkout_line", "name": { "en": "Chooses the Fast Checkout Line on the First Try", "fr": "Choisit la Bonne Caisse du Premier Coup", "es": "Elige la Caja Rápida al Primer Intento" }, "idealProfile": { "luck": 92, "intelligence": 64, "emotionalControl": 70, "risk": 42 } },
+    { "id": "power_wifi_fix", "name": { "en": "Fixes the Wi-Fi by Standing Near the Router", "fr": "Répare le Wi-Fi en se Tenant Près du Routeur", "es": "Arregla el Wi-Fi Solo con Acercarse al Router" }, "idealProfile": { "luck": 86, "humor": 74, "intelligence": 58, "emotionalControl": 62 } }
   ],
   "weaknesses": [
-    { "id": "weakness_open_fridge_again", "name": { "en": "Opens the Fridge Again Without Knowing Why", "fr": "Rouvre le Frigo Sans Savoir Pourquoi", "es": "Abre la Nevera Otra Vez Sin Saber Por Qué" }, "lowProfile": { "discipline": 22, "energy": 35, "chaos": 78, "humor": 72 } }
+    { "id": "weakness_open_fridge_again", "name": { "en": "Opens the Fridge Again Without Knowing Why", "fr": "Rouvre le Frigo Sans Savoir Pourquoi", "es": "Abre la Nevera Otra Vez Sin Saber Por Qué" }, "lowProfile": { "discipline": 22, "energy": 35, "chaos": 78, "humor": 72 } },
+    { "id": "weakness_voice_note", "name": { "en": "A Seven-Minute Voice Note With No Summary", "fr": "Un Vocal de Sept Minutes Sans Résumé", "es": "Un Audio de Siete Minutos Sin Resumen" }, "lowProfile": { "emotionalControl": 24, "communication": 35, "discipline": 42, "social": 48 } },
+    { "id": "weakness_calendar_invite", "name": { "en": "A Calendar Invite With No Description", "fr": "Une Invitation Calendrier Sans Description", "es": "Una Invitación de Calendario Sin Descripción" }, "lowProfile": { "emotionalControl": 28, "professionalism": 42, "communication": 32, "risk": 38 } },
+    { "id": "weakness_low_battery", "name": { "en": "Battery at 12% and No Charger in Sight", "fr": "12 % de Batterie et Aucun Chargeur en Vue", "es": "12 % de Batería y Ningún Cargador a la Vista" }, "lowProfile": { "emotionalControl": 25, "discipline": 35, "energy": 38, "financialSense": 48 } }
   ],
   "abilities": [
-    { "id": "ability_find_the_charger", "name": { "en": "Can Find the Charger Everyone Else Missed", "fr": "Retrouve le Chargeur que Tout le Monde Avait Raté", "es": "Encuentra el Cargador que Todos Pasaron por Alto" }, "idealProfile": { "luck": 82, "intelligence": 55, "creativity": 62, "discipline": 38, "humor": 65 } }
+    { "id": "ability_find_the_charger", "name": { "en": "Can Find the Charger Everyone Else Missed", "fr": "Retrouve le Chargeur que Tout le Monde Avait Raté", "es": "Encuentra el Cargador que Todos Pasaron por Alto" }, "idealProfile": { "luck": 82, "intelligence": 55, "creativity": 62, "discipline": 38, "humor": 65 } },
+    { "id": "ability_split_bill", "name": { "en": "Can Split a Restaurant Bill Without Starting a Civil War", "fr": "Partage l'Addition Sans Déclencher de Guerre Civile", "es": "Divide la Cuenta Sin Empezar una Guerra Civil" }, "idealProfile": { "financialSense": 86, "communication": 82, "empathy": 74, "emotionalControl": 72, "social": 68 } },
+    { "id": "ability_find_file", "name": { "en": "Finds the File Named final_FINAL_v7", "fr": "Retrouve le Fichier final_FINAL_v7", "es": "Encuentra el Archivo final_FINAL_v7" }, "idealProfile": { "discipline": 74, "intelligence": 72, "professionalism": 66, "emotionalControl": 70, "creativity": 52 } },
+    { "id": "ability_leave_party", "name": { "en": "Can Leave a Party Without a 40-Minute Goodbye", "fr": "Quitte une Soirée Sans un Au Revoir de 40 Minutes", "es": "Se Va de una Fiesta Sin una Despedida de 40 Minutos" }, "idealProfile": { "communication": 76, "social": 72, "discipline": 68, "emotionalControl": 78, "risk": 55 } }
   ],
   "workStyles": [
-    { "id": "workstyle_tabs_everywhere", "name": { "en": "47 Tabs and a Dream", "fr": "47 Onglets et un Rêve", "es": "47 Pestañas y un Sueño" }, "idealProfile": { "chaos": 82, "creativity": 72, "energy": 62, "discipline": 28, "humor": 75 } }
+    { "id": "workstyle_tabs_everywhere", "name": { "en": "47 Tabs and a Dream", "fr": "47 Onglets et un Rêve", "es": "47 Pestañas y un Sueño" }, "idealProfile": { "chaos": 82, "creativity": 72, "energy": 62, "discipline": 28, "humor": 75 } },
+    { "id": "workstyle_calendar_tetris", "name": { "en": "Calendar Tetris Until Something Fits", "fr": "Tetris de Calendrier Jusqu'à ce que Ça Rentre", "es": "Tetris de Calendario Hasta que Algo Encaje" }, "idealProfile": { "discipline": 78, "professionalism": 72, "communication": 65, "creativity": 62, "energy": 68 } },
+    { "id": "workstyle_last_minute_clean", "name": { "en": "Starts at 23:48, Delivers at 23:57", "fr": "Commence à 23 h 48, Livre à 23 h 57", "es": "Empieza a las 23:48, Entrega a las 23:57" }, "idealProfile": { "discipline": 30, "chaos": 78, "energy": 84, "emotionalControl": 70, "creativity": 74 } },
+    { "id": "workstyle_one_clean_notebook", "name": { "en": "One Perfect Notebook, Six Unread Notifications", "fr": "Un Carnet Parfait, Six Notifications Ignorées", "es": "Un Cuaderno Perfecto, Seis Notificaciones Ignoradas" }, "idealProfile": { "discipline": 70, "creativity": 68, "communication": 42, "professionalism": 72, "chaos": 48 } }
   ],
-  "alignments": [
-    { "id": "alignment_chaotic_helpful", "name": { "en": "Chaotic Helpful", "fr": "Chaotically Helpful", "es": "Caóticamente Servicial" }, "lawfulChaotic": [72, 28], "selflessSelfInterested": [72, 28] }
-  ]
+  "alignments": []
 }
