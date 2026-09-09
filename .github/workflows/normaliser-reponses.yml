@@ -1,0 +1,54 @@
+name: Normaliser les réponses
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  normalize:
+    if: ${{ !contains(github.event.head_commit.message, '[skip-normalisation]') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Passer chaque question à 10 réponses
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs');
+          const path = 'src/data/questions.expansion.json';
+          const questions = JSON.parse(fs.readFileSync(path, 'utf8'));
+          const additions = [
+            { fr:'Prends une seconde pour réfléchir avant de faire pire.', en:'Take one second to think before making it worse.', es:'Te tomas un segundo para pensar antes de empeorarlo.', effects:{emotionalControl:5,intelligence:3,discipline:2} },
+            { fr:'Transformes le problème en blague avant qu’il ne te transforme.', en:'Turn the problem into a joke before it turns into you.', es:'Conviertes el problema en una broma antes de que te convierta a ti.', effects:{humor:6,creativity:4,emotionalControl:2} },
+            { fr:'Demandes conseil à la personne la plus proche, même si elle n’a rien demandé.', en:'Ask the nearest person for advice, even though they never asked.', es:'Pides consejo a la persona más cercana, aunque nunca lo pidió.', effects:{social:5,communication:4,empathy:3} },
+            { fr:'Improvises une solution et assumes les conséquences.', en:'Improvise a solution and accept the consequences.', es:'Improvisas una solución y aceptas las consecuencias.', effects:{creativity:5,risk:5,ambition:3} },
+            { fr:'Fais comme si tout était prévu depuis le début.', en:'Act like everything was planned from the beginning.', es:'Actúas como si todo estuviera planeado desde el principio.', effects:{professionalism:4,humor:5,emotionalControl:2} },
+            { fr:'Gardes cette histoire en réserve pour la raconter plus tard.', en:'Save this story for later because someone needs to hear it.', es:'Guardas esta historia para contársela a alguien más tarde.', effects:{humor:4,social:4,communication:3} }
+          ];
+          for (const q of questions) {
+            if (q.answers.length > 10) throw new Error(`${q.id}: plus de 10 réponses`);
+            for (let i = q.answers.length; i < 10; i++) {
+              const a = additions[i - 4];
+              q.answers.push({
+                id: `a_${q.id}_extra_${String(i + 1).padStart(2, '0')}`,
+                text: { fr: a.fr, en: a.en, es: a.es },
+                effects: a.effects,
+                selectionWeight: 1
+              });
+            }
+            if (q.answers.length !== 10) throw new Error(`${q.id}: ${q.answers.length} réponses`);
+          }
+          fs.writeFileSync(path, JSON.stringify(questions, null, 2) + '\n');
+          NODE
+      - name: Committer la normalisation
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add src/data/questions.expansion.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'feat: passer les réponses d’expansion à dix [skip-normalisation]'
+          git push
