@@ -13,45 +13,36 @@ import synergyRulesRaw from "./synergyRules.json" with { type: "json" };
 import matchBaselinesRaw from "./matchBaselines.json" with { type: "json" };
 import rarityDistributionRaw from "./rarityDistribution.json" with { type: "json" };
 
-export interface RarityBucket {
-  minScore: number;
-  oneInX: number;
-}
+export interface RarityBucket { minScore: number; oneInX: number; }
 
 const questions = [...questionsRaw, ...questionsExpansionRaw];
 
 export const contentPack: ContentPack = {
-  questions: questions as ContentPack["questions"],
-  careers: careersRaw as ContentPack["careers"],
-  animals: animalsRaw as ContentPack["animals"],
-  classes: classesRaw as ContentPack["classes"],
-  powers: powersRaw as ContentPack["powers"],
-  weaknesses: weaknessesRaw as ContentPack["weaknesses"],
-  abilities: abilitiesRaw as ContentPack["abilities"],
-  workStyles: workStylesRaw as ContentPack["workStyles"],
-  alignments: alignmentsRaw as ContentPack["alignments"],
-  synergyRules: synergyRulesRaw as ContentPack["synergyRules"],
+  questions: questions as unknown as ContentPack["questions"],
+  careers: careersRaw as unknown as ContentPack["careers"],
+  animals: animalsRaw as unknown as ContentPack["animals"],
+  classes: classesRaw as unknown as ContentPack["classes"],
+  powers: powersRaw as unknown as ContentPack["powers"],
+  weaknesses: weaknessesRaw as unknown as ContentPack["weaknesses"],
+  abilities: abilitiesRaw as unknown as ContentPack["abilities"],
+  workStyles: workStylesRaw as unknown as ContentPack["workStyles"],
+  alignments: alignmentsRaw as unknown as ContentPack["alignments"],
+  synergyRules: synergyRulesRaw as unknown as ContentPack["synergyRules"],
 };
 
-export const matchBaselines: MatchBaselines = matchBaselinesRaw as MatchBaselines;
-export const rarityDistribution: RarityBucket[] = rarityDistributionRaw as RarityBucket[];
+export const matchBaselines: MatchBaselines = matchBaselinesRaw as unknown as MatchBaselines;
+export const rarityDistribution: RarityBucket[] = rarityDistributionRaw as unknown as RarityBucket[];
 
 function assertKnownStatKey(key: string, context: string): asserts key is StatKey {
-  if (!STAT_KEYS.includes(key as StatKey)) {
-    throw new Error(`${context}: statistique inconnue « ${key} »`);
-  }
+  if (!STAT_KEYS.includes(key as StatKey)) throw new Error(`${context}: statistique inconnue « ${key} »`);
 }
 
 function assertFiniteRange(value: number, context: string): void {
-  if (!Number.isFinite(value) || value < 0 || value > 100) {
-    throw new Error(`${context}: valeur attendue dans 0..100`);
-  }
+  if (!Number.isFinite(value) || value < 0 || value > 100) throw new Error(`${context}: valeur attendue dans 0..100`);
 }
 
 function assertFiniteAxis(value: number, context: string): void {
-  if (!Number.isFinite(value) || value < -100 || value > 100) {
-    throw new Error(`${context}: valeur attendue dans -100..100`);
-  }
+  if (!Number.isFinite(value) || value < -100 || value > 100) throw new Error(`${context}: valeur attendue dans -100..100`);
 }
 
 function validateProfile(profile: Partial<Record<string, number>>, context: string): void {
@@ -106,12 +97,8 @@ export function assertContentPackIsValid(pack: ContentPack): void {
 
   if (pack.alignments.length === 0) throw new Error("ContentPack: aucune alignment");
   for (const alignment of pack.alignments) {
-    if (alignment.lawfulChaotic.length !== 2 || alignment.selflessSelfInterested.length !== 2) {
-      throw new Error(`Alignment ${alignment.id}: axes invalides`);
-    }
-    for (const value of [...alignment.lawfulChaotic, ...alignment.selflessSelfInterested]) {
-      assertFiniteAxis(value, `Alignment ${alignment.id}`);
-    }
+    if (alignment.lawfulChaotic.length !== 2 || alignment.selflessSelfInterested.length !== 2) throw new Error(`Alignment ${alignment.id}: axes invalides`);
+    for (const value of [...alignment.lawfulChaotic, ...alignment.selflessSelfInterested]) assertFiniteAxis(value, `Alignment ${alignment.id}`);
   }
 
   for (const rule of pack.synergyRules) {
@@ -124,11 +111,9 @@ export function assertContentPackIsValid(pack: ContentPack): void {
 }
 
 export function assertMatchBaselinesAreValid(baselines: MatchBaselines): void {
-  for (const [group, entries] of Object.entries(baselines)) {
+  for (const [group, entries] of Object.entries(baselines) as Array<[keyof MatchBaselines, MatchBaselines[keyof MatchBaselines]]>) {
     for (const [id, baseline] of Object.entries(entries)) {
-      if (!Number.isFinite(baseline.mean) || !Number.isFinite(baseline.std) || baseline.std <= 0) {
-        throw new Error(`Baseline ${group}.${id}: mean/std invalides`);
-      }
+      if (!Number.isFinite(baseline.mean) || !Number.isFinite(baseline.std) || baseline.std <= 0) throw new Error(`Baseline ${group}.${id}: mean/std invalides`);
     }
   }
 }
@@ -138,12 +123,8 @@ export function assertRarityDistributionIsValid(table: RarityBucket[]): void {
   let previousScore = -Infinity;
   let previousOneInX = 0;
   for (const [index, bucket] of table.entries()) {
-    if (!Number.isFinite(bucket.minScore) || !Number.isFinite(bucket.oneInX) || bucket.oneInX < 1) {
-      throw new Error(`Rarity[${index}]: valeur invalide`);
-    }
-    if (bucket.minScore < previousScore || bucket.oneInX < previousOneInX) {
-      throw new Error(`Rarity[${index}]: table non monotone`);
-    }
+    if (!Number.isFinite(bucket.minScore) || !Number.isFinite(bucket.oneInX) || bucket.oneInX < 1) throw new Error(`Rarity[${index}]: valeur invalide`);
+    if (bucket.minScore < previousScore || bucket.oneInX < previousOneInX) throw new Error(`Rarity[${index}]: table non monotone`);
     previousScore = bucket.minScore;
     previousOneInX = bucket.oneInX;
   }
