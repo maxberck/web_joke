@@ -15,7 +15,7 @@
     "content:seed": "node content-pipeline/scripts/seed.mjs",
     "content:export": "node content-pipeline/scripts/export.mjs",
     "content:validate-migration": "node content-pipeline/scripts/validateCanonicalMigration.mjs",
-    "content:validate": "node content-pipeline/scripts/validateCanonicalMigration.mjs && node content-pipeline/scripts/validateContent.mjs",
+    "content:validate": "node content-pipeline/scripts/validateCanonicalMigration.mjs && node content-pipeline/scripts/validateContentV2.mjs",
     "rarity:validate": "node content-pipeline/scripts/validateHybridRarity.mjs",
     "sim:run": "npm run run -w simulation",
     "sim:build-rarity": "npm run build-rarity -w simulation",
