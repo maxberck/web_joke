@@ -1,5 +1,6 @@
 import { STAT_KEYS, type ContentPack, type MatchBaselines, type StatKey } from "@final-form/shared-types";
 import questionsRaw from "./questions.json" with { type: "json" };
+import questionsExpansionRaw from "./questions.expansion.json" with { type: "json" };
 import careersRaw from "./careers.json" with { type: "json" };
 import animalsRaw from "./animals.json" with { type: "json" };
 import classesRaw from "./classes.json" with { type: "json" };
@@ -17,8 +18,10 @@ export interface RarityBucket {
   oneInX: number;
 }
 
+const questions = [...questionsRaw, ...questionsExpansionRaw];
+
 export const contentPack: ContentPack = {
-  questions: questionsRaw as ContentPack["questions"],
+  questions: questions as ContentPack["questions"],
   careers: careersRaw as ContentPack["careers"],
   animals: animalsRaw as ContentPack["animals"],
   classes: classesRaw as ContentPack["classes"],
@@ -42,6 +45,12 @@ function assertKnownStatKey(key: string, context: string): asserts key is StatKe
 function assertFiniteRange(value: number, context: string): void {
   if (!Number.isFinite(value) || value < 0 || value > 100) {
     throw new Error(`${context}: valeur attendue dans 0..100`);
+  }
+}
+
+function assertFiniteAxis(value: number, context: string): void {
+  if (!Number.isFinite(value) || value < -100 || value > 100) {
+    throw new Error(`${context}: valeur attendue dans -100..100`);
   }
 }
 
@@ -101,7 +110,7 @@ export function assertContentPackIsValid(pack: ContentPack): void {
       throw new Error(`Alignment ${alignment.id}: axes invalides`);
     }
     for (const value of [...alignment.lawfulChaotic, ...alignment.selflessSelfInterested]) {
-      assertFiniteRange(value, `Alignment ${alignment.id}`);
+      assertFiniteAxis(value, `Alignment ${alignment.id}`);
     }
   }
 
