@@ -43,7 +43,7 @@ function assertFiniteAxis(value: number, context: string): void {
 function validateProfile(profile: Partial<Record<string, number>>, context: string): void {
   for (const [key, value] of Object.entries(profile)) {
     assertKnownStatKey(key, context);
-    if (value === undefined) continue;
+    if (typeof value !== "number") continue;
     assertFiniteRange(value, `${context}.${key}`);
   }
 }
@@ -74,7 +74,7 @@ export function assertContentPackIsValid(pack: ContentPack): void {
     for (const answer of question.answers) {
       for (const [key, value] of Object.entries(answer.effects)) {
         assertKnownStatKey(key, `Réponse ${answer.id}`);
-        if (!Number.isFinite(value)) throw new Error(`Réponse ${answer.id}: effet ${key} non fini`);
+        if (typeof value !== "number" || !Number.isFinite(value)) throw new Error(`Réponse ${answer.id}: effet ${key} non fini`);
       }
     }
   }
